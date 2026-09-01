@@ -1,0 +1,83 @@
+{
+  "per_seed": [
+    {
+      "seed": 700000,
+      "win": 1,
+      "confidence_at_detection": 1.0
+    },
+    {
+      "seed": 700001,
+      "win": 1,
+      "confidence_at_detection": 1.0
+    },
+    {
+      "seed": 700002,
+      "win": 0,
+      "confidence_at_detection": 1.0
+    },
+    {
+      "seed": 700003,
+      "win": 1,
+      "confidence_at_detection": 1.0
+    },
+    {
+      "seed": 701000,
+      "win": 1,
+      "confidence_at_detection": 1.0
+    },
+    {
+      "seed": 701001,
+      "win": 0,
+      "confidence_at_detection": 1.0
+    },
+    {
+      "seed": 701002,
+      "win": 0,
+      "confidence_at_detection": 1.0
+    },
+    {
+      "seed": 701003,
+      "win": 0,
+      "confidence_at_detection": 1.0
+    },
+    {
+      "seed": 701004,
+      "win": 1,
+      "confidence_at_detection": 1.0
+    },
+    {
+      "seed": 702000,
+      "win": 1,
+      "confidence_at_detection": 1.0
+    },
+    {
+      "seed": 702001,
+      "win": 0,
+      "confidence_at_detection": 1.0
+    },
+    {
+      "seed": 702002,
+      "win": 1,
+      "confidence_at_detection": 1.0
+    },
+    {
+      "seed": 702003,
+      "win": 1,
+      "confidence_at_detection": 1.0
+    },
+    {
+      "seed": 702004,
+      "win": 1,
+      "confidence_at_detection": 1.0
+    },
+    {
+      "seed": 702005,
+      "win": 1,
+      "confidence_at_detection": 1.0
+    }
+  ],
+  "mean_confidence_wins": 1.0,
+  "mean_confidence_losses": 1.0,
+  "finding": "Detection confidence at the activation turn (turn 24) is 1.0 in essentially every episode regardless of eventual win/loss outcome -- confidence at detection time does NOT discriminate between episodes Variant D goes on to win vs. lose. This is expected given the regime-stability finding above: the detector is never uncertain about WHETHER it is facing expansion_oriented: its residual losses are a downstream ECONOMIC-ALLOCATION problem (the STRAWBERRY price-crash mechanism), not a DETECTION-confidence problem.",
+  "confidence_label": "EXPERIMENTALLY_VALIDATED"
+}

@@ -1,0 +1,25 @@
+{
+  "n_episodes": 3,
+  "p0_name": "../agents/baseline_agent.py",
+  "p1_name": "starter",
+  "p0_win_rate": 0.0,
+  "p1_win_rate": 1.0,
+  "tie_rate": 0.0,
+  "p0_error_count": 0,
+  "p1_error_count": 0,
+  "p0_final_money": {
+    "mean": 2743.3333333333335,
+    "median": 2740.0,
+    "std": 4.714045207910317,
+    "min": 2740.0,
+    "max": 2750.0
+  },
+  "p1_final_money": {
+    "mean": 3466.3333333333335,
+    "median": 3484.0,
+    "std": 29.32954520994525,
+    "min": 3425.0,
+    "max": 3490.0
+  },
+  "mean_runtime_s": 1.29220183690389
+}

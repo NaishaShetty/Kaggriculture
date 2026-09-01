@@ -1,0 +1,152 @@
+{
+  "phase": "2.3",
+  "title": "Kaggriculture Integrated Economic Knowledge Base",
+  "generated_from": "results/phase2_3/dataset_*.csv (596 validated episode rows), results/phase2_3/analysis_summary.json",
+  "methodology_note": "Every finding below cites its supporting experiment group(s), episode counts, and confidence. Confidence levels: HIGH = validated on independent Stage D seeds with consistent effect direction/magnitude; MEDIUM = clear directional effect in Stage A/C but not independently re-validated; LOW = suggestive, small sample, or conflicting signal. Dollar figures are mean final money (starting stake $3000) unless noted.",
+  "findings": [
+    {
+      "id": "F1",
+      "topic": "labor",
+      "finding": "Hired hands raise final money with strongly diminishing, and eventually negative, marginal returns. For WHEAT (fast, cheap, land-saturating crop): $5899 (0h) -> $7303 (1h) -> $7797 (2h) -> $8427 (3h) -> $7385 (4h) -- the 4th hand REDUCES money versus the 3rd. For MELON (capital-intensive, high-value): $22341 (0h) -> $27398 (1h) -> $27875 (2h) -> $27648 (3h) -> $27619 (4h) -- returns plateau after 1-2 hands and the 3rd/4th are net-neutral to slightly negative.",
+      "mechanism": "Hiring cost is fib(n)*mult per hand PER DAY (hands reset daily, VERIFIED in kaggriculture.py::_end_of_day) -- the 4th daily hire alone costs 3, on top of 1+1+2 for the first three (7/day total for 4 hands). Once the ~24-25 owned tiles are fully worked, additional hands have nothing productive left to do and the recurring hire cost is pure loss.",
+      "evidence": "experiment groups a1_labor_sweep (n=60), c2_labor_x_crop (n=72), independently confirmed by d validation on labor_WHEAT_3h and labor_MELON_2h (n=20)",
+      "confidence": "HIGH",
+      "implication_for_2_5": "An economic model should treat 'hands needed to fully work currently-owned land' as the labor optimum, not 'more hands = more money' -- the optimum is a function of owned tile count and crop cycle speed, not a fixed number."
+    },
+    {
+      "id": "F2",
+      "topic": "labor_x_crop",
+      "finding": "The proportional value of an extra hand differs sharply by crop congestion profile. Going from 0 to 4 hands: STRAWBERRY (ongoing, watering-heavy) +81.7% ($9233->$16775, harvested units nearly tripled 390->1088); MELON (one-time, land-saturating at low hand count) +24.7% ($22149->$27619); WHEAT (fast one-time cycle) +36.7% ($6080->$8312).",
+      "mechanism": "STRAWBERRY requires daily re-watering across many simultaneously-alive tiles (Phase 2.2 section 5's congestion finding); extra hands relieve exactly this bottleneck, nearly tripling harvested units. MELON is one-time and less watering-intensive per unit time, so a single farmer already captures most of its value.",
+      "evidence": "experiment group c2_labor_x_crop (n=72, 3 crops x 3 labor levels x 8 seeds)",
+      "confidence": "MEDIUM",
+      "implication_for_2_5": "Labor allocation value is crop-dependent, not a flat multiplier -- congestion-sensitive ongoing crops (Tomato, Strawberry) should be weighted more heavily in any hands-allocation heuristic than one-time crops."
+    },
+    {
+      "id": "F3",
+      "topic": "land",
+      "finding": "REJECTED (unexpected direction): buying additional land quadrants immediately (day 0) REDUCES final money monotonically, at every labor level tested, for the highest-value crop (MELON). At 0 hands: $22118 (0q) -> $21341 (1q) -> $17502 (2q) -> $13502 (3q). At 3 hands: $27661 (0q) -> $24036 (1q) -> $22715 (2q) -> $18755 (3q). Land is a net-negative investment across the entire tested range, contrary to the a priori hypothesis that labor availability would make land pay off.",
+      "mechanism": "Land costs $1k/$2k/$4k cumulative (VERIFIED, kaggriculture.py::LAND_PRICES) and is bought here at day 0, immediately competing with the same $3000 starting capital that would otherwise buy seeds. A single high-value crop (MELON, $80/seed, first_yield_day=10, one-time) does not need more than the base 25-tile NW quadrant to saturate a 1-4 hand labor pool within a 30-day season -- the marginal tile is worth less than the seed capital its purchase displaces.",
+      "evidence": "experiment groups a2_land_sweep (n=48), c1_land_x_labor (n=72)",
+      "confidence": "MEDIUM (not independently re-validated on the full 4-quadrant range; the 0-quadrant/2-hand baseline component IS independently validated via c1's lxl_0q_2h cell, n=10)",
+      "implication_for_2_5": "Land expansion should not be modeled as unconditionally valuable given enough labor -- its value depends on whether the CURRENT crop portfolio's land-hunger exceeds the base quadrant's capacity within the remaining horizon, which for a single fast/high-value crop it typically does not."
+    },
+    {
+      "id": "F4",
+      "topic": "land_x_labor_interaction",
+      "finding": "REJECTED: land and labor are NOT economic complements in this setup -- the interaction term is NEGATIVE. Labor's effect (0->4 hands) is $5445 at 0 extra land but only $3104 at 2 extra quadrants (interaction term -$2341). More land measurably REDUCES the marginal value of an extra hand, not increases it.",
+      "mechanism": "With a single land-hungry-but-not-that-hungry crop (MELON), extra hands are already sufficient to fully work the base quadrant; spreading the same hands across more tiles dilutes attention (more travel distance) without adding proportionally more production, while the land purchase's fixed capital cost is unaffected by labor level.",
+      "evidence": "experiment group c1_land_x_labor (n=72, full 3x3 grid), interaction_effects.c1_land_x_labor_interaction in analysis_summary.json",
+      "confidence": "MEDIUM",
+      "implication_for_2_5": "Do not assume land and labor should be purchased together as a bundle; for a single-crop or few-crop portfolio the base quadrant plus a small hand count is likely closer to optimal than any land expansion."
+    },
+    {
+      "id": "F5",
+      "topic": "animals",
+      "finding": "Animal profitability ranks SHEEP and COW well above GOOSE, despite GOOSE producing the MOST units. Solo animal (no crops), n_hands=1, 30-day season: COW final money $10370 (profit $7370 on a $400 purchase, 216 milk units across 6 episodes); SHEEP $9075 (profit $6075 on $500, 204 wool units); GOOSE only $4388 (profit $1388 on $300, despite 324 egg units -- the MOST of the three).",
+      "mechanism": "EGG's base market price ($50) is far below MILK ($160) and WOOL ($200) (VERIFIED, kaggriculture.py::MARKET_PARAMS). GOOSE's higher unit count (daily production, interval=1 vs COW's interval=2 and SHEEP's interval=3) does not compensate for its much lower per-unit price, and heavy selling volume pushes GOOSE's realized price down further under the dynamic pricing model.",
+      "evidence": "experiment group a3_animal_lifecycle (n=36), independently validated for COW via Stage D (n=10, mean $9767, consistent direction though somewhat lower -- see limitations)",
+      "confidence": "HIGH for the COW/SHEEP > GOOSE ranking; MEDIUM for the exact dollar figures (Stage D's COW re-validation landed ~6% lower, within plausible seed variance)",
+      "implication_for_2_5": "'More production' is not synonymous with 'more profitable' for animals any more than for crops (echoes Phase 2.2's crop-side finding) -- GOOSE should not be treated as a default/starter animal choice on economics alone."
+    },
+    {
+      "id": "F6",
+      "topic": "animals_x_labor",
+      "finding": "A single animal (no crops) gets ZERO benefit from extra hands -- in fact a small NET NEGATIVE. COW: $10370 (1h) vs $10280 (3h). GOOSE: $4388 (1h) vs $4298 (3h). SHEEP: $9075 (1h) vs $8985 (3h). Every animal type is very slightly worse off with 3 hands than with 1.",
+      "mechanism": "One farmer is already fully sufficient to feed, care for, and harvest a single animal every day (a handful of actions/day against a 24-turn/day budget) -- extra hired hands add pure daily hire cost with no offsetting production, since there is no other work for them to do.",
+      "evidence": "experiment group a3_animal_lifecycle (n=36, all 3 species x 2 labor levels)",
+      "confidence": "MEDIUM",
+      "implication_for_2_5": "Labor allocation to animal care should scale with the NUMBER of animals/structures, not be a fixed hand count -- a single animal is a one-farmer job; the labor question only becomes interesting at multiple animals or animals-plus-crops (see F7)."
+    },
+    {
+      "id": "F7",
+      "topic": "animal_x_crop_interaction",
+      "finding": "Crops and a single animal are SUB-ADDITIVE (genuine resource competition) but still jointly NET-POSITIVE versus crop-only. Crop-only (MELON, 2h): $27901. Animal-only (GOOSE, 2h): $4443. Naive additive prediction for both together: $27901+$4443-$3000(double-counted starting stake)=$29344. Actual crop+animal: $28479 -- $865 BELOW the additive prediction (confirms sub-additivity/competition), but still $578 ABOVE crop-only alone (so adding one animal to an already-running crop farm is still worth doing, just not for its 'stand-alone' value).",
+      "mechanism": "The same 2 hands split attention between 24-25 crop tiles and 1 animal structure; some feed/care/harvest cycles for the animal get delayed by crop-task priority (see agents/phase2_3/common.py's local-tile-first + greedy priority scheduler), but a single animal's daily labor requirement is small enough that the 2-hand crop crew can still mostly absorb it.",
+      "evidence": "experiment group c3_animal_x_crop (n=32), independently validated via Stage D (n=10, mean $28487 -- within $8 of the original $28479, essentially exact reproduction)",
+      "confidence": "HIGH",
+      "implication_for_2_5": "A small number of animals bolted onto an already-staffed crop operation is close to free money (marginal labor cost near zero); the sub-additivity effect will presumably grow as animal count scales relative to crop labor -- untested this phase, flagged as open (see Uncertain Findings)."
+    },
+    {
+      "id": "F8",
+      "topic": "fertilizer",
+      "finding": "CONFIRMS and EXTENDS Phase 2.2: a naive fertilizer policy remains net-negative even with substantial extra labor available, for BOUGHT fertilizer. At n_hands=2 (MELON): no-fertilizer $27891 (best of the three a4 conditions) vs bought+applied $27498 (-$393) vs animal-collected+applied $27566 (-$325). At n_hands=0: no-fertilizer $22354 vs bought+applied $17771 (-$4583, a much larger relative loss, consistent with Phase 2.2's single-farmer finding).",
+      "mechanism": "Buying fertilizer costs $100/unit (VERIFIED market base price) plus market-fetch action overhead (buy -> shed -> pickup -> walk to plant -> apply); at 2 hands the loss shrinks dramatically versus 0 hands (from -$4583 to -$393) but does not flip positive -- extra labor reduces but does not eliminate the fetch-overhead cost.",
+      "evidence": "experiment group a4_fertilizer_retest (n=30), independently validated via Stage D fert_none_2h (n=10, mean $27891.1 -- exact reproduction of the Stage A mean)",
+      "confidence": "HIGH",
+      "implication_for_2_5": "Do not model bought fertilizer as profitable at any tested labor level; the Phase 2.2 conclusion ('naive fertilizer policy costs more than it earns') generalizes beyond the single-farmer case it was originally measured under."
+    },
+    {
+      "id": "F9",
+      "topic": "animal_fertilizer_interaction",
+      "finding": "REFINEMENT of F8: FREE, animal-collected fertilizer behaves differently from BOUGHT fertilizer. Turning fertilizer_use on (collect from a GOOSE + apply to MELON) changes money by +$453 at 1 hand and +$44 (essentially neutral) at 3 hands -- small but POSITIVE or neutral, unlike bought fertilizer's clear negative (F8).",
+      "mechanism": "Animal-collected fertilizer has zero purchase cost and a shorter fetch chain (COLLECT_FERTILIZER at the animal structure itself, versus buy->shed->pickup for bought fertilizer) -- the action-overhead cost that makes bought fertilizer unprofitable is smaller for the animal-collection path, and at 1 hand the small yield bonus is enough to tip slightly positive.",
+      "evidence": "experiment group c4_animal_x_fertilizer (n=32)",
+      "confidence": "MEDIUM",
+      "implication_for_2_5": "Fertilizer's profitability is SOURCE-dependent, not a single yes/no -- animal-collected fertilizer is a materially different (better) economic proposition than market-bought fertilizer and should be modeled separately."
+    },
+    {
+      "id": "F10",
+      "topic": "capital_x_horizon_land",
+      "finding": "PARTIALLY REJECTED for land: buying land LATER in the season (day 20 of 30) outperforms buying it EARLY (day 0), the opposite of the hypothesized 'late investment strands capital' pattern. Land bought day 0: $25088; day 10: $25105; day 20: $26164 (highest).",
+      "mechanism": "Land's large upfront cost ($1000 for the first quadrant) is a bigger drag when paid on day 0 (displacing early seed capital that would otherwise compound across ~15 planting cycles) than when paid on day 20 (only ~10 days of reduced land-use benefit is lost, but early capital was left free to compound for 20 days first).",
+      "evidence": "experiment group c5_capital_x_horizon, land sub-cells (n=24, corrected after a day-vs-turn unit bug -- see Rejected Hypotheses / Limitations)",
+      "confidence": "MEDIUM",
+      "implication_for_2_5": "Land purchase timing should NOT be modeled with the same 'earlier is always better' rule that applies to planting (Phase 2.2 section 8) -- it is a distinct, and for land specifically inverted, relationship."
+    },
+    {
+      "id": "F11",
+      "topic": "capital_x_horizon_animal",
+      "finding": "CONFIRMS the hypothesis for animals (contrast with F10): buying an animal LATER measurably reduces money, monotonically. GOOSE bought day 0: $28545; day 10: $28422; day 20: $27911 (lowest).",
+      "mechanism": "An animal's cost is much smaller than land's ($300 vs $1000+) and its production ramps immediately (first_yield_day=4 for GOOSE) and continues daily indefinitely, so losing early production days by delaying the purchase is a straightforward, monotonic loss with no offsetting 'capital freed up early' benefit large enough to matter.",
+      "evidence": "experiment group c5_capital_x_horizon, animal sub-cells (n=24), independently validated via Stage D cxh_animal_day0 (n=10, mean $28486.5 -- within $58 of the original $28545)",
+      "confidence": "HIGH",
+      "implication_for_2_5": "Capital-timing effects are asset-specific: animals reward early investment (as crops do, per Phase 2.2); land does not (F10). A single 'invest early' heuristic is wrong for at least one major asset class."
+    },
+    {
+      "id": "F12",
+      "topic": "inventory_shed_capacity",
+      "finding": "REJECTED at the scale tested: the 100-unit shed capacity was NOT observed to bind, even for the highest-throughput tested configuration (4 hands, +1 land quadrant, 2 crops, 2 animals). Overflow rate 0.0 for both the low-throughput and high-throughput conditions across 8 (Stage C) + re-validated episodes.",
+      "mechanism": "Under the passive 'sell everything in shed every turn' policy used throughout this campaign (and Phase 2.2), money leaves the shed via SELL fast enough that inventory rarely accumulates anywhere near 100 units even under heavy multi-resource production.",
+      "evidence": "experiment group c6_inventory_bottleneck (n=16), independently validated via Stage D inv_high (n=10, still 0 overflow observed, though PARTIAL-verdict episodes increased -- see Limitations)",
+      "confidence": "MEDIUM (a genuine negative result, not merely absence of testing -- but only ONE high-throughput configuration was tried; a strategy that deliberately withholds selling to time the market, which Phase 2.3 explicitly did not test per the brief's scope, would very plausibly hit this constraint)",
+      "implication_for_2_5": "Shed capacity is not a binding constraint under a passive always-sell policy at the throughput levels reachable within this campaign's budget -- it only becomes relevant once a withholding/market-timing selling policy is introduced, which is out of Phase 2.3's scope and should be revisited in Phase 2.5/2.6 if such a policy is considered."
+    },
+    {
+      "id": "F13",
+      "topic": "integrated_strategy_vs_baseline",
+      "finding": "An integrated multi-resource strategy (4 hands, +1 land quadrant, MELON+STRAWBERRY 50/50, GOOSE+COW) beats the frozen Wheat Patroller baseline decisively and by a much larger margin than any single-crop strategy Phase 2.2 tested: 10/10 wins, mean margin +$26,101 (vs Phase 2.2's best single-crop margin of +$17,077 for melon-only, section 9 of the Phase 2.2 report).",
+      "mechanism": "Combines this phase's individually-validated positive findings (moderate hand count, a profitable animal, a high-value crop) without the negative ones (no land-hungry over-expansion, no bought fertilizer) into one configuration.",
+      "evidence": "experiment group c6_inventory_bottleneck's inv_high cell, head-to-head vs agents/baseline_agent.py, Stage D (n=10)",
+      "confidence": "HIGH for this specific configuration; this is NOT a claim that it is the optimal configuration (no search over the full parameter space was performed -- see 'What Phase 2.3 Does Not Claim')",
+      "implication_for_2_5": "A credible existence proof that combining resources thoughtfully (not maximally) outperforms any single-resource-type strategy against a real competitive baseline -- directly motivates Phase 2.5's integration work."
+    }
+  ],
+  "dominated_decisions": [
+    "Buying land immediately (day 0) for a single land-light crop portfolio (F3) -- strictly reduces money at every tested labor level.",
+    "Buying MORE than 1-2 extra land quadrants for a MELON-only portfolio within a 30-day season (F3) -- money declines monotonically with quadrant count.",
+    "Hiring a 4th hand for a WHEAT-only or MELON-only single-crop operation (F1) -- money peaks at 2-3 hands and declines at 4.",
+    "Hiring 3 hands to tend a single animal with no crops (F6) -- strictly worse than 1 hand.",
+    "Buying and applying market fertilizer under any tested labor level (F8) -- net negative in every condition tested."
+  ],
+  "conditionally_attractive_decisions": [
+    "Adding 1-2 hands to an ongoing/congestion-sensitive crop (STRAWBERRY, TOMATO) -- large proportional gains (F2), more attractive than the same hands added to a fast one-time crop.",
+    "Adding a single animal to an already-staffed crop operation -- near-free marginal value despite sub-additivity (F7).",
+    "Using animal-collected (not bought) fertilizer at low labor levels -- small positive effect, contingent on having spare hand capacity and an animal already in place (F9).",
+    "Delaying land purchase toward the back half of the season rather than buying immediately -- contingent on the crop portfolio not being land-constrained early (F10)."
+  ],
+  "uncertain_findings": [
+    "Whether F7's animal-crop sub-additivity grows worse (more competition) as animal count scales beyond 1 -- untested this phase.",
+    "Whether F12's inventory-capacity non-finding holds under a market-timing/withholding selling policy instead of the passive always-sell policy used throughout -- explicitly out of scope this phase.",
+    "Whether F3/F4's land-negativity finding holds for a land-hungry crop MIX (e.g. several high-tile-day crops planted simultaneously) rather than a single crop -- only MELON-anchored land cells were tested.",
+    "Exact dollar magnitude of F5's animal rankings under independent re-validation -- COW's Stage D re-run landed ~6% below the original mean; direction (COW/SHEEP > GOOSE) is robust, exact figures carry more uncertainty.",
+    "Whether F1's labor-optimum (2-3 hands) generalizes to portfolios with MORE than one crop or crop+animal combinations, where there is more total work available to absorb additional hands."
+  ],
+  "rejected_hypotheses": [
+    {"hypothesis": "Land and labor are economic complements.", "outcome": "REJECTED -- interaction term is negative (F4).", "original_experiment": "c1_land_x_labor"},
+    {"hypothesis": "Extra land pays off once enough labor is available to work it.", "outcome": "REJECTED within the tested range -- land reduces money at every labor level tested for a MELON-anchored portfolio (F3).", "original_experiment": "a2_land_sweep, c1_land_x_labor"},
+    {"hypothesis": "Late-season investment always strands capital (extending Phase 2.2's crop-timing finding to land/animals).", "outcome": "CONFIRMED for animals (F11), REJECTED for land -- land is actually better bought LATE, not early, in the tested 0/10/20-day range (F10).", "original_experiment": "c5_capital_x_horizon"},
+    {"hypothesis": "More labor makes a naive fertilizer policy profitable.", "outcome": "REJECTED for bought fertilizer (still net-negative at 2 hands, F8); a distinct, unhypothesized finding emerged instead -- animal-collected fertilizer is mildly positive (F9).", "original_experiment": "a4_fertilizer_retest, c4_animal_x_fertilizer"},
+    {"hypothesis": "A high-throughput multi-resource farm will overflow the 100-unit shed capacity, showing measurable inventory-discard losses.", "outcome": "REJECTED at the throughput levels tested under a passive always-sell policy (F12).", "original_experiment": "c6_inventory_bottleneck"}
+  ]
+}

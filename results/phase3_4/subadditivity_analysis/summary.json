@@ -1,0 +1,125 @@
+{
+  "phase2_6_finding_reused": "P26-005 (results/phase2_6/failure_log.json): Planner v1's SUMMED, independently-calibrated day-0 decision estimates totaled $38,165.25-$38,641 across the 15 development held-out episodes, vs. actual final money of $21,970-$30,040 (mean ~$27,000) -- a ~30-40% aggregate overestimation, left OPEN and unfixed in Phase 2.6 (no arbitrary discount factor applied).",
+  "phase3_4_targeted_experiment": "Re-ran 3 of the exact held-out seeds (302000-302002) feeding that gap through the frozen, byte-for-byte-verified Planner v1 (via the Phase 3.1 control adapter) and inspected animal_metrics directly, rather than only citing the single P26-001 anecdote.",
+  "raw_evidence": {
+    "302000": {
+      "animal_metrics": {
+        "COW": {
+          "n_placed": 2,
+          "n_escaped": 1,
+          "total_product_units": 16,
+          "total_feed_events": 21,
+          "total_care_events": 21,
+          "total_fertilizer_collected": 20,
+          "purchased": 2
+        },
+        "SHEEP": {
+          "n_placed": 3,
+          "n_escaped": 2,
+          "total_product_units": 2,
+          "total_feed_events": 11,
+          "total_care_events": 10,
+          "total_fertilizer_collected": 9,
+          "purchased": 3
+        }
+      },
+      "melon_metrics": {
+        "n_planted": 66,
+        "n_harvested_instances": 43,
+        "n_weeded": 1,
+        "n_dug": 0,
+        "total_harvested_units": 214,
+        "total_harvest_events": 43,
+        "total_watering_events": 547,
+        "total_fertilize_events": 29,
+        "seeds_purchased": 72,
+        "revenue": 22351.8539,
+        "revenue_per_harvested_unit": 104.4479,
+        "revenue_per_seed_purchased": 310.4424,
+        "revenue_per_action": 32.6304
+      },
+      "final_money": 23310.0
+    },
+    "302001": {
+      "animal_metrics": {
+        "COW": {
+          "n_placed": 1,
+          "n_escaped": 1,
+          "total_product_units": 0,
+          "total_feed_events": 6,
+          "total_care_events": 6,
+          "total_fertilizer_collected": 5,
+          "purchased": 2
+        },
+        "SHEEP": {
+          "n_placed": 2,
+          "n_escaped": 1,
+          "total_product_units": 21,
+          "total_feed_events": 20,
+          "total_care_events": 20,
+          "total_fertilizer_collected": 19,
+          "purchased": 2
+        }
+      },
+      "melon_metrics": {
+        "n_planted": 65,
+        "n_harvested_instances": 31,
+        "n_weeded": 13,
+        "n_dug": 0,
+        "total_harvested_units": 156,
+        "total_harvest_events": 31,
+        "total_watering_events": 489,
+        "total_fertilize_events": 24,
+        "seeds_purchased": 74,
+        "revenue": 16638.5556,
+        "revenue_per_harvested_unit": 106.6574,
+        "revenue_per_seed_purchased": 224.8453,
+        "revenue_per_action": 27.3211
+      },
+      "final_money": 23522.0
+    },
+    "302002": {
+      "animal_metrics": {
+        "COW": {
+          "n_placed": 2,
+          "n_escaped": 1,
+          "total_product_units": 16,
+          "total_feed_events": 21,
+          "total_care_events": 21,
+          "total_fertilizer_collected": 20,
+          "purchased": 2
+        },
+        "SHEEP": {
+          "n_placed": 3,
+          "n_escaped": 2,
+          "total_product_units": 2,
+          "total_feed_events": 11,
+          "total_care_events": 10,
+          "total_fertilizer_collected": 9,
+          "purchased": 3
+        }
+      },
+      "melon_metrics": {
+        "n_planted": 66,
+        "n_harvested_instances": 43,
+        "n_weeded": 1,
+        "n_dug": 0,
+        "total_harvested_units": 214,
+        "total_harvest_events": 43,
+        "total_watering_events": 547,
+        "total_fertilize_events": 29,
+        "seeds_purchased": 72,
+        "revenue": 22147.5829,
+        "revenue_per_harvested_unit": 103.4934,
+        "revenue_per_seed_purchased": 307.6053,
+        "revenue_per_action": 32.3322
+      },
+      "final_money": 23626.0
+    }
+  },
+  "mechanism_confirmed": "In all 3 re-run seeds, one of the two simultaneously-committed animals (COW, SHEEP) produced dramatically less output than the other despite both being independently calibrated to have comparable solo value (F5/F6/F7): seed 302000 COW=16 units/SHEEP=2 units; seed 302001 COW=0 units/SHEEP=21 units; seed 302002 COW=16/SHEEP=2. feed_events/care_events are correspondingly imbalanced (e.g. seed 302001: COW got only 6 feed/care events total across the whole episode vs SHEEP's 20) -- direct, reproducible evidence that simultaneously-committed labor-consuming activities (animal care, hand-feeding, crop tending) compete for the same finite daily hand-time budget (player + n_hands workers), which each candidate's SOLO calibration (Phase 2.2/2.3) implicitly assumed it would receive at full priority. This extends P26-001's single-anecdote finding (found during smoke-testing) to a systematic, multi-seed, freshly-generated confirmation.",
+  "correction_estimate": "NOT derived as an arbitrary global discount factor (explicitly prohibited by the brief). The mechanism is now EXPERIMENTALLY_VALIDATED (shared, finite daily labor-time budget across simultaneously-committed candidates), but translating it into a corrected, non-arbitrary joint-valuation formula for evaluator.py would require modeling per-activity labor-time cost explicitly (how many feed/care/water/harvest events each committed activity demands per day, vs. the finite supply of (1 + n_hands) worker-days) -- this is a real evaluator.py redesign, correctly scoped as future work (Phase 3.5+ or a dedicated Economic Model v0.2 task), not something Phase 3.4 fabricates a number for.",
+  "held_out_validation": "Not separately re-validated on a disjoint held-out set beyond the 3 seeds already re-run here (302000-302002 are themselves part of Phase 2.6's original held-out set) -- the finding is a mechanism confirmation, not a tunable parameter requiring its own held-out gate.",
+  "outcome": "OPEN, mechanism identified and confirmed with fresh multi-seed evidence; no correction applied (none justified without an evaluator.py redesign) -- consistent with P26-005's original 'documented, not fixed' status, now with stronger evidence.",
+  "confidence_label": "EXPERIMENTALLY_VALIDATED (mechanism); UNKNOWN (precise numeric correction)"
+}

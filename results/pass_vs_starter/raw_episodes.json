@@ -1,0 +1,182 @@
+[
+  {
+    "p0": "pass",
+    "p1": "starter",
+    "seed": 3000,
+    "episode_steps": 720,
+    "final_money": [
+      3000.0,
+      3421.0
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "winner": 1,
+    "runtime_s": 1.1670570373535156,
+    "n_steps_recorded": 720,
+    "episode_index": 0
+  },
+  {
+    "p0": "pass",
+    "p1": "starter",
+    "seed": 3001,
+    "episode_steps": 720,
+    "final_money": [
+      3000.0,
+      3592.0
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "winner": 1,
+    "runtime_s": 1.1526658535003662,
+    "n_steps_recorded": 720,
+    "episode_index": 1
+  },
+  {
+    "p0": "pass",
+    "p1": "starter",
+    "seed": 3002,
+    "episode_steps": 720,
+    "final_money": [
+      3000.0,
+      3425.0
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "winner": 1,
+    "runtime_s": 1.4860520362854004,
+    "n_steps_recorded": 720,
+    "episode_index": 2
+  },
+  {
+    "p0": "pass",
+    "p1": "starter",
+    "seed": 3003,
+    "episode_steps": 720,
+    "final_money": [
+      3000.0,
+      3599.0
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "winner": 1,
+    "runtime_s": 1.2900824546813965,
+    "n_steps_recorded": 720,
+    "episode_index": 3
+  },
+  {
+    "p0": "pass",
+    "p1": "starter",
+    "seed": 3004,
+    "episode_steps": 720,
+    "final_money": [
+      3000.0,
+      3683.0
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "winner": 1,
+    "runtime_s": 1.4935996532440186,
+    "n_steps_recorded": 720,
+    "episode_index": 4
+  },
+  {
+    "p0": "pass",
+    "p1": "starter",
+    "seed": 3005,
+    "episode_steps": 720,
+    "final_money": [
+      3000.0,
+      3441.0
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "winner": 1,
+    "runtime_s": 1.4325225353240967,
+    "n_steps_recorded": 720,
+    "episode_index": 5
+  },
+  {
+    "p0": "pass",
+    "p1": "starter",
+    "seed": 3006,
+    "episode_steps": 720,
+    "final_money": [
+      3000.0,
+      3602.0
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "winner": 1,
+    "runtime_s": 1.3822212219238281,
+    "n_steps_recorded": 720,
+    "episode_index": 6
+  },
+  {
+    "p0": "pass",
+    "p1": "starter",
+    "seed": 3007,
+    "episode_steps": 720,
+    "final_money": [
+      3000.0,
+      3421.0
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "winner": 1,
+    "runtime_s": 1.3398160934448242,
+    "n_steps_recorded": 720,
+    "episode_index": 7
+  },
+  {
+    "p0": "pass",
+    "p1": "starter",
+    "seed": 3008,
+    "episode_steps": 720,
+    "final_money": [
+      3000.0,
+      3460.0
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "winner": 1,
+    "runtime_s": 1.464571237564087,
+    "n_steps_recorded": 720,
+    "episode_index": 8
+  },
+  {
+    "p0": "pass",
+    "p1": "starter",
+    "seed": 3009,
+    "episode_steps": 720,
+    "final_money": [
+      3000.0,
+      3892.0
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "winner": 1,
+    "runtime_s": 1.2117640972137451,
+    "n_steps_recorded": 720,
+    "episode_index": 9
+  }
+]

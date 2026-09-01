@@ -1,0 +1,254 @@
+{
+  "C_diversified_substitution": {
+    "win_rate": 0.0,
+    "n": 15,
+    "detail": [
+      {
+        "seed": "700000",
+        "candidate_money": 13524.0,
+        "candidate_win": 0,
+        "variant_d_money": 28063.0,
+        "variant_d_win": 1,
+        "control_money": 4241.0
+      },
+      {
+        "seed": "700001",
+        "candidate_money": 14167.0,
+        "candidate_win": 0,
+        "variant_d_money": 23987.0,
+        "variant_d_win": 1,
+        "control_money": 4091.0
+      },
+      {
+        "seed": "700002",
+        "candidate_money": 15311.0,
+        "candidate_win": 0,
+        "variant_d_money": 19367.0,
+        "variant_d_win": 0,
+        "control_money": 4527.0
+      },
+      {
+        "seed": "700003",
+        "candidate_money": 19008.0,
+        "candidate_win": 0,
+        "variant_d_money": 24182.0,
+        "variant_d_win": 1,
+        "control_money": 4815.0
+      },
+      {
+        "seed": "701000",
+        "candidate_money": 18129.0,
+        "candidate_win": 0,
+        "variant_d_money": 27371.0,
+        "variant_d_win": 1,
+        "control_money": 4582.0
+      },
+      {
+        "seed": "701001",
+        "candidate_money": 16388.0,
+        "candidate_win": 0,
+        "variant_d_money": 13371.0,
+        "variant_d_win": 0,
+        "control_money": 4282.0
+      },
+      {
+        "seed": "701002",
+        "candidate_money": 13242.0,
+        "candidate_win": 0,
+        "variant_d_money": 21422.0,
+        "variant_d_win": 0,
+        "control_money": 4705.0
+      },
+      {
+        "seed": "701003",
+        "candidate_money": 15335.0,
+        "candidate_win": 0,
+        "variant_d_money": 20993.0,
+        "variant_d_win": 0,
+        "control_money": 4631.0
+      },
+      {
+        "seed": "701004",
+        "candidate_money": 16648.0,
+        "candidate_win": 0,
+        "variant_d_money": 25044.0,
+        "variant_d_win": 1,
+        "control_money": 3809.0
+      },
+      {
+        "seed": "702000",
+        "candidate_money": 12959.0,
+        "candidate_win": 0,
+        "variant_d_money": 24929.0,
+        "variant_d_win": 1,
+        "control_money": 4174.0
+      },
+      {
+        "seed": "702001",
+        "candidate_money": 19406.0,
+        "candidate_win": 0,
+        "variant_d_money": 10568.0,
+        "variant_d_win": 0,
+        "control_money": 4015.0
+      },
+      {
+        "seed": "702002",
+        "candidate_money": 17201.0,
+        "candidate_win": 0,
+        "variant_d_money": 23386.0,
+        "variant_d_win": 1,
+        "control_money": 3802.0
+      },
+      {
+        "seed": "702003",
+        "candidate_money": 17701.0,
+        "candidate_win": 0,
+        "variant_d_money": 24464.0,
+        "variant_d_win": 1,
+        "control_money": 3783.0
+      },
+      {
+        "seed": "702004",
+        "candidate_money": 12536.0,
+        "candidate_win": 0,
+        "variant_d_money": 26589.0,
+        "variant_d_win": 1,
+        "control_money": 3347.0
+      },
+      {
+        "seed": "702005",
+        "candidate_money": 18857.0,
+        "candidate_win": 0,
+        "variant_d_money": 24243.0,
+        "variant_d_win": 1,
+        "control_money": 3745.0
+      }
+    ]
+  },
+  "E_partial_melon_retention": {
+    "win_rate": 0.5333333333333333,
+    "n": 15,
+    "detail": [
+      {
+        "seed": "700000",
+        "candidate_money": 17424.0,
+        "candidate_win": 1,
+        "variant_d_money": 28063.0,
+        "variant_d_win": 1,
+        "control_money": 4241.0
+      },
+      {
+        "seed": "700001",
+        "candidate_money": 17195.0,
+        "candidate_win": 1,
+        "variant_d_money": 23987.0,
+        "variant_d_win": 1,
+        "control_money": 4091.0
+      },
+      {
+        "seed": "700002",
+        "candidate_money": 15188.0,
+        "candidate_win": 0,
+        "variant_d_money": 19367.0,
+        "variant_d_win": 0,
+        "control_money": 4527.0
+      },
+      {
+        "seed": "700003",
+        "candidate_money": 14548.0,
+        "candidate_win": 0,
+        "variant_d_money": 24182.0,
+        "variant_d_win": 1,
+        "control_money": 4815.0
+      },
+      {
+        "seed": "701000",
+        "candidate_money": 18593.0,
+        "candidate_win": 1,
+        "variant_d_money": 27371.0,
+        "variant_d_win": 1,
+        "control_money": 4582.0
+      },
+      {
+        "seed": "701001",
+        "candidate_money": 14692.0,
+        "candidate_win": 0,
+        "variant_d_money": 13371.0,
+        "variant_d_win": 0,
+        "control_money": 4282.0
+      },
+      {
+        "seed": "701002",
+        "candidate_money": 16230.0,
+        "candidate_win": 0,
+        "variant_d_money": 21422.0,
+        "variant_d_win": 0,
+        "control_money": 4705.0
+      },
+      {
+        "seed": "701003",
+        "candidate_money": 15440.0,
+        "candidate_win": 0,
+        "variant_d_money": 20993.0,
+        "variant_d_win": 0,
+        "control_money": 4631.0
+      },
+      {
+        "seed": "701004",
+        "candidate_money": 17638.0,
+        "candidate_win": 1,
+        "variant_d_money": 25044.0,
+        "variant_d_win": 1,
+        "control_money": 3809.0
+      },
+      {
+        "seed": "702000",
+        "candidate_money": 15043.0,
+        "candidate_win": 0,
+        "variant_d_money": 24929.0,
+        "variant_d_win": 1,
+        "control_money": 4174.0
+      },
+      {
+        "seed": "702001",
+        "candidate_money": 17480.0,
+        "candidate_win": 1,
+        "variant_d_money": 10568.0,
+        "variant_d_win": 0,
+        "control_money": 4015.0
+      },
+      {
+        "seed": "702002",
+        "candidate_money": 15613.0,
+        "candidate_win": 0,
+        "variant_d_money": 23386.0,
+        "variant_d_win": 1,
+        "control_money": 3802.0
+      },
+      {
+        "seed": "702003",
+        "candidate_money": 17182.0,
+        "candidate_win": 1,
+        "variant_d_money": 24464.0,
+        "variant_d_win": 1,
+        "control_money": 3783.0
+      },
+      {
+        "seed": "702004",
+        "candidate_money": 18410.0,
+        "candidate_win": 1,
+        "variant_d_money": 26589.0,
+        "variant_d_win": 1,
+        "control_money": 3347.0
+      },
+      {
+        "seed": "702005",
+        "candidate_money": 19377.0,
+        "candidate_win": 1,
+        "variant_d_money": 24243.0,
+        "variant_d_win": 1,
+        "control_money": 3745.0
+      }
+    ]
+  }
+}

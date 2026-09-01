@@ -1,0 +1,37 @@
+{
+  "title": "Phase 3.1 Information-Boundary Audit",
+  "method": "Verified directly against vendor_kaggriculture/kaggriculture.py (VERIFIED_MECHANIC only where cited) -- not assumed from conceptual descriptions, per the brief's explicit instruction. Key evidence: kaggriculture.py lines 267-276 and 949-956 assign the SAME `farms`/`market`/`town` Python object references to every player's `state[i].observation`, while `state[i].observation.private = privates[i]` is a genuinely distinct per-player object built separately (_new_private() called once per player). This was already established in Phase 2.1 (docs/PHASE2_1_ARCHITECTURE.md section 1/10) and is re-verified here, not re-derived from scratch.",
+  "audit_table": [
+    {"information": "Own cash (money)", "observable": true, "source": "obs['farms'][own_player]['money']", "legal_to_use": true, "representation": "float, exact, every turn"},
+    {"information": "Own tiles (crops/animals/structures/growth state)", "observable": true, "source": "obs['farms'][own_player]['tiles']", "legal_to_use": true, "representation": "10x10 grid of tile dicts"},
+    {"information": "Own shed contents", "observable": true, "source": "obs['private']['shed']", "legal_to_use": true, "representation": "dict {item: qty}, THIS PLAYER ONLY"},
+    {"information": "Own seed counts", "observable": true, "source": "obs['private']['seeds']", "legal_to_use": true, "representation": "dict {crop: qty}, THIS PLAYER ONLY"},
+    {"information": "Own carried inventory (farmer + hands)", "observable": true, "source": "obs['private']['inventories']", "legal_to_use": true, "representation": "list of dicts, THIS PLAYER ONLY"},
+    {"information": "Own farmer/hand positions", "observable": true, "source": "obs['farms'][own_player]['farmer'|'hands']", "legal_to_use": true, "representation": "[x,y] / list of [x,y]"},
+    {"information": "Own unlocked quadrants / hires_today", "observable": true, "source": "obs['farms'][own_player]", "legal_to_use": true, "representation": "list / int"},
+    {"information": "Opponent cash (money)", "observable": true, "source": "obs['farms'][1-own_player]['money']", "legal_to_use": true, "representation": "float, EXACT, every turn -- a materially strong, previously under-exploited signal (see section below)"},
+    {"information": "Opponent tiles (crop type, planted_day, watered_today, animal type, fed/cared/fertilizer_available)", "observable": true, "source": "obs['farms'][1-own_player]['tiles']", "legal_to_use": true, "representation": "same tile-dict schema as own tiles -- full production state, not just presence/absence"},
+    {"information": "Opponent farmer/hand positions", "observable": true, "source": "obs['farms'][1-own_player]['farmer'|'hands']", "legal_to_use": true, "representation": "[x,y] / list of [x,y]"},
+    {"information": "Opponent unlocked quadrants (land)", "observable": true, "source": "obs['farms'][1-own_player]['unlocked_quadrants']", "legal_to_use": true, "representation": "list of quadrant names"},
+    {"information": "Opponent hires_today (hand count hired so far today)", "observable": true, "source": "obs['farms'][1-own_player]['hires_today']", "legal_to_use": true, "representation": "int -- lets us infer hiring activity same-day"},
+    {"information": "Opponent shed contents", "observable": false, "source": "obs['private'] is per-player; the opponent's private block is STRUCTURALLY ABSENT from this player's obs, not merely zeroed", "legal_to_use": false, "representation": "UNAVAILABLE -- must never be used"},
+    {"information": "Opponent seed counts", "observable": false, "source": "same as above", "legal_to_use": false, "representation": "UNAVAILABLE"},
+    {"information": "Opponent carried inventory", "observable": false, "source": "same as above", "legal_to_use": false, "representation": "UNAVAILABLE"},
+    {"information": "Opponent's SUBMITTED ACTION this turn (e.g. the literal string 'PLANT')", "observable": false, "source": "obs never contains the opponent's action dict -- only the RESULTING state is visible", "legal_to_use": false, "representation": "UNAVAILABLE DIRECTLY; an action can be INFERRED from a tile/position/money delta between two consecutive observations (see opponent_observation.py) -- this inference is a DERIVED signal, never to be logged or treated as directly observed"},
+    {"information": "Market prices (all products)", "observable": true, "source": "obs['market']['prices']", "legal_to_use": true, "representation": "dict {item: price}, shared/public"},
+    {"information": "Market inventory (all products)", "observable": true, "source": "obs['market']['inventory']", "legal_to_use": true, "representation": "dict {item: qty}, shared/public"},
+    {"information": "Town unlocked shops", "observable": true, "source": "obs['town']['unlocked_shops']", "legal_to_use": true, "representation": "list, shared/public"},
+    {"information": "Current day/hour/turn", "observable": true, "source": "obs['day'], obs['hour']", "legal_to_use": true, "representation": "int"},
+    {"information": "Future market prices", "observable": false, "source": "does not exist in obs at decision time by construction", "legal_to_use": false, "representation": "UNAVAILABLE -- see temporal-leakage tests"},
+    {"information": "Future town-demand events (shop unlock draws)", "observable": false, "source": "drawn from a per-day seeded RNG (VERIFIED, kaggriculture.py::_end_of_day, random.Random((seed*1_000_003)^day)) not exposed in advance", "legal_to_use": false, "representation": "UNAVAILABLE"},
+    {"information": "Future opponent action", "observable": false, "source": "does not exist until the opponent's agent function is called on a future turn", "legal_to_use": false, "representation": "UNAVAILABLE"},
+    {"information": "Simulator's episode seed", "observable": false, "source": "DOCUMENTED (env.configuration['seed'] is cleared from config after read, per Phase 1 docs/01_mechanics_reference.md section 10) -- VERIFIED unavailable to any agent", "legal_to_use": false, "representation": "UNAVAILABLE"}
+  ],
+  "key_finding_not_previously_exploited": "Opponent's exact bank balance (money) and full tile-level production state (crop types, growth stages, watered/fed/cared flags, animal types) are BOTH fully public every turn -- richer than a naive 'only position is visible' assumption. What remains genuinely private is exactly three things: shed contents, seed counts, and carried inventory. This materially changes what a Phase 3.2+ opponent-behavior inference layer can legitimately use: production STATE can be read directly (no inference needed), while production ACTIVITY (what they bought/sold, what's in their shed) must be inferred from state deltas or is simply unavailable.",
+  "classification_legend": {
+    "mechanically_observable": "present directly in obs, no computation needed",
+    "derived_from_observable": "computed from one or more mechanically-observable fields (e.g. inferred opponent action from a tile delta)",
+    "experimentally_inferred": "not derivable from a single observation; requires historical pattern/statistics across many observations (none implemented in Phase 3.1 -- data-collection layer only)",
+    "unavailable": "does not exist in obs and must never be synthesized"
+  }
+}

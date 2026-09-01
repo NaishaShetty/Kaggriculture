@@ -1,0 +1,251 @@
+{
+  "schema_version": "2.3.0",
+  "meta": {
+    "instrumentation_schema_version": "2.3.0",
+    "simulator_version": "0.1.0",
+    "environment_name": "kaggriculture",
+    "p0": "agent",
+    "p1": "agents/baseline_agent.py",
+    "seed": 201100,
+    "episode_steps_requested": 720,
+    "n_steps_recorded": 720,
+    "runtime_s": 3.764155149459839,
+    "configuration": {
+      "episodeSteps": 720,
+      "seed": null,
+      "actTimeout": 1,
+      "runTimeout": 1200,
+      "boardSize": 10,
+      "startingMoney": 3000,
+      "maxMarketOrdersPerTurn": 10,
+      "turnsPerDay": 24,
+      "shedCapacity": 100,
+      "weedSpawnChance": 0.005,
+      "townShopUnlockInterval": 3,
+      "townShopSellInterval": 4,
+      "townCenterSellInterval": 24,
+      "farmHandCostMult": 1,
+      "marketParams": {}
+    }
+  },
+  "outcome": {
+    "final_money": [
+      30568.0,
+      5934.0
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "winner": 0,
+    "margin": 24634.0,
+    "n_steps_recorded": 720,
+    "runtime_s": 3.764155149459839
+  },
+  "players": {
+    "0": {
+      "player": 0,
+      "financial": {
+        "final_money": 30568.0,
+        "net_profit": 27568.0,
+        "revenue": 40630.222,
+        "expenditure": 13062.222
+      },
+      "production": {
+        "total_crop_harvest_events": 78,
+        "total_crop_units_harvested": 170,
+        "total_animal_product_units": 10
+      },
+      "efficiency": {
+        "profit_per_action": 9.992,
+        "productive_action_rate": 0.9366,
+        "idle_fraction": 0.0584,
+        "movement_fraction": 0.5857
+      },
+      "market": {
+        "price_stats": {
+          "WHEAT": {
+            "min_price": 25,
+            "max_price": 51,
+            "mean_price": 37.2167,
+            "price_volatility_stdev": 7.8976,
+            "mean_abs_change_per_turn": 0.0417
+          },
+          "CARROT": {
+            "min_price": 35,
+            "max_price": 68,
+            "mean_price": 47.8486,
+            "price_volatility_stdev": 10.5917,
+            "mean_abs_change_per_turn": 0.0459
+          },
+          "TOMATO": {
+            "min_price": 60,
+            "max_price": 356,
+            "mean_price": 112.7444,
+            "price_volatility_stdev": 75.4688,
+            "mean_abs_change_per_turn": 0.4117
+          },
+          "STRAWBERRY": {
+            "min_price": 120,
+            "max_price": 336,
+            "mean_price": 231.5167,
+            "price_volatility_stdev": 64.2167,
+            "mean_abs_change_per_turn": 0.306
+          },
+          "MELON": {
+            "min_price": 174,
+            "max_price": 277,
+            "mean_price": 253.6,
+            "price_volatility_stdev": 32.6824,
+            "mean_abs_change_per_turn": 0.1864
+          },
+          "EGG": {
+            "min_price": 50,
+            "max_price": 73,
+            "mean_price": 56.7903,
+            "price_volatility_stdev": 6.656,
+            "mean_abs_change_per_turn": 0.032
+          },
+          "MILK": {
+            "min_price": 160,
+            "max_price": 240,
+            "mean_price": 197.8667,
+            "price_volatility_stdev": 18.7949,
+            "mean_abs_change_per_turn": 0.1113
+          },
+          "WOOL": {
+            "min_price": 200,
+            "max_price": 229,
+            "mean_price": 222.3264,
+            "price_volatility_stdev": 6.1858,
+            "mean_abs_change_per_turn": 0.0403
+          },
+          "FERTILIZER": {
+            "min_price": 100,
+            "max_price": 100,
+            "mean_price": 100,
+            "price_volatility_stdev": 0.0,
+            "mean_abs_change_per_turn": 0
+          }
+        }
+      },
+      "town": {
+        "shops_unlocked": 8,
+        "shop_instance_counts": {
+          "FARMERS_MARKET": 3,
+          "BRUNCH_SPOT": 2,
+          "BAKERY": 2,
+          "ICE_CREAM_SHOP": 1
+        }
+      },
+      "outcome": {
+        "winner": 0,
+        "final_money": 30568.0,
+        "opponent_final_money": 5934.0,
+        "margin": 24634.0
+      }
+    },
+    "1": {
+      "player": 1,
+      "financial": {
+        "final_money": 5934.0,
+        "net_profit": 2934.0,
+        "revenue": 5644.0,
+        "expenditure": 2710
+      },
+      "production": {
+        "total_crop_harvest_events": 153,
+        "total_crop_units_harvested": 153,
+        "total_animal_product_units": 0
+      },
+      "efficiency": {
+        "profit_per_action": 4.075,
+        "productive_action_rate": 0.9792,
+        "idle_fraction": 0.0028,
+        "movement_fraction": 0.2722
+      },
+      "market": {
+        "price_stats": {
+          "WHEAT": {
+            "min_price": 25,
+            "max_price": 51,
+            "mean_price": 37.2167,
+            "price_volatility_stdev": 7.8976,
+            "mean_abs_change_per_turn": 0.0417
+          },
+          "CARROT": {
+            "min_price": 35,
+            "max_price": 68,
+            "mean_price": 47.8486,
+            "price_volatility_stdev": 10.5917,
+            "mean_abs_change_per_turn": 0.0459
+          },
+          "TOMATO": {
+            "min_price": 60,
+            "max_price": 356,
+            "mean_price": 112.7444,
+            "price_volatility_stdev": 75.4688,
+            "mean_abs_change_per_turn": 0.4117
+          },
+          "STRAWBERRY": {
+            "min_price": 120,
+            "max_price": 336,
+            "mean_price": 231.5167,
+            "price_volatility_stdev": 64.2167,
+            "mean_abs_change_per_turn": 0.306
+          },
+          "MELON": {
+            "min_price": 174,
+            "max_price": 277,
+            "mean_price": 253.6,
+            "price_volatility_stdev": 32.6824,
+            "mean_abs_change_per_turn": 0.1864
+          },
+          "EGG": {
+            "min_price": 50,
+            "max_price": 73,
+            "mean_price": 56.7903,
+            "price_volatility_stdev": 6.656,
+            "mean_abs_change_per_turn": 0.032
+          },
+          "MILK": {
+            "min_price": 160,
+            "max_price": 240,
+            "mean_price": 197.8667,
+            "price_volatility_stdev": 18.7949,
+            "mean_abs_change_per_turn": 0.1113
+          },
+          "WOOL": {
+            "min_price": 200,
+            "max_price": 229,
+            "mean_price": 222.3264,
+            "price_volatility_stdev": 6.1858,
+            "mean_abs_change_per_turn": 0.0403
+          },
+          "FERTILIZER": {
+            "min_price": 100,
+            "max_price": 100,
+            "mean_price": 100,
+            "price_volatility_stdev": 0.0,
+            "mean_abs_change_per_turn": 0
+          }
+        }
+      },
+      "town": {
+        "shops_unlocked": 8,
+        "shop_instance_counts": {
+          "FARMERS_MARKET": 3,
+          "BRUNCH_SPOT": 2,
+          "BAKERY": 2,
+          "ICE_CREAM_SHOP": 1
+        }
+      },
+      "outcome": {
+        "winner": 0,
+        "final_money": 5934.0,
+        "opponent_final_money": 30568.0,
+        "margin": -24634.0
+      }
+    }
+  }
+}

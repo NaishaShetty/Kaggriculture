@@ -1,0 +1,219 @@
+{
+  "n_episodes": 30,
+  "n_exact_matches": 30,
+  "n_discrepancies": 0,
+  "rows": [
+    {
+      "opponent": "wheat_patroller",
+      "seed": 302000,
+      "phase3_harness_money": 27861.0,
+      "phase2_6_reference_money": 27861.0,
+      "exact_match": true
+    },
+    {
+      "opponent": "wheat_patroller",
+      "seed": 302001,
+      "phase3_harness_money": 29053.0,
+      "phase2_6_reference_money": 29053.0,
+      "exact_match": true
+    },
+    {
+      "opponent": "wheat_patroller",
+      "seed": 302002,
+      "phase3_harness_money": 27915.0,
+      "phase2_6_reference_money": 27915.0,
+      "exact_match": true
+    },
+    {
+      "opponent": "wheat_patroller",
+      "seed": 302003,
+      "phase3_harness_money": 28317.0,
+      "phase2_6_reference_money": 28317.0,
+      "exact_match": true
+    },
+    {
+      "opponent": "wheat_patroller",
+      "seed": 302004,
+      "phase3_harness_money": 27845.0,
+      "phase2_6_reference_money": 27845.0,
+      "exact_match": true
+    },
+    {
+      "opponent": "wheat_patroller",
+      "seed": 302005,
+      "phase3_harness_money": 28458.0,
+      "phase2_6_reference_money": 28458.0,
+      "exact_match": true
+    },
+    {
+      "opponent": "wheat_patroller",
+      "seed": 302006,
+      "phase3_harness_money": 27935.0,
+      "phase2_6_reference_money": 27935.0,
+      "exact_match": true
+    },
+    {
+      "opponent": "wheat_patroller",
+      "seed": 302007,
+      "phase3_harness_money": 27846.0,
+      "phase2_6_reference_money": 27846.0,
+      "exact_match": true
+    },
+    {
+      "opponent": "wheat_patroller",
+      "seed": 302008,
+      "phase3_harness_money": 28842.0,
+      "phase2_6_reference_money": 28842.0,
+      "exact_match": true
+    },
+    {
+      "opponent": "wheat_patroller",
+      "seed": 302009,
+      "phase3_harness_money": 28600.0,
+      "phase2_6_reference_money": 28600.0,
+      "exact_match": true
+    },
+    {
+      "opponent": "phase2_3_integrated",
+      "seed": 302000,
+      "phase3_harness_money": 23310.0,
+      "phase2_6_reference_money": 23310.0,
+      "exact_match": true
+    },
+    {
+      "opponent": "phase2_3_integrated",
+      "seed": 302001,
+      "phase3_harness_money": 23522.0,
+      "phase2_6_reference_money": 23522.0,
+      "exact_match": true
+    },
+    {
+      "opponent": "phase2_3_integrated",
+      "seed": 302002,
+      "phase3_harness_money": 23626.0,
+      "phase2_6_reference_money": 23626.0,
+      "exact_match": true
+    },
+    {
+      "opponent": "phase2_3_integrated",
+      "seed": 302003,
+      "phase3_harness_money": 23079.0,
+      "phase2_6_reference_money": 23079.0,
+      "exact_match": true
+    },
+    {
+      "opponent": "phase2_3_integrated",
+      "seed": 302004,
+      "phase3_harness_money": 23623.0,
+      "phase2_6_reference_money": 23623.0,
+      "exact_match": true
+    },
+    {
+      "opponent": "phase2_3_integrated",
+      "seed": 302005,
+      "phase3_harness_money": 22889.0,
+      "phase2_6_reference_money": 22889.0,
+      "exact_match": true
+    },
+    {
+      "opponent": "phase2_3_integrated",
+      "seed": 302006,
+      "phase3_harness_money": 26994.0,
+      "phase2_6_reference_money": 26994.0,
+      "exact_match": true
+    },
+    {
+      "opponent": "phase2_3_integrated",
+      "seed": 302007,
+      "phase3_harness_money": 24101.0,
+      "phase2_6_reference_money": 24101.0,
+      "exact_match": true
+    },
+    {
+      "opponent": "phase2_3_integrated",
+      "seed": 302008,
+      "phase3_harness_money": 22208.0,
+      "phase2_6_reference_money": 22208.0,
+      "exact_match": true
+    },
+    {
+      "opponent": "phase2_3_integrated",
+      "seed": 302009,
+      "phase3_harness_money": 23494.0,
+      "phase2_6_reference_money": 23494.0,
+      "exact_match": true
+    },
+    {
+      "opponent": "phase2_4_best",
+      "seed": 302000,
+      "phase3_harness_money": 29269.0,
+      "phase2_6_reference_money": 29269.0,
+      "exact_match": true
+    },
+    {
+      "opponent": "phase2_4_best",
+      "seed": 302001,
+      "phase3_harness_money": 28457.0,
+      "phase2_6_reference_money": 28457.0,
+      "exact_match": true
+    },
+    {
+      "opponent": "phase2_4_best",
+      "seed": 302002,
+      "phase3_harness_money": 29585.0,
+      "phase2_6_reference_money": 29585.0,
+      "exact_match": true
+    },
+    {
+      "opponent": "phase2_4_best",
+      "seed": 302003,
+      "phase3_harness_money": 28014.0,
+      "phase2_6_reference_money": 28014.0,
+      "exact_match": true
+    },
+    {
+      "opponent": "phase2_4_best",
+      "seed": 302004,
+      "phase3_harness_money": 29599.0,
+      "phase2_6_reference_money": 29599.0,
+      "exact_match": true
+    },
+    {
+      "opponent": "phase2_4_best",
+      "seed": 302005,
+      "phase3_harness_money": 29827.0,
+      "phase2_6_reference_money": 29827.0,
+      "exact_match": true
+    },
+    {
+      "opponent": "phase2_4_best",
+      "seed": 302006,
+      "phase3_harness_money": 29846.0,
+      "phase2_6_reference_money": 29846.0,
+      "exact_match": true
+    },
+    {
+      "opponent": "phase2_4_best",
+      "seed": 302007,
+      "phase3_harness_money": 29047.0,
+      "phase2_6_reference_money": 29047.0,
+      "exact_match": true
+    },
+    {
+      "opponent": "phase2_4_best",
+      "seed": 302008,
+      "phase3_harness_money": 29146.0,
+      "phase2_6_reference_money": 29146.0,
+      "exact_match": true
+    },
+    {
+      "opponent": "phase2_4_best",
+      "seed": 302009,
+      "phase3_harness_money": 28426.0,
+      "phase2_6_reference_money": 28426.0,
+      "exact_match": true
+    }
+  ],
+  "discrepancies": [],
+  "verdict": "CONTROL REPRODUCED EXACTLY"
+}

@@ -1,0 +1,40 @@
+{
+  "phase": "3.4",
+  "title": "Integrated Adaptive Competitive Strategy",
+  "decision": "PASS -- Variant D (Phase 3.3) remains the canonical adaptive mechanism. No new candidate promoted. Reported as an informative null/partial result, per the brief's explicit allowance.",
+  "controls": {
+    "control_A_planner_v1": "Frozen, unmodified. 30/30 exact byte-for-byte control reproduction re-verified this phase (results/phase3_1/control_reproduction/).",
+    "control_B_variant_D": "Frozen (agents/phase3_3/interventions.py unmodified). 15/15 exact byte-for-byte reproduction of its own Phase 3.3 reference results re-verified independently this phase.",
+    "control_C_detection_only": "Variant B (intervention_fn=None) remains inert by construction and by regression test (scripts/phase3_3_regression_tests.py::test_detection_only_is_inert, still passing)."
+  },
+  "failure_forensics": {
+    "n_losses_analyzed": 5,
+    "seeds": [700002, 701001, 701002, 701003, 702001],
+    "root_cause": "Self-inflicted STRAWBERRY price crash: Variant D concentrates 100% of MELON's freed portfolio share into the single highest-ranked substitute crop (STRAWBERRY), which has the smallest market depth (T=100) of any of the 5 crops. Production volume is nearly identical between wins and losses (96-110 units); the difference is entirely in realized sell PRICE ($126-204 in losses vs $259-279 in wins).",
+    "taxonomy": "self_inflicted_narrow_market_price_crash (applies to all 5 known losses; no UNKNOWN-category losses identified)",
+    "artifacts": "results/phase3_4/failure_analysis/"
+  },
+  "candidates_tested": {
+    "Candidate_C_diversified_substitution": {
+      "mechanism": "split MELON's freed share across top-2 ranked non-MELON crops instead of 1",
+      "result": "REJECTED -- 0/15 wins on the full expansion_oriented battery (vs Variant D's 10/15), uniformly worse. TOMATO (the #2 crop) is ~4.7x weaker than STRAWBERRY by economic_model.crop_production_value(), so diversification traded away far more mean value than it recovered in reduced price-impact variance."
+    },
+    "Candidate_E_partial_melon_retention": {
+      "mechanism": "hard-coded 50/50 MELON+STRAWBERRY split instead of 100% redirection",
+      "result": "REJECTED -- 8/15 wins on the full battery (vs Variant D's 10/15). Flips 3 of Variant D's wins into losses while only flipping 1 of its losses into a win; net negative. Retaining MELON exposure reintroduces the market-crash risk Variant D had already eliminated."
+    }
+  },
+  "supporting_analyses": {
+    "regime_stability": "expansion_oriented classified with the SAME predicted class at all 9 checkpoints in all 15 seeds -- zero regime transitions observed (results/phase3_4/regime_analysis/regime_stability.json)",
+    "detection_confidence": "~1.0 at the turn-24 detection point in both wins and losses -- confidence does not discriminate outcome; the residual losses are an allocation problem, not a detection problem (results/phase3_4/regime_analysis/detection_confidence_analysis.json)",
+    "generalization": "'No intervention needed' confirmed for all 6 non-expansion_oriented archetypes -- detector never activates (0 activations), Variant D byte-identical to the Planner v1 control on every common seed (results/phase3_4/market_analysis/generalization_analysis.json)",
+    "market_impact_chain": "6-step causal chain from opponent land/crop config through shared-market price collapse to portfolio exposure to outcome, extended to the second-order self-inflicted STRAWBERRY crash (results/phase3_4/market_analysis/market_impact_chain.json)",
+    "subadditivity": "Mechanism (shared, finite daily labor-time budget across simultaneously-committed candidates) EXPERIMENTALLY_VALIDATED via a fresh 3-seed re-run showing COW/SHEEP output imbalance consistent with P26-001; no numeric correction derived (would require an evaluator.py redesign, out of Phase 3.4 scope) (results/phase3_4/subadditivity_analysis/summary.json)",
+    "switching_cost_and_temporal_response": "Not cleanly isolated (confounded with crop-dependent labor/animal decisions); directionally, earlier intervention (turn 0) does not show a consistent benefit over the current turn-24 timing and often hurts (results/phase3_4/switching_analysis/summary.json)"
+  },
+  "regression_tests": "65/65 pre-existing tests (Phase 2.6 + 3.1 + 3.2 + 3.3) still passing, plus 14/14 new Phase 3.4 tests -- 79/79 total (scripts/phase3_4_regression_tests.py)",
+  "control_reproduction": "Planner v1: 30/30 exact matches. Variant D: 15/15 exact matches against its own Phase 3.3 reference. Frozen file hashes unchanged.",
+  "final_comparison_table": "results/phase3_4/validation/final_comparison_table.json",
+  "promotion_criteria_met": false,
+  "reason_not_promoted": "Both new candidates, each specifically targeting the diagnosed failure mode, underperformed Variant D on the full 15-seed expansion_oriented battery when measured honestly (not just on the known-losing subset). No candidate satisfies the brief's promotion criteria (must strictly dominate or clearly outperform Variant D)."
+}

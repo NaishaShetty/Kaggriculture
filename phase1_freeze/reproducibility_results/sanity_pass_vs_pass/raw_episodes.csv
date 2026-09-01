@@ -1,0 +1,4 @@
+episode_index,seed,p0,p1,money0,money1,winner,status0,status1,runtime_s
+0,900,pass,pass,3000.0,3000.0,tie,DONE,DONE,1.185
+1,901,pass,pass,3000.0,3000.0,tie,DONE,DONE,1.346
+2,902,pass,pass,3000.0,3000.0,tie,DONE,DONE,1.691

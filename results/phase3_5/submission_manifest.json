@@ -1,0 +1,98 @@
+{
+  "submission_name": "kaggriculture_phase3_4_variantD_submission_A",
+  "artifact_file": "kaggriculture_phase3_4_variantD_submission_A.tar.gz",
+  "artifact_path_in_repo": "kaggriculture_phase3_4_variantD_submission_A.tar.gz (repo root; rebuild any time with scripts/phase3_5_build_submission.py -- not committed to git, see .gitignore)",
+  "canonical_strategy": "Phase 3.3 Variant D (production_substitution), frozen and validated as the canonical Phase 3 adaptive strategy through Phase 3.4. No strategy logic was modified to prepare this submission.",
+  "entry_point": "main.py (repo root) exposing a module-level `agent(obs)` function, per AGENTS.md's documented submission contract ('Your submission must have a main.py at the root with an agent function').",
+  "build_command": "python scripts/phase3_5_build_submission.py",
+  "package_format": "tar.gz, main.py at the archive root, per AGENTS.md's documented multi-file submission format",
+  "package_size_bytes": 79059,
+  "package_size_kb": 77.2,
+  "package_file_count": 25,
+  "package_contents": [
+    "main.py",
+    "agents/__init__.py",
+    "agents/phase2_2/common.py",
+    "agents/phase2_3/common.py",
+    "agents/phase2_4/common.py",
+    "agents/phase2_6/__init__.py",
+    "agents/phase2_6/common.py",
+    "agents/phase2_6/state.py",
+    "agents/phase2_6/opportunities.py",
+    "agents/phase2_6/evaluator.py",
+    "agents/phase2_6/constraints.py",
+    "agents/phase2_6/decisions.py",
+    "agents/phase2_6/trace.py",
+    "agents/phase3/__init__.py",
+    "agents/phase3/opponent_observation.py",
+    "agents/phase3/feature_extractor.py",
+    "agents/phase3_3/__init__.py",
+    "agents/phase3_3/expansion_detector.py",
+    "agents/phase3_3/interventions.py",
+    "agents/phase3_3/adapters/__init__.py",
+    "agents/phase3_3/adapters/intervention_agent.py",
+    "economic_model/model.py",
+    "vendor_kaggriculture/kaggriculture.py",
+    "vendor_kaggriculture/kaggriculture.json",
+    "results/phase3_3/detector/artifact.json"
+  ],
+  "dependency_requirements": {
+    "third_party": ["numpy"],
+    "provided_by_kaggle_runtime": ["kaggle_environments (the grading harness itself -- vendor_kaggriculture/kaggriculture.py imports kaggle_environments.utils.resolve_episode_seed, guaranteed present since kaggle_environments IS what executes the submission)"],
+    "standard_library_only": ["json", "math", "os", "sys", "dataclasses", "typing"],
+    "no_requirements_txt_declared": "AGENTS.md's documented submission process does not support a requirements.txt / pip-install step for file/tar.gz submissions; numpy is a near-universal dependency of the kaggle_environments runtime itself and was not separately verified as guaranteed-present on Kaggle's actual grading servers -- flagged as a residual assumption, not silently assumed away (see limitations)."
+  },
+  "excluded_from_package_and_why": {
+    "vendor_kaggriculture/visualizer/": "28MB bundled HTML replay viewer, never imported by any production code path (confirmed via import-chain grep) -- optional local-only tooling, guarded by kaggriculture.py's own path.exists() check so its absence causes no runtime error.",
+    "vendor_kaggriculture_beginner/": "Entirely unused by any production or dev script (confirmed via repo-wide grep) -- a separate, unrelated beginner variant of the environment.",
+    "vendor_kaggriculture/AGENTS.md, README.md, kaggriculture.json's sibling docs": "documentation, not imported code.",
+    "results/ (all subdirectories except results/phase3_3/detector/artifact.json)": "historical research data (277MB) -- not a runtime dependency of main.py; preserved in the repository, not the submission.",
+    "docs/, logs/, replays/, phase1_freeze/, kaggriculture-data/, harness/, instrumentation/, scripts/, _pkgtmp/": "development, documentation, and research tooling -- not imported by main.py's dependency chain.",
+    "agents/phase3/regime_classifier.py, agents/phase3/transition_inference.py, agents/phase3/competitive_state.py, agents/phase3/market_observation.py, agents/phase3/strategy*.py, agents/phase3/adapters/planner_v1_control.py, agents/phase3_4/*": "used only by offline analysis/training scripts (e.g. building/choosing the detector) or by Phase 3.1/3.4 control-only adapters, never by the Variant D runtime path itself -- confirmed via a full import-chain trace, not assumed."
+  },
+  "validation_performed": {
+    "regression_tests": "86/86 passing (79 pre-existing across Phase 2.6/3.1/3.2/3.3/3.4 + 7 new Phase 3.5 packaging tests in scripts/phase3_5_submission_tests.py)",
+    "planner_v1_control_reproduction": "30/30 exact byte-for-byte matches (scripts/phase3_1_control_reproduction.py, re-run after all Phase 3.5 changes)",
+    "variant_d_reference_reproduction": "15/15 exact matches against the Phase 3.3 reference CSV, re-verified after all Phase 3.5 changes",
+    "frozen_file_hashes": "all unchanged (results/phase3_1/control_reproduction/frozen_file_hashes.txt), verified before and after all Phase 3.5 work",
+    "fresh_environment_validation": "minimal file tree copied to a location OUTSIDE the repo, run from a cold Python process, from a different working directory, using kaggle_environments' own registered 'kaggriculture' environment (not the vendored copy)",
+    "actual_package_validation": "the real, built kaggriculture_phase3_4_variantD_submission_A.tar.gz was extracted to a fresh location and run end-to-end -- this is not a simulation of the package, it IS the package",
+    "end_to_end_smoke_test": "full 720-turn episode completes with status=DONE for both players, no crashes, no infinite loops, against both the 'random' and 'starter' built-in opponents",
+    "multi_episode_state_isolation": "3 consecutive episodes run in the same process produced consistent results, and the episode-boundary reset logic (obs day==0,hour==0) was directly unit-tested",
+    "kaggle_real_loader_path_verified": "main.py was run through kaggle_environments.agent.get_last_callable's actual exec()-based file-loading code path (not a normal Python import) -- this uncovered and fixed two real defects, see known_limitations_and_defects_found"
+  },
+  "defects_found_and_fixed_during_packaging": [
+    {
+      "defect": "main.py relied on __file__ to locate its own directory, but Kaggle's real agent loader (kaggle_environments.agent.get_last_callable) reads submission files as text and exec()s them, where __file__ is undefined -- this would have crashed on first turn on the real Kaggle grading path (reproduced locally before fixing).",
+      "fix": "main.py now resolves its own root via sys.path[-1] (reliably the submission's own directory at that point in Kaggle's loading sequence, verified empirically), with a __file__-based fallback for non-Kaggle-exec contexts (plain `python main.py`, `import main`, test harnesses).",
+      "category": "packaging/runtime, not strategy"
+    },
+    {
+      "defect": "agents/phase3_3/expansion_detector.py's ARTIFACT_PATH is relative to the process's current working directory, not to the submission's own directory -- fragile under Kaggle's execution model where CWD is not guaranteed to be the submission root.",
+      "fix": "Added an additive, backward-compatible `artifact_path` parameter to make_intervention_agent (agents/phase3_3/adapters/intervention_agent.py) -- default None preserves 100% prior behavior for every existing caller/test (re-verified via the full regression suite and both control-reproduction gates); main.py is the only caller that passes an explicit absolute path.",
+      "category": "packaging/runtime, not strategy"
+    },
+    {
+      "defect": "This project's top-level `agents/` directory had no __init__.py (an implicit namespace package). kaggle_environments itself bundles several unrelated mini-environments with their own generically-named `agents.py` files (lux_ai_s3, lux_ai_2021, crawl, mab, rps, word_art, word_association). Reproduced locally: a cold-process `import agents.phase3_3...` resolved to kaggle_environments/envs/lux_ai_s3/agents.py instead of this project's package, crashing with 'attempted relative import with no known parent package' -- entirely dependent on unpredictable sys.path ordering from kaggle_environments' own environment-registry setup, so this would have been a real, intermittent risk on Kaggle's actual servers.",
+      "fix": "Added agents/__init__.py (empty) to make `agents` a regular package (deterministic first-match-in-sys.path resolution) and main.py now explicitly inserts its own resolved root at the FRONT of sys.path before any agents.* import, rather than relying on Kaggle's own (lower-priority, appended) sys.path entry.",
+      "category": "packaging/runtime, not strategy -- but see limitations: not independently confirmed against Kaggle's actual production servers, only against the locally-installed kaggle_environments package."
+    }
+  ],
+  "known_limitations": [
+    "self_inflicted_narrow_market_price_crash (Phase 3.4): Variant D still loses 5/15 (33.3%) episodes against the expansion_oriented archetype due to a self-inflicted STRAWBERRY market-depth crash. Both remedial mechanisms tested in Phase 3.4 (diversified substitution, partial MELON retention) underperformed Variant D and were rejected. This is NOT solved by Phase 3.5 packaging work and is not claimed to be.",
+    "The three collision/path defects above were found and fixed via LOCAL reproduction of Kaggle's documented loading mechanism (kaggle_environments' installed package, exact version pinned in this environment). They were not verified against Kaggle's live production grading servers, which could in principle differ in ways not observable locally -- the first real submission result is the actual confirming evidence.",
+    "numpy's availability on Kaggle's actual grading servers was not independently confirmed (assumed present as a near-universal kaggle_environments dependency) -- AGENTS.md's documented submission process provides no requirements.txt mechanism to declare it explicitly.",
+    "The detector threshold discrepancy (module default DEFAULT_THRESHOLD=0.5 in agents/phase3_3/expansion_detector.py vs. the dev-optimal 0.3 selected by scripts/phase3_3_choose_threshold.py but never wired in) was found during this task's audit and is reported separately (not fixed here, since threshold tuning is explicitly out of scope for submission packaging) -- see the Phase 3.5 report's 'Discovered but not fixed' section. This submission uses threshold=0.5, i.e. exactly what every validated Phase 3.3/3.4 result was actually produced with -- not the never-applied 0.3."
+  ],
+  "exact_build_process": [
+    "1. python scripts/phase3_5_regression_tests_baseline_check.py  # (informal: re-run all 5 prior regression suites, confirm 79/79)",
+    "2. Author main.py (repo root)",
+    "3. Add agents/__init__.py (packaging fix, see defects_found_and_fixed_during_packaging)",
+    "4. Add artifact_path parameter to agents/phase3_3/adapters/intervention_agent.py (packaging fix, additive/backward-compatible)",
+    "5. python scripts/phase3_1_control_reproduction.py  # 30/30 exact -- re-verify no strategy drift",
+    "6. python scripts/phase3_4_regression_tests.py (and all other phase regression scripts)  # 79/79",
+    "7. python scripts/phase3_5_submission_tests.py  # 7/7 new packaging tests",
+    "8. python scripts/phase3_5_build_submission.py  # builds kaggriculture_phase3_4_variantD_submission_A.tar.gz",
+    "9. Extract the built tar.gz to a location outside the repo and run a full 720-turn episode via kaggle_environments from a cold process, different cwd -- confirms the ACTUAL package (not a simulation of it) works standalone"
+  ]
+}

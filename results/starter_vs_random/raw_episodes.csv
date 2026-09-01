@@ -1,0 +1,11 @@
+episode_index,seed,p0,p1,money0,money1,winner,status0,status1,runtime_s
+0,1000,starter,random,3516.0,0.0,0,DONE,DONE,1.200
+1,1001,starter,random,3464.0,0.0,0,DONE,DONE,1.191
+2,1002,starter,random,3675.0,0.0,0,DONE,DONE,1.570
+3,1003,starter,random,3876.0,0.0,0,DONE,DONE,1.574
+4,1004,starter,random,3624.0,0.0,0,DONE,DONE,1.742
+5,1005,starter,random,3421.0,170.0,0,DONE,DONE,1.541
+6,1006,starter,random,3550.0,0.0,0,DONE,DONE,1.634
+7,1007,starter,random,3614.0,0.0,0,DONE,DONE,1.544
+8,1008,starter,random,3466.0,80.0,0,DONE,DONE,1.593
+9,1009,starter,random,3660.0,0.0,0,DONE,DONE,1.502

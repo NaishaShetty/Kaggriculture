@@ -1,0 +1,72 @@
+{
+  "a1_formula_reverification": {
+    "checked": 6480,
+    "mismatches": 0,
+    "verified": true
+  },
+  "a2_town_driven_recovery": {
+    "WHEAT": {
+      "last_player_txn_turn": 697,
+      "turns_checked": 21,
+      "fully_town_explained": 21,
+      "unexplained_examples": [],
+      "verified": true
+    },
+    "CARROT": {
+      "last_player_txn_turn": -1,
+      "turns_checked": 719,
+      "fully_town_explained": 719,
+      "unexplained_examples": [],
+      "verified": true
+    },
+    "TOMATO": {
+      "last_player_txn_turn": -1,
+      "turns_checked": 719,
+      "fully_town_explained": 719,
+      "unexplained_examples": [],
+      "verified": true
+    },
+    "STRAWBERRY": {
+      "last_player_txn_turn": -1,
+      "turns_checked": 719,
+      "fully_town_explained": 719,
+      "unexplained_examples": [],
+      "verified": true
+    },
+    "MELON": {
+      "last_player_txn_turn": 601,
+      "turns_checked": 117,
+      "fully_town_explained": 117,
+      "unexplained_examples": [],
+      "verified": true
+    },
+    "EGG": {
+      "last_player_txn_turn": 697,
+      "turns_checked": 21,
+      "fully_town_explained": 21,
+      "unexplained_examples": [],
+      "verified": true
+    },
+    "MILK": {
+      "last_player_txn_turn": 481,
+      "turns_checked": 237,
+      "fully_town_explained": 237,
+      "unexplained_examples": [],
+      "verified": true
+    },
+    "WOOL": {
+      "last_player_txn_turn": -1,
+      "turns_checked": 719,
+      "fully_town_explained": 719,
+      "unexplained_examples": [],
+      "verified": true
+    },
+    "FERTILIZER": {
+      "last_player_txn_turn": -1,
+      "turns_checked": 719,
+      "fully_town_explained": 719,
+      "unexplained_examples": [],
+      "verified": true
+    }
+  }
+}

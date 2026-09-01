@@ -1,0 +1,141 @@
+{
+  "phase": "2.5",
+  "title": "Economic Knowledge Inventory",
+  "purpose": "Audit of every economic quantity established across Phase 1/2.0-2.4 before building the Unified Economic Model, per the Phase 2.5 brief step 1. Categories: VERIFIED_MECHANIC (confirmed by direct source-code reading), EXPERIMENTALLY_VALIDATED (confirmed by controlled episodes, independently re-validated on separate seeds), STRONG_EMPIRICAL_SIGNAL (confirmed by controlled episodes, not independently re-validated, or validated with caveats), HYPOTHESIS (proposed, not yet tested), UNKNOWN (identified as an open question, no evidence either way).",
+  "sources": [
+    "docs/00_official_overview_raw.md, docs/01_mechanics_reference.md (Phase 1 documented/verified mechanics)",
+    "docs/PHASE2_2_REPORT.md (crop production economics)",
+    "results/phase2_3/knowledge_base.json (F1-F13: labor, land, animals, fertilizer, capital timing, inventory)",
+    "results/phase2_4/knowledge_base.json (F14-F19: market mechanics, selling policy, horizon stranding)",
+    "vendor_kaggriculture/kaggriculture.py (ground truth for every VERIFIED_MECHANIC entry)"
+  ],
+  "contradictions_and_ambiguities_flagged": [
+    {
+      "topic": "shed capacity relevance",
+      "issue": "Phase 2.3's F12 says shed capacity 'did not bind' (a near-universal-sounding claim); Phase 2.4's F16/F17 show a DIFFERENT mechanism (horizon stranding) can produce near-total unsold-inventory losses that LOOK superficially like an inventory-capacity problem but are mechanically distinct (verified: inventory conservation was exact, shed never overflowed in the F16 collapse cases).",
+      "resolution": "NOT silently merged. Kept as two separate model constraints (see Unified Economic Model section 4: shed_overflow_risk vs horizon_stranding_risk). F12 stands for passive selling; F17 narrows exactly when shed overflow itself becomes relevant (a rarely-met sell threshold with the overflow safety valve disabled) -- these are compatible, not contradictory, once the two mechanisms are told apart.",
+      "status": "RESOLVED, not silently -- documented as two distinct constraints throughout this phase."
+    },
+    {
+      "topic": "does market-aware selling help?",
+      "issue": "F14 (yes, for simple single-crop configs) and F19 (no reliable effect for the strongest integrated config) could be misread as contradictory.",
+      "resolution": "NOT a contradiction -- they are findings at different production-portfolio complexity levels. The Unified Economic Model treats selling-policy value as CONDITIONAL on production-portfolio complexity (see section 3), not a universal constant.",
+      "status": "RESOLVED -- both findings preserved verbatim, model made conditional rather than picking one."
+    },
+    {
+      "topic": "WHEAT vs MELON proportional benefit from market-aware selling",
+      "issue": "F14 found WHEAT's proportional gain (5.5%) exceeded MELON's (2.2%), which was NOT the pre-registered hypothesis (steep-curve MELON was expected to benefit more).",
+      "resolution": "Preserved as a rejected hypothesis, not silently corrected to fit intuition. The Unified Economic Model does not assume price-curve steepness alone predicts selling-policy value -- see section 3's explicit caveat.",
+      "status": "OPEN -- flagged as HYPOTHESIS-level uncertainty (single best-policy-per-crop comparison, not a full sweep, per F14's own confidence note)."
+    }
+  ],
+  "inventory": {
+    "1_crops": [
+      {"item": "Seed cost, first_yield_day, max_yield_day, interval, max_yield per crop (WHEAT/CARROT/TOMATO/STRAWBERRY/MELON)", "category": "VERIFIED_MECHANIC", "evidence": "vendor_kaggriculture/kaggriculture.py::CROPS, cross-checked against real episodes in Phase 2.2 section 4 lifecycle verification"},
+      {"item": "Revenue/tile-day ranking: MELON(69.5) > STRAWBERRY(42.9) > CARROT(16.4) ~= TOMATO(16.0) > WHEAT(14.7)", "category": "EXPERIMENTALLY_VALIDATED", "evidence": "Phase 2.2 section 6, n=150 (isolated production, paired seeds, 2 opponents)"},
+      {"item": "Isolated dominance over pass/starter does NOT predict standing vs the frozen baseline (CARROT: 100% win vs pass/starter but only 33% vs baseline)", "category": "EXPERIMENTALLY_VALIDATED", "evidence": "Phase 2.2 section 9, n=75 head-to-head"},
+      {"item": "Late planting (delay>=20 days) zeros out MELON/STRAWBERRY harvests entirely (capital stranded)", "category": "EXPERIMENTALLY_VALIDATED", "evidence": "Phase 2.2 section 8 timing experiment, n=90"},
+      {"item": "Single-farmer watering capacity (not crop economics alone) constrains ongoing-crop (TOMATO/STRAWBERRY) land utilization via weed conversion", "category": "EXPERIMENTALLY_VALIDATED", "evidence": "Phase 2.2 section 5, confirmed at scale in section 6"},
+      {"item": "Diversifying WHEAT into a higher-value crop's land reduces total money vs. the higher-value crop alone, monotonically with allocation", "category": "EXPERIMENTALLY_VALIDATED", "evidence": "Phase 2.2 section 13, n=56"},
+      {"item": "Whether this crop-diversification finding holds for non-WHEAT-anchored pairs (e.g. CARROT+MELON)", "category": "UNKNOWN", "evidence": "Phase 2.2 explicitly only tested WHEAT-anchored pairs"}
+    ],
+    "2_crop_timing": [
+      {"item": "Planting-day-relative-to-horizon effect is monotonic and severe for slow crops", "category": "EXPERIMENTALLY_VALIDATED", "evidence": "Phase 2.2 section 8"},
+      {"item": "Only 3 discrete timing points (0/10/20) were tested, not a continuous sweep -- the exact safe-planting-deadline function is interpolated, not directly measured at every day", "category": "HYPOTHESIS", "evidence": "Phase 2.2's own documented limitation, section 8"}
+    ],
+    "3_watering": [
+      {"item": "Every crop requires daily watering; 2 consecutive missed days -> weed (unrecoverable without DIG)", "category": "VERIFIED_MECHANIC", "evidence": "kaggriculture.py::_daily_refresh_plants, cross-checked Phase 2.2 section 11"},
+      {"item": "Watering during a one-time crop's bonus window adds yield; fertilized watering doubles the bonus", "category": "VERIFIED_MECHANIC", "evidence": "kaggriculture.py WATER handler"}
+    ],
+    "4_fertilizer": [
+      {"item": "A naive single-farmer bought-fertilizer policy is net-negative for every crop tested (fetch-overhead exceeds yield gain)", "category": "EXPERIMENTALLY_VALIDATED", "evidence": "Phase 2.2 section 10, n=40"},
+      {"item": "Bought fertilizer REMAINS net-negative even with 2 extra hands (F8)", "category": "EXPERIMENTALLY_VALIDATED", "evidence": "Phase 2.3 a4_fertilizer_retest, independently validated Stage D, n=10"},
+      {"item": "Animal-collected (free) fertilizer is mildly POSITIVE or neutral, unlike bought fertilizer (F9)", "category": "STRONG_EMPIRICAL_SIGNAL", "evidence": "Phase 2.3 c4_animal_x_fertilizer, n=32, not independently re-validated on its own (F9 not in the Stage D validation set)"},
+      {"item": "FERTILIZE doubles per-day yield bonus for 3 days, contingent on watering", "category": "VERIFIED_MECHANIC", "evidence": "kaggriculture.py FERTILIZE handler"}
+    ],
+    "5_labor": [
+      {"item": "Hire cost = fib(hires_today)*mult, resets daily (hands cleared at end of day)", "category": "VERIFIED_MECHANIC", "evidence": "kaggriculture.py::_do_hire, _end_of_day"},
+      {"item": "Marginal hand value diminishes and turns negative past ~2-3 hands for a single-crop farm (F1)", "category": "EXPERIMENTALLY_VALIDATED", "evidence": "Phase 2.3 a1_labor_sweep (n=60) + c2_labor_x_crop (n=72), independently validated Stage D (n=20)"},
+      {"item": "Congestion-sensitive ongoing crops (STRAWBERRY) gain proportionally more from hands than fast one-time crops (F2)", "category": "STRONG_EMPIRICAL_SIGNAL", "evidence": "Phase 2.3 c2_labor_x_crop, n=72, not independently re-validated"},
+      {"item": "A single animal needs exactly ~1 worker; extra hands are pure net cost for animal-only operations (F6)", "category": "STRONG_EMPIRICAL_SIGNAL", "evidence": "Phase 2.3 a3_animal_lifecycle, n=36"},
+      {"item": "Exact labor optimum for portfolios with MORE total work available (multiple crops/animals) to absorb hands", "category": "UNKNOWN", "evidence": "Phase 2.3 explicitly flagged as untested"}
+    ],
+    "6_land": [
+      {"item": "Land prices $1k/$2k/$4k sequential (NE/SW/SE order), $0 build cost for coop/pasture", "category": "VERIFIED_MECHANIC", "evidence": "kaggriculture.py::LAND_PRICES, LAND_ORDER, BUILD_COOP/BUILD_PASTURE handlers"},
+      {"item": "Land purchased immediately (day 0) is net-negative at every labor level tested, for a MELON-anchored single-crop portfolio (F3)", "category": "EXPERIMENTALLY_VALIDATED", "evidence": "Phase 2.3 a2_land_sweep (n=48) + c1_land_x_labor (n=72), partially independently validated (0-quadrant baseline only, Stage D n=10)"},
+      {"item": "Land and labor interact NEGATIVELY (substitutes, not complements) for this same portfolio (F4)", "category": "STRONG_EMPIRICAL_SIGNAL", "evidence": "Phase 2.3 c1_land_x_labor, n=72, not independently re-validated"},
+      {"item": "Land bought LATE (day 20) outperforms land bought EARLY (day 0) -- the opposite of the crop-timing pattern (F10)", "category": "STRONG_EMPIRICAL_SIGNAL", "evidence": "Phase 2.3 c5_capital_x_horizon land sub-cells, n=24, not independently re-validated"},
+      {"item": "Whether land negativity (F3) holds for a LAND-HUNGRY crop mix (multiple simultaneous high-tile-day crops) rather than one crop", "category": "UNKNOWN", "evidence": "Phase 2.3 explicitly flagged as untested -- only MELON-anchored land cells tested"}
+    ],
+    "7_animals": [
+      {"item": "GOOSE/COW/SHEEP cost, structure, first_yield_day, interval, max_held, product", "category": "VERIFIED_MECHANIC", "evidence": "kaggriculture.py::ANIMALS"},
+      {"item": "2 consecutive unfed days -> animal escapes (structure survives, animal lost)", "category": "VERIFIED_MECHANIC", "evidence": "kaggriculture.py::_daily_refresh_animals"},
+      {"item": "COW and SHEEP clearly outperform GOOSE despite GOOSE producing the MOST units (egg base price $50 vs milk $160/wool $200) (F5)", "category": "EXPERIMENTALLY_VALIDATED", "evidence": "Phase 2.3 a3_animal_lifecycle, n=36; ranking direction independently validated via Stage D COW cell, n=10 (exact dollar magnitude carries more uncertainty, ~6% variance on re-validation)"},
+      {"item": "Crop+animal combos are SUB-ADDITIVE (real labor competition) but still net-POSITIVE vs. crop-alone, for one animal (F7)", "category": "EXPERIMENTALLY_VALIDATED", "evidence": "Phase 2.3 c3_animal_x_crop, n=32, independently validated Stage D, n=10 (near-exact reproduction, within $8)"},
+      {"item": "Whether animal-crop sub-additivity worsens as animal COUNT scales beyond 1", "category": "UNKNOWN", "evidence": "Phase 2.3 explicitly flagged as untested"}
+    ],
+    "8_feed": [
+      {"item": "FEED consumes 1 WHEAT, sets fed_today; wheat obtainable by growing or BUY_PRODUCT at dynamic price", "category": "VERIFIED_MECHANIC", "evidence": "kaggriculture.py FEED handler"},
+      {"item": "Feed-wheat opportunity cost (grown vs. bought) was never isolated as its own controlled variable -- feed_source='auto'/'market'/'grow' exists in the agent framework but no experiment specifically compared them head-to-head", "category": "UNKNOWN", "evidence": "agents/phase2_3/common.py and agents/phase2_4/common.py both implement this option; no Phase 2.3/2.4 experiment group varied it as an IV"}
+    ],
+    "9_care": [
+      {"item": "CARE + FEED same day banks a production bonus for the next scheduled production day (pending_care_bonus)", "category": "VERIFIED_MECHANIC", "evidence": "kaggriculture.py::_daily_refresh_animals"},
+      {"item": "The dollar value of the care bonus specifically (isolated from feeding) was never separately measured -- every Phase 2.3/2.4 animal experiment used care_policy='daily' as a fixed control, never toggled it as an IV", "category": "UNKNOWN", "evidence": "agents/phase2_3/common.py's care_policy parameter exists but was never varied across cells"}
+    ],
+    "10_animal_production": [
+      {"item": "Per-species production rate and yield formula", "category": "VERIFIED_MECHANIC", "evidence": "kaggriculture.py::ANIMALS, _daily_refresh_animals"},
+      {"item": "See 7_animals above for validated relative profitability", "category": "EXPERIMENTALLY_VALIDATED", "evidence": "F5"}
+    ],
+    "11_animal_fertilizer": [
+      {"item": "COLLECT_FERTILIZER: 1/day/animal, non-accumulating, free", "category": "VERIFIED_MECHANIC", "evidence": "kaggriculture.py COLLECT_FERTILIZER handler"},
+      {"item": "Animal-collected fertilizer applied to crops is mildly positive/neutral, unlike bought fertilizer (F9)", "category": "STRONG_EMPIRICAL_SIGNAL", "evidence": "Phase 2.3 c4_animal_x_fertilizer, n=32"}
+    ],
+    "12_shed_inventory": [
+      {"item": "Shed capacity 100 units (non-seed items), overflow discarded at PICKUP/DROP/BUY time and at end-of-day auto-drop", "category": "VERIFIED_MECHANIC", "evidence": "kaggriculture.py, shedCapacity default, _drop_inventories_to_shed"},
+      {"item": "Shed capacity did NOT bind for the highest-throughput config tested under PASSIVE selling (F12)", "category": "EXPERIMENTALLY_VALIDATED", "evidence": "Phase 2.3 c6_inventory_bottleneck, n=16, independently validated Stage D, n=10"},
+      {"item": "Genuine shed overflow DOES occur under an aggressive, rarely-met sell threshold with the overflow safety valve disabled (F17)", "category": "EXPERIMENTALLY_VALIDATED", "evidence": "Phase 2.4 d1_inventory_holding, n=8 for the specific threshold_1.3/safety-off cell"},
+      {"item": "Horizon stranding (F16) is mechanically DIFFERENT from shed overflow -- confirmed via exact inventory conservation in the collapse cases (units genuinely unsold, not discarded)", "category": "EXPERIMENTALLY_VALIDATED", "evidence": "Phase 2.4 c1/d1 batch cells, direct raw-episode inspection"}
+    ],
+    "13_capital_allocation": [
+      {"item": "Starting capital $3000; every purchase category's exact price is documented/verified (seeds, animals, land, hire, fertilizer)", "category": "VERIFIED_MECHANIC", "evidence": "kaggriculture.py constants"},
+      {"item": "Capital-timing effects are ASSET-SPECIFIC: animals reward early investment (F11), land rewards late investment (F10) -- opposite directions for two asset classes tested in the identical experimental design", "category": "STRONG_EMPIRICAL_SIGNAL", "evidence": "Phase 2.3 c5_capital_x_horizon, n=48 total, land-side independently checked for internal consistency only (not re-validated on fresh seeds)"},
+      {"item": "Whether the same asset-specific timing pattern holds for OTHER assets (fertilizer purchase timing, seed-buying timing beyond what Phase 2.2 already tested) -- not tested", "category": "UNKNOWN", "evidence": "Only land and one animal type (GOOSE) were tested in the capital x horizon design"}
+    ],
+    "14_crop_animal_combinations": [
+      {"item": "Crop+animal is sub-additive but net-positive for one animal (F7); see 7_animals", "category": "EXPERIMENTALLY_VALIDATED", "evidence": "F7"},
+      {"item": "The single strongest tested integrated config (2 crops + 2 animals + extra land + 4 hands) beat the frozen baseline by the largest margin of any strategy tested across all phases (F13)", "category": "EXPERIMENTALLY_VALIDATED", "evidence": "Phase 2.3 F13, independently validated Stage D h2h n=10, and again in Phase 2.4 Stage F h2h n=10 (both passive and market-aware variants)"},
+      {"item": "This is NOT claimed to be the GLOBAL optimum -- no exhaustive search over the full crop x animal x land x labor combinatorial space was performed at any phase", "category": "HYPOTHESIS", "evidence": "Explicitly stated as a limitation in both Phase 2.3 and 2.4 reports ('What Phase X does not claim')"}
+    ],
+    "15_selling_liquidation_timing": [
+      {"item": "SELL/BUY_PRODUCT price is a pure, deterministic function of CURRENT market inventory -- no independent time-decay, no path memory", "category": "VERIFIED_MECHANIC", "evidence": "kaggriculture.py::market_price/_refresh_prices, re-verified fresh Phase 2.4 Stage A, 6480/6480 exact"},
+      {"item": "Threshold/batch/threshold_batch selling beats passive for simple single-crop configs (F14)", "category": "EXPERIMENTALLY_VALIDATED", "evidence": "Phase 2.3/2.4 b1_sale_timing_by_crop, n=112, independently validated Stage F, n=20"},
+      {"item": "Pure periodic batch selling can strand an entire late-season harvest unsold if the last trigger day precedes the harvest concentration (F16)", "category": "EXPERIMENTALLY_VALIDATED", "evidence": "Phase 2.4 c1/d1, n=24 collapse cells, direct raw-episode root-cause confirmation"},
+      {"item": "Market-aware selling does NOT reliably beat passive selling for the strongest integrated production config (F19, null result -- must not be reinterpreted as a market-aware win)", "category": "EXPERIMENTALLY_VALIDATED", "evidence": "Phase 2.4 Stage F head-to-head, n=10 shared seeds, 5/10 vs 5/10 split"}
+    ],
+    "16_town_demand": [
+      {"item": "Town shops consume every townShopSellInterval turns (default 4); town center every townCenterSellInterval turns (default 24)", "category": "VERIFIED_MECHANIC", "evidence": "kaggriculture.py::_town_consume, MARKET_PARAMS defaults"},
+      {"item": "Price recovery after a sale is 100% explained by town consumption alone, zero unexplained drift, for all 9 products", "category": "EXPERIMENTALLY_VALIDATED", "evidence": "Phase 2.4 Stage A part 2, direct turn-by-turn reconciliation over a full 720-turn episode"},
+      {"item": "Selling right after a consumption tick beats selling right before by a small, consistent margin (F18)", "category": "EXPERIMENTALLY_VALIDATED", "evidence": "Phase 2.4 e1_town_demand_timing, n=32, independently validated Stage F, n=10"}
+    ],
+    "17_dynamic_market_prices": [
+      {"item": "Exact price formula per product (base, I0, T, below/above func+target)", "category": "VERIFIED_MECHANIC", "evidence": "kaggriculture.py::MARKET_PARAMS, re-verified fresh Phase 2.4 Stage A"},
+      {"item": "Cross-product price coupling (does selling one product move another's price)", "category": "UNKNOWN", "evidence": "Phase 2.4 explicitly flagged as untested -- Stage A only confirmed each product's price depends on ITS OWN inventory; no experiment tested for indirect coupling via, e.g., shared action-time competition or opponent behavior"}
+    ],
+    "18_action_time_opportunity_cost": [
+      {"item": "action_efficiency metrics (productive_action_rate, movement_fraction, market_action_fraction) are measured every episode", "category": "VERIFIED_MECHANIC", "evidence": "instrumentation/metrics.py::action_efficiency, exercised in every Phase 2.2-2.4 experiment"},
+      {"item": "Revenue/action and revenue/tile-day are reported per crop (Phase 2.2) as the dollar-per-scarce-resource metrics", "category": "EXPERIMENTALLY_VALIDATED", "evidence": "Phase 2.2 section 6"},
+      {"item": "No experiment ever isolated the marginal dollar value of ONE additional action/turn directly (e.g. via an artificially shortened episode) -- action opportunity cost is inferred from labor/land experiments, not measured as its own independent variable", "category": "HYPOTHESIS", "evidence": "No dedicated action-scarcity experiment exists in any phase to date"}
+    ],
+    "19_end_of_episode_liquidation": [
+      {"item": "Reward = final bank balance; unsold shed/inventory items do NOT count", "category": "VERIFIED_MECHANIC", "evidence": "docs/00_official_overview_raw.md Win Condition section, kaggriculture.py reward assignment"},
+      {"item": "Late planting strands capital via zero harvests (crop-side terminal risk, Phase 2.2)", "category": "EXPERIMENTALLY_VALIDATED", "evidence": "Phase 2.2 section 8"},
+      {"item": "Late selling-schedule strands capital via unsold-but-harvested inventory (selling-side terminal risk, F16) -- a DISTINCT, newly-discovered terminal risk not previously modeled", "category": "EXPERIMENTALLY_VALIDATED", "evidence": "Phase 2.4 F16"},
+      {"item": "No 'Latest Safe Harvest'/'Latest Safe Sale' deadline has been FORMALIZED as a reusable function before this phase -- both risks were observed as episode outcomes, not yet converted into a predictive deadline formula", "category": "HYPOTHESIS", "evidence": "This gap is exactly what Phase 2.5 step 10 asks to build -- see Unified Economic Model section 7"}
+    ],
+    "20_opponent_observable_info": [
+      {"item": "Opponent's tiles/positions/money/unlocked-quadrants are PUBLIC (shared object); shed/seeds/carried-inventory are PRIVATE", "category": "VERIFIED_MECHANIC", "evidence": "Phase 2.1 architecture doc section 1/10, kaggriculture.py _initialize/interpreter"},
+      {"item": "Every Phase 2.2-2.4 economic experiment used a PASSIVE opponent (pass) to isolate single-agent economics -- head-to-head vs. the frozen (non-passive but non-adaptive) baseline_agent.py was tested only as a FINAL validation step, never as a variable within an economic experiment", "category": "VERIFIED_MECHANIC (about experiment design)", "evidence": "Explicit design choice, stated in every phase's brief and report"},
+      {"item": "Whether an opponent's own market participation (buying/selling the same products) materially changes any Phase 2.2-2.4 finding", "category": "UNKNOWN", "evidence": "Explicitly out of scope through Phase 2.4; flagged for Phase 3 in every prior phase's report"}
+    ]
+  }
+}

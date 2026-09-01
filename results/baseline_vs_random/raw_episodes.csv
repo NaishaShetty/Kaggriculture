@@ -1,0 +1,16 @@
+episode_index,seed,p0,p1,money0,money1,winner,status0,status1,runtime_s
+0,200,../agents/baseline_agent.py,random,5711.0,0.0,0,DONE,DONE,1.603
+1,201,../agents/baseline_agent.py,random,5318.0,0.0,0,DONE,DONE,1.953
+2,202,../agents/baseline_agent.py,random,4716.0,0.0,0,DONE,DONE,1.853
+3,203,../agents/baseline_agent.py,random,5053.0,0.0,0,DONE,DONE,1.825
+4,204,../agents/baseline_agent.py,random,5538.0,0.0,0,DONE,DONE,2.095
+5,205,../agents/baseline_agent.py,random,4858.0,0.0,0,DONE,DONE,2.030
+6,206,../agents/baseline_agent.py,random,5507.0,0.0,0,DONE,DONE,1.595
+7,207,../agents/baseline_agent.py,random,5611.0,0.0,0,DONE,DONE,1.649
+8,208,../agents/baseline_agent.py,random,5048.0,0.0,0,DONE,DONE,1.860
+9,209,../agents/baseline_agent.py,random,5109.0,0.0,0,DONE,DONE,1.677
+10,210,../agents/baseline_agent.py,random,5448.0,580.0,0,DONE,DONE,1.670
+11,211,../agents/baseline_agent.py,random,4987.0,0.0,0,DONE,DONE,1.725
+12,212,../agents/baseline_agent.py,random,4716.0,0.0,0,DONE,DONE,1.681
+13,213,../agents/baseline_agent.py,random,5711.0,0.0,0,DONE,DONE,1.555
+14,214,../agents/baseline_agent.py,random,5174.0,0.0,0,DONE,DONE,1.625

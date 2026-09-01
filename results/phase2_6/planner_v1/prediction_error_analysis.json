@@ -1,0 +1,1867 @@
+{
+  "n_total_decisions_analyzed": 180,
+  "by_decision_kind": {
+    "SWITCH_PORTFOLIO": {
+      "n": 30,
+      "mean_predicted": 20584.25,
+      "mean_actual_next_day_cash_delta": -1434.0,
+      "mean_error": -22018.25,
+      "note": "actual_cash_delta_next_day is CONFOUNDED (multiple same-day decisions + ordinary production/selling cash flow all mix together) -- directional/order-of-magnitude comparison only, not a clean per-decision attribution."
+    },
+    "SWITCH_SELL_POLICY": {
+      "n": 30,
+      "mean_predicted": 250.0,
+      "mean_actual_next_day_cash_delta": -1434.0,
+      "mean_error": -1684.0,
+      "note": "actual_cash_delta_next_day is CONFOUNDED (multiple same-day decisions + ordinary production/selling cash flow all mix together) -- directional/order-of-magnitude comparison only, not a clean per-decision attribution."
+    },
+    "HIRE_HAND": {
+      "n": 60,
+      "mean_predicted": 2766,
+      "mean_actual_next_day_cash_delta": -1185.33,
+      "mean_error": -3951.33,
+      "note": "actual_cash_delta_next_day is CONFOUNDED (multiple same-day decisions + ordinary production/selling cash flow all mix together) -- directional/order-of-magnitude comparison only, not a clean per-decision attribution."
+    },
+    "BUY_ANIMAL": {
+      "n": 60,
+      "mean_predicted": 6137.5,
+      "mean_actual_next_day_cash_delta": -1434.0,
+      "mean_error": -7571.5,
+      "note": "actual_cash_delta_next_day is CONFOUNDED (multiple same-day decisions + ordinary production/selling cash flow all mix together) -- directional/order-of-magnitude comparison only, not a clean per-decision attribution."
+    }
+  },
+  "raw_rows": [
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302000.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_PORTFOLIO",
+      "decision_description": "initial crop portfolio choice: melon_solo ({'MELON': 1.0})",
+      "predicted_net_value": 20584.25,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302000.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_SELL_POLICY",
+      "decision_description": "switch selling policy to threshold (currently passive, portfolio has 0 active resource types)",
+      "predicted_net_value": 250.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "VERIFIED_MECHANIC"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302000.jsonl",
+      "day": 0,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #1 (recurring daily cost $1)",
+      "predicted_net_value": 5056,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302000.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a COW (#1) for $400",
+      "predicted_net_value": 6850.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302000.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a SHEEP (#1) for $500",
+      "predicted_net_value": 5425.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "STRONG_EMPIRICAL_SIGNAL"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302000.jsonl",
+      "day": 1,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #2 (recurring daily cost $1)",
+      "predicted_net_value": 476,
+      "actual_cash_delta_next_day": -937.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302001.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_PORTFOLIO",
+      "decision_description": "initial crop portfolio choice: melon_solo ({'MELON': 1.0})",
+      "predicted_net_value": 20584.25,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302001.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_SELL_POLICY",
+      "decision_description": "switch selling policy to threshold (currently passive, portfolio has 0 active resource types)",
+      "predicted_net_value": 250.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "VERIFIED_MECHANIC"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302001.jsonl",
+      "day": 0,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #1 (recurring daily cost $1)",
+      "predicted_net_value": 5056,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302001.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a COW (#1) for $400",
+      "predicted_net_value": 6850.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302001.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a SHEEP (#1) for $500",
+      "predicted_net_value": 5425.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "STRONG_EMPIRICAL_SIGNAL"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302001.jsonl",
+      "day": 1,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #2 (recurring daily cost $1)",
+      "predicted_net_value": 476,
+      "actual_cash_delta_next_day": -937.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302002.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_PORTFOLIO",
+      "decision_description": "initial crop portfolio choice: melon_solo ({'MELON': 1.0})",
+      "predicted_net_value": 20584.25,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302002.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_SELL_POLICY",
+      "decision_description": "switch selling policy to threshold (currently passive, portfolio has 0 active resource types)",
+      "predicted_net_value": 250.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "VERIFIED_MECHANIC"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302002.jsonl",
+      "day": 0,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #1 (recurring daily cost $1)",
+      "predicted_net_value": 5056,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302002.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a COW (#1) for $400",
+      "predicted_net_value": 6850.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302002.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a SHEEP (#1) for $500",
+      "predicted_net_value": 5425.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "STRONG_EMPIRICAL_SIGNAL"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302002.jsonl",
+      "day": 1,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #2 (recurring daily cost $1)",
+      "predicted_net_value": 476,
+      "actual_cash_delta_next_day": -937.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302003.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_PORTFOLIO",
+      "decision_description": "initial crop portfolio choice: melon_solo ({'MELON': 1.0})",
+      "predicted_net_value": 20584.25,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302003.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_SELL_POLICY",
+      "decision_description": "switch selling policy to threshold (currently passive, portfolio has 0 active resource types)",
+      "predicted_net_value": 250.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "VERIFIED_MECHANIC"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302003.jsonl",
+      "day": 0,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #1 (recurring daily cost $1)",
+      "predicted_net_value": 5056,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302003.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a COW (#1) for $400",
+      "predicted_net_value": 6850.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302003.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a SHEEP (#1) for $500",
+      "predicted_net_value": 5425.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "STRONG_EMPIRICAL_SIGNAL"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302003.jsonl",
+      "day": 1,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #2 (recurring daily cost $1)",
+      "predicted_net_value": 476,
+      "actual_cash_delta_next_day": -937.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302004.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_PORTFOLIO",
+      "decision_description": "initial crop portfolio choice: melon_solo ({'MELON': 1.0})",
+      "predicted_net_value": 20584.25,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302004.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_SELL_POLICY",
+      "decision_description": "switch selling policy to threshold (currently passive, portfolio has 0 active resource types)",
+      "predicted_net_value": 250.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "VERIFIED_MECHANIC"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302004.jsonl",
+      "day": 0,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #1 (recurring daily cost $1)",
+      "predicted_net_value": 5056,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302004.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a COW (#1) for $400",
+      "predicted_net_value": 6850.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302004.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a SHEEP (#1) for $500",
+      "predicted_net_value": 5425.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "STRONG_EMPIRICAL_SIGNAL"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302004.jsonl",
+      "day": 1,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #2 (recurring daily cost $1)",
+      "predicted_net_value": 476,
+      "actual_cash_delta_next_day": -937.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302005.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_PORTFOLIO",
+      "decision_description": "initial crop portfolio choice: melon_solo ({'MELON': 1.0})",
+      "predicted_net_value": 20584.25,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302005.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_SELL_POLICY",
+      "decision_description": "switch selling policy to threshold (currently passive, portfolio has 0 active resource types)",
+      "predicted_net_value": 250.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "VERIFIED_MECHANIC"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302005.jsonl",
+      "day": 0,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #1 (recurring daily cost $1)",
+      "predicted_net_value": 5056,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302005.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a COW (#1) for $400",
+      "predicted_net_value": 6850.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302005.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a SHEEP (#1) for $500",
+      "predicted_net_value": 5425.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "STRONG_EMPIRICAL_SIGNAL"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302005.jsonl",
+      "day": 1,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #2 (recurring daily cost $1)",
+      "predicted_net_value": 476,
+      "actual_cash_delta_next_day": -937.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302006.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_PORTFOLIO",
+      "decision_description": "initial crop portfolio choice: melon_solo ({'MELON': 1.0})",
+      "predicted_net_value": 20584.25,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302006.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_SELL_POLICY",
+      "decision_description": "switch selling policy to threshold (currently passive, portfolio has 0 active resource types)",
+      "predicted_net_value": 250.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "VERIFIED_MECHANIC"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302006.jsonl",
+      "day": 0,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #1 (recurring daily cost $1)",
+      "predicted_net_value": 5056,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302006.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a COW (#1) for $400",
+      "predicted_net_value": 6850.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302006.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a SHEEP (#1) for $500",
+      "predicted_net_value": 5425.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "STRONG_EMPIRICAL_SIGNAL"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302006.jsonl",
+      "day": 1,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #2 (recurring daily cost $1)",
+      "predicted_net_value": 476,
+      "actual_cash_delta_next_day": -937.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302007.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_PORTFOLIO",
+      "decision_description": "initial crop portfolio choice: melon_solo ({'MELON': 1.0})",
+      "predicted_net_value": 20584.25,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302007.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_SELL_POLICY",
+      "decision_description": "switch selling policy to threshold (currently passive, portfolio has 0 active resource types)",
+      "predicted_net_value": 250.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "VERIFIED_MECHANIC"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302007.jsonl",
+      "day": 0,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #1 (recurring daily cost $1)",
+      "predicted_net_value": 5056,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302007.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a COW (#1) for $400",
+      "predicted_net_value": 6850.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302007.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a SHEEP (#1) for $500",
+      "predicted_net_value": 5425.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "STRONG_EMPIRICAL_SIGNAL"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302007.jsonl",
+      "day": 1,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #2 (recurring daily cost $1)",
+      "predicted_net_value": 476,
+      "actual_cash_delta_next_day": -937.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302008.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_PORTFOLIO",
+      "decision_description": "initial crop portfolio choice: melon_solo ({'MELON': 1.0})",
+      "predicted_net_value": 20584.25,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302008.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_SELL_POLICY",
+      "decision_description": "switch selling policy to threshold (currently passive, portfolio has 0 active resource types)",
+      "predicted_net_value": 250.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "VERIFIED_MECHANIC"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302008.jsonl",
+      "day": 0,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #1 (recurring daily cost $1)",
+      "predicted_net_value": 5056,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302008.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a COW (#1) for $400",
+      "predicted_net_value": 6850.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302008.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a SHEEP (#1) for $500",
+      "predicted_net_value": 5425.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "STRONG_EMPIRICAL_SIGNAL"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302008.jsonl",
+      "day": 1,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #2 (recurring daily cost $1)",
+      "predicted_net_value": 476,
+      "actual_cash_delta_next_day": -937.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302009.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_PORTFOLIO",
+      "decision_description": "initial crop portfolio choice: melon_solo ({'MELON': 1.0})",
+      "predicted_net_value": 20584.25,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302009.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_SELL_POLICY",
+      "decision_description": "switch selling policy to threshold (currently passive, portfolio has 0 active resource types)",
+      "predicted_net_value": 250.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "VERIFIED_MECHANIC"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302009.jsonl",
+      "day": 0,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #1 (recurring daily cost $1)",
+      "predicted_net_value": 5056,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302009.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a COW (#1) for $400",
+      "predicted_net_value": 6850.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302009.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a SHEEP (#1) for $500",
+      "predicted_net_value": 5425.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "STRONG_EMPIRICAL_SIGNAL"
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302009.jsonl",
+      "day": 1,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #2 (recurring daily cost $1)",
+      "predicted_net_value": 476,
+      "actual_cash_delta_next_day": -937.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302000.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_PORTFOLIO",
+      "decision_description": "initial crop portfolio choice: melon_solo ({'MELON': 1.0})",
+      "predicted_net_value": 20584.25,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302000.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_SELL_POLICY",
+      "decision_description": "switch selling policy to threshold (currently passive, portfolio has 0 active resource types)",
+      "predicted_net_value": 250.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "VERIFIED_MECHANIC"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302000.jsonl",
+      "day": 0,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #1 (recurring daily cost $1)",
+      "predicted_net_value": 5056,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302000.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a COW (#1) for $400",
+      "predicted_net_value": 6850.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302000.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a SHEEP (#1) for $500",
+      "predicted_net_value": 5425.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "STRONG_EMPIRICAL_SIGNAL"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302000.jsonl",
+      "day": 1,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #2 (recurring daily cost $1)",
+      "predicted_net_value": 476,
+      "actual_cash_delta_next_day": -937.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302001.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_PORTFOLIO",
+      "decision_description": "initial crop portfolio choice: melon_solo ({'MELON': 1.0})",
+      "predicted_net_value": 20584.25,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302001.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_SELL_POLICY",
+      "decision_description": "switch selling policy to threshold (currently passive, portfolio has 0 active resource types)",
+      "predicted_net_value": 250.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "VERIFIED_MECHANIC"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302001.jsonl",
+      "day": 0,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #1 (recurring daily cost $1)",
+      "predicted_net_value": 5056,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302001.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a COW (#1) for $400",
+      "predicted_net_value": 6850.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302001.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a SHEEP (#1) for $500",
+      "predicted_net_value": 5425.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "STRONG_EMPIRICAL_SIGNAL"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302001.jsonl",
+      "day": 1,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #2 (recurring daily cost $1)",
+      "predicted_net_value": 476,
+      "actual_cash_delta_next_day": -937.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302002.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_PORTFOLIO",
+      "decision_description": "initial crop portfolio choice: melon_solo ({'MELON': 1.0})",
+      "predicted_net_value": 20584.25,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302002.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_SELL_POLICY",
+      "decision_description": "switch selling policy to threshold (currently passive, portfolio has 0 active resource types)",
+      "predicted_net_value": 250.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "VERIFIED_MECHANIC"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302002.jsonl",
+      "day": 0,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #1 (recurring daily cost $1)",
+      "predicted_net_value": 5056,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302002.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a COW (#1) for $400",
+      "predicted_net_value": 6850.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302002.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a SHEEP (#1) for $500",
+      "predicted_net_value": 5425.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "STRONG_EMPIRICAL_SIGNAL"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302002.jsonl",
+      "day": 1,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #2 (recurring daily cost $1)",
+      "predicted_net_value": 476,
+      "actual_cash_delta_next_day": -937.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302003.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_PORTFOLIO",
+      "decision_description": "initial crop portfolio choice: melon_solo ({'MELON': 1.0})",
+      "predicted_net_value": 20584.25,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302003.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_SELL_POLICY",
+      "decision_description": "switch selling policy to threshold (currently passive, portfolio has 0 active resource types)",
+      "predicted_net_value": 250.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "VERIFIED_MECHANIC"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302003.jsonl",
+      "day": 0,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #1 (recurring daily cost $1)",
+      "predicted_net_value": 5056,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302003.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a COW (#1) for $400",
+      "predicted_net_value": 6850.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302003.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a SHEEP (#1) for $500",
+      "predicted_net_value": 5425.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "STRONG_EMPIRICAL_SIGNAL"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302003.jsonl",
+      "day": 1,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #2 (recurring daily cost $1)",
+      "predicted_net_value": 476,
+      "actual_cash_delta_next_day": -937.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302004.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_PORTFOLIO",
+      "decision_description": "initial crop portfolio choice: melon_solo ({'MELON': 1.0})",
+      "predicted_net_value": 20584.25,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302004.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_SELL_POLICY",
+      "decision_description": "switch selling policy to threshold (currently passive, portfolio has 0 active resource types)",
+      "predicted_net_value": 250.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "VERIFIED_MECHANIC"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302004.jsonl",
+      "day": 0,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #1 (recurring daily cost $1)",
+      "predicted_net_value": 5056,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302004.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a COW (#1) for $400",
+      "predicted_net_value": 6850.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302004.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a SHEEP (#1) for $500",
+      "predicted_net_value": 5425.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "STRONG_EMPIRICAL_SIGNAL"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302004.jsonl",
+      "day": 1,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #2 (recurring daily cost $1)",
+      "predicted_net_value": 476,
+      "actual_cash_delta_next_day": -937.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302005.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_PORTFOLIO",
+      "decision_description": "initial crop portfolio choice: melon_solo ({'MELON': 1.0})",
+      "predicted_net_value": 20584.25,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302005.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_SELL_POLICY",
+      "decision_description": "switch selling policy to threshold (currently passive, portfolio has 0 active resource types)",
+      "predicted_net_value": 250.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "VERIFIED_MECHANIC"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302005.jsonl",
+      "day": 0,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #1 (recurring daily cost $1)",
+      "predicted_net_value": 5056,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302005.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a COW (#1) for $400",
+      "predicted_net_value": 6850.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302005.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a SHEEP (#1) for $500",
+      "predicted_net_value": 5425.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "STRONG_EMPIRICAL_SIGNAL"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302005.jsonl",
+      "day": 1,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #2 (recurring daily cost $1)",
+      "predicted_net_value": 476,
+      "actual_cash_delta_next_day": -937.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302006.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_PORTFOLIO",
+      "decision_description": "initial crop portfolio choice: melon_solo ({'MELON': 1.0})",
+      "predicted_net_value": 20584.25,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302006.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_SELL_POLICY",
+      "decision_description": "switch selling policy to threshold (currently passive, portfolio has 0 active resource types)",
+      "predicted_net_value": 250.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "VERIFIED_MECHANIC"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302006.jsonl",
+      "day": 0,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #1 (recurring daily cost $1)",
+      "predicted_net_value": 5056,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302006.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a COW (#1) for $400",
+      "predicted_net_value": 6850.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302006.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a SHEEP (#1) for $500",
+      "predicted_net_value": 5425.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "STRONG_EMPIRICAL_SIGNAL"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302006.jsonl",
+      "day": 1,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #2 (recurring daily cost $1)",
+      "predicted_net_value": 476,
+      "actual_cash_delta_next_day": -937.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302007.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_PORTFOLIO",
+      "decision_description": "initial crop portfolio choice: melon_solo ({'MELON': 1.0})",
+      "predicted_net_value": 20584.25,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302007.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_SELL_POLICY",
+      "decision_description": "switch selling policy to threshold (currently passive, portfolio has 0 active resource types)",
+      "predicted_net_value": 250.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "VERIFIED_MECHANIC"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302007.jsonl",
+      "day": 0,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #1 (recurring daily cost $1)",
+      "predicted_net_value": 5056,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302007.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a COW (#1) for $400",
+      "predicted_net_value": 6850.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302007.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a SHEEP (#1) for $500",
+      "predicted_net_value": 5425.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "STRONG_EMPIRICAL_SIGNAL"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302007.jsonl",
+      "day": 1,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #2 (recurring daily cost $1)",
+      "predicted_net_value": 476,
+      "actual_cash_delta_next_day": -937.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302008.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_PORTFOLIO",
+      "decision_description": "initial crop portfolio choice: melon_solo ({'MELON': 1.0})",
+      "predicted_net_value": 20584.25,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302008.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_SELL_POLICY",
+      "decision_description": "switch selling policy to threshold (currently passive, portfolio has 0 active resource types)",
+      "predicted_net_value": 250.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "VERIFIED_MECHANIC"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302008.jsonl",
+      "day": 0,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #1 (recurring daily cost $1)",
+      "predicted_net_value": 5056,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302008.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a COW (#1) for $400",
+      "predicted_net_value": 6850.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302008.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a SHEEP (#1) for $500",
+      "predicted_net_value": 5425.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "STRONG_EMPIRICAL_SIGNAL"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302008.jsonl",
+      "day": 1,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #2 (recurring daily cost $1)",
+      "predicted_net_value": 476,
+      "actual_cash_delta_next_day": -937.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302009.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_PORTFOLIO",
+      "decision_description": "initial crop portfolio choice: melon_solo ({'MELON': 1.0})",
+      "predicted_net_value": 20584.25,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302009.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_SELL_POLICY",
+      "decision_description": "switch selling policy to threshold (currently passive, portfolio has 0 active resource types)",
+      "predicted_net_value": 250.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "VERIFIED_MECHANIC"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302009.jsonl",
+      "day": 0,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #1 (recurring daily cost $1)",
+      "predicted_net_value": 5056,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302009.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a COW (#1) for $400",
+      "predicted_net_value": 6850.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302009.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a SHEEP (#1) for $500",
+      "predicted_net_value": 5425.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "STRONG_EMPIRICAL_SIGNAL"
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302009.jsonl",
+      "day": 1,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #2 (recurring daily cost $1)",
+      "predicted_net_value": 476,
+      "actual_cash_delta_next_day": -937.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302000.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_PORTFOLIO",
+      "decision_description": "initial crop portfolio choice: melon_solo ({'MELON': 1.0})",
+      "predicted_net_value": 20584.25,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302000.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_SELL_POLICY",
+      "decision_description": "switch selling policy to threshold (currently passive, portfolio has 0 active resource types)",
+      "predicted_net_value": 250.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "VERIFIED_MECHANIC"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302000.jsonl",
+      "day": 0,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #1 (recurring daily cost $1)",
+      "predicted_net_value": 5056,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302000.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a COW (#1) for $400",
+      "predicted_net_value": 6850.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302000.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a SHEEP (#1) for $500",
+      "predicted_net_value": 5425.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "STRONG_EMPIRICAL_SIGNAL"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302000.jsonl",
+      "day": 1,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #2 (recurring daily cost $1)",
+      "predicted_net_value": 476,
+      "actual_cash_delta_next_day": -936.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302001.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_PORTFOLIO",
+      "decision_description": "initial crop portfolio choice: melon_solo ({'MELON': 1.0})",
+      "predicted_net_value": 20584.25,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302001.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_SELL_POLICY",
+      "decision_description": "switch selling policy to threshold (currently passive, portfolio has 0 active resource types)",
+      "predicted_net_value": 250.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "VERIFIED_MECHANIC"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302001.jsonl",
+      "day": 0,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #1 (recurring daily cost $1)",
+      "predicted_net_value": 5056,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302001.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a COW (#1) for $400",
+      "predicted_net_value": 6850.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302001.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a SHEEP (#1) for $500",
+      "predicted_net_value": 5425.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "STRONG_EMPIRICAL_SIGNAL"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302001.jsonl",
+      "day": 1,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #2 (recurring daily cost $1)",
+      "predicted_net_value": 476,
+      "actual_cash_delta_next_day": -936.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302002.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_PORTFOLIO",
+      "decision_description": "initial crop portfolio choice: melon_solo ({'MELON': 1.0})",
+      "predicted_net_value": 20584.25,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302002.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_SELL_POLICY",
+      "decision_description": "switch selling policy to threshold (currently passive, portfolio has 0 active resource types)",
+      "predicted_net_value": 250.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "VERIFIED_MECHANIC"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302002.jsonl",
+      "day": 0,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #1 (recurring daily cost $1)",
+      "predicted_net_value": 5056,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302002.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a COW (#1) for $400",
+      "predicted_net_value": 6850.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302002.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a SHEEP (#1) for $500",
+      "predicted_net_value": 5425.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "STRONG_EMPIRICAL_SIGNAL"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302002.jsonl",
+      "day": 1,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #2 (recurring daily cost $1)",
+      "predicted_net_value": 476,
+      "actual_cash_delta_next_day": -936.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302003.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_PORTFOLIO",
+      "decision_description": "initial crop portfolio choice: melon_solo ({'MELON': 1.0})",
+      "predicted_net_value": 20584.25,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302003.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_SELL_POLICY",
+      "decision_description": "switch selling policy to threshold (currently passive, portfolio has 0 active resource types)",
+      "predicted_net_value": 250.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "VERIFIED_MECHANIC"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302003.jsonl",
+      "day": 0,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #1 (recurring daily cost $1)",
+      "predicted_net_value": 5056,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302003.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a COW (#1) for $400",
+      "predicted_net_value": 6850.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302003.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a SHEEP (#1) for $500",
+      "predicted_net_value": 5425.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "STRONG_EMPIRICAL_SIGNAL"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302003.jsonl",
+      "day": 1,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #2 (recurring daily cost $1)",
+      "predicted_net_value": 476,
+      "actual_cash_delta_next_day": -936.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302004.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_PORTFOLIO",
+      "decision_description": "initial crop portfolio choice: melon_solo ({'MELON': 1.0})",
+      "predicted_net_value": 20584.25,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302004.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_SELL_POLICY",
+      "decision_description": "switch selling policy to threshold (currently passive, portfolio has 0 active resource types)",
+      "predicted_net_value": 250.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "VERIFIED_MECHANIC"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302004.jsonl",
+      "day": 0,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #1 (recurring daily cost $1)",
+      "predicted_net_value": 5056,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302004.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a COW (#1) for $400",
+      "predicted_net_value": 6850.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302004.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a SHEEP (#1) for $500",
+      "predicted_net_value": 5425.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "STRONG_EMPIRICAL_SIGNAL"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302004.jsonl",
+      "day": 1,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #2 (recurring daily cost $1)",
+      "predicted_net_value": 476,
+      "actual_cash_delta_next_day": -936.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302005.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_PORTFOLIO",
+      "decision_description": "initial crop portfolio choice: melon_solo ({'MELON': 1.0})",
+      "predicted_net_value": 20584.25,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302005.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_SELL_POLICY",
+      "decision_description": "switch selling policy to threshold (currently passive, portfolio has 0 active resource types)",
+      "predicted_net_value": 250.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "VERIFIED_MECHANIC"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302005.jsonl",
+      "day": 0,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #1 (recurring daily cost $1)",
+      "predicted_net_value": 5056,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302005.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a COW (#1) for $400",
+      "predicted_net_value": 6850.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302005.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a SHEEP (#1) for $500",
+      "predicted_net_value": 5425.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "STRONG_EMPIRICAL_SIGNAL"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302005.jsonl",
+      "day": 1,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #2 (recurring daily cost $1)",
+      "predicted_net_value": 476,
+      "actual_cash_delta_next_day": -936.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302006.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_PORTFOLIO",
+      "decision_description": "initial crop portfolio choice: melon_solo ({'MELON': 1.0})",
+      "predicted_net_value": 20584.25,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302006.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_SELL_POLICY",
+      "decision_description": "switch selling policy to threshold (currently passive, portfolio has 0 active resource types)",
+      "predicted_net_value": 250.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "VERIFIED_MECHANIC"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302006.jsonl",
+      "day": 0,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #1 (recurring daily cost $1)",
+      "predicted_net_value": 5056,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302006.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a COW (#1) for $400",
+      "predicted_net_value": 6850.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302006.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a SHEEP (#1) for $500",
+      "predicted_net_value": 5425.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "STRONG_EMPIRICAL_SIGNAL"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302006.jsonl",
+      "day": 1,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #2 (recurring daily cost $1)",
+      "predicted_net_value": 476,
+      "actual_cash_delta_next_day": -936.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302007.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_PORTFOLIO",
+      "decision_description": "initial crop portfolio choice: melon_solo ({'MELON': 1.0})",
+      "predicted_net_value": 20584.25,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302007.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_SELL_POLICY",
+      "decision_description": "switch selling policy to threshold (currently passive, portfolio has 0 active resource types)",
+      "predicted_net_value": 250.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "VERIFIED_MECHANIC"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302007.jsonl",
+      "day": 0,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #1 (recurring daily cost $1)",
+      "predicted_net_value": 5056,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302007.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a COW (#1) for $400",
+      "predicted_net_value": 6850.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302007.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a SHEEP (#1) for $500",
+      "predicted_net_value": 5425.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "STRONG_EMPIRICAL_SIGNAL"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302007.jsonl",
+      "day": 1,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #2 (recurring daily cost $1)",
+      "predicted_net_value": 476,
+      "actual_cash_delta_next_day": -936.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302008.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_PORTFOLIO",
+      "decision_description": "initial crop portfolio choice: melon_solo ({'MELON': 1.0})",
+      "predicted_net_value": 20584.25,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302008.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_SELL_POLICY",
+      "decision_description": "switch selling policy to threshold (currently passive, portfolio has 0 active resource types)",
+      "predicted_net_value": 250.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "VERIFIED_MECHANIC"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302008.jsonl",
+      "day": 0,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #1 (recurring daily cost $1)",
+      "predicted_net_value": 5056,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302008.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a COW (#1) for $400",
+      "predicted_net_value": 6850.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302008.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a SHEEP (#1) for $500",
+      "predicted_net_value": 5425.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "STRONG_EMPIRICAL_SIGNAL"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302008.jsonl",
+      "day": 1,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #2 (recurring daily cost $1)",
+      "predicted_net_value": 476,
+      "actual_cash_delta_next_day": -936.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302009.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_PORTFOLIO",
+      "decision_description": "initial crop portfolio choice: melon_solo ({'MELON': 1.0})",
+      "predicted_net_value": 20584.25,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302009.jsonl",
+      "day": 0,
+      "decision_kind": "SWITCH_SELL_POLICY",
+      "decision_description": "switch selling policy to threshold (currently passive, portfolio has 0 active resource types)",
+      "predicted_net_value": 250.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "VERIFIED_MECHANIC"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302009.jsonl",
+      "day": 0,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #1 (recurring daily cost $1)",
+      "predicted_net_value": 5056,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302009.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a COW (#1) for $400",
+      "predicted_net_value": 6850.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302009.jsonl",
+      "day": 0,
+      "decision_kind": "BUY_ANIMAL",
+      "decision_description": "buy a SHEEP (#1) for $500",
+      "predicted_net_value": 5425.0,
+      "actual_cash_delta_next_day": -1434.0,
+      "confidence": "STRONG_EMPIRICAL_SIGNAL"
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302009.jsonl",
+      "day": 1,
+      "decision_kind": "HIRE_HAND",
+      "decision_description": "hire hand #2 (recurring daily cost $1)",
+      "predicted_net_value": 476,
+      "actual_cash_delta_next_day": -936.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED"
+    }
+  ],
+  "episode_aggregate_comparison": [
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302000.jsonl",
+      "total_predicted_value_of_all_decisions": 38641.25,
+      "starting_cash": 3000.0,
+      "last_observed_cash": 23191.0,
+      "note": "last_observed_cash is from the FINAL planning cycle, not literally turn 720 (planning stops once no further day-boundary occurs) -- a lower bound on the episode's actual final money, not the exact reward."
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302001.jsonl",
+      "total_predicted_value_of_all_decisions": 38641.25,
+      "starting_cash": 3000.0,
+      "last_observed_cash": 23651.0,
+      "note": "last_observed_cash is from the FINAL planning cycle, not literally turn 720 (planning stops once no further day-boundary occurs) -- a lower bound on the episode's actual final money, not the exact reward."
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302002.jsonl",
+      "total_predicted_value_of_all_decisions": 38641.25,
+      "starting_cash": 3000.0,
+      "last_observed_cash": 23489.0,
+      "note": "last_observed_cash is from the FINAL planning cycle, not literally turn 720 (planning stops once no further day-boundary occurs) -- a lower bound on the episode's actual final money, not the exact reward."
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302003.jsonl",
+      "total_predicted_value_of_all_decisions": 38641.25,
+      "starting_cash": 3000.0,
+      "last_observed_cash": 23211.0,
+      "note": "last_observed_cash is from the FINAL planning cycle, not literally turn 720 (planning stops once no further day-boundary occurs) -- a lower bound on the episode's actual final money, not the exact reward."
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302004.jsonl",
+      "total_predicted_value_of_all_decisions": 38641.25,
+      "starting_cash": 3000.0,
+      "last_observed_cash": 23500.0,
+      "note": "last_observed_cash is from the FINAL planning cycle, not literally turn 720 (planning stops once no further day-boundary occurs) -- a lower bound on the episode's actual final money, not the exact reward."
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302005.jsonl",
+      "total_predicted_value_of_all_decisions": 38641.25,
+      "starting_cash": 3000.0,
+      "last_observed_cash": 22732.0,
+      "note": "last_observed_cash is from the FINAL planning cycle, not literally turn 720 (planning stops once no further day-boundary occurs) -- a lower bound on the episode's actual final money, not the exact reward."
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302006.jsonl",
+      "total_predicted_value_of_all_decisions": 38641.25,
+      "starting_cash": 3000.0,
+      "last_observed_cash": 26849.0,
+      "note": "last_observed_cash is from the FINAL planning cycle, not literally turn 720 (planning stops once no further day-boundary occurs) -- a lower bound on the episode's actual final money, not the exact reward."
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302007.jsonl",
+      "total_predicted_value_of_all_decisions": 38641.25,
+      "starting_cash": 3000.0,
+      "last_observed_cash": 23952.0,
+      "note": "last_observed_cash is from the FINAL planning cycle, not literally turn 720 (planning stops once no further day-boundary occurs) -- a lower bound on the episode's actual final money, not the exact reward."
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302008.jsonl",
+      "total_predicted_value_of_all_decisions": 38641.25,
+      "starting_cash": 3000.0,
+      "last_observed_cash": 22056.0,
+      "note": "last_observed_cash is from the FINAL planning cycle, not literally turn 720 (planning stops once no further day-boundary occurs) -- a lower bound on the episode's actual final money, not the exact reward."
+    },
+    {
+      "trace_file": "held_out_phase2_3_integrated_seed302009.jsonl",
+      "total_predicted_value_of_all_decisions": 38641.25,
+      "starting_cash": 3000.0,
+      "last_observed_cash": 23619.0,
+      "note": "last_observed_cash is from the FINAL planning cycle, not literally turn 720 (planning stops once no further day-boundary occurs) -- a lower bound on the episode's actual final money, not the exact reward."
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302000.jsonl",
+      "total_predicted_value_of_all_decisions": 38641.25,
+      "starting_cash": 3000.0,
+      "last_observed_cash": 29150.0,
+      "note": "last_observed_cash is from the FINAL planning cycle, not literally turn 720 (planning stops once no further day-boundary occurs) -- a lower bound on the episode's actual final money, not the exact reward."
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302001.jsonl",
+      "total_predicted_value_of_all_decisions": 38641.25,
+      "starting_cash": 3000.0,
+      "last_observed_cash": 28586.0,
+      "note": "last_observed_cash is from the FINAL planning cycle, not literally turn 720 (planning stops once no further day-boundary occurs) -- a lower bound on the episode's actual final money, not the exact reward."
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302002.jsonl",
+      "total_predicted_value_of_all_decisions": 38641.25,
+      "starting_cash": 3000.0,
+      "last_observed_cash": 29448.0,
+      "note": "last_observed_cash is from the FINAL planning cycle, not literally turn 720 (planning stops once no further day-boundary occurs) -- a lower bound on the episode's actual final money, not the exact reward."
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302003.jsonl",
+      "total_predicted_value_of_all_decisions": 38641.25,
+      "starting_cash": 3000.0,
+      "last_observed_cash": 28146.0,
+      "note": "last_observed_cash is from the FINAL planning cycle, not literally turn 720 (planning stops once no further day-boundary occurs) -- a lower bound on the episode's actual final money, not the exact reward."
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302004.jsonl",
+      "total_predicted_value_of_all_decisions": 38641.25,
+      "starting_cash": 3000.0,
+      "last_observed_cash": 29476.0,
+      "note": "last_observed_cash is from the FINAL planning cycle, not literally turn 720 (planning stops once no further day-boundary occurs) -- a lower bound on the episode's actual final money, not the exact reward."
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302005.jsonl",
+      "total_predicted_value_of_all_decisions": 38641.25,
+      "starting_cash": 3000.0,
+      "last_observed_cash": 29670.0,
+      "note": "last_observed_cash is from the FINAL planning cycle, not literally turn 720 (planning stops once no further day-boundary occurs) -- a lower bound on the episode's actual final money, not the exact reward."
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302006.jsonl",
+      "total_predicted_value_of_all_decisions": 38641.25,
+      "starting_cash": 3000.0,
+      "last_observed_cash": 29701.0,
+      "note": "last_observed_cash is from the FINAL planning cycle, not literally turn 720 (planning stops once no further day-boundary occurs) -- a lower bound on the episode's actual final money, not the exact reward."
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302007.jsonl",
+      "total_predicted_value_of_all_decisions": 38641.25,
+      "starting_cash": 3000.0,
+      "last_observed_cash": 28898.0,
+      "note": "last_observed_cash is from the FINAL planning cycle, not literally turn 720 (planning stops once no further day-boundary occurs) -- a lower bound on the episode's actual final money, not the exact reward."
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302008.jsonl",
+      "total_predicted_value_of_all_decisions": 38641.25,
+      "starting_cash": 3000.0,
+      "last_observed_cash": 28994.0,
+      "note": "last_observed_cash is from the FINAL planning cycle, not literally turn 720 (planning stops once no further day-boundary occurs) -- a lower bound on the episode's actual final money, not the exact reward."
+    },
+    {
+      "trace_file": "held_out_phase2_4_best_seed302009.jsonl",
+      "total_predicted_value_of_all_decisions": 38641.25,
+      "starting_cash": 3000.0,
+      "last_observed_cash": 28552.0,
+      "note": "last_observed_cash is from the FINAL planning cycle, not literally turn 720 (planning stops once no further day-boundary occurs) -- a lower bound on the episode's actual final money, not the exact reward."
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302000.jsonl",
+      "total_predicted_value_of_all_decisions": 38641.25,
+      "starting_cash": 3000.0,
+      "last_observed_cash": 27991.0,
+      "note": "last_observed_cash is from the FINAL planning cycle, not literally turn 720 (planning stops once no further day-boundary occurs) -- a lower bound on the episode's actual final money, not the exact reward."
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302001.jsonl",
+      "total_predicted_value_of_all_decisions": 38641.25,
+      "starting_cash": 3000.0,
+      "last_observed_cash": 29173.0,
+      "note": "last_observed_cash is from the FINAL planning cycle, not literally turn 720 (planning stops once no further day-boundary occurs) -- a lower bound on the episode's actual final money, not the exact reward."
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302002.jsonl",
+      "total_predicted_value_of_all_decisions": 38641.25,
+      "starting_cash": 3000.0,
+      "last_observed_cash": 28042.0,
+      "note": "last_observed_cash is from the FINAL planning cycle, not literally turn 720 (planning stops once no further day-boundary occurs) -- a lower bound on the episode's actual final money, not the exact reward."
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302003.jsonl",
+      "total_predicted_value_of_all_decisions": 38641.25,
+      "starting_cash": 3000.0,
+      "last_observed_cash": 28441.0,
+      "note": "last_observed_cash is from the FINAL planning cycle, not literally turn 720 (planning stops once no further day-boundary occurs) -- a lower bound on the episode's actual final money, not the exact reward."
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302004.jsonl",
+      "total_predicted_value_of_all_decisions": 38641.25,
+      "starting_cash": 3000.0,
+      "last_observed_cash": 27978.0,
+      "note": "last_observed_cash is from the FINAL planning cycle, not literally turn 720 (planning stops once no further day-boundary occurs) -- a lower bound on the episode's actual final money, not the exact reward."
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302005.jsonl",
+      "total_predicted_value_of_all_decisions": 38641.25,
+      "starting_cash": 3000.0,
+      "last_observed_cash": 28588.0,
+      "note": "last_observed_cash is from the FINAL planning cycle, not literally turn 720 (planning stops once no further day-boundary occurs) -- a lower bound on the episode's actual final money, not the exact reward."
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302006.jsonl",
+      "total_predicted_value_of_all_decisions": 38641.25,
+      "starting_cash": 3000.0,
+      "last_observed_cash": 28061.0,
+      "note": "last_observed_cash is from the FINAL planning cycle, not literally turn 720 (planning stops once no further day-boundary occurs) -- a lower bound on the episode's actual final money, not the exact reward."
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302007.jsonl",
+      "total_predicted_value_of_all_decisions": 38641.25,
+      "starting_cash": 3000.0,
+      "last_observed_cash": 28348.0,
+      "note": "last_observed_cash is from the FINAL planning cycle, not literally turn 720 (planning stops once no further day-boundary occurs) -- a lower bound on the episode's actual final money, not the exact reward."
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302008.jsonl",
+      "total_predicted_value_of_all_decisions": 38641.25,
+      "starting_cash": 3000.0,
+      "last_observed_cash": 28963.0,
+      "note": "last_observed_cash is from the FINAL planning cycle, not literally turn 720 (planning stops once no further day-boundary occurs) -- a lower bound on the episode's actual final money, not the exact reward."
+    },
+    {
+      "trace_file": "held_out_wheat_patroller_seed302009.jsonl",
+      "total_predicted_value_of_all_decisions": 38641.25,
+      "starting_cash": 3000.0,
+      "last_observed_cash": 28719.0,
+      "note": "last_observed_cash is from the FINAL planning cycle, not literally turn 720 (planning stops once no further day-boundary occurs) -- a lower bound on the episode's actual final money, not the exact reward."
+    }
+  ]
+}

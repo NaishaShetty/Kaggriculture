@@ -1,0 +1,64 @@
+{
+  "question": "Does the 'detect distortion, adjust portfolio via the Economic Model' principle apply to archetypes other than expansion_oriented, or is 'no intervention needed' the valid answer?",
+  "evidence_source": "results/phase3_3/experiments/intervention_results.csv (Variant D run against all 7 archetypes, all 3 seed sets, in Phase 3.3) cross-checked against results/phase3_2/experiments/episode_metadata.csv (the unmodified Planner v1 control on the identical seeds/opponents) -- reused directly per the project's 'do not re-run what is already measured' discipline; re-verified in this session that these files were not altered by Phase 3.4 (scripts/phase3_4_regression_tests.py::test_control_still_frozen).",
+  "per_archetype": {
+    "expansion_oriented": {
+      "n_episodes": 15,
+      "n_common_seeds_with_control": 15,
+      "n_activations_total": 15,
+      "detector_ever_activated": true,
+      "variant_d_mean_money": 22531.93,
+      "byte_identical_to_control_on_common_seeds": false
+    },
+    "passive": {
+      "n_episodes": 11,
+      "n_common_seeds_with_control": 11,
+      "n_activations_total": 0,
+      "detector_ever_activated": false,
+      "variant_d_mean_money": 28122.45,
+      "byte_identical_to_control_on_common_seeds": true
+    },
+    "production_heavy": {
+      "n_episodes": 11,
+      "n_common_seeds_with_control": 11,
+      "n_activations_total": 0,
+      "detector_ever_activated": false,
+      "variant_d_mean_money": 22910.36,
+      "byte_identical_to_control_on_common_seeds": true
+    },
+    "market_selling": {
+      "n_episodes": 11,
+      "n_common_seeds_with_control": 11,
+      "n_activations_total": 0,
+      "detector_ever_activated": false,
+      "variant_d_mean_money": 28574.45,
+      "byte_identical_to_control_on_common_seeds": true
+    },
+    "animal_oriented": {
+      "n_episodes": 11,
+      "n_common_seeds_with_control": 11,
+      "n_activations_total": 0,
+      "detector_ever_activated": false,
+      "variant_d_mean_money": 27716.0,
+      "byte_identical_to_control_on_common_seeds": true
+    },
+    "conservative": {
+      "n_episodes": 11,
+      "n_common_seeds_with_control": 11,
+      "n_activations_total": 0,
+      "detector_ever_activated": false,
+      "variant_d_mean_money": 28319.0,
+      "byte_identical_to_control_on_common_seeds": true
+    },
+    "aggressive_investment": {
+      "n_episodes": 11,
+      "n_common_seeds_with_control": 11,
+      "n_activations_total": 0,
+      "detector_ever_activated": false,
+      "variant_d_mean_money": 12020.73,
+      "byte_identical_to_control_on_common_seeds": true
+    }
+  },
+  "answer": "'NO INTERVENTION NEEDED' is the valid answer for all 6 non-expansion_oriented archetypes. The ExpansionDetector never activates against passive, production_heavy, market_selling, animal_oriented, conservative, or aggressive_investment (n_activations_total=0 in every case), and Variant D's resulting final-money distribution is byte-for-byte identical to the unmodified Planner v1 control on the same seeds. This is the CORRECT generalization result, not a gap: Phase 3.2 established that only expansion_oriented produces the specific MELON market-crash signature the detector was trained to recognize (results/phase3_2), so a detector that stays silent for every other archetype is behaving exactly as designed, and forcing an intervention for archetypes with no diagnosed distortion would be solving a problem that does not exist for them.",
+  "confidence_label": "EXPERIMENTALLY_VALIDATED (reused Phase 3.3 data, re-verified unmodified this phase)"
+}

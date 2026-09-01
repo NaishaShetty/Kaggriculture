@@ -1,0 +1,27 @@
+{
+  "700002": {
+    "final_money": 9304.0,
+    "strawberry_sold": 68,
+    "strawberry_revenue": 10777.24
+  },
+  "701001": {
+    "final_money": 11793.0,
+    "strawberry_sold": 67,
+    "strawberry_revenue": 13729.69
+  },
+  "701002": {
+    "final_money": 14029.0,
+    "strawberry_sold": 68,
+    "strawberry_revenue": 15651.43
+  },
+  "701003": {
+    "final_money": 16096.0,
+    "strawberry_sold": 73,
+    "strawberry_revenue": 15728.7
+  },
+  "702001": {
+    "final_money": 13614.0,
+    "strawberry_sold": 73,
+    "strawberry_revenue": 13382.33
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "seed": 701002,
+  "opponent_archetype": "expansion_oriented",
+  "outcome": "LOSS",
+  "protagonist_final_money": 21422.0,
+  "opponent_final_money": 22239.0,
+  "margin": -817.0,
+  "detection_turn": 24,
+  "detection_confidence_at_detection": "~1.0 (VERIFIED: all 15 expansion_oriented episodes classified with confidence 1.0 at the first checkpoint, turn 24 -- see results/phase3_4/regime_analysis/regime_stability.json)",
+  "detected_regime": "expansion_oriented",
+  "regime_stability": "STABLE for the full episode (never reclassified to a different archetype at any of the 9 checkpoints; confidence dips as low as 0.16-0.79 near turn 600 in some seeds but the predicted class never changes)",
+  "intervention_applied": "Variant D (production_substitution): MELON's portfolio share redirected entirely to STRAWBERRY (the highest crop_production_value()-ranked non-MELON crop) starting the day after detection",
+  "failure_category": "self_inflicted_narrow_market_price_crash",
+  "root_cause": "STRAWBERRY market depth (T=100, smallest of any crop) means Variant D's 100%-into-single-best-crop reallocation oversupplies the STRAWBERRY market on its own, crashing the realized sell price to $126-204/unit vs $259-279/unit in the 10 winning episodes, despite near-identical production VOLUME (96-110 units) across both wins and losses -- confirming this is a PRICE effect, not a production-shortfall effect.",
+  "melon_exposure_at_detection": "minimal by design -- detection occurs on day 1 (turn 24) of 30, before substantial MELON tile investment has accumulated",
+  "severity": "medium",
+  "recoverable": "NOT within Variant D's current mechanism (single-best-crop concentration is structural to its design); two remedial mechanisms were designed and tested in Phase 3.4 (diversified substitution, partial MELON retention) and BOTH underperformed Variant D on the full 15-seed battery (see results/phase3_4/candidate_experiments/) -- so this specific loss category is currently UNRESOLVED, not silently accepted.",
+  "confidence_label": "EXPERIMENTALLY_VALIDATED (STRAWBERRY price-vs-volume comparison directly measured from financial_transactions in the Phase 3.3 traces; MARKET_PARAMS T-values are VERIFIED_MECHANIC from vendor_kaggriculture.kaggriculture)"
+}

@@ -1,0 +1,1287 @@
+{
+  "n_episodes": 105,
+  "economic_distinctiveness": {
+    "passive": {
+      "n_episodes": 15,
+      "protagonist_money_mean": 28104.53,
+      "protagonist_money_stdev": 273.94,
+      "opponent_money_mean": 3000.0,
+      "margin_mean": 25104.53,
+      "win_rate": 1.0
+    },
+    "production_heavy": {
+      "n_episodes": 15,
+      "protagonist_money_mean": 23007.13,
+      "protagonist_money_stdev": 1193.8,
+      "opponent_money_mean": 10854.8,
+      "margin_mean": 12152.33,
+      "win_rate": 1.0
+    },
+    "market_selling": {
+      "n_episodes": 15,
+      "protagonist_money_mean": 28751.33,
+      "protagonist_money_stdev": 1103.91,
+      "opponent_money_mean": 4811.47,
+      "margin_mean": 23939.87,
+      "win_rate": 1.0
+    },
+    "expansion_oriented": {
+      "n_episodes": 15,
+      "protagonist_money_mean": 4169.93,
+      "protagonist_money_stdev": 410.96,
+      "opponent_money_mean": 16060.73,
+      "margin_mean": -11890.8,
+      "win_rate": 0.0
+    },
+    "animal_oriented": {
+      "n_episodes": 15,
+      "protagonist_money_mean": 27856.27,
+      "protagonist_money_stdev": 659.93,
+      "opponent_money_mean": 10969.47,
+      "margin_mean": 16886.8,
+      "win_rate": 1.0
+    },
+    "conservative": {
+      "n_episodes": 15,
+      "protagonist_money_mean": 28230.27,
+      "protagonist_money_stdev": 374.62,
+      "opponent_money_mean": 5968.07,
+      "margin_mean": 22262.2,
+      "win_rate": 1.0
+    },
+    "aggressive_investment": {
+      "n_episodes": 15,
+      "protagonist_money_mean": 11795.07,
+      "protagonist_money_stdev": 3754.09,
+      "opponent_money_mean": 4709.6,
+      "margin_mean": 7085.47,
+      "win_rate": 0.6
+    }
+  },
+  "between_regime_separation_vs_passive": {
+    "production_heavy": {
+      "top_distinguishing_features_vs_passive": [
+        [
+          "crop_entropy",
+          90.965
+        ],
+        [
+          "crop_concentration",
+          50.046
+        ],
+        [
+          "crop_total",
+          27.641
+        ],
+        [
+          "utilization_now",
+          26.047
+        ],
+        [
+          "productive_tiles_now",
+          26.047
+        ],
+        [
+          "event_count_MONEY_CHANGED_w72",
+          11.205
+        ],
+        [
+          "money_delta_w72",
+          10.556
+        ],
+        [
+          "money_growth_rate_w72",
+          10.556
+        ]
+      ]
+    },
+    "market_selling": {
+      "top_distinguishing_features_vs_passive": [
+        [
+          "crop_entropy",
+          54.817
+        ],
+        [
+          "crop_total",
+          24.781
+        ],
+        [
+          "utilization_now",
+          24.608
+        ],
+        [
+          "productive_tiles_now",
+          24.608
+        ],
+        [
+          "crop_concentration",
+          18.282
+        ],
+        [
+          "event_count_LIKELY_HIRE_w72",
+          17.386
+        ],
+        [
+          "event_count_LIKELY_HIRE_w48",
+          11.717
+        ],
+        [
+          "animal_concentration",
+          7.766
+        ]
+      ]
+    },
+    "expansion_oriented": {
+      "top_distinguishing_features_vs_passive": [
+        [
+          "money_now",
+          77.163
+        ],
+        [
+          "utilization_now",
+          26.574
+        ],
+        [
+          "productive_tiles_now",
+          26.574
+        ],
+        [
+          "crop_total",
+          26.574
+        ],
+        [
+          "money_delta_w72",
+          19.671
+        ],
+        [
+          "money_growth_rate_w72",
+          19.671
+        ],
+        [
+          "event_count_MONEY_CHANGED_w72",
+          11.657
+        ],
+        [
+          "event_count_MONEY_CHANGED_w48",
+          8.741
+        ]
+      ]
+    },
+    "animal_oriented": {
+      "top_distinguishing_features_vs_passive": [
+        [
+          "event_count_MONEY_CHANGED_w48",
+          48.662
+        ],
+        [
+          "event_count_LIKELY_PLANT_OR_GROWTH_w72",
+          47.813
+        ],
+        [
+          "utilization_now",
+          46.644
+        ],
+        [
+          "productive_tiles_now",
+          46.644
+        ],
+        [
+          "crop_total",
+          44.272
+        ],
+        [
+          "event_count_MONEY_CHANGED_w72",
+          40.995
+        ],
+        [
+          "event_count_LIKELY_PLANT_OR_GROWTH_w24",
+          34.395
+        ],
+        [
+          "event_count_MONEY_CHANGED_w24",
+          30.812
+        ]
+      ]
+    },
+    "conservative": {
+      "top_distinguishing_features_vs_passive": [
+        [
+          "money_delta_w24",
+          11.834
+        ],
+        [
+          "money_growth_rate_w24",
+          11.834
+        ],
+        [
+          "money_growth_rate_w48",
+          11.56
+        ],
+        [
+          "money_delta_w48",
+          11.56
+        ],
+        [
+          "money_delta_w72",
+          11.238
+        ],
+        [
+          "money_growth_rate_w72",
+          11.238
+        ],
+        [
+          "money_now",
+          8.463
+        ]
+      ]
+    },
+    "aggressive_investment": {
+      "top_distinguishing_features_vs_passive": [
+        [
+          "crop_total",
+          40.293
+        ],
+        [
+          "utilization_now",
+          40.175
+        ],
+        [
+          "productive_tiles_now",
+          40.175
+        ],
+        [
+          "event_count_MONEY_CHANGED_w72",
+          21.97
+        ],
+        [
+          "event_count_LIKELY_PLANT_OR_GROWTH_w72",
+          15.284
+        ],
+        [
+          "event_count_MONEY_CHANGED_w48",
+          13.484
+        ],
+        [
+          "money_growth_rate_w48",
+          -12.123
+        ],
+        [
+          "money_delta_w48",
+          -12.123
+        ]
+      ]
+    }
+  },
+  "early_detection_by_checkpoint": {
+    "24": {
+      "n_train": 63,
+      "n_test": 42,
+      "accuracy": 0.857,
+      "balanced_accuracy": 0.857,
+      "mean_confidence": 1.0,
+      "confusion_matrix": [
+        [
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6
+        ]
+      ],
+      "classes": [
+        "aggressive_investment",
+        "animal_oriented",
+        "conservative",
+        "expansion_oriented",
+        "market_selling",
+        "passive",
+        "production_heavy"
+      ],
+      "top_features": [
+        [
+          "event_count_LIKELY_HIRE_w48",
+          1.0
+        ],
+        [
+          "event_count_LIKELY_HIRE_w24",
+          1.0
+        ],
+        [
+          "event_count_LIKELY_HIRE_w72",
+          1.0
+        ],
+        [
+          "crop_entropy",
+          1.0
+        ],
+        [
+          "event_count_LIKELY_PLANT_OR_GROWTH_w1",
+          1.0
+        ]
+      ]
+    },
+    "48": {
+      "n_train": 63,
+      "n_test": 42,
+      "accuracy": 0.857,
+      "balanced_accuracy": 0.857,
+      "mean_confidence": 0.983,
+      "confusion_matrix": [
+        [
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6
+        ]
+      ],
+      "classes": [
+        "aggressive_investment",
+        "animal_oriented",
+        "conservative",
+        "expansion_oriented",
+        "market_selling",
+        "passive",
+        "production_heavy"
+      ],
+      "top_features": [
+        [
+          "event_count_LIKELY_HIRE_w48",
+          1.0
+        ],
+        [
+          "event_count_LIKELY_HIRE_w24",
+          1.0
+        ],
+        [
+          "event_count_LIKELY_HIRE_w72",
+          1.0
+        ],
+        [
+          "crop_entropy",
+          1.0
+        ],
+        [
+          "event_count_MONEY_CHANGED_w6",
+          1.0
+        ]
+      ]
+    },
+    "72": {
+      "n_train": 63,
+      "n_test": 42,
+      "accuracy": 0.857,
+      "balanced_accuracy": 0.857,
+      "mean_confidence": 0.976,
+      "confusion_matrix": [
+        [
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6
+        ]
+      ],
+      "classes": [
+        "aggressive_investment",
+        "animal_oriented",
+        "conservative",
+        "expansion_oriented",
+        "market_selling",
+        "passive",
+        "production_heavy"
+      ],
+      "top_features": [
+        [
+          "event_count_LIKELY_HIRE_w48",
+          1.0
+        ],
+        [
+          "event_count_LIKELY_HIRE_w24",
+          1.0
+        ],
+        [
+          "crop_entropy",
+          1.0
+        ],
+        [
+          "event_count_LIKELY_BUY_ANIMAL_w24",
+          1.0
+        ],
+        [
+          "event_count_LIKELY_BUY_ANIMAL_w48",
+          1.0
+        ]
+      ]
+    },
+    "120": {
+      "n_train": 63,
+      "n_test": 42,
+      "accuracy": 0.857,
+      "balanced_accuracy": 0.857,
+      "mean_confidence": 0.978,
+      "confusion_matrix": [
+        [
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6
+        ]
+      ],
+      "classes": [
+        "aggressive_investment",
+        "animal_oriented",
+        "conservative",
+        "expansion_oriented",
+        "market_selling",
+        "passive",
+        "production_heavy"
+      ],
+      "top_features": [
+        [
+          "crop_n_types",
+          1.0
+        ],
+        [
+          "crop_concentration",
+          1.0
+        ],
+        [
+          "productive_tiles_delta_w1",
+          1.0
+        ],
+        [
+          "animal_concentration",
+          1.0
+        ],
+        [
+          "animal_total",
+          1.0
+        ]
+      ]
+    },
+    "180": {
+      "n_train": 63,
+      "n_test": 42,
+      "accuracy": 0.857,
+      "balanced_accuracy": 0.857,
+      "mean_confidence": 0.947,
+      "confusion_matrix": [
+        [
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6
+        ]
+      ],
+      "classes": [
+        "aggressive_investment",
+        "animal_oriented",
+        "conservative",
+        "expansion_oriented",
+        "market_selling",
+        "passive",
+        "production_heavy"
+      ],
+      "top_features": [
+        [
+          "crop_n_types",
+          1.0
+        ],
+        [
+          "crop_concentration",
+          1.0
+        ],
+        [
+          "animal_concentration",
+          1.0
+        ],
+        [
+          "animal_n_types",
+          1.0
+        ],
+        [
+          "animal_total",
+          1.0
+        ]
+      ]
+    },
+    "240": {
+      "n_train": 63,
+      "n_test": 42,
+      "accuracy": 0.857,
+      "balanced_accuracy": 0.857,
+      "mean_confidence": 0.983,
+      "confusion_matrix": [
+        [
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6
+        ]
+      ],
+      "classes": [
+        "aggressive_investment",
+        "animal_oriented",
+        "conservative",
+        "expansion_oriented",
+        "market_selling",
+        "passive",
+        "production_heavy"
+      ],
+      "top_features": [
+        [
+          "crop_n_types",
+          1.0
+        ],
+        [
+          "crop_concentration",
+          1.0
+        ],
+        [
+          "animal_concentration",
+          1.0
+        ],
+        [
+          "animal_n_types",
+          1.0
+        ],
+        [
+          "animal_total",
+          1.0
+        ]
+      ]
+    },
+    "360": {
+      "n_train": 63,
+      "n_test": 42,
+      "accuracy": 0.857,
+      "balanced_accuracy": 0.857,
+      "mean_confidence": 0.643,
+      "confusion_matrix": [
+        [
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6
+        ]
+      ],
+      "classes": [
+        "aggressive_investment",
+        "animal_oriented",
+        "conservative",
+        "expansion_oriented",
+        "market_selling",
+        "passive",
+        "production_heavy"
+      ],
+      "top_features": [
+        [
+          "event_count_LIKELY_HIRE_w24",
+          1.0
+        ],
+        [
+          "crop_n_types",
+          1.0
+        ],
+        [
+          "land_quadrants_now",
+          1.0
+        ],
+        [
+          "crop_entropy",
+          1.0
+        ],
+        [
+          "money_growth_rate_w72",
+          0.9997
+        ]
+      ]
+    },
+    "480": {
+      "n_train": 63,
+      "n_test": 42,
+      "accuracy": 0.857,
+      "balanced_accuracy": 0.857,
+      "mean_confidence": 0.605,
+      "confusion_matrix": [
+        [
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          1
+        ]
+      ],
+      "classes": [
+        "aggressive_investment",
+        "animal_oriented",
+        "conservative",
+        "expansion_oriented",
+        "market_selling",
+        "passive",
+        "production_heavy"
+      ],
+      "top_features": [
+        [
+          "event_count_LIKELY_HIRE_w48",
+          1.0
+        ],
+        [
+          "event_count_LIKELY_HIRE_w24",
+          1.0
+        ],
+        [
+          "crop_n_types",
+          1.0
+        ],
+        [
+          "land_quadrants_now",
+          1.0
+        ],
+        [
+          "event_count_LIKELY_HIRE_w72",
+          1.0
+        ]
+      ]
+    },
+    "600": {
+      "n_train": 63,
+      "n_test": 42,
+      "accuracy": 0.952,
+      "balanced_accuracy": 0.952,
+      "mean_confidence": 0.613,
+      "confusion_matrix": [
+        [
+          5,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6
+        ]
+      ],
+      "classes": [
+        "aggressive_investment",
+        "animal_oriented",
+        "conservative",
+        "expansion_oriented",
+        "market_selling",
+        "passive",
+        "production_heavy"
+      ],
+      "top_features": [
+        [
+          "crop_n_types",
+          1.0
+        ],
+        [
+          "land_quadrants_now",
+          1.0
+        ],
+        [
+          "crop_entropy",
+          0.9997
+        ],
+        [
+          "crop_concentration",
+          0.9986
+        ],
+        [
+          "utilization_now",
+          0.9977
+        ]
+      ]
+    }
+  },
+  "unsupervised_clustering": {
+    "24": {
+      "n_samples": 105,
+      "post_hoc_alignment_accuracy": 0.571,
+      "cluster_to_majority_label": {
+        "0": "passive",
+        "3": "conservative",
+        "4": "expansion_oriented",
+        "6": "production_heavy"
+      }
+    },
+    "120": {
+      "n_samples": 105,
+      "post_hoc_alignment_accuracy": 0.714,
+      "cluster_to_majority_label": {
+        "0": "passive",
+        "3": "animal_oriented",
+        "4": "expansion_oriented",
+        "5": "conservative",
+        "6": "production_heavy"
+      }
+    },
+    "360": {
+      "n_samples": 105,
+      "post_hoc_alignment_accuracy": 0.714,
+      "cluster_to_majority_label": {
+        "0": "passive",
+        "3": "animal_oriented",
+        "4": "expansion_oriented",
+        "5": "production_heavy",
+        "6": "aggressive_investment"
+      }
+    },
+    "600": {
+      "n_samples": 105,
+      "post_hoc_alignment_accuracy": 0.714,
+      "cluster_to_majority_label": {
+        "0": "passive",
+        "3": "animal_oriented",
+        "4": "production_heavy",
+        "5": "conservative",
+        "6": "market_selling"
+      }
+    }
+  },
+  "market_effect_analysis": {
+    "passive": {
+      "protagonist_mean_revenue": 34380.41,
+      "classification": "correlated",
+      "n": 15
+    },
+    "production_heavy": {
+      "protagonist_mean_revenue": 30123.81,
+      "classification": "correlated",
+      "n": 15
+    },
+    "market_selling": {
+      "protagonist_mean_revenue": 35322.36,
+      "classification": "correlated",
+      "n": 15
+    },
+    "expansion_oriented": {
+      "protagonist_mean_revenue": 10611.7,
+      "classification": "correlated",
+      "n": 15
+    },
+    "animal_oriented": {
+      "protagonist_mean_revenue": 34023.89,
+      "classification": "correlated",
+      "n": 15
+    },
+    "conservative": {
+      "protagonist_mean_revenue": 34419.37,
+      "classification": "correlated",
+      "n": 15
+    },
+    "aggressive_investment": {
+      "protagonist_mean_revenue": 18396.78,
+      "classification": "correlated",
+      "n": 15
+    },
+    "_classification_note": "All figures above are CORRELATIONAL (regime identity vs. protagonist revenue in the SAME episode) -- no causal mechanism was tested (e.g. an intervention holding the archetype's production constant while varying only its selling behavior). Do not read a revenue difference here as proof the archetype's market activity CAUSED it."
+  }
+}

@@ -1,0 +1,486 @@
+OpenSpiel exception: Unknown game 'universal_poker'. Available games are:
+2048
+add_noise
+amazons
+amazons_proxy
+ant_foraging_arena
+antichess
+backgammon
+backgammon_proxy
+banqi
+bargaining
+bargaining_proxy
+battleship
+blackjack
+blotto
+breakthrough
+breakthrough_proxy
+bridge
+bridge_arena
+bridge_uncontested_bidding
+cached_tree
+capture_the_flag
+capture_the_flag_proxy
+catch
+chat_game
+checkers
+checkers_proxy
+chess
+chinese_checkers
+cliff_walking
+clobber
+clobber_proxy
+coin_game
+coin_game_arena
+coin_game_proxy
+colored_trails
+connect_four
+connect_four_proxy
+coop_box_pushing
+coop_to_1p
+coordinated_mp
+crazy_eights
+crazyhouse
+cribbage
+crossword
+cursor_go
+dark_chess
+dark_hex
+dark_hex_ir
+dark_hex_proxy
+deep_sea
+dots_and_boxes
+dots_and_boxes_proxy
+dou_dizhu
+efg_game
+einstein_wurfelt_nicht
+euchre
+first_sealed_auction
+gin_rummy
+gin_rummy_proxy
+go
+go_fish
+go_fish_proxy
+go_proxy
+gomoku
+goofspiel
+havannah
+havannah_proxy
+hearts
+hex
+hive
+hive_proxy
+kriegspiel
+kuhn_poker
+laser_tag
+latent_ttt
+leduc_poker
+lewis_signaling
+liars_dice
+liars_dice_ir
+lines_of_action
+lines_of_action_proxy
+maedn
+mancala
+mancala_proxy
+markov_soccer
+markov_soccer_proxy
+matching_pennies_3p
+matrix_bos
+matrix_brps
+matrix_cd
+matrix_coordination
+matrix_mp
+matrix_pd
+matrix_rps
+matrix_rpsw
+matrix_sh
+matrix_shapleys_game
+mfg_crowd_modelling
+mfg_crowd_modelling_2d
+mfg_dynamic_routing
+mfg_garnet
+misere
+mnk
+morpion_solitaire
+negotiation
+negotiation_proxy
+nfg_game
+nim
+nine_mens_morris
+nine_mens_morris_proxy
+normal_form_extensive_game
+oh_hell
+oshi_zumo
+oshi_zumo_proxy
+othello
+othello_proxy
+oware
+pathfinding
+pentago
+phantom_go
+phantom_ttt
+phantom_ttt_ir
+pig
+python_ant_foraging
+python_ant_foraging_proxy
+python_block_dominoes
+python_dynamic_routing
+python_hangman
+python_iterated_prisoners_dilemma
+python_kuhn_poker
+python_liars_poker
+python_pokerkit_wrapper
+python_pokerkit_wrapper_acpc_style
+python_repeated_pokerkit
+python_team_dominoes
+python_tic_tac_toe
+quoridor
+rbc
+repeated_game
+repeated_leduc_poker
+restricted_nash_response
+sheriff
+shogi
+shogi_proxy
+skat
+snake
+snake_proxy
+social_deduction
+solitaire
+spades
+start_at
+stones_and_gems
+tarok
+tic_tac_toe
+tiny_bridge_2p
+tiny_bridge_4p
+tiny_hanabi
+trade_comm
+turn_based_simultaneous_game
+twixt
+ultimate_tic_tac_toe
+ultimate_tic_tac_toe_proxy
+xiangqi
+y
+y_proxy
+yacht
+zerosum
+OpenSpiel exception: Unknown game 'repeated_poker'. Available games are:
+2048
+add_noise
+amazons
+amazons_proxy
+ant_foraging_arena
+antichess
+backgammon
+backgammon_proxy
+banqi
+bargaining
+bargaining_proxy
+battleship
+blackjack
+blotto
+breakthrough
+breakthrough_proxy
+bridge
+bridge_arena
+bridge_uncontested_bidding
+cached_tree
+capture_the_flag
+capture_the_flag_proxy
+catch
+chat_game
+checkers
+checkers_proxy
+chess
+chinese_checkers
+cliff_walking
+clobber
+clobber_proxy
+coin_game
+coin_game_arena
+coin_game_proxy
+colored_trails
+connect_four
+connect_four_proxy
+coop_box_pushing
+coop_to_1p
+coordinated_mp
+crazy_eights
+crazyhouse
+cribbage
+crossword
+cursor_go
+dark_chess
+dark_hex
+dark_hex_ir
+dark_hex_proxy
+deep_sea
+dots_and_boxes
+dots_and_boxes_proxy
+dou_dizhu
+efg_game
+einstein_wurfelt_nicht
+euchre
+first_sealed_auction
+gin_rummy
+gin_rummy_proxy
+go
+go_fish
+go_fish_proxy
+go_proxy
+gomoku
+goofspiel
+havannah
+havannah_proxy
+hearts
+hex
+hive
+hive_proxy
+kriegspiel
+kuhn_poker
+laser_tag
+latent_ttt
+leduc_poker
+lewis_signaling
+liars_dice
+liars_dice_ir
+lines_of_action
+lines_of_action_proxy
+maedn
+mancala
+mancala_proxy
+markov_soccer
+markov_soccer_proxy
+matching_pennies_3p
+matrix_bos
+matrix_brps
+matrix_cd
+matrix_coordination
+matrix_mp
+matrix_pd
+matrix_rps
+matrix_rpsw
+matrix_sh
+matrix_shapleys_game
+mfg_crowd_modelling
+mfg_crowd_modelling_2d
+mfg_dynamic_routing
+mfg_garnet
+misere
+mnk
+morpion_solitaire
+negotiation
+negotiation_proxy
+nfg_game
+nim
+nine_mens_morris
+nine_mens_morris_proxy
+normal_form_extensive_game
+oh_hell
+oshi_zumo
+oshi_zumo_proxy
+othello
+othello_proxy
+oware
+pathfinding
+pentago
+phantom_go
+phantom_ttt
+phantom_ttt_ir
+pig
+python_ant_foraging
+python_ant_foraging_proxy
+python_block_dominoes
+python_dynamic_routing
+python_hangman
+python_iterated_prisoners_dilemma
+python_kuhn_poker
+python_liars_poker
+python_pokerkit_wrapper
+python_pokerkit_wrapper_acpc_style
+python_repeated_pokerkit
+python_team_dominoes
+python_tic_tac_toe
+quoridor
+rbc
+repeated_game
+repeated_leduc_poker
+restricted_nash_response
+sheriff
+shogi
+shogi_proxy
+skat
+snake
+snake_proxy
+social_deduction
+solitaire
+spades
+start_at
+stones_and_gems
+tarok
+tic_tac_toe
+tiny_bridge_2p
+tiny_bridge_4p
+tiny_hanabi
+trade_comm
+turn_based_simultaneous_game
+twixt
+ultimate_tic_tac_toe
+ultimate_tic_tac_toe_proxy
+xiangqi
+y
+y_proxy
+yacht
+zerosum
+  [validate_a1_labor_sweep/labor_WHEAT_3h] seed=102000 (1/10) money=[8245.0, 3000.0] valid=PASS (3.37s)
+  [validate_a1_labor_sweep/labor_WHEAT_3h] seed=102001 (2/10) money=[7181.0, 3000.0] valid=PASS (4.72s)
+  [validate_a1_labor_sweep/labor_WHEAT_3h] seed=102002 (3/10) money=[8602.0, 3000.0] valid=PASS (4.75s)
+  [validate_a1_labor_sweep/labor_WHEAT_3h] seed=102003 (4/10) money=[9274.0, 3000.0] valid=PASS (4.64s)
+  [validate_a1_labor_sweep/labor_WHEAT_3h] seed=102004 (5/10) money=[6433.0, 3000.0] valid=PASS (4.74s)
+  [validate_a1_labor_sweep/labor_WHEAT_3h] seed=102005 (6/10) money=[8464.0, 3000.0] valid=PASS (4.67s)
+  [validate_a1_labor_sweep/labor_WHEAT_3h] seed=102006 (7/10) money=[9489.0, 3000.0] valid=PASS (4.77s)
+  [validate_a1_labor_sweep/labor_WHEAT_3h] seed=102007 (8/10) money=[8301.0, 3000.0] valid=PASS (4.92s)
+  [validate_a1_labor_sweep/labor_WHEAT_3h] seed=102008 (9/10) money=[7221.0, 3000.0] valid=PASS (4.50s)
+  [validate_a1_labor_sweep/labor_WHEAT_3h] seed=102009 (10/10) money=[8739.0, 3000.0] valid=PASS (4.72s)
+  [validate_a1_labor_sweep/labor_WHEAT_0h] seed=102000 (1/10) money=[6351.0, 3000.0] valid=PASS (3.43s)
+  [validate_a1_labor_sweep/labor_WHEAT_0h] seed=102001 (2/10) money=[6024.0, 3000.0] valid=PASS (3.37s)
+  [validate_a1_labor_sweep/labor_WHEAT_0h] seed=102002 (3/10) money=[5602.0, 3000.0] valid=PASS (2.86s)
+  [validate_a1_labor_sweep/labor_WHEAT_0h] seed=102003 (4/10) money=[6051.0, 3000.0] valid=PASS (3.21s)
+  [validate_a1_labor_sweep/labor_WHEAT_0h] seed=102004 (5/10) money=[5821.0, 3000.0] valid=PASS (3.59s)
+  [validate_a1_labor_sweep/labor_WHEAT_0h] seed=102005 (6/10) money=[5689.0, 3000.0] valid=PASS (3.64s)
+  [validate_a1_labor_sweep/labor_WHEAT_0h] seed=102006 (7/10) money=[6431.0, 3000.0] valid=PASS (3.88s)
+  [validate_a1_labor_sweep/labor_WHEAT_0h] seed=102007 (8/10) money=[5826.0, 3000.0] valid=PASS (3.47s)
+  [validate_a1_labor_sweep/labor_WHEAT_0h] seed=102008 (9/10) money=[5916.0, 3000.0] valid=PASS (3.75s)
+  [validate_a1_labor_sweep/labor_WHEAT_0h] seed=102009 (10/10) money=[5635.0, 3000.0] valid=PASS (3.33s)
+  [validate_a1_labor_sweep/labor_MELON_2h] seed=102000 (1/10) money=[27891.0, 3000.0] valid=PASS (4.42s)
+  [validate_a1_labor_sweep/labor_MELON_2h] seed=102001 (2/10) money=[27891.0, 3000.0] valid=PASS (4.64s)
+  [validate_a1_labor_sweep/labor_MELON_2h] seed=102002 (3/10) money=[27891.0, 3000.0] valid=PASS (4.33s)
+  [validate_a1_labor_sweep/labor_MELON_2h] seed=102003 (4/10) money=[27891.0, 3000.0] valid=PASS (4.15s)
+  [validate_a1_labor_sweep/labor_MELON_2h] seed=102004 (5/10) money=[27891.0, 3000.0] valid=PASS (4.40s)
+  [validate_a1_labor_sweep/labor_MELON_2h] seed=102005 (6/10) money=[27891.0, 3000.0] valid=PASS (4.47s)
+  [validate_a1_labor_sweep/labor_MELON_2h] seed=102006 (7/10) money=[27892.0, 3000.0] valid=PASS (4.13s)
+  [validate_a1_labor_sweep/labor_MELON_2h] seed=102007 (8/10) money=[27891.0, 3000.0] valid=PASS (3.13s)
+  [validate_a1_labor_sweep/labor_MELON_2h] seed=102008 (9/10) money=[27891.0, 3000.0] valid=PASS (3.26s)
+  [validate_a1_labor_sweep/labor_MELON_2h] seed=102009 (10/10) money=[27891.0, 3000.0] valid=PASS (3.11s)
+  [validate_a1_labor_sweep/labor_MELON_0h] seed=102000 (1/10) money=[22341.0, 3000.0] valid=PASS (2.36s)
+  [validate_a1_labor_sweep/labor_MELON_0h] seed=102001 (2/10) money=[22341.0, 3000.0] valid=PASS (2.43s)
+  [validate_a1_labor_sweep/labor_MELON_0h] seed=102002 (3/10) money=[22341.0, 3000.0] valid=PASS (2.41s)
+  [validate_a1_labor_sweep/labor_MELON_0h] seed=102003 (4/10) money=[22341.0, 3000.0] valid=PASS (3.38s)
+  [validate_a1_labor_sweep/labor_MELON_0h] seed=102004 (5/10) money=[22341.0, 3000.0] valid=PASS (3.63s)
+  [validate_a1_labor_sweep/labor_MELON_0h] seed=102005 (6/10) money=[22341.0, 3000.0] valid=PASS (3.61s)
+  [validate_a1_labor_sweep/labor_MELON_0h] seed=102006 (7/10) money=[22341.0, 3000.0] valid=PASS (3.65s)
+  [validate_a1_labor_sweep/labor_MELON_0h] seed=102007 (8/10) money=[22341.0, 3000.0] valid=PASS (3.58s)
+  [validate_a1_labor_sweep/labor_MELON_0h] seed=102008 (9/10) money=[22341.0, 3000.0] valid=PASS (3.49s)
+  [validate_a1_labor_sweep/labor_MELON_0h] seed=102009 (10/10) money=[22341.0, 3000.0] valid=PASS (3.72s)
+  [validate_a2_land_sweep/land_0q_3h] seed=102000 (1/10) money=[27648.0, 3000.0] valid=PASS (4.47s)
+  [validate_a2_land_sweep/land_0q_3h] seed=102001 (2/10) money=[27648.0, 3000.0] valid=PASS (5.16s)
+  [validate_a2_land_sweep/land_0q_3h] seed=102002 (3/10) money=[27648.0, 3000.0] valid=PASS (4.85s)
+  [validate_a2_land_sweep/land_0q_3h] seed=102003 (4/10) money=[27648.0, 3000.0] valid=PASS (5.04s)
+  [validate_a2_land_sweep/land_0q_3h] seed=102004 (5/10) money=[27648.0, 3000.0] valid=PASS (4.48s)
+  [validate_a2_land_sweep/land_0q_3h] seed=102005 (6/10) money=[27648.0, 3000.0] valid=PASS (4.24s)
+  [validate_a2_land_sweep/land_0q_3h] seed=102006 (7/10) money=[27648.0, 3000.0] valid=PASS (4.33s)
+  [validate_a2_land_sweep/land_0q_3h] seed=102007 (8/10) money=[27648.0, 3000.0] valid=PASS (4.19s)
+  [validate_a2_land_sweep/land_0q_3h] seed=102008 (9/10) money=[27648.0, 3000.0] valid=PASS (4.77s)
+  [validate_a2_land_sweep/land_0q_3h] seed=102009 (10/10) money=[27648.0, 3000.0] valid=PASS (4.61s)
+  [validate_a3_animal_lifecycle/animal_COW_1h] seed=102000 (1/10) money=[10286.0, 3000.0] valid=PASS (3.18s)
+  [validate_a3_animal_lifecycle/animal_COW_1h] seed=102001 (2/10) money=[11611.0, 3000.0] valid=PASS (2.84s)
+  [validate_a3_animal_lifecycle/animal_COW_1h] seed=102002 (3/10) money=[9344.0, 3000.0] valid=PASS (2.86s)
+  [validate_a3_animal_lifecycle/animal_COW_1h] seed=102003 (4/10) money=[8310.0, 3000.0] valid=PASS (3.04s)
+  [validate_a3_animal_lifecycle/animal_COW_1h] seed=102004 (5/10) money=[10073.0, 3000.0] valid=PASS (2.96s)
+  [validate_a3_animal_lifecycle/animal_COW_1h] seed=102005 (6/10) money=[9576.0, 3000.0] valid=PASS (3.08s)
+  [validate_a3_animal_lifecycle/animal_COW_1h] seed=102006 (7/10) money=[9951.0, 3000.0] valid=PASS (3.08s)
+  [validate_a3_animal_lifecycle/animal_COW_1h] seed=102007 (8/10) money=[8203.0, 3000.0] valid=PASS (3.20s)
+  [validate_a3_animal_lifecycle/animal_COW_1h] seed=102008 (9/10) money=[10101.0, 3000.0] valid=PASS (3.01s)
+  [validate_a3_animal_lifecycle/animal_COW_1h] seed=102009 (10/10) money=[10216.0, 3000.0] valid=PASS (3.31s)
+  [validate_a4_fertilizer_retest/fert_none_2h] seed=102000 (1/10) money=[27891.0, 3000.0] valid=PASS (5.06s)
+  [validate_a4_fertilizer_retest/fert_none_2h] seed=102001 (2/10) money=[27891.0, 3000.0] valid=PASS (4.93s)
+  [validate_a4_fertilizer_retest/fert_none_2h] seed=102002 (3/10) money=[27891.0, 3000.0] valid=PASS (5.10s)
+  [validate_a4_fertilizer_retest/fert_none_2h] seed=102003 (4/10) money=[27891.0, 3000.0] valid=PASS (4.84s)
+  [validate_a4_fertilizer_retest/fert_none_2h] seed=102004 (5/10) money=[27891.0, 3000.0] valid=PASS (4.81s)
+  [validate_a4_fertilizer_retest/fert_none_2h] seed=102005 (6/10) money=[27891.0, 3000.0] valid=PASS (5.11s)
+  [validate_a4_fertilizer_retest/fert_none_2h] seed=102006 (7/10) money=[27892.0, 3000.0] valid=PASS (4.94s)
+  [validate_a4_fertilizer_retest/fert_none_2h] seed=102007 (8/10) money=[27891.0, 3000.0] valid=PASS (4.48s)
+  [validate_a4_fertilizer_retest/fert_none_2h] seed=102008 (9/10) money=[27891.0, 3000.0] valid=PASS (4.28s)
+  [validate_a4_fertilizer_retest/fert_none_2h] seed=102009 (10/10) money=[27891.0, 3000.0] valid=PASS (4.34s)
+  [validate_c1_land_x_labor/lxl_0q_2h] seed=102000 (1/10) money=[27891.0, 3000.0] valid=PASS (4.14s)
+  [validate_c1_land_x_labor/lxl_0q_2h] seed=102001 (2/10) money=[27891.0, 3000.0] valid=PASS (4.26s)
+  [validate_c1_land_x_labor/lxl_0q_2h] seed=102002 (3/10) money=[27891.0, 3000.0] valid=PASS (4.26s)
+  [validate_c1_land_x_labor/lxl_0q_2h] seed=102003 (4/10) money=[27891.0, 3000.0] valid=PASS (4.05s)
+  [validate_c1_land_x_labor/lxl_0q_2h] seed=102004 (5/10) money=[27891.0, 3000.0] valid=PASS (4.24s)
+  [validate_c1_land_x_labor/lxl_0q_2h] seed=102005 (6/10) money=[27891.0, 3000.0] valid=PASS (4.11s)
+  [validate_c1_land_x_labor/lxl_0q_2h] seed=102006 (7/10) money=[27892.0, 3000.0] valid=PASS (3.93s)
+  [validate_c1_land_x_labor/lxl_0q_2h] seed=102007 (8/10) money=[27891.0, 3000.0] valid=PASS (4.27s)
+  [validate_c1_land_x_labor/lxl_0q_2h] seed=102008 (9/10) money=[27891.0, 3000.0] valid=PASS (4.14s)
+  [validate_c1_land_x_labor/lxl_0q_2h] seed=102009 (10/10) money=[27891.0, 3000.0] valid=PASS (4.39s)
+  [validate_c2_labor_x_crop/lxc_MELON_2h] seed=102000 (1/10) money=[27891.0, 3000.0] valid=PASS (4.13s)
+  [validate_c2_labor_x_crop/lxc_MELON_2h] seed=102001 (2/10) money=[27891.0, 3000.0] valid=PASS (4.26s)
+  [validate_c2_labor_x_crop/lxc_MELON_2h] seed=102002 (3/10) money=[27891.0, 3000.0] valid=PASS (4.29s)
+  [validate_c2_labor_x_crop/lxc_MELON_2h] seed=102003 (4/10) money=[27891.0, 3000.0] valid=PASS (4.22s)
+  [validate_c2_labor_x_crop/lxc_MELON_2h] seed=102004 (5/10) money=[27891.0, 3000.0] valid=PASS (4.30s)
+  [validate_c2_labor_x_crop/lxc_MELON_2h] seed=102005 (6/10) money=[27891.0, 3000.0] valid=PASS (4.29s)
+  [validate_c2_labor_x_crop/lxc_MELON_2h] seed=102006 (7/10) money=[27892.0, 3000.0] valid=PASS (4.08s)
+  [validate_c2_labor_x_crop/lxc_MELON_2h] seed=102007 (8/10) money=[27891.0, 3000.0] valid=PASS (4.05s)
+  [validate_c2_labor_x_crop/lxc_MELON_2h] seed=102008 (9/10) money=[27891.0, 3000.0] valid=PASS (4.06s)
+  [validate_c2_labor_x_crop/lxc_MELON_2h] seed=102009 (10/10) money=[27891.0, 3000.0] valid=PASS (4.16s)
+  [validate_c3_animal_x_crop/axc_crop_animal] seed=102000 (1/10) money=[28775.0, 3000.0] valid=PASS (4.13s)
+  [validate_c3_animal_x_crop/axc_crop_animal] seed=102001 (2/10) money=[28669.0, 3000.0] valid=PARTIAL (4.79s)
+  [validate_c3_animal_x_crop/axc_crop_animal] seed=102002 (3/10) money=[28285.0, 3000.0] valid=PASS (4.60s)
+  [validate_c3_animal_x_crop/axc_crop_animal] seed=102003 (4/10) money=[28375.0, 3000.0] valid=PARTIAL (4.53s)
+  [validate_c3_animal_x_crop/axc_crop_animal] seed=102004 (5/10) money=[28494.0, 3000.0] valid=PARTIAL (4.71s)
+  [validate_c3_animal_x_crop/axc_crop_animal] seed=102005 (6/10) money=[28523.0, 3000.0] valid=PASS (5.09s)
+  [validate_c3_animal_x_crop/axc_crop_animal] seed=102006 (7/10) money=[28484.0, 3000.0] valid=PARTIAL (4.94s)
+  [validate_c3_animal_x_crop/axc_crop_animal] seed=102007 (8/10) money=[28302.0, 3000.0] valid=PARTIAL (5.33s)
+  [validate_c3_animal_x_crop/axc_crop_animal] seed=102008 (9/10) money=[28598.0, 3000.0] valid=PASS (5.72s)
+  [validate_c3_animal_x_crop/axc_crop_animal] seed=102009 (10/10) money=[28360.0, 3000.0] valid=PASS (5.37s)
+  [validate_c4_animal_x_fertilizer/axf_on_3h] seed=102000 (1/10) money=[29172.0, 3000.0] valid=PARTIAL (3.91s)
+  [validate_c4_animal_x_fertilizer/axf_on_3h] seed=102001 (2/10) money=[29201.0, 3000.0] valid=PARTIAL (4.70s)
+  [validate_c4_animal_x_fertilizer/axf_on_3h] seed=102002 (3/10) money=[28939.0, 3000.0] valid=PARTIAL (4.43s)
+  [validate_c4_animal_x_fertilizer/axf_on_3h] seed=102003 (4/10) money=[29081.0, 3000.0] valid=PARTIAL (4.48s)
+  [validate_c4_animal_x_fertilizer/axf_on_3h] seed=102004 (5/10) money=[29237.0, 3000.0] valid=PARTIAL (4.32s)
+  [validate_c4_animal_x_fertilizer/axf_on_3h] seed=102005 (6/10) money=[29032.0, 3000.0] valid=PARTIAL (4.35s)
+  [validate_c4_animal_x_fertilizer/axf_on_3h] seed=102006 (7/10) money=[29160.0, 3000.0] valid=PARTIAL (4.51s)
+  [validate_c4_animal_x_fertilizer/axf_on_3h] seed=102007 (8/10) money=[29084.0, 3000.0] valid=PARTIAL (4.54s)
+  [validate_c4_animal_x_fertilizer/axf_on_3h] seed=102008 (9/10) money=[29066.0, 3000.0] valid=PARTIAL (3.61s)
+  [validate_c4_animal_x_fertilizer/axf_on_3h] seed=102009 (10/10) money=[29066.0, 3000.0] valid=PARTIAL (3.19s)
+  [validate_c5_capital_x_horizon/cxh_animal_day0] seed=102000 (1/10) money=[28775.0, 3000.0] valid=PASS (3.02s)
+  [validate_c5_capital_x_horizon/cxh_animal_day0] seed=102001 (2/10) money=[28669.0, 3000.0] valid=PARTIAL (3.06s)
+  [validate_c5_capital_x_horizon/cxh_animal_day0] seed=102002 (3/10) money=[28285.0, 3000.0] valid=PASS (3.07s)
+  [validate_c5_capital_x_horizon/cxh_animal_day0] seed=102003 (4/10) money=[28375.0, 3000.0] valid=PARTIAL (3.05s)
+  [validate_c5_capital_x_horizon/cxh_animal_day0] seed=102004 (5/10) money=[28494.0, 3000.0] valid=PARTIAL (3.20s)
+  [validate_c5_capital_x_horizon/cxh_animal_day0] seed=102005 (6/10) money=[28523.0, 3000.0] valid=PASS (4.60s)
+  [validate_c5_capital_x_horizon/cxh_animal_day0] seed=102006 (7/10) money=[28484.0, 3000.0] valid=PARTIAL (4.60s)
+  [validate_c5_capital_x_horizon/cxh_animal_day0] seed=102007 (8/10) money=[28302.0, 3000.0] valid=PARTIAL (5.03s)
+  [validate_c5_capital_x_horizon/cxh_animal_day0] seed=102008 (9/10) money=[28598.0, 3000.0] valid=PASS (4.69s)
+  [validate_c5_capital_x_horizon/cxh_animal_day0] seed=102009 (10/10) money=[28360.0, 3000.0] valid=PASS (4.76s)
+  [validate_c6_inventory_bottleneck/inv_high] seed=102000 (1/10) money=[35026.0, 3000.0] valid=PARTIAL (5.09s)
+  [validate_c6_inventory_bottleneck/inv_high] seed=102001 (2/10) money=[31012.0, 3000.0] valid=PARTIAL (4.63s)
+  [validate_c6_inventory_bottleneck/inv_high] seed=102002 (3/10) money=[30728.0, 3000.0] valid=PARTIAL (4.94s)
+  [validate_c6_inventory_bottleneck/inv_high] seed=102003 (4/10) money=[31471.0, 3000.0] valid=PASS (4.78s)
+  [validate_c6_inventory_bottleneck/inv_high] seed=102004 (5/10) money=[32677.0, 3000.0] valid=PARTIAL (4.81s)
+  [validate_c6_inventory_bottleneck/inv_high] seed=102005 (6/10) money=[33011.0, 3000.0] valid=PASS (4.94s)
+  [validate_c6_inventory_bottleneck/inv_high] seed=102006 (7/10) money=[30679.0, 3000.0] valid=PARTIAL (4.84s)
+  [validate_c6_inventory_bottleneck/inv_high] seed=102007 (8/10) money=[28770.0, 3000.0] valid=PARTIAL (4.88s)
+  [validate_c6_inventory_bottleneck/inv_high] seed=102008 (9/10) money=[33591.0, 3000.0] valid=PARTIAL (3.53s)
+  [validate_c6_inventory_bottleneck/inv_high] seed=102009 (10/10) money=[35006.0, 3000.0] valid=PARTIAL (3.35s)
+  [h2h_c6_inventory_bottleneck/inv_high] seed=102100 (1/10) money=[30810.0, 5547.0] valid=PARTIAL (4.03s)
+  [h2h_c6_inventory_bottleneck/inv_high] seed=102101 (2/10) money=[32864.0, 4723.0] valid=PARTIAL (4.02s)
+  [h2h_c6_inventory_bottleneck/inv_high] seed=102102 (3/10) money=[29186.0, 5763.0] valid=PARTIAL (3.96s)
+  [h2h_c6_inventory_bottleneck/inv_high] seed=102103 (4/10) money=[35536.0, 5307.0] valid=PARTIAL (5.72s)
+  [h2h_c6_inventory_bottleneck/inv_high] seed=102104 (5/10) money=[28801.0, 4574.0] valid=PARTIAL (4.46s)
+  [h2h_c6_inventory_bottleneck/inv_high] seed=102105 (6/10) money=[28232.0, 4891.0] valid=PARTIAL (5.07s)
+  [h2h_c6_inventory_bottleneck/inv_high] seed=102106 (7/10) money=[29994.0, 5674.0] valid=PASS (3.96s)
+  [h2h_c6_inventory_bottleneck/inv_high] seed=102107 (8/10) money=[33237.0, 5560.0] valid=PASS (4.08s)
+  [h2h_c6_inventory_bottleneck/inv_high] seed=102108 (9/10) money=[30617.0, 5242.0] valid=PARTIAL (3.98s)
+  [h2h_c6_inventory_bottleneck/inv_high] seed=102109 (10/10) money=[34573.0, 5561.0] valid=PASS (4.15s)
+  [h2h_a1_labor_sweep/labor_WHEAT_0h] seed=102100 (1/10) money=[5949.0, 5255.0] valid=PASS (2.96s)
+  [h2h_a1_labor_sweep/labor_WHEAT_0h] seed=102101 (2/10) money=[6067.0, 5353.0] valid=PASS (3.26s)
+  [h2h_a1_labor_sweep/labor_WHEAT_0h] seed=102102 (3/10) money=[5923.0, 5194.0] valid=PASS (4.15s)
+  [h2h_a1_labor_sweep/labor_WHEAT_0h] seed=102103 (4/10) money=[4894.0, 4060.0] valid=PASS (4.12s)
+  [h2h_a1_labor_sweep/labor_WHEAT_0h] seed=102104 (5/10) money=[5471.0, 4689.0] valid=PASS (4.25s)
+  [h2h_a1_labor_sweep/labor_WHEAT_0h] seed=102105 (6/10) money=[5639.0, 4878.0] valid=PASS (4.25s)
+  [h2h_a1_labor_sweep/labor_WHEAT_0h] seed=102106 (7/10) money=[5855.0, 5145.0] valid=PASS (4.14s)
+  [h2h_a1_labor_sweep/labor_WHEAT_0h] seed=102107 (8/10) money=[5003.0, 4176.0] valid=PASS (4.37s)
+  [h2h_a1_labor_sweep/labor_WHEAT_0h] seed=102108 (9/10) money=[5071.0, 4248.0] valid=PASS (4.10s)
+  [h2h_a1_labor_sweep/labor_WHEAT_0h] seed=102109 (10/10) money=[5448.0, 4669.0] valid=PASS (4.57s)

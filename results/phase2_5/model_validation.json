@@ -1,0 +1,153 @@
+{
+  "consistency_checks": {
+    "a_uncalibrated_crop_returns_unknown": {
+      "confidence": "UNKNOWN",
+      "value": null,
+      "pass": true
+    },
+    "b_uncalibrated_land_portfolio_returns_unknown": {
+      "confidence": "UNKNOWN",
+      "value": null,
+      "pass": true
+    },
+    "c_planting_horizon_matches_phase2_2_finding": {
+      "latest_safe_plant_day_melon": 19,
+      "day_20_feasible": false,
+      "pass": true
+    },
+    "d_animal_ranking_stable_across_horizon": {
+      "holds_at_each_day": [
+        true,
+        true,
+        true
+      ],
+      "pass": true
+    }
+  },
+  "stress_test_horizon_aware_fix": {
+    "hypothesis": "horizon_aware=True (Latest-Safe-Sell-Day override) strictly improves final money over horizon_aware=False for the same batch_10d policy, on every tested seed",
+    "seeds": [
+      200200,
+      200201,
+      200202,
+      200203,
+      200204,
+      200205,
+      200206,
+      200207
+    ],
+    "rows": [
+      {
+        "horizon_aware": false,
+        "seed": 200200,
+        "final_money": 2018.0,
+        "validation": "PASS"
+      },
+      {
+        "horizon_aware": false,
+        "seed": 200201,
+        "final_money": 1195.0,
+        "validation": "PASS"
+      },
+      {
+        "horizon_aware": false,
+        "seed": 200202,
+        "final_money": 151.0,
+        "validation": "PASS"
+      },
+      {
+        "horizon_aware": false,
+        "seed": 200203,
+        "final_money": 2307.0,
+        "validation": "PASS"
+      },
+      {
+        "horizon_aware": false,
+        "seed": 200204,
+        "final_money": 1764.0,
+        "validation": "PASS"
+      },
+      {
+        "horizon_aware": false,
+        "seed": 200205,
+        "final_money": 1642.0,
+        "validation": "PASS"
+      },
+      {
+        "horizon_aware": false,
+        "seed": 200206,
+        "final_money": 21.0,
+        "validation": "PASS"
+      },
+      {
+        "horizon_aware": false,
+        "seed": 200207,
+        "final_money": 860.0,
+        "validation": "PASS"
+      },
+      {
+        "horizon_aware": true,
+        "seed": 200200,
+        "final_money": 4627.0,
+        "validation": "PASS"
+      },
+      {
+        "horizon_aware": true,
+        "seed": 200201,
+        "final_money": 3659.0,
+        "validation": "PARTIAL"
+      },
+      {
+        "horizon_aware": true,
+        "seed": 200202,
+        "final_money": 2818.0,
+        "validation": "PARTIAL"
+      },
+      {
+        "horizon_aware": true,
+        "seed": 200203,
+        "final_money": 5117.0,
+        "validation": "PASS"
+      },
+      {
+        "horizon_aware": true,
+        "seed": 200204,
+        "final_money": 4265.0,
+        "validation": "PASS"
+      },
+      {
+        "horizon_aware": true,
+        "seed": 200205,
+        "final_money": 4371.0,
+        "validation": "PASS"
+      },
+      {
+        "horizon_aware": true,
+        "seed": 200206,
+        "final_money": 2730.0,
+        "validation": "PASS"
+      },
+      {
+        "horizon_aware": true,
+        "seed": 200207,
+        "final_money": 2212.0,
+        "validation": "PASS"
+      }
+    ],
+    "mean_without": 1244.75,
+    "mean_with": 3724.875,
+    "paired_diffs": [
+      2609.0,
+      2464.0,
+      2667.0,
+      2810.0,
+      2501.0,
+      2729.0,
+      2709.0,
+      1352.0
+    ],
+    "all_positive": true,
+    "result": "CONFIRMED",
+    "caveat": "Fixes the F16 stranding component specifically (8/8 seeds improved) but does NOT make batch_10d competitive with passive/threshold_batch selling for this portfolio ($3,725 mean vs ~$31,000 for passive) -- batch_10d's fundamental cadence is still poor for this config independent of stranding; the model's deadline concept fixes exactly the mechanism it was built to describe (F16), not the policy's overall competitiveness."
+  }
+}

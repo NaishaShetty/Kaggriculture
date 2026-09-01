@@ -1,0 +1,25 @@
+{
+  "n_episodes": 10,
+  "p0_name": "pass",
+  "p1_name": "starter",
+  "p0_win_rate": 0.0,
+  "p1_win_rate": 1.0,
+  "tie_rate": 0.0,
+  "p0_error_count": 0,
+  "p1_error_count": 0,
+  "p0_final_money": {
+    "mean": 3000.0,
+    "median": 3000.0,
+    "std": 0.0,
+    "min": 3000.0,
+    "max": 3000.0
+  },
+  "p1_final_money": {
+    "mean": 3553.6,
+    "median": 3526.0,
+    "std": 145.01048237972316,
+    "min": 3421.0,
+    "max": 3892.0
+  },
+  "mean_runtime_s": 1.3420352220535279
+}

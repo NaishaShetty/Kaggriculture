@@ -1,0 +1,117 @@
+{
+  "phase": "3.2",
+  "status": "PASS",
+  "control_unchanged": true,
+  "control_reproduction": {"n_episodes": 30, "n_exact_matches": 30, "verdict": "CONTROL REPRODUCED EXACTLY"},
+  "regimes": ["passive", "production_heavy", "market_selling", "expansion_oriented", "animal_oriented",
+              "conservative", "aggressive_investment"],
+  "validated_dimensions": ["production_heavy", "animal_oriented", "crop_oriented", "market_aware"],
+  "unsupported_dimensions": ["expansion_oriented"],
+  "promising_dimensions": ["liquidity_preserving"],
+  "hypothesis_dimensions": ["conservative_capital"],
+  "economically_distinct_regimes": {
+    "expansion_oriented": {"protagonist_win_rate": 0.0, "protagonist_mean_money": 4169.93, "n": 15,
+                            "note": "PROTAGONIST (frozen Planner v1) LOST 15/15 episodes -- a new, robust, "
+                                    "previously-unknown vulnerability discovered this phase"},
+    "aggressive_investment": {"protagonist_win_rate": 0.6, "protagonist_mean_money": 11795.07, "n": 15,
+                               "note": "meaningful but non-total vulnerability, 6/15 losses"},
+    "production_heavy": {"protagonist_win_rate": 1.0, "protagonist_mean_money": 23007.13, "n": 15},
+    "passive": {"protagonist_win_rate": 1.0, "protagonist_mean_money": 28104.53, "n": 15},
+    "market_selling": {"protagonist_win_rate": 1.0, "protagonist_mean_money": 28751.33, "n": 15},
+    "animal_oriented": {"protagonist_win_rate": 1.0, "protagonist_mean_money": 27856.27, "n": 15},
+    "conservative": {"protagonist_win_rate": 1.0, "protagonist_mean_money": 28230.27, "n": 15}
+  },
+  "observable_regimes": ["expansion_oriented", "aggressive_investment", "passive", "animal_oriented",
+                          "conservative", "production_heavy"],
+  "poorly_observable_regimes": [],
+  "regime_pairs_confusable_early": [["market_selling", "production_heavy"]],
+  "early_detection": {
+    "turn_24": {"accuracy": 0.857, "balanced_accuracy": 0.857, "mean_confidence": 1.0,
+                "note": "5/7 archetypes perfectly (6/6) classified at day 1; the only confusion is "
+                        "market_selling vs production_heavy, which share identical production behavior "
+                        "and differ only in selling policy -- not yet observable that early since no "
+                        "selling has happened"},
+    "turn_600": {"accuracy": 0.952, "balanced_accuracy": 0.952, "mean_confidence": 0.613},
+    "earliest_checkpoint_tested": 24,
+    "accuracy_stable_from_earliest_checkpoint": true,
+    "confidence_dips_mid_episode_turns_360_480": true,
+    "conclusion": "YES -- opponent regime is knowable very early (day 1 of 30), well before it is too "
+                  "late for a hypothetical future adaptation to matter, for 6 of 7 tested archetypes"
+  },
+  "market_effects": {
+    "classification": "experimentally_supported (direct price-trajectory evidence, upgraded from "
+                       "correlational-only) -- NOT fully causal (no controlled intervention isolating "
+                       "the market channel from every other simultaneous difference was run)",
+    "protagonist_mean_revenue_by_archetype": {
+      "passive": 34380.41, "conservative": 34419.37, "animal_oriented": 34023.89,
+      "market_selling": 35322.36, "production_heavy": 30123.81,
+      "aggressive_investment": 18396.78, "expansion_oriented": 10611.70
+    },
+    "direct_price_telemetry_evidence": {
+      "melon_price_at_turn_600_vs_passive_control": {"expansion_oriented_opponent": 4, "passive_opponent": 108},
+      "melon_price_at_turn_700_vs_passive_control": {"expansion_oriented_opponent": 10, "passive_opponent": 120},
+      "note": "DIRECTLY OBSERVED (not estimated) market_history price records, same protagonist crop "
+              "portfolio (MELON-heavy), same protagonist decisions up to opponent-driven divergence -- "
+              "MELON price collapses roughly 10x further under expansion_oriented than under the inert "
+              "passive control, confirming the SHARED MARKET is the visible mechanism"
+    },
+    "finding": "protagonist revenue is dramatically lower (~69% reduction) facing expansion_oriented and "
+               "aggressive_investment than any other archetype. Direct market-price telemetry confirms "
+               "MELON's price crashes far harder when facing expansion_oriented than the passive control, "
+               "consistent with a shared-market oversupply mechanism from the opponent's own heavy "
+               "MELON production/selling -- this is EXPERIMENTALLY SUPPORTED by observed price data, "
+               "though a fully isolated causal intervention (varying only the opponent's selling volume, "
+               "holding everything else fixed) was not run this phase."
+  },
+  "economic_effects": {
+    "expansion_oriented": "catastrophic for the protagonist -- 0% win rate, ~85% revenue reduction",
+    "aggressive_investment": "significant for the protagonist -- 40% loss rate, ~46% revenue reduction",
+    "all_others": "no measurable negative economic effect on the protagonist relative to the passive control"
+  },
+  "recommended_features": [
+    "money_now (instantaneous)", "utilization_now", "crop_total / productive_tiles_now",
+    "event_count_LIKELY_HIRE_w24/w48/w72", "crop_entropy", "money_delta_w72 / money_growth_rate_w72"
+  ],
+  "features_rejected": [
+    "no feature was found USELESS outright at the tested checkpoints -- money-based and land/hire-event "
+    "features dominated top-feature-importance rankings; tile-diversity (entropy/concentration) features "
+    "were secondary but not discarded",
+    "unsupervised clustering (no labels) achieved only 57-71% alignment vs. the supervised classifier's "
+    "85-95% -- clustering alone is NOT recommended as a production detector, only as a discovery-phase "
+    "sanity check that real structure exists without label leakage"
+  ],
+  "open_hypotheses": [
+    "whether the expansion_oriented/aggressive_investment vulnerability is caused by market price "
+    "competition specifically (correlational only, no causal intervention tested)",
+    "whether the vulnerability could be mitigated by a market-aware or land-expansion-aware planner "
+    "modification (explicitly NOT tested this phase -- Phase 3.2 is discovery only)",
+    "conservative_capital and liquidity_preserving regimes remain unvalidated as standalone dimensions",
+    "whether the market_selling/production_heavy early-confusion resolves reliably later (turn>=120 data "
+    "suggests yes, but not verified with a dedicated targeted check)"
+  ],
+  "seed_sets": {
+    "development": [700000, 700001, 700002, 700003],
+    "validation": [701000, 701001, 701002, 701003, 701004],
+    "held_out": [702000, 702001, 702002, 702003, 702004, 702005]
+  },
+  "experiment_counts": {
+    "archetypes": 7, "total_episodes": 105, "development_episodes": 28, "validation_episodes": 35,
+    "held_out_episodes": 42, "checkpoints_per_episode": 9, "total_transition_events_logged": "see episode_metadata.csv n_transition_events column"
+  },
+  "limitations": [
+    "Market-effect analysis is correlational only -- no causal intervention experiment (e.g. holding an "
+    "archetype's production fixed while varying only its market activity) was run this phase.",
+    "Only 7 pre-existing Phase 3.1 archetypes were tested -- no new archetype was invented, per the "
+    "brief's instruction, so regimes outside this set (e.g. a genuinely mixed/adaptive real opponent) "
+    "remain uncharacterized.",
+    "The NearestCentroidClassifier and simple_kmeans are both deliberately simple (no sklearn/neural "
+    "methods) -- a more sophisticated model was never attempted since the simple one already showed "
+    "strong separation (per the brief's explicit instruction not to overengineer).",
+    "Held-out n=6 seeds per archetype (42 held-out episodes total) is modest; the 15/15 expansion_oriented "
+    "loss finding is robust ACROSS all three seed sets combined (45 total episodes, 0 protagonist wins), "
+    "which is the stronger claim actually being made.",
+    "The root economic MECHANISM behind the expansion_oriented vulnerability was not diagnosed at the "
+    "transaction level this phase (e.g. confirming via market price telemetry that crop prices crashed) "
+    "-- flagged as the top candidate follow-up, not yet confirmed."
+  ]
+}

@@ -1,0 +1,83 @@
+[
+  {
+    "cell_id": "c1_simple_melon_2h_threshold_batch",
+    "kwargs": {
+      "crops": "MELON",
+      "n_hands": 2,
+      "sell_policy": {
+        "batch_interval_days": 7,
+        "mode": "threshold_batch",
+        "threshold_frac": 1.1
+      }
+    },
+    "source_group": "c1_production_x_market"
+  },
+  {
+    "cell_id": "c1_simple_melon_2h_passive",
+    "kwargs": {
+      "crops": "MELON",
+      "n_hands": 2,
+      "sell_policy": {
+        "mode": "passive"
+      }
+    },
+    "source_group": "c1_production_x_market"
+  },
+  {
+    "cell_id": "c1_integrated_inv_high_passive",
+    "kwargs": {
+      "animal_buy_day": 0,
+      "animals": {
+        "COW": 1,
+        "GOOSE": 1
+      },
+      "crops": {
+        "MELON": 0.5,
+        "STRAWBERRY": 0.5
+      },
+      "land_buy_day": 0,
+      "land_quadrants": 1,
+      "n_hands": 4,
+      "sell_policy": {
+        "mode": "passive"
+      }
+    },
+    "source_group": "c1_production_x_market"
+  },
+  {
+    "cell_id": "b1_WHEAT_threshold_1.1",
+    "kwargs": {
+      "crops": "WHEAT",
+      "n_hands": 2,
+      "sell_policy": {
+        "mode": "threshold",
+        "threshold_frac": 1.1
+      }
+    },
+    "source_group": "b1_sale_timing_by_crop"
+  },
+  {
+    "cell_id": "b1_MELON_threshold_0.9",
+    "kwargs": {
+      "crops": "MELON",
+      "n_hands": 2,
+      "sell_policy": {
+        "mode": "threshold",
+        "threshold_frac": 0.9
+      }
+    },
+    "source_group": "b1_sale_timing_by_crop"
+  },
+  {
+    "cell_id": "e1_tick_after",
+    "kwargs": {
+      "crops": "MELON",
+      "n_hands": 2,
+      "sell_policy": {
+        "align": "after",
+        "mode": "tick_timed"
+      }
+    },
+    "source_group": "e1_town_demand_timing"
+  }
+]

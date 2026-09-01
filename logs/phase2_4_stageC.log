@@ -1,0 +1,400 @@
+OpenSpiel exception: Unknown game 'universal_poker'. Available games are:
+2048
+add_noise
+amazons
+amazons_proxy
+ant_foraging_arena
+antichess
+backgammon
+backgammon_proxy
+banqi
+bargaining
+bargaining_proxy
+battleship
+blackjack
+blotto
+breakthrough
+breakthrough_proxy
+bridge
+bridge_arena
+bridge_uncontested_bidding
+cached_tree
+capture_the_flag
+capture_the_flag_proxy
+catch
+chat_game
+checkers
+checkers_proxy
+chess
+chinese_checkers
+cliff_walking
+clobber
+clobber_proxy
+coin_game
+coin_game_arena
+coin_game_proxy
+colored_trails
+connect_four
+connect_four_proxy
+coop_box_pushing
+coop_to_1p
+coordinated_mp
+crazy_eights
+crazyhouse
+cribbage
+crossword
+cursor_go
+dark_chess
+dark_hex
+dark_hex_ir
+dark_hex_proxy
+deep_sea
+dots_and_boxes
+dots_and_boxes_proxy
+dou_dizhu
+efg_game
+einstein_wurfelt_nicht
+euchre
+first_sealed_auction
+gin_rummy
+gin_rummy_proxy
+go
+go_fish
+go_fish_proxy
+go_proxy
+gomoku
+goofspiel
+havannah
+havannah_proxy
+hearts
+hex
+hive
+hive_proxy
+kriegspiel
+kuhn_poker
+laser_tag
+latent_ttt
+leduc_poker
+lewis_signaling
+liars_dice
+liars_dice_ir
+lines_of_action
+lines_of_action_proxy
+maedn
+mancala
+mancala_proxy
+markov_soccer
+markov_soccer_proxy
+matching_pennies_3p
+matrix_bos
+matrix_brps
+matrix_cd
+matrix_coordination
+matrix_mp
+matrix_pd
+matrix_rps
+matrix_rpsw
+matrix_sh
+matrix_shapleys_game
+mfg_crowd_modelling
+mfg_crowd_modelling_2d
+mfg_dynamic_routing
+mfg_garnet
+misere
+mnk
+morpion_solitaire
+negotiation
+negotiation_proxy
+nfg_game
+nim
+nine_mens_morris
+nine_mens_morris_proxy
+normal_form_extensive_game
+oh_hell
+oshi_zumo
+oshi_zumo_proxy
+othello
+othello_proxy
+oware
+pathfinding
+pentago
+phantom_go
+phantom_ttt
+phantom_ttt_ir
+pig
+python_ant_foraging
+python_ant_foraging_proxy
+python_block_dominoes
+python_dynamic_routing
+python_hangman
+python_iterated_prisoners_dilemma
+python_kuhn_poker
+python_liars_poker
+python_pokerkit_wrapper
+python_pokerkit_wrapper_acpc_style
+python_repeated_pokerkit
+python_team_dominoes
+python_tic_tac_toe
+quoridor
+rbc
+repeated_game
+repeated_leduc_poker
+restricted_nash_response
+sheriff
+shogi
+shogi_proxy
+skat
+snake
+snake_proxy
+social_deduction
+solitaire
+spades
+start_at
+stones_and_gems
+tarok
+tic_tac_toe
+tiny_bridge_2p
+tiny_bridge_4p
+tiny_hanabi
+trade_comm
+turn_based_simultaneous_game
+twixt
+ultimate_tic_tac_toe
+ultimate_tic_tac_toe_proxy
+xiangqi
+y
+y_proxy
+yacht
+zerosum
+OpenSpiel exception: Unknown game 'repeated_poker'. Available games are:
+2048
+add_noise
+amazons
+amazons_proxy
+ant_foraging_arena
+antichess
+backgammon
+backgammon_proxy
+banqi
+bargaining
+bargaining_proxy
+battleship
+blackjack
+blotto
+breakthrough
+breakthrough_proxy
+bridge
+bridge_arena
+bridge_uncontested_bidding
+cached_tree
+capture_the_flag
+capture_the_flag_proxy
+catch
+chat_game
+checkers
+checkers_proxy
+chess
+chinese_checkers
+cliff_walking
+clobber
+clobber_proxy
+coin_game
+coin_game_arena
+coin_game_proxy
+colored_trails
+connect_four
+connect_four_proxy
+coop_box_pushing
+coop_to_1p
+coordinated_mp
+crazy_eights
+crazyhouse
+cribbage
+crossword
+cursor_go
+dark_chess
+dark_hex
+dark_hex_ir
+dark_hex_proxy
+deep_sea
+dots_and_boxes
+dots_and_boxes_proxy
+dou_dizhu
+efg_game
+einstein_wurfelt_nicht
+euchre
+first_sealed_auction
+gin_rummy
+gin_rummy_proxy
+go
+go_fish
+go_fish_proxy
+go_proxy
+gomoku
+goofspiel
+havannah
+havannah_proxy
+hearts
+hex
+hive
+hive_proxy
+kriegspiel
+kuhn_poker
+laser_tag
+latent_ttt
+leduc_poker
+lewis_signaling
+liars_dice
+liars_dice_ir
+lines_of_action
+lines_of_action_proxy
+maedn
+mancala
+mancala_proxy
+markov_soccer
+markov_soccer_proxy
+matching_pennies_3p
+matrix_bos
+matrix_brps
+matrix_cd
+matrix_coordination
+matrix_mp
+matrix_pd
+matrix_rps
+matrix_rpsw
+matrix_sh
+matrix_shapleys_game
+mfg_crowd_modelling
+mfg_crowd_modelling_2d
+mfg_dynamic_routing
+mfg_garnet
+misere
+mnk
+morpion_solitaire
+negotiation
+negotiation_proxy
+nfg_game
+nim
+nine_mens_morris
+nine_mens_morris_proxy
+normal_form_extensive_game
+oh_hell
+oshi_zumo
+oshi_zumo_proxy
+othello
+othello_proxy
+oware
+pathfinding
+pentago
+phantom_go
+phantom_ttt
+phantom_ttt_ir
+pig
+python_ant_foraging
+python_ant_foraging_proxy
+python_block_dominoes
+python_dynamic_routing
+python_hangman
+python_iterated_prisoners_dilemma
+python_kuhn_poker
+python_liars_poker
+python_pokerkit_wrapper
+python_pokerkit_wrapper_acpc_style
+python_repeated_pokerkit
+python_team_dominoes
+python_tic_tac_toe
+quoridor
+rbc
+repeated_game
+repeated_leduc_poker
+restricted_nash_response
+sheriff
+shogi
+shogi_proxy
+skat
+snake
+snake_proxy
+social_deduction
+solitaire
+spades
+start_at
+stones_and_gems
+tarok
+tic_tac_toe
+tiny_bridge_2p
+tiny_bridge_4p
+tiny_hanabi
+trade_comm
+turn_based_simultaneous_game
+twixt
+ultimate_tic_tac_toe
+ultimate_tic_tac_toe_proxy
+xiangqi
+y
+y_proxy
+yacht
+zerosum
+  [c1_production_x_market/c1_simple_melon_2h_passive] seed=200100 (1/8) money=[27891.0, 3000.0] valid=PASS (3.21s)
+  [c1_production_x_market/c1_simple_melon_2h_passive] seed=200101 (2/8) money=[27891.0, 3000.0] valid=PASS (4.29s)
+  [c1_production_x_market/c1_simple_melon_2h_passive] seed=200102 (3/8) money=[27891.0, 3000.0] valid=PASS (4.33s)
+  [c1_production_x_market/c1_simple_melon_2h_passive] seed=200103 (4/8) money=[27891.0, 3000.0] valid=PASS (4.26s)
+  [c1_production_x_market/c1_simple_melon_2h_passive] seed=200104 (5/8) money=[27891.0, 3000.0] valid=PASS (4.53s)
+  [c1_production_x_market/c1_simple_melon_2h_passive] seed=200105 (6/8) money=[27891.0, 3000.0] valid=PASS (4.33s)
+  [c1_production_x_market/c1_simple_melon_2h_passive] seed=200106 (7/8) money=[27971.0, 3000.0] valid=PASS (3.61s)
+  [c1_production_x_market/c1_simple_melon_2h_passive] seed=200107 (8/8) money=[27891.0, 3000.0] valid=PASS (4.21s)
+  [c1_production_x_market/c1_simple_melon_2h_threshold_1.0] seed=200100 (1/8) money=[27730.0, 3000.0] valid=PASS (4.11s)
+  [c1_production_x_market/c1_simple_melon_2h_threshold_1.0] seed=200101 (2/8) money=[27730.0, 3000.0] valid=PASS (4.28s)
+  [c1_production_x_market/c1_simple_melon_2h_threshold_1.0] seed=200102 (3/8) money=[27730.0, 3000.0] valid=PASS (4.40s)
+  [c1_production_x_market/c1_simple_melon_2h_threshold_1.0] seed=200103 (4/8) money=[27730.0, 3000.0] valid=PASS (4.48s)
+  [c1_production_x_market/c1_simple_melon_2h_threshold_1.0] seed=200104 (5/8) money=[27730.0, 3000.0] valid=PASS (4.54s)
+  [c1_production_x_market/c1_simple_melon_2h_threshold_1.0] seed=200105 (6/8) money=[27730.0, 3000.0] valid=PASS (4.39s)
+  [c1_production_x_market/c1_simple_melon_2h_threshold_1.0] seed=200106 (7/8) money=[27810.0, 3000.0] valid=PASS (4.21s)
+  [c1_production_x_market/c1_simple_melon_2h_threshold_1.0] seed=200107 (8/8) money=[27730.0, 3000.0] valid=PASS (4.30s)
+  [c1_production_x_market/c1_simple_melon_2h_threshold_batch] seed=200100 (1/8) money=[28075.0, 3000.0] valid=PASS (4.12s)
+  [c1_production_x_market/c1_simple_melon_2h_threshold_batch] seed=200101 (2/8) money=[28075.0, 3000.0] valid=PASS (4.45s)
+  [c1_production_x_market/c1_simple_melon_2h_threshold_batch] seed=200102 (3/8) money=[28075.0, 3000.0] valid=PASS (4.29s)
+  [c1_production_x_market/c1_simple_melon_2h_threshold_batch] seed=200103 (4/8) money=[28075.0, 3000.0] valid=PASS (4.35s)
+  [c1_production_x_market/c1_simple_melon_2h_threshold_batch] seed=200104 (5/8) money=[28075.0, 3000.0] valid=PASS (4.45s)
+  [c1_production_x_market/c1_simple_melon_2h_threshold_batch] seed=200105 (6/8) money=[28075.0, 3000.0] valid=PASS (4.41s)
+  [c1_production_x_market/c1_simple_melon_2h_threshold_batch] seed=200106 (7/8) money=[28396.0, 3000.0] valid=PASS (4.24s)
+  [c1_production_x_market/c1_simple_melon_2h_threshold_batch] seed=200107 (8/8) money=[28075.0, 3000.0] valid=PASS (4.51s)
+  [c1_production_x_market/c1_simple_melon_2h_batch_5d] seed=200100 (1/8) money=[28124.0, 3000.0] valid=PASS (4.03s)
+  [c1_production_x_market/c1_simple_melon_2h_batch_5d] seed=200101 (2/8) money=[28124.0, 3000.0] valid=PASS (4.24s)
+  [c1_production_x_market/c1_simple_melon_2h_batch_5d] seed=200102 (3/8) money=[28124.0, 3000.0] valid=PASS (4.18s)
+  [c1_production_x_market/c1_simple_melon_2h_batch_5d] seed=200103 (4/8) money=[28124.0, 3000.0] valid=PASS (4.47s)
+  [c1_production_x_market/c1_simple_melon_2h_batch_5d] seed=200104 (5/8) money=[28124.0, 3000.0] valid=PASS (4.19s)
+  [c1_production_x_market/c1_simple_melon_2h_batch_5d] seed=200105 (6/8) money=[28124.0, 3000.0] valid=PASS (3.05s)
+  [c1_production_x_market/c1_simple_melon_2h_batch_5d] seed=200106 (7/8) money=[28287.0, 3000.0] valid=PASS (3.03s)
+  [c1_production_x_market/c1_simple_melon_2h_batch_5d] seed=200107 (8/8) money=[28124.0, 3000.0] valid=PASS (3.20s)
+  [c1_production_x_market/c1_integrated_inv_high_passive] seed=200100 (1/8) money=[26618.0, 3000.0] valid=PARTIAL (3.35s)
+  [c1_production_x_market/c1_integrated_inv_high_passive] seed=200101 (2/8) money=[28126.0, 3000.0] valid=PASS (4.93s)
+  [c1_production_x_market/c1_integrated_inv_high_passive] seed=200102 (3/8) money=[31382.0, 3000.0] valid=PASS (4.87s)
+  [c1_production_x_market/c1_integrated_inv_high_passive] seed=200103 (4/8) money=[30541.0, 3000.0] valid=PASS (5.00s)
+  [c1_production_x_market/c1_integrated_inv_high_passive] seed=200104 (5/8) money=[34220.0, 3000.0] valid=PARTIAL (4.72s)
+  [c1_production_x_market/c1_integrated_inv_high_passive] seed=200105 (6/8) money=[34713.0, 3000.0] valid=PARTIAL (4.84s)
+  [c1_production_x_market/c1_integrated_inv_high_passive] seed=200106 (7/8) money=[33171.0, 3000.0] valid=PASS (4.72s)
+  [c1_production_x_market/c1_integrated_inv_high_passive] seed=200107 (8/8) money=[33729.0, 3000.0] valid=PARTIAL (4.72s)
+  [c1_production_x_market/c1_integrated_inv_high_threshold_1.0] seed=200100 (1/8) money=[13859.0, 3000.0] valid=PARTIAL (4.30s)
+  [c1_production_x_market/c1_integrated_inv_high_threshold_1.0] seed=200101 (2/8) money=[17719.0, 3000.0] valid=PASS (4.89s)
+  [c1_production_x_market/c1_integrated_inv_high_threshold_1.0] seed=200102 (3/8) money=[27982.0, 3000.0] valid=PARTIAL (4.63s)
+  [c1_production_x_market/c1_integrated_inv_high_threshold_1.0] seed=200103 (4/8) money=[21300.0, 3000.0] valid=PASS (4.87s)
+  [c1_production_x_market/c1_integrated_inv_high_threshold_1.0] seed=200104 (5/8) money=[23822.0, 3000.0] valid=PARTIAL (4.82s)
+  [c1_production_x_market/c1_integrated_inv_high_threshold_1.0] seed=200105 (6/8) money=[24345.0, 3000.0] valid=PARTIAL (4.74s)
+  [c1_production_x_market/c1_integrated_inv_high_threshold_1.0] seed=200106 (7/8) money=[22749.0, 3000.0] valid=PARTIAL (4.73s)
+  [c1_production_x_market/c1_integrated_inv_high_threshold_1.0] seed=200107 (8/8) money=[23361.0, 3000.0] valid=PARTIAL (4.87s)
+  [c1_production_x_market/c1_integrated_inv_high_threshold_batch] seed=200100 (1/8) money=[26700.0, 3000.0] valid=PASS (4.38s)
+  [c1_production_x_market/c1_integrated_inv_high_threshold_batch] seed=200101 (2/8) money=[28212.0, 3000.0] valid=PARTIAL (4.90s)
+  [c1_production_x_market/c1_integrated_inv_high_threshold_batch] seed=200102 (3/8) money=[30058.0, 3000.0] valid=PARTIAL (4.75s)
+  [c1_production_x_market/c1_integrated_inv_high_threshold_batch] seed=200103 (4/8) money=[30635.0, 3000.0] valid=PARTIAL (4.76s)
+  [c1_production_x_market/c1_integrated_inv_high_threshold_batch] seed=200104 (5/8) money=[34213.0, 3000.0] valid=PARTIAL (3.40s)
+  [c1_production_x_market/c1_integrated_inv_high_threshold_batch] seed=200105 (6/8) money=[33874.0, 3000.0] valid=PASS (3.29s)
+  [c1_production_x_market/c1_integrated_inv_high_threshold_batch] seed=200106 (7/8) money=[33313.0, 3000.0] valid=PARTIAL (3.51s)
+  [c1_production_x_market/c1_integrated_inv_high_threshold_batch] seed=200107 (8/8) money=[33828.0, 3000.0] valid=PARTIAL (4.81s)
+  [c1_production_x_market/c1_integrated_inv_high_batch_5d] seed=200100 (1/8) money=[51.0, 3000.0] valid=PASS (4.46s)
+  [c1_production_x_market/c1_integrated_inv_high_batch_5d] seed=200101 (2/8) money=[211.0, 3000.0] valid=PASS (5.01s)
+  [c1_production_x_market/c1_integrated_inv_high_batch_5d] seed=200102 (3/8) money=[23265.0, 3000.0] valid=PASS (4.79s)
+  [c1_production_x_market/c1_integrated_inv_high_batch_5d] seed=200103 (4/8) money=[1720.0, 3000.0] valid=PASS (4.54s)
+  [c1_production_x_market/c1_integrated_inv_high_batch_5d] seed=200104 (5/8) money=[24932.0, 3000.0] valid=PASS (4.91s)
+  [c1_production_x_market/c1_integrated_inv_high_batch_5d] seed=200105 (6/8) money=[23204.0, 3000.0] valid=PASS (4.75s)
+  [c1_production_x_market/c1_integrated_inv_high_batch_5d] seed=200106 (7/8) money=[22072.0, 3000.0] valid=PARTIAL (4.83s)
+  [c1_production_x_market/c1_integrated_inv_high_batch_5d] seed=200107 (8/8) money=[23451.0, 3000.0] valid=PARTIAL (4.82s)

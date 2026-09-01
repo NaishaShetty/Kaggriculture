@@ -1,0 +1,203 @@
+{
+  "WHEAT": {
+    "crop": "WHEAT",
+    "documented": {
+      "seed": 10,
+      "first_yield_day": 2,
+      "max_yield_day": 4,
+      "interval": 0,
+      "max_yield": 6,
+      "ongoing": false
+    },
+    "verified": {
+      "planted_day": 0,
+      "first_watering_day": 0,
+      "first_growth_day": null,
+      "first_growth_age_days": null,
+      "first_harvest_day": 2,
+      "first_harvest_age_days": 2,
+      "n_harvest_events_this_instance": 1,
+      "harvest_days": [
+        2
+      ],
+      "max_single_harvest_units": 1,
+      "weed_converted": false,
+      "dug": false,
+      "watering_events_before_close": 2,
+      "growth_events_before_close": 0,
+      "fertilize_events_before_close": 0,
+      "ongoing_observed": false
+    },
+    "checks": {
+      "first_yield_day_matches": true,
+      "ongoing_flag_matches": true
+    },
+    "instance_position": [
+      4,
+      4
+    ],
+    "n_total_instances_observed": 116
+  },
+  "CARROT": {
+    "crop": "CARROT",
+    "documented": {
+      "seed": 20,
+      "first_yield_day": 2,
+      "max_yield_day": 3,
+      "interval": 0,
+      "max_yield": 4,
+      "ongoing": false
+    },
+    "verified": {
+      "planted_day": 0,
+      "first_watering_day": 0,
+      "first_growth_day": null,
+      "first_growth_age_days": null,
+      "first_harvest_day": 2,
+      "first_harvest_age_days": 2,
+      "n_harvest_events_this_instance": 1,
+      "harvest_days": [
+        2
+      ],
+      "max_single_harvest_units": 1,
+      "weed_converted": false,
+      "dug": false,
+      "watering_events_before_close": 2,
+      "growth_events_before_close": 0,
+      "fertilize_events_before_close": 0,
+      "ongoing_observed": false
+    },
+    "checks": {
+      "first_yield_day_matches": true,
+      "ongoing_flag_matches": true
+    },
+    "instance_position": [
+      4,
+      4
+    ],
+    "n_total_instances_observed": 116
+  },
+  "TOMATO": {
+    "crop": "TOMATO",
+    "documented": {
+      "seed": 50,
+      "first_yield_day": 8,
+      "max_yield_day": 8,
+      "interval": 1,
+      "max_yield": 4,
+      "ongoing": true
+    },
+    "verified": {
+      "planted_day": 0,
+      "first_watering_day": 0,
+      "first_growth_day": 8,
+      "first_growth_age_days": 8,
+      "first_harvest_day": 8,
+      "first_harvest_age_days": 8,
+      "n_harvest_events_this_instance": 4,
+      "harvest_days": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "max_single_harvest_units": 1,
+      "weed_converted": true,
+      "dug": false,
+      "watering_events_before_close": 12,
+      "growth_events_before_close": 4,
+      "fertilize_events_before_close": 0,
+      "ongoing_observed": true
+    },
+    "checks": {
+      "first_yield_day_matches": true,
+      "ongoing_flag_matches": true
+    },
+    "instance_position": [
+      4,
+      4
+    ],
+    "n_total_instances_observed": 23
+  },
+  "STRAWBERRY": {
+    "crop": "STRAWBERRY",
+    "documented": {
+      "seed": 100,
+      "first_yield_day": 10,
+      "max_yield_day": 10,
+      "interval": 2,
+      "max_yield": 4,
+      "ongoing": true
+    },
+    "verified": {
+      "planted_day": 0,
+      "first_watering_day": 0,
+      "first_growth_day": 10,
+      "first_growth_age_days": 10,
+      "first_harvest_day": 10,
+      "first_harvest_age_days": 10,
+      "n_harvest_events_this_instance": 4,
+      "harvest_days": [
+        10,
+        12,
+        14,
+        16
+      ],
+      "max_single_harvest_units": 1,
+      "weed_converted": true,
+      "dug": false,
+      "watering_events_before_close": 17,
+      "growth_events_before_close": 4,
+      "fertilize_events_before_close": 0,
+      "ongoing_observed": true
+    },
+    "checks": {
+      "first_yield_day_matches": true,
+      "ongoing_flag_matches": true
+    },
+    "instance_position": [
+      4,
+      4
+    ],
+    "n_total_instances_observed": 22
+  },
+  "MELON": {
+    "crop": "MELON",
+    "documented": {
+      "seed": 80,
+      "first_yield_day": 10,
+      "max_yield_day": 12,
+      "interval": 0,
+      "max_yield": 6,
+      "ongoing": false
+    },
+    "verified": {
+      "planted_day": 0,
+      "first_watering_day": 0,
+      "first_growth_day": 6,
+      "first_growth_age_days": 6,
+      "first_harvest_day": 10,
+      "first_harvest_age_days": 10,
+      "n_harvest_events_this_instance": 1,
+      "harvest_days": [
+        10
+      ],
+      "max_single_harvest_units": 5,
+      "weed_converted": false,
+      "dug": false,
+      "watering_events_before_close": 10,
+      "growth_events_before_close": 4,
+      "fertilize_events_before_close": 0,
+      "ongoing_observed": false
+    },
+    "checks": {
+      "first_yield_day_matches": true,
+      "ongoing_flag_matches": true
+    },
+    "instance_position": [
+      4,
+      4
+    ],
+    "n_total_instances_observed": 29
+  }
+}

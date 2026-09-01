@@ -1,0 +1,12 @@
+{
+  "ablation_matrix": {
+    "planner_only": {
+      "planner": true,
+      "market_adaptation": false,
+      "opponent_observation": "logged_only",
+      "opponent_model": false,
+      "strategy_switching": false
+    }
+  },
+  "note": "Phase 3.1 has exactly one real candidate (planner_only) -- every other row the brief anticipates (planner+market_adaptation, planner+opponent_observation used for real, planner+opponent_model, planner+strategy_switching, planner+market+opponent) requires an actual Phase 3.2+ adaptive mechanism to exist before it can be meaningfully evaluated. This script proves the FRAMEWORK (component flags, independent toggling) is in place, not that an ablation comparison has been run -- there is nothing to compare against itself."
+}

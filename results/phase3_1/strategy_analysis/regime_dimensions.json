@@ -1,0 +1,46 @@
+{
+  "candidate_strategy_regime_dimensions": {
+    "production_heavy": {
+      "measurable_from": "n_hands + land_quadrants + n active crop/animal resource types (from current_config)",
+      "evidence": "F1/F2 (labor), F13 (integrated strategy dominance) -- Phase 2.3",
+      "classification": "validated",
+      "note": "the F13 integrated config IS this regime, empirically the strongest tested strategy"
+    },
+    "conservative_capital": {
+      "measurable_from": "cash_reserve_frac, fraction of cash left uncommitted after planning cycles",
+      "evidence": "no direct Phase 2 experiment varied a 'hold more cash' policy as its own IV",
+      "classification": "hypothesis",
+      "note": "plausible dimension (opposite of production_heavy) but never isolated and measured on its own"
+    },
+    "animal_oriented": {
+      "measurable_from": "animal_counts relative to crop_tile_counts (from current_config/state)",
+      "evidence": "F5/F6/F7 (Phase 2.3) -- animal profitability and crop-animal sub-additivity",
+      "classification": "validated",
+      "note": "measurable and economically meaningful; F7 shows it's a real, distinguishable resource-competition axis"
+    },
+    "crop_oriented": {
+      "measurable_from": "crop_tile_counts relative to animal_counts",
+      "evidence": "Phase 2.2 (crop economics), F13 (crop share of the winning portfolio)",
+      "classification": "validated",
+      "note": "the natural complement of animal_oriented on the same measured axis"
+    },
+    "market_aware": {
+      "measurable_from": "sell_policy.mode != 'passive'",
+      "evidence": "F14 (helps simple portfolios), F19 (no reliable help for complex ones)",
+      "classification": "validated",
+      "note": "measurable directly from config; its ECONOMIC VALUE is portfolio-complexity-CONDITIONAL (F19), not a strategy that is unconditionally 'better' -- do not treat market_aware=True as inherently superior"
+    },
+    "liquidity_preserving": {
+      "measurable_from": "shed_occupancy relative to SHED_CAPACITY, and whether sell_policy forces frequent liquidation",
+      "evidence": "F16/F17 (Phase 2.4) -- horizon stranding and shed overflow are the two risks this regime would mitigate",
+      "classification": "promising",
+      "note": "the RISK this regime addresses is validated (F16/F17); whether deliberately over-indexing on liquidity ever beats the planner's existing mandatory horizon_aware safety net is UNTESTED"
+    },
+    "expansion_oriented": {
+      "measurable_from": "land_quadrants relative to n_hands (i.e. land bought ahead of labor to work it)",
+      "evidence": "F3/F4 (Phase 2.3) -- land was NET-NEGATIVE at every tested labor level for the tested portfolio",
+      "classification": "unsupported",
+      "note": "the one regime with DIRECT NEGATIVE evidence in the only portfolio tested -- flagged explicitly so a future regime selector does not default to this without new evidence for a land-hungry mix (Phase 2.5's inventory already flagged this exact combination as UNKNOWN)"
+    }
+  }
+}

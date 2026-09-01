@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Virtual environments (this project's venv, kagvenv, lives outside the repo at C:\kagvenv;
+# these patterns are here in case one is ever created inside the repo)
+.venv/
+venv/
+env/
+
+# IDE / editor metadata
+.vscode/
+.idea/
+
+# Local Claude Code session directory (empty in this repo; tool-local, not project content)
+.claude/
+
+# Dev-only convenience download -- the pinned kaggle-environments wheel used for local
+# installs. Not needed for the repo or the Kaggle submission; reinstall with
+# `pip install -U kaggle-environments` (see AGENTS.md).
+_pkgtmp/
+
+# Kaggle credentials -- must never be committed (see AGENTS.md's Kaggle CLI setup section)
+.kaggle/
+kaggle.json
+access_token
+
+# Generic secrets/env files
+.env
+.env.*
+*.pem
+*.key
+
+# Kaggle submission artifacts built from scripts/phase3_5_build_submission.py --
+# reproducible from source; do not commit the built binary itself
+*.tar.gz

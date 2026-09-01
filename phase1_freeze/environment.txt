@@ -1,0 +1,60 @@
+Kaggriculture Phase 1 — Environment Reproducibility Snapshot
+Captured: 2026-08-16 (Phase 2.0 freeze)
+
+PYTHON
+  Version:            3.11.3
+  Executable:          C:\kagvenv\Scripts\python.exe
+  Venv base:            C:\kagvenv  (short path — see WINDOWS WORKAROUND below)
+
+OPERATING SYSTEM
+  OS Name:             Microsoft Windows 11 Home
+  OS Version:          10.0.26200 (Build 26200)
+  Architecture:        x86_64
+  Shell used for setup: MINGW64 (Git Bash) via the Bash tool
+
+KAGGRICULTURE / KAGGLE-ENVIRONMENTS
+  kaggle-environments version: 1.32.7  (confirmed via `pip show kaggle-environments`)
+  Registered environment name: "kaggriculture"
+  Simulator source SHA-256:    bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e
+                                (kaggriculture.py — installed copy and vendor_kaggriculture/ copy match exactly)
+  Also present, unused/unexplored: registered env "kaggriculture_beginner" (same package)
+
+KAGGLE CLI
+  Version: 2.2.4  (`kaggle --version`; Phase 1 report recorded 2.1.2 for a separate global-Python
+  install seen very early in Phase 1 before the venv existed — that global install was never used to
+  run any experiment. 2.2.4, installed inside C:\kagvenv, is the version actually used for
+  authentication and the `kaggle competitions download` call.)
+
+INSTALLATION PROCEDURE (reproduce from scratch)
+  1. python -m venv C:\kagvenv
+     — MUST be a short base path. Installing into the default global site-packages
+       (AppData\Local\...\Python311\Lib\site-packages) or --user site-packages
+       (AppData\Roaming\...\Python311\site-packages) both fail with Windows MAX_PATH errors while
+       unpacking `orbax-checkpoint`'s deeply-nested bundled test-fixture files (observed errors:
+       "WinError 32: file in use" / "WinError 206: filename too long" / "No such file or directory"
+       depending on exact path depth at the time). A short venv base (C:\kagvenv) was the workaround
+       that let installation complete; it may still fail on installs deep enough into the dependency
+       tree, which is why step 3 below deliberately avoids that tree.
+  2. C:\kagvenv\Scripts\python.exe -m pip install --no-deps kaggle-environments
+     — installs the kaggriculture package itself without pulling in its full dependency graph,
+       sidestepping the problematic resolution order.
+  3. C:\kagvenv\Scripts\python.exe -m pip install Flask jsonschema numpy pygame pyjson5 termcolor \
+       requests tenacity google-auth pydantic kaggle
+     — installs everything kaggle_environments actually imports at module-load time for the
+       kaggriculture environment specifically.
+  4. INTENTIONALLY OMITTED: gymnax, flax, orbax-checkpoint, optax, chex, litellm, transformers.
+     These are declared as hard Requires-Dist by kaggle-environments 1.32.7 (it bundles many
+     environments in one package, including RL/LLM environments that need this stack), but
+     `kaggriculture.py` itself does not import any of them — confirmed by `import kaggle_environments`
+     succeeding and the full kaggriculture smoke test / all Phase 1 experiments running without error.
+     `jax` (0.10.2) ended up installed anyway as an incidental transitive dependency pulled in while
+     resolving other packages in step 3 — it has no bundled test-fixture long-path problem on its own
+     and caused no issues, so it was left in place rather than surgically removed.
+  5. Kaggle auth: API token saved to ~/.kaggle/access_token (chmod 600), obtained from
+     kaggle.com/settings/api. Verified via `kaggle competitions list -s kaggriculture` and
+     `kaggle competitions list --group entered`.
+
+FULL DEPENDENCY SNAPSHOT
+  See pip_freeze.txt (authoritative; 125 packages, captured via `pip freeze` on 2026-08-16, not
+  hand-constructed). Notably jax==0.10.2 is present; flax/gymnax/orbax-checkpoint/optax/chex/litellm/
+  transformers/torch are all absent, consistent with the intentional-omission list above.

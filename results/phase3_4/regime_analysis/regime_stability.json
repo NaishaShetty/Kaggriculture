@@ -1,0 +1,788 @@
+{
+  "n_seeds_analyzed": 15,
+  "n_stable": 15,
+  "finding": "expansion_oriented is classified with the SAME predicted class at every one of the 9 feature checkpoints (turns 24-600) in ALL 15 development+validation+held_out seeds -- zero regime transitions observed. Confidence is ~1.0 at turns 24-240 in every seed, and dips (as low as 0.16-0.79) near turn 600 in some seeds, but never crosses into a misclassification. CONCLUSION: expansion_oriented is a STABLE, PERSISTENT regime for the full 720-turn episode -- Variant D's detect-once-and-commit design (detect at turn 24, apply substitution for the rest of the episode) is well-matched to this archetype's actual behavior; no within-episode regime-switching logic is needed for this archetype.",
+  "confidence_label": "EXPERIMENTALLY_VALIDATED (measured directly from the persisted Phase 3.3 detector artifact against all 15 Phase 3.2 feature files, not assumed)",
+  "per_seed": {
+    "700000": {
+      "stable_all_checkpoints": true,
+      "checkpoints": [
+        {
+          "checkpoint": 24,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 48,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 72,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 120,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 180,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 240,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 360,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.954
+        },
+        {
+          "checkpoint": 480,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.987
+        },
+        {
+          "checkpoint": 600,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.769
+        }
+      ],
+      "detection_turn_first_active": 24,
+      "confidence_at_detection_turn24": 1.0
+    },
+    "700001": {
+      "stable_all_checkpoints": true,
+      "checkpoints": [
+        {
+          "checkpoint": 24,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 48,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 72,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 120,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 180,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 240,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 360,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.744
+        },
+        {
+          "checkpoint": 480,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.915
+        },
+        {
+          "checkpoint": 600,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.157
+        }
+      ],
+      "detection_turn_first_active": 24,
+      "confidence_at_detection_turn24": 1.0
+    },
+    "700002": {
+      "stable_all_checkpoints": true,
+      "checkpoints": [
+        {
+          "checkpoint": 24,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 48,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 72,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 120,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 180,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 240,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 360,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.943
+        },
+        {
+          "checkpoint": 480,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.988
+        },
+        {
+          "checkpoint": 600,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.737
+        }
+      ],
+      "detection_turn_first_active": 24,
+      "confidence_at_detection_turn24": 1.0
+    },
+    "700003": {
+      "stable_all_checkpoints": true,
+      "checkpoints": [
+        {
+          "checkpoint": 24,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 48,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 72,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 120,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 180,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 240,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 360,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.944
+        },
+        {
+          "checkpoint": 480,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.987
+        },
+        {
+          "checkpoint": 600,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.733
+        }
+      ],
+      "detection_turn_first_active": 24,
+      "confidence_at_detection_turn24": 1.0
+    },
+    "701000": {
+      "stable_all_checkpoints": true,
+      "checkpoints": [
+        {
+          "checkpoint": 24,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 48,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 72,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 120,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 180,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 240,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 360,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.949
+        },
+        {
+          "checkpoint": 480,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.987
+        },
+        {
+          "checkpoint": 600,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.745
+        }
+      ],
+      "detection_turn_first_active": 24,
+      "confidence_at_detection_turn24": 1.0
+    },
+    "701001": {
+      "stable_all_checkpoints": true,
+      "checkpoints": [
+        {
+          "checkpoint": 24,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 48,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 72,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 120,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 180,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 240,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 360,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.947
+        },
+        {
+          "checkpoint": 480,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.987
+        },
+        {
+          "checkpoint": 600,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.791
+        }
+      ],
+      "detection_turn_first_active": 24,
+      "confidence_at_detection_turn24": 1.0
+    },
+    "701002": {
+      "stable_all_checkpoints": true,
+      "checkpoints": [
+        {
+          "checkpoint": 24,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 48,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 72,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 120,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 180,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 240,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 360,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.947
+        },
+        {
+          "checkpoint": 480,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.987
+        },
+        {
+          "checkpoint": 600,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.791
+        }
+      ],
+      "detection_turn_first_active": 24,
+      "confidence_at_detection_turn24": 1.0
+    },
+    "701003": {
+      "stable_all_checkpoints": true,
+      "checkpoints": [
+        {
+          "checkpoint": 24,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 48,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 72,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 120,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 180,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 240,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 360,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.943
+        },
+        {
+          "checkpoint": 480,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.989
+        },
+        {
+          "checkpoint": 600,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.737
+        }
+      ],
+      "detection_turn_first_active": 24,
+      "confidence_at_detection_turn24": 1.0
+    },
+    "701004": {
+      "stable_all_checkpoints": true,
+      "checkpoints": [
+        {
+          "checkpoint": 24,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 48,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 72,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 120,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 180,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 240,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 360,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.954
+        },
+        {
+          "checkpoint": 480,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.987
+        },
+        {
+          "checkpoint": 600,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.769
+        }
+      ],
+      "detection_turn_first_active": 24,
+      "confidence_at_detection_turn24": 1.0
+    },
+    "702000": {
+      "stable_all_checkpoints": true,
+      "checkpoints": [
+        {
+          "checkpoint": 24,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 48,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 72,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 120,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 180,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 240,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 360,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.943
+        },
+        {
+          "checkpoint": 480,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.988
+        },
+        {
+          "checkpoint": 600,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.737
+        }
+      ],
+      "detection_turn_first_active": 24,
+      "confidence_at_detection_turn24": 1.0
+    },
+    "702001": {
+      "stable_all_checkpoints": true,
+      "checkpoints": [
+        {
+          "checkpoint": 24,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 48,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 72,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 120,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 180,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 240,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 360,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.943
+        },
+        {
+          "checkpoint": 480,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.989
+        },
+        {
+          "checkpoint": 600,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.737
+        }
+      ],
+      "detection_turn_first_active": 24,
+      "confidence_at_detection_turn24": 1.0
+    },
+    "702002": {
+      "stable_all_checkpoints": true,
+      "checkpoints": [
+        {
+          "checkpoint": 24,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 48,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 72,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 120,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 180,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.588
+        },
+        {
+          "checkpoint": 240,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.947
+        },
+        {
+          "checkpoint": 360,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.941
+        },
+        {
+          "checkpoint": 480,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.989
+        },
+        {
+          "checkpoint": 600,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.667
+        }
+      ],
+      "detection_turn_first_active": 24,
+      "confidence_at_detection_turn24": 1.0
+    },
+    "702003": {
+      "stable_all_checkpoints": true,
+      "checkpoints": [
+        {
+          "checkpoint": 24,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 48,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 72,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.667
+        },
+        {
+          "checkpoint": 120,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.983
+        },
+        {
+          "checkpoint": 180,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 240,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 360,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.943
+        },
+        {
+          "checkpoint": 480,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.989
+        },
+        {
+          "checkpoint": 600,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.737
+        }
+      ],
+      "detection_turn_first_active": 24,
+      "confidence_at_detection_turn24": 1.0
+    },
+    "702004": {
+      "stable_all_checkpoints": true,
+      "checkpoints": [
+        {
+          "checkpoint": 24,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 48,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 72,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 120,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 180,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 240,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 360,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.943
+        },
+        {
+          "checkpoint": 480,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.988
+        },
+        {
+          "checkpoint": 600,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.737
+        }
+      ],
+      "detection_turn_first_active": 24,
+      "confidence_at_detection_turn24": 1.0
+    },
+    "702005": {
+      "stable_all_checkpoints": true,
+      "checkpoints": [
+        {
+          "checkpoint": 24,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 48,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.48
+        },
+        {
+          "checkpoint": 72,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.967
+        },
+        {
+          "checkpoint": 120,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.991
+        },
+        {
+          "checkpoint": 180,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 240,
+          "predicted_class": "expansion_oriented",
+          "confidence": 1.0
+        },
+        {
+          "checkpoint": 360,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.959
+        },
+        {
+          "checkpoint": 480,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.987
+        },
+        {
+          "checkpoint": 600,
+          "predicted_class": "expansion_oriented",
+          "confidence": 0.693
+        }
+      ],
+      "detection_turn_first_active": 24,
+      "confidence_at_detection_turn24": 1.0
+    }
+  }
+}

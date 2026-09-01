@@ -1,0 +1,272 @@
+[
+  {
+    "p0": "../agents/baseline_agent.py",
+    "p1": "random",
+    "seed": 200,
+    "episode_steps": 720,
+    "final_money": [
+      5711.0,
+      0.0
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "winner": 0,
+    "runtime_s": 1.6031575202941895,
+    "n_steps_recorded": 720,
+    "episode_index": 0
+  },
+  {
+    "p0": "../agents/baseline_agent.py",
+    "p1": "random",
+    "seed": 201,
+    "episode_steps": 720,
+    "final_money": [
+      5318.0,
+      0.0
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "winner": 0,
+    "runtime_s": 1.952838659286499,
+    "n_steps_recorded": 720,
+    "episode_index": 1
+  },
+  {
+    "p0": "../agents/baseline_agent.py",
+    "p1": "random",
+    "seed": 202,
+    "episode_steps": 720,
+    "final_money": [
+      4716.0,
+      0.0
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "winner": 0,
+    "runtime_s": 1.8534913063049316,
+    "n_steps_recorded": 720,
+    "episode_index": 2
+  },
+  {
+    "p0": "../agents/baseline_agent.py",
+    "p1": "random",
+    "seed": 203,
+    "episode_steps": 720,
+    "final_money": [
+      5053.0,
+      0.0
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "winner": 0,
+    "runtime_s": 1.8245322704315186,
+    "n_steps_recorded": 720,
+    "episode_index": 3
+  },
+  {
+    "p0": "../agents/baseline_agent.py",
+    "p1": "random",
+    "seed": 204,
+    "episode_steps": 720,
+    "final_money": [
+      5538.0,
+      0.0
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "winner": 0,
+    "runtime_s": 2.095383405685425,
+    "n_steps_recorded": 720,
+    "episode_index": 4
+  },
+  {
+    "p0": "../agents/baseline_agent.py",
+    "p1": "random",
+    "seed": 205,
+    "episode_steps": 720,
+    "final_money": [
+      4858.0,
+      0.0
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "winner": 0,
+    "runtime_s": 2.030057430267334,
+    "n_steps_recorded": 720,
+    "episode_index": 5
+  },
+  {
+    "p0": "../agents/baseline_agent.py",
+    "p1": "random",
+    "seed": 206,
+    "episode_steps": 720,
+    "final_money": [
+      5507.0,
+      0.0
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "winner": 0,
+    "runtime_s": 1.5947260856628418,
+    "n_steps_recorded": 720,
+    "episode_index": 6
+  },
+  {
+    "p0": "../agents/baseline_agent.py",
+    "p1": "random",
+    "seed": 207,
+    "episode_steps": 720,
+    "final_money": [
+      5611.0,
+      0.0
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "winner": 0,
+    "runtime_s": 1.6489746570587158,
+    "n_steps_recorded": 720,
+    "episode_index": 7
+  },
+  {
+    "p0": "../agents/baseline_agent.py",
+    "p1": "random",
+    "seed": 208,
+    "episode_steps": 720,
+    "final_money": [
+      5048.0,
+      0.0
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "winner": 0,
+    "runtime_s": 1.8604381084442139,
+    "n_steps_recorded": 720,
+    "episode_index": 8
+  },
+  {
+    "p0": "../agents/baseline_agent.py",
+    "p1": "random",
+    "seed": 209,
+    "episode_steps": 720,
+    "final_money": [
+      5109.0,
+      0.0
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "winner": 0,
+    "runtime_s": 1.676621913909912,
+    "n_steps_recorded": 720,
+    "episode_index": 9
+  },
+  {
+    "p0": "../agents/baseline_agent.py",
+    "p1": "random",
+    "seed": 210,
+    "episode_steps": 720,
+    "final_money": [
+      5448.0,
+      580.0
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "winner": 0,
+    "runtime_s": 1.669978141784668,
+    "n_steps_recorded": 720,
+    "episode_index": 10
+  },
+  {
+    "p0": "../agents/baseline_agent.py",
+    "p1": "random",
+    "seed": 211,
+    "episode_steps": 720,
+    "final_money": [
+      4987.0,
+      0.0
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "winner": 0,
+    "runtime_s": 1.7250783443450928,
+    "n_steps_recorded": 720,
+    "episode_index": 11
+  },
+  {
+    "p0": "../agents/baseline_agent.py",
+    "p1": "random",
+    "seed": 212,
+    "episode_steps": 720,
+    "final_money": [
+      4716.0,
+      0.0
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "winner": 0,
+    "runtime_s": 1.681412696838379,
+    "n_steps_recorded": 720,
+    "episode_index": 12
+  },
+  {
+    "p0": "../agents/baseline_agent.py",
+    "p1": "random",
+    "seed": 213,
+    "episode_steps": 720,
+    "final_money": [
+      5711.0,
+      0.0
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "winner": 0,
+    "runtime_s": 1.5553600788116455,
+    "n_steps_recorded": 720,
+    "episode_index": 13
+  },
+  {
+    "p0": "../agents/baseline_agent.py",
+    "p1": "random",
+    "seed": 214,
+    "episode_steps": 720,
+    "final_money": [
+      5174.0,
+      0.0
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "winner": 0,
+    "runtime_s": 1.6254827976226807,
+    "n_steps_recorded": 720,
+    "episode_index": 14
+  }
+]

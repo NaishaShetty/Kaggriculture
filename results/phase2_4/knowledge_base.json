@@ -1,0 +1,95 @@
+{
+  "phase": "2.4",
+  "title": "Kaggriculture Market & Economic Interaction Discovery",
+  "generated_from": "results/phase2_4/dataset_*.csv (336 validated episode rows), results/phase2_4/analysis_summary.json, results/phase2_4/stage_a_verification.json",
+  "continues_from": "results/phase2_3/knowledge_base.json (F1-F13) -- this file continues at F14, never rewrites F1-F13",
+  "methodology_note": "Confidence: HIGH = validated on independent Stage F seeds with consistent direction/magnitude; MEDIUM = clear directional effect in Stages A-E but not independently re-validated; LOW = suggestive/small-sample/mixed. Every dollar figure is mean final money (starting stake $3000) unless noted.",
+  "documented_mechanics": [
+    "price(inv) = base +/- amp*f(|inv-I0|), sign flips at inventory==I0=10000, floored at $1 (docs/00_official_overview_raw.md, official Overview page).",
+    "Only WHEAT and FERTILIZER are buyable via BUY_PRODUCT; every product is sellable via SELL.",
+    "Town shops consume every townShopSellInterval turns (default 4); town center consumes every townCenterSellInterval turns (default 24, i.e. once/day)."
+  ],
+  "verified_mechanics": [
+    "The documented price formula reproduces every observed in-game price EXACTLY: 0 mismatches across 6,480 (inventory,price) pairs checked in a fresh, freshly-generated Phase 2.4 episode (Stage A part 1, scripts/phase2_4_stage_a_verify.py). Not merely re-cited from Phase 1 -- re-confirmed against new data.",
+    "Price 'recovery' after a player sale is driven ENTIRELY by town consumption, with ZERO unexplained inventory drift: for every one of 9 products, 100% of post-last-sale inventory deltas for the rest of a 720-turn episode were exactly explained by the documented town shop/center consumption schedule (Stage A part 2). This upgrades what was previously an inference from the price formula (Phase 1) into a directly measured, turn-by-turn confirmed fact.",
+    "A real turn-indexing off-by-one was found and fixed while building this check (town consumption recorded at market_history turn T actually reflects the engine's step T-1's _town_consume call -- the same steps[t]-stores-result-of-action-at-t pattern already documented in docs/PHASE2_1_ARCHITECTURE.md section 2, now confirmed to also apply to town-consumption timing specifically)."
+  ],
+  "findings": [
+    {
+      "id": "F14",
+      "topic": "sale_timing_single_crop",
+      "finding": "Market-aware selling beats passive (sell-everything-every-turn) selling for BOTH a gentle-price-curve crop (WHEAT, +$442 mean, 8/8 seeds, best policy = batch_7d) and a steep-price-curve crop (MELON, +$600 mean, 8/8 seeds, best policy = threshold_0.9) -- confirming the general direction of the Phase 2.4 hypothesis, but NOT confirming the specific prediction that MELON would benefit MORE: WHEAT's proportional gain (5.5%) exceeded MELON's (2.2%).",
+      "mechanism": "WHEAT is produced continuously in small amounts throughout the season (first_yield_day=2, one-time but rapidly repeated), so batch selling smooths its price impact without much horizon risk. MELON's own steep glut curve (above_func=sq, above_target=3.60) means even a modest threshold (0.9x base) meaningfully avoids selling into a self-inflicted price crash.",
+      "evidence": "experiment group b1_sale_timing_by_crop (n=112, 7 policies x 2 crops x 8 seeds), independently validated via Stage F (MELON threshold_0.9: n=10, mean $28474 vs Stage B's $28491 -- essentially exact reproduction; WHEAT threshold_1.1: n=10, mean $7777 vs Stage B's $8149 for the same cell -- consistent direction, wider variance, expected given WHEAT's inherently higher relative volatility already noted in Phase 2.2)",
+      "confidence": "HIGH for the direction (market-aware beats passive for both crops); MEDIUM for the specific ranking of WHICH crop benefits more",
+      "implication_for_2_5": "Do not assume only high-value/steep-curve crops benefit from market-aware selling -- build the selling-policy layer as a universal wrapper over any crop, not a MELON-specific special case."
+    },
+    {
+      "id": "F15",
+      "topic": "production_x_market_ranking",
+      "finding": "Market awareness does NOT change which Phase 2.3 production strategy wins. The integrated multi-resource config (F13's winner) led the simple single-crop config by +$3,662 under passive selling and by +$3,418 under each config's own best market-aware policy -- the ranking is stable, only the absolute margin shifts slightly.",
+      "mechanism": "The integrated config's advantage comes from its production breadth (2 crops + 2 animals + extra land + more hands), which dominates any selling-policy-level effect measured in this campaign -- selling policy is a second-order lever relative to production-portfolio choice.",
+      "evidence": "experiment group c1_production_x_market (n=64, 2 production configs x 4 sell policies x 8 seeds)",
+      "confidence": "MEDIUM",
+      "implication_for_2_5": "Production-portfolio decisions (Phase 2.3's domain) should be optimized first; selling-policy tuning is a real but secondary refinement on top, not a lever that can flip a weaker production strategy into a stronger one."
+    },
+    {
+      "id": "F16",
+      "topic": "batch_selling_horizon_stranding",
+      "finding": "A genuinely new, important failure mode not visible under Phase 2.3's passive-selling-only regime: PURE periodic batch selling (sell only every N days) can strand an entire late-season production batch UNSOLD if that batch's harvest concentrates after the last in-game batch-trigger day. Confirmed directly (not inferred): one seed's batch_5d/integrated-config episode harvested 43 MELON units and sold ZERO of them (inventory conservation exact -- expected_ending=actual_ending=43, i.e. genuinely unsold, not an accounting artifact or shed-overflow discard). At batch_interval_days=10 (only 3 trigger days in a 30-day season), EVERY tested seed (8/8) collapsed to near-total loss (mean final money $1,245 vs $3,000 starting stake -- a NET LOSS every time).",
+      "mechanism": "day % batch_interval_days == 0 is a fixed, seed-independent schedule; a slow/one-time/late-yielding crop's mass harvest (e.g. MELON, first_yield_day=10, further delayed by multi-resource labor congestion) can land in the final interval window with no subsequent trigger day before the season ends. This compounds, not replaces, Phase 2.2's already-known late-PLANTING stranding effect (section 8 of that report) -- this is a late-SELLING stranding effect, mechanically distinct.",
+      "evidence": "experiment groups c1_production_x_market (batch_5d cell, n=8, high-variance collapse) and d1_inventory_holding (batch_10d cells, n=16 across safety on/off, near-total collapse in both)",
+      "confidence": "HIGH",
+      "implication_for_2_5": "Any selling policy that uses a fixed periodic schedule MUST include an end-of-horizon override (e.g. force-sell everything in the final N days regardless of schedule) -- this is not a minor tuning detail, it is a severe, easily-triggered value-destruction mode."
+    },
+    {
+      "id": "F17",
+      "topic": "shed_overflow_vs_horizon_stranding",
+      "finding": "REFINES Phase 2.3's F12 ('shed capacity did not bind'): F12 remains correct for passive selling, but the mechanism behind F16's batch-mode collapses is NOT shed-capacity overflow -- it is pure horizon stranding. The `overflow_safety` valve (force-sell when shed >85% full) made ZERO difference in 2 of 3 tested policy pairs (threshold_1.0, batch_10d: identical money with safety on vs off) because the shed never actually neared capacity in those collapses; inventory just sat unsold, never overflowing. The one pair where safety mattered (threshold_1.3) lost $24,642 with safety off vs on -- a real, large, and DIFFERENT effect (a threshold so high it's rarely met, causing genuine shed-capacity overflow when safety is disabled).",
+      "mechanism": "Two DISTINCT failure modes exist and must not be conflated: (1) horizon stranding (F16) -- inventory never overflows, it just never gets a chance to sell before the game ends; (2) shed overflow (this finding, threshold_1.3/safety-off specifically) -- inventory genuinely exceeds the 100-unit cap mid-game and the simulator's own end-of-day auto-drop silently discards the excess (documented mechanic, VERIFIED again here).",
+      "evidence": "experiment group d1_inventory_holding (n=48, 3 policies x 2 safety settings x 8 seeds), analysis_summary.json::effects.d1_overflow_safety_pairs",
+      "confidence": "HIGH",
+      "implication_for_2_5": "Model these as two separate risk terms in the eventual economic model: an end-of-horizon selling deadline (addresses F16) and a shed-capacity constraint that only binds under a very aggressive, rarely-met sell threshold (addresses this finding) -- they have different triggers and different fixes (a horizon override vs. a lower/more-realistic threshold)."
+    },
+    {
+      "id": "F18",
+      "topic": "town_demand_timing",
+      "finding": "Selling immediately AFTER a town-consumption tick captures a small but statistically consistent higher realized price than selling immediately BEFORE the next tick: +$1.35/unit average realized price, and the 'after' policy beat the 'before' policy's final money on 8/8 seeds (mean advantage $295/episode). Independently validated (Stage F, tick_after: n=10, mean $28,189, consistent with Stage E's $28,209 for the analogous cross-seed comparison).",
+      "mechanism": "Town consumption strictly reduces market inventory (VERIFIED, Stage A part 2), which for an inventory already at/above I0 (the state right after a player's own sale) pushes price up toward base -- so the turn right after a tick is, by construction, never a worse price than the turn right before it, for an otherwise-idle market.",
+      "evidence": "experiment group e1_town_demand_timing (n=32, 4 policies x 8 seeds), independently validated via Stage F (n=10)",
+      "confidence": "HIGH",
+      "implication_for_2_5": "Town-demand timing is real and exploitable but SMALL in absolute magnitude ($295/episode, versus F14's $442-600 threshold-based gains and F13's $17,000-26,000 production-strategy-scale margins) -- worth including as a minor selling-policy refinement, not a strategy pillar on its own."
+    },
+    {
+      "id": "F19",
+      "topic": "integrated_market_aware_vs_passive_head_to_head",
+      "finding": "On independent head-to-head validation seeds against the frozen baseline, the integrated production config's best-found market-aware policy (threshold_batch) did NOT reliably beat its own passive-selling version: 5/10 seeds favored passive, 5/10 favored market-aware, mean difference only $696 (passive slightly ahead) against a backdrop of both beating the frozen baseline by >$26,000 margin. This is a 'no statistically meaningful difference detected' result, not a win for either selling policy.",
+      "mechanism": "Both selling policies are dwarfed by the production-strategy-level advantage over the frozen baseline (F13); at the integrated config's scale (4 hands, 2 crops, 2 animals, extra land), whatever market-timing edge exists is within the same noise band as ordinary seed-to-seed weed/congestion variance.",
+      "evidence": "experiment group h2h (Stage F), paired same-seed comparison, n=10 shared seeds",
+      "confidence": "HIGH (as a null result -- the absence of a reliable difference is itself the validated finding, not an artifact of insufficient testing)",
+      "implication_for_2_5": "Do not assume market-aware selling is a required or even reliably beneficial layer on top of an already-strong integrated production strategy -- its value is concentrated in SIMPLER, single/few-resource configurations (F14) where it has cleaner room to operate, not in the most complex, already-optimized portfolio."
+    }
+  ],
+  "dominated_decisions": [
+    "Pure periodic batch selling with an interval that leaves fewer than ~3 trigger days before season end for a late-yielding crop (F16) -- catastrophic, not merely suboptimal.",
+    "A sell threshold high enough to be rarely met (e.g. 1.3x base) combined with disabling the overflow safety valve (F17) -- large, avoidable shed-overflow loss.",
+    "Relying on market-aware selling to meaningfully improve an already-integrated, multi-resource production strategy beyond ordinary seed variance (F19) -- effort better spent elsewhere."
+  ],
+  "conditionally_attractive_decisions": [
+    "Threshold-based selling (hold until price >= some fraction of base) for a single-crop or few-resource operation (F14) -- consistent, real, independently-validated gains.",
+    "threshold_batch (hybrid: sell at threshold OR on a fallback periodic day) as a safer alternative to pure batch selling that avoids F16's horizon-stranding trap while still capturing most of batch selling's benefit for simple configs (Stage C data).",
+    "Tick-aligned selling (sell right after a town-consumption tick) as a small, low-risk refinement layered on top of any other policy (F18)."
+  ],
+  "uncertain_findings": [
+    "Whether F16's horizon-stranding risk scales predictably with batch_interval_days (only 5-day and 10-day intervals were tested) -- the exact safe/unsafe boundary is not mapped.",
+    "Whether F19's null result (market-aware selling not reliably beating passive for the integrated config) would change with a MORE sophisticated market-aware policy than threshold_batch (e.g. one that explicitly reasons about remaining horizon) -- only the policies described in this campaign were tested.",
+    "Whether cross-product market effects exist (selling one product measurably moving another's price) -- NOT tested this phase; every price-formula check (Stage A) confirmed each product's price depends only on ITS OWN inventory, but this campaign never tested whether an opponent's or the town's simultaneous multi-product activity creates any indirect coupling through, e.g., shared action-time competition.",
+    "Whether an active (non-pass) opponent's own market participation changes any Stage B-F finding -- explicitly out of scope this phase per the brief's own non-goals; all Stage B-E cells used the passive `pass` opponent.",
+    "The exact WHEAT-vs-MELON relative-benefit ranking in F14 (WHEAT's proportional gain exceeding MELON's) was not hypothesized in advance and is based on a single best-policy-per-crop comparison, not a full sensitivity sweep -- flagged as a real but not deeply interrogated result."
+  ],
+  "rejected_hypotheses": [
+    {"hypothesis": "MELON (steep price curve) benefits more from delayed/threshold selling than WHEAT (gentle curve).", "outcome": "REJECTED -- WHEAT's proportional gain (5.5%) exceeded MELON's (2.2%), though both benefited in absolute terms (F14).", "original_experiment": "b1_sale_timing_by_crop"},
+    {"hypothesis": "Shed capacity becomes economically relevant under market-aware (holding) selling, reversing Phase 2.3's F12.", "outcome": "PARTIALLY CONFIRMED, precisely refined -- true only for a narrow, rarely-met threshold with overflow safety disabled (F17); the dominant failure mode found instead was a DIFFERENT mechanism (horizon stranding, F16), not shed overflow.", "original_experiment": "d1_inventory_holding"},
+    {"hypothesis": "Market-aware selling improves the strongest Phase 2.3 integrated production strategy's head-to-head standing against the frozen baseline.", "outcome": "REJECTED as a reliable effect -- both passive and market-aware versions beat the baseline overwhelmingly and equally (F19); market-aware selling did not add a further validated edge for this specific, already-strong configuration.", "original_experiment": "Stage F head-to-head"}
+  ]
+}

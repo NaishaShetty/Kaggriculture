@@ -1,0 +1,40 @@
+{
+  "control_name": "Economic Planner v1 (Phase 2.6 frozen control)",
+  "frozen_on": "2026-08-19 (end of Phase 2.6)",
+  "file_hashes_sha256": "see frozen_file_hashes.txt in this same directory -- covers agents/phase2_6/*.py, "
+                          "economic_model/model.py, agents/phase2_4/common.py (execution scheduler), "
+                          "agents/phase2_3/common.py (portfolio/task machinery reused by phase2_4), "
+                          "agents/baseline_agent.py (Wheat Patroller, unchanged since Phase 1)",
+  "planner_version": "Economic Planner v1.0 (per docs/Kaggriculture_Documentation.docx Phase 2.6 chapter section 22)",
+  "economic_model_version": "Phase 2.5 economic_model/model.py, plus one confidence-label update in Phase 2.6 (F20, COW time-scaling promoted to EXPERIMENTALLY_VALIDATED) -- no CALIBRATION dollar constants changed",
+  "scheduler_version": "agents/phase2_4/common.py (imports agents/phase2_3/common.py's tile/task helpers)",
+  "configuration": {
+    "default_config": {"crops": {}, "_portfolio_name": null, "n_hands": 0, "land_quadrants": 0,
+                        "land_buy_day": 0, "animals": {}, "animal_buy_day": 0, "sell_policy": {"mode": "passive"}},
+    "cash_reserve_frac": 0.1,
+    "steps": 720
+  },
+  "baselines": {
+    "wheat_patroller": "agents/baseline_agent.py (frozen since Phase 1)",
+    "phase2_3_integrated": "agents/phase2_3/common.py::make_agent(crops={MELON:0.5,STRAWBERRY:0.5}, n_hands=4, land_quadrants=1, land_buy_day=0, animals={GOOSE:1,COW:1}, animal_buy_day=0)",
+    "phase2_4_best": "agents/phase2_4/common.py::make_agent(same config, sell_policy={mode:threshold_batch, threshold_frac:1.1, batch_interval_days:7})"
+  },
+  "seed_sets": {
+    "development": [300000, 300001, 300002, 300003, 300004],
+    "validation": [301000, 301001, 301002, 301003, 301004, 301005, 301006, 301007],
+    "held_out": [302000, 302001, 302002, 302003, 302004, 302005, 302006, 302007, 302008, 302009]
+  },
+  "held_out_benchmark_results_at_freeze_time": {
+    "source": "results/phase2_6/planner_v1/summary.json::held_out_headline_table",
+    "vs_wheat_patroller": {"win_rate": 1.0, "mean_margin": 22930.6, "worst_case_margin": 21832.0, "mean_planner_money": 28267.2},
+    "vs_phase2_3_integrated": {"win_rate": 1.0, "mean_margin": 11837.9, "worst_case_margin": 6982.0, "mean_planner_money": 23684.6},
+    "vs_phase2_4_best": {"win_rate": 1.0, "mean_margin": 22801.3, "worst_case_margin": 20016.0, "mean_planner_money": 29121.6}
+  },
+  "change_policy": "This control is IMMUTABLE. Any change to agents/phase2_6/*.py, economic_model/model.py, "
+                    "or the baselines above requires creating a NEW versioned candidate (v1.1+), never an "
+                    "in-place edit -- per docs/03_control_contract_and_change_policy.md rule 1, extended to "
+                    "this phase's planner artifacts.",
+  "runnable_independently": "python scripts/phase2_6_evaluate_planner.py --seed-set held_out (unchanged, "
+                              "still works standalone) OR python scripts/phase3_1_control_reproduction.py "
+                              "(runs the SAME planner/baselines/seeds through the NEW Phase 3 harness)"
+}

@@ -1,0 +1,25 @@
+{
+  "tag": "phase2_1_baseline_vs_starter",
+  "experiment_id": "phase2_1_baseline_vs_starter",
+  "n_episodes": 5,
+  "p0": "agents/baseline_agent.py",
+  "p1": "starter",
+  "p0_final_money": {
+    "mean": 5574.4,
+    "min": 5443.0,
+    "max": 5711.0
+  },
+  "p1_final_money": {
+    "mean": 3540.8,
+    "min": 3421.0,
+    "max": 3637.0
+  },
+  "p0_win_rate": 1.0,
+  "p1_win_rate": 0.0,
+  "tie_rate": 0.0,
+  "mean_runtime_s": 1.874135637283325,
+  "validation_pass_count": 10,
+  "validation_partial_count": 0,
+  "validation_fail_count": 0,
+  "n_validation_checks": 10
+}

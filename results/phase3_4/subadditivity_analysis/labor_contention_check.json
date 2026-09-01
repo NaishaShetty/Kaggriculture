@@ -1,0 +1,116 @@
+{
+  "302000": {
+    "animal_metrics": {
+      "COW": {
+        "n_placed": 2,
+        "n_escaped": 1,
+        "total_product_units": 16,
+        "total_feed_events": 21,
+        "total_care_events": 21,
+        "total_fertilizer_collected": 20,
+        "purchased": 2
+      },
+      "SHEEP": {
+        "n_placed": 3,
+        "n_escaped": 2,
+        "total_product_units": 2,
+        "total_feed_events": 11,
+        "total_care_events": 10,
+        "total_fertilizer_collected": 9,
+        "purchased": 3
+      }
+    },
+    "melon_metrics": {
+      "n_planted": 66,
+      "n_harvested_instances": 43,
+      "n_weeded": 1,
+      "n_dug": 0,
+      "total_harvested_units": 214,
+      "total_harvest_events": 43,
+      "total_watering_events": 547,
+      "total_fertilize_events": 29,
+      "seeds_purchased": 72,
+      "revenue": 22351.8539,
+      "revenue_per_harvested_unit": 104.4479,
+      "revenue_per_seed_purchased": 310.4424,
+      "revenue_per_action": 32.6304
+    },
+    "final_money": 23310.0
+  },
+  "302001": {
+    "animal_metrics": {
+      "COW": {
+        "n_placed": 1,
+        "n_escaped": 1,
+        "total_product_units": 0,
+        "total_feed_events": 6,
+        "total_care_events": 6,
+        "total_fertilizer_collected": 5,
+        "purchased": 2
+      },
+      "SHEEP": {
+        "n_placed": 2,
+        "n_escaped": 1,
+        "total_product_units": 21,
+        "total_feed_events": 20,
+        "total_care_events": 20,
+        "total_fertilizer_collected": 19,
+        "purchased": 2
+      }
+    },
+    "melon_metrics": {
+      "n_planted": 65,
+      "n_harvested_instances": 31,
+      "n_weeded": 13,
+      "n_dug": 0,
+      "total_harvested_units": 156,
+      "total_harvest_events": 31,
+      "total_watering_events": 489,
+      "total_fertilize_events": 24,
+      "seeds_purchased": 74,
+      "revenue": 16638.5556,
+      "revenue_per_harvested_unit": 106.6574,
+      "revenue_per_seed_purchased": 224.8453,
+      "revenue_per_action": 27.3211
+    },
+    "final_money": 23522.0
+  },
+  "302002": {
+    "animal_metrics": {
+      "COW": {
+        "n_placed": 2,
+        "n_escaped": 1,
+        "total_product_units": 16,
+        "total_feed_events": 21,
+        "total_care_events": 21,
+        "total_fertilizer_collected": 20,
+        "purchased": 2
+      },
+      "SHEEP": {
+        "n_placed": 3,
+        "n_escaped": 2,
+        "total_product_units": 2,
+        "total_feed_events": 11,
+        "total_care_events": 10,
+        "total_fertilizer_collected": 9,
+        "purchased": 3
+      }
+    },
+    "melon_metrics": {
+      "n_planted": 66,
+      "n_harvested_instances": 43,
+      "n_weeded": 1,
+      "n_dug": 0,
+      "total_harvested_units": 214,
+      "total_harvest_events": 43,
+      "total_watering_events": 547,
+      "total_fertilize_events": 29,
+      "seeds_purchased": 72,
+      "revenue": 22147.5829,
+      "revenue_per_harvested_unit": 103.4934,
+      "revenue_per_seed_purchased": 307.6053,
+      "revenue_per_action": 32.3322
+    },
+    "final_money": 23626.0
+  }
+}

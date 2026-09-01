@@ -1,0 +1,30 @@
+{
+  "p0": "agents/baseline_agent.py",
+  "p1": "starter",
+  "steps": 720,
+  "episodes": 5,
+  "plain_runtime_s": {
+    "mean": 1.7060389041900634,
+    "min": 1.417654275894165,
+    "max": 1.8725626468658447
+  },
+  "instrumented_runtime_s": {
+    "mean": 3.2904877185821535,
+    "min": 3.072174072265625,
+    "max": 3.5012640953063965
+  },
+  "overhead_s_mean": 1.58444881439209,
+  "overhead_pct_mean": 92.87,
+  "output_file_sizes_bytes_one_episode": {
+    "raw": 903810,
+    "daily": 43346,
+    "episode": 7259,
+    "validation": 7821
+  },
+  "output_file_sizes_kb_one_episode": {
+    "raw": 882.6,
+    "daily": 42.3,
+    "episode": 7.1,
+    "validation": 7.6
+  }
+}

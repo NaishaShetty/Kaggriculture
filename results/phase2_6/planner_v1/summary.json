@@ -1,0 +1,321 @@
+{
+  "by_seed_set_and_opponent": {
+    "development": {
+      "wheat_patroller": {
+        "n_episodes": 5,
+        "win_rate": 1.0,
+        "planner_money": {
+          "n": 5,
+          "mean": 28285.6,
+          "median": 28380.0,
+          "stdev": 460.42,
+          "min": 27420.0,
+          "max": 28771.0
+        },
+        "opponent_money": {
+          "n": 5,
+          "mean": 5209.0,
+          "median": 5295.0,
+          "stdev": 496.15,
+          "min": 4438.0,
+          "max": 5831.0
+        },
+        "margin": {
+          "n": 5,
+          "mean": 23076.6,
+          "median": 23476.0,
+          "stdev": 861.91,
+          "min": 21589.0,
+          "max": 24103.0
+        },
+        "worst_case_margin": 21589.0,
+        "validation_pass_rate": 0.0,
+        "validation_partial_rate": 1.0,
+        "validation_fail_rate": 0.0
+      },
+      "phase2_3_integrated": {
+        "n_episodes": 5,
+        "win_rate": 1.0,
+        "planner_money": {
+          "n": 5,
+          "mean": 24532.4,
+          "median": 24732.0,
+          "stdev": 1437.05,
+          "min": 21970.0,
+          "max": 26377.0
+        },
+        "opponent_money": {
+          "n": 5,
+          "mean": 10627.4,
+          "median": 9350.0,
+          "stdev": 2897.43,
+          "min": 8678.0,
+          "max": 16356.0
+        },
+        "margin": {
+          "n": 5,
+          "mean": 13905.0,
+          "median": 15744.0,
+          "stdev": 4238.79,
+          "min": 5614.0,
+          "max": 17547.0
+        },
+        "worst_case_margin": 5614.0,
+        "validation_pass_rate": 0.0,
+        "validation_partial_rate": 1.0,
+        "validation_fail_rate": 0.0
+      },
+      "phase2_4_best": {
+        "n_episodes": 5,
+        "win_rate": 1.0,
+        "planner_money": {
+          "n": 5,
+          "mean": 29077.8,
+          "median": 29229.0,
+          "stdev": 773.77,
+          "min": 27892.0,
+          "max": 30040.0
+        },
+        "opponent_money": {
+          "n": 5,
+          "mean": 5923.8,
+          "median": 4787.0,
+          "stdev": 2397.09,
+          "min": 4446.0,
+          "max": 10695.0
+        },
+        "margin": {
+          "n": 5,
+          "mean": 23154.0,
+          "median": 24546.0,
+          "stdev": 3028.63,
+          "min": 17197.0,
+          "max": 25481.0
+        },
+        "worst_case_margin": 17197.0,
+        "validation_pass_rate": 0.0,
+        "validation_partial_rate": 1.0,
+        "validation_fail_rate": 0.0
+      }
+    },
+    "validation": {
+      "wheat_patroller": {
+        "n_episodes": 8,
+        "win_rate": 1.0,
+        "planner_money": {
+          "n": 8,
+          "mean": 28205.38,
+          "median": 28199.5,
+          "stdev": 184.22,
+          "min": 27931.0,
+          "max": 28503.0
+        },
+        "opponent_money": {
+          "n": 8,
+          "mean": 5161.12,
+          "median": 5326.5,
+          "stdev": 511.83,
+          "min": 4315.0,
+          "max": 5788.0
+        },
+        "margin": {
+          "n": 8,
+          "mean": 23044.25,
+          "median": 22971.0,
+          "stdev": 621.86,
+          "min": 22284.0,
+          "max": 24188.0
+        },
+        "worst_case_margin": 22284.0,
+        "validation_pass_rate": 0.0,
+        "validation_partial_rate": 1.0,
+        "validation_fail_rate": 0.0
+      },
+      "phase2_3_integrated": {
+        "n_episodes": 8,
+        "win_rate": 1.0,
+        "planner_money": {
+          "n": 8,
+          "mean": 23914.5,
+          "median": 23419.0,
+          "stdev": 1202.22,
+          "min": 22910.0,
+          "max": 26530.0
+        },
+        "opponent_money": {
+          "n": 8,
+          "mean": 8893.88,
+          "median": 8990.0,
+          "stdev": 3119.0,
+          "min": 3340.0,
+          "max": 12976.0
+        },
+        "margin": {
+          "n": 8,
+          "mean": 15020.62,
+          "median": 14374.5,
+          "stdev": 4239.49,
+          "min": 10084.0,
+          "max": 23190.0
+        },
+        "worst_case_margin": 10084.0,
+        "validation_pass_rate": 0.0,
+        "validation_partial_rate": 1.0,
+        "validation_fail_rate": 0.0
+      },
+      "phase2_4_best": {
+        "n_episodes": 8,
+        "win_rate": 1.0,
+        "planner_money": {
+          "n": 8,
+          "mean": 28199.75,
+          "median": 28177.0,
+          "stdev": 772.5,
+          "min": 26890.0,
+          "max": 29515.0
+        },
+        "opponent_money": {
+          "n": 8,
+          "mean": 3961.62,
+          "median": 3285.0,
+          "stdev": 1939.93,
+          "min": 1270.0,
+          "max": 7402.0
+        },
+        "margin": {
+          "n": 8,
+          "mean": 24238.12,
+          "median": 24385.5,
+          "stdev": 1847.46,
+          "min": 20849.0,
+          "max": 26769.0
+        },
+        "worst_case_margin": 20849.0,
+        "validation_pass_rate": 0.0,
+        "validation_partial_rate": 1.0,
+        "validation_fail_rate": 0.0
+      }
+    },
+    "held_out": {
+      "wheat_patroller": {
+        "n_episodes": 10,
+        "win_rate": 1.0,
+        "planner_money": {
+          "n": 10,
+          "mean": 28267.2,
+          "median": 28126.0,
+          "stdev": 430.42,
+          "min": 27845.0,
+          "max": 29053.0
+        },
+        "opponent_money": {
+          "n": 10,
+          "mean": 5336.6,
+          "median": 5438.5,
+          "stdev": 554.44,
+          "min": 4148.0,
+          "max": 6013.0
+        },
+        "margin": {
+          "n": 10,
+          "mean": 22930.6,
+          "median": 22608.0,
+          "stdev": 901.8,
+          "min": 21832.0,
+          "max": 24452.0
+        },
+        "worst_case_margin": 21832.0,
+        "validation_pass_rate": 0.0,
+        "validation_partial_rate": 1.0,
+        "validation_fail_rate": 0.0
+      },
+      "phase2_3_integrated": {
+        "n_episodes": 10,
+        "win_rate": 1.0,
+        "planner_money": {
+          "n": 10,
+          "mean": 23684.6,
+          "median": 23508.0,
+          "stdev": 1204.82,
+          "min": 22208.0,
+          "max": 26994.0
+        },
+        "opponent_money": {
+          "n": 10,
+          "mean": 11846.7,
+          "median": 12021.0,
+          "stdev": 2451.82,
+          "min": 8493.0,
+          "max": 15226.0
+        },
+        "margin": {
+          "n": 10,
+          "mean": 11837.9,
+          "median": 11684.5,
+          "stdev": 3215.77,
+          "min": 6982.0,
+          "max": 17057.0
+        },
+        "worst_case_margin": 6982.0,
+        "validation_pass_rate": 0.0,
+        "validation_partial_rate": 1.0,
+        "validation_fail_rate": 0.0
+      },
+      "phase2_4_best": {
+        "n_episodes": 10,
+        "win_rate": 1.0,
+        "planner_money": {
+          "n": 10,
+          "mean": 29121.6,
+          "median": 29207.5,
+          "stdev": 603.76,
+          "min": 28014.0,
+          "max": 29846.0
+        },
+        "opponent_money": {
+          "n": 10,
+          "mean": 6320.3,
+          "median": 6810.5,
+          "stdev": 1790.84,
+          "min": 3438.0,
+          "max": 8470.0
+        },
+        "margin": {
+          "n": 10,
+          "mean": 22801.3,
+          "median": 22636.0,
+          "stdev": 1762.09,
+          "min": 20016.0,
+          "max": 26161.0
+        },
+        "worst_case_margin": 20016.0,
+        "validation_pass_rate": 0.0,
+        "validation_partial_rate": 1.0,
+        "validation_fail_rate": 0.0
+      }
+    }
+  },
+  "held_out_headline_table": [
+    {
+      "matchup": "Planner v1 vs wheat_patroller",
+      "mean_planner_money": 28267.2,
+      "win_rate": 1.0,
+      "mean_margin": 22930.6,
+      "worst_case_margin": 21832.0
+    },
+    {
+      "matchup": "Planner v1 vs phase2_3_integrated",
+      "mean_planner_money": 23684.6,
+      "win_rate": 1.0,
+      "mean_margin": 11837.9,
+      "worst_case_margin": 6982.0
+    },
+    {
+      "matchup": "Planner v1 vs phase2_4_best",
+      "mean_planner_money": 29121.6,
+      "win_rate": 1.0,
+      "mean_margin": 22801.3,
+      "worst_case_margin": 20016.0
+    }
+  ]
+}

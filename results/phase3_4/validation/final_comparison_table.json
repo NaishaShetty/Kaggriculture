@@ -1,0 +1,143 @@
+{
+  "per_archetype_comparison_table": {
+    "Planner_v1_control": {
+      "passive": {
+        "n": 15,
+        "win_rate": 1.0,
+        "mean_final_bank": 28104.53,
+        "worst_margin": 24510.0,
+        "mean_margin": 25104.53
+      },
+      "production_heavy": {
+        "n": 15,
+        "win_rate": 1.0,
+        "mean_final_bank": 23007.13,
+        "worst_margin": 6579.0,
+        "mean_margin": 12152.33
+      },
+      "market_selling": {
+        "n": 15,
+        "win_rate": 1.0,
+        "mean_final_bank": 28751.33,
+        "worst_margin": 19295.0,
+        "mean_margin": 23939.87
+      },
+      "expansion_oriented": {
+        "n": 15,
+        "win_rate": 0.0,
+        "mean_final_bank": 4169.93,
+        "worst_margin": -12686.0,
+        "mean_margin": -11890.8
+      },
+      "animal_oriented": {
+        "n": 15,
+        "win_rate": 1.0,
+        "mean_final_bank": 27856.27,
+        "worst_margin": 15577.0,
+        "mean_margin": 16886.8
+      },
+      "conservative": {
+        "n": 15,
+        "win_rate": 1.0,
+        "mean_final_bank": 28230.27,
+        "worst_margin": 21332.0,
+        "mean_margin": 22262.2
+      },
+      "aggressive_investment": {
+        "n": 15,
+        "win_rate": 0.6,
+        "mean_final_bank": 11795.07,
+        "worst_margin": -4079.0,
+        "mean_margin": 7085.47
+      }
+    },
+    "Variant_D": {
+      "passive": {
+        "n": 11,
+        "win_rate": 1.0,
+        "mean_final_bank": 28122.45,
+        "worst_margin": 24510.0,
+        "mean_margin": 25122.45
+      },
+      "production_heavy": {
+        "n": 11,
+        "win_rate": 1.0,
+        "mean_final_bank": 22910.36,
+        "worst_margin": 6579.0,
+        "mean_margin": 11838.18
+      },
+      "market_selling": {
+        "n": 11,
+        "win_rate": 1.0,
+        "mean_final_bank": 28574.45,
+        "worst_margin": 19295.0,
+        "mean_margin": 23473.0
+      },
+      "expansion_oriented": {
+        "n": 15,
+        "win_rate": 0.667,
+        "mean_final_bank": 22531.93,
+        "worst_margin": -11648.0,
+        "mean_margin": 445.8
+      },
+      "animal_oriented": {
+        "n": 11,
+        "win_rate": 1.0,
+        "mean_final_bank": 27716.0,
+        "worst_margin": 15577.0,
+        "mean_margin": 16713.27
+      },
+      "conservative": {
+        "n": 11,
+        "win_rate": 1.0,
+        "mean_final_bank": 28319.0,
+        "worst_margin": 21332.0,
+        "mean_margin": 22449.64
+      },
+      "aggressive_investment": {
+        "n": 11,
+        "win_rate": 0.636,
+        "mean_final_bank": 12020.73,
+        "worst_margin": -4079.0,
+        "mean_margin": 7626.0
+      }
+    },
+    "Candidate_C_diversified": {
+      "expansion_oriented": {
+        "n": 15,
+        "win_rate": 0.0,
+        "mean_final_bank": 16027.47,
+        "worst_margin": -9724.0,
+        "mean_margin": -6106.2
+      }
+    },
+    "Candidate_E_partial_retention": {
+      "expansion_oriented": {
+        "n": 15,
+        "win_rate": 0.533,
+        "mean_final_bank": 16670.2,
+        "worst_margin": -2534.0,
+        "mean_margin": -341.33
+      }
+    }
+  },
+  "overall_across_all_archetypes": {
+    "Planner_v1_control": {
+      "n": 105,
+      "overall_win_rate": 0.8
+    },
+    "Variant_D": {
+      "n": 81,
+      "overall_win_rate": 0.889
+    },
+    "Candidate_C_diversified": {
+      "n": 15,
+      "overall_win_rate": 0.0
+    },
+    "Candidate_E_partial_retention": {
+      "n": 15,
+      "overall_win_rate": 0.533
+    }
+  },
+  "note": "Candidate C and E were ONLY run against expansion_oriented (the only archetype the detector activates for, per the generalization analysis) -- their rows for the other 6 archetypes are identical-by-construction to Variant D's (detector inactive => intervention_fn returns config unchanged => byte-identical to Planner v1 control), so they were not separately re-run there. 'Side Effects' column: NONE for Variant D, Candidate C, or Candidate E against any of the 6 non-expansion_oriented archetypes (detector never activates, byte-identical to control)."
+}

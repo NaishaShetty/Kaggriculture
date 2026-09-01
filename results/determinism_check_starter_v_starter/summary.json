@@ -1,0 +1,25 @@
+{
+  "n_episodes": 3,
+  "p0_name": "starter",
+  "p1_name": "starter",
+  "p0_win_rate": 0.0,
+  "p1_win_rate": 0.0,
+  "tie_rate": 1.0,
+  "p0_error_count": 0,
+  "p1_error_count": 0,
+  "p0_final_money": {
+    "mean": 3540.3333333333335,
+    "median": 3539.0,
+    "std": 51.44792404838983,
+    "min": 3478.0,
+    "max": 3604.0
+  },
+  "p1_final_money": {
+    "mean": 3540.3333333333335,
+    "median": 3539.0,
+    "std": 51.44792404838983,
+    "min": 3478.0,
+    "max": 3604.0
+  },
+  "mean_runtime_s": 1.2218798796335857
+}

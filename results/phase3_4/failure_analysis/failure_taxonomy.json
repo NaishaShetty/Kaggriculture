@@ -1,0 +1,12 @@
+{
+  "self_inflicted_narrow_market_price_crash": {
+    "description": "Variant D redirects 100% of MELON's freed portfolio share into the single highest-ranked substitute crop (STRAWBERRY, per economic_model.crop_production_value()), with no awareness of that crop's market depth (T parameter). STRAWBERRY has the smallest market depth (T=100) of any of the 5 crops (WHEAT=400, CARROT=450, TOMATO=200, MELON=300), so concentrating an entire freed farm's production into it crashes its own price -- NOT an opponent-driven effect (expansion_oriented never grows STRAWBERRY).",
+    "applies_to_seeds": [
+      700002,
+      701001,
+      701002,
+      701003,
+      702001
+    ]
+  }
+}

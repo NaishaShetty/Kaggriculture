@@ -1,0 +1,29 @@
+{
+  "chain": [
+    {
+      "step": 1,
+      "cause": "expansion_oriented opponent buys 3 land quadrants on day 0 and plants MELON exclusively across all owned tiles with only 1 hired hand (make_agent_23(crops='MELON', n_hands=1, land_quadrants=3, land_buy_day=0))"
+    },
+    {
+      "step": 2,
+      "cause": "This produces a MUCH larger MELON supply flow into the SHARED market than any other archetype (Phase 3.2 finding, results/phase3_2) -- the opponent alone floods the market."
+    },
+    {
+      "step": 3,
+      "cause": "market_price(MELON, inventory, params) is a deterministic, decreasing function of current shared inventory (VERIFIED_MECHANIC, vendor_kaggriculture) -- MELON's own market depth T=300 is exceeded, and price crashes to $4-10 vs $108-120 for a passive-opponent baseline (Phase 3.2 direct telemetry, turns 600-700)."
+    },
+    {
+      "step": 4,
+      "cause": "The frozen Planner v1 (unaware of the opponent's actions -- it only observes its OWN economic state) continues committing to MELON production because its day-0 crop_production_value() calibration (Phase 2.2, SOLO experiment, no adversarial opponent) never anticipated this shared-market collapse -- 100% loss rate (15/15) to this archetype in Phase 3.2."
+    },
+    {
+      "step": 5,
+      "cause": "Variant D's intervention (detect expansion_oriented at turn 24, redirect production away from MELON toward STRAWBERRY) breaks step 4's exposure -- win rate improves from 0% to 66.7% (10/15)."
+    },
+    {
+      "step": 6,
+      "cause": "The remaining 5/15 losses arise from a SECOND-ORDER instance of the SAME mechanism (steps 1-3) applied to STRAWBERRY instead of MELON: Variant D's own 100%-into-one-crop reallocation oversupplies STRAWBERRY's even narrower market (T=100), crashing ITS OWN sell price -- this time self-inflicted, not opponent-driven (see results/phase3_4/failure_analysis/)."
+    }
+  ],
+  "confidence_label": "STRONG_EMPIRICAL_SIGNAL to EXPERIMENTALLY_VALIDATED per step (steps 1-2 VERIFIED IMPLEMENTATION BEHAVIOR from opponent config; step 3 VERIFIED_MECHANIC; steps 4-6 EXPERIMENTALLY_VALIDATED from direct win-rate and price/volume measurement across Phase 3.2-3.4)"
+}

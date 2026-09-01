@@ -1,0 +1,448 @@
+OpenSpiel exception: Unknown game 'universal_poker'. Available games are:
+2048
+add_noise
+amazons
+amazons_proxy
+ant_foraging_arena
+antichess
+backgammon
+backgammon_proxy
+banqi
+bargaining
+bargaining_proxy
+battleship
+blackjack
+blotto
+breakthrough
+breakthrough_proxy
+bridge
+bridge_arena
+bridge_uncontested_bidding
+cached_tree
+capture_the_flag
+capture_the_flag_proxy
+catch
+chat_game
+checkers
+checkers_proxy
+chess
+chinese_checkers
+cliff_walking
+clobber
+clobber_proxy
+coin_game
+coin_game_arena
+coin_game_proxy
+colored_trails
+connect_four
+connect_four_proxy
+coop_box_pushing
+coop_to_1p
+coordinated_mp
+crazy_eights
+crazyhouse
+cribbage
+crossword
+cursor_go
+dark_chess
+dark_hex
+dark_hex_ir
+dark_hex_proxy
+deep_sea
+dots_and_boxes
+dots_and_boxes_proxy
+dou_dizhu
+efg_game
+einstein_wurfelt_nicht
+euchre
+first_sealed_auction
+gin_rummy
+gin_rummy_proxy
+go
+go_fish
+go_fish_proxy
+go_proxy
+gomoku
+goofspiel
+havannah
+havannah_proxy
+hearts
+hex
+hive
+hive_proxy
+kriegspiel
+kuhn_poker
+laser_tag
+latent_ttt
+leduc_poker
+lewis_signaling
+liars_dice
+liars_dice_ir
+lines_of_action
+lines_of_action_proxy
+maedn
+mancala
+mancala_proxy
+markov_soccer
+markov_soccer_proxy
+matching_pennies_3p
+matrix_bos
+matrix_brps
+matrix_cd
+matrix_coordination
+matrix_mp
+matrix_pd
+matrix_rps
+matrix_rpsw
+matrix_sh
+matrix_shapleys_game
+mfg_crowd_modelling
+mfg_crowd_modelling_2d
+mfg_dynamic_routing
+mfg_garnet
+misere
+mnk
+morpion_solitaire
+negotiation
+negotiation_proxy
+nfg_game
+nim
+nine_mens_morris
+nine_mens_morris_proxy
+normal_form_extensive_game
+oh_hell
+oshi_zumo
+oshi_zumo_proxy
+othello
+othello_proxy
+oware
+pathfinding
+pentago
+phantom_go
+phantom_ttt
+phantom_ttt_ir
+pig
+python_ant_foraging
+python_ant_foraging_proxy
+python_block_dominoes
+python_dynamic_routing
+python_hangman
+python_iterated_prisoners_dilemma
+python_kuhn_poker
+python_liars_poker
+python_pokerkit_wrapper
+python_pokerkit_wrapper_acpc_style
+python_repeated_pokerkit
+python_team_dominoes
+python_tic_tac_toe
+quoridor
+rbc
+repeated_game
+repeated_leduc_poker
+restricted_nash_response
+sheriff
+shogi
+shogi_proxy
+skat
+snake
+snake_proxy
+social_deduction
+solitaire
+spades
+start_at
+stones_and_gems
+tarok
+tic_tac_toe
+tiny_bridge_2p
+tiny_bridge_4p
+tiny_hanabi
+trade_comm
+turn_based_simultaneous_game
+twixt
+ultimate_tic_tac_toe
+ultimate_tic_tac_toe_proxy
+xiangqi
+y
+y_proxy
+yacht
+zerosum
+OpenSpiel exception: Unknown game 'repeated_poker'. Available games are:
+2048
+add_noise
+amazons
+amazons_proxy
+ant_foraging_arena
+antichess
+backgammon
+backgammon_proxy
+banqi
+bargaining
+bargaining_proxy
+battleship
+blackjack
+blotto
+breakthrough
+breakthrough_proxy
+bridge
+bridge_arena
+bridge_uncontested_bidding
+cached_tree
+capture_the_flag
+capture_the_flag_proxy
+catch
+chat_game
+checkers
+checkers_proxy
+chess
+chinese_checkers
+cliff_walking
+clobber
+clobber_proxy
+coin_game
+coin_game_arena
+coin_game_proxy
+colored_trails
+connect_four
+connect_four_proxy
+coop_box_pushing
+coop_to_1p
+coordinated_mp
+crazy_eights
+crazyhouse
+cribbage
+crossword
+cursor_go
+dark_chess
+dark_hex
+dark_hex_ir
+dark_hex_proxy
+deep_sea
+dots_and_boxes
+dots_and_boxes_proxy
+dou_dizhu
+efg_game
+einstein_wurfelt_nicht
+euchre
+first_sealed_auction
+gin_rummy
+gin_rummy_proxy
+go
+go_fish
+go_fish_proxy
+go_proxy
+gomoku
+goofspiel
+havannah
+havannah_proxy
+hearts
+hex
+hive
+hive_proxy
+kriegspiel
+kuhn_poker
+laser_tag
+latent_ttt
+leduc_poker
+lewis_signaling
+liars_dice
+liars_dice_ir
+lines_of_action
+lines_of_action_proxy
+maedn
+mancala
+mancala_proxy
+markov_soccer
+markov_soccer_proxy
+matching_pennies_3p
+matrix_bos
+matrix_brps
+matrix_cd
+matrix_coordination
+matrix_mp
+matrix_pd
+matrix_rps
+matrix_rpsw
+matrix_sh
+matrix_shapleys_game
+mfg_crowd_modelling
+mfg_crowd_modelling_2d
+mfg_dynamic_routing
+mfg_garnet
+misere
+mnk
+morpion_solitaire
+negotiation
+negotiation_proxy
+nfg_game
+nim
+nine_mens_morris
+nine_mens_morris_proxy
+normal_form_extensive_game
+oh_hell
+oshi_zumo
+oshi_zumo_proxy
+othello
+othello_proxy
+oware
+pathfinding
+pentago
+phantom_go
+phantom_ttt
+phantom_ttt_ir
+pig
+python_ant_foraging
+python_ant_foraging_proxy
+python_block_dominoes
+python_dynamic_routing
+python_hangman
+python_iterated_prisoners_dilemma
+python_kuhn_poker
+python_liars_poker
+python_pokerkit_wrapper
+python_pokerkit_wrapper_acpc_style
+python_repeated_pokerkit
+python_team_dominoes
+python_tic_tac_toe
+quoridor
+rbc
+repeated_game
+repeated_leduc_poker
+restricted_nash_response
+sheriff
+shogi
+shogi_proxy
+skat
+snake
+snake_proxy
+social_deduction
+solitaire
+spades
+start_at
+stones_and_gems
+tarok
+tic_tac_toe
+tiny_bridge_2p
+tiny_bridge_4p
+tiny_hanabi
+trade_comm
+turn_based_simultaneous_game
+twixt
+ultimate_tic_tac_toe
+ultimate_tic_tac_toe_proxy
+xiangqi
+y
+y_proxy
+yacht
+zerosum
+  [b1_sale_timing_by_crop/b1_WHEAT_passive] seed=200000 (1/8) money=[8025.0, 3000.0] valid=PASS (2.98s)
+  [b1_sale_timing_by_crop/b1_WHEAT_passive] seed=200001 (2/8) money=[8462.0, 3000.0] valid=PASS (3.83s)
+  [b1_sale_timing_by_crop/b1_WHEAT_passive] seed=200002 (3/8) money=[8725.0, 3000.0] valid=PASS (3.87s)
+  [b1_sale_timing_by_crop/b1_WHEAT_passive] seed=200003 (4/8) money=[6687.0, 3000.0] valid=PASS (3.90s)
+  [b1_sale_timing_by_crop/b1_WHEAT_passive] seed=200004 (5/8) money=[8341.0, 3000.0] valid=PASS (3.90s)
+  [b1_sale_timing_by_crop/b1_WHEAT_passive] seed=200005 (6/8) money=[8243.0, 3000.0] valid=PASS (3.73s)
+  [b1_sale_timing_by_crop/b1_WHEAT_passive] seed=200006 (7/8) money=[6284.0, 3000.0] valid=PASS (3.03s)
+  [b1_sale_timing_by_crop/b1_WHEAT_passive] seed=200007 (8/8) money=[9144.0, 3000.0] valid=PASS (3.61s)
+  [b1_sale_timing_by_crop/b1_WHEAT_threshold_0.9] seed=200000 (1/8) money=[8025.0, 3000.0] valid=PASS (4.04s)
+  [b1_sale_timing_by_crop/b1_WHEAT_threshold_0.9] seed=200001 (2/8) money=[8462.0, 3000.0] valid=PASS (4.25s)
+  [b1_sale_timing_by_crop/b1_WHEAT_threshold_0.9] seed=200002 (3/8) money=[8725.0, 3000.0] valid=PASS (4.03s)
+  [b1_sale_timing_by_crop/b1_WHEAT_threshold_0.9] seed=200003 (4/8) money=[6708.0, 3000.0] valid=PASS (3.82s)
+  [b1_sale_timing_by_crop/b1_WHEAT_threshold_0.9] seed=200004 (5/8) money=[8341.0, 3000.0] valid=PASS (4.00s)
+  [b1_sale_timing_by_crop/b1_WHEAT_threshold_0.9] seed=200005 (6/8) money=[8243.0, 3000.0] valid=PASS (4.10s)
+  [b1_sale_timing_by_crop/b1_WHEAT_threshold_0.9] seed=200006 (7/8) money=[6297.0, 3000.0] valid=PASS (4.03s)
+  [b1_sale_timing_by_crop/b1_WHEAT_threshold_0.9] seed=200007 (8/8) money=[9144.0, 3000.0] valid=PASS (4.05s)
+  [b1_sale_timing_by_crop/b1_WHEAT_threshold_1.0] seed=200000 (1/8) money=[8049.0, 3000.0] valid=PASS (3.97s)
+  [b1_sale_timing_by_crop/b1_WHEAT_threshold_1.0] seed=200001 (2/8) money=[8486.0, 3000.0] valid=PASS (3.98s)
+  [b1_sale_timing_by_crop/b1_WHEAT_threshold_1.0] seed=200002 (3/8) money=[8749.0, 3000.0] valid=PASS (3.76s)
+  [b1_sale_timing_by_crop/b1_WHEAT_threshold_1.0] seed=200003 (4/8) money=[6807.0, 3000.0] valid=PASS (4.07s)
+  [b1_sale_timing_by_crop/b1_WHEAT_threshold_1.0] seed=200004 (5/8) money=[8365.0, 3000.0] valid=PASS (3.97s)
+  [b1_sale_timing_by_crop/b1_WHEAT_threshold_1.0] seed=200005 (6/8) money=[8267.0, 3000.0] valid=PASS (4.17s)
+  [b1_sale_timing_by_crop/b1_WHEAT_threshold_1.0] seed=200006 (7/8) money=[6445.0, 3000.0] valid=PASS (4.15s)
+  [b1_sale_timing_by_crop/b1_WHEAT_threshold_1.0] seed=200007 (8/8) money=[9168.0, 3000.0] valid=PASS (4.24s)
+  [b1_sale_timing_by_crop/b1_WHEAT_threshold_1.1] seed=200000 (1/8) money=[8147.0, 3000.0] valid=PASS (4.20s)
+  [b1_sale_timing_by_crop/b1_WHEAT_threshold_1.1] seed=200001 (2/8) money=[8584.0, 3000.0] valid=PASS (4.21s)
+  [b1_sale_timing_by_crop/b1_WHEAT_threshold_1.1] seed=200002 (3/8) money=[8840.0, 3000.0] valid=PASS (4.04s)
+  [b1_sale_timing_by_crop/b1_WHEAT_threshold_1.1] seed=200003 (4/8) money=[6948.0, 3000.0] valid=PASS (3.89s)
+  [b1_sale_timing_by_crop/b1_WHEAT_threshold_1.1] seed=200004 (5/8) money=[8463.0, 3000.0] valid=PASS (4.00s)
+  [b1_sale_timing_by_crop/b1_WHEAT_threshold_1.1] seed=200005 (6/8) money=[8365.0, 3000.0] valid=PASS (3.99s)
+  [b1_sale_timing_by_crop/b1_WHEAT_threshold_1.1] seed=200006 (7/8) money=[6587.0, 3000.0] valid=PASS (3.94s)
+  [b1_sale_timing_by_crop/b1_WHEAT_threshold_1.1] seed=200007 (8/8) money=[9259.0, 3000.0] valid=PASS (3.96s)
+  [b1_sale_timing_by_crop/b1_WHEAT_batch_3d] seed=200000 (1/8) money=[7671.0, 3000.0] valid=PASS (4.14s)
+  [b1_sale_timing_by_crop/b1_WHEAT_batch_3d] seed=200001 (2/8) money=[8054.0, 3000.0] valid=PASS (4.10s)
+  [b1_sale_timing_by_crop/b1_WHEAT_batch_3d] seed=200002 (3/8) money=[8260.0, 3000.0] valid=PASS (4.19s)
+  [b1_sale_timing_by_crop/b1_WHEAT_batch_3d] seed=200003 (4/8) money=[6213.0, 3000.0] valid=PASS (4.25s)
+  [b1_sale_timing_by_crop/b1_WHEAT_batch_3d] seed=200004 (5/8) money=[7948.0, 3000.0] valid=PASS (4.09s)
+  [b1_sale_timing_by_crop/b1_WHEAT_batch_3d] seed=200005 (6/8) money=[7861.0, 3000.0] valid=PASS (4.14s)
+  [b1_sale_timing_by_crop/b1_WHEAT_batch_3d] seed=200006 (7/8) money=[5863.0, 3000.0] valid=PASS (4.18s)
+  [b1_sale_timing_by_crop/b1_WHEAT_batch_3d] seed=200007 (8/8) money=[8636.0, 3000.0] valid=PASS (4.24s)
+  [b1_sale_timing_by_crop/b1_WHEAT_batch_7d] seed=200000 (1/8) money=[8525.0, 3000.0] valid=PASS (4.23s)
+  [b1_sale_timing_by_crop/b1_WHEAT_batch_7d] seed=200001 (2/8) money=[8936.0, 3000.0] valid=PASS (4.11s)
+  [b1_sale_timing_by_crop/b1_WHEAT_batch_7d] seed=200002 (3/8) money=[9150.0, 3000.0] valid=PASS (3.96s)
+  [b1_sale_timing_by_crop/b1_WHEAT_batch_7d] seed=200003 (4/8) money=[7067.0, 3000.0] valid=PASS (4.13s)
+  [b1_sale_timing_by_crop/b1_WHEAT_batch_7d] seed=200004 (5/8) money=[8802.0, 3000.0] valid=PASS (4.08s)
+  [b1_sale_timing_by_crop/b1_WHEAT_batch_7d] seed=200005 (6/8) money=[8740.0, 3000.0] valid=PASS (4.21s)
+  [b1_sale_timing_by_crop/b1_WHEAT_batch_7d] seed=200006 (7/8) money=[6646.0, 3000.0] valid=PASS (4.19s)
+  [b1_sale_timing_by_crop/b1_WHEAT_batch_7d] seed=200007 (8/8) money=[9584.0, 3000.0] valid=PASS (4.18s)
+  [b1_sale_timing_by_crop/b1_WHEAT_threshold_batch] seed=200000 (1/8) money=[8134.0, 3000.0] valid=PASS (4.19s)
+  [b1_sale_timing_by_crop/b1_WHEAT_threshold_batch] seed=200001 (2/8) money=[8571.0, 3000.0] valid=PASS (4.10s)
+  [b1_sale_timing_by_crop/b1_WHEAT_threshold_batch] seed=200002 (3/8) money=[8827.0, 3000.0] valid=PASS (3.95s)
+  [b1_sale_timing_by_crop/b1_WHEAT_threshold_batch] seed=200003 (4/8) money=[6898.0, 3000.0] valid=PASS (4.04s)
+  [b1_sale_timing_by_crop/b1_WHEAT_threshold_batch] seed=200004 (5/8) money=[8450.0, 3000.0] valid=PASS (4.11s)
+  [b1_sale_timing_by_crop/b1_WHEAT_threshold_batch] seed=200005 (6/8) money=[8352.0, 3000.0] valid=PASS (4.12s)
+  [b1_sale_timing_by_crop/b1_WHEAT_threshold_batch] seed=200006 (7/8) money=[6526.0, 3000.0] valid=PASS (4.05s)
+  [b1_sale_timing_by_crop/b1_WHEAT_threshold_batch] seed=200007 (8/8) money=[9246.0, 3000.0] valid=PASS (4.11s)
+  [b1_sale_timing_by_crop/b1_MELON_passive] seed=200000 (1/8) money=[27891.0, 3000.0] valid=PASS (4.14s)
+  [b1_sale_timing_by_crop/b1_MELON_passive] seed=200001 (2/8) money=[27891.0, 3000.0] valid=PASS (4.17s)
+  [b1_sale_timing_by_crop/b1_MELON_passive] seed=200002 (3/8) money=[27891.0, 3000.0] valid=PASS (4.18s)
+  [b1_sale_timing_by_crop/b1_MELON_passive] seed=200003 (4/8) money=[27891.0, 3000.0] valid=PASS (4.05s)
+  [b1_sale_timing_by_crop/b1_MELON_passive] seed=200004 (5/8) money=[27891.0, 3000.0] valid=PASS (4.35s)
+  [b1_sale_timing_by_crop/b1_MELON_passive] seed=200005 (6/8) money=[27891.0, 3000.0] valid=PASS (4.27s)
+  [b1_sale_timing_by_crop/b1_MELON_passive] seed=200006 (7/8) money=[27891.0, 3000.0] valid=PASS (4.30s)
+  [b1_sale_timing_by_crop/b1_MELON_passive] seed=200007 (8/8) money=[27891.0, 3000.0] valid=PASS (4.32s)
+  [b1_sale_timing_by_crop/b1_MELON_threshold_0.9] seed=200000 (1/8) money=[28491.0, 3000.0] valid=PASS (4.32s)
+  [b1_sale_timing_by_crop/b1_MELON_threshold_0.9] seed=200001 (2/8) money=[28491.0, 3000.0] valid=PASS (4.23s)
+  [b1_sale_timing_by_crop/b1_MELON_threshold_0.9] seed=200002 (3/8) money=[28491.0, 3000.0] valid=PASS (4.34s)
+  [b1_sale_timing_by_crop/b1_MELON_threshold_0.9] seed=200003 (4/8) money=[28491.0, 3000.0] valid=PASS (4.31s)
+  [b1_sale_timing_by_crop/b1_MELON_threshold_0.9] seed=200004 (5/8) money=[28491.0, 3000.0] valid=PASS (4.14s)
+  [b1_sale_timing_by_crop/b1_MELON_threshold_0.9] seed=200005 (6/8) money=[28491.0, 3000.0] valid=PASS (4.37s)
+  [b1_sale_timing_by_crop/b1_MELON_threshold_0.9] seed=200006 (7/8) money=[28491.0, 3000.0] valid=PASS (4.33s)
+  [b1_sale_timing_by_crop/b1_MELON_threshold_0.9] seed=200007 (8/8) money=[28491.0, 3000.0] valid=PASS (4.21s)
+  [b1_sale_timing_by_crop/b1_MELON_threshold_1.0] seed=200000 (1/8) money=[27730.0, 3000.0] valid=PASS (4.20s)
+  [b1_sale_timing_by_crop/b1_MELON_threshold_1.0] seed=200001 (2/8) money=[27730.0, 3000.0] valid=PASS (4.17s)
+  [b1_sale_timing_by_crop/b1_MELON_threshold_1.0] seed=200002 (3/8) money=[27730.0, 3000.0] valid=PASS (4.29s)
+  [b1_sale_timing_by_crop/b1_MELON_threshold_1.0] seed=200003 (4/8) money=[27730.0, 3000.0] valid=PASS (4.38s)
+  [b1_sale_timing_by_crop/b1_MELON_threshold_1.0] seed=200004 (5/8) money=[27730.0, 3000.0] valid=PASS (4.27s)
+  [b1_sale_timing_by_crop/b1_MELON_threshold_1.0] seed=200005 (6/8) money=[27730.0, 3000.0] valid=PASS (4.38s)
+  [b1_sale_timing_by_crop/b1_MELON_threshold_1.0] seed=200006 (7/8) money=[27730.0, 3000.0] valid=PASS (4.21s)
+  [b1_sale_timing_by_crop/b1_MELON_threshold_1.0] seed=200007 (8/8) money=[27730.0, 3000.0] valid=PASS (4.16s)
+  [b1_sale_timing_by_crop/b1_MELON_threshold_1.1] seed=200000 (1/8) money=[28200.0, 3000.0] valid=PASS (4.15s)
+  [b1_sale_timing_by_crop/b1_MELON_threshold_1.1] seed=200001 (2/8) money=[28200.0, 3000.0] valid=PASS (4.13s)
+  [b1_sale_timing_by_crop/b1_MELON_threshold_1.1] seed=200002 (3/8) money=[28200.0, 3000.0] valid=PASS (4.30s)
+  [b1_sale_timing_by_crop/b1_MELON_threshold_1.1] seed=200003 (4/8) money=[28200.0, 3000.0] valid=PASS (3.67s)
+  [b1_sale_timing_by_crop/b1_MELON_threshold_1.1] seed=200004 (5/8) money=[28200.0, 3000.0] valid=PASS (3.03s)
+  [b1_sale_timing_by_crop/b1_MELON_threshold_1.1] seed=200005 (6/8) money=[28200.0, 3000.0] valid=PASS (3.03s)
+  [b1_sale_timing_by_crop/b1_MELON_threshold_1.1] seed=200006 (7/8) money=[28200.0, 3000.0] valid=PASS (3.06s)
+  [b1_sale_timing_by_crop/b1_MELON_threshold_1.1] seed=200007 (8/8) money=[28200.0, 3000.0] valid=PASS (3.00s)
+  [b1_sale_timing_by_crop/b1_MELON_batch_3d] seed=200000 (1/8) money=[27837.0, 3000.0] valid=PASS (2.91s)
+  [b1_sale_timing_by_crop/b1_MELON_batch_3d] seed=200001 (2/8) money=[27837.0, 3000.0] valid=PASS (2.97s)
+  [b1_sale_timing_by_crop/b1_MELON_batch_3d] seed=200002 (3/8) money=[27837.0, 3000.0] valid=PASS (4.26s)
+  [b1_sale_timing_by_crop/b1_MELON_batch_3d] seed=200003 (4/8) money=[27837.0, 3000.0] valid=PASS (3.70s)
+  [b1_sale_timing_by_crop/b1_MELON_batch_3d] seed=200004 (5/8) money=[27837.0, 3000.0] valid=PASS (2.95s)
+  [b1_sale_timing_by_crop/b1_MELON_batch_3d] seed=200005 (6/8) money=[27837.0, 3000.0] valid=PASS (3.06s)
+  [b1_sale_timing_by_crop/b1_MELON_batch_3d] seed=200006 (7/8) money=[27837.0, 3000.0] valid=PASS (2.97s)
+  [b1_sale_timing_by_crop/b1_MELON_batch_3d] seed=200007 (8/8) money=[27837.0, 3000.0] valid=PASS (2.97s)
+  [b1_sale_timing_by_crop/b1_MELON_batch_7d] seed=200000 (1/8) money=[28075.0, 3000.0] valid=PASS (2.99s)
+  [b1_sale_timing_by_crop/b1_MELON_batch_7d] seed=200001 (2/8) money=[28075.0, 3000.0] valid=PASS (3.01s)
+  [b1_sale_timing_by_crop/b1_MELON_batch_7d] seed=200002 (3/8) money=[28075.0, 3000.0] valid=PASS (3.71s)
+  [b1_sale_timing_by_crop/b1_MELON_batch_7d] seed=200003 (4/8) money=[28075.0, 3000.0] valid=PASS (4.52s)
+  [b1_sale_timing_by_crop/b1_MELON_batch_7d] seed=200004 (5/8) money=[28075.0, 3000.0] valid=PASS (4.38s)
+  [b1_sale_timing_by_crop/b1_MELON_batch_7d] seed=200005 (6/8) money=[28075.0, 3000.0] valid=PASS (4.36s)
+  [b1_sale_timing_by_crop/b1_MELON_batch_7d] seed=200006 (7/8) money=[28075.0, 3000.0] valid=PASS (4.17s)
+  [b1_sale_timing_by_crop/b1_MELON_batch_7d] seed=200007 (8/8) money=[28075.0, 3000.0] valid=PASS (4.08s)
+  [b1_sale_timing_by_crop/b1_MELON_threshold_batch] seed=200000 (1/8) money=[28075.0, 3000.0] valid=PASS (4.08s)
+  [b1_sale_timing_by_crop/b1_MELON_threshold_batch] seed=200001 (2/8) money=[28075.0, 3000.0] valid=PASS (4.06s)
+  [b1_sale_timing_by_crop/b1_MELON_threshold_batch] seed=200002 (3/8) money=[28075.0, 3000.0] valid=PASS (4.14s)
+  [b1_sale_timing_by_crop/b1_MELON_threshold_batch] seed=200003 (4/8) money=[28075.0, 3000.0] valid=PASS (4.22s)
+  [b1_sale_timing_by_crop/b1_MELON_threshold_batch] seed=200004 (5/8) money=[28075.0, 3000.0] valid=PASS (4.03s)
+  [b1_sale_timing_by_crop/b1_MELON_threshold_batch] seed=200005 (6/8) money=[28075.0, 3000.0] valid=PASS (4.31s)
+  [b1_sale_timing_by_crop/b1_MELON_threshold_batch] seed=200006 (7/8) money=[28075.0, 3000.0] valid=PASS (4.22s)
+  [b1_sale_timing_by_crop/b1_MELON_threshold_batch] seed=200007 (8/8) money=[28075.0, 3000.0] valid=PASS (4.11s)

@@ -1,0 +1,5314 @@
+{
+  "isolated_by_crop_opponent": {
+    "WHEAT|pass": {
+      "n_episodes": 15,
+      "final_money": {
+        "n": 15,
+        "mean": 6064.5333,
+        "median": 6279.0,
+        "stdev": 660.7279,
+        "min": 4618.0,
+        "max": 6828.0
+      },
+      "profit": {
+        "n": 15,
+        "mean": 3064.5333,
+        "median": 3279.0,
+        "stdev": 660.7279,
+        "min": 1618.0,
+        "max": 3828.0
+      },
+      "revenue": {
+        "n": 15,
+        "mean": 4774.5333,
+        "median": 4989.0,
+        "stdev": 660.7279,
+        "min": 3328.0,
+        "max": 5538.0
+      },
+      "harvest_units": {
+        "n": 15,
+        "mean": 153.0,
+        "median": 153.0,
+        "stdev": 0.0,
+        "min": 153.0,
+        "max": 153.0
+      },
+      "tile_days": {
+        "n": 15,
+        "mean": 326.0,
+        "median": 326.0,
+        "stdev": 0.0,
+        "min": 326.0,
+        "max": 326.0
+      },
+      "revenue_per_tile_day": {
+        "n": 15,
+        "mean": 14.6458,
+        "median": 15.3037,
+        "stdev": 2.0268,
+        "min": 10.2086,
+        "max": 16.9877
+      },
+      "revenue_per_action": {
+        "n": 15,
+        "mean": 6.6313,
+        "median": 6.9292,
+        "stdev": 0.9177,
+        "min": 4.6222,
+        "max": 7.6917
+      },
+      "capital_locked": {
+        "n": 15,
+        "mean": 1710.0,
+        "median": 1710.0,
+        "stdev": 0.0,
+        "min": 1710.0,
+        "max": 1710.0
+      },
+      "first_harvest_day": {
+        "n": 15,
+        "mean": 2.0,
+        "median": 2.0,
+        "stdev": 0.0,
+        "min": 2.0,
+        "max": 2.0
+      },
+      "unsold_units": {
+        "n": 15,
+        "mean": 5.0,
+        "median": 5.0,
+        "stdev": 0.0,
+        "min": 5.0,
+        "max": 5.0
+      },
+      "money_margin": {
+        "n": 15,
+        "mean": 3064.5333,
+        "median": 3279.0,
+        "stdev": 660.7279,
+        "min": 1618.0,
+        "max": 3828.0
+      },
+      "win_rate": 1.0,
+      "validation_pass_rate": 1.0
+    },
+    "WHEAT|starter": {
+      "n_episodes": 15,
+      "final_money": {
+        "n": 15,
+        "mean": 6118.0667,
+        "median": 6086.0,
+        "stdev": 484.1807,
+        "min": 5067.0,
+        "max": 6823.0
+      },
+      "profit": {
+        "n": 15,
+        "mean": 3118.0667,
+        "median": 3086.0,
+        "stdev": 484.1807,
+        "min": 2067.0,
+        "max": 3823.0
+      },
+      "revenue": {
+        "n": 15,
+        "mean": 4828.0667,
+        "median": 4796.0,
+        "stdev": 484.1807,
+        "min": 3777.0,
+        "max": 5533.0
+      },
+      "harvest_units": {
+        "n": 15,
+        "mean": 153.0,
+        "median": 153.0,
+        "stdev": 0.0,
+        "min": 153.0,
+        "max": 153.0
+      },
+      "tile_days": {
+        "n": 15,
+        "mean": 326.0,
+        "median": 326.0,
+        "stdev": 0.0,
+        "min": 326.0,
+        "max": 326.0
+      },
+      "revenue_per_tile_day": {
+        "n": 15,
+        "mean": 14.81,
+        "median": 14.7117,
+        "stdev": 1.4852,
+        "min": 11.5859,
+        "max": 16.9724
+      },
+      "revenue_per_action": {
+        "n": 15,
+        "mean": 6.7056,
+        "median": 6.6611,
+        "stdev": 0.6725,
+        "min": 5.2458,
+        "max": 7.6847
+      },
+      "capital_locked": {
+        "n": 15,
+        "mean": 1710.0,
+        "median": 1710.0,
+        "stdev": 0.0,
+        "min": 1710.0,
+        "max": 1710.0
+      },
+      "first_harvest_day": {
+        "n": 15,
+        "mean": 2.0,
+        "median": 2.0,
+        "stdev": 0.0,
+        "min": 2.0,
+        "max": 2.0
+      },
+      "unsold_units": {
+        "n": 15,
+        "mean": 5.0,
+        "median": 5.0,
+        "stdev": 0.0,
+        "min": 5.0,
+        "max": 5.0
+      },
+      "money_margin": {
+        "n": 15,
+        "mean": 2538.4667,
+        "median": 2482.0,
+        "stdev": 500.4387,
+        "min": 1517.0,
+        "max": 3291.0
+      },
+      "win_rate": 1.0,
+      "validation_pass_rate": 1.0
+    },
+    "CARROT|pass": {
+      "n_episodes": 15,
+      "final_money": {
+        "n": 15,
+        "mean": 4878.0667,
+        "median": 4842.0,
+        "stdev": 1152.1277,
+        "min": 3581.0,
+        "max": 8082.0
+      },
+      "profit": {
+        "n": 15,
+        "mean": 1878.0667,
+        "median": 1842.0,
+        "stdev": 1152.1277,
+        "min": 581.0,
+        "max": 5082.0
+      },
+      "revenue": {
+        "n": 15,
+        "mean": 5298.0667,
+        "median": 5262.0,
+        "stdev": 1152.1277,
+        "min": 4001.0,
+        "max": 8502.0
+      },
+      "harvest_units": {
+        "n": 15,
+        "mean": 153.0,
+        "median": 153.0,
+        "stdev": 0.0,
+        "min": 153.0,
+        "max": 153.0
+      },
+      "tile_days": {
+        "n": 15,
+        "mean": 326.0,
+        "median": 326.0,
+        "stdev": 0.0,
+        "min": 326.0,
+        "max": 326.0
+      },
+      "revenue_per_tile_day": {
+        "n": 15,
+        "mean": 16.2517,
+        "median": 16.1411,
+        "stdev": 3.5341,
+        "min": 12.273,
+        "max": 26.0798
+      },
+      "revenue_per_action": {
+        "n": 15,
+        "mean": 7.3584,
+        "median": 7.3083,
+        "stdev": 1.6002,
+        "min": 5.5569,
+        "max": 11.8083
+      },
+      "capital_locked": {
+        "n": 15,
+        "mean": 3420.0,
+        "median": 3420.0,
+        "stdev": 0.0,
+        "min": 3420.0,
+        "max": 3420.0
+      },
+      "first_harvest_day": {
+        "n": 15,
+        "mean": 2.0,
+        "median": 2.0,
+        "stdev": 0.0,
+        "min": 2.0,
+        "max": 2.0
+      },
+      "unsold_units": {
+        "n": 15,
+        "mean": 5.0,
+        "median": 5.0,
+        "stdev": 0.0,
+        "min": 5.0,
+        "max": 5.0
+      },
+      "money_margin": {
+        "n": 15,
+        "mean": 1878.0667,
+        "median": 1842.0,
+        "stdev": 1152.1277,
+        "min": 581.0,
+        "max": 5082.0
+      },
+      "win_rate": 1.0,
+      "validation_pass_rate": 1.0
+    },
+    "CARROT|starter": {
+      "n_episodes": 15,
+      "final_money": {
+        "n": 15,
+        "mean": 4984.0,
+        "median": 4905.0,
+        "stdev": 1187.8147,
+        "min": 3461.0,
+        "max": 7021.0
+      },
+      "profit": {
+        "n": 15,
+        "mean": 1984.0,
+        "median": 1905.0,
+        "stdev": 1187.8147,
+        "min": 461.0,
+        "max": 4021.0
+      },
+      "revenue": {
+        "n": 15,
+        "mean": 5404.0,
+        "median": 5325.0,
+        "stdev": 1187.8147,
+        "min": 3881.0,
+        "max": 7441.0
+      },
+      "harvest_units": {
+        "n": 15,
+        "mean": 153.0,
+        "median": 153.0,
+        "stdev": 0.0,
+        "min": 153.0,
+        "max": 153.0
+      },
+      "tile_days": {
+        "n": 15,
+        "mean": 326.0,
+        "median": 326.0,
+        "stdev": 0.0,
+        "min": 326.0,
+        "max": 326.0
+      },
+      "revenue_per_tile_day": {
+        "n": 15,
+        "mean": 16.5767,
+        "median": 16.3344,
+        "stdev": 3.6436,
+        "min": 11.9049,
+        "max": 22.8252
+      },
+      "revenue_per_action": {
+        "n": 15,
+        "mean": 7.5056,
+        "median": 7.3958,
+        "stdev": 1.6497,
+        "min": 5.3903,
+        "max": 10.3347
+      },
+      "capital_locked": {
+        "n": 15,
+        "mean": 3420.0,
+        "median": 3420.0,
+        "stdev": 0.0,
+        "min": 3420.0,
+        "max": 3420.0
+      },
+      "first_harvest_day": {
+        "n": 15,
+        "mean": 2.0,
+        "median": 2.0,
+        "stdev": 0.0,
+        "min": 2.0,
+        "max": 2.0
+      },
+      "unsold_units": {
+        "n": 15,
+        "mean": 5.0,
+        "median": 5.0,
+        "stdev": 0.0,
+        "min": 5.0,
+        "max": 5.0
+      },
+      "money_margin": {
+        "n": 15,
+        "mean": 1542.8,
+        "median": 1472.0,
+        "stdev": 1044.8077,
+        "min": 203.0,
+        "max": 3336.0
+      },
+      "win_rate": 1.0,
+      "validation_pass_rate": 1.0
+    },
+    "TOMATO|pass": {
+      "n_episodes": 15,
+      "final_money": {
+        "n": 15,
+        "mean": 5981.2667,
+        "median": 5911.0,
+        "stdev": 445.5495,
+        "min": 5307.0,
+        "max": 6799.0
+      },
+      "profit": {
+        "n": 15,
+        "mean": 2981.2667,
+        "median": 2911.0,
+        "stdev": 445.5495,
+        "min": 2307.0,
+        "max": 3799.0
+      },
+      "revenue": {
+        "n": 15,
+        "mean": 4251.2667,
+        "median": 4163.0,
+        "stdev": 435.8712,
+        "min": 3607.0,
+        "max": 5049.0
+      },
+      "harvest_units": {
+        "n": 15,
+        "mean": 60.2667,
+        "median": 60.0,
+        "stdev": 0.9978,
+        "min": 60.0,
+        "max": 64.0
+      },
+      "tile_days": {
+        "n": 15,
+        "mean": 255.4,
+        "median": 256.0,
+        "stdev": 5.8856,
+        "min": 246.0,
+        "max": 261.0
+      },
+      "revenue_per_tile_day": {
+        "n": 15,
+        "mean": 16.6675,
+        "median": 16.3906,
+        "stdev": 1.8679,
+        "min": 13.8199,
+        "max": 20.196
+      },
+      "revenue_per_action": {
+        "n": 15,
+        "mean": 5.9045,
+        "median": 5.7819,
+        "stdev": 0.6054,
+        "min": 5.0097,
+        "max": 7.0125
+      },
+      "capital_locked": {
+        "n": 15,
+        "mean": 1270.0,
+        "median": 1250.0,
+        "stdev": 30.5505,
+        "min": 1200.0,
+        "max": 1300.0
+      },
+      "first_harvest_day": {
+        "n": 15,
+        "mean": 8.0,
+        "median": 8.0,
+        "stdev": 0.0,
+        "min": 8.0,
+        "max": 8.0
+      },
+      "unsold_units": {
+        "n": 15,
+        "mean": -1.6,
+        "median": -2.0,
+        "stdev": 0.8,
+        "min": -2.0,
+        "max": 0.0
+      },
+      "money_margin": {
+        "n": 15,
+        "mean": 2981.2667,
+        "median": 2911.0,
+        "stdev": 445.5495,
+        "min": 2307.0,
+        "max": 3799.0
+      },
+      "win_rate": 1.0,
+      "validation_pass_rate": 1.0
+    },
+    "TOMATO|starter": {
+      "n_episodes": 15,
+      "final_money": {
+        "n": 15,
+        "mean": 5617.5333,
+        "median": 5776.0,
+        "stdev": 410.4563,
+        "min": 4898.0,
+        "max": 6183.0
+      },
+      "profit": {
+        "n": 15,
+        "mean": 2617.5333,
+        "median": 2776.0,
+        "stdev": 410.4563,
+        "min": 1898.0,
+        "max": 3183.0
+      },
+      "revenue": {
+        "n": 15,
+        "mean": 3877.5333,
+        "median": 4070.0,
+        "stdev": 411.8216,
+        "min": 3108.0,
+        "max": 4433.0
+      },
+      "harvest_units": {
+        "n": 15,
+        "mean": 60.2667,
+        "median": 60.0,
+        "stdev": 0.9978,
+        "min": 60.0,
+        "max": 64.0
+      },
+      "tile_days": {
+        "n": 15,
+        "mean": 252.4667,
+        "median": 256.0,
+        "stdev": 8.2855,
+        "min": 233.0,
+        "max": 261.0
+      },
+      "revenue_per_tile_day": {
+        "n": 15,
+        "mean": 15.3572,
+        "median": 15.6169,
+        "stdev": 1.5477,
+        "min": 12.2529,
+        "max": 17.3164
+      },
+      "revenue_per_action": {
+        "n": 15,
+        "mean": 5.3855,
+        "median": 5.6528,
+        "stdev": 0.572,
+        "min": 4.3167,
+        "max": 6.1569
+      },
+      "capital_locked": {
+        "n": 15,
+        "mean": 1260.0,
+        "median": 1250.0,
+        "stdev": 32.6599,
+        "min": 1200.0,
+        "max": 1300.0
+      },
+      "first_harvest_day": {
+        "n": 15,
+        "mean": 8.0,
+        "median": 8.0,
+        "stdev": 0.0,
+        "min": 8.0,
+        "max": 8.0
+      },
+      "unsold_units": {
+        "n": 15,
+        "mean": -1.3333,
+        "median": -2.0,
+        "stdev": 0.9428,
+        "min": -2.0,
+        "max": 0.0
+      },
+      "money_margin": {
+        "n": 15,
+        "mean": 2062.4667,
+        "median": 2192.0,
+        "stdev": 405.0695,
+        "min": 1420.0,
+        "max": 2611.0
+      },
+      "win_rate": 1.0,
+      "validation_pass_rate": 1.0
+    },
+    "STRAWBERRY|pass": {
+      "n_episodes": 15,
+      "final_money": {
+        "n": 15,
+        "mean": 15195.8,
+        "median": 15121.0,
+        "stdev": 1151.5249,
+        "min": 13207.0,
+        "max": 17264.0
+      },
+      "profit": {
+        "n": 15,
+        "mean": 12195.8,
+        "median": 12121.0,
+        "stdev": 1151.5249,
+        "min": 10207.0,
+        "max": 14264.0
+      },
+      "revenue": {
+        "n": 15,
+        "mean": 14722.4667,
+        "median": 14621.0,
+        "stdev": 1152.1064,
+        "min": 12707.0,
+        "max": 16764.0
+      },
+      "harvest_units": {
+        "n": 15,
+        "mean": 66.9333,
+        "median": 67.0,
+        "stdev": 0.4422,
+        "min": 66.0,
+        "max": 68.0
+      },
+      "tile_days": {
+        "n": 15,
+        "mean": 331.6667,
+        "median": 333.0,
+        "stdev": 5.4119,
+        "min": 320.0,
+        "max": 344.0
+      },
+      "revenue_per_tile_day": {
+        "n": 15,
+        "mean": 44.3828,
+        "median": 43.9069,
+        "stdev": 3.3196,
+        "min": 38.5345,
+        "max": 50.3423
+      },
+      "revenue_per_action": {
+        "n": 15,
+        "mean": 20.4479,
+        "median": 20.3069,
+        "stdev": 1.6002,
+        "min": 17.6486,
+        "max": 23.2833
+      },
+      "capital_locked": {
+        "n": 15,
+        "mean": 2526.6667,
+        "median": 2500.0,
+        "stdev": 67.9869,
+        "min": 2400.0,
+        "max": 2600.0
+      },
+      "first_harvest_day": {
+        "n": 15,
+        "mean": 10.0,
+        "median": 10.0,
+        "stdev": 0.0,
+        "min": 10.0,
+        "max": 10.0
+      },
+      "unsold_units": {
+        "n": 15,
+        "mean": 2.0,
+        "median": 2.0,
+        "stdev": 0.0,
+        "min": 2.0,
+        "max": 2.0
+      },
+      "money_margin": {
+        "n": 15,
+        "mean": 12195.8,
+        "median": 12121.0,
+        "stdev": 1151.5249,
+        "min": 10207.0,
+        "max": 14264.0
+      },
+      "win_rate": 1.0,
+      "validation_pass_rate": 1.0
+    },
+    "STRAWBERRY|starter": {
+      "n_episodes": 15,
+      "final_money": {
+        "n": 15,
+        "mean": 14212.2667,
+        "median": 14668.0,
+        "stdev": 2026.4003,
+        "min": 8170.0,
+        "max": 17311.0
+      },
+      "profit": {
+        "n": 15,
+        "mean": 11212.2667,
+        "median": 11668.0,
+        "stdev": 2026.4003,
+        "min": 5170.0,
+        "max": 14311.0
+      },
+      "revenue": {
+        "n": 15,
+        "mean": 13725.6,
+        "median": 14268.0,
+        "stdev": 2062.4047,
+        "min": 7570.0,
+        "max": 16811.0
+      },
+      "harvest_units": {
+        "n": 15,
+        "mean": 66.8667,
+        "median": 67.0,
+        "stdev": 0.4989,
+        "min": 66.0,
+        "max": 68.0
+      },
+      "tile_days": {
+        "n": 15,
+        "mean": 331.7333,
+        "median": 333.0,
+        "stdev": 5.335,
+        "min": 320.0,
+        "max": 344.0
+      },
+      "revenue_per_tile_day": {
+        "n": 15,
+        "mean": 41.3702,
+        "median": 42.8468,
+        "stdev": 6.1257,
+        "min": 22.7327,
+        "max": 50.6355
+      },
+      "revenue_per_action": {
+        "n": 15,
+        "mean": 19.0633,
+        "median": 19.8167,
+        "stdev": 2.8644,
+        "min": 10.5139,
+        "max": 23.3486
+      },
+      "capital_locked": {
+        "n": 15,
+        "mean": 2513.3333,
+        "median": 2500.0,
+        "stdev": 80.5536,
+        "min": 2400.0,
+        "max": 2600.0
+      },
+      "first_harvest_day": {
+        "n": 15,
+        "mean": 10.0,
+        "median": 10.0,
+        "stdev": 0.0,
+        "min": 10.0,
+        "max": 10.0
+      },
+      "unsold_units": {
+        "n": 15,
+        "mean": 2.0,
+        "median": 2.0,
+        "stdev": 0.0,
+        "min": 2.0,
+        "max": 2.0
+      },
+      "money_margin": {
+        "n": 15,
+        "mean": 10659.7333,
+        "median": 11247.0,
+        "stdev": 2039.8148,
+        "min": 4578.0,
+        "max": 13781.0
+      },
+      "win_rate": 1.0,
+      "validation_pass_rate": 1.0
+    },
+    "MELON|pass": {
+      "n_episodes": 15,
+      "final_money": {
+        "n": 15,
+        "mean": 22482.9333,
+        "median": 22468.0,
+        "stdev": 25.7772,
+        "min": 22468.0,
+        "max": 22548.0
+      },
+      "profit": {
+        "n": 15,
+        "mean": 19482.9333,
+        "median": 19468.0,
+        "stdev": 25.7772,
+        "min": 19468.0,
+        "max": 19548.0
+      },
+      "revenue": {
+        "n": 15,
+        "mean": 22581.6,
+        "median": 22588.0,
+        "stdev": 12.8,
+        "min": 22556.0,
+        "max": 22588.0
+      },
+      "harvest_units": {
+        "n": 15,
+        "mean": 95.0,
+        "median": 95.0,
+        "stdev": 0.0,
+        "min": 95.0,
+        "max": 95.0
+      },
+      "tile_days": {
+        "n": 15,
+        "mean": 325.2,
+        "median": 326.0,
+        "stdev": 1.6,
+        "min": 322.0,
+        "max": 326.0
+      },
+      "revenue_per_tile_day": {
+        "n": 15,
+        "mean": 69.4406,
+        "median": 69.2883,
+        "stdev": 0.3046,
+        "min": 69.2883,
+        "max": 70.0497
+      },
+      "revenue_per_action": {
+        "n": 15,
+        "mean": 31.3633,
+        "median": 31.3722,
+        "stdev": 0.0178,
+        "min": 31.3278,
+        "max": 31.3722
+      },
+      "capital_locked": {
+        "n": 15,
+        "mean": 3098.6667,
+        "median": 3120.0,
+        "stdev": 35.3773,
+        "min": 3040.0,
+        "max": 3120.0
+      },
+      "first_harvest_day": {
+        "n": 15,
+        "mean": 10.0,
+        "median": 10.0,
+        "stdev": 0.0,
+        "min": 10.0,
+        "max": 10.0
+      },
+      "unsold_units": {
+        "n": 15,
+        "mean": 0.0,
+        "median": 0.0,
+        "stdev": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "money_margin": {
+        "n": 15,
+        "mean": 19482.9333,
+        "median": 19468.0,
+        "stdev": 25.7772,
+        "min": 19468.0,
+        "max": 19548.0
+      },
+      "win_rate": 1.0,
+      "validation_pass_rate": 1.0
+    },
+    "MELON|starter": {
+      "n_episodes": 15,
+      "final_money": {
+        "n": 15,
+        "mean": 22489.3333,
+        "median": 22468.0,
+        "stdev": 27.1948,
+        "min": 22468.0,
+        "max": 22548.0
+      },
+      "profit": {
+        "n": 15,
+        "mean": 19489.3333,
+        "median": 19468.0,
+        "stdev": 27.1948,
+        "min": 19468.0,
+        "max": 19548.0
+      },
+      "revenue": {
+        "n": 15,
+        "mean": 22577.3333,
+        "median": 22588.0,
+        "stdev": 15.0849,
+        "min": 22556.0,
+        "max": 22588.0
+      },
+      "harvest_units": {
+        "n": 15,
+        "mean": 95.0,
+        "median": 95.0,
+        "stdev": 0.0,
+        "min": 95.0,
+        "max": 95.0
+      },
+      "tile_days": {
+        "n": 15,
+        "mean": 324.6667,
+        "median": 326.0,
+        "stdev": 1.8856,
+        "min": 322.0,
+        "max": 326.0
+      },
+      "revenue_per_tile_day": {
+        "n": 15,
+        "mean": 69.5421,
+        "median": 69.2883,
+        "stdev": 0.3589,
+        "min": 69.2883,
+        "max": 70.0497
+      },
+      "revenue_per_action": {
+        "n": 15,
+        "mean": 31.3574,
+        "median": 31.3722,
+        "stdev": 0.0209,
+        "min": 31.3278,
+        "max": 31.3722
+      },
+      "capital_locked": {
+        "n": 15,
+        "mean": 3088.0,
+        "median": 3120.0,
+        "stdev": 39.1918,
+        "min": 3040.0,
+        "max": 3120.0
+      },
+      "first_harvest_day": {
+        "n": 15,
+        "mean": 10.0,
+        "median": 10.0,
+        "stdev": 0.0,
+        "min": 10.0,
+        "max": 10.0
+      },
+      "unsold_units": {
+        "n": 15,
+        "mean": 0.0,
+        "median": 0.0,
+        "stdev": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "money_margin": {
+        "n": 15,
+        "mean": 18945.6667,
+        "median": 18962.0,
+        "stdev": 117.4715,
+        "min": 18651.0,
+        "max": 19085.0
+      },
+      "win_rate": 1.0,
+      "validation_pass_rate": 1.0
+    }
+  },
+  "isolated_by_crop_pooled": {
+    "WHEAT": {
+      "n_episodes": 30,
+      "final_money": {
+        "n": 30,
+        "mean": 6091.3,
+        "median": 6208.5,
+        "stdev": 579.8384,
+        "min": 4618.0,
+        "max": 6828.0
+      },
+      "profit": {
+        "n": 30,
+        "mean": 3091.3,
+        "median": 3208.5,
+        "stdev": 579.8384,
+        "min": 1618.0,
+        "max": 3828.0
+      },
+      "revenue": {
+        "n": 30,
+        "mean": 4801.3,
+        "median": 4918.5,
+        "stdev": 579.8384,
+        "min": 3328.0,
+        "max": 5538.0
+      },
+      "harvest_units": {
+        "n": 30,
+        "mean": 153.0,
+        "median": 153.0,
+        "stdev": 0.0,
+        "min": 153.0,
+        "max": 153.0
+      },
+      "tile_days": {
+        "n": 30,
+        "mean": 326.0,
+        "median": 326.0,
+        "stdev": 0.0,
+        "min": 326.0,
+        "max": 326.0
+      },
+      "revenue_per_tile_day": {
+        "n": 30,
+        "mean": 14.7279,
+        "median": 15.0875,
+        "stdev": 1.7786,
+        "min": 10.2086,
+        "max": 16.9877
+      },
+      "revenue_per_action": {
+        "n": 30,
+        "mean": 6.6685,
+        "median": 6.8312,
+        "stdev": 0.8053,
+        "min": 4.6222,
+        "max": 7.6917
+      },
+      "capital_locked": {
+        "n": 30,
+        "mean": 1710.0,
+        "median": 1710.0,
+        "stdev": 0.0,
+        "min": 1710.0,
+        "max": 1710.0
+      },
+      "first_harvest_day": {
+        "n": 30,
+        "mean": 2.0,
+        "median": 2.0,
+        "stdev": 0.0,
+        "min": 2.0,
+        "max": 2.0
+      },
+      "unsold_units": {
+        "n": 30,
+        "mean": 5.0,
+        "median": 5.0,
+        "stdev": 0.0,
+        "min": 5.0,
+        "max": 5.0
+      },
+      "money_margin": {
+        "n": 30,
+        "mean": 2801.5,
+        "median": 2897.5,
+        "stdev": 642.4069,
+        "min": 1517.0,
+        "max": 3828.0
+      },
+      "win_rate": 1.0,
+      "validation_pass_rate": 1.0
+    },
+    "CARROT": {
+      "n_episodes": 30,
+      "final_money": {
+        "n": 30,
+        "mean": 4931.0333,
+        "median": 4901.0,
+        "stdev": 1171.3054,
+        "min": 3461.0,
+        "max": 8082.0
+      },
+      "profit": {
+        "n": 30,
+        "mean": 1931.0333,
+        "median": 1901.0,
+        "stdev": 1171.3054,
+        "min": 461.0,
+        "max": 5082.0
+      },
+      "revenue": {
+        "n": 30,
+        "mean": 5351.0333,
+        "median": 5321.0,
+        "stdev": 1171.3054,
+        "min": 3881.0,
+        "max": 8502.0
+      },
+      "harvest_units": {
+        "n": 30,
+        "mean": 153.0,
+        "median": 153.0,
+        "stdev": 0.0,
+        "min": 153.0,
+        "max": 153.0
+      },
+      "tile_days": {
+        "n": 30,
+        "mean": 326.0,
+        "median": 326.0,
+        "stdev": 0.0,
+        "min": 326.0,
+        "max": 326.0
+      },
+      "revenue_per_tile_day": {
+        "n": 30,
+        "mean": 16.4142,
+        "median": 16.3221,
+        "stdev": 3.593,
+        "min": 11.9049,
+        "max": 26.0798
+      },
+      "revenue_per_action": {
+        "n": 30,
+        "mean": 7.432,
+        "median": 7.3902,
+        "stdev": 1.6268,
+        "min": 5.3903,
+        "max": 11.8083
+      },
+      "capital_locked": {
+        "n": 30,
+        "mean": 3420.0,
+        "median": 3420.0,
+        "stdev": 0.0,
+        "min": 3420.0,
+        "max": 3420.0
+      },
+      "first_harvest_day": {
+        "n": 30,
+        "mean": 2.0,
+        "median": 2.0,
+        "stdev": 0.0,
+        "min": 2.0,
+        "max": 2.0
+      },
+      "unsold_units": {
+        "n": 30,
+        "mean": 5.0,
+        "median": 5.0,
+        "stdev": 0.0,
+        "min": 5.0,
+        "max": 5.0
+      },
+      "money_margin": {
+        "n": 30,
+        "mean": 1710.4333,
+        "median": 1652.0,
+        "stdev": 1112.48,
+        "min": 203.0,
+        "max": 5082.0
+      },
+      "win_rate": 1.0,
+      "validation_pass_rate": 1.0
+    },
+    "TOMATO": {
+      "n_episodes": 30,
+      "final_money": {
+        "n": 30,
+        "mean": 5799.4,
+        "median": 5852.5,
+        "stdev": 465.3706,
+        "min": 4898.0,
+        "max": 6799.0
+      },
+      "profit": {
+        "n": 30,
+        "mean": 2799.4,
+        "median": 2852.5,
+        "stdev": 465.3706,
+        "min": 1898.0,
+        "max": 3799.0
+      },
+      "revenue": {
+        "n": 30,
+        "mean": 4064.4,
+        "median": 4102.5,
+        "stdev": 463.3676,
+        "min": 3108.0,
+        "max": 5049.0
+      },
+      "harvest_units": {
+        "n": 30,
+        "mean": 60.2667,
+        "median": 60.0,
+        "stdev": 0.9978,
+        "min": 60.0,
+        "max": 64.0
+      },
+      "tile_days": {
+        "n": 30,
+        "mean": 253.9333,
+        "median": 256.0,
+        "stdev": 7.3345,
+        "min": 233.0,
+        "max": 261.0
+      },
+      "revenue_per_tile_day": {
+        "n": 30,
+        "mean": 16.0124,
+        "median": 16.0255,
+        "stdev": 1.8361,
+        "min": 12.2529,
+        "max": 20.196
+      },
+      "revenue_per_action": {
+        "n": 30,
+        "mean": 5.645,
+        "median": 5.698,
+        "stdev": 0.6436,
+        "min": 4.3167,
+        "max": 7.0125
+      },
+      "capital_locked": {
+        "n": 30,
+        "mean": 1265.0,
+        "median": 1250.0,
+        "stdev": 32.0156,
+        "min": 1200.0,
+        "max": 1300.0
+      },
+      "first_harvest_day": {
+        "n": 30,
+        "mean": 8.0,
+        "median": 8.0,
+        "stdev": 0.0,
+        "min": 8.0,
+        "max": 8.0
+      },
+      "unsold_units": {
+        "n": 30,
+        "mean": -1.4667,
+        "median": -2.0,
+        "stdev": 0.8844,
+        "min": -2.0,
+        "max": 0.0
+      },
+      "money_margin": {
+        "n": 30,
+        "mean": 2521.8667,
+        "median": 2509.0,
+        "stdev": 626.3754,
+        "min": 1420.0,
+        "max": 3799.0
+      },
+      "win_rate": 1.0,
+      "validation_pass_rate": 1.0
+    },
+    "STRAWBERRY": {
+      "n_episodes": 30,
+      "final_money": {
+        "n": 30,
+        "mean": 14704.0333,
+        "median": 15005.5,
+        "stdev": 1719.8803,
+        "min": 8170.0,
+        "max": 17311.0
+      },
+      "profit": {
+        "n": 30,
+        "mean": 11704.0333,
+        "median": 12005.5,
+        "stdev": 1719.8803,
+        "min": 5170.0,
+        "max": 14311.0
+      },
+      "revenue": {
+        "n": 30,
+        "mean": 14224.0333,
+        "median": 14555.5,
+        "stdev": 1743.2346,
+        "min": 7570.0,
+        "max": 16811.0
+      },
+      "harvest_units": {
+        "n": 30,
+        "mean": 66.9,
+        "median": 67.0,
+        "stdev": 0.4726,
+        "min": 66.0,
+        "max": 68.0
+      },
+      "tile_days": {
+        "n": 30,
+        "mean": 331.7,
+        "median": 333.0,
+        "stdev": 5.3737,
+        "min": 320.0,
+        "max": 344.0
+      },
+      "revenue_per_tile_day": {
+        "n": 30,
+        "mean": 42.8765,
+        "median": 43.5951,
+        "stdev": 5.1518,
+        "min": 22.7327,
+        "max": 50.6355
+      },
+      "revenue_per_action": {
+        "n": 30,
+        "mean": 19.7556,
+        "median": 20.2159,
+        "stdev": 2.4212,
+        "min": 10.5139,
+        "max": 23.3486
+      },
+      "capital_locked": {
+        "n": 30,
+        "mean": 2520.0,
+        "median": 2500.0,
+        "stdev": 74.8331,
+        "min": 2400.0,
+        "max": 2600.0
+      },
+      "first_harvest_day": {
+        "n": 30,
+        "mean": 10.0,
+        "median": 10.0,
+        "stdev": 0.0,
+        "min": 10.0,
+        "max": 10.0
+      },
+      "unsold_units": {
+        "n": 30,
+        "mean": 2.0,
+        "median": 2.0,
+        "stdev": 0.0,
+        "min": 2.0,
+        "max": 2.0
+      },
+      "money_margin": {
+        "n": 30,
+        "mean": 11427.7667,
+        "median": 11742.0,
+        "stdev": 1825.7333,
+        "min": 4578.0,
+        "max": 14264.0
+      },
+      "win_rate": 1.0,
+      "validation_pass_rate": 1.0
+    },
+    "MELON": {
+      "n_episodes": 30,
+      "final_money": {
+        "n": 30,
+        "mean": 22486.1333,
+        "median": 22468.0,
+        "stdev": 26.688,
+        "min": 22468.0,
+        "max": 22548.0
+      },
+      "profit": {
+        "n": 30,
+        "mean": 19486.1333,
+        "median": 19468.0,
+        "stdev": 26.688,
+        "min": 19468.0,
+        "max": 19548.0
+      },
+      "revenue": {
+        "n": 30,
+        "mean": 22579.4667,
+        "median": 22588.0,
+        "stdev": 14.1509,
+        "min": 22556.0,
+        "max": 22588.0
+      },
+      "harvest_units": {
+        "n": 30,
+        "mean": 95.0,
+        "median": 95.0,
+        "stdev": 0.0,
+        "min": 95.0,
+        "max": 95.0
+      },
+      "tile_days": {
+        "n": 30,
+        "mean": 324.9333,
+        "median": 326.0,
+        "stdev": 1.7689,
+        "min": 322.0,
+        "max": 326.0
+      },
+      "revenue_per_tile_day": {
+        "n": 30,
+        "mean": 69.4913,
+        "median": 69.2883,
+        "stdev": 0.3367,
+        "min": 69.2883,
+        "max": 70.0497
+      },
+      "revenue_per_action": {
+        "n": 30,
+        "mean": 31.3604,
+        "median": 31.3722,
+        "stdev": 0.0196,
+        "min": 31.3278,
+        "max": 31.3722
+      },
+      "capital_locked": {
+        "n": 30,
+        "mean": 3093.3333,
+        "median": 3120.0,
+        "stdev": 37.7124,
+        "min": 3040.0,
+        "max": 3120.0
+      },
+      "first_harvest_day": {
+        "n": 30,
+        "mean": 10.0,
+        "median": 10.0,
+        "stdev": 0.0,
+        "min": 10.0,
+        "max": 10.0
+      },
+      "unsold_units": {
+        "n": 30,
+        "mean": 0.0,
+        "median": 0.0,
+        "stdev": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "money_margin": {
+        "n": 30,
+        "mean": 19214.3,
+        "median": 19276.5,
+        "stdev": 281.7727,
+        "min": 18651.0,
+        "max": 19548.0
+      },
+      "win_rate": 1.0,
+      "validation_pass_rate": 1.0
+    }
+  },
+  "fertilizer_by_crop": {
+    "WHEAT": {
+      "n_episodes": 8,
+      "final_money": {
+        "n": 8,
+        "mean": 2965.375,
+        "median": 3108.5,
+        "stdev": 366.285,
+        "min": 2151.0,
+        "max": 3343.0
+      },
+      "profit": {
+        "n": 8,
+        "mean": -34.625,
+        "median": 108.5,
+        "stdev": 366.285,
+        "min": -849.0,
+        "max": 343.0
+      },
+      "revenue": {
+        "n": 8,
+        "mean": 4704.375,
+        "median": 4847.5,
+        "stdev": 366.285,
+        "min": 3890.0,
+        "max": 5082.0
+      },
+      "harvest_units": {
+        "n": 8,
+        "mean": 137.0,
+        "median": 137.0,
+        "stdev": 0.0,
+        "min": 137.0,
+        "max": 137.0
+      },
+      "tile_days": {
+        "n": 8,
+        "mean": 293.0,
+        "median": 293.0,
+        "stdev": 0.0,
+        "min": 293.0,
+        "max": 293.0
+      },
+      "revenue_per_tile_day": {
+        "n": 8,
+        "mean": 16.0559,
+        "median": 16.5444,
+        "stdev": 1.2501,
+        "min": 13.2765,
+        "max": 17.3447
+      },
+      "revenue_per_action": {
+        "n": 8,
+        "mean": 6.5338,
+        "median": 6.7326,
+        "stdev": 0.5087,
+        "min": 5.4028,
+        "max": 7.0583
+      },
+      "capital_locked": {
+        "n": 8,
+        "mean": 1540.0,
+        "median": 1540.0,
+        "stdev": 0.0,
+        "min": 1540.0,
+        "max": 1540.0
+      },
+      "first_harvest_day": {
+        "n": 8,
+        "mean": 2.0,
+        "median": 2.0,
+        "stdev": 0.0,
+        "min": 2.0,
+        "max": 2.0
+      },
+      "unsold_units": {
+        "n": 8,
+        "mean": 3.0,
+        "median": 3.0,
+        "stdev": 0.0,
+        "min": 3.0,
+        "max": 3.0
+      },
+      "money_margin": {
+        "n": 8,
+        "mean": -34.625,
+        "median": 108.5,
+        "stdev": 366.285,
+        "min": -849.0,
+        "max": 343.0
+      },
+      "win_rate": 0.75,
+      "validation_pass_rate": 0.0
+    },
+    "CARROT": {
+      "n_episodes": 8,
+      "final_money": {
+        "n": 8,
+        "mean": 1631.25,
+        "median": 535.0,
+        "stdev": 2212.0316,
+        "min": 388.0,
+        "max": 7242.0
+      },
+      "profit": {
+        "n": 8,
+        "mean": -1368.75,
+        "median": -2465.0,
+        "stdev": 2212.0316,
+        "min": -2612.0,
+        "max": 4242.0
+      },
+      "revenue": {
+        "n": 8,
+        "mean": 4910.25,
+        "median": 3814.0,
+        "stdev": 2212.0316,
+        "min": 3667.0,
+        "max": 10521.0
+      },
+      "harvest_units": {
+        "n": 8,
+        "mean": 137.0,
+        "median": 137.0,
+        "stdev": 0.0,
+        "min": 137.0,
+        "max": 137.0
+      },
+      "tile_days": {
+        "n": 8,
+        "mean": 293.0,
+        "median": 293.0,
+        "stdev": 0.0,
+        "min": 293.0,
+        "max": 293.0
+      },
+      "revenue_per_tile_day": {
+        "n": 8,
+        "mean": 16.7585,
+        "median": 13.0171,
+        "stdev": 7.5496,
+        "min": 12.5154,
+        "max": 35.9078
+      },
+      "revenue_per_action": {
+        "n": 8,
+        "mean": 6.8198,
+        "median": 5.2972,
+        "stdev": 3.0723,
+        "min": 5.0931,
+        "max": 14.6125
+      },
+      "capital_locked": {
+        "n": 8,
+        "mean": 3080.0,
+        "median": 3080.0,
+        "stdev": 0.0,
+        "min": 3080.0,
+        "max": 3080.0
+      },
+      "first_harvest_day": {
+        "n": 8,
+        "mean": 2.0,
+        "median": 2.0,
+        "stdev": 0.0,
+        "min": 2.0,
+        "max": 2.0
+      },
+      "unsold_units": {
+        "n": 8,
+        "mean": 3.0,
+        "median": 3.0,
+        "stdev": 0.0,
+        "min": 3.0,
+        "max": 3.0
+      },
+      "money_margin": {
+        "n": 8,
+        "mean": -1368.75,
+        "median": -2465.0,
+        "stdev": 2212.0316,
+        "min": -2612.0,
+        "max": 4242.0
+      },
+      "win_rate": 0.125,
+      "validation_pass_rate": 0.0
+    },
+    "TOMATO": {
+      "n_episodes": 8,
+      "final_money": {
+        "n": 8,
+        "mean": 4541.75,
+        "median": 4599.0,
+        "stdev": 592.4242,
+        "min": 3372.0,
+        "max": 5334.0
+      },
+      "profit": {
+        "n": 8,
+        "mean": 1541.75,
+        "median": 1599.0,
+        "stdev": 592.4242,
+        "min": 372.0,
+        "max": 2334.0
+      },
+      "revenue": {
+        "n": 8,
+        "mean": 5633.5,
+        "median": 5730.0,
+        "stdev": 477.5733,
+        "min": 4659.0,
+        "max": 6372.0
+      },
+      "harvest_units": {
+        "n": 8,
+        "mean": 79.5,
+        "median": 80.0,
+        "stdev": 1.3229,
+        "min": 76.0,
+        "max": 80.0
+      },
+      "tile_days": {
+        "n": 8,
+        "mean": 231.875,
+        "median": 233.5,
+        "stdev": 8.477,
+        "min": 219.0,
+        "max": 240.0
+      },
+      "revenue_per_tile_day": {
+        "n": 8,
+        "mean": 24.3459,
+        "median": 24.5582,
+        "stdev": 2.3944,
+        "min": 19.4125,
+        "max": 27.2477
+      },
+      "revenue_per_action": {
+        "n": 8,
+        "mean": 7.8243,
+        "median": 7.9583,
+        "stdev": 0.6633,
+        "min": 6.4708,
+        "max": 8.85
+      },
+      "capital_locked": {
+        "n": 8,
+        "mean": 1250.0,
+        "median": 1275.0,
+        "stdev": 55.9017,
+        "min": 1150.0,
+        "max": 1300.0
+      },
+      "first_harvest_day": {
+        "n": 8,
+        "mean": 8.0,
+        "median": 8.0,
+        "stdev": 0.0,
+        "min": 8.0,
+        "max": 8.0
+      },
+      "unsold_units": {
+        "n": 8,
+        "mean": -2.25,
+        "median": -2.0,
+        "stdev": 0.6614,
+        "min": -4.0,
+        "max": -2.0
+      },
+      "money_margin": {
+        "n": 8,
+        "mean": 1541.75,
+        "median": 1599.0,
+        "stdev": 592.4242,
+        "min": 372.0,
+        "max": 2334.0
+      },
+      "win_rate": 1.0,
+      "validation_pass_rate": 0.0
+    },
+    "STRAWBERRY": {
+      "n_episodes": 8,
+      "final_money": {
+        "n": 8,
+        "mean": 13365.125,
+        "median": 13171.0,
+        "stdev": 1938.9299,
+        "min": 10298.0,
+        "max": 16293.0
+      },
+      "profit": {
+        "n": 8,
+        "mean": 10365.125,
+        "median": 10171.0,
+        "stdev": 1938.9299,
+        "min": 7298.0,
+        "max": 13293.0
+      },
+      "revenue": {
+        "n": 8,
+        "mean": 16026.625,
+        "median": 15920.0,
+        "stdev": 1891.7326,
+        "min": 13097.0,
+        "max": 18892.0
+      },
+      "harvest_units": {
+        "n": 8,
+        "mean": 75.875,
+        "median": 77.0,
+        "stdev": 1.9645,
+        "min": 71.0,
+        "max": 77.0
+      },
+      "tile_days": {
+        "n": 8,
+        "mean": 310.125,
+        "median": 314.0,
+        "stdev": 7.1491,
+        "min": 296.0,
+        "max": 316.0
+      },
+      "revenue_per_tile_day": {
+        "n": 8,
+        "mean": 51.7465,
+        "median": 50.3798,
+        "stdev": 6.5323,
+        "min": 41.4462,
+        "max": 61.7386
+      },
+      "revenue_per_action": {
+        "n": 8,
+        "mean": 22.2592,
+        "median": 22.1111,
+        "stdev": 2.6274,
+        "min": 18.1903,
+        "max": 26.2389
+      },
+      "capital_locked": {
+        "n": 8,
+        "mean": 2462.5,
+        "median": 2500.0,
+        "stdev": 140.8678,
+        "min": 2200.0,
+        "max": 2600.0
+      },
+      "first_harvest_day": {
+        "n": 8,
+        "mean": 10.0,
+        "median": 10.0,
+        "stdev": 0.0,
+        "min": 10.0,
+        "max": 10.0
+      },
+      "unsold_units": {
+        "n": 8,
+        "mean": 3.25,
+        "median": 3.5,
+        "stdev": 0.8292,
+        "min": 2.0,
+        "max": 4.0
+      },
+      "money_margin": {
+        "n": 8,
+        "mean": 10365.125,
+        "median": 10171.0,
+        "stdev": 1938.9299,
+        "min": 7298.0,
+        "max": 13293.0
+      },
+      "win_rate": 1.0,
+      "validation_pass_rate": 0.0
+    },
+    "MELON": {
+      "n_episodes": 8,
+      "final_money": {
+        "n": 8,
+        "mean": 19513.0,
+        "median": 19503.0,
+        "stdev": 26.4575,
+        "min": 19503.0,
+        "max": 19583.0
+      },
+      "profit": {
+        "n": 8,
+        "mean": 16513.0,
+        "median": 16503.0,
+        "stdev": 26.4575,
+        "min": 16503.0,
+        "max": 16583.0
+      },
+      "revenue": {
+        "n": 8,
+        "mean": 22582.0,
+        "median": 22582.0,
+        "stdev": 0.0,
+        "min": 22582.0,
+        "max": 22582.0
+      },
+      "harvest_units": {
+        "n": 8,
+        "mean": 91.0,
+        "median": 91.0,
+        "stdev": 0.0,
+        "min": 91.0,
+        "max": 91.0
+      },
+      "tile_days": {
+        "n": 8,
+        "mean": 311.0,
+        "median": 311.0,
+        "stdev": 0.0,
+        "min": 311.0,
+        "max": 311.0
+      },
+      "revenue_per_tile_day": {
+        "n": 8,
+        "mean": 72.6109,
+        "median": 72.6109,
+        "stdev": 0.0,
+        "min": 72.6109,
+        "max": 72.6109
+      },
+      "revenue_per_action": {
+        "n": 8,
+        "mean": 31.3639,
+        "median": 31.3639,
+        "stdev": 0.0,
+        "min": 31.3639,
+        "max": 31.3639
+      },
+      "capital_locked": {
+        "n": 8,
+        "mean": 2870.0,
+        "median": 2880.0,
+        "stdev": 26.4575,
+        "min": 2800.0,
+        "max": 2880.0
+      },
+      "first_harvest_day": {
+        "n": 8,
+        "mean": 10.0,
+        "median": 10.0,
+        "stdev": 0.0,
+        "min": 10.0,
+        "max": 10.0
+      },
+      "unsold_units": {
+        "n": 8,
+        "mean": -4.0,
+        "median": -4.0,
+        "stdev": 0.0,
+        "min": -4.0,
+        "max": -4.0
+      },
+      "money_margin": {
+        "n": 8,
+        "mean": 16513.0,
+        "median": 16503.0,
+        "stdev": 26.4575,
+        "min": 16503.0,
+        "max": 16583.0
+      },
+      "win_rate": 1.0,
+      "validation_pass_rate": 0.0
+    }
+  },
+  "fertilizer_baseline_no_fert_by_crop": {
+    "WHEAT": {
+      "n_episodes": 15,
+      "final_money": {
+        "n": 15,
+        "mean": 6064.5333,
+        "median": 6279.0,
+        "stdev": 660.7279,
+        "min": 4618.0,
+        "max": 6828.0
+      },
+      "profit": {
+        "n": 15,
+        "mean": 3064.5333,
+        "median": 3279.0,
+        "stdev": 660.7279,
+        "min": 1618.0,
+        "max": 3828.0
+      },
+      "revenue": {
+        "n": 15,
+        "mean": 4774.5333,
+        "median": 4989.0,
+        "stdev": 660.7279,
+        "min": 3328.0,
+        "max": 5538.0
+      },
+      "harvest_units": {
+        "n": 15,
+        "mean": 153.0,
+        "median": 153.0,
+        "stdev": 0.0,
+        "min": 153.0,
+        "max": 153.0
+      },
+      "tile_days": {
+        "n": 15,
+        "mean": 326.0,
+        "median": 326.0,
+        "stdev": 0.0,
+        "min": 326.0,
+        "max": 326.0
+      },
+      "revenue_per_tile_day": {
+        "n": 15,
+        "mean": 14.6458,
+        "median": 15.3037,
+        "stdev": 2.0268,
+        "min": 10.2086,
+        "max": 16.9877
+      },
+      "revenue_per_action": {
+        "n": 15,
+        "mean": 6.6313,
+        "median": 6.9292,
+        "stdev": 0.9177,
+        "min": 4.6222,
+        "max": 7.6917
+      },
+      "capital_locked": {
+        "n": 15,
+        "mean": 1710.0,
+        "median": 1710.0,
+        "stdev": 0.0,
+        "min": 1710.0,
+        "max": 1710.0
+      },
+      "first_harvest_day": {
+        "n": 15,
+        "mean": 2.0,
+        "median": 2.0,
+        "stdev": 0.0,
+        "min": 2.0,
+        "max": 2.0
+      },
+      "unsold_units": {
+        "n": 15,
+        "mean": 5.0,
+        "median": 5.0,
+        "stdev": 0.0,
+        "min": 5.0,
+        "max": 5.0
+      },
+      "money_margin": {
+        "n": 15,
+        "mean": 3064.5333,
+        "median": 3279.0,
+        "stdev": 660.7279,
+        "min": 1618.0,
+        "max": 3828.0
+      },
+      "win_rate": 1.0,
+      "validation_pass_rate": 1.0
+    },
+    "CARROT": {
+      "n_episodes": 15,
+      "final_money": {
+        "n": 15,
+        "mean": 4878.0667,
+        "median": 4842.0,
+        "stdev": 1152.1277,
+        "min": 3581.0,
+        "max": 8082.0
+      },
+      "profit": {
+        "n": 15,
+        "mean": 1878.0667,
+        "median": 1842.0,
+        "stdev": 1152.1277,
+        "min": 581.0,
+        "max": 5082.0
+      },
+      "revenue": {
+        "n": 15,
+        "mean": 5298.0667,
+        "median": 5262.0,
+        "stdev": 1152.1277,
+        "min": 4001.0,
+        "max": 8502.0
+      },
+      "harvest_units": {
+        "n": 15,
+        "mean": 153.0,
+        "median": 153.0,
+        "stdev": 0.0,
+        "min": 153.0,
+        "max": 153.0
+      },
+      "tile_days": {
+        "n": 15,
+        "mean": 326.0,
+        "median": 326.0,
+        "stdev": 0.0,
+        "min": 326.0,
+        "max": 326.0
+      },
+      "revenue_per_tile_day": {
+        "n": 15,
+        "mean": 16.2517,
+        "median": 16.1411,
+        "stdev": 3.5341,
+        "min": 12.273,
+        "max": 26.0798
+      },
+      "revenue_per_action": {
+        "n": 15,
+        "mean": 7.3584,
+        "median": 7.3083,
+        "stdev": 1.6002,
+        "min": 5.5569,
+        "max": 11.8083
+      },
+      "capital_locked": {
+        "n": 15,
+        "mean": 3420.0,
+        "median": 3420.0,
+        "stdev": 0.0,
+        "min": 3420.0,
+        "max": 3420.0
+      },
+      "first_harvest_day": {
+        "n": 15,
+        "mean": 2.0,
+        "median": 2.0,
+        "stdev": 0.0,
+        "min": 2.0,
+        "max": 2.0
+      },
+      "unsold_units": {
+        "n": 15,
+        "mean": 5.0,
+        "median": 5.0,
+        "stdev": 0.0,
+        "min": 5.0,
+        "max": 5.0
+      },
+      "money_margin": {
+        "n": 15,
+        "mean": 1878.0667,
+        "median": 1842.0,
+        "stdev": 1152.1277,
+        "min": 581.0,
+        "max": 5082.0
+      },
+      "win_rate": 1.0,
+      "validation_pass_rate": 1.0
+    },
+    "TOMATO": {
+      "n_episodes": 15,
+      "final_money": {
+        "n": 15,
+        "mean": 5981.2667,
+        "median": 5911.0,
+        "stdev": 445.5495,
+        "min": 5307.0,
+        "max": 6799.0
+      },
+      "profit": {
+        "n": 15,
+        "mean": 2981.2667,
+        "median": 2911.0,
+        "stdev": 445.5495,
+        "min": 2307.0,
+        "max": 3799.0
+      },
+      "revenue": {
+        "n": 15,
+        "mean": 4251.2667,
+        "median": 4163.0,
+        "stdev": 435.8712,
+        "min": 3607.0,
+        "max": 5049.0
+      },
+      "harvest_units": {
+        "n": 15,
+        "mean": 60.2667,
+        "median": 60.0,
+        "stdev": 0.9978,
+        "min": 60.0,
+        "max": 64.0
+      },
+      "tile_days": {
+        "n": 15,
+        "mean": 255.4,
+        "median": 256.0,
+        "stdev": 5.8856,
+        "min": 246.0,
+        "max": 261.0
+      },
+      "revenue_per_tile_day": {
+        "n": 15,
+        "mean": 16.6675,
+        "median": 16.3906,
+        "stdev": 1.8679,
+        "min": 13.8199,
+        "max": 20.196
+      },
+      "revenue_per_action": {
+        "n": 15,
+        "mean": 5.9045,
+        "median": 5.7819,
+        "stdev": 0.6054,
+        "min": 5.0097,
+        "max": 7.0125
+      },
+      "capital_locked": {
+        "n": 15,
+        "mean": 1270.0,
+        "median": 1250.0,
+        "stdev": 30.5505,
+        "min": 1200.0,
+        "max": 1300.0
+      },
+      "first_harvest_day": {
+        "n": 15,
+        "mean": 8.0,
+        "median": 8.0,
+        "stdev": 0.0,
+        "min": 8.0,
+        "max": 8.0
+      },
+      "unsold_units": {
+        "n": 15,
+        "mean": -1.6,
+        "median": -2.0,
+        "stdev": 0.8,
+        "min": -2.0,
+        "max": 0.0
+      },
+      "money_margin": {
+        "n": 15,
+        "mean": 2981.2667,
+        "median": 2911.0,
+        "stdev": 445.5495,
+        "min": 2307.0,
+        "max": 3799.0
+      },
+      "win_rate": 1.0,
+      "validation_pass_rate": 1.0
+    },
+    "STRAWBERRY": {
+      "n_episodes": 15,
+      "final_money": {
+        "n": 15,
+        "mean": 15195.8,
+        "median": 15121.0,
+        "stdev": 1151.5249,
+        "min": 13207.0,
+        "max": 17264.0
+      },
+      "profit": {
+        "n": 15,
+        "mean": 12195.8,
+        "median": 12121.0,
+        "stdev": 1151.5249,
+        "min": 10207.0,
+        "max": 14264.0
+      },
+      "revenue": {
+        "n": 15,
+        "mean": 14722.4667,
+        "median": 14621.0,
+        "stdev": 1152.1064,
+        "min": 12707.0,
+        "max": 16764.0
+      },
+      "harvest_units": {
+        "n": 15,
+        "mean": 66.9333,
+        "median": 67.0,
+        "stdev": 0.4422,
+        "min": 66.0,
+        "max": 68.0
+      },
+      "tile_days": {
+        "n": 15,
+        "mean": 331.6667,
+        "median": 333.0,
+        "stdev": 5.4119,
+        "min": 320.0,
+        "max": 344.0
+      },
+      "revenue_per_tile_day": {
+        "n": 15,
+        "mean": 44.3828,
+        "median": 43.9069,
+        "stdev": 3.3196,
+        "min": 38.5345,
+        "max": 50.3423
+      },
+      "revenue_per_action": {
+        "n": 15,
+        "mean": 20.4479,
+        "median": 20.3069,
+        "stdev": 1.6002,
+        "min": 17.6486,
+        "max": 23.2833
+      },
+      "capital_locked": {
+        "n": 15,
+        "mean": 2526.6667,
+        "median": 2500.0,
+        "stdev": 67.9869,
+        "min": 2400.0,
+        "max": 2600.0
+      },
+      "first_harvest_day": {
+        "n": 15,
+        "mean": 10.0,
+        "median": 10.0,
+        "stdev": 0.0,
+        "min": 10.0,
+        "max": 10.0
+      },
+      "unsold_units": {
+        "n": 15,
+        "mean": 2.0,
+        "median": 2.0,
+        "stdev": 0.0,
+        "min": 2.0,
+        "max": 2.0
+      },
+      "money_margin": {
+        "n": 15,
+        "mean": 12195.8,
+        "median": 12121.0,
+        "stdev": 1151.5249,
+        "min": 10207.0,
+        "max": 14264.0
+      },
+      "win_rate": 1.0,
+      "validation_pass_rate": 1.0
+    },
+    "MELON": {
+      "n_episodes": 15,
+      "final_money": {
+        "n": 15,
+        "mean": 22482.9333,
+        "median": 22468.0,
+        "stdev": 25.7772,
+        "min": 22468.0,
+        "max": 22548.0
+      },
+      "profit": {
+        "n": 15,
+        "mean": 19482.9333,
+        "median": 19468.0,
+        "stdev": 25.7772,
+        "min": 19468.0,
+        "max": 19548.0
+      },
+      "revenue": {
+        "n": 15,
+        "mean": 22581.6,
+        "median": 22588.0,
+        "stdev": 12.8,
+        "min": 22556.0,
+        "max": 22588.0
+      },
+      "harvest_units": {
+        "n": 15,
+        "mean": 95.0,
+        "median": 95.0,
+        "stdev": 0.0,
+        "min": 95.0,
+        "max": 95.0
+      },
+      "tile_days": {
+        "n": 15,
+        "mean": 325.2,
+        "median": 326.0,
+        "stdev": 1.6,
+        "min": 322.0,
+        "max": 326.0
+      },
+      "revenue_per_tile_day": {
+        "n": 15,
+        "mean": 69.4406,
+        "median": 69.2883,
+        "stdev": 0.3046,
+        "min": 69.2883,
+        "max": 70.0497
+      },
+      "revenue_per_action": {
+        "n": 15,
+        "mean": 31.3633,
+        "median": 31.3722,
+        "stdev": 0.0178,
+        "min": 31.3278,
+        "max": 31.3722
+      },
+      "capital_locked": {
+        "n": 15,
+        "mean": 3098.6667,
+        "median": 3120.0,
+        "stdev": 35.3773,
+        "min": 3040.0,
+        "max": 3120.0
+      },
+      "first_harvest_day": {
+        "n": 15,
+        "mean": 10.0,
+        "median": 10.0,
+        "stdev": 0.0,
+        "min": 10.0,
+        "max": 10.0
+      },
+      "unsold_units": {
+        "n": 15,
+        "mean": 0.0,
+        "median": 0.0,
+        "stdev": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "money_margin": {
+        "n": 15,
+        "mean": 19482.9333,
+        "median": 19468.0,
+        "stdev": 25.7772,
+        "min": 19468.0,
+        "max": 19548.0
+      },
+      "win_rate": 1.0,
+      "validation_pass_rate": 1.0
+    }
+  },
+  "timing_by_crop_condition": {
+    "WHEAT|plant_delay_day=0": {
+      "n_episodes": 6,
+      "final_money": {
+        "n": 6,
+        "mean": 6455.3333,
+        "median": 6548.0,
+        "stdev": 228.4131,
+        "min": 6012.0,
+        "max": 6653.0
+      },
+      "profit": {
+        "n": 6,
+        "mean": 3455.3333,
+        "median": 3548.0,
+        "stdev": 228.4131,
+        "min": 3012.0,
+        "max": 3653.0
+      },
+      "revenue": {
+        "n": 6,
+        "mean": 5165.3333,
+        "median": 5258.0,
+        "stdev": 228.4131,
+        "min": 4722.0,
+        "max": 5363.0
+      },
+      "harvest_units": {
+        "n": 6,
+        "mean": 153.0,
+        "median": 153.0,
+        "stdev": 0.0,
+        "min": 153.0,
+        "max": 153.0
+      },
+      "tile_days": {
+        "n": 6,
+        "mean": 326.0,
+        "median": 326.0,
+        "stdev": 0.0,
+        "min": 326.0,
+        "max": 326.0
+      },
+      "revenue_per_tile_day": {
+        "n": 6,
+        "mean": 15.8446,
+        "median": 16.1288,
+        "stdev": 0.7006,
+        "min": 14.4847,
+        "max": 16.4509
+      },
+      "revenue_per_action": {
+        "n": 6,
+        "mean": 7.1741,
+        "median": 7.3028,
+        "stdev": 0.3173,
+        "min": 6.5583,
+        "max": 7.4486
+      },
+      "capital_locked": {
+        "n": 6,
+        "mean": 1710.0,
+        "median": 1710.0,
+        "stdev": 0.0,
+        "min": 1710.0,
+        "max": 1710.0
+      },
+      "first_harvest_day": {
+        "n": 6,
+        "mean": 2.0,
+        "median": 2.0,
+        "stdev": 0.0,
+        "min": 2.0,
+        "max": 2.0
+      },
+      "unsold_units": {
+        "n": 6,
+        "mean": 5.0,
+        "median": 5.0,
+        "stdev": 0.0,
+        "min": 5.0,
+        "max": 5.0
+      },
+      "money_margin": {
+        "n": 6,
+        "mean": 3455.3333,
+        "median": 3548.0,
+        "stdev": 228.4131,
+        "min": 3012.0,
+        "max": 3653.0
+      },
+      "win_rate": 1.0,
+      "validation_pass_rate": 1.0
+    },
+    "WHEAT|plant_delay_day=10": {
+      "n_episodes": 6,
+      "final_money": {
+        "n": 6,
+        "mean": 5416.8333,
+        "median": 5511.0,
+        "stdev": 335.223,
+        "min": 4879.0,
+        "max": 5779.0
+      },
+      "profit": {
+        "n": 6,
+        "mean": 2416.8333,
+        "median": 2511.0,
+        "stdev": 335.223,
+        "min": 1879.0,
+        "max": 2779.0
+      },
+      "revenue": {
+        "n": 6,
+        "mean": 3565.1667,
+        "median": 3671.0,
+        "stdev": 323.3231,
+        "min": 3039.0,
+        "max": 3909.0
+      },
+      "harvest_units": {
+        "n": 6,
+        "mean": 97.8333,
+        "median": 98.0,
+        "stdev": 0.8975,
+        "min": 96.0,
+        "max": 99.0
+      },
+      "tile_days": {
+        "n": 6,
+        "mean": 213.0,
+        "median": 216.0,
+        "stdev": 4.397,
+        "min": 205.0,
+        "max": 216.0
+      },
+      "revenue_per_tile_day": {
+        "n": 6,
+        "mean": 16.7674,
+        "median": 16.9954,
+        "stdev": 1.7863,
+        "min": 14.0694,
+        "max": 19.0683
+      },
+      "revenue_per_action": {
+        "n": 6,
+        "mean": 4.9516,
+        "median": 5.0986,
+        "stdev": 0.4491,
+        "min": 4.2208,
+        "max": 5.4292
+      },
+      "capital_locked": {
+        "n": 6,
+        "mean": 1148.3333,
+        "median": 1160.0,
+        "stdev": 16.7498,
+        "min": 1120.0,
+        "max": 1160.0
+      },
+      "first_harvest_day": {
+        "n": 6,
+        "mean": 12.0,
+        "median": 12.0,
+        "stdev": 0.0,
+        "min": 12.0,
+        "max": 12.0
+      },
+      "unsold_units": {
+        "n": 6,
+        "mean": 4.6667,
+        "median": 5.0,
+        "stdev": 0.7454,
+        "min": 3.0,
+        "max": 5.0
+      },
+      "money_margin": {
+        "n": 6,
+        "mean": 2416.8333,
+        "median": 2511.0,
+        "stdev": 335.223,
+        "min": 1879.0,
+        "max": 2779.0
+      },
+      "win_rate": 1.0,
+      "validation_pass_rate": 1.0
+    },
+    "WHEAT|plant_delay_day=20": {
+      "n_episodes": 6,
+      "final_money": {
+        "n": 6,
+        "mean": 4083.8333,
+        "median": 4090.0,
+        "stdev": 99.3184,
+        "min": 3952.0,
+        "max": 4247.0
+      },
+      "profit": {
+        "n": 6,
+        "mean": 1083.8333,
+        "median": 1090.0,
+        "stdev": 99.3184,
+        "min": 952.0,
+        "max": 1247.0
+      },
+      "revenue": {
+        "n": 6,
+        "mean": 1663.8333,
+        "median": 1665.0,
+        "stdev": 98.9653,
+        "min": 1542.0,
+        "max": 1817.0
+      },
+      "harvest_units": {
+        "n": 6,
+        "mean": 41.8333,
+        "median": 41.5,
+        "stdev": 0.8975,
+        "min": 41.0,
+        "max": 43.0
+      },
+      "tile_days": {
+        "n": 6,
+        "mean": 99.5,
+        "median": 99.5,
+        "stdev": 2.2913,
+        "min": 96.0,
+        "max": 102.0
+      },
+      "revenue_per_tile_day": {
+        "n": 6,
+        "mean": 16.7329,
+        "median": 16.6253,
+        "stdev": 1.1021,
+        "min": 15.2745,
+        "max": 18.5408
+      },
+      "revenue_per_action": {
+        "n": 6,
+        "mean": 2.3109,
+        "median": 2.3125,
+        "stdev": 0.1374,
+        "min": 2.1417,
+        "max": 2.5236
+      },
+      "capital_locked": {
+        "n": 6,
+        "mean": 580.0,
+        "median": 575.0,
+        "stdev": 11.547,
+        "min": 570.0,
+        "max": 600.0
+      },
+      "first_harvest_day": {
+        "n": 6,
+        "mean": 22.0,
+        "median": 22.0,
+        "stdev": 0.0,
+        "min": 22.0,
+        "max": 22.0
+      },
+      "unsold_units": {
+        "n": 6,
+        "mean": 4.3333,
+        "median": 4.5,
+        "stdev": 1.1055,
+        "min": 3.0,
+        "max": 6.0
+      },
+      "money_margin": {
+        "n": 6,
+        "mean": 1083.8333,
+        "median": 1090.0,
+        "stdev": 99.3184,
+        "min": 952.0,
+        "max": 1247.0
+      },
+      "win_rate": 1.0,
+      "validation_pass_rate": 1.0
+    },
+    "CARROT|plant_delay_day=0": {
+      "n_episodes": 6,
+      "final_money": {
+        "n": 6,
+        "mean": 4937.0,
+        "median": 5243.0,
+        "stdev": 749.4482,
+        "min": 3616.0,
+        "max": 5717.0
+      },
+      "profit": {
+        "n": 6,
+        "mean": 1937.0,
+        "median": 2243.0,
+        "stdev": 749.4482,
+        "min": 616.0,
+        "max": 2717.0
+      },
+      "revenue": {
+        "n": 6,
+        "mean": 5357.0,
+        "median": 5663.0,
+        "stdev": 749.4482,
+        "min": 4036.0,
+        "max": 6137.0
+      },
+      "harvest_units": {
+        "n": 6,
+        "mean": 153.0,
+        "median": 153.0,
+        "stdev": 0.0,
+        "min": 153.0,
+        "max": 153.0
+      },
+      "tile_days": {
+        "n": 6,
+        "mean": 326.0,
+        "median": 326.0,
+        "stdev": 0.0,
+        "min": 326.0,
+        "max": 326.0
+      },
+      "revenue_per_tile_day": {
+        "n": 6,
+        "mean": 16.4325,
+        "median": 17.3712,
+        "stdev": 2.2989,
+        "min": 12.3804,
+        "max": 18.8252
+      },
+      "revenue_per_action": {
+        "n": 6,
+        "mean": 7.4403,
+        "median": 7.8652,
+        "stdev": 1.0409,
+        "min": 5.6056,
+        "max": 8.5236
+      },
+      "capital_locked": {
+        "n": 6,
+        "mean": 3420.0,
+        "median": 3420.0,
+        "stdev": 0.0,
+        "min": 3420.0,
+        "max": 3420.0
+      },
+      "first_harvest_day": {
+        "n": 6,
+        "mean": 2.0,
+        "median": 2.0,
+        "stdev": 0.0,
+        "min": 2.0,
+        "max": 2.0
+      },
+      "unsold_units": {
+        "n": 6,
+        "mean": 5.0,
+        "median": 5.0,
+        "stdev": 0.0,
+        "min": 5.0,
+        "max": 5.0
+      },
+      "money_margin": {
+        "n": 6,
+        "mean": 1937.0,
+        "median": 2243.0,
+        "stdev": 749.4482,
+        "min": 616.0,
+        "max": 2717.0
+      },
+      "win_rate": 1.0,
+      "validation_pass_rate": 1.0
+    },
+    "CARROT|plant_delay_day=10": {
+      "n_episodes": 6,
+      "final_money": {
+        "n": 6,
+        "mean": 5272.0,
+        "median": 5261.0,
+        "stdev": 1004.5468,
+        "min": 3477.0,
+        "max": 6924.0
+      },
+      "profit": {
+        "n": 6,
+        "mean": 2272.0,
+        "median": 2261.0,
+        "stdev": 1004.5468,
+        "min": 477.0,
+        "max": 3924.0
+      },
+      "revenue": {
+        "n": 6,
+        "mean": 4568.6667,
+        "median": 4551.0,
+        "stdev": 1006.5899,
+        "min": 2797.0,
+        "max": 6244.0
+      },
+      "harvest_units": {
+        "n": 6,
+        "mean": 97.8333,
+        "median": 98.0,
+        "stdev": 0.8975,
+        "min": 96.0,
+        "max": 99.0
+      },
+      "tile_days": {
+        "n": 6,
+        "mean": 213.0,
+        "median": 216.0,
+        "stdev": 4.397,
+        "min": 205.0,
+        "max": 216.0
+      },
+      "revenue_per_tile_day": {
+        "n": 6,
+        "mean": 21.453,
+        "median": 21.6349,
+        "stdev": 4.6577,
+        "min": 12.9491,
+        "max": 28.9074
+      },
+      "revenue_per_action": {
+        "n": 6,
+        "mean": 6.3453,
+        "median": 6.3208,
+        "stdev": 1.398,
+        "min": 3.8847,
+        "max": 8.6722
+      },
+      "capital_locked": {
+        "n": 6,
+        "mean": 2296.6667,
+        "median": 2320.0,
+        "stdev": 33.4996,
+        "min": 2240.0,
+        "max": 2320.0
+      },
+      "first_harvest_day": {
+        "n": 6,
+        "mean": 12.0,
+        "median": 12.0,
+        "stdev": 0.0,
+        "min": 12.0,
+        "max": 12.0
+      },
+      "unsold_units": {
+        "n": 6,
+        "mean": 4.6667,
+        "median": 5.0,
+        "stdev": 0.7454,
+        "min": 3.0,
+        "max": 5.0
+      },
+      "money_margin": {
+        "n": 6,
+        "mean": 2272.0,
+        "median": 2261.0,
+        "stdev": 1004.5468,
+        "min": 477.0,
+        "max": 3924.0
+      },
+      "win_rate": 1.0,
+      "validation_pass_rate": 1.0
+    },
+    "CARROT|plant_delay_day=20": {
+      "n_episodes": 6,
+      "final_money": {
+        "n": 6,
+        "mean": 4257.6667,
+        "median": 4107.5,
+        "stdev": 779.8779,
+        "min": 3336.0,
+        "max": 5374.0
+      },
+      "profit": {
+        "n": 6,
+        "mean": 1257.6667,
+        "median": 1107.5,
+        "stdev": 779.8779,
+        "min": 336.0,
+        "max": 2374.0
+      },
+      "revenue": {
+        "n": 6,
+        "mean": 2417.6667,
+        "median": 2297.5,
+        "stdev": 771.8093,
+        "min": 1496.0,
+        "max": 3514.0
+      },
+      "harvest_units": {
+        "n": 6,
+        "mean": 41.8333,
+        "median": 41.5,
+        "stdev": 0.8975,
+        "min": 41.0,
+        "max": 43.0
+      },
+      "tile_days": {
+        "n": 6,
+        "mean": 99.5,
+        "median": 99.5,
+        "stdev": 2.2913,
+        "min": 96.0,
+        "max": 102.0
+      },
+      "revenue_per_tile_day": {
+        "n": 6,
+        "mean": 24.2067,
+        "median": 23.4109,
+        "stdev": 7.3905,
+        "min": 15.2653,
+        "max": 34.451
+      },
+      "revenue_per_action": {
+        "n": 6,
+        "mean": 3.3579,
+        "median": 3.1909,
+        "stdev": 1.072,
+        "min": 2.0778,
+        "max": 4.8806
+      },
+      "capital_locked": {
+        "n": 6,
+        "mean": 1160.0,
+        "median": 1150.0,
+        "stdev": 23.094,
+        "min": 1140.0,
+        "max": 1200.0
+      },
+      "first_harvest_day": {
+        "n": 6,
+        "mean": 22.0,
+        "median": 22.0,
+        "stdev": 0.0,
+        "min": 22.0,
+        "max": 22.0
+      },
+      "unsold_units": {
+        "n": 6,
+        "mean": 4.3333,
+        "median": 4.5,
+        "stdev": 1.1055,
+        "min": 3.0,
+        "max": 6.0
+      },
+      "money_margin": {
+        "n": 6,
+        "mean": 1257.6667,
+        "median": 1107.5,
+        "stdev": 779.8779,
+        "min": 336.0,
+        "max": 2374.0
+      },
+      "win_rate": 1.0,
+      "validation_pass_rate": 1.0
+    },
+    "TOMATO|plant_delay_day=0": {
+      "n_episodes": 6,
+      "final_money": {
+        "n": 6,
+        "mean": 6015.6667,
+        "median": 5748.5,
+        "stdev": 836.27,
+        "min": 5422.0,
+        "max": 7850.0
+      },
+      "profit": {
+        "n": 6,
+        "mean": 3015.6667,
+        "median": 2748.5,
+        "stdev": 836.27,
+        "min": 2422.0,
+        "max": 4850.0
+      },
+      "revenue": {
+        "n": 6,
+        "mean": 4265.6667,
+        "median": 4048.5,
+        "stdev": 814.84,
+        "min": 3672.0,
+        "max": 6050.0
+      },
+      "harvest_units": {
+        "n": 6,
+        "mean": 60.0,
+        "median": 60.0,
+        "stdev": 0.0,
+        "min": 60.0,
+        "max": 60.0
+      },
+      "tile_days": {
+        "n": 6,
+        "mean": 252.8333,
+        "median": 253.5,
+        "stdev": 7.3125,
+        "min": 241.0,
+        "max": 261.0
+      },
+      "revenue_per_tile_day": {
+        "n": 6,
+        "mean": 16.8931,
+        "median": 15.5115,
+        "stdev": 3.3141,
+        "min": 14.3438,
+        "max": 24.1036
+      },
+      "revenue_per_action": {
+        "n": 6,
+        "mean": 5.9245,
+        "median": 5.6229,
+        "stdev": 1.1317,
+        "min": 5.1,
+        "max": 8.4028
+      },
+      "capital_locked": {
+        "n": 6,
+        "mean": 1250.0,
+        "median": 1250.0,
+        "stdev": 40.8248,
+        "min": 1200.0,
+        "max": 1300.0
+      },
+      "first_harvest_day": {
+        "n": 6,
+        "mean": 8.0,
+        "median": 8.0,
+        "stdev": 0.0,
+        "min": 8.0,
+        "max": 8.0
+      },
+      "unsold_units": {
+        "n": 6,
+        "mean": -1.6667,
+        "median": -2.0,
+        "stdev": 0.7454,
+        "min": -2.0,
+        "max": 0.0
+      },
+      "money_margin": {
+        "n": 6,
+        "mean": 3015.6667,
+        "median": 2748.5,
+        "stdev": 836.27,
+        "min": 2422.0,
+        "max": 4850.0
+      },
+      "win_rate": 1.0,
+      "validation_pass_rate": 1.0
+    },
+    "TOMATO|plant_delay_day=10": {
+      "n_episodes": 6,
+      "final_money": {
+        "n": 6,
+        "mean": 4096.1667,
+        "median": 3971.5,
+        "stdev": 313.4764,
+        "min": 3798.0,
+        "max": 4760.0
+      },
+      "profit": {
+        "n": 6,
+        "mean": 1096.1667,
+        "median": 971.5,
+        "stdev": 313.4764,
+        "min": 798.0,
+        "max": 1760.0
+      },
+      "revenue": {
+        "n": 6,
+        "mean": 2296.1667,
+        "median": 2171.5,
+        "stdev": 313.928,
+        "min": 1998.0,
+        "max": 2960.0
+      },
+      "harvest_units": {
+        "n": 6,
+        "mean": 32.0,
+        "median": 32.0,
+        "stdev": 0.0,
+        "min": 32.0,
+        "max": 32.0
+      },
+      "tile_days": {
+        "n": 6,
+        "mean": 193.0,
+        "median": 200.0,
+        "stdev": 12.8582,
+        "min": 169.0,
+        "max": 203.0
+      },
+      "revenue_per_tile_day": {
+        "n": 6,
+        "mean": 11.9207,
+        "median": 11.9688,
+        "stdev": 1.5238,
+        "min": 9.8424,
+        "max": 14.5813
+      },
+      "revenue_per_action": {
+        "n": 6,
+        "mean": 3.1891,
+        "median": 3.016,
+        "stdev": 0.436,
+        "min": 2.775,
+        "max": 4.1111
+      },
+      "capital_locked": {
+        "n": 6,
+        "mean": 1200.0,
+        "median": 1200.0,
+        "stdev": 28.8675,
+        "min": 1150.0,
+        "max": 1250.0
+      },
+      "first_harvest_day": {
+        "n": 6,
+        "mean": 18.0,
+        "median": 18.0,
+        "stdev": 0.0,
+        "min": 18.0,
+        "max": 18.0
+      },
+      "unsold_units": {
+        "n": 6,
+        "mean": 0.0,
+        "median": 0.0,
+        "stdev": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "money_margin": {
+        "n": 6,
+        "mean": 1096.1667,
+        "median": 971.5,
+        "stdev": 313.4764,
+        "min": 798.0,
+        "max": 1760.0
+      },
+      "win_rate": 1.0,
+      "validation_pass_rate": 1.0
+    },
+    "TOMATO|plant_delay_day=20": {
+      "n_episodes": 6,
+      "final_money": {
+        "n": 6,
+        "mean": 3245.6667,
+        "median": 3080.0,
+        "stdev": 474.3654,
+        "min": 2901.0,
+        "max": 4260.0
+      },
+      "profit": {
+        "n": 6,
+        "mean": 245.6667,
+        "median": 80.0,
+        "stdev": 474.3654,
+        "min": -99.0,
+        "max": 1260.0
+      },
+      "revenue": {
+        "n": 6,
+        "mean": 929.0,
+        "median": 780.0,
+        "stdev": 475.5001,
+        "min": 551.0,
+        "max": 1910.0
+      },
+      "harvest_units": {
+        "n": 6,
+        "mean": 15.3333,
+        "median": 15.5,
+        "stdev": 0.7454,
+        "min": 14.0,
+        "max": 16.0
+      },
+      "tile_days": {
+        "n": 6,
+        "mean": 97.1667,
+        "median": 94.5,
+        "stdev": 4.1399,
+        "min": 94.0,
+        "max": 103.0
+      },
+      "revenue_per_tile_day": {
+        "n": 6,
+        "mean": 9.4834,
+        "median": 8.2431,
+        "stdev": 4.5268,
+        "min": 5.3495,
+        "max": 18.5437
+      },
+      "revenue_per_action": {
+        "n": 6,
+        "mean": 1.2903,
+        "median": 1.0833,
+        "stdev": 0.6604,
+        "min": 0.7653,
+        "max": 2.6528
+      },
+      "capital_locked": {
+        "n": 6,
+        "mean": 683.3333,
+        "median": 650.0,
+        "stdev": 47.1405,
+        "min": 650.0,
+        "max": 750.0
+      },
+      "first_harvest_day": {
+        "n": 6,
+        "mean": 28.0,
+        "median": 28.0,
+        "stdev": 0.0,
+        "min": 28.0,
+        "max": 28.0
+      },
+      "unsold_units": {
+        "n": 6,
+        "mean": 7.8333,
+        "median": 8.0,
+        "stdev": 0.3727,
+        "min": 7.0,
+        "max": 8.0
+      },
+      "money_margin": {
+        "n": 6,
+        "mean": 245.6667,
+        "median": 80.0,
+        "stdev": 474.3654,
+        "min": -99.0,
+        "max": 1260.0
+      },
+      "win_rate": 0.5,
+      "validation_pass_rate": 1.0
+    },
+    "STRAWBERRY|plant_delay_day=0": {
+      "n_episodes": 6,
+      "final_money": {
+        "n": 6,
+        "mean": 14138.1667,
+        "median": 14216.5,
+        "stdev": 1303.4939,
+        "min": 12092.0,
+        "max": 15898.0
+      },
+      "profit": {
+        "n": 6,
+        "mean": 11138.1667,
+        "median": 11216.5,
+        "stdev": 1303.4939,
+        "min": 9092.0,
+        "max": 12898.0
+      },
+      "revenue": {
+        "n": 6,
+        "mean": 13654.8333,
+        "median": 13766.5,
+        "stdev": 1377.9017,
+        "min": 11492.0,
+        "max": 15498.0
+      },
+      "harvest_units": {
+        "n": 6,
+        "mean": 66.8333,
+        "median": 67.0,
+        "stdev": 0.3727,
+        "min": 66.0,
+        "max": 67.0
+      },
+      "tile_days": {
+        "n": 6,
+        "mean": 332.0,
+        "median": 332.5,
+        "stdev": 1.4142,
+        "min": 329.0,
+        "max": 333.0
+      },
+      "revenue_per_tile_day": {
+        "n": 6,
+        "mean": 41.12,
+        "median": 41.4047,
+        "stdev": 4.0549,
+        "min": 34.6145,
+        "max": 46.5405
+      },
+      "revenue_per_action": {
+        "n": 6,
+        "mean": 18.965,
+        "median": 19.1202,
+        "stdev": 1.9138,
+        "min": 15.9611,
+        "max": 21.525
+      },
+      "capital_locked": {
+        "n": 6,
+        "mean": 2516.6667,
+        "median": 2550.0,
+        "stdev": 89.7527,
+        "min": 2400.0,
+        "max": 2600.0
+      },
+      "first_harvest_day": {
+        "n": 6,
+        "mean": 10.0,
+        "median": 10.0,
+        "stdev": 0.0,
+        "min": 10.0,
+        "max": 10.0
+      },
+      "unsold_units": {
+        "n": 6,
+        "mean": 2.0,
+        "median": 2.0,
+        "stdev": 0.0,
+        "min": 2.0,
+        "max": 2.0
+      },
+      "money_margin": {
+        "n": 6,
+        "mean": 11138.1667,
+        "median": 11216.5,
+        "stdev": 1303.4939,
+        "min": 9092.0,
+        "max": 12898.0
+      },
+      "win_rate": 1.0,
+      "validation_pass_rate": 1.0
+    },
+    "STRAWBERRY|plant_delay_day=10": {
+      "n_episodes": 6,
+      "final_money": {
+        "n": 6,
+        "mean": 11865.5,
+        "median": 11773.0,
+        "stdev": 709.6196,
+        "min": 10711.0,
+        "max": 13092.0
+      },
+      "profit": {
+        "n": 6,
+        "mean": 8865.5,
+        "median": 8773.0,
+        "stdev": 709.6196,
+        "min": 7711.0,
+        "max": 10092.0
+      },
+      "revenue": {
+        "n": 6,
+        "mean": 11215.5,
+        "median": 11073.0,
+        "stdev": 743.4222,
+        "min": 10111.0,
+        "max": 12592.0
+      },
+      "harvest_units": {
+        "n": 6,
+        "mean": 42.6667,
+        "median": 44.0,
+        "stdev": 1.8856,
+        "min": 40.0,
+        "max": 44.0
+      },
+      "tile_days": {
+        "n": 6,
+        "mean": 227.3333,
+        "median": 235.5,
+        "stdev": 13.3625,
+        "min": 202.0,
+        "max": 238.0
+      },
+      "revenue_per_tile_day": {
+        "n": 6,
+        "mean": 49.5755,
+        "median": 47.9686,
+        "stdev": 5.1072,
+        "min": 42.4832,
+        "max": 58.0276
+      },
+      "revenue_per_action": {
+        "n": 6,
+        "mean": 15.5771,
+        "median": 15.3791,
+        "stdev": 1.0325,
+        "min": 14.0431,
+        "max": 17.4889
+      },
+      "capital_locked": {
+        "n": 6,
+        "mean": 2350.0,
+        "median": 2300.0,
+        "stdev": 76.3763,
+        "min": 2300.0,
+        "max": 2500.0
+      },
+      "first_harvest_day": {
+        "n": 6,
+        "mean": 20.0,
+        "median": 20.0,
+        "stdev": 0.0,
+        "min": 20.0,
+        "max": 20.0
+      },
+      "unsold_units": {
+        "n": 6,
+        "mean": -0.3333,
+        "median": 0.0,
+        "stdev": 0.4714,
+        "min": -1.0,
+        "max": 0.0
+      },
+      "money_margin": {
+        "n": 6,
+        "mean": 8865.5,
+        "median": 8773.0,
+        "stdev": 709.6196,
+        "min": 7711.0,
+        "max": 10092.0
+      },
+      "win_rate": 1.0,
+      "validation_pass_rate": 1.0
+    },
+    "STRAWBERRY|plant_delay_day=20": {
+      "n_episodes": 6,
+      "final_money": {
+        "n": 6,
+        "mean": 1633.3333,
+        "median": 1700.0,
+        "stdev": 94.2809,
+        "min": 1500.0,
+        "max": 1700.0
+      },
+      "profit": {
+        "n": 6,
+        "mean": -1366.6667,
+        "median": -1300.0,
+        "stdev": 94.2809,
+        "min": -1500.0,
+        "max": -1300.0
+      },
+      "revenue": {
+        "n": 6,
+        "mean": 0.0,
+        "median": 0.0,
+        "stdev": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "harvest_units": {
+        "n": 6,
+        "mean": 0.0,
+        "median": 0.0,
+        "stdev": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "tile_days": {
+        "n": 6,
+        "mean": 97.1667,
+        "median": 94.5,
+        "stdev": 4.1399,
+        "min": 94.0,
+        "max": 103.0
+      },
+      "revenue_per_tile_day": {
+        "n": 6,
+        "mean": 0.0,
+        "median": 0.0,
+        "stdev": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "revenue_per_action": {
+        "n": 6,
+        "mean": 0.0,
+        "median": 0.0,
+        "stdev": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "capital_locked": {
+        "n": 6,
+        "mean": 1366.6667,
+        "median": 1300.0,
+        "stdev": 94.2809,
+        "min": 1300.0,
+        "max": 1500.0
+      },
+      "first_harvest_day": null,
+      "unsold_units": {
+        "n": 6,
+        "mean": 0.0,
+        "median": 0.0,
+        "stdev": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "money_margin": {
+        "n": 6,
+        "mean": -1366.6667,
+        "median": -1300.0,
+        "stdev": 94.2809,
+        "min": -1500.0,
+        "max": -1300.0
+      },
+      "win_rate": 0.0,
+      "validation_pass_rate": 1.0
+    },
+    "MELON|plant_delay_day=0": {
+      "n_episodes": 6,
+      "final_money": {
+        "n": 6,
+        "mean": 22364.3333,
+        "median": 22468.0,
+        "stdev": 253.8777,
+        "min": 21798.0,
+        "max": 22516.0
+      },
+      "profit": {
+        "n": 6,
+        "mean": 19364.3333,
+        "median": 19468.0,
+        "stdev": 253.8777,
+        "min": 18798.0,
+        "max": 19516.0
+      },
+      "revenue": {
+        "n": 6,
+        "mean": 22444.3333,
+        "median": 22588.0,
+        "stdev": 307.1599,
+        "min": 21758.0,
+        "max": 22588.0
+      },
+      "harvest_units": {
+        "n": 6,
+        "mean": 94.3333,
+        "median": 95.0,
+        "stdev": 1.4907,
+        "min": 91.0,
+        "max": 95.0
+      },
+      "tile_days": {
+        "n": 6,
+        "mean": 320.1667,
+        "median": 326.0,
+        "stdev": 11.3493,
+        "min": 295.0,
+        "max": 326.0
+      },
+      "revenue_per_tile_day": {
+        "n": 6,
+        "mean": 70.1598,
+        "median": 69.2883,
+        "stdev": 1.6321,
+        "min": 69.2883,
+        "max": 73.7559
+      },
+      "revenue_per_action": {
+        "n": 6,
+        "mean": 31.1727,
+        "median": 31.3722,
+        "stdev": 0.4266,
+        "min": 30.2194,
+        "max": 31.3722
+      },
+      "capital_locked": {
+        "n": 6,
+        "mean": 3080.0,
+        "median": 3120.0,
+        "stdev": 61.101,
+        "min": 2960.0,
+        "max": 3120.0
+      },
+      "first_harvest_day": {
+        "n": 6,
+        "mean": 10.0,
+        "median": 10.0,
+        "stdev": 0.0,
+        "min": 10.0,
+        "max": 10.0
+      },
+      "unsold_units": {
+        "n": 6,
+        "mean": 0.0,
+        "median": 0.0,
+        "stdev": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "money_margin": {
+        "n": 6,
+        "mean": 19364.3333,
+        "median": 19468.0,
+        "stdev": 253.8777,
+        "min": 18798.0,
+        "max": 19516.0
+      },
+      "win_rate": 1.0,
+      "validation_pass_rate": 1.0
+    },
+    "MELON|plant_delay_day=10": {
+      "n_episodes": 6,
+      "final_money": {
+        "n": 6,
+        "mean": 12489.6667,
+        "median": 12232.0,
+        "stdev": 613.0983,
+        "min": 12151.0,
+        "max": 13859.0
+      },
+      "profit": {
+        "n": 6,
+        "mean": 9489.6667,
+        "median": 9232.0,
+        "stdev": 613.0983,
+        "min": 9151.0,
+        "max": 10859.0
+      },
+      "revenue": {
+        "n": 6,
+        "mean": 11676.3333,
+        "median": 11392.0,
+        "stdev": 636.236,
+        "min": 11391.0,
+        "max": 13099.0
+      },
+      "harvest_units": {
+        "n": 6,
+        "mean": 45.1667,
+        "median": 44.0,
+        "stdev": 2.6087,
+        "min": 44.0,
+        "max": 51.0
+      },
+      "tile_days": {
+        "n": 6,
+        "mean": 215.5,
+        "median": 222.0,
+        "stdev": 9.305,
+        "min": 200.0,
+        "max": 222.0
+      },
+      "revenue_per_tile_day": {
+        "n": 6,
+        "mean": 54.387,
+        "median": 51.3153,
+        "stdev": 5.2045,
+        "min": 51.3153,
+        "max": 65.495
+      },
+      "revenue_per_action": {
+        "n": 6,
+        "mean": 16.2171,
+        "median": 15.8222,
+        "stdev": 0.8837,
+        "min": 15.8208,
+        "max": 18.1931
+      },
+      "capital_locked": {
+        "n": 6,
+        "mean": 2186.6667,
+        "median": 2160.0,
+        "stdev": 37.7124,
+        "min": 2160.0,
+        "max": 2240.0
+      },
+      "first_harvest_day": {
+        "n": 6,
+        "mean": 20.0,
+        "median": 20.0,
+        "stdev": 0.0,
+        "min": 20.0,
+        "max": 20.0
+      },
+      "unsold_units": {
+        "n": 6,
+        "mean": 0.0,
+        "median": 0.0,
+        "stdev": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "money_margin": {
+        "n": 6,
+        "mean": 9489.6667,
+        "median": 9232.0,
+        "stdev": 613.0983,
+        "min": 9151.0,
+        "max": 10859.0
+      },
+      "win_rate": 1.0,
+      "validation_pass_rate": 1.0
+    },
+    "MELON|plant_delay_day=20": {
+      "n_episodes": 6,
+      "final_money": {
+        "n": 6,
+        "mean": 1906.6667,
+        "median": 1960.0,
+        "stdev": 75.4247,
+        "min": 1800.0,
+        "max": 1960.0
+      },
+      "profit": {
+        "n": 6,
+        "mean": -1093.3333,
+        "median": -1040.0,
+        "stdev": 75.4247,
+        "min": -1200.0,
+        "max": -1040.0
+      },
+      "revenue": {
+        "n": 6,
+        "mean": 0.0,
+        "median": 0.0,
+        "stdev": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "harvest_units": {
+        "n": 6,
+        "mean": 0.0,
+        "median": 0.0,
+        "stdev": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "tile_days": {
+        "n": 6,
+        "mean": 97.1667,
+        "median": 94.5,
+        "stdev": 4.1399,
+        "min": 94.0,
+        "max": 103.0
+      },
+      "revenue_per_tile_day": {
+        "n": 6,
+        "mean": 0.0,
+        "median": 0.0,
+        "stdev": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "revenue_per_action": {
+        "n": 6,
+        "mean": 0.0,
+        "median": 0.0,
+        "stdev": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "capital_locked": {
+        "n": 6,
+        "mean": 1093.3333,
+        "median": 1040.0,
+        "stdev": 75.4247,
+        "min": 1040.0,
+        "max": 1200.0
+      },
+      "first_harvest_day": null,
+      "unsold_units": {
+        "n": 6,
+        "mean": 0.0,
+        "median": 0.0,
+        "stdev": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "money_margin": {
+        "n": 6,
+        "mean": -1093.3333,
+        "median": -1040.0,
+        "stdev": 75.4247,
+        "min": -1200.0,
+        "max": -1040.0
+      },
+      "win_rate": 0.0,
+      "validation_pass_rate": 1.0
+    }
+  },
+  "headtohead_by_crop": {
+    "WHEAT": {
+      "n_episodes": 15,
+      "final_money": {
+        "n": 15,
+        "mean": 5727.3333,
+        "median": 5840.0,
+        "stdev": 439.8984,
+        "min": 4992.0,
+        "max": 6288.0
+      },
+      "profit": {
+        "n": 15,
+        "mean": 2727.3333,
+        "median": 2840.0,
+        "stdev": 439.8984,
+        "min": 1992.0,
+        "max": 3288.0
+      },
+      "revenue": {
+        "n": 15,
+        "mean": 4433.3333,
+        "median": 4550.0,
+        "stdev": 436.8905,
+        "min": 3702.0,
+        "max": 4990.0
+      },
+      "harvest_units": {
+        "n": 15,
+        "mean": 152.8,
+        "median": 153.0,
+        "stdev": 0.5416,
+        "min": 151.0,
+        "max": 153.0
+      },
+      "tile_days": {
+        "n": 15,
+        "mean": 325.6,
+        "median": 326.0,
+        "stdev": 1.0832,
+        "min": 322.0,
+        "max": 326.0
+      },
+      "revenue_per_tile_day": {
+        "n": 15,
+        "mean": 13.6172,
+        "median": 13.9571,
+        "stdev": 1.3548,
+        "min": 11.3558,
+        "max": 15.3975
+      },
+      "revenue_per_action": {
+        "n": 15,
+        "mean": 6.1574,
+        "median": 6.3194,
+        "stdev": 0.6068,
+        "min": 5.1417,
+        "max": 6.9306
+      },
+      "capital_locked": {
+        "n": 15,
+        "mean": 1706.0,
+        "median": 1710.0,
+        "stdev": 10.8321,
+        "min": 1670.0,
+        "max": 1710.0
+      },
+      "first_harvest_day": {
+        "n": 15,
+        "mean": 2.0,
+        "median": 2.0,
+        "stdev": 0.0,
+        "min": 2.0,
+        "max": 2.0
+      },
+      "unsold_units": {
+        "n": 15,
+        "mean": 4.8667,
+        "median": 5.0,
+        "stdev": 0.4989,
+        "min": 3.0,
+        "max": 5.0
+      },
+      "money_margin": {
+        "n": 15,
+        "mean": 1001.6,
+        "median": 1000.0,
+        "stdev": 11.9432,
+        "min": 982.0,
+        "max": 1043.0
+      },
+      "win_rate": 1.0,
+      "validation_pass_rate": 1.0
+    },
+    "CARROT": {
+      "n_episodes": 15,
+      "final_money": {
+        "n": 15,
+        "mean": 4714.2667,
+        "median": 4816.0,
+        "stdev": 824.0551,
+        "min": 3557.0,
+        "max": 6540.0
+      },
+      "profit": {
+        "n": 15,
+        "mean": 1714.2667,
+        "median": 1816.0,
+        "stdev": 824.0551,
+        "min": 557.0,
+        "max": 3540.0
+      },
+      "revenue": {
+        "n": 15,
+        "mean": 5126.2667,
+        "median": 5236.0,
+        "stdev": 830.8063,
+        "min": 3976.0,
+        "max": 6960.0
+      },
+      "harvest_units": {
+        "n": 15,
+        "mean": 152.8,
+        "median": 153.0,
+        "stdev": 0.5416,
+        "min": 151.0,
+        "max": 153.0
+      },
+      "tile_days": {
+        "n": 15,
+        "mean": 325.6,
+        "median": 326.0,
+        "stdev": 1.0832,
+        "min": 322.0,
+        "max": 326.0
+      },
+      "revenue_per_tile_day": {
+        "n": 15,
+        "mean": 15.7415,
+        "median": 16.0613,
+        "stdev": 2.5358,
+        "min": 12.1994,
+        "max": 21.3497
+      },
+      "revenue_per_action": {
+        "n": 15,
+        "mean": 7.1198,
+        "median": 7.2722,
+        "stdev": 1.1539,
+        "min": 5.5222,
+        "max": 9.6667
+      },
+      "capital_locked": {
+        "n": 15,
+        "mean": 3412.0,
+        "median": 3420.0,
+        "stdev": 21.6641,
+        "min": 3340.0,
+        "max": 3420.0
+      },
+      "first_harvest_day": {
+        "n": 15,
+        "mean": 2.0,
+        "median": 2.0,
+        "stdev": 0.0,
+        "min": 2.0,
+        "max": 2.0
+      },
+      "unsold_units": {
+        "n": 15,
+        "mean": 4.8667,
+        "median": 5.0,
+        "stdev": 0.4989,
+        "min": 3.0,
+        "max": 5.0
+      },
+      "money_margin": {
+        "n": 15,
+        "mean": -658.9333,
+        "median": -512.0,
+        "stdev": 1032.9493,
+        "min": -2150.0,
+        "max": 1749.0
+      },
+      "win_rate": 0.3333,
+      "validation_pass_rate": 1.0
+    },
+    "TOMATO": {
+      "n_episodes": 15,
+      "final_money": {
+        "n": 15,
+        "mean": 5949.1333,
+        "median": 5857.0,
+        "stdev": 743.5086,
+        "min": 4898.0,
+        "max": 7482.0
+      },
+      "profit": {
+        "n": 15,
+        "mean": 2949.1333,
+        "median": 2857.0,
+        "stdev": 743.5086,
+        "min": 1898.0,
+        "max": 4482.0
+      },
+      "revenue": {
+        "n": 15,
+        "mean": 4209.1333,
+        "median": 4107.0,
+        "stdev": 746.2053,
+        "min": 3108.0,
+        "max": 5682.0
+      },
+      "harvest_units": {
+        "n": 15,
+        "mean": 60.2667,
+        "median": 60.0,
+        "stdev": 0.9978,
+        "min": 60.0,
+        "max": 64.0
+      },
+      "tile_days": {
+        "n": 15,
+        "mean": 254.2,
+        "median": 256.0,
+        "stdev": 6.5848,
+        "min": 241.0,
+        "max": 261.0
+      },
+      "revenue_per_tile_day": {
+        "n": 15,
+        "mean": 16.5575,
+        "median": 16.3625,
+        "stdev": 2.9123,
+        "min": 12.2529,
+        "max": 22.6375
+      },
+      "revenue_per_action": {
+        "n": 15,
+        "mean": 5.846,
+        "median": 5.7042,
+        "stdev": 1.0364,
+        "min": 4.3167,
+        "max": 7.8917
+      },
+      "capital_locked": {
+        "n": 15,
+        "mean": 1260.0,
+        "median": 1250.0,
+        "stdev": 41.6333,
+        "min": 1150.0,
+        "max": 1300.0
+      },
+      "first_harvest_day": {
+        "n": 15,
+        "mean": 8.0,
+        "median": 8.0,
+        "stdev": 0.0,
+        "min": 8.0,
+        "max": 8.0
+      },
+      "unsold_units": {
+        "n": 15,
+        "mean": -1.4667,
+        "median": -2.0,
+        "stdev": 0.8844,
+        "min": -2.0,
+        "max": 0.0
+      },
+      "money_margin": {
+        "n": 15,
+        "mean": 607.6667,
+        "median": 485.0,
+        "stdev": 688.3923,
+        "min": -329.0,
+        "max": 2203.0
+      },
+      "win_rate": 0.8,
+      "validation_pass_rate": 1.0
+    },
+    "STRAWBERRY": {
+      "n_episodes": 15,
+      "final_money": {
+        "n": 15,
+        "mean": 14090.0667,
+        "median": 14667.0,
+        "stdev": 1940.5105,
+        "min": 7160.0,
+        "max": 15923.0
+      },
+      "profit": {
+        "n": 15,
+        "mean": 11090.0667,
+        "median": 11667.0,
+        "stdev": 1940.5105,
+        "min": 4160.0,
+        "max": 12923.0
+      },
+      "revenue": {
+        "n": 15,
+        "mean": 13603.4,
+        "median": 14167.0,
+        "stdev": 1918.948,
+        "min": 6760.0,
+        "max": 15523.0
+      },
+      "harvest_units": {
+        "n": 15,
+        "mean": 66.6667,
+        "median": 67.0,
+        "stdev": 1.5348,
+        "min": 61.0,
+        "max": 68.0
+      },
+      "tile_days": {
+        "n": 15,
+        "mean": 331.8667,
+        "median": 333.0,
+        "stdev": 6.6319,
+        "min": 309.0,
+        "max": 343.0
+      },
+      "revenue_per_tile_day": {
+        "n": 15,
+        "mean": 41.019,
+        "median": 42.5435,
+        "stdev": 5.9129,
+        "min": 20.3003,
+        "max": 46.6156
+      },
+      "revenue_per_action": {
+        "n": 15,
+        "mean": 18.8936,
+        "median": 19.6764,
+        "stdev": 2.6652,
+        "min": 9.3889,
+        "max": 21.5597
+      },
+      "capital_locked": {
+        "n": 15,
+        "mean": 2513.3333,
+        "median": 2500.0,
+        "stdev": 80.5536,
+        "min": 2300.0,
+        "max": 2600.0
+      },
+      "first_harvest_day": {
+        "n": 15,
+        "mean": 10.0,
+        "median": 10.0,
+        "stdev": 0.0,
+        "min": 10.0,
+        "max": 10.0
+      },
+      "unsold_units": {
+        "n": 15,
+        "mean": 2.0667,
+        "median": 2.0,
+        "stdev": 0.2494,
+        "min": 2.0,
+        "max": 3.0
+      },
+      "money_margin": {
+        "n": 15,
+        "mean": 8722.9333,
+        "median": 9178.0,
+        "stdev": 2082.038,
+        "min": 1428.0,
+        "max": 10881.0
+      },
+      "win_rate": 1.0,
+      "validation_pass_rate": 1.0
+    },
+    "MELON": {
+      "n_episodes": 15,
+      "final_money": {
+        "n": 15,
+        "mean": 22429.7333,
+        "median": 22468.0,
+        "stdev": 169.6158,
+        "min": 21798.0,
+        "max": 22516.0
+      },
+      "profit": {
+        "n": 15,
+        "mean": 19429.7333,
+        "median": 19468.0,
+        "stdev": 169.6158,
+        "min": 18798.0,
+        "max": 19516.0
+      },
+      "revenue": {
+        "n": 15,
+        "mean": 22528.4,
+        "median": 22588.0,
+        "stdev": 206.1821,
+        "min": 21758.0,
+        "max": 22588.0
+      },
+      "harvest_units": {
+        "n": 15,
+        "mean": 94.7333,
+        "median": 95.0,
+        "stdev": 0.9978,
+        "min": 91.0,
+        "max": 95.0
+      },
+      "tile_days": {
+        "n": 15,
+        "mean": 323.4,
+        "median": 326.0,
+        "stdev": 7.7097,
+        "min": 295.0,
+        "max": 326.0
+      },
+      "revenue_per_tile_day": {
+        "n": 15,
+        "mean": 69.6877,
+        "median": 69.2883,
+        "stdev": 1.1173,
+        "min": 69.2883,
+        "max": 73.7559
+      },
+      "revenue_per_action": {
+        "n": 15,
+        "mean": 31.2894,
+        "median": 31.3722,
+        "stdev": 0.2864,
+        "min": 30.2194,
+        "max": 31.3722
+      },
+      "capital_locked": {
+        "n": 15,
+        "mean": 3098.6667,
+        "median": 3120.0,
+        "stdev": 45.8791,
+        "min": 2960.0,
+        "max": 3120.0
+      },
+      "first_harvest_day": {
+        "n": 15,
+        "mean": 10.0,
+        "median": 10.0,
+        "stdev": 0.0,
+        "min": 10.0,
+        "max": 10.0
+      },
+      "unsold_units": {
+        "n": 15,
+        "mean": 0.0,
+        "median": 0.0,
+        "stdev": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "money_margin": {
+        "n": 15,
+        "mean": 17076.6667,
+        "median": 17189.0,
+        "stdev": 267.1211,
+        "min": 16675.0,
+        "max": 17461.0
+      },
+      "win_rate": 1.0,
+      "validation_pass_rate": 1.0
+    }
+  },
+  "combo_by_experiment": {
+    "combo_WHEAT_CARROT_50_50_vs_pass|WHEAT": {
+      "n_episodes": 10,
+      "final_money": {
+        "n": 10,
+        "mean": 6010.0,
+        "median": 5990.5,
+        "stdev": 658.7376,
+        "min": 4684.0,
+        "max": 7355.0
+      },
+      "profit": {
+        "n": 10,
+        "mean": 3010.0,
+        "median": 2990.5,
+        "stdev": 658.7376,
+        "min": 1684.0,
+        "max": 4355.0
+      },
+      "revenue": {
+        "n": 10,
+        "mean": 2695.516,
+        "median": 2735.8611,
+        "stdev": 272.872,
+        "min": 2116.2511,
+        "max": 3047.3424
+      },
+      "harvest_units": {
+        "n": 10,
+        "mean": 81.0,
+        "median": 81.0,
+        "stdev": 0.0,
+        "min": 81.0,
+        "max": 81.0
+      },
+      "tile_days": {
+        "n": 10,
+        "mean": 165.0,
+        "median": 165.0,
+        "stdev": 0.0,
+        "min": 165.0,
+        "max": 165.0
+      },
+      "revenue_per_tile_day": {
+        "n": 10,
+        "mean": 16.3365,
+        "median": 16.581,
+        "stdev": 1.6538,
+        "min": 12.8258,
+        "max": 18.4687
+      },
+      "revenue_per_action": {
+        "n": 10,
+        "mean": 3.7438,
+        "median": 3.7998,
+        "stdev": 0.379,
+        "min": 2.9392,
+        "max": 4.2324
+      },
+      "capital_locked": {
+        "n": 10,
+        "mean": 880.0,
+        "median": 880.0,
+        "stdev": 0.0,
+        "min": 880.0,
+        "max": 880.0
+      },
+      "first_harvest_day": {
+        "n": 10,
+        "mean": 2.0,
+        "median": 2.0,
+        "stdev": 0.0,
+        "min": 2.0,
+        "max": 2.0
+      },
+      "unsold_units": {
+        "n": 10,
+        "mean": 3.0,
+        "median": 3.0,
+        "stdev": 0.0,
+        "min": 3.0,
+        "max": 3.0
+      },
+      "money_margin": {
+        "n": 10,
+        "mean": 3010.0,
+        "median": 2990.5,
+        "stdev": 658.7376,
+        "min": 1684.0,
+        "max": 4355.0
+      },
+      "win_rate": 1.0,
+      "validation_pass_rate": 1.0
+    },
+    "combo_WHEAT_CARROT_50_50_vs_pass|CARROT": {
+      "n_episodes": 10,
+      "final_money": {
+        "n": 10,
+        "mean": 6010.0,
+        "median": 5990.5,
+        "stdev": 658.7376,
+        "min": 4684.0,
+        "max": 7355.0
+      },
+      "profit": {
+        "n": 10,
+        "mean": 3010.0,
+        "median": 2990.5,
+        "stdev": 658.7376,
+        "min": 1684.0,
+        "max": 4355.0
+      },
+      "revenue": {
+        "n": 10,
+        "mean": 2874.484,
+        "median": 2919.1042,
+        "stdev": 594.2712,
+        "min": 2124.6576,
+        "max": 4069.8868
+      },
+      "harvest_units": {
+        "n": 10,
+        "mean": 72.0,
+        "median": 72.0,
+        "stdev": 0.0,
+        "min": 72.0,
+        "max": 72.0
+      },
+      "tile_days": {
+        "n": 10,
+        "mean": 161.0,
+        "median": 161.0,
+        "stdev": 0.0,
+        "min": 161.0,
+        "max": 161.0
+      },
+      "revenue_per_tile_day": {
+        "n": 10,
+        "mean": 17.8539,
+        "median": 18.1311,
+        "stdev": 3.6911,
+        "min": 13.1966,
+        "max": 25.2788
+      },
+      "revenue_per_action": {
+        "n": 10,
+        "mean": 3.9923,
+        "median": 4.0543,
+        "stdev": 0.8254,
+        "min": 2.9509,
+        "max": 5.6526
+      },
+      "capital_locked": {
+        "n": 10,
+        "mean": 1680.0,
+        "median": 1680.0,
+        "stdev": 0.0,
+        "min": 1680.0,
+        "max": 1680.0
+      },
+      "first_harvest_day": {
+        "n": 10,
+        "mean": 2.0,
+        "median": 2.0,
+        "stdev": 0.0,
+        "min": 2.0,
+        "max": 2.0
+      },
+      "unsold_units": {
+        "n": 10,
+        "mean": 2.0,
+        "median": 2.0,
+        "stdev": 0.0,
+        "min": 2.0,
+        "max": 2.0
+      },
+      "money_margin": {
+        "n": 10,
+        "mean": 3010.0,
+        "median": 2990.5,
+        "stdev": 658.7376,
+        "min": 1684.0,
+        "max": 4355.0
+      },
+      "win_rate": 1.0,
+      "validation_pass_rate": 1.0
+    },
+    "combo_WHEAT_TOMATO_50_50_vs_pass|WHEAT": {
+      "n_episodes": 10,
+      "final_money": {
+        "n": 10,
+        "mean": 6649.6,
+        "median": 6566.0,
+        "stdev": 571.5266,
+        "min": 5901.0,
+        "max": 8131.0
+      },
+      "profit": {
+        "n": 10,
+        "mean": 3649.6,
+        "median": 3566.0,
+        "stdev": 571.5266,
+        "min": 2901.0,
+        "max": 5131.0
+      },
+      "revenue": {
+        "n": 10,
+        "mean": 2843.7854,
+        "median": 2845.2994,
+        "stdev": 195.2822,
+        "min": 2480.7717,
+        "max": 3093.6304
+      },
+      "harvest_units": {
+        "n": 10,
+        "mean": 78.1,
+        "median": 78.0,
+        "stdev": 2.6249,
+        "min": 74.0,
+        "max": 84.0
+      },
+      "tile_days": {
+        "n": 10,
+        "mean": 164.1,
+        "median": 166.0,
+        "stdev": 5.8215,
+        "min": 152.0,
+        "max": 175.0
+      },
+      "revenue_per_tile_day": {
+        "n": 10,
+        "mean": 17.3388,
+        "median": 17.1403,
+        "stdev": 1.1644,
+        "min": 15.0364,
+        "max": 18.9983
+      },
+      "revenue_per_action": {
+        "n": 10,
+        "mean": 3.9497,
+        "median": 3.9518,
+        "stdev": 0.2712,
+        "min": 3.4455,
+        "max": 4.2967
+      },
+      "capital_locked": {
+        "n": 10,
+        "mean": 885.0,
+        "median": 890.0,
+        "stdev": 25.7876,
+        "min": 840.0,
+        "max": 940.0
+      },
+      "first_harvest_day": {
+        "n": 10,
+        "mean": 2.0,
+        "median": 2.0,
+        "stdev": 0.0,
+        "min": 2.0,
+        "max": 2.0
+      },
+      "unsold_units": {
+        "n": 10,
+        "mean": 2.7,
+        "median": 2.5,
+        "stdev": 0.781,
+        "min": 2.0,
+        "max": 4.0
+      },
+      "money_margin": {
+        "n": 10,
+        "mean": 3649.6,
+        "median": 3566.0,
+        "stdev": 571.5266,
+        "min": 2901.0,
+        "max": 5131.0
+      },
+      "win_rate": 1.0,
+      "validation_pass_rate": 1.0
+    },
+    "combo_WHEAT_TOMATO_50_50_vs_pass|TOMATO": {
+      "n_episodes": 10,
+      "final_money": {
+        "n": 10,
+        "mean": 6649.6,
+        "median": 6566.0,
+        "stdev": 571.5266,
+        "min": 5901.0,
+        "max": 8131.0
+      },
+      "profit": {
+        "n": 10,
+        "mean": 3649.6,
+        "median": 3566.0,
+        "stdev": 571.5266,
+        "min": 2901.0,
+        "max": 5131.0
+      },
+      "revenue": {
+        "n": 10,
+        "mean": 2360.8146,
+        "median": 2300.7006,
+        "stdev": 467.3006,
+        "min": 1809.6258,
+        "max": 3637.7926
+      },
+      "harvest_units": {
+        "n": 10,
+        "mean": 34.6,
+        "median": 35.0,
+        "stdev": 0.9165,
+        "min": 32.0,
+        "max": 35.0
+      },
+      "tile_days": {
+        "n": 10,
+        "mean": 131.8,
+        "median": 133.0,
+        "stdev": 3.6,
+        "min": 121.0,
+        "max": 133.0
+      },
+      "revenue_per_tile_day": {
+        "n": 10,
+        "mean": 17.8854,
+        "median": 17.2985,
+        "stdev": 3.375,
+        "min": 14.9556,
+        "max": 27.3518
+      },
+      "revenue_per_action": {
+        "n": 10,
+        "mean": 3.2789,
+        "median": 3.1955,
+        "stdev": 0.649,
+        "min": 2.5134,
+        "max": 5.0525
+      },
+      "capital_locked": {
+        "n": 10,
+        "mean": 670.0,
+        "median": 675.0,
+        "stdev": 33.1662,
+        "min": 600.0,
+        "max": 700.0
+      },
+      "first_harvest_day": {
+        "n": 10,
+        "mean": 8.0,
+        "median": 8.0,
+        "stdev": 0.0,
+        "min": 8.0,
+        "max": 8.0
+      },
+      "unsold_units": {
+        "n": 10,
+        "mean": 0.0,
+        "median": 0.0,
+        "stdev": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "money_margin": {
+        "n": 10,
+        "mean": 3649.6,
+        "median": 3566.0,
+        "stdev": 571.5266,
+        "min": 2901.0,
+        "max": 5131.0
+      },
+      "win_rate": 1.0,
+      "validation_pass_rate": 1.0
+    },
+    "combo_WHEAT_STRAWBERRY_50_50_vs_pass|WHEAT": {
+      "n_episodes": 10,
+      "final_money": {
+        "n": 10,
+        "mean": 9909.1,
+        "median": 9950.0,
+        "stdev": 508.3128,
+        "min": 8740.0,
+        "max": 10739.0
+      },
+      "profit": {
+        "n": 10,
+        "mean": 6909.1,
+        "median": 6950.0,
+        "stdev": 508.3128,
+        "min": 5740.0,
+        "max": 7739.0
+      },
+      "revenue": {
+        "n": 10,
+        "mean": 2852.5791,
+        "median": 2967.8038,
+        "stdev": 336.5427,
+        "min": 2192.0721,
+        "max": 3250.9942
+      },
+      "harvest_units": {
+        "n": 10,
+        "mean": 79.4,
+        "median": 83.0,
+        "stdev": 4.4091,
+        "min": 74.0,
+        "max": 83.0
+      },
+      "tile_days": {
+        "n": 10,
+        "mean": 163.5,
+        "median": 170.5,
+        "stdev": 9.2114,
+        "min": 151.0,
+        "max": 172.0
+      },
+      "revenue_per_tile_day": {
+        "n": 10,
+        "mean": 17.3982,
+        "median": 17.5779,
+        "stdev": 1.3045,
+        "min": 14.3273,
+        "max": 19.0117
+      },
+      "revenue_per_action": {
+        "n": 10,
+        "mean": 3.9619,
+        "median": 4.122,
+        "stdev": 0.4674,
+        "min": 3.0445,
+        "max": 4.5153
+      },
+      "capital_locked": {
+        "n": 10,
+        "mean": 888.0,
+        "median": 925.0,
+        "stdev": 51.7301,
+        "min": 820.0,
+        "max": 940.0
+      },
+      "first_harvest_day": {
+        "n": 10,
+        "mean": 2.0,
+        "median": 2.0,
+        "stdev": 0.0,
+        "min": 2.0,
+        "max": 2.0
+      },
+      "unsold_units": {
+        "n": 10,
+        "mean": 3.6,
+        "median": 4.0,
+        "stdev": 0.4899,
+        "min": 3.0,
+        "max": 4.0
+      },
+      "money_margin": {
+        "n": 10,
+        "mean": 6909.1,
+        "median": 6950.0,
+        "stdev": 508.3128,
+        "min": 5740.0,
+        "max": 7739.0
+      },
+      "win_rate": 1.0,
+      "validation_pass_rate": 1.0
+    },
+    "combo_WHEAT_STRAWBERRY_50_50_vs_pass|STRAWBERRY": {
+      "n_episodes": 10,
+      "final_money": {
+        "n": 10,
+        "mean": 9909.1,
+        "median": 9950.0,
+        "stdev": 508.3128,
+        "min": 8740.0,
+        "max": 10739.0
+      },
+      "profit": {
+        "n": 10,
+        "mean": 6909.1,
+        "median": 6950.0,
+        "stdev": 508.3128,
+        "min": 5740.0,
+        "max": 7739.0
+      },
+      "revenue": {
+        "n": 10,
+        "mean": 6174.5209,
+        "median": 6241.7072,
+        "stdev": 381.6629,
+        "min": 5584.0058,
+        "max": 6652.6851
+      },
+      "harvest_units": {
+        "n": 10,
+        "mean": 27.7,
+        "median": 26.0,
+        "stdev": 2.3259,
+        "min": 25.0,
+        "max": 31.0
+      },
+      "tile_days": {
+        "n": 10,
+        "mean": 163.3,
+        "median": 158.0,
+        "stdev": 9.2957,
+        "min": 147.0,
+        "max": 174.0
+      },
+      "revenue_per_tile_day": {
+        "n": 10,
+        "mean": 37.8956,
+        "median": 38.0987,
+        "stdev": 2.6858,
+        "min": 32.6318,
+        "max": 42.1056
+      },
+      "revenue_per_action": {
+        "n": 10,
+        "mean": 8.5757,
+        "median": 8.669,
+        "stdev": 0.5301,
+        "min": 7.7556,
+        "max": 9.2398
+      },
+      "capital_locked": {
+        "n": 10,
+        "mean": 1230.0,
+        "median": 1200.0,
+        "stdev": 64.0312,
+        "min": 1100.0,
+        "max": 1300.0
+      },
+      "first_harvest_day": {
+        "n": 10,
+        "mean": 10.0,
+        "median": 10.0,
+        "stdev": 0.0,
+        "min": 10.0,
+        "max": 10.0
+      },
+      "unsold_units": {
+        "n": 10,
+        "mean": -1.0,
+        "median": -2.0,
+        "stdev": 1.2649,
+        "min": -2.0,
+        "max": 1.0
+      },
+      "money_margin": {
+        "n": 10,
+        "mean": 6909.1,
+        "median": 6950.0,
+        "stdev": 508.3128,
+        "min": 5740.0,
+        "max": 7739.0
+      },
+      "win_rate": 1.0,
+      "validation_pass_rate": 1.0
+    },
+    "combo_WHEAT_MELON_50_50_vs_pass|WHEAT": {
+      "n_episodes": 10,
+      "final_money": {
+        "n": 10,
+        "mean": 16280.3,
+        "median": 15886.0,
+        "stdev": 810.0161,
+        "min": 15467.0,
+        "max": 17751.0
+      },
+      "profit": {
+        "n": 10,
+        "mean": 13280.3,
+        "median": 12886.0,
+        "stdev": 810.0161,
+        "min": 12467.0,
+        "max": 14751.0
+      },
+      "revenue": {
+        "n": 10,
+        "mean": 2355.1318,
+        "median": 2463.7486,
+        "stdev": 316.1439,
+        "min": 1717.3342,
+        "max": 2704.7501
+      },
+      "harvest_units": {
+        "n": 10,
+        "mean": 66.3,
+        "median": 69.0,
+        "stdev": 4.1243,
+        "min": 60.0,
+        "max": 69.0
+      },
+      "tile_days": {
+        "n": 10,
+        "mean": 135.6,
+        "median": 141.0,
+        "stdev": 8.2486,
+        "min": 123.0,
+        "max": 141.0
+      },
+      "revenue_per_tile_day": {
+        "n": 10,
+        "mean": 17.3088,
+        "median": 17.7499,
+        "stdev": 1.5982,
+        "min": 13.9621,
+        "max": 19.1826
+      },
+      "revenue_per_action": {
+        "n": 10,
+        "mean": 3.271,
+        "median": 3.4219,
+        "stdev": 0.4391,
+        "min": 2.3852,
+        "max": 3.7566
+      },
+      "capital_locked": {
+        "n": 10,
+        "mean": 730.0,
+        "median": 760.0,
+        "stdev": 45.8258,
+        "min": 660.0,
+        "max": 760.0
+      },
+      "first_harvest_day": {
+        "n": 10,
+        "mean": 2.0,
+        "median": 2.0,
+        "stdev": 0.0,
+        "min": 2.0,
+        "max": 2.0
+      },
+      "unsold_units": {
+        "n": 10,
+        "mean": 2.7,
+        "median": 3.0,
+        "stdev": 0.4583,
+        "min": 2.0,
+        "max": 3.0
+      },
+      "money_margin": {
+        "n": 10,
+        "mean": 13280.3,
+        "median": 12886.0,
+        "stdev": 810.0161,
+        "min": 12467.0,
+        "max": 14751.0
+      },
+      "win_rate": 1.0,
+      "validation_pass_rate": 1.0
+    },
+    "combo_WHEAT_MELON_50_50_vs_pass|MELON": {
+      "n_episodes": 10,
+      "final_money": {
+        "n": 10,
+        "mean": 16280.3,
+        "median": 15886.0,
+        "stdev": 810.0161,
+        "min": 15467.0,
+        "max": 17751.0
+      },
+      "profit": {
+        "n": 10,
+        "mean": 13280.3,
+        "median": 12886.0,
+        "stdev": 810.0161,
+        "min": 12467.0,
+        "max": 14751.0
+      },
+      "revenue": {
+        "n": 10,
+        "mean": 13543.1682,
+        "median": 12832.3335,
+        "stdev": 1088.3362,
+        "min": 12826.6497,
+        "max": 15207.4762
+      },
+      "harvest_units": {
+        "n": 10,
+        "mean": 54.0,
+        "median": 51.0,
+        "stdev": 4.5826,
+        "min": 51.0,
+        "max": 61.0
+      },
+      "tile_days": {
+        "n": 10,
+        "mean": 216.8,
+        "median": 215.0,
+        "stdev": 2.7495,
+        "min": 215.0,
+        "max": 221.0
+      },
+      "revenue_per_tile_day": {
+        "n": 10,
+        "mean": 62.4154,
+        "median": 59.6853,
+        "stdev": 4.1821,
+        "min": 59.6588,
+        "max": 68.8121
+      },
+      "revenue_per_action": {
+        "n": 10,
+        "mean": 18.81,
+        "median": 17.8227,
+        "stdev": 1.5116,
+        "min": 17.8148,
+        "max": 21.1215
+      },
+      "capital_locked": {
+        "n": 10,
+        "mean": 1888.0,
+        "median": 1840.0,
+        "stdev": 73.3212,
+        "min": 1840.0,
+        "max": 2000.0
+      },
+      "first_harvest_day": {
+        "n": 10,
+        "mean": 10.0,
+        "median": 10.0,
+        "stdev": 0.0,
+        "min": 10.0,
+        "max": 10.0
+      },
+      "unsold_units": {
+        "n": 10,
+        "mean": 0.0,
+        "median": 0.0,
+        "stdev": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "money_margin": {
+        "n": 10,
+        "mean": 13280.3,
+        "median": 12886.0,
+        "stdev": 810.0161,
+        "min": 12467.0,
+        "max": 14751.0
+      },
+      "win_rate": 1.0,
+      "validation_pass_rate": 1.0
+    }
+  },
+  "allocation_by_experiment": {
+    "allocation_WHEAT_25_MELON_75_vs_pass|WHEAT": {
+      "n_episodes": 8,
+      "final_money": {
+        "n": 8,
+        "mean": 18203.875,
+        "median": 18007.5,
+        "stdev": 659.6015,
+        "min": 17767.0,
+        "max": 19928.0
+      },
+      "profit": {
+        "n": 8,
+        "mean": 15203.875,
+        "median": 15007.5,
+        "stdev": 659.6015,
+        "min": 14767.0,
+        "max": 16928.0
+      },
+      "revenue": {
+        "n": 8,
+        "mean": 1541.5093,
+        "median": 1562.7843,
+        "stdev": 128.3247,
+        "min": 1339.7254,
+        "max": 1695.3922
+      },
+      "harvest_units": {
+        "n": 8,
+        "mean": 44.875,
+        "median": 46.0,
+        "stdev": 2.9765,
+        "min": 37.0,
+        "max": 46.0
+      },
+      "tile_days": {
+        "n": 8,
+        "mean": 91.75,
+        "median": 94.0,
+        "stdev": 5.9529,
+        "min": 76.0,
+        "max": 94.0
+      },
+      "revenue_per_tile_day": {
+        "n": 8,
+        "mean": 16.821,
+        "median": 17.2509,
+        "stdev": 1.1395,
+        "min": 14.6518,
+        "max": 18.0361
+      },
+      "revenue_per_action": {
+        "n": 8,
+        "mean": 2.141,
+        "median": 2.1705,
+        "stdev": 0.1782,
+        "min": 1.8607,
+        "max": 2.3547
+      },
+      "capital_locked": {
+        "n": 8,
+        "mean": 497.5,
+        "median": 510.0,
+        "stdev": 33.0719,
+        "min": 410.0,
+        "max": 510.0
+      },
+      "first_harvest_day": {
+        "n": 8,
+        "mean": 2.0,
+        "median": 2.0,
+        "stdev": 0.0,
+        "min": 2.0,
+        "max": 2.0
+      },
+      "unsold_units": {
+        "n": 8,
+        "mean": 1.875,
+        "median": 2.0,
+        "stdev": 0.3307,
+        "min": 1.0,
+        "max": 2.0
+      },
+      "money_margin": {
+        "n": 8,
+        "mean": 15203.875,
+        "median": 15007.5,
+        "stdev": 659.6015,
+        "min": 14767.0,
+        "max": 16928.0
+      },
+      "win_rate": 1.0,
+      "validation_pass_rate": 1.0
+    },
+    "allocation_WHEAT_25_MELON_75_vs_pass|MELON": {
+      "n_episodes": 8,
+      "final_money": {
+        "n": 8,
+        "mean": 18203.875,
+        "median": 18007.5,
+        "stdev": 659.6015,
+        "min": 17767.0,
+        "max": 19928.0
+      },
+      "profit": {
+        "n": 8,
+        "mean": 15203.875,
+        "median": 15007.5,
+        "stdev": 659.6015,
+        "min": 14767.0,
+        "max": 16928.0
+      },
+      "revenue": {
+        "n": 8,
+        "mean": 16419.8657,
+        "median": 16137.1688,
+        "stdev": 747.77,
+        "min": 16135.0918,
+        "max": 18398.2746
+      },
+      "harvest_units": {
+        "n": 8,
+        "mean": 66.25,
+        "median": 65.0,
+        "stdev": 3.3072,
+        "min": 65.0,
+        "max": 75.0
+      },
+      "tile_days": {
+        "n": 8,
+        "mean": 262.75,
+        "median": 262.0,
+        "stdev": 1.9843,
+        "min": 262.0,
+        "max": 268.0
+      },
+      "revenue_per_tile_day": {
+        "n": 8,
+        "mean": 62.4747,
+        "median": 61.5922,
+        "stdev": 2.3342,
+        "min": 61.5843,
+        "max": 68.6503
+      },
+      "revenue_per_action": {
+        "n": 8,
+        "mean": 22.8054,
+        "median": 22.4127,
+        "stdev": 1.0386,
+        "min": 22.4098,
+        "max": 25.5532
+      },
+      "capital_locked": {
+        "n": 8,
+        "mean": 2260.0,
+        "median": 2240.0,
+        "stdev": 52.915,
+        "min": 2240.0,
+        "max": 2400.0
+      },
+      "first_harvest_day": {
+        "n": 8,
+        "mean": 10.0,
+        "median": 10.0,
+        "stdev": 0.0,
+        "min": 10.0,
+        "max": 10.0
+      },
+      "unsold_units": {
+        "n": 8,
+        "mean": 0.0,
+        "median": 0.0,
+        "stdev": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "money_margin": {
+        "n": 8,
+        "mean": 15203.875,
+        "median": 15007.5,
+        "stdev": 659.6015,
+        "min": 14767.0,
+        "max": 16928.0
+      },
+      "win_rate": 1.0,
+      "validation_pass_rate": 1.0
+    },
+    "allocation_WHEAT_75_MELON_25_vs_pass|WHEAT": {
+      "n_episodes": 8,
+      "final_money": {
+        "n": 8,
+        "mean": 10192.375,
+        "median": 10472.5,
+        "stdev": 635.8984,
+        "min": 8628.0,
+        "max": 10674.0
+      },
+      "profit": {
+        "n": 8,
+        "mean": 7192.375,
+        "median": 7472.5,
+        "stdev": 635.8984,
+        "min": 5628.0,
+        "max": 7674.0
+      },
+      "revenue": {
+        "n": 8,
+        "mean": 4309.4572,
+        "median": 4334.1848,
+        "stdev": 324.9166,
+        "min": 3829.9935,
+        "max": 4925.2497
+      },
+      "harvest_units": {
+        "n": 8,
+        "mean": 129.25,
+        "median": 130.0,
+        "stdev": 3.562,
+        "min": 125.0,
+        "max": 137.0
+      },
+      "tile_days": {
+        "n": 8,
+        "mean": 264.125,
+        "median": 266.0,
+        "stdev": 7.5073,
+        "min": 255.0,
+        "max": 280.0
+      },
+      "revenue_per_tile_day": {
+        "n": 8,
+        "mean": 16.3007,
+        "median": 16.4551,
+        "stdev": 0.886,
+        "min": 14.9027,
+        "max": 17.5902
+      },
+      "revenue_per_action": {
+        "n": 8,
+        "mean": 5.9853,
+        "median": 6.0197,
+        "stdev": 0.4513,
+        "min": 5.3194,
+        "max": 6.8406
+      },
+      "capital_locked": {
+        "n": 8,
+        "mean": 1423.75,
+        "median": 1440.0,
+        "stdev": 45.2597,
+        "min": 1360.0,
+        "max": 1510.0
+      },
+      "first_harvest_day": {
+        "n": 8,
+        "mean": 2.0,
+        "median": 2.0,
+        "stdev": 0.0,
+        "min": 2.0,
+        "max": 2.0
+      },
+      "unsold_units": {
+        "n": 8,
+        "mean": 5.0,
+        "median": 5.0,
+        "stdev": 0.0,
+        "min": 5.0,
+        "max": 5.0
+      },
+      "money_margin": {
+        "n": 8,
+        "mean": 7192.375,
+        "median": 7472.5,
+        "stdev": 635.8984,
+        "min": 5628.0,
+        "max": 7674.0
+      },
+      "win_rate": 1.0,
+      "validation_pass_rate": 1.0
+    },
+    "allocation_WHEAT_75_MELON_25_vs_pass|MELON": {
+      "n_episodes": 8,
+      "final_money": {
+        "n": 8,
+        "mean": 10192.375,
+        "median": 10472.5,
+        "stdev": 635.8984,
+        "min": 8628.0,
+        "max": 10674.0
+      },
+      "profit": {
+        "n": 8,
+        "mean": 7192.375,
+        "median": 7472.5,
+        "stdev": 635.8984,
+        "min": 5628.0,
+        "max": 7674.0
+      },
+      "revenue": {
+        "n": 8,
+        "mean": 5266.6678,
+        "median": 5600.034,
+        "stdev": 882.1392,
+        "min": 2932.7503,
+        "max": 5602.5082
+      },
+      "harvest_units": {
+        "n": 8,
+        "mean": 12.75,
+        "median": 12.0,
+        "stdev": 3.1524,
+        "min": 6.0,
+        "max": 16.0
+      },
+      "tile_days": {
+        "n": 8,
+        "mean": 86.75,
+        "median": 88.0,
+        "stdev": 8.5841,
+        "min": 65.0,
+        "max": 94.0
+      },
+      "revenue_per_tile_day": {
+        "n": 8,
+        "mean": 60.2174,
+        "median": 63.2653,
+        "stdev": 5.9431,
+        "min": 45.1192,
+        "max": 63.6373
+      },
+      "revenue_per_action": {
+        "n": 8,
+        "mean": 7.3148,
+        "median": 7.7778,
+        "stdev": 1.2252,
+        "min": 4.0733,
+        "max": 7.7813
+      },
+      "capital_locked": {
+        "n": 8,
+        "mean": 960.0,
+        "median": 960.0,
+        "stdev": 97.9796,
+        "min": 720.0,
+        "max": 1040.0
+      },
+      "first_harvest_day": {
+        "n": 8,
+        "mean": 10.0,
+        "median": 10.0,
+        "stdev": 0.0,
+        "min": 10.0,
+        "max": 10.0
+      },
+      "unsold_units": {
+        "n": 8,
+        "mean": -7.0,
+        "median": -7.0,
+        "stdev": 2.0,
+        "min": -9.0,
+        "max": -5.0
+      },
+      "money_margin": {
+        "n": 8,
+        "mean": 7192.375,
+        "median": 7472.5,
+        "stdev": 635.8984,
+        "min": 5628.0,
+        "max": 7674.0
+      },
+      "win_rate": 1.0,
+      "validation_pass_rate": 1.0
+    }
+  },
+  "counts": {
+    "isolated": 150,
+    "fertilizer": 40,
+    "timing": 90,
+    "headtohead": 75,
+    "combo": 80,
+    "allocation": 32,
+    "total_episode_rows": 467
+  }
+}

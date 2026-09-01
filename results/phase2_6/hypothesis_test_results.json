@@ -1,0 +1,61 @@
+{
+  "H1_animal_time_scaling": {
+    "hypothesis": "animal_production_value's linear time-scaling assumption (Phase 2.5, flagged HYPOTHESIS) predicts actual measured profit for a mid-episode animal purchase",
+    "conditions": {
+      "buy_day_0": {
+        "n_seeds": 6,
+        "actual_mean_final_money": 10912.0,
+        "actual_mean_profit": 7912.0,
+        "predicted_profit": 7370.0,
+        "predicted_range": [
+          4422.0,
+          8107.0
+        ],
+        "within_predicted_range": true,
+        "relative_error_pct": 7.4
+      },
+      "buy_day_15": {
+        "n_seeds": 6,
+        "actual_mean_final_money": 6155.17,
+        "actual_mean_profit": 3155.17,
+        "predicted_profit": 3685.0,
+        "predicted_range": [
+          2211.0,
+          4053.5
+        ],
+        "within_predicted_range": true,
+        "relative_error_pct": -14.4
+      }
+    },
+    "classification": "SUPPORTED",
+    "conclusion": "day-0 actual profit $7912.0 vs predicted $7370.0 (range [4422.0,8107.0]); day-15 actual profit $3155.17 vs predicted $3685.0 (range [2211.0,4053.5])."
+  },
+  "H2_portfolio_complexity_selling": {
+    "hypothesis": "a single-crop-calibrated selling-policy uplift (F14) does not transfer to a complex multi-resource portfolio (consistent with F19)",
+    "existing_evidence_cited": {
+      "simple_portfolio_MELON_threshold_0.9_vs_passive": {
+        "passive": 27891.0,
+        "threshold": 28491.0,
+        "uplift": 600.0
+      },
+      "complex_portfolio_integrated_threshold_1.0_vs_passive": {
+        "passive": 31562.5,
+        "threshold": 21892.125,
+        "uplift": -9670.375
+      },
+      "complex_portfolio_integrated_threshold_batch_vs_passive": {
+        "passive": 31562.5,
+        "threshold_batch": 31354.125,
+        "uplift": -208.375
+      }
+    },
+    "planner_default_check": {
+      "complex_portfolio_threshold_switch_estimate": 0.0,
+      "confidence": "EXPERIMENTALLY_VALIDATED",
+      "basis": "F19 (null result: no reliable market-aware advantage for complex portfolios)",
+      "avoids_naive_overclaim": true
+    },
+    "classification": "SUPPORTED",
+    "conclusion": "Existing Phase 2.4 data directly confirms the hypothesis: the same threshold policy that gained +$600 on a simple MELON-solo portfolio LOST $9,670 on the complex integrated portfolio relative to passive. The planner's own evaluator (agents/phase2_6/evaluator.py) already encodes this by treating complex-portfolio selling-policy switches as a wash (value<=0), confirmed here directly against the evaluator's own output rather than assumed."
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "candidate_results": [
+    {
+      "threshold": 0.3,
+      "true_positives": 4,
+      "total_expansion_episodes": 4,
+      "false_positives": 0,
+      "total_non_expansion_episodes": 24,
+      "mean_detection_turn": 24.0
+    },
+    {
+      "threshold": 0.5,
+      "true_positives": 4,
+      "total_expansion_episodes": 4,
+      "false_positives": 0,
+      "total_non_expansion_episodes": 24,
+      "mean_detection_turn": 24.0
+    },
+    {
+      "threshold": 0.7,
+      "true_positives": 4,
+      "total_expansion_episodes": 4,
+      "false_positives": 0,
+      "total_non_expansion_episodes": 24,
+      "mean_detection_turn": 24.0
+    },
+    {
+      "threshold": 0.9,
+      "true_positives": 4,
+      "total_expansion_episodes": 4,
+      "false_positives": 0,
+      "total_non_expansion_episodes": 24,
+      "mean_detection_turn": 24.0
+    }
+  ],
+  "chosen_threshold": 0.3,
+  "selection_rule": "smallest threshold with zero false positives AND 100% true-positive rate on DEVELOPMENT seeds only; never evaluated against validation/held_out data",
+  "chosen_result": {
+    "threshold": 0.3,
+    "true_positives": 4,
+    "total_expansion_episodes": 4,
+    "false_positives": 0,
+    "total_non_expansion_episodes": 24,
+    "mean_detection_turn": 24.0
+  }
+}

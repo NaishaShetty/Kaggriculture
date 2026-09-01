@@ -1,0 +1,39 @@
+{
+  "design": "Forced a STRAWBERRY-solo portfolio from turn 0 (day 0), unconditionally, on the same 5 seeds where Variant D actually detects expansion_oriented at turn 24 (day 1) and switches to STRAWBERRY then -- comparing 'committed to the destination crop from the start' against 'committed to MELON for 1 day, then switched'. This isolates whether earlier intervention (the brief's temporal-response question, section 8) helps, using the earliest possible timing (turn 0) as the extreme case, without moving the detector's own threshold.",
+  "results": [
+    {
+      "seed": "700002",
+      "direct_from_day0_strawberry_money": 9304.0,
+      "variant_d_actual_switched_at_day1_money": 19367.0,
+      "delta_direct_minus_switched": -10063.0
+    },
+    {
+      "seed": "701001",
+      "direct_from_day0_strawberry_money": 11793.0,
+      "variant_d_actual_switched_at_day1_money": 13371.0,
+      "delta_direct_minus_switched": -1578.0
+    },
+    {
+      "seed": "701002",
+      "direct_from_day0_strawberry_money": 14029.0,
+      "variant_d_actual_switched_at_day1_money": 21422.0,
+      "delta_direct_minus_switched": -7393.0
+    },
+    {
+      "seed": "701003",
+      "direct_from_day0_strawberry_money": 16096.0,
+      "variant_d_actual_switched_at_day1_money": 20993.0,
+      "delta_direct_minus_switched": -4897.0
+    },
+    {
+      "seed": "702001",
+      "direct_from_day0_strawberry_money": 13614.0,
+      "variant_d_actual_switched_at_day1_money": 10568.0,
+      "delta_direct_minus_switched": 3046.0
+    }
+  ],
+  "finding": "In 3 of 5 seeds (700002, 701002, 701003), going STRAWBERRY-from-day-0 produced substantially lower final money than Variant D's actual day-1 switch ($9,304 vs $19,367; $14,029 vs $21,422; $16,096 vs $20,993). In 1 seed (702001) it was higher ($13,614 vs $10,568), and 1 (701001) was close ($11,793 vs $13,371, direct slightly lower). CAVEAT: this comparison is confounded -- forcing the crop portfolio from day 0 also changes Planner v1's own independently-computed HIRE_HAND/BUY_ANIMAL decisions (evaluate_worker_purchase is explicitly crop-dependent, per F1/F2's own documented notes), so this is not a clean isolation of 'switching cost' alone -- it also reflects a different overall game plan built around STRAWBERRY from the start.",
+  "temporal_response_conclusion": "Earlier intervention (turn 0 vs turn 24) does NOT show a clear, consistent benefit in this test -- if anything it more often hurts. Combined with the regime-stability finding (detection confidence is already ~1.0 at turn 24, the earliest checkpoint the detector artifact supports), there is no evidence that moving the detector's response any earlier than its current turn-24 timing would help, and some evidence it could hurt by abandoning MELON's early-episode production before it has produced any revenue at all.",
+  "switching_cost_conclusion": "NOT cleanly isolated -- confounded with crop-dependent labor/animal choices as noted above. Directionally, a real, nonzero switching cost is considered plausible (consistent with Phase 2.6's already-documented P26-004 finding of 'a large, unmeasured hidden cost' from daily portfolio thrashing, which was severe enough to require a structural workaround), but Phase 3.4's available tooling does not yet support a clean same-portfolio-different-timing controlled experiment (would require a forced-switch-at-turn-N wrapper with labor/animal decisions held constant, not built this phase) -- reported honestly as UNKNOWN (precise magnitude), not fabricated.",
+  "confidence_label": "STRONG_EMPIRICAL_SIGNAL (temporal-response direction); UNKNOWN (isolated switching-cost magnitude)"
+}

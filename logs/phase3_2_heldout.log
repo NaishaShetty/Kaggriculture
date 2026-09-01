@@ -1,0 +1,380 @@
+OpenSpiel exception: Unknown game 'universal_poker'. Available games are:
+2048
+add_noise
+amazons
+amazons_proxy
+ant_foraging_arena
+antichess
+backgammon
+backgammon_proxy
+banqi
+bargaining
+bargaining_proxy
+battleship
+blackjack
+blotto
+breakthrough
+breakthrough_proxy
+bridge
+bridge_arena
+bridge_uncontested_bidding
+cached_tree
+capture_the_flag
+capture_the_flag_proxy
+catch
+chat_game
+checkers
+checkers_proxy
+chess
+chinese_checkers
+cliff_walking
+clobber
+clobber_proxy
+coin_game
+coin_game_arena
+coin_game_proxy
+colored_trails
+connect_four
+connect_four_proxy
+coop_box_pushing
+coop_to_1p
+coordinated_mp
+crazy_eights
+crazyhouse
+cribbage
+crossword
+cursor_go
+dark_chess
+dark_hex
+dark_hex_ir
+dark_hex_proxy
+deep_sea
+dots_and_boxes
+dots_and_boxes_proxy
+dou_dizhu
+efg_game
+einstein_wurfelt_nicht
+euchre
+first_sealed_auction
+gin_rummy
+gin_rummy_proxy
+go
+go_fish
+go_fish_proxy
+go_proxy
+gomoku
+goofspiel
+havannah
+havannah_proxy
+hearts
+hex
+hive
+hive_proxy
+kriegspiel
+kuhn_poker
+laser_tag
+latent_ttt
+leduc_poker
+lewis_signaling
+liars_dice
+liars_dice_ir
+lines_of_action
+lines_of_action_proxy
+maedn
+mancala
+mancala_proxy
+markov_soccer
+markov_soccer_proxy
+matching_pennies_3p
+matrix_bos
+matrix_brps
+matrix_cd
+matrix_coordination
+matrix_mp
+matrix_pd
+matrix_rps
+matrix_rpsw
+matrix_sh
+matrix_shapleys_game
+mfg_crowd_modelling
+mfg_crowd_modelling_2d
+mfg_dynamic_routing
+mfg_garnet
+misere
+mnk
+morpion_solitaire
+negotiation
+negotiation_proxy
+nfg_game
+nim
+nine_mens_morris
+nine_mens_morris_proxy
+normal_form_extensive_game
+oh_hell
+oshi_zumo
+oshi_zumo_proxy
+othello
+othello_proxy
+oware
+pathfinding
+pentago
+phantom_go
+phantom_ttt
+phantom_ttt_ir
+pig
+python_ant_foraging
+python_ant_foraging_proxy
+python_block_dominoes
+python_dynamic_routing
+python_hangman
+python_iterated_prisoners_dilemma
+python_kuhn_poker
+python_liars_poker
+python_pokerkit_wrapper
+python_pokerkit_wrapper_acpc_style
+python_repeated_pokerkit
+python_team_dominoes
+python_tic_tac_toe
+quoridor
+rbc
+repeated_game
+repeated_leduc_poker
+restricted_nash_response
+sheriff
+shogi
+shogi_proxy
+skat
+snake
+snake_proxy
+social_deduction
+solitaire
+spades
+start_at
+stones_and_gems
+tarok
+tic_tac_toe
+tiny_bridge_2p
+tiny_bridge_4p
+tiny_hanabi
+trade_comm
+turn_based_simultaneous_game
+twixt
+ultimate_tic_tac_toe
+ultimate_tic_tac_toe_proxy
+xiangqi
+y
+y_proxy
+yacht
+zerosum
+OpenSpiel exception: Unknown game 'repeated_poker'. Available games are:
+2048
+add_noise
+amazons
+amazons_proxy
+ant_foraging_arena
+antichess
+backgammon
+backgammon_proxy
+banqi
+bargaining
+bargaining_proxy
+battleship
+blackjack
+blotto
+breakthrough
+breakthrough_proxy
+bridge
+bridge_arena
+bridge_uncontested_bidding
+cached_tree
+capture_the_flag
+capture_the_flag_proxy
+catch
+chat_game
+checkers
+checkers_proxy
+chess
+chinese_checkers
+cliff_walking
+clobber
+clobber_proxy
+coin_game
+coin_game_arena
+coin_game_proxy
+colored_trails
+connect_four
+connect_four_proxy
+coop_box_pushing
+coop_to_1p
+coordinated_mp
+crazy_eights
+crazyhouse
+cribbage
+crossword
+cursor_go
+dark_chess
+dark_hex
+dark_hex_ir
+dark_hex_proxy
+deep_sea
+dots_and_boxes
+dots_and_boxes_proxy
+dou_dizhu
+efg_game
+einstein_wurfelt_nicht
+euchre
+first_sealed_auction
+gin_rummy
+gin_rummy_proxy
+go
+go_fish
+go_fish_proxy
+go_proxy
+gomoku
+goofspiel
+havannah
+havannah_proxy
+hearts
+hex
+hive
+hive_proxy
+kriegspiel
+kuhn_poker
+laser_tag
+latent_ttt
+leduc_poker
+lewis_signaling
+liars_dice
+liars_dice_ir
+lines_of_action
+lines_of_action_proxy
+maedn
+mancala
+mancala_proxy
+markov_soccer
+markov_soccer_proxy
+matching_pennies_3p
+matrix_bos
+matrix_brps
+matrix_cd
+matrix_coordination
+matrix_mp
+matrix_pd
+matrix_rps
+matrix_rpsw
+matrix_sh
+matrix_shapleys_game
+mfg_crowd_modelling
+mfg_crowd_modelling_2d
+mfg_dynamic_routing
+mfg_garnet
+misere
+mnk
+morpion_solitaire
+negotiation
+negotiation_proxy
+nfg_game
+nim
+nine_mens_morris
+nine_mens_morris_proxy
+normal_form_extensive_game
+oh_hell
+oshi_zumo
+oshi_zumo_proxy
+othello
+othello_proxy
+oware
+pathfinding
+pentago
+phantom_go
+phantom_ttt
+phantom_ttt_ir
+pig
+python_ant_foraging
+python_ant_foraging_proxy
+python_block_dominoes
+python_dynamic_routing
+python_hangman
+python_iterated_prisoners_dilemma
+python_kuhn_poker
+python_liars_poker
+python_pokerkit_wrapper
+python_pokerkit_wrapper_acpc_style
+python_repeated_pokerkit
+python_team_dominoes
+python_tic_tac_toe
+quoridor
+rbc
+repeated_game
+repeated_leduc_poker
+restricted_nash_response
+sheriff
+shogi
+shogi_proxy
+skat
+snake
+snake_proxy
+social_deduction
+solitaire
+spades
+start_at
+stones_and_gems
+tarok
+tic_tac_toe
+tiny_bridge_2p
+tiny_bridge_4p
+tiny_hanabi
+trade_comm
+turn_based_simultaneous_game
+twixt
+ultimate_tic_tac_toe
+ultimate_tic_tac_toe_proxy
+xiangqi
+y
+y_proxy
+yacht
+zerosum
+  [passive] seed=702000 (held_out) protagonist=$28341.0 opponent=$3000.0 win=1 n_events=0 (3.26s)
+  [passive] seed=702001 (held_out) protagonist=$28226.0 opponent=$3000.0 win=1 n_events=0 (4.07s)
+  [passive] seed=702002 (held_out) protagonist=$27865.0 opponent=$3000.0 win=1 n_events=0 (4.23s)
+  [passive] seed=702003 (held_out) protagonist=$28057.0 opponent=$3000.0 win=1 n_events=0 (4.22s)
+  [passive] seed=702004 (held_out) protagonist=$27510.0 opponent=$3000.0 win=1 n_events=0 (4.18s)
+  [passive] seed=702005 (held_out) protagonist=$28121.0 opponent=$3000.0 win=1 n_events=0 (3.99s)
+  [production_heavy] seed=702000 (held_out) protagonist=$23351.0 opponent=$9705.0 win=1 n_events=201 (4.47s)
+  [production_heavy] seed=702001 (held_out) protagonist=$20749.0 opponent=$8130.0 win=1 n_events=200 (4.34s)
+  [production_heavy] seed=702002 (held_out) protagonist=$23344.0 opponent=$9128.0 win=1 n_events=202 (5.45s)
+  [production_heavy] seed=702003 (held_out) protagonist=$23509.0 opponent=$7587.0 win=1 n_events=190 (6.21s)
+  [production_heavy] seed=702004 (held_out) protagonist=$24756.0 opponent=$13986.0 win=1 n_events=191 (6.06s)
+  [production_heavy] seed=702005 (held_out) protagonist=$21452.0 opponent=$14873.0 win=1 n_events=204 (6.14s)
+  [market_selling] seed=702000 (held_out) protagonist=$28284.0 opponent=$6801.0 win=1 n_events=185 (5.92s)
+  [market_selling] seed=702001 (held_out) protagonist=$26620.0 opponent=$1304.0 win=1 n_events=205 (5.9s)
+  [market_selling] seed=702002 (held_out) protagonist=$28279.0 opponent=$2765.0 win=1 n_events=200 (7.03s)
+  [market_selling] seed=702003 (held_out) protagonist=$29483.0 opponent=$967.0 win=1 n_events=195 (6.36s)
+  [market_selling] seed=702004 (held_out) protagonist=$30715.0 opponent=$7596.0 win=1 n_events=191 (5.81s)
+  [market_selling] seed=702005 (held_out) protagonist=$28390.0 opponent=$5759.0 win=1 n_events=218 (5.82s)
+  [expansion_oriented] seed=702000 (held_out) protagonist=$4174.0 opponent=$16033.0 win=0 n_events=197 (5.02s)
+  [expansion_oriented] seed=702001 (held_out) protagonist=$4015.0 opponent=$16113.0 win=0 n_events=196 (5.03s)
+  [expansion_oriented] seed=702002 (held_out) protagonist=$3802.0 opponent=$16178.0 win=0 n_events=192 (5.09s)
+  [expansion_oriented] seed=702003 (held_out) protagonist=$3783.0 opponent=$16113.0 win=0 n_events=194 (5.11s)
+  [expansion_oriented] seed=702004 (held_out) protagonist=$3347.0 opponent=$16033.0 win=0 n_events=197 (5.2s)
+  [expansion_oriented] seed=702005 (held_out) protagonist=$3745.0 opponent=$16348.0 win=0 n_events=191 (5.05s)
+  [animal_oriented] seed=702000 (held_out) protagonist=$27014.0 opponent=$11281.0 win=1 n_events=613 (5.45s)
+  [animal_oriented] seed=702001 (held_out) protagonist=$28741.0 opponent=$11418.0 win=1 n_events=588 (5.24s)
+  [animal_oriented] seed=702002 (held_out) protagonist=$28568.0 opponent=$10599.0 win=1 n_events=613 (5.51s)
+  [animal_oriented] seed=702003 (held_out) protagonist=$28147.0 opponent=$11866.0 win=1 n_events=613 (5.33s)
+  [animal_oriented] seed=702004 (held_out) protagonist=$26855.0 opponent=$11065.0 win=1 n_events=613 (5.46s)
+  [animal_oriented] seed=702005 (held_out) protagonist=$28254.0 opponent=$11497.0 win=1 n_events=613 (5.4s)
+  [conservative] seed=702000 (held_out) protagonist=$27978.0 opponent=$6075.0 win=1 n_events=461 (4.54s)
+  [conservative] seed=702001 (held_out) protagonist=$28877.0 opponent=$5717.0 win=1 n_events=461 (4.6s)
+  [conservative] seed=702002 (held_out) protagonist=$28349.0 opponent=$6016.0 win=1 n_events=461 (4.68s)
+  [conservative] seed=702003 (held_out) protagonist=$28595.0 opponent=$4911.0 win=1 n_events=437 (4.65s)
+  [conservative] seed=702004 (held_out) protagonist=$27787.0 opponent=$5048.0 win=1 n_events=461 (4.42s)
+  [conservative] seed=702005 (held_out) protagonist=$27862.0 opponent=$6530.0 win=1 n_events=461 (4.41s)
+  [aggressive_investment] seed=702000 (held_out) protagonist=$14683.0 opponent=$1082.0 win=1 n_events=245 (6.03s)
+  [aggressive_investment] seed=702001 (held_out) protagonist=$13690.0 opponent=$1588.0 win=1 n_events=233 (5.87s)
+  [aggressive_investment] seed=702002 (held_out) protagonist=$6519.0 opponent=$10578.0 win=0 n_events=250 (5.98s)
+  [aggressive_investment] seed=702003 (held_out) protagonist=$15088.0 opponent=$1318.0 win=1 n_events=251 (5.85s)
+  [aggressive_investment] seed=702004 (held_out) protagonist=$16229.0 opponent=$1249.0 win=1 n_events=251 (6.01s)
+  [aggressive_investment] seed=702005 (held_out) protagonist=$14348.0 opponent=$1096.0 win=1 n_events=238 (6.54s)
+
+Wrote 42 rows to results/phase3_2\experiments\episode_metadata.csv

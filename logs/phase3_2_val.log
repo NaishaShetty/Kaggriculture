@@ -1,0 +1,373 @@
+OpenSpiel exception: Unknown game 'universal_poker'. Available games are:
+2048
+add_noise
+amazons
+amazons_proxy
+ant_foraging_arena
+antichess
+backgammon
+backgammon_proxy
+banqi
+bargaining
+bargaining_proxy
+battleship
+blackjack
+blotto
+breakthrough
+breakthrough_proxy
+bridge
+bridge_arena
+bridge_uncontested_bidding
+cached_tree
+capture_the_flag
+capture_the_flag_proxy
+catch
+chat_game
+checkers
+checkers_proxy
+chess
+chinese_checkers
+cliff_walking
+clobber
+clobber_proxy
+coin_game
+coin_game_arena
+coin_game_proxy
+colored_trails
+connect_four
+connect_four_proxy
+coop_box_pushing
+coop_to_1p
+coordinated_mp
+crazy_eights
+crazyhouse
+cribbage
+crossword
+cursor_go
+dark_chess
+dark_hex
+dark_hex_ir
+dark_hex_proxy
+deep_sea
+dots_and_boxes
+dots_and_boxes_proxy
+dou_dizhu
+efg_game
+einstein_wurfelt_nicht
+euchre
+first_sealed_auction
+gin_rummy
+gin_rummy_proxy
+go
+go_fish
+go_fish_proxy
+go_proxy
+gomoku
+goofspiel
+havannah
+havannah_proxy
+hearts
+hex
+hive
+hive_proxy
+kriegspiel
+kuhn_poker
+laser_tag
+latent_ttt
+leduc_poker
+lewis_signaling
+liars_dice
+liars_dice_ir
+lines_of_action
+lines_of_action_proxy
+maedn
+mancala
+mancala_proxy
+markov_soccer
+markov_soccer_proxy
+matching_pennies_3p
+matrix_bos
+matrix_brps
+matrix_cd
+matrix_coordination
+matrix_mp
+matrix_pd
+matrix_rps
+matrix_rpsw
+matrix_sh
+matrix_shapleys_game
+mfg_crowd_modelling
+mfg_crowd_modelling_2d
+mfg_dynamic_routing
+mfg_garnet
+misere
+mnk
+morpion_solitaire
+negotiation
+negotiation_proxy
+nfg_game
+nim
+nine_mens_morris
+nine_mens_morris_proxy
+normal_form_extensive_game
+oh_hell
+oshi_zumo
+oshi_zumo_proxy
+othello
+othello_proxy
+oware
+pathfinding
+pentago
+phantom_go
+phantom_ttt
+phantom_ttt_ir
+pig
+python_ant_foraging
+python_ant_foraging_proxy
+python_block_dominoes
+python_dynamic_routing
+python_hangman
+python_iterated_prisoners_dilemma
+python_kuhn_poker
+python_liars_poker
+python_pokerkit_wrapper
+python_pokerkit_wrapper_acpc_style
+python_repeated_pokerkit
+python_team_dominoes
+python_tic_tac_toe
+quoridor
+rbc
+repeated_game
+repeated_leduc_poker
+restricted_nash_response
+sheriff
+shogi
+shogi_proxy
+skat
+snake
+snake_proxy
+social_deduction
+solitaire
+spades
+start_at
+stones_and_gems
+tarok
+tic_tac_toe
+tiny_bridge_2p
+tiny_bridge_4p
+tiny_hanabi
+trade_comm
+turn_based_simultaneous_game
+twixt
+ultimate_tic_tac_toe
+ultimate_tic_tac_toe_proxy
+xiangqi
+y
+y_proxy
+yacht
+zerosum
+OpenSpiel exception: Unknown game 'repeated_poker'. Available games are:
+2048
+add_noise
+amazons
+amazons_proxy
+ant_foraging_arena
+antichess
+backgammon
+backgammon_proxy
+banqi
+bargaining
+bargaining_proxy
+battleship
+blackjack
+blotto
+breakthrough
+breakthrough_proxy
+bridge
+bridge_arena
+bridge_uncontested_bidding
+cached_tree
+capture_the_flag
+capture_the_flag_proxy
+catch
+chat_game
+checkers
+checkers_proxy
+chess
+chinese_checkers
+cliff_walking
+clobber
+clobber_proxy
+coin_game
+coin_game_arena
+coin_game_proxy
+colored_trails
+connect_four
+connect_four_proxy
+coop_box_pushing
+coop_to_1p
+coordinated_mp
+crazy_eights
+crazyhouse
+cribbage
+crossword
+cursor_go
+dark_chess
+dark_hex
+dark_hex_ir
+dark_hex_proxy
+deep_sea
+dots_and_boxes
+dots_and_boxes_proxy
+dou_dizhu
+efg_game
+einstein_wurfelt_nicht
+euchre
+first_sealed_auction
+gin_rummy
+gin_rummy_proxy
+go
+go_fish
+go_fish_proxy
+go_proxy
+gomoku
+goofspiel
+havannah
+havannah_proxy
+hearts
+hex
+hive
+hive_proxy
+kriegspiel
+kuhn_poker
+laser_tag
+latent_ttt
+leduc_poker
+lewis_signaling
+liars_dice
+liars_dice_ir
+lines_of_action
+lines_of_action_proxy
+maedn
+mancala
+mancala_proxy
+markov_soccer
+markov_soccer_proxy
+matching_pennies_3p
+matrix_bos
+matrix_brps
+matrix_cd
+matrix_coordination
+matrix_mp
+matrix_pd
+matrix_rps
+matrix_rpsw
+matrix_sh
+matrix_shapleys_game
+mfg_crowd_modelling
+mfg_crowd_modelling_2d
+mfg_dynamic_routing
+mfg_garnet
+misere
+mnk
+morpion_solitaire
+negotiation
+negotiation_proxy
+nfg_game
+nim
+nine_mens_morris
+nine_mens_morris_proxy
+normal_form_extensive_game
+oh_hell
+oshi_zumo
+oshi_zumo_proxy
+othello
+othello_proxy
+oware
+pathfinding
+pentago
+phantom_go
+phantom_ttt
+phantom_ttt_ir
+pig
+python_ant_foraging
+python_ant_foraging_proxy
+python_block_dominoes
+python_dynamic_routing
+python_hangman
+python_iterated_prisoners_dilemma
+python_kuhn_poker
+python_liars_poker
+python_pokerkit_wrapper
+python_pokerkit_wrapper_acpc_style
+python_repeated_pokerkit
+python_team_dominoes
+python_tic_tac_toe
+quoridor
+rbc
+repeated_game
+repeated_leduc_poker
+restricted_nash_response
+sheriff
+shogi
+shogi_proxy
+skat
+snake
+snake_proxy
+social_deduction
+solitaire
+spades
+start_at
+stones_and_gems
+tarok
+tic_tac_toe
+tiny_bridge_2p
+tiny_bridge_4p
+tiny_hanabi
+trade_comm
+turn_based_simultaneous_game
+twixt
+ultimate_tic_tac_toe
+ultimate_tic_tac_toe_proxy
+xiangqi
+y
+y_proxy
+yacht
+zerosum
+  [passive] seed=701000 (validation) protagonist=$27962.0 opponent=$3000.0 win=1 n_events=0 (3.0s)
+  [passive] seed=701001 (validation) protagonist=$28224.0 opponent=$3000.0 win=1 n_events=0 (4.57s)
+  [passive] seed=701002 (validation) protagonist=$28454.0 opponent=$3000.0 win=1 n_events=0 (4.51s)
+  [passive] seed=701003 (validation) protagonist=$28576.0 opponent=$3000.0 win=1 n_events=0 (4.3s)
+  [passive] seed=701004 (validation) protagonist=$28011.0 opponent=$3000.0 win=1 n_events=0 (4.23s)
+  [production_heavy] seed=701000 (validation) protagonist=$23846.0 opponent=$13435.0 win=1 n_events=204 (6.41s)
+  [production_heavy] seed=701001 (validation) protagonist=$24471.0 opponent=$9322.0 win=1 n_events=202 (6.33s)
+  [production_heavy] seed=701002 (validation) protagonist=$23417.0 opponent=$14027.0 win=1 n_events=201 (6.66s)
+  [production_heavy] seed=701003 (validation) protagonist=$20775.0 opponent=$11299.0 win=1 n_events=203 (6.23s)
+  [production_heavy] seed=701004 (validation) protagonist=$22344.0 opponent=$10302.0 win=1 n_events=204 (6.32s)
+  [market_selling] seed=701000 (validation) protagonist=$29805.0 opponent=$7580.0 win=1 n_events=204 (6.69s)
+  [market_selling] seed=701001 (validation) protagonist=$28466.0 opponent=$5666.0 win=1 n_events=202 (6.38s)
+  [market_selling] seed=701002 (validation) protagonist=$28352.0 opponent=$9057.0 win=1 n_events=201 (6.53s)
+  [market_selling] seed=701003 (validation) protagonist=$26643.0 opponent=$5615.0 win=1 n_events=203 (6.29s)
+  [market_selling] seed=701004 (validation) protagonist=$29282.0 opponent=$3006.0 win=1 n_events=206 (6.58s)
+  [expansion_oriented] seed=701000 (validation) protagonist=$4582.0 opponent=$15631.0 win=0 n_events=199 (5.65s)
+  [expansion_oriented] seed=701001 (validation) protagonist=$4282.0 opponent=$16209.0 win=0 n_events=199 (4.99s)
+  [expansion_oriented] seed=701002 (validation) protagonist=$4705.0 opponent=$16286.0 win=0 n_events=197 (5.16s)
+  [expansion_oriented] seed=701003 (validation) protagonist=$4631.0 opponent=$16113.0 win=0 n_events=196 (5.24s)
+  [expansion_oriented] seed=701004 (validation) protagonist=$3809.0 opponent=$16273.0 win=0 n_events=196 (5.91s)
+  [animal_oriented] seed=701000 (validation) protagonist=$27058.0 opponent=$10424.0 win=1 n_events=627 (5.94s)
+  [animal_oriented] seed=701001 (validation) protagonist=$28505.0 opponent=$9871.0 win=1 n_events=587 (6.04s)
+  [animal_oriented] seed=701002 (validation) protagonist=$27454.0 opponent=$11686.0 win=1 n_events=613 (6.02s)
+  [animal_oriented] seed=701003 (validation) protagonist=$27130.0 opponent=$11553.0 win=1 n_events=613 (5.96s)
+  [animal_oriented] seed=701004 (validation) protagonist=$27150.0 opponent=$9770.0 win=1 n_events=613 (5.8s)
+  [conservative] seed=701000 (validation) protagonist=$27938.0 opponent=$6114.0 win=1 n_events=461 (5.31s)
+  [conservative] seed=701001 (validation) protagonist=$28081.0 opponent=$6234.0 win=1 n_events=461 (5.43s)
+  [conservative] seed=701002 (validation) protagonist=$28867.0 opponent=$5818.0 win=1 n_events=461 (5.2s)
+  [conservative] seed=701003 (validation) protagonist=$28804.0 opponent=$6100.0 win=1 n_events=461 (4.86s)
+  [conservative] seed=701004 (validation) protagonist=$28371.0 opponent=$6000.0 win=1 n_events=461 (5.25s)
+  [aggressive_investment] seed=701000 (validation) protagonist=$14822.0 opponent=$973.0 win=1 n_events=242 (6.97s)
+  [aggressive_investment] seed=701001 (validation) protagonist=$6995.0 opponent=$10440.0 win=0 n_events=252 (6.83s)
+  [aggressive_investment] seed=701002 (validation) protagonist=$8822.0 opponent=$8927.0 win=0 n_events=251 (6.56s)
+  [aggressive_investment] seed=701003 (validation) protagonist=$6784.0 opponent=$10863.0 win=0 n_events=251 (6.17s)
+  [aggressive_investment] seed=701004 (validation) protagonist=$14248.0 opponent=$228.0 win=1 n_events=252 (6.97s)
+
+Wrote 35 rows to results/phase3_2\experiments\episode_metadata.csv

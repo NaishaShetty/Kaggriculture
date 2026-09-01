@@ -1,0 +1,47 @@
+{
+  "causal_paired_comparison_D_vs_control_expansion_oriented": {
+    "n_paired_episodes": 15,
+    "mean_D": 22531.93,
+    "mean_control": 4169.93,
+    "mean_diff": 18362.0,
+    "all_positive": true,
+    "n_positive": 15,
+    "effect_size_cohens_d": 5.471,
+    "win_rate_D": 0.667,
+    "win_rate_control": 0.0
+  },
+  "comparison_table_expansion_oriented": [
+    {
+      "strategy": "A_control",
+      "n": 15,
+      "expansion_win_rate": 0.0,
+      "final_bank_mean": 4169.93,
+      "melon_revenue_mean": null
+    },
+    {
+      "strategy": "C_melon_avoidance",
+      "n": 4,
+      "expansion_win_rate": 0.0,
+      "final_bank_mean": 10727.0,
+      "melon_revenue_mean": 0.0
+    },
+    {
+      "strategy": "D_production_substitution",
+      "n": 15,
+      "expansion_win_rate": 0.667,
+      "final_bank_mean": 22531.93,
+      "melon_revenue_mean": 0.0
+    },
+    {
+      "strategy": "E_market_timing",
+      "n": 4,
+      "expansion_win_rate": 0.0,
+      "final_bank_mean": 0.0,
+      "melon_revenue_mean": 0.0
+    }
+  ],
+  "variant_D_overall_across_all_archetypes": {
+    "n": 81,
+    "overall_win_rate": 0.889
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "phase": "2.6",
+  "taxonomy": ["economic_valuation", "opportunity_cost", "timing", "liquidation", "inventory", "labor",
+               "land", "animal", "fertilizer", "market", "state_representation", "execution",
+               "uncertainty_handling", "terminal_horizon"],
+  "failures": [
+    {
+      "failure_id": "P26-001",
+      "category": "animal",
+      "severity": "high",
+      "seed": "n/a (found during smoke-test development, not a specific evaluation seed)",
+      "state": "day 0, cash $3000, no committed animals",
+      "planner_decision": "SELECTED BUY_ANIMAL for COW, SHEEP, and GOOSE simultaneously in one planning cycle",
+      "expected_value": "sum of 3 independently-calibrated animal_production_value() estimates (~$13,273 combined)",
+      "actual_outcome": "no jointly-validated evidence exists for 3 simultaneous animal species -- F5/F6/F7 each "
+                         "tested exactly ONE animal alongside a crop; a later full-episode run showed one of the "
+                         "two purchased animals (COW) produced ZERO units while the other (SHEEP) produced 21, "
+                         "consistent with real, previously-untested multi-animal labor contention",
+      "root_cause": "each BUY_ANIMAL candidate is evaluated independently by evaluator.py, with no model of "
+                     "cross-candidate labor competition among multiple simultaneously-committed animals -- a "
+                     "genuine economic_model gap (Phase 2.5's inventory flagged 'whether sub-additivity worsens "
+                     "as animal count scales' as UNKNOWN; this is a direct instance of that exact gap)",
+      "reproducible": true,
+      "fix": "capped total committed animals (across all species) at 2, matching the ONLY jointly-validated "
+             "multi-animal configuration (Phase 2.3 F13's GOOSE+COW pair) -- enforced in both "
+             "agents/phase2_6/opportunities.py (per-cycle candidate gating) and "
+             "agents/phase2_6/decisions.py (cross-lane cap during selection, since each species is its own "
+             "lane and per-lane independence alone doesn't prevent 3 simultaneous purchases)",
+      "regression_test": "not yet automated as a regression test (the fix is structural/capacity-based, "
+                          "verified by direct trace inspection during development, not a scripted assertion) -- "
+                          "flagged as a Phase 2.6 limitation, not silently left unfixed",
+      "outcome": "FIXED (the cap), but the UNDERLYING labor-contention-among-multiple-animals question "
+                 "remains genuinely UNKNOWN and unresolved -- documented, not fabricated an answer for"
+    },
+    {
+      "failure_id": "P26-002",
+      "category": "labor",
+      "severity": "high",
+      "seed": "n/a (found during smoke-test development)",
+      "state": "every day boundary, after day 0",
+      "planner_decision": "SELECTED 'hire hand #1' repeatedly, every single day, never progressing to hand #2/#3",
+      "expected_value": "N/A -- this was a candidate-generation bug, not a valuation error",
+      "actual_outcome": "n_hands never grew past 1 in the tactical execution layer despite the planner "
+                         "believing it had committed to increasing hands",
+      "root_cause": "opportunities.py and evaluator.py originally read `state.n_hands` (freshly adapted from "
+                     "`obs` at the exact day-boundary planning moment) to decide which hand-count to propose "
+                     "next -- but hands are cleared every day by design (VERIFIED, kaggriculture.py::"
+                     "_end_of_day), so `state.n_hands` is STRUCTURALLY always 0 at that exact moment, "
+                     "regardless of any previously-committed target. This is a state-representation error: "
+                     "conflating the momentarily-OBSERVED value with the planner's own COMMITTED target.",
+      "reproducible": true,
+      "fix": "opportunities.py and evaluator.py now read the committed target from `current_config['n_hands']` "
+             "instead of `state.n_hands` when generating/evaluating HIRE_HAND/REDUCE_HANDS candidates",
+      "regression_test": "not yet automated as a dedicated regression test (caught and fixed via smoke-test "
+                          "trace inspection); the general determinism/candidate-generation tests in "
+                          "scripts/phase2_6_regression_tests.py would not have caught this specific class of "
+                          "bug -- flagged as a real gap in current test coverage",
+      "outcome": "FIXED, verified via smoke test (hand #1 then hand #2 correctly proposed on subsequent cycles)"
+    },
+    {
+      "failure_id": "P26-003",
+      "category": "execution",
+      "severity": "medium",
+      "seed": "n/a (found during smoke-test development)",
+      "state": "post-action verification, every cycle after the first",
+      "planner_decision": "N/A -- a verification-logic bug, not a decision error",
+      "expected_value": "N/A",
+      "actual_outcome": "HIRE_HAND decisions were reported 'verified' even when hiring may have silently "
+                         "failed, because the verification check compared `state_now.n_hands` (always 0 at a "
+                         "day boundary, same root mechanic as P26-002) against a baseline that was also 0 -- "
+                         "trivially satisfied regardless of actual success",
+      "root_cause": "same underlying mechanic as P26-002 (hands reset daily), applied incorrectly in "
+                     "post-action verification rather than candidate generation",
+      "reproducible": true,
+      "fix": "HIRE_HAND/REDUCE_HANDS verification no longer attempts to observe hand COUNT at a day boundary "
+             "(structurally impossible); it verifies that the config target was carried forward to the "
+             "execution layer instead, with an explicit caveat recorded in the trace",
+      "regression_test": "none dedicated -- covered indirectly by the smoke test's prior_cycle_verification output",
+      "outcome": "FIXED"
+    },
+    {
+      "failure_id": "P26-004",
+      "category": "economic_valuation",
+      "severity": "medium",
+      "seed": "n/a (found during smoke-test development)",
+      "state": "day 0 -> day 1 -> day 2, crop portfolio choice",
+      "planner_decision": "SELECTED 'switch crop portfolio' every day, alternating between melon_solo and "
+                           "melon_strawberry",
+      "expected_value": "each switch's independently-evaluated net_expected_value edged out the current "
+                         "portfolio's by a small, noisy margin",
+      "actual_outcome": "daily portfolio thrashing, with each switch discarding whatever the previous "
+                         "portfolio had already invested/grown -- a large, unmeasured hidden cost the model "
+                         "has no function for",
+      "root_cause": "economic_model.crop_production_value() evaluates each candidate portfolio as if planted "
+                     "fresh from the current day, with no representation of sunk cost from an already-growing "
+                     "crop -- a genuine, documented economic_model gap, not something Phase 2.6 attempted to "
+                     "solve by adding a new (unvalidated) switching-cost formula",
+      "reproducible": true,
+      "fix": "the planner's own candidate generator now only proposes a portfolio choice ONCE (day 0, or "
+             "whenever no portfolio is yet committed) rather than re-opening the question every cycle -- a "
+             "structural workaround at the planner layer, not a fix to the underlying model gap (which "
+             "remains open, see Phase 2.6 report's limitations section)",
+      "regression_test": "scripts/phase2_6_regression_tests.py::test_candidate_generation (\"no "
+                          "portfolio-switch candidate once a portfolio is already committed\")",
+      "outcome": "WORKED AROUND at the planner layer; underlying economic_model gap (no switching-cost "
+                 "function) remains OPEN, documented as a Phase 2.6 limitation"
+    },
+    {
+      "failure_id": "P26-005",
+      "category": "economic_valuation",
+      "severity": "medium",
+      "seed": "development seed set (n=15 episodes)",
+      "state": "aggregate, whole-episode",
+      "planner_decision": "N/A -- an aggregate prediction-accuracy finding, not a single decision",
+      "expected_value": "sum of every SELECTED decision's net_expected_value across an episode: $38,641 "
+                         "(identical across all 15 development episodes, since day-0 decisions dominate the total)",
+      "actual_outcome": "actual final money across the same episodes: $21,970-$30,040 (mean ~$27,000) -- the "
+                         "model's summed predictions overestimate actual outcomes by roughly 30-40%",
+      "root_cause": "each candidate (hire hand, buy COW, buy SHEEP, switch portfolio, etc.) is calibrated "
+                     "SOLO (Phase 2.2/2.3's isolated experiments) and evaluated independently by evaluator.py; "
+                     "summing several solo-calibrated estimates double-counts value in exactly the way F7 "
+                     "already showed for ONE animal+crop pair (sub-additive, not additive) -- this is the same "
+                     "phenomenon at a larger scale (multiple simultaneous resource-lane decisions), not a new "
+                     "mechanism, but not currently corrected for in evaluator.py's arithmetic",
+      "reproducible": true,
+      "fix": "none applied this phase -- documented as a known, quantified (~30-40%) overestimation bias in "
+             "the model-vs-simulator validation (results/phase2_6/planner_v1/prediction_error_analysis.json) "
+             "rather than papering over it with an arbitrary discount factor, which the brief explicitly "
+             "prohibits ('no arbitrary weights without validation')",
+      "regression_test": "none -- this is an open calibration gap for Phase 2.6.1/Phase 3 to address with a "
+                          "properly validated joint (not summed-solo) calibration",
+      "outcome": "OPEN, quantified and documented, not fixed -- flagged for the next planner iteration"
+    }
+  ]
+}

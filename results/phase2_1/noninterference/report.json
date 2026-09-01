@@ -1,0 +1,28 @@
+{
+  "p0": "agents/baseline_agent.py",
+  "p1": "starter",
+  "steps": 200,
+  "seed": 42,
+  "run_a_final_money": [
+    3387.0,
+    3062.0
+  ],
+  "run_b_final_money": [
+    3387.0,
+    3062.0
+  ],
+  "run_a_statuses": [
+    "DONE",
+    "DONE"
+  ],
+  "run_b_statuses": [
+    "DONE",
+    "DONE"
+  ],
+  "n_actions_compared": 400,
+  "actions_identical": true,
+  "final_money_identical": true,
+  "statuses_identical": true,
+  "pipeline_non_mutating": true,
+  "overall": "PASS"
+}

@@ -1,0 +1,4 @@
+episode_index,seed,p0,p1,money0,money1,winner,status0,status1,runtime_s
+0,920,../agents/baseline_agent.py,pass,5813.0,3000.0,0,DONE,DONE,1.433
+1,921,../agents/baseline_agent.py,pass,5823.0,3000.0,0,DONE,DONE,1.625
+2,922,../agents/baseline_agent.py,pass,5653.0,3000.0,0,DONE,DONE,1.835

@@ -1,0 +1,16 @@
+ablation,seed_set,opponent,seed,planner_money,opponent_money,margin,win,validation,n_opponent_events_logged,n_strategy_switches
+planner_only,development,wheat_patroller,300000,28541.0,4438.0,24103.0,1,PARTIAL,719,0
+planner_only,development,wheat_patroller,300001,28380.0,4894.0,23486.0,1,PARTIAL,719,0
+planner_only,development,wheat_patroller,300002,28316.0,5587.0,22729.0,1,PARTIAL,719,0
+planner_only,development,wheat_patroller,300003,28771.0,5295.0,23476.0,1,PARTIAL,719,0
+planner_only,development,wheat_patroller,300004,27420.0,5831.0,21589.0,1,PARTIAL,719,0
+planner_only,development,phase2_3_integrated,300000,24732.0,9923.0,14809.0,1,PARTIAL,719,0
+planner_only,development,phase2_3_integrated,300001,21970.0,16356.0,5614.0,1,PARTIAL,719,0
+planner_only,development,phase2_3_integrated,300002,26377.0,8830.0,17547.0,1,PARTIAL,719,0
+planner_only,development,phase2_3_integrated,300003,24489.0,8678.0,15811.0,1,PARTIAL,719,0
+planner_only,development,phase2_3_integrated,300004,25094.0,9350.0,15744.0,1,PARTIAL,719,0
+planner_only,development,phase2_4_best,300000,29678.0,5132.0,24546.0,1,PARTIAL,719,0
+planner_only,development,phase2_4_best,300001,27892.0,10695.0,17197.0,1,PARTIAL,719,0
+planner_only,development,phase2_4_best,300002,29229.0,4446.0,24783.0,1,PARTIAL,719,0
+planner_only,development,phase2_4_best,300003,28550.0,4787.0,23763.0,1,PARTIAL,719,0
+planner_only,development,phase2_4_best,300004,30040.0,4559.0,25481.0,1,PARTIAL,719,0

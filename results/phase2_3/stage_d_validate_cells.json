@@ -1,0 +1,135 @@
+[
+  {
+    "cell_id": "labor_WHEAT_3h",
+    "kwargs": {
+      "crops": "WHEAT",
+      "n_hands": 3
+    },
+    "source_group": "a1_labor_sweep"
+  },
+  {
+    "cell_id": "labor_WHEAT_0h",
+    "kwargs": {
+      "crops": "WHEAT",
+      "n_hands": 0
+    },
+    "source_group": "a1_labor_sweep"
+  },
+  {
+    "cell_id": "labor_MELON_2h",
+    "kwargs": {
+      "crops": "MELON",
+      "n_hands": 2
+    },
+    "source_group": "a1_labor_sweep"
+  },
+  {
+    "cell_id": "labor_MELON_0h",
+    "kwargs": {
+      "crops": "MELON",
+      "n_hands": 0
+    },
+    "source_group": "a1_labor_sweep"
+  },
+  {
+    "cell_id": "land_0q_3h",
+    "kwargs": {
+      "crops": "MELON",
+      "land_quadrants": 0,
+      "n_hands": 3
+    },
+    "source_group": "a2_land_sweep"
+  },
+  {
+    "cell_id": "animal_COW_1h",
+    "kwargs": {
+      "animals": {
+        "COW": 1
+      },
+      "feed_source": "market",
+      "n_hands": 1
+    },
+    "source_group": "a3_animal_lifecycle"
+  },
+  {
+    "cell_id": "fert_none_2h",
+    "kwargs": {
+      "crops": "MELON",
+      "n_hands": 2
+    },
+    "source_group": "a4_fertilizer_retest"
+  },
+  {
+    "cell_id": "lxl_0q_2h",
+    "kwargs": {
+      "crops": "MELON",
+      "land_quadrants": 0,
+      "n_hands": 2
+    },
+    "source_group": "c1_land_x_labor"
+  },
+  {
+    "cell_id": "lxc_MELON_2h",
+    "kwargs": {
+      "crops": "MELON",
+      "n_hands": 2
+    },
+    "source_group": "c2_labor_x_crop"
+  },
+  {
+    "cell_id": "axc_crop_animal",
+    "kwargs": {
+      "animal_buy_day": 0,
+      "animals": {
+        "GOOSE": 1
+      },
+      "crops": "MELON",
+      "n_hands": 2
+    },
+    "source_group": "c3_animal_x_crop"
+  },
+  {
+    "cell_id": "axf_on_3h",
+    "kwargs": {
+      "animal_buy_day": 0,
+      "animals": {
+        "GOOSE": 1
+      },
+      "collect_fertilizer": true,
+      "crops": "MELON",
+      "fertilizer_apply": true,
+      "n_hands": 3
+    },
+    "source_group": "c4_animal_x_fertilizer"
+  },
+  {
+    "cell_id": "cxh_animal_day0",
+    "kwargs": {
+      "animal_buy_day": 0,
+      "animals": {
+        "GOOSE": 1
+      },
+      "crops": "MELON",
+      "n_hands": 2
+    },
+    "source_group": "c5_capital_x_horizon"
+  },
+  {
+    "cell_id": "inv_high",
+    "kwargs": {
+      "animal_buy_day": 0,
+      "animals": {
+        "COW": 1,
+        "GOOSE": 1
+      },
+      "crops": {
+        "MELON": 0.5,
+        "STRAWBERRY": 0.5
+      },
+      "land_buy_day": 0,
+      "land_quadrants": 1,
+      "n_hands": 4
+    },
+    "source_group": "c6_inventory_bottleneck"
+  }
+]

@@ -1,0 +1,11 @@
+episode_index,seed,p0,p1,money0,money1,winner,status0,status1,runtime_s
+0,2000,pass,random,3000.0,0.0,0,DONE,DONE,1.205
+1,2001,pass,random,3000.0,0.0,0,DONE,DONE,1.229
+2,2002,pass,random,3000.0,0.0,0,DONE,DONE,1.676
+3,2003,pass,random,3000.0,0.0,0,DONE,DONE,1.464
+4,2004,pass,random,3000.0,0.0,0,DONE,DONE,1.398
+5,2005,pass,random,3000.0,0.0,0,DONE,DONE,1.604
+6,2006,pass,random,3000.0,0.0,0,DONE,DONE,1.552
+7,2007,pass,random,3000.0,0.0,0,DONE,DONE,1.405
+8,2008,pass,random,3000.0,0.0,0,DONE,DONE,1.460
+9,2009,pass,random,3000.0,0.0,0,DONE,DONE,1.572

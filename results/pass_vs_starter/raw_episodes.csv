@@ -1,0 +1,11 @@
+episode_index,seed,p0,p1,money0,money1,winner,status0,status1,runtime_s
+0,3000,pass,starter,3000.0,3421.0,1,DONE,DONE,1.167
+1,3001,pass,starter,3000.0,3592.0,1,DONE,DONE,1.153
+2,3002,pass,starter,3000.0,3425.0,1,DONE,DONE,1.486
+3,3003,pass,starter,3000.0,3599.0,1,DONE,DONE,1.290
+4,3004,pass,starter,3000.0,3683.0,1,DONE,DONE,1.494
+5,3005,pass,starter,3000.0,3441.0,1,DONE,DONE,1.433
+6,3006,pass,starter,3000.0,3602.0,1,DONE,DONE,1.382
+7,3007,pass,starter,3000.0,3421.0,1,DONE,DONE,1.340
+8,3008,pass,starter,3000.0,3460.0,1,DONE,DONE,1.465
+9,3009,pass,starter,3000.0,3892.0,1,DONE,DONE,1.212

@@ -1,0 +1,3790 @@
+{
+  "n_total_episodes": 336,
+  "cells": {
+    "B::b1_sale_timing_by_crop::b1_WHEAT_passive": {
+      "stage": "B",
+      "group": "b1_sale_timing_by_crop",
+      "cell_id": "b1_WHEAT_passive",
+      "n_episodes": 8,
+      "config": {
+        "crops": "WHEAT",
+        "n_hands": 2,
+        "sell_policy": {
+          "mode": "passive"
+        }
+      },
+      "final_money": {
+        "n": 8,
+        "mean": 7988.875,
+        "median": 8292.0,
+        "stdev": 928.129,
+        "min": 6284.0,
+        "max": 9144.0
+      },
+      "profit": {
+        "n": 8,
+        "mean": 4988.875,
+        "median": 5292.0,
+        "stdev": 928.129,
+        "min": 3284.0,
+        "max": 6144.0
+      },
+      "revenue_total": {
+        "n": 8,
+        "mean": 8095.125,
+        "median": 8402.0,
+        "stdev": 933.427,
+        "min": 6394.0,
+        "max": 9254.0
+      },
+      "avg_realized_price_overall": {
+        "n": 8,
+        "mean": 29.675,
+        "median": 30.777,
+        "stdev": 3.387,
+        "min": 23.421,
+        "max": 33.897
+      },
+      "sold_units_total": {
+        "n": 8,
+        "mean": 272.75,
+        "median": 273.0,
+        "stdev": 0.661,
+        "min": 271.0,
+        "max": 273.0
+      },
+      "win_rate": 1.0,
+      "money_margin": {
+        "n": 8,
+        "mean": 4988.875,
+        "median": 5292.0,
+        "stdev": 928.129,
+        "min": 3284.0,
+        "max": 6144.0
+      },
+      "inventory_overflow_rate": 0.0,
+      "validation_pass_rate": 1.0,
+      "validation_partial_rate": 0.0,
+      "validation_fail_rate": 0.0,
+      "seeds": [
+        "200000",
+        "200001",
+        "200002",
+        "200003",
+        "200004",
+        "200005",
+        "200006",
+        "200007"
+      ],
+      "per_seed_final_money": {
+        "200000": 8025.0,
+        "200001": 8462.0,
+        "200002": 8725.0,
+        "200003": 6687.0,
+        "200004": 8341.0,
+        "200005": 8243.0,
+        "200006": 6284.0,
+        "200007": 9144.0
+      }
+    },
+    "B::b1_sale_timing_by_crop::b1_WHEAT_threshold_0.9": {
+      "stage": "B",
+      "group": "b1_sale_timing_by_crop",
+      "cell_id": "b1_WHEAT_threshold_0.9",
+      "n_episodes": 8,
+      "config": {
+        "crops": "WHEAT",
+        "n_hands": 2,
+        "sell_policy": {
+          "mode": "threshold",
+          "threshold_frac": 0.9
+        }
+      },
+      "final_money": {
+        "n": 8,
+        "mean": 7993.125,
+        "median": 8292.0,
+        "stdev": 921.47,
+        "min": 6297.0,
+        "max": 9144.0
+      },
+      "profit": {
+        "n": 8,
+        "mean": 4993.125,
+        "median": 5292.0,
+        "stdev": 921.47,
+        "min": 3297.0,
+        "max": 6144.0
+      },
+      "revenue_total": {
+        "n": 8,
+        "mean": 8099.375,
+        "median": 8402.0,
+        "stdev": 926.738,
+        "min": 6407.0,
+        "max": 9254.0
+      },
+      "avg_realized_price_overall": {
+        "n": 8,
+        "mean": 29.691,
+        "median": 30.777,
+        "stdev": 3.363,
+        "min": 23.469,
+        "max": 33.897
+      },
+      "sold_units_total": {
+        "n": 8,
+        "mean": 272.75,
+        "median": 273.0,
+        "stdev": 0.661,
+        "min": 271.0,
+        "max": 273.0
+      },
+      "win_rate": 1.0,
+      "money_margin": {
+        "n": 8,
+        "mean": 4993.125,
+        "median": 5292.0,
+        "stdev": 921.47,
+        "min": 3297.0,
+        "max": 6144.0
+      },
+      "inventory_overflow_rate": 0.0,
+      "validation_pass_rate": 1.0,
+      "validation_partial_rate": 0.0,
+      "validation_fail_rate": 0.0,
+      "seeds": [
+        "200000",
+        "200001",
+        "200002",
+        "200003",
+        "200004",
+        "200005",
+        "200006",
+        "200007"
+      ],
+      "per_seed_final_money": {
+        "200000": 8025.0,
+        "200001": 8462.0,
+        "200002": 8725.0,
+        "200003": 6708.0,
+        "200004": 8341.0,
+        "200005": 8243.0,
+        "200006": 6297.0,
+        "200007": 9144.0
+      }
+    },
+    "B::b1_sale_timing_by_crop::b1_WHEAT_threshold_1.0": {
+      "stage": "B",
+      "group": "b1_sale_timing_by_crop",
+      "cell_id": "b1_WHEAT_threshold_1.0",
+      "n_episodes": 8,
+      "config": {
+        "crops": "WHEAT",
+        "n_hands": 2,
+        "sell_policy": {
+          "mode": "threshold",
+          "threshold_frac": 1.0
+        }
+      },
+      "final_money": {
+        "n": 8,
+        "mean": 8042.0,
+        "median": 8316.0,
+        "stdev": 880.021,
+        "min": 6445.0,
+        "max": 9168.0
+      },
+      "profit": {
+        "n": 8,
+        "mean": 5042.0,
+        "median": 5316.0,
+        "stdev": 880.021,
+        "min": 3445.0,
+        "max": 6168.0
+      },
+      "revenue_total": {
+        "n": 8,
+        "mean": 8148.25,
+        "median": 8426.0,
+        "stdev": 885.324,
+        "min": 6555.0,
+        "max": 9278.0
+      },
+      "avg_realized_price_overall": {
+        "n": 8,
+        "mean": 29.87,
+        "median": 30.864,
+        "stdev": 3.21,
+        "min": 24.011,
+        "max": 33.985
+      },
+      "sold_units_total": {
+        "n": 8,
+        "mean": 272.75,
+        "median": 273.0,
+        "stdev": 0.661,
+        "min": 271.0,
+        "max": 273.0
+      },
+      "win_rate": 1.0,
+      "money_margin": {
+        "n": 8,
+        "mean": 5042.0,
+        "median": 5316.0,
+        "stdev": 880.021,
+        "min": 3445.0,
+        "max": 6168.0
+      },
+      "inventory_overflow_rate": 0.0,
+      "validation_pass_rate": 1.0,
+      "validation_partial_rate": 0.0,
+      "validation_fail_rate": 0.0,
+      "seeds": [
+        "200000",
+        "200001",
+        "200002",
+        "200003",
+        "200004",
+        "200005",
+        "200006",
+        "200007"
+      ],
+      "per_seed_final_money": {
+        "200000": 8049.0,
+        "200001": 8486.0,
+        "200002": 8749.0,
+        "200003": 6807.0,
+        "200004": 8365.0,
+        "200005": 8267.0,
+        "200006": 6445.0,
+        "200007": 9168.0
+      }
+    },
+    "B::b1_sale_timing_by_crop::b1_WHEAT_threshold_1.1": {
+      "stage": "B",
+      "group": "b1_sale_timing_by_crop",
+      "cell_id": "b1_WHEAT_threshold_1.1",
+      "n_episodes": 8,
+      "config": {
+        "crops": "WHEAT",
+        "n_hands": 2,
+        "sell_policy": {
+          "mode": "threshold",
+          "threshold_frac": 1.1
+        }
+      },
+      "final_money": {
+        "n": 8,
+        "mean": 8149.125,
+        "median": 8414.0,
+        "stdev": 860.691,
+        "min": 6587.0,
+        "max": 9259.0
+      },
+      "profit": {
+        "n": 8,
+        "mean": 5149.125,
+        "median": 5414.0,
+        "stdev": 860.691,
+        "min": 3587.0,
+        "max": 6259.0
+      },
+      "revenue_total": {
+        "n": 8,
+        "mean": 8255.375,
+        "median": 8524.0,
+        "stdev": 865.965,
+        "min": 6697.0,
+        "max": 9369.0
+      },
+      "avg_realized_price_overall": {
+        "n": 8,
+        "mean": 30.263,
+        "median": 31.223,
+        "stdev": 3.139,
+        "min": 24.531,
+        "max": 34.319
+      },
+      "sold_units_total": {
+        "n": 8,
+        "mean": 272.75,
+        "median": 273.0,
+        "stdev": 0.661,
+        "min": 271.0,
+        "max": 273.0
+      },
+      "win_rate": 1.0,
+      "money_margin": {
+        "n": 8,
+        "mean": 5149.125,
+        "median": 5414.0,
+        "stdev": 860.691,
+        "min": 3587.0,
+        "max": 6259.0
+      },
+      "inventory_overflow_rate": 0.0,
+      "validation_pass_rate": 1.0,
+      "validation_partial_rate": 0.0,
+      "validation_fail_rate": 0.0,
+      "seeds": [
+        "200000",
+        "200001",
+        "200002",
+        "200003",
+        "200004",
+        "200005",
+        "200006",
+        "200007"
+      ],
+      "per_seed_final_money": {
+        "200000": 8147.0,
+        "200001": 8584.0,
+        "200002": 8840.0,
+        "200003": 6948.0,
+        "200004": 8463.0,
+        "200005": 8365.0,
+        "200006": 6587.0,
+        "200007": 9259.0
+      }
+    },
+    "B::b1_sale_timing_by_crop::b1_WHEAT_batch_3d": {
+      "stage": "B",
+      "group": "b1_sale_timing_by_crop",
+      "cell_id": "b1_WHEAT_batch_3d",
+      "n_episodes": 8,
+      "config": {
+        "crops": "WHEAT",
+        "n_hands": 2,
+        "sell_policy": {
+          "batch_interval_days": 3,
+          "mode": "batch"
+        }
+      },
+      "final_money": {
+        "n": 8,
+        "mean": 7563.25,
+        "median": 7904.5,
+        "stdev": 924.622,
+        "min": 5863.0,
+        "max": 8636.0
+      },
+      "profit": {
+        "n": 8,
+        "mean": 4563.25,
+        "median": 4904.5,
+        "stdev": 924.622,
+        "min": 2863.0,
+        "max": 5636.0
+      },
+      "revenue_total": {
+        "n": 8,
+        "mean": 7669.5,
+        "median": 8014.5,
+        "stdev": 930.135,
+        "min": 5973.0,
+        "max": 8746.0
+      },
+      "avg_realized_price_overall": {
+        "n": 8,
+        "mean": 30.327,
+        "median": 31.678,
+        "stdev": 3.658,
+        "min": 23.609,
+        "max": 34.569
+      },
+      "sold_units_total": {
+        "n": 8,
+        "mean": 252.875,
+        "median": 253.0,
+        "stdev": 0.331,
+        "min": 252.0,
+        "max": 253.0
+      },
+      "win_rate": 1.0,
+      "money_margin": {
+        "n": 8,
+        "mean": 4563.25,
+        "median": 4904.5,
+        "stdev": 924.622,
+        "min": 2863.0,
+        "max": 5636.0
+      },
+      "inventory_overflow_rate": 0.0,
+      "validation_pass_rate": 1.0,
+      "validation_partial_rate": 0.0,
+      "validation_fail_rate": 0.0,
+      "seeds": [
+        "200000",
+        "200001",
+        "200002",
+        "200003",
+        "200004",
+        "200005",
+        "200006",
+        "200007"
+      ],
+      "per_seed_final_money": {
+        "200000": 7671.0,
+        "200001": 8054.0,
+        "200002": 8260.0,
+        "200003": 6213.0,
+        "200004": 7948.0,
+        "200005": 7861.0,
+        "200006": 5863.0,
+        "200007": 8636.0
+      }
+    },
+    "B::b1_sale_timing_by_crop::b1_WHEAT_batch_7d": {
+      "stage": "B",
+      "group": "b1_sale_timing_by_crop",
+      "cell_id": "b1_WHEAT_batch_7d",
+      "n_episodes": 8,
+      "config": {
+        "crops": "WHEAT",
+        "n_hands": 2,
+        "sell_policy": {
+          "batch_interval_days": 7,
+          "mode": "batch"
+        }
+      },
+      "final_money": {
+        "n": 8,
+        "mean": 8431.25,
+        "median": 8771.0,
+        "stdev": 961.124,
+        "min": 6646.0,
+        "max": 9584.0
+      },
+      "profit": {
+        "n": 8,
+        "mean": 5431.25,
+        "median": 5771.0,
+        "stdev": 961.124,
+        "min": 3646.0,
+        "max": 6584.0
+      },
+      "revenue_total": {
+        "n": 8,
+        "mean": 8537.5,
+        "median": 8881.0,
+        "stdev": 966.483,
+        "min": 6756.0,
+        "max": 9694.0
+      },
+      "avg_realized_price_overall": {
+        "n": 8,
+        "mean": 32.963,
+        "median": 34.29,
+        "stdev": 3.732,
+        "min": 26.085,
+        "max": 37.429
+      },
+      "sold_units_total": {
+        "n": 8,
+        "mean": 259.0,
+        "median": 259.0,
+        "stdev": 0.0,
+        "min": 259.0,
+        "max": 259.0
+      },
+      "win_rate": 1.0,
+      "money_margin": {
+        "n": 8,
+        "mean": 5431.25,
+        "median": 5771.0,
+        "stdev": 961.124,
+        "min": 3646.0,
+        "max": 6584.0
+      },
+      "inventory_overflow_rate": 0.0,
+      "validation_pass_rate": 1.0,
+      "validation_partial_rate": 0.0,
+      "validation_fail_rate": 0.0,
+      "seeds": [
+        "200000",
+        "200001",
+        "200002",
+        "200003",
+        "200004",
+        "200005",
+        "200006",
+        "200007"
+      ],
+      "per_seed_final_money": {
+        "200000": 8525.0,
+        "200001": 8936.0,
+        "200002": 9150.0,
+        "200003": 7067.0,
+        "200004": 8802.0,
+        "200005": 8740.0,
+        "200006": 6646.0,
+        "200007": 9584.0
+      }
+    },
+    "B::b1_sale_timing_by_crop::b1_WHEAT_threshold_batch": {
+      "stage": "B",
+      "group": "b1_sale_timing_by_crop",
+      "cell_id": "b1_WHEAT_threshold_batch",
+      "n_episodes": 8,
+      "config": {
+        "crops": "WHEAT",
+        "n_hands": 2,
+        "sell_policy": {
+          "batch_interval_days": 7,
+          "mode": "threshold_batch",
+          "threshold_frac": 1.1
+        }
+      },
+      "final_money": {
+        "n": 8,
+        "mean": 8125.5,
+        "median": 8401.0,
+        "stdev": 878.061,
+        "min": 6526.0,
+        "max": 9246.0
+      },
+      "profit": {
+        "n": 8,
+        "mean": 5125.5,
+        "median": 5401.0,
+        "stdev": 878.061,
+        "min": 3526.0,
+        "max": 6246.0
+      },
+      "revenue_total": {
+        "n": 8,
+        "mean": 8231.75,
+        "median": 8511.0,
+        "stdev": 883.343,
+        "min": 6636.0,
+        "max": 9356.0
+      },
+      "avg_realized_price_overall": {
+        "n": 8,
+        "mean": 30.177,
+        "median": 31.176,
+        "stdev": 3.203,
+        "min": 24.308,
+        "max": 34.271
+      },
+      "sold_units_total": {
+        "n": 8,
+        "mean": 272.75,
+        "median": 273.0,
+        "stdev": 0.661,
+        "min": 271.0,
+        "max": 273.0
+      },
+      "win_rate": 1.0,
+      "money_margin": {
+        "n": 8,
+        "mean": 5125.5,
+        "median": 5401.0,
+        "stdev": 878.061,
+        "min": 3526.0,
+        "max": 6246.0
+      },
+      "inventory_overflow_rate": 0.0,
+      "validation_pass_rate": 1.0,
+      "validation_partial_rate": 0.0,
+      "validation_fail_rate": 0.0,
+      "seeds": [
+        "200000",
+        "200001",
+        "200002",
+        "200003",
+        "200004",
+        "200005",
+        "200006",
+        "200007"
+      ],
+      "per_seed_final_money": {
+        "200000": 8134.0,
+        "200001": 8571.0,
+        "200002": 8827.0,
+        "200003": 6898.0,
+        "200004": 8450.0,
+        "200005": 8352.0,
+        "200006": 6526.0,
+        "200007": 9246.0
+      }
+    },
+    "B::b1_sale_timing_by_crop::b1_MELON_passive": {
+      "stage": "B",
+      "group": "b1_sale_timing_by_crop",
+      "cell_id": "b1_MELON_passive",
+      "n_episodes": 8,
+      "config": {
+        "crops": "MELON",
+        "n_hands": 2,
+        "sell_policy": {
+          "mode": "passive"
+        }
+      },
+      "final_money": {
+        "n": 8,
+        "mean": 27891.0,
+        "median": 27891.0,
+        "stdev": 0.0,
+        "min": 27891.0,
+        "max": 27891.0
+      },
+      "profit": {
+        "n": 8,
+        "mean": 24891.0,
+        "median": 24891.0,
+        "stdev": 0.0,
+        "min": 24891.0,
+        "max": 24891.0
+      },
+      "revenue_total": {
+        "n": 8,
+        "mean": 31191.0,
+        "median": 31191.0,
+        "stdev": 0.0,
+        "min": 31191.0,
+        "max": 31191.0
+      },
+      "avg_realized_price_overall": {
+        "n": 8,
+        "mean": 143.078,
+        "median": 143.078,
+        "stdev": 0.0,
+        "min": 143.078,
+        "max": 143.078
+      },
+      "sold_units_total": {
+        "n": 8,
+        "mean": 218.0,
+        "median": 218.0,
+        "stdev": 0.0,
+        "min": 218.0,
+        "max": 218.0
+      },
+      "win_rate": 1.0,
+      "money_margin": {
+        "n": 8,
+        "mean": 24891.0,
+        "median": 24891.0,
+        "stdev": 0.0,
+        "min": 24891.0,
+        "max": 24891.0
+      },
+      "inventory_overflow_rate": 0.0,
+      "validation_pass_rate": 1.0,
+      "validation_partial_rate": 0.0,
+      "validation_fail_rate": 0.0,
+      "seeds": [
+        "200000",
+        "200001",
+        "200002",
+        "200003",
+        "200004",
+        "200005",
+        "200006",
+        "200007"
+      ],
+      "per_seed_final_money": {
+        "200000": 27891.0,
+        "200001": 27891.0,
+        "200002": 27891.0,
+        "200003": 27891.0,
+        "200004": 27891.0,
+        "200005": 27891.0,
+        "200006": 27891.0,
+        "200007": 27891.0
+      }
+    },
+    "B::b1_sale_timing_by_crop::b1_MELON_threshold_0.9": {
+      "stage": "B",
+      "group": "b1_sale_timing_by_crop",
+      "cell_id": "b1_MELON_threshold_0.9",
+      "n_episodes": 8,
+      "config": {
+        "crops": "MELON",
+        "n_hands": 2,
+        "sell_policy": {
+          "mode": "threshold",
+          "threshold_frac": 0.9
+        }
+      },
+      "final_money": {
+        "n": 8,
+        "mean": 28491.0,
+        "median": 28491.0,
+        "stdev": 0.0,
+        "min": 28491.0,
+        "max": 28491.0
+      },
+      "profit": {
+        "n": 8,
+        "mean": 25491.0,
+        "median": 25491.0,
+        "stdev": 0.0,
+        "min": 25491.0,
+        "max": 25491.0
+      },
+      "revenue_total": {
+        "n": 8,
+        "mean": 31791.0,
+        "median": 31791.0,
+        "stdev": 0.0,
+        "min": 31791.0,
+        "max": 31791.0
+      },
+      "avg_realized_price_overall": {
+        "n": 8,
+        "mean": 145.83,
+        "median": 145.83,
+        "stdev": 0.0,
+        "min": 145.83,
+        "max": 145.83
+      },
+      "sold_units_total": {
+        "n": 8,
+        "mean": 218.0,
+        "median": 218.0,
+        "stdev": 0.0,
+        "min": 218.0,
+        "max": 218.0
+      },
+      "win_rate": 1.0,
+      "money_margin": {
+        "n": 8,
+        "mean": 25491.0,
+        "median": 25491.0,
+        "stdev": 0.0,
+        "min": 25491.0,
+        "max": 25491.0
+      },
+      "inventory_overflow_rate": 0.0,
+      "validation_pass_rate": 1.0,
+      "validation_partial_rate": 0.0,
+      "validation_fail_rate": 0.0,
+      "seeds": [
+        "200000",
+        "200001",
+        "200002",
+        "200003",
+        "200004",
+        "200005",
+        "200006",
+        "200007"
+      ],
+      "per_seed_final_money": {
+        "200000": 28491.0,
+        "200001": 28491.0,
+        "200002": 28491.0,
+        "200003": 28491.0,
+        "200004": 28491.0,
+        "200005": 28491.0,
+        "200006": 28491.0,
+        "200007": 28491.0
+      }
+    },
+    "B::b1_sale_timing_by_crop::b1_MELON_threshold_1.0": {
+      "stage": "B",
+      "group": "b1_sale_timing_by_crop",
+      "cell_id": "b1_MELON_threshold_1.0",
+      "n_episodes": 8,
+      "config": {
+        "crops": "MELON",
+        "n_hands": 2,
+        "sell_policy": {
+          "mode": "threshold",
+          "threshold_frac": 1.0
+        }
+      },
+      "final_money": {
+        "n": 8,
+        "mean": 27730.0,
+        "median": 27730.0,
+        "stdev": 0.0,
+        "min": 27730.0,
+        "max": 27730.0
+      },
+      "profit": {
+        "n": 8,
+        "mean": 24730.0,
+        "median": 24730.0,
+        "stdev": 0.0,
+        "min": 24730.0,
+        "max": 24730.0
+      },
+      "revenue_total": {
+        "n": 8,
+        "mean": 31030.0,
+        "median": 31030.0,
+        "stdev": 0.0,
+        "min": 31030.0,
+        "max": 31030.0
+      },
+      "avg_realized_price_overall": {
+        "n": 8,
+        "mean": 195.157,
+        "median": 195.157,
+        "stdev": 0.0,
+        "min": 195.157,
+        "max": 195.157
+      },
+      "sold_units_total": {
+        "n": 8,
+        "mean": 159.0,
+        "median": 159.0,
+        "stdev": 0.0,
+        "min": 159.0,
+        "max": 159.0
+      },
+      "win_rate": 1.0,
+      "money_margin": {
+        "n": 8,
+        "mean": 24730.0,
+        "median": 24730.0,
+        "stdev": 0.0,
+        "min": 24730.0,
+        "max": 24730.0
+      },
+      "inventory_overflow_rate": 0.0,
+      "validation_pass_rate": 1.0,
+      "validation_partial_rate": 0.0,
+      "validation_fail_rate": 0.0,
+      "seeds": [
+        "200000",
+        "200001",
+        "200002",
+        "200003",
+        "200004",
+        "200005",
+        "200006",
+        "200007"
+      ],
+      "per_seed_final_money": {
+        "200000": 27730.0,
+        "200001": 27730.0,
+        "200002": 27730.0,
+        "200003": 27730.0,
+        "200004": 27730.0,
+        "200005": 27730.0,
+        "200006": 27730.0,
+        "200007": 27730.0
+      }
+    },
+    "B::b1_sale_timing_by_crop::b1_MELON_threshold_1.1": {
+      "stage": "B",
+      "group": "b1_sale_timing_by_crop",
+      "cell_id": "b1_MELON_threshold_1.1",
+      "n_episodes": 8,
+      "config": {
+        "crops": "MELON",
+        "n_hands": 2,
+        "sell_policy": {
+          "mode": "threshold",
+          "threshold_frac": 1.1
+        }
+      },
+      "final_money": {
+        "n": 8,
+        "mean": 28200.0,
+        "median": 28200.0,
+        "stdev": 0.0,
+        "min": 28200.0,
+        "max": 28200.0
+      },
+      "profit": {
+        "n": 8,
+        "mean": 25200.0,
+        "median": 25200.0,
+        "stdev": 0.0,
+        "min": 25200.0,
+        "max": 25200.0
+      },
+      "revenue_total": {
+        "n": 8,
+        "mean": 31820.0,
+        "median": 31820.0,
+        "stdev": 0.0,
+        "min": 31820.0,
+        "max": 31820.0
+      },
+      "avg_realized_price_overall": {
+        "n": 8,
+        "mean": 169.255,
+        "median": 169.255,
+        "stdev": 0.0,
+        "min": 169.255,
+        "max": 169.255
+      },
+      "sold_units_total": {
+        "n": 8,
+        "mean": 188.0,
+        "median": 188.0,
+        "stdev": 0.0,
+        "min": 188.0,
+        "max": 188.0
+      },
+      "win_rate": 1.0,
+      "money_margin": {
+        "n": 8,
+        "mean": 25200.0,
+        "median": 25200.0,
+        "stdev": 0.0,
+        "min": 25200.0,
+        "max": 25200.0
+      },
+      "inventory_overflow_rate": 0.0,
+      "validation_pass_rate": 1.0,
+      "validation_partial_rate": 0.0,
+      "validation_fail_rate": 0.0,
+      "seeds": [
+        "200000",
+        "200001",
+        "200002",
+        "200003",
+        "200004",
+        "200005",
+        "200006",
+        "200007"
+      ],
+      "per_seed_final_money": {
+        "200000": 28200.0,
+        "200001": 28200.0,
+        "200002": 28200.0,
+        "200003": 28200.0,
+        "200004": 28200.0,
+        "200005": 28200.0,
+        "200006": 28200.0,
+        "200007": 28200.0
+      }
+    },
+    "B::b1_sale_timing_by_crop::b1_MELON_batch_3d": {
+      "stage": "B",
+      "group": "b1_sale_timing_by_crop",
+      "cell_id": "b1_MELON_batch_3d",
+      "n_episodes": 8,
+      "config": {
+        "crops": "MELON",
+        "n_hands": 2,
+        "sell_policy": {
+          "batch_interval_days": 3,
+          "mode": "batch"
+        }
+      },
+      "final_money": {
+        "n": 8,
+        "mean": 27837.0,
+        "median": 27837.0,
+        "stdev": 0.0,
+        "min": 27837.0,
+        "max": 27837.0
+      },
+      "profit": {
+        "n": 8,
+        "mean": 24837.0,
+        "median": 24837.0,
+        "stdev": 0.0,
+        "min": 24837.0,
+        "max": 24837.0
+      },
+      "revenue_total": {
+        "n": 8,
+        "mean": 31457.0,
+        "median": 31457.0,
+        "stdev": 0.0,
+        "min": 31457.0,
+        "max": 31457.0
+      },
+      "avg_realized_price_overall": {
+        "n": 8,
+        "mean": 138.577,
+        "median": 138.577,
+        "stdev": 0.0,
+        "min": 138.577,
+        "max": 138.577
+      },
+      "sold_units_total": {
+        "n": 8,
+        "mean": 227.0,
+        "median": 227.0,
+        "stdev": 0.0,
+        "min": 227.0,
+        "max": 227.0
+      },
+      "win_rate": 1.0,
+      "money_margin": {
+        "n": 8,
+        "mean": 24837.0,
+        "median": 24837.0,
+        "stdev": 0.0,
+        "min": 24837.0,
+        "max": 24837.0
+      },
+      "inventory_overflow_rate": 0.0,
+      "validation_pass_rate": 1.0,
+      "validation_partial_rate": 0.0,
+      "validation_fail_rate": 0.0,
+      "seeds": [
+        "200000",
+        "200001",
+        "200002",
+        "200003",
+        "200004",
+        "200005",
+        "200006",
+        "200007"
+      ],
+      "per_seed_final_money": {
+        "200000": 27837.0,
+        "200001": 27837.0,
+        "200002": 27837.0,
+        "200003": 27837.0,
+        "200004": 27837.0,
+        "200005": 27837.0,
+        "200006": 27837.0,
+        "200007": 27837.0
+      }
+    },
+    "B::b1_sale_timing_by_crop::b1_MELON_batch_7d": {
+      "stage": "B",
+      "group": "b1_sale_timing_by_crop",
+      "cell_id": "b1_MELON_batch_7d",
+      "n_episodes": 8,
+      "config": {
+        "crops": "MELON",
+        "n_hands": 2,
+        "sell_policy": {
+          "batch_interval_days": 7,
+          "mode": "batch"
+        }
+      },
+      "final_money": {
+        "n": 8,
+        "mean": 28075.0,
+        "median": 28075.0,
+        "stdev": 0.0,
+        "min": 28075.0,
+        "max": 28075.0
+      },
+      "profit": {
+        "n": 8,
+        "mean": 25075.0,
+        "median": 25075.0,
+        "stdev": 0.0,
+        "min": 25075.0,
+        "max": 25075.0
+      },
+      "revenue_total": {
+        "n": 8,
+        "mean": 31695.0,
+        "median": 31695.0,
+        "stdev": 0.0,
+        "min": 31695.0,
+        "max": 31695.0
+      },
+      "avg_realized_price_overall": {
+        "n": 8,
+        "mean": 139.626,
+        "median": 139.626,
+        "stdev": 0.0,
+        "min": 139.626,
+        "max": 139.626
+      },
+      "sold_units_total": {
+        "n": 8,
+        "mean": 227.0,
+        "median": 227.0,
+        "stdev": 0.0,
+        "min": 227.0,
+        "max": 227.0
+      },
+      "win_rate": 1.0,
+      "money_margin": {
+        "n": 8,
+        "mean": 25075.0,
+        "median": 25075.0,
+        "stdev": 0.0,
+        "min": 25075.0,
+        "max": 25075.0
+      },
+      "inventory_overflow_rate": 0.0,
+      "validation_pass_rate": 1.0,
+      "validation_partial_rate": 0.0,
+      "validation_fail_rate": 0.0,
+      "seeds": [
+        "200000",
+        "200001",
+        "200002",
+        "200003",
+        "200004",
+        "200005",
+        "200006",
+        "200007"
+      ],
+      "per_seed_final_money": {
+        "200000": 28075.0,
+        "200001": 28075.0,
+        "200002": 28075.0,
+        "200003": 28075.0,
+        "200004": 28075.0,
+        "200005": 28075.0,
+        "200006": 28075.0,
+        "200007": 28075.0
+      }
+    },
+    "B::b1_sale_timing_by_crop::b1_MELON_threshold_batch": {
+      "stage": "B",
+      "group": "b1_sale_timing_by_crop",
+      "cell_id": "b1_MELON_threshold_batch",
+      "n_episodes": 8,
+      "config": {
+        "crops": "MELON",
+        "n_hands": 2,
+        "sell_policy": {
+          "batch_interval_days": 7,
+          "mode": "threshold_batch",
+          "threshold_frac": 1.1
+        }
+      },
+      "final_money": {
+        "n": 8,
+        "mean": 28075.0,
+        "median": 28075.0,
+        "stdev": 0.0,
+        "min": 28075.0,
+        "max": 28075.0
+      },
+      "profit": {
+        "n": 8,
+        "mean": 25075.0,
+        "median": 25075.0,
+        "stdev": 0.0,
+        "min": 25075.0,
+        "max": 25075.0
+      },
+      "revenue_total": {
+        "n": 8,
+        "mean": 31695.0,
+        "median": 31695.0,
+        "stdev": 0.0,
+        "min": 31695.0,
+        "max": 31695.0
+      },
+      "avg_realized_price_overall": {
+        "n": 8,
+        "mean": 139.626,
+        "median": 139.626,
+        "stdev": 0.0,
+        "min": 139.626,
+        "max": 139.626
+      },
+      "sold_units_total": {
+        "n": 8,
+        "mean": 227.0,
+        "median": 227.0,
+        "stdev": 0.0,
+        "min": 227.0,
+        "max": 227.0
+      },
+      "win_rate": 1.0,
+      "money_margin": {
+        "n": 8,
+        "mean": 25075.0,
+        "median": 25075.0,
+        "stdev": 0.0,
+        "min": 25075.0,
+        "max": 25075.0
+      },
+      "inventory_overflow_rate": 0.0,
+      "validation_pass_rate": 1.0,
+      "validation_partial_rate": 0.0,
+      "validation_fail_rate": 0.0,
+      "seeds": [
+        "200000",
+        "200001",
+        "200002",
+        "200003",
+        "200004",
+        "200005",
+        "200006",
+        "200007"
+      ],
+      "per_seed_final_money": {
+        "200000": 28075.0,
+        "200001": 28075.0,
+        "200002": 28075.0,
+        "200003": 28075.0,
+        "200004": 28075.0,
+        "200005": 28075.0,
+        "200006": 28075.0,
+        "200007": 28075.0
+      }
+    },
+    "C::c1_production_x_market::c1_simple_melon_2h_passive": {
+      "stage": "C",
+      "group": "c1_production_x_market",
+      "cell_id": "c1_simple_melon_2h_passive",
+      "n_episodes": 8,
+      "config": {
+        "crops": "MELON",
+        "n_hands": 2,
+        "sell_policy": {
+          "mode": "passive"
+        }
+      },
+      "final_money": {
+        "n": 8,
+        "mean": 27901.0,
+        "median": 27891.0,
+        "stdev": 26.458,
+        "min": 27891.0,
+        "max": 27971.0
+      },
+      "profit": {
+        "n": 8,
+        "mean": 24901.0,
+        "median": 24891.0,
+        "stdev": 26.458,
+        "min": 24891.0,
+        "max": 24971.0
+      },
+      "revenue_total": {
+        "n": 8,
+        "mean": 31191.0,
+        "median": 31191.0,
+        "stdev": 0.0,
+        "min": 31191.0,
+        "max": 31191.0
+      },
+      "avg_realized_price_overall": {
+        "n": 8,
+        "mean": 143.078,
+        "median": 143.078,
+        "stdev": 0.0,
+        "min": 143.078,
+        "max": 143.078
+      },
+      "sold_units_total": {
+        "n": 8,
+        "mean": 218.0,
+        "median": 218.0,
+        "stdev": 0.0,
+        "min": 218.0,
+        "max": 218.0
+      },
+      "win_rate": 1.0,
+      "money_margin": {
+        "n": 8,
+        "mean": 24901.0,
+        "median": 24891.0,
+        "stdev": 26.458,
+        "min": 24891.0,
+        "max": 24971.0
+      },
+      "inventory_overflow_rate": 0.0,
+      "validation_pass_rate": 1.0,
+      "validation_partial_rate": 0.0,
+      "validation_fail_rate": 0.0,
+      "seeds": [
+        "200100",
+        "200101",
+        "200102",
+        "200103",
+        "200104",
+        "200105",
+        "200106",
+        "200107"
+      ],
+      "per_seed_final_money": {
+        "200100": 27891.0,
+        "200101": 27891.0,
+        "200102": 27891.0,
+        "200103": 27891.0,
+        "200104": 27891.0,
+        "200105": 27891.0,
+        "200106": 27971.0,
+        "200107": 27891.0
+      }
+    },
+    "C::c1_production_x_market::c1_simple_melon_2h_threshold_1.0": {
+      "stage": "C",
+      "group": "c1_production_x_market",
+      "cell_id": "c1_simple_melon_2h_threshold_1.0",
+      "n_episodes": 8,
+      "config": {
+        "crops": "MELON",
+        "n_hands": 2,
+        "sell_policy": {
+          "mode": "threshold",
+          "threshold_frac": 1.0
+        }
+      },
+      "final_money": {
+        "n": 8,
+        "mean": 27740.0,
+        "median": 27730.0,
+        "stdev": 26.458,
+        "min": 27730.0,
+        "max": 27810.0
+      },
+      "profit": {
+        "n": 8,
+        "mean": 24740.0,
+        "median": 24730.0,
+        "stdev": 26.458,
+        "min": 24730.0,
+        "max": 24810.0
+      },
+      "revenue_total": {
+        "n": 8,
+        "mean": 31030.0,
+        "median": 31030.0,
+        "stdev": 0.0,
+        "min": 31030.0,
+        "max": 31030.0
+      },
+      "avg_realized_price_overall": {
+        "n": 8,
+        "mean": 195.157,
+        "median": 195.157,
+        "stdev": 0.0,
+        "min": 195.157,
+        "max": 195.157
+      },
+      "sold_units_total": {
+        "n": 8,
+        "mean": 159.0,
+        "median": 159.0,
+        "stdev": 0.0,
+        "min": 159.0,
+        "max": 159.0
+      },
+      "win_rate": 1.0,
+      "money_margin": {
+        "n": 8,
+        "mean": 24740.0,
+        "median": 24730.0,
+        "stdev": 26.458,
+        "min": 24730.0,
+        "max": 24810.0
+      },
+      "inventory_overflow_rate": 0.0,
+      "validation_pass_rate": 1.0,
+      "validation_partial_rate": 0.0,
+      "validation_fail_rate": 0.0,
+      "seeds": [
+        "200100",
+        "200101",
+        "200102",
+        "200103",
+        "200104",
+        "200105",
+        "200106",
+        "200107"
+      ],
+      "per_seed_final_money": {
+        "200100": 27730.0,
+        "200101": 27730.0,
+        "200102": 27730.0,
+        "200103": 27730.0,
+        "200104": 27730.0,
+        "200105": 27730.0,
+        "200106": 27810.0,
+        "200107": 27730.0
+      }
+    },
+    "C::c1_production_x_market::c1_simple_melon_2h_threshold_batch": {
+      "stage": "C",
+      "group": "c1_production_x_market",
+      "cell_id": "c1_simple_melon_2h_threshold_batch",
+      "n_episodes": 8,
+      "config": {
+        "crops": "MELON",
+        "n_hands": 2,
+        "sell_policy": {
+          "batch_interval_days": 7,
+          "mode": "threshold_batch",
+          "threshold_frac": 1.1
+        }
+      },
+      "final_money": {
+        "n": 8,
+        "mean": 28115.125,
+        "median": 28075.0,
+        "stdev": 106.161,
+        "min": 28075.0,
+        "max": 28396.0
+      },
+      "profit": {
+        "n": 8,
+        "mean": 25115.125,
+        "median": 25075.0,
+        "stdev": 106.161,
+        "min": 25075.0,
+        "max": 25396.0
+      },
+      "revenue_total": {
+        "n": 8,
+        "mean": 31695.125,
+        "median": 31695.0,
+        "stdev": 0.331,
+        "min": 31695.0,
+        "max": 31696.0
+      },
+      "avg_realized_price_overall": {
+        "n": 8,
+        "mean": 139.55,
+        "median": 139.626,
+        "stdev": 0.201,
+        "min": 139.018,
+        "max": 139.626
+      },
+      "sold_units_total": {
+        "n": 8,
+        "mean": 227.125,
+        "median": 227.0,
+        "stdev": 0.331,
+        "min": 227.0,
+        "max": 228.0
+      },
+      "win_rate": 1.0,
+      "money_margin": {
+        "n": 8,
+        "mean": 25115.125,
+        "median": 25075.0,
+        "stdev": 106.161,
+        "min": 25075.0,
+        "max": 25396.0
+      },
+      "inventory_overflow_rate": 0.0,
+      "validation_pass_rate": 1.0,
+      "validation_partial_rate": 0.0,
+      "validation_fail_rate": 0.0,
+      "seeds": [
+        "200100",
+        "200101",
+        "200102",
+        "200103",
+        "200104",
+        "200105",
+        "200106",
+        "200107"
+      ],
+      "per_seed_final_money": {
+        "200100": 28075.0,
+        "200101": 28075.0,
+        "200102": 28075.0,
+        "200103": 28075.0,
+        "200104": 28075.0,
+        "200105": 28075.0,
+        "200106": 28396.0,
+        "200107": 28075.0
+      }
+    },
+    "C::c1_production_x_market::c1_simple_melon_2h_batch_5d": {
+      "stage": "C",
+      "group": "c1_production_x_market",
+      "cell_id": "c1_simple_melon_2h_batch_5d",
+      "n_episodes": 8,
+      "config": {
+        "crops": "MELON",
+        "n_hands": 2,
+        "sell_policy": {
+          "batch_interval_days": 5,
+          "mode": "batch"
+        }
+      },
+      "final_money": {
+        "n": 8,
+        "mean": 28144.375,
+        "median": 28124.0,
+        "stdev": 53.907,
+        "min": 28124.0,
+        "max": 28287.0
+      },
+      "profit": {
+        "n": 8,
+        "mean": 25144.375,
+        "median": 25124.0,
+        "stdev": 53.907,
+        "min": 25124.0,
+        "max": 25287.0
+      },
+      "revenue_total": {
+        "n": 8,
+        "mean": 31724.375,
+        "median": 31744.0,
+        "stdev": 51.923,
+        "min": 31587.0,
+        "max": 31744.0
+      },
+      "avg_realized_price_overall": {
+        "n": 8,
+        "mean": 141.874,
+        "median": 142.35,
+        "stdev": 1.26,
+        "min": 138.54,
+        "max": 142.35
+      },
+      "sold_units_total": {
+        "n": 8,
+        "mean": 223.625,
+        "median": 223.0,
+        "stdev": 1.654,
+        "min": 223.0,
+        "max": 228.0
+      },
+      "win_rate": 1.0,
+      "money_margin": {
+        "n": 8,
+        "mean": 25144.375,
+        "median": 25124.0,
+        "stdev": 53.907,
+        "min": 25124.0,
+        "max": 25287.0
+      },
+      "inventory_overflow_rate": 0.0,
+      "validation_pass_rate": 1.0,
+      "validation_partial_rate": 0.0,
+      "validation_fail_rate": 0.0,
+      "seeds": [
+        "200100",
+        "200101",
+        "200102",
+        "200103",
+        "200104",
+        "200105",
+        "200106",
+        "200107"
+      ],
+      "per_seed_final_money": {
+        "200100": 28124.0,
+        "200101": 28124.0,
+        "200102": 28124.0,
+        "200103": 28124.0,
+        "200104": 28124.0,
+        "200105": 28124.0,
+        "200106": 28287.0,
+        "200107": 28124.0
+      }
+    },
+    "C::c1_production_x_market::c1_integrated_inv_high_passive": {
+      "stage": "C",
+      "group": "c1_production_x_market",
+      "cell_id": "c1_integrated_inv_high_passive",
+      "n_episodes": 8,
+      "config": {
+        "animal_buy_day": 0,
+        "animals": {
+          "COW": 1,
+          "GOOSE": 1
+        },
+        "crops": {
+          "MELON": 0.5,
+          "STRAWBERRY": 0.5
+        },
+        "land_buy_day": 0,
+        "land_quadrants": 1,
+        "n_hands": 4,
+        "sell_policy": {
+          "mode": "passive"
+        }
+      },
+      "final_money": {
+        "n": 8,
+        "mean": 31562.5,
+        "median": 32276.5,
+        "stdev": 2774.946,
+        "min": 26618.0,
+        "max": 34713.0
+      },
+      "profit": {
+        "n": 8,
+        "mean": 28562.5,
+        "median": 29276.5,
+        "stdev": 2774.946,
+        "min": 23618.0,
+        "max": 31713.0
+      },
+      "revenue_total": {
+        "n": 8,
+        "mean": 40389.371,
+        "median": 41269.565,
+        "stdev": 2490.174,
+        "min": 35636.65,
+        "max": 42978.268
+      },
+      "avg_realized_price_overall": {
+        "n": 8,
+        "mean": 219.621,
+        "median": 218.519,
+        "stdev": 2.52,
+        "min": 216.95,
+        "max": 224.632
+      },
+      "sold_units_total": {
+        "n": 8,
+        "mean": 183.875,
+        "median": 185.0,
+        "stdev": 10.706,
+        "min": 164.0,
+        "max": 196.0
+      },
+      "win_rate": 1.0,
+      "money_margin": {
+        "n": 8,
+        "mean": 28562.5,
+        "median": 29276.5,
+        "stdev": 2774.946,
+        "min": 23618.0,
+        "max": 31713.0
+      },
+      "inventory_overflow_rate": 0.0,
+      "validation_pass_rate": 0.5,
+      "validation_partial_rate": 0.5,
+      "validation_fail_rate": 0.0,
+      "seeds": [
+        "200100",
+        "200101",
+        "200102",
+        "200103",
+        "200104",
+        "200105",
+        "200106",
+        "200107"
+      ],
+      "per_seed_final_money": {
+        "200100": 26618.0,
+        "200101": 28126.0,
+        "200102": 31382.0,
+        "200103": 30541.0,
+        "200104": 34220.0,
+        "200105": 34713.0,
+        "200106": 33171.0,
+        "200107": 33729.0
+      }
+    },
+    "C::c1_production_x_market::c1_integrated_inv_high_threshold_1.0": {
+      "stage": "C",
+      "group": "c1_production_x_market",
+      "cell_id": "c1_integrated_inv_high_threshold_1.0",
+      "n_episodes": 8,
+      "config": {
+        "animal_buy_day": 0,
+        "animals": {
+          "COW": 1,
+          "GOOSE": 1
+        },
+        "crops": {
+          "MELON": 0.5,
+          "STRAWBERRY": 0.5
+        },
+        "land_buy_day": 0,
+        "land_quadrants": 1,
+        "n_hands": 4,
+        "sell_policy": {
+          "mode": "threshold",
+          "threshold_frac": 1.0
+        }
+      },
+      "final_money": {
+        "n": 8,
+        "mean": 21892.125,
+        "median": 23055.0,
+        "stdev": 4062.267,
+        "min": 13859.0,
+        "max": 27982.0
+      },
+      "profit": {
+        "n": 8,
+        "mean": 18892.125,
+        "median": 20055.0,
+        "stdev": 4062.267,
+        "min": 10859.0,
+        "max": 24982.0
+      },
+      "revenue_total": {
+        "n": 8,
+        "mean": 30712.308,
+        "median": 31467.476,
+        "stdev": 4008.902,
+        "min": 22876.755,
+        "max": 37476.417
+      },
+      "avg_realized_price_overall": {
+        "n": 8,
+        "mean": 222.264,
+        "median": 222.405,
+        "stdev": 5.365,
+        "min": 209.879,
+        "max": 228.515
+      },
+      "sold_units_total": {
+        "n": 8,
+        "mean": 137.875,
+        "median": 141.0,
+        "stdev": 15.463,
+        "min": 109.0,
+        "max": 164.0
+      },
+      "win_rate": 1.0,
+      "money_margin": {
+        "n": 8,
+        "mean": 18892.125,
+        "median": 20055.0,
+        "stdev": 4062.267,
+        "min": 10859.0,
+        "max": 24982.0
+      },
+      "inventory_overflow_rate": 0.0,
+      "validation_pass_rate": 0.25,
+      "validation_partial_rate": 0.75,
+      "validation_fail_rate": 0.0,
+      "seeds": [
+        "200100",
+        "200101",
+        "200102",
+        "200103",
+        "200104",
+        "200105",
+        "200106",
+        "200107"
+      ],
+      "per_seed_final_money": {
+        "200100": 13859.0,
+        "200101": 17719.0,
+        "200102": 27982.0,
+        "200103": 21300.0,
+        "200104": 23822.0,
+        "200105": 24345.0,
+        "200106": 22749.0,
+        "200107": 23361.0
+      }
+    },
+    "C::c1_production_x_market::c1_integrated_inv_high_threshold_batch": {
+      "stage": "C",
+      "group": "c1_production_x_market",
+      "cell_id": "c1_integrated_inv_high_threshold_batch",
+      "n_episodes": 8,
+      "config": {
+        "animal_buy_day": 0,
+        "animals": {
+          "COW": 1,
+          "GOOSE": 1
+        },
+        "crops": {
+          "MELON": 0.5,
+          "STRAWBERRY": 0.5
+        },
+        "land_buy_day": 0,
+        "land_quadrants": 1,
+        "n_hands": 4,
+        "sell_policy": {
+          "batch_interval_days": 7,
+          "mode": "threshold_batch",
+          "threshold_frac": 1.1
+        }
+      },
+      "final_money": {
+        "n": 8,
+        "mean": 31354.125,
+        "median": 31974.0,
+        "stdev": 2697.478,
+        "min": 26700.0,
+        "max": 34213.0
+      },
+      "profit": {
+        "n": 8,
+        "mean": 28354.125,
+        "median": 28974.0,
+        "stdev": 2697.478,
+        "min": 23700.0,
+        "max": 31213.0
+      },
+      "revenue_total": {
+        "n": 8,
+        "mean": 40185.321,
+        "median": 40682.138,
+        "stdev": 2383.024,
+        "min": 35717.719,
+        "max": 42908.205
+      },
+      "avg_realized_price_overall": {
+        "n": 8,
+        "mean": 220.209,
+        "median": 218.528,
+        "stdev": 3.134,
+        "min": 217.559,
+        "max": 227.358
+      },
+      "sold_units_total": {
+        "n": 8,
+        "mean": 182.5,
+        "median": 184.5,
+        "stdev": 10.794,
+        "min": 164.0,
+        "max": 194.0
+      },
+      "win_rate": 1.0,
+      "money_margin": {
+        "n": 8,
+        "mean": 28354.125,
+        "median": 28974.0,
+        "stdev": 2697.478,
+        "min": 23700.0,
+        "max": 31213.0
+      },
+      "inventory_overflow_rate": 0.0,
+      "validation_pass_rate": 0.25,
+      "validation_partial_rate": 0.75,
+      "validation_fail_rate": 0.0,
+      "seeds": [
+        "200100",
+        "200101",
+        "200102",
+        "200103",
+        "200104",
+        "200105",
+        "200106",
+        "200107"
+      ],
+      "per_seed_final_money": {
+        "200100": 26700.0,
+        "200101": 28212.0,
+        "200102": 30058.0,
+        "200103": 30635.0,
+        "200104": 34213.0,
+        "200105": 33874.0,
+        "200106": 33313.0,
+        "200107": 33828.0
+      }
+    },
+    "C::c1_production_x_market::c1_integrated_inv_high_batch_5d": {
+      "stage": "C",
+      "group": "c1_production_x_market",
+      "cell_id": "c1_integrated_inv_high_batch_5d",
+      "n_episodes": 8,
+      "config": {
+        "animal_buy_day": 0,
+        "animals": {
+          "COW": 1,
+          "GOOSE": 1
+        },
+        "crops": {
+          "MELON": 0.5,
+          "STRAWBERRY": 0.5
+        },
+        "land_buy_day": 0,
+        "land_quadrants": 1,
+        "n_hands": 4,
+        "sell_policy": {
+          "batch_interval_days": 5,
+          "mode": "batch"
+        }
+      },
+      "final_money": {
+        "n": 8,
+        "mean": 14863.25,
+        "median": 22638.0,
+        "stdev": 11034.542,
+        "min": 51.0,
+        "max": 24932.0
+      },
+      "profit": {
+        "n": 8,
+        "mean": 11863.25,
+        "median": 19638.0,
+        "stdev": 11034.542,
+        "min": -2949.0,
+        "max": 21932.0
+      },
+      "revenue_total": {
+        "n": 8,
+        "mean": 22441.621,
+        "median": 30582.873,
+        "stdev": 11394.046,
+        "min": 7558.0,
+        "max": 32626.888
+      },
+      "avg_realized_price_overall": {
+        "n": 8,
+        "mean": 230.782,
+        "median": 241.226,
+        "stdev": 27.9,
+        "min": 182.738,
+        "max": 263.12
+      },
+      "sold_units_total": {
+        "n": 8,
+        "mean": 92.75,
+        "median": 123.0,
+        "stdev": 41.445,
+        "min": 38.0,
+        "max": 130.0
+      },
+      "win_rate": 0.625,
+      "money_margin": {
+        "n": 8,
+        "mean": 11863.25,
+        "median": 19638.0,
+        "stdev": 11034.542,
+        "min": -2949.0,
+        "max": 21932.0
+      },
+      "inventory_overflow_rate": 0.0,
+      "validation_pass_rate": 0.75,
+      "validation_partial_rate": 0.25,
+      "validation_fail_rate": 0.0,
+      "seeds": [
+        "200100",
+        "200101",
+        "200102",
+        "200103",
+        "200104",
+        "200105",
+        "200106",
+        "200107"
+      ],
+      "per_seed_final_money": {
+        "200100": 51.0,
+        "200101": 211.0,
+        "200102": 23265.0,
+        "200103": 1720.0,
+        "200104": 24932.0,
+        "200105": 23204.0,
+        "200106": 22072.0,
+        "200107": 23451.0
+      }
+    },
+    "D::d1_inventory_holding::d1_threshold_1.0_safetyon": {
+      "stage": "D",
+      "group": "d1_inventory_holding",
+      "cell_id": "d1_threshold_1.0_safetyon",
+      "n_episodes": 8,
+      "config": {
+        "animal_buy_day": 0,
+        "animals": {
+          "COW": 1,
+          "GOOSE": 1
+        },
+        "crops": {
+          "MELON": 0.5,
+          "STRAWBERRY": 0.5
+        },
+        "land_buy_day": 0,
+        "land_quadrants": 1,
+        "n_hands": 4,
+        "sell_policy": {
+          "mode": "threshold",
+          "overflow_safety": true,
+          "threshold_frac": 1.0
+        }
+      },
+      "final_money": {
+        "n": 8,
+        "mean": 21729.75,
+        "median": 22218.5,
+        "stdev": 5001.22,
+        "min": 13581.0,
+        "max": 31137.0
+      },
+      "profit": {
+        "n": 8,
+        "mean": 18729.75,
+        "median": 19218.5,
+        "stdev": 5001.22,
+        "min": 10581.0,
+        "max": 28137.0
+      },
+      "revenue_total": {
+        "n": 8,
+        "mean": 30609.601,
+        "median": 30904.921,
+        "stdev": 5001.985,
+        "min": 21780.317,
+        "max": 40232.128
+      },
+      "avg_realized_price_overall": {
+        "n": 8,
+        "mean": 223.319,
+        "median": 224.638,
+        "stdev": 9.793,
+        "min": 201.67,
+        "max": 238.06
+      },
+      "sold_units_total": {
+        "n": 8,
+        "mean": 136.5,
+        "median": 140.0,
+        "stdev": 17.762,
+        "min": 108.0,
+        "max": 169.0
+      },
+      "win_rate": 1.0,
+      "money_margin": {
+        "n": 8,
+        "mean": 18729.75,
+        "median": 19218.5,
+        "stdev": 5001.22,
+        "min": 10581.0,
+        "max": 28137.0
+      },
+      "inventory_overflow_rate": 0.0,
+      "validation_pass_rate": 0.625,
+      "validation_partial_rate": 0.375,
+      "validation_fail_rate": 0.0,
+      "seeds": [
+        "200200",
+        "200201",
+        "200202",
+        "200203",
+        "200204",
+        "200205",
+        "200206",
+        "200207"
+      ],
+      "per_seed_final_money": {
+        "200200": 23079.0,
+        "200201": 19810.0,
+        "200202": 13581.0,
+        "200203": 31137.0,
+        "200204": 24430.0,
+        "200205": 23944.0,
+        "200206": 16499.0,
+        "200207": 21358.0
+      }
+    },
+    "D::d1_inventory_holding::d1_threshold_1.0_safetyoff": {
+      "stage": "D",
+      "group": "d1_inventory_holding",
+      "cell_id": "d1_threshold_1.0_safetyoff",
+      "n_episodes": 8,
+      "config": {
+        "animal_buy_day": 0,
+        "animals": {
+          "COW": 1,
+          "GOOSE": 1
+        },
+        "crops": {
+          "MELON": 0.5,
+          "STRAWBERRY": 0.5
+        },
+        "land_buy_day": 0,
+        "land_quadrants": 1,
+        "n_hands": 4,
+        "sell_policy": {
+          "mode": "threshold",
+          "overflow_safety": false,
+          "threshold_frac": 1.0
+        }
+      },
+      "final_money": {
+        "n": 8,
+        "mean": 21729.75,
+        "median": 22218.5,
+        "stdev": 5001.22,
+        "min": 13581.0,
+        "max": 31137.0
+      },
+      "profit": {
+        "n": 8,
+        "mean": 18729.75,
+        "median": 19218.5,
+        "stdev": 5001.22,
+        "min": 10581.0,
+        "max": 28137.0
+      },
+      "revenue_total": {
+        "n": 8,
+        "mean": 30609.601,
+        "median": 30904.921,
+        "stdev": 5001.985,
+        "min": 21780.317,
+        "max": 40232.128
+      },
+      "avg_realized_price_overall": {
+        "n": 8,
+        "mean": 223.319,
+        "median": 224.638,
+        "stdev": 9.793,
+        "min": 201.67,
+        "max": 238.06
+      },
+      "sold_units_total": {
+        "n": 8,
+        "mean": 136.5,
+        "median": 140.0,
+        "stdev": 17.762,
+        "min": 108.0,
+        "max": 169.0
+      },
+      "win_rate": 1.0,
+      "money_margin": {
+        "n": 8,
+        "mean": 18729.75,
+        "median": 19218.5,
+        "stdev": 5001.22,
+        "min": 10581.0,
+        "max": 28137.0
+      },
+      "inventory_overflow_rate": 0.0,
+      "validation_pass_rate": 0.625,
+      "validation_partial_rate": 0.375,
+      "validation_fail_rate": 0.0,
+      "seeds": [
+        "200200",
+        "200201",
+        "200202",
+        "200203",
+        "200204",
+        "200205",
+        "200206",
+        "200207"
+      ],
+      "per_seed_final_money": {
+        "200200": 23079.0,
+        "200201": 19810.0,
+        "200202": 13581.0,
+        "200203": 31137.0,
+        "200204": 24430.0,
+        "200205": 23944.0,
+        "200206": 16499.0,
+        "200207": 21358.0
+      }
+    },
+    "D::d1_inventory_holding::d1_threshold_1.3_safetyon": {
+      "stage": "D",
+      "group": "d1_inventory_holding",
+      "cell_id": "d1_threshold_1.3_safetyon",
+      "n_episodes": 8,
+      "config": {
+        "animal_buy_day": 0,
+        "animals": {
+          "COW": 1,
+          "GOOSE": 1
+        },
+        "crops": {
+          "MELON": 0.5,
+          "STRAWBERRY": 0.5
+        },
+        "land_buy_day": 0,
+        "land_quadrants": 1,
+        "n_hands": 4,
+        "sell_policy": {
+          "mode": "threshold",
+          "overflow_safety": true,
+          "threshold_frac": 1.3
+        }
+      },
+      "final_money": {
+        "n": 8,
+        "mean": 26614.25,
+        "median": 26790.0,
+        "stdev": 2106.495,
+        "min": 22964.0,
+        "max": 29783.0
+      },
+      "profit": {
+        "n": 8,
+        "mean": 23614.25,
+        "median": 23790.0,
+        "stdev": 2106.495,
+        "min": 19964.0,
+        "max": 26783.0
+      },
+      "revenue_total": {
+        "n": 8,
+        "mean": 35644.457,
+        "median": 35688.208,
+        "stdev": 1916.09,
+        "min": 31833.744,
+        "max": 38173.528
+      },
+      "avg_realized_price_overall": {
+        "n": 8,
+        "mean": 216.317,
+        "median": 212.012,
+        "stdev": 16.286,
+        "min": 196.602,
+        "max": 240.085
+      },
+      "sold_units_total": {
+        "n": 8,
+        "mean": 165.75,
+        "median": 163.0,
+        "stdev": 15.935,
+        "min": 146.0,
+        "max": 194.0
+      },
+      "win_rate": 1.0,
+      "money_margin": {
+        "n": 8,
+        "mean": 23614.25,
+        "median": 23790.0,
+        "stdev": 2106.495,
+        "min": 19964.0,
+        "max": 26783.0
+      },
+      "inventory_overflow_rate": 0.0,
+      "validation_pass_rate": 0.5,
+      "validation_partial_rate": 0.5,
+      "validation_fail_rate": 0.0,
+      "seeds": [
+        "200200",
+        "200201",
+        "200202",
+        "200203",
+        "200204",
+        "200205",
+        "200206",
+        "200207"
+      ],
+      "per_seed_final_money": {
+        "200200": 29783.0,
+        "200201": 24300.0,
+        "200202": 22964.0,
+        "200203": 29074.0,
+        "200204": 26516.0,
+        "200205": 27064.0,
+        "200206": 26099.0,
+        "200207": 27114.0
+      }
+    },
+    "D::d1_inventory_holding::d1_threshold_1.3_safetyoff": {
+      "stage": "D",
+      "group": "d1_inventory_holding",
+      "cell_id": "d1_threshold_1.3_safetyoff",
+      "n_episodes": 8,
+      "config": {
+        "animal_buy_day": 0,
+        "animals": {
+          "COW": 1,
+          "GOOSE": 1
+        },
+        "crops": {
+          "MELON": 0.5,
+          "STRAWBERRY": 0.5
+        },
+        "land_buy_day": 0,
+        "land_quadrants": 1,
+        "n_hands": 4,
+        "sell_policy": {
+          "mode": "threshold",
+          "overflow_safety": false,
+          "threshold_frac": 1.3
+        }
+      },
+      "final_money": {
+        "n": 8,
+        "mean": 1972.125,
+        "median": 2098.5,
+        "stdev": 1407.592,
+        "min": 10.0,
+        "max": 4011.0
+      },
+      "profit": {
+        "n": 8,
+        "mean": -1027.875,
+        "median": -901.5,
+        "stdev": 1407.592,
+        "min": -2990.0,
+        "max": 1011.0
+      },
+      "revenue_total": {
+        "n": 8,
+        "mean": 10881.58,
+        "median": 10875.099,
+        "stdev": 1633.439,
+        "min": 7628.0,
+        "max": 13502.526
+      },
+      "avg_realized_price_overall": {
+        "n": 8,
+        "mean": 124.892,
+        "median": 123.533,
+        "stdev": 13.846,
+        "min": 100.368,
+        "max": 148.379
+      },
+      "sold_units_total": {
+        "n": 8,
+        "mean": 87.0,
+        "median": 88.5,
+        "stdev": 8.078,
+        "min": 74.0,
+        "max": 98.0
+      },
+      "win_rate": 0.25,
+      "money_margin": {
+        "n": 8,
+        "mean": -1027.875,
+        "median": -901.5,
+        "stdev": 1407.592,
+        "min": -2990.0,
+        "max": 1011.0
+      },
+      "inventory_overflow_rate": 0.0,
+      "validation_pass_rate": 0.75,
+      "validation_partial_rate": 0.25,
+      "validation_fail_rate": 0.0,
+      "seeds": [
+        "200200",
+        "200201",
+        "200202",
+        "200203",
+        "200204",
+        "200205",
+        "200206",
+        "200207"
+      ],
+      "per_seed_final_money": {
+        "200200": 3805.0,
+        "200201": 10.0,
+        "200202": 43.0,
+        "200203": 4011.0,
+        "200204": 2436.0,
+        "200205": 2220.0,
+        "200206": 1977.0,
+        "200207": 1275.0
+      }
+    },
+    "D::d1_inventory_holding::d1_batch_10d_safetyon": {
+      "stage": "D",
+      "group": "d1_inventory_holding",
+      "cell_id": "d1_batch_10d_safetyon",
+      "n_episodes": 8,
+      "config": {
+        "animal_buy_day": 0,
+        "animals": {
+          "COW": 1,
+          "GOOSE": 1
+        },
+        "crops": {
+          "MELON": 0.5,
+          "STRAWBERRY": 0.5
+        },
+        "land_buy_day": 0,
+        "land_quadrants": 1,
+        "n_hands": 4,
+        "sell_policy": {
+          "batch_interval_days": 10,
+          "mode": "batch",
+          "overflow_safety": true
+        }
+      },
+      "final_money": {
+        "n": 8,
+        "mean": 1244.75,
+        "median": 1418.5,
+        "stdev": 790.418,
+        "min": 21.0,
+        "max": 2307.0
+      },
+      "profit": {
+        "n": 8,
+        "mean": -1755.25,
+        "median": -1581.5,
+        "stdev": 790.418,
+        "min": -2979.0,
+        "max": -693.0
+      },
+      "revenue_total": {
+        "n": 8,
+        "mean": 7101.375,
+        "median": 7276.0,
+        "stdev": 801.893,
+        "min": 5911.0,
+        "max": 8267.0
+      },
+      "avg_realized_price_overall": {
+        "n": 8,
+        "mean": 229.077,
+        "median": 234.71,
+        "stdev": 25.868,
+        "min": 190.677,
+        "max": 266.677
+      },
+      "sold_units_total": {
+        "n": 8,
+        "mean": 31.0,
+        "median": 31.0,
+        "stdev": 0.0,
+        "min": 31.0,
+        "max": 31.0
+      },
+      "win_rate": 0.0,
+      "money_margin": {
+        "n": 8,
+        "mean": -1755.25,
+        "median": -1581.5,
+        "stdev": 790.418,
+        "min": -2979.0,
+        "max": -693.0
+      },
+      "inventory_overflow_rate": 0.0,
+      "validation_pass_rate": 1.0,
+      "validation_partial_rate": 0.0,
+      "validation_fail_rate": 0.0,
+      "seeds": [
+        "200200",
+        "200201",
+        "200202",
+        "200203",
+        "200204",
+        "200205",
+        "200206",
+        "200207"
+      ],
+      "per_seed_final_money": {
+        "200200": 2018.0,
+        "200201": 1195.0,
+        "200202": 151.0,
+        "200203": 2307.0,
+        "200204": 1764.0,
+        "200205": 1642.0,
+        "200206": 21.0,
+        "200207": 860.0
+      }
+    },
+    "D::d1_inventory_holding::d1_batch_10d_safetyoff": {
+      "stage": "D",
+      "group": "d1_inventory_holding",
+      "cell_id": "d1_batch_10d_safetyoff",
+      "n_episodes": 8,
+      "config": {
+        "animal_buy_day": 0,
+        "animals": {
+          "COW": 1,
+          "GOOSE": 1
+        },
+        "crops": {
+          "MELON": 0.5,
+          "STRAWBERRY": 0.5
+        },
+        "land_buy_day": 0,
+        "land_quadrants": 1,
+        "n_hands": 4,
+        "sell_policy": {
+          "batch_interval_days": 10,
+          "mode": "batch",
+          "overflow_safety": false
+        }
+      },
+      "final_money": {
+        "n": 8,
+        "mean": 1244.75,
+        "median": 1418.5,
+        "stdev": 790.418,
+        "min": 21.0,
+        "max": 2307.0
+      },
+      "profit": {
+        "n": 8,
+        "mean": -1755.25,
+        "median": -1581.5,
+        "stdev": 790.418,
+        "min": -2979.0,
+        "max": -693.0
+      },
+      "revenue_total": {
+        "n": 8,
+        "mean": 7101.375,
+        "median": 7276.0,
+        "stdev": 801.893,
+        "min": 5911.0,
+        "max": 8267.0
+      },
+      "avg_realized_price_overall": {
+        "n": 8,
+        "mean": 229.077,
+        "median": 234.71,
+        "stdev": 25.868,
+        "min": 190.677,
+        "max": 266.677
+      },
+      "sold_units_total": {
+        "n": 8,
+        "mean": 31.0,
+        "median": 31.0,
+        "stdev": 0.0,
+        "min": 31.0,
+        "max": 31.0
+      },
+      "win_rate": 0.0,
+      "money_margin": {
+        "n": 8,
+        "mean": -1755.25,
+        "median": -1581.5,
+        "stdev": 790.418,
+        "min": -2979.0,
+        "max": -693.0
+      },
+      "inventory_overflow_rate": 0.0,
+      "validation_pass_rate": 1.0,
+      "validation_partial_rate": 0.0,
+      "validation_fail_rate": 0.0,
+      "seeds": [
+        "200200",
+        "200201",
+        "200202",
+        "200203",
+        "200204",
+        "200205",
+        "200206",
+        "200207"
+      ],
+      "per_seed_final_money": {
+        "200200": 2018.0,
+        "200201": 1195.0,
+        "200202": 151.0,
+        "200203": 2307.0,
+        "200204": 1764.0,
+        "200205": 1642.0,
+        "200206": 21.0,
+        "200207": 860.0
+      }
+    },
+    "E::e1_town_demand_timing::e1_passive": {
+      "stage": "E",
+      "group": "e1_town_demand_timing",
+      "cell_id": "e1_passive",
+      "n_episodes": 8,
+      "config": {
+        "crops": "MELON",
+        "n_hands": 2,
+        "sell_policy": {
+          "mode": "passive"
+        }
+      },
+      "final_money": {
+        "n": 8,
+        "mean": 27901.0,
+        "median": 27891.0,
+        "stdev": 26.458,
+        "min": 27891.0,
+        "max": 27971.0
+      },
+      "profit": {
+        "n": 8,
+        "mean": 24901.0,
+        "median": 24891.0,
+        "stdev": 26.458,
+        "min": 24891.0,
+        "max": 24971.0
+      },
+      "revenue_total": {
+        "n": 8,
+        "mean": 31191.0,
+        "median": 31191.0,
+        "stdev": 0.0,
+        "min": 31191.0,
+        "max": 31191.0
+      },
+      "avg_realized_price_overall": {
+        "n": 8,
+        "mean": 143.078,
+        "median": 143.078,
+        "stdev": 0.0,
+        "min": 143.078,
+        "max": 143.078
+      },
+      "sold_units_total": {
+        "n": 8,
+        "mean": 218.0,
+        "median": 218.0,
+        "stdev": 0.0,
+        "min": 218.0,
+        "max": 218.0
+      },
+      "win_rate": 1.0,
+      "money_margin": {
+        "n": 8,
+        "mean": 24901.0,
+        "median": 24891.0,
+        "stdev": 26.458,
+        "min": 24891.0,
+        "max": 24971.0
+      },
+      "inventory_overflow_rate": 0.0,
+      "validation_pass_rate": 1.0,
+      "validation_partial_rate": 0.0,
+      "validation_fail_rate": 0.0,
+      "seeds": [
+        "200300",
+        "200301",
+        "200302",
+        "200303",
+        "200304",
+        "200305",
+        "200306",
+        "200307"
+      ],
+      "per_seed_final_money": {
+        "200300": 27891.0,
+        "200301": 27891.0,
+        "200302": 27891.0,
+        "200303": 27891.0,
+        "200304": 27891.0,
+        "200305": 27971.0,
+        "200306": 27891.0,
+        "200307": 27891.0
+      }
+    },
+    "E::e1_town_demand_timing::e1_tick_after": {
+      "stage": "E",
+      "group": "e1_town_demand_timing",
+      "cell_id": "e1_tick_after",
+      "n_episodes": 8,
+      "config": {
+        "crops": "MELON",
+        "n_hands": 2,
+        "sell_policy": {
+          "align": "after",
+          "mode": "tick_timed"
+        }
+      },
+      "final_money": {
+        "n": 8,
+        "mean": 28196.0,
+        "median": 28186.0,
+        "stdev": 26.458,
+        "min": 28186.0,
+        "max": 28266.0
+      },
+      "profit": {
+        "n": 8,
+        "mean": 25196.0,
+        "median": 25186.0,
+        "stdev": 26.458,
+        "min": 25186.0,
+        "max": 25266.0
+      },
+      "revenue_total": {
+        "n": 8,
+        "mean": 31486.0,
+        "median": 31486.0,
+        "stdev": 0.0,
+        "min": 31486.0,
+        "max": 31486.0
+      },
+      "avg_realized_price_overall": {
+        "n": 8,
+        "mean": 144.431,
+        "median": 144.431,
+        "stdev": 0.0,
+        "min": 144.431,
+        "max": 144.431
+      },
+      "sold_units_total": {
+        "n": 8,
+        "mean": 218.0,
+        "median": 218.0,
+        "stdev": 0.0,
+        "min": 218.0,
+        "max": 218.0
+      },
+      "win_rate": 1.0,
+      "money_margin": {
+        "n": 8,
+        "mean": 25196.0,
+        "median": 25186.0,
+        "stdev": 26.458,
+        "min": 25186.0,
+        "max": 25266.0
+      },
+      "inventory_overflow_rate": 0.0,
+      "validation_pass_rate": 1.0,
+      "validation_partial_rate": 0.0,
+      "validation_fail_rate": 0.0,
+      "seeds": [
+        "200300",
+        "200301",
+        "200302",
+        "200303",
+        "200304",
+        "200305",
+        "200306",
+        "200307"
+      ],
+      "per_seed_final_money": {
+        "200300": 28186.0,
+        "200301": 28186.0,
+        "200302": 28186.0,
+        "200303": 28186.0,
+        "200304": 28186.0,
+        "200305": 28266.0,
+        "200306": 28186.0,
+        "200307": 28186.0
+      }
+    },
+    "E::e1_town_demand_timing::e1_tick_before": {
+      "stage": "E",
+      "group": "e1_town_demand_timing",
+      "cell_id": "e1_tick_before",
+      "n_episodes": 8,
+      "config": {
+        "crops": "MELON",
+        "n_hands": 2,
+        "sell_policy": {
+          "align": "before",
+          "mode": "tick_timed"
+        }
+      },
+      "final_money": {
+        "n": 8,
+        "mean": 27901.0,
+        "median": 27891.0,
+        "stdev": 26.458,
+        "min": 27891.0,
+        "max": 27971.0
+      },
+      "profit": {
+        "n": 8,
+        "mean": 24901.0,
+        "median": 24891.0,
+        "stdev": 26.458,
+        "min": 24891.0,
+        "max": 24971.0
+      },
+      "revenue_total": {
+        "n": 8,
+        "mean": 31191.0,
+        "median": 31191.0,
+        "stdev": 0.0,
+        "min": 31191.0,
+        "max": 31191.0
+      },
+      "avg_realized_price_overall": {
+        "n": 8,
+        "mean": 143.078,
+        "median": 143.078,
+        "stdev": 0.0,
+        "min": 143.078,
+        "max": 143.078
+      },
+      "sold_units_total": {
+        "n": 8,
+        "mean": 218.0,
+        "median": 218.0,
+        "stdev": 0.0,
+        "min": 218.0,
+        "max": 218.0
+      },
+      "win_rate": 1.0,
+      "money_margin": {
+        "n": 8,
+        "mean": 24901.0,
+        "median": 24891.0,
+        "stdev": 26.458,
+        "min": 24891.0,
+        "max": 24971.0
+      },
+      "inventory_overflow_rate": 0.0,
+      "validation_pass_rate": 1.0,
+      "validation_partial_rate": 0.0,
+      "validation_fail_rate": 0.0,
+      "seeds": [
+        "200300",
+        "200301",
+        "200302",
+        "200303",
+        "200304",
+        "200305",
+        "200306",
+        "200307"
+      ],
+      "per_seed_final_money": {
+        "200300": 27891.0,
+        "200301": 27891.0,
+        "200302": 27891.0,
+        "200303": 27891.0,
+        "200304": 27891.0,
+        "200305": 27971.0,
+        "200306": 27891.0,
+        "200307": 27891.0
+      }
+    },
+    "E::e1_town_demand_timing::e1_threshold": {
+      "stage": "E",
+      "group": "e1_town_demand_timing",
+      "cell_id": "e1_threshold",
+      "n_episodes": 8,
+      "config": {
+        "crops": "MELON",
+        "n_hands": 2,
+        "sell_policy": {
+          "mode": "threshold",
+          "threshold_frac": 1.0
+        }
+      },
+      "final_money": {
+        "n": 8,
+        "mean": 27740.0,
+        "median": 27730.0,
+        "stdev": 26.458,
+        "min": 27730.0,
+        "max": 27810.0
+      },
+      "profit": {
+        "n": 8,
+        "mean": 24740.0,
+        "median": 24730.0,
+        "stdev": 26.458,
+        "min": 24730.0,
+        "max": 24810.0
+      },
+      "revenue_total": {
+        "n": 8,
+        "mean": 31030.0,
+        "median": 31030.0,
+        "stdev": 0.0,
+        "min": 31030.0,
+        "max": 31030.0
+      },
+      "avg_realized_price_overall": {
+        "n": 8,
+        "mean": 195.157,
+        "median": 195.157,
+        "stdev": 0.0,
+        "min": 195.157,
+        "max": 195.157
+      },
+      "sold_units_total": {
+        "n": 8,
+        "mean": 159.0,
+        "median": 159.0,
+        "stdev": 0.0,
+        "min": 159.0,
+        "max": 159.0
+      },
+      "win_rate": 1.0,
+      "money_margin": {
+        "n": 8,
+        "mean": 24740.0,
+        "median": 24730.0,
+        "stdev": 26.458,
+        "min": 24730.0,
+        "max": 24810.0
+      },
+      "inventory_overflow_rate": 0.0,
+      "validation_pass_rate": 1.0,
+      "validation_partial_rate": 0.0,
+      "validation_fail_rate": 0.0,
+      "seeds": [
+        "200300",
+        "200301",
+        "200302",
+        "200303",
+        "200304",
+        "200305",
+        "200306",
+        "200307"
+      ],
+      "per_seed_final_money": {
+        "200300": 27730.0,
+        "200301": 27730.0,
+        "200302": 27730.0,
+        "200303": 27730.0,
+        "200304": 27730.0,
+        "200305": 27810.0,
+        "200306": 27730.0,
+        "200307": 27730.0
+      }
+    },
+    "F::h2h_c1_production_x_market_passive::c1_integrated_inv_high_passive": {
+      "stage": "F",
+      "group": "h2h_c1_production_x_market_passive",
+      "cell_id": "c1_integrated_inv_high_passive",
+      "n_episodes": 10,
+      "config": {
+        "animal_buy_day": 0,
+        "animals": {
+          "COW": 1,
+          "GOOSE": 1
+        },
+        "crops": {
+          "MELON": 0.5,
+          "STRAWBERRY": 0.5
+        },
+        "land_buy_day": 0,
+        "land_quadrants": 1,
+        "n_hands": 4,
+        "sell_policy": {
+          "mode": "passive"
+        }
+      },
+      "final_money": {
+        "n": 10,
+        "mean": 32727.5,
+        "median": 33076.0,
+        "stdev": 1364.867,
+        "min": 30185.0,
+        "max": 34404.0
+      },
+      "profit": {
+        "n": 10,
+        "mean": 29727.5,
+        "median": 30076.0,
+        "stdev": 1364.867,
+        "min": 27185.0,
+        "max": 31404.0
+      },
+      "revenue_total": {
+        "n": 10,
+        "mean": 41794.046,
+        "median": 42227.141,
+        "stdev": 1180.001,
+        "min": 39087.808,
+        "max": 43351.448
+      },
+      "avg_realized_price_overall": {
+        "n": 10,
+        "mean": 221.49,
+        "median": 221.514,
+        "stdev": 8.237,
+        "min": 210.149,
+        "max": 233.175
+      },
+      "sold_units_total": {
+        "n": 10,
+        "mean": 188.9,
+        "median": 188.5,
+        "stdev": 7.543,
+        "min": 175.0,
+        "max": 201.0
+      },
+      "win_rate": 1.0,
+      "money_margin": {
+        "n": 10,
+        "mean": 27325.9,
+        "median": 27484.5,
+        "stdev": 1367.819,
+        "min": 24634.0,
+        "max": 28922.0
+      },
+      "inventory_overflow_rate": 0.0,
+      "validation_pass_rate": 0.5,
+      "validation_partial_rate": 0.5,
+      "validation_fail_rate": 0.0,
+      "seeds": [
+        "201100",
+        "201101",
+        "201102",
+        "201103",
+        "201104",
+        "201105",
+        "201106",
+        "201107",
+        "201108",
+        "201109"
+      ],
+      "per_seed_final_money": {
+        "201100": 30568.0,
+        "201101": 33232.0,
+        "201102": 32310.0,
+        "201103": 33845.0,
+        "201104": 34106.0,
+        "201105": 32920.0,
+        "201106": 34404.0,
+        "201107": 32130.0,
+        "201108": 30185.0,
+        "201109": 33575.0
+      }
+    },
+    "F::h2h_c1_production_x_market_market_aware::c1_integrated_inv_high_threshold_batch": {
+      "stage": "F",
+      "group": "h2h_c1_production_x_market_market_aware",
+      "cell_id": "c1_integrated_inv_high_threshold_batch",
+      "n_episodes": 10,
+      "config": {
+        "animal_buy_day": 0,
+        "animals": {
+          "COW": 1,
+          "GOOSE": 1
+        },
+        "crops": {
+          "MELON": 0.5,
+          "STRAWBERRY": 0.5
+        },
+        "land_buy_day": 0,
+        "land_quadrants": 1,
+        "n_hands": 4,
+        "sell_policy": {
+          "batch_interval_days": 7,
+          "mode": "threshold_batch",
+          "threshold_frac": 1.1
+        }
+      },
+      "final_money": {
+        "n": 10,
+        "mean": 32031.6,
+        "median": 32142.0,
+        "stdev": 1603.834,
+        "min": 28924.0,
+        "max": 34539.0
+      },
+      "profit": {
+        "n": 10,
+        "mean": 29031.6,
+        "median": 29142.0,
+        "stdev": 1603.834,
+        "min": 25924.0,
+        "max": 31539.0
+      },
+      "revenue_total": {
+        "n": 10,
+        "mean": 41101.166,
+        "median": 41107.879,
+        "stdev": 1575.038,
+        "min": 37831.071,
+        "max": 43489.366
+      },
+      "avg_realized_price_overall": {
+        "n": 10,
+        "mean": 220.54,
+        "median": 221.532,
+        "stdev": 9.705,
+        "min": 203.393,
+        "max": 233.687
+      },
+      "sold_units_total": {
+        "n": 10,
+        "mean": 186.5,
+        "median": 187.0,
+        "stdev": 5.801,
+        "min": 175.0,
+        "max": 194.0
+      },
+      "win_rate": 1.0,
+      "money_margin": {
+        "n": 10,
+        "mean": 26630.0,
+        "median": 26712.0,
+        "stdev": 1523.234,
+        "min": 24224.0,
+        "max": 29057.0
+      },
+      "inventory_overflow_rate": 0.0,
+      "validation_pass_rate": 0.5,
+      "validation_partial_rate": 0.5,
+      "validation_fail_rate": 0.0,
+      "seeds": [
+        "201100",
+        "201101",
+        "201102",
+        "201103",
+        "201104",
+        "201105",
+        "201106",
+        "201107",
+        "201108",
+        "201109"
+      ],
+      "per_seed_final_money": {
+        "201100": 30638.0,
+        "201101": 33325.0,
+        "201102": 30744.0,
+        "201103": 33030.0,
+        "201104": 32059.0,
+        "201105": 31156.0,
+        "201106": 34539.0,
+        "201107": 32225.0,
+        "201108": 28924.0,
+        "201109": 33676.0
+      }
+    },
+    "F::validate_c1_production_x_market::c1_simple_melon_2h_threshold_batch": {
+      "stage": "F",
+      "group": "validate_c1_production_x_market",
+      "cell_id": "c1_simple_melon_2h_threshold_batch",
+      "n_episodes": 10,
+      "config": {
+        "crops": "MELON",
+        "n_hands": 2,
+        "sell_policy": {
+          "batch_interval_days": 7,
+          "mode": "threshold_batch",
+          "threshold_frac": 1.1
+        }
+      },
+      "final_money": {
+        "n": 10,
+        "mean": 28082.3,
+        "median": 28075.0,
+        "stdev": 21.9,
+        "min": 28075.0,
+        "max": 28148.0
+      },
+      "profit": {
+        "n": 10,
+        "mean": 25082.3,
+        "median": 25075.0,
+        "stdev": 21.9,
+        "min": 25075.0,
+        "max": 25148.0
+      },
+      "revenue_total": {
+        "n": 10,
+        "mean": 31694.3,
+        "median": 31695.0,
+        "stdev": 2.1,
+        "min": 31688.0,
+        "max": 31695.0
+      },
+      "avg_realized_price_overall": {
+        "n": 10,
+        "mean": 140.067,
+        "median": 139.626,
+        "stdev": 1.323,
+        "min": 139.626,
+        "max": 144.036
+      },
+      "sold_units_total": {
+        "n": 10,
+        "mean": 226.3,
+        "median": 227.0,
+        "stdev": 2.1,
+        "min": 220.0,
+        "max": 227.0
+      },
+      "win_rate": 1.0,
+      "money_margin": {
+        "n": 10,
+        "mean": 25082.3,
+        "median": 25075.0,
+        "stdev": 21.9,
+        "min": 25075.0,
+        "max": 25148.0
+      },
+      "inventory_overflow_rate": 0.0,
+      "validation_pass_rate": 1.0,
+      "validation_partial_rate": 0.0,
+      "validation_fail_rate": 0.0,
+      "seeds": [
+        "201000",
+        "201001",
+        "201002",
+        "201003",
+        "201004",
+        "201005",
+        "201006",
+        "201007",
+        "201008",
+        "201009"
+      ],
+      "per_seed_final_money": {
+        "201000": 28075.0,
+        "201001": 28148.0,
+        "201002": 28075.0,
+        "201003": 28075.0,
+        "201004": 28075.0,
+        "201005": 28075.0,
+        "201006": 28075.0,
+        "201007": 28075.0,
+        "201008": 28075.0,
+        "201009": 28075.0
+      }
+    },
+    "F::validate_c1_production_x_market::c1_simple_melon_2h_passive": {
+      "stage": "F",
+      "group": "validate_c1_production_x_market",
+      "cell_id": "c1_simple_melon_2h_passive",
+      "n_episodes": 10,
+      "config": {
+        "crops": "MELON",
+        "n_hands": 2,
+        "sell_policy": {
+          "mode": "passive"
+        }
+      },
+      "final_money": {
+        "n": 10,
+        "mean": 27894.2,
+        "median": 27891.0,
+        "stdev": 78.524,
+        "min": 27732.0,
+        "max": 28082.0
+      },
+      "profit": {
+        "n": 10,
+        "mean": 24894.2,
+        "median": 24891.0,
+        "stdev": 78.524,
+        "min": 24732.0,
+        "max": 25082.0
+      },
+      "revenue_total": {
+        "n": 10,
+        "mean": 31210.2,
+        "median": 31191.0,
+        "stdev": 57.267,
+        "min": 31191.0,
+        "max": 31382.0
+      },
+      "avg_realized_price_overall": {
+        "n": 10,
+        "mean": 143.234,
+        "median": 143.078,
+        "stdev": 0.711,
+        "min": 142.429,
+        "max": 145.287
+      },
+      "sold_units_total": {
+        "n": 10,
+        "mean": 217.9,
+        "median": 218.0,
+        "stdev": 0.7,
+        "min": 216.0,
+        "max": 219.0
+      },
+      "win_rate": 1.0,
+      "money_margin": {
+        "n": 10,
+        "mean": 24894.2,
+        "median": 24891.0,
+        "stdev": 78.524,
+        "min": 24732.0,
+        "max": 25082.0
+      },
+      "inventory_overflow_rate": 0.0,
+      "validation_pass_rate": 1.0,
+      "validation_partial_rate": 0.0,
+      "validation_fail_rate": 0.0,
+      "seeds": [
+        "201000",
+        "201001",
+        "201002",
+        "201003",
+        "201004",
+        "201005",
+        "201006",
+        "201007",
+        "201008",
+        "201009"
+      ],
+      "per_seed_final_money": {
+        "201000": 27891.0,
+        "201001": 27732.0,
+        "201002": 27891.0,
+        "201003": 27891.0,
+        "201004": 27891.0,
+        "201005": 28082.0,
+        "201006": 27891.0,
+        "201007": 27891.0,
+        "201008": 27891.0,
+        "201009": 27891.0
+      }
+    },
+    "F::validate_c1_production_x_market::c1_integrated_inv_high_passive": {
+      "stage": "F",
+      "group": "validate_c1_production_x_market",
+      "cell_id": "c1_integrated_inv_high_passive",
+      "n_episodes": 10,
+      "config": {
+        "animal_buy_day": 0,
+        "animals": {
+          "COW": 1,
+          "GOOSE": 1
+        },
+        "crops": {
+          "MELON": 0.5,
+          "STRAWBERRY": 0.5
+        },
+        "land_buy_day": 0,
+        "land_quadrants": 1,
+        "n_hands": 4,
+        "sell_policy": {
+          "mode": "passive"
+        }
+      },
+      "final_money": {
+        "n": 10,
+        "mean": 31031.1,
+        "median": 31370.0,
+        "stdev": 2027.067,
+        "min": 27624.0,
+        "max": 33623.0
+      },
+      "profit": {
+        "n": 10,
+        "mean": 28031.1,
+        "median": 28370.0,
+        "stdev": 2027.067,
+        "min": 24624.0,
+        "max": 30623.0
+      },
+      "revenue_total": {
+        "n": 10,
+        "mean": 40039.525,
+        "median": 40085.814,
+        "stdev": 1884.954,
+        "min": 37259.312,
+        "max": 42674.243
+      },
+      "avg_realized_price_overall": {
+        "n": 10,
+        "mean": 218.795,
+        "median": 219.6,
+        "stdev": 4.937,
+        "min": 208.615,
+        "max": 225.09
+      },
+      "sold_units_total": {
+        "n": 10,
+        "mean": 183.1,
+        "median": 181.0,
+        "stdev": 9.772,
+        "min": 171.0,
+        "max": 202.0
+      },
+      "win_rate": 1.0,
+      "money_margin": {
+        "n": 10,
+        "mean": 28031.1,
+        "median": 28370.0,
+        "stdev": 2027.067,
+        "min": 24624.0,
+        "max": 30623.0
+      },
+      "inventory_overflow_rate": 0.0,
+      "validation_pass_rate": 0.5,
+      "validation_partial_rate": 0.5,
+      "validation_fail_rate": 0.0,
+      "seeds": [
+        "201000",
+        "201001",
+        "201002",
+        "201003",
+        "201004",
+        "201005",
+        "201006",
+        "201007",
+        "201008",
+        "201009"
+      ],
+      "per_seed_final_money": {
+        "201000": 32106.0,
+        "201001": 28495.0,
+        "201002": 30879.0,
+        "201003": 31861.0,
+        "201004": 30519.0,
+        "201005": 33623.0,
+        "201006": 33553.0,
+        "201007": 27624.0,
+        "201008": 32795.0,
+        "201009": 28856.0
+      }
+    },
+    "F::validate_b1_sale_timing_by_crop::b1_WHEAT_threshold_1.1": {
+      "stage": "F",
+      "group": "validate_b1_sale_timing_by_crop",
+      "cell_id": "b1_WHEAT_threshold_1.1",
+      "n_episodes": 10,
+      "config": {
+        "crops": "WHEAT",
+        "n_hands": 2,
+        "sell_policy": {
+          "mode": "threshold",
+          "threshold_frac": 1.1
+        }
+      },
+      "final_money": {
+        "n": 10,
+        "mean": 7776.7,
+        "median": 7939.5,
+        "stdev": 1394.399,
+        "min": 4752.0,
+        "max": 9394.0
+      },
+      "profit": {
+        "n": 10,
+        "mean": 4776.7,
+        "median": 4939.5,
+        "stdev": 1394.399,
+        "min": 1752.0,
+        "max": 6394.0
+      },
+      "revenue_total": {
+        "n": 10,
+        "mean": 7878.7,
+        "median": 8024.5,
+        "stdev": 1393.641,
+        "min": 4862.0,
+        "max": 9504.0
+      },
+      "avg_realized_price_overall": {
+        "n": 10,
+        "mean": 29.366,
+        "median": 29.731,
+        "stdev": 4.27,
+        "min": 22.201,
+        "max": 34.813
+      },
+      "sold_units_total": {
+        "n": 10,
+        "mean": 267.0,
+        "median": 273.0,
+        "stdev": 16.1,
+        "min": 219.0,
+        "max": 273.0
+      },
+      "win_rate": 1.0,
+      "money_margin": {
+        "n": 10,
+        "mean": 4776.7,
+        "median": 4939.5,
+        "stdev": 1394.399,
+        "min": 1752.0,
+        "max": 6394.0
+      },
+      "inventory_overflow_rate": 0.0,
+      "validation_pass_rate": 1.0,
+      "validation_partial_rate": 0.0,
+      "validation_fail_rate": 0.0,
+      "seeds": [
+        "201000",
+        "201001",
+        "201002",
+        "201003",
+        "201004",
+        "201005",
+        "201006",
+        "201007",
+        "201008",
+        "201009"
+      ],
+      "per_seed_final_money": {
+        "201000": 8136.0,
+        "201001": 9161.0,
+        "201002": 7202.0,
+        "201003": 9394.0,
+        "201004": 7214.0,
+        "201005": 6336.0,
+        "201006": 7743.0,
+        "201007": 8514.0,
+        "201008": 9315.0,
+        "201009": 4752.0
+      }
+    },
+    "F::validate_b1_sale_timing_by_crop::b1_MELON_threshold_0.9": {
+      "stage": "F",
+      "group": "validate_b1_sale_timing_by_crop",
+      "cell_id": "b1_MELON_threshold_0.9",
+      "n_episodes": 10,
+      "config": {
+        "crops": "MELON",
+        "n_hands": 2,
+        "sell_policy": {
+          "mode": "threshold",
+          "threshold_frac": 0.9
+        }
+      },
+      "final_money": {
+        "n": 10,
+        "mean": 28473.9,
+        "median": 28491.0,
+        "stdev": 47.746,
+        "min": 28331.0,
+        "max": 28491.0
+      },
+      "profit": {
+        "n": 10,
+        "mean": 25473.9,
+        "median": 25491.0,
+        "stdev": 47.746,
+        "min": 25331.0,
+        "max": 25491.0
+      },
+      "revenue_total": {
+        "n": 10,
+        "mean": 31789.9,
+        "median": 31791.0,
+        "stdev": 3.3,
+        "min": 31780.0,
+        "max": 31791.0
+      },
+      "avg_realized_price_overall": {
+        "n": 10,
+        "mean": 146.759,
+        "median": 145.83,
+        "stdev": 3.015,
+        "min": 145.164,
+        "max": 155.784
+      },
+      "sold_units_total": {
+        "n": 10,
+        "mean": 216.7,
+        "median": 218.0,
+        "stdev": 4.244,
+        "min": 204.0,
+        "max": 219.0
+      },
+      "win_rate": 1.0,
+      "money_margin": {
+        "n": 10,
+        "mean": 25473.9,
+        "median": 25491.0,
+        "stdev": 47.746,
+        "min": 25331.0,
+        "max": 25491.0
+      },
+      "inventory_overflow_rate": 0.0,
+      "validation_pass_rate": 1.0,
+      "validation_partial_rate": 0.0,
+      "validation_fail_rate": 0.0,
+      "seeds": [
+        "201000",
+        "201001",
+        "201002",
+        "201003",
+        "201004",
+        "201005",
+        "201006",
+        "201007",
+        "201008",
+        "201009"
+      ],
+      "per_seed_final_money": {
+        "201000": 28491.0,
+        "201001": 28331.0,
+        "201002": 28491.0,
+        "201003": 28491.0,
+        "201004": 28491.0,
+        "201005": 28480.0,
+        "201006": 28491.0,
+        "201007": 28491.0,
+        "201008": 28491.0,
+        "201009": 28491.0
+      }
+    },
+    "F::validate_e1_town_demand_timing::e1_tick_after": {
+      "stage": "F",
+      "group": "validate_e1_town_demand_timing",
+      "cell_id": "e1_tick_after",
+      "n_episodes": 10,
+      "config": {
+        "crops": "MELON",
+        "n_hands": 2,
+        "sell_policy": {
+          "align": "after",
+          "mode": "tick_timed"
+        }
+      },
+      "final_money": {
+        "n": 10,
+        "mean": 28188.6,
+        "median": 28186.0,
+        "stdev": 77.096,
+        "min": 28027.0,
+        "max": 28371.0
+      },
+      "profit": {
+        "n": 10,
+        "mean": 25188.6,
+        "median": 25186.0,
+        "stdev": 77.096,
+        "min": 25027.0,
+        "max": 25371.0
+      },
+      "revenue_total": {
+        "n": 10,
+        "mean": 31504.6,
+        "median": 31486.0,
+        "stdev": 55.467,
+        "min": 31486.0,
+        "max": 31671.0
+      },
+      "avg_realized_price_overall": {
+        "n": 10,
+        "mean": 144.585,
+        "median": 144.431,
+        "stdev": 0.707,
+        "min": 143.776,
+        "max": 146.625
+      },
+      "sold_units_total": {
+        "n": 10,
+        "mean": 217.9,
+        "median": 218.0,
+        "stdev": 0.7,
+        "min": 216.0,
+        "max": 219.0
+      },
+      "win_rate": 1.0,
+      "money_margin": {
+        "n": 10,
+        "mean": 25188.6,
+        "median": 25186.0,
+        "stdev": 77.096,
+        "min": 25027.0,
+        "max": 25371.0
+      },
+      "inventory_overflow_rate": 0.0,
+      "validation_pass_rate": 1.0,
+      "validation_partial_rate": 0.0,
+      "validation_fail_rate": 0.0,
+      "seeds": [
+        "201000",
+        "201001",
+        "201002",
+        "201003",
+        "201004",
+        "201005",
+        "201006",
+        "201007",
+        "201008",
+        "201009"
+      ],
+      "per_seed_final_money": {
+        "201000": 28186.0,
+        "201001": 28027.0,
+        "201002": 28186.0,
+        "201003": 28186.0,
+        "201004": 28186.0,
+        "201005": 28371.0,
+        "201006": 28186.0,
+        "201007": 28186.0,
+        "201008": 28186.0,
+        "201009": 28186.0
+      }
+    }
+  },
+  "effects": {
+    "b1_best_policy_vs_passive": {
+      "WHEAT": {
+        "passive": 7988.875,
+        "best_non_passive_policy": "batch_7d",
+        "best_non_passive_money": 8431.25,
+        "improvement": 442.38,
+        "paired": {
+          "n_shared_seeds": 8,
+          "a_wins": 8,
+          "a_win_rate": 1.0,
+          "mean_diff_a_minus_b": 442.38
+        }
+      },
+      "MELON": {
+        "passive": 27891.0,
+        "best_non_passive_policy": "threshold_0.9",
+        "best_non_passive_money": 28491.0,
+        "improvement": 600.0,
+        "paired": {
+          "n_shared_seeds": 8,
+          "a_wins": 8,
+          "a_win_rate": 1.0,
+          "mean_diff_a_minus_b": 600.0
+        }
+      }
+    },
+    "c1_production_ranking": {
+      "simple_passive": 27901.0,
+      "integrated_passive": 31562.5,
+      "integrated_lead_under_passive": 3661.5,
+      "simple_best_market_aware": 28144.375,
+      "integrated_best_market_aware": 31562.5,
+      "integrated_lead_under_best_market_aware": 3418.12
+    },
+    "d1_overflow_safety_pairs": {
+      "threshold_1.0": {
+        "safety_on_money": 21729.75,
+        "safety_off_money": 21729.75,
+        "cost_of_removing_safety": 0.0,
+        "safety_off_overflow_rate": 0.0
+      },
+      "threshold_1.3": {
+        "safety_on_money": 26614.25,
+        "safety_off_money": 1972.125,
+        "cost_of_removing_safety": 24642.12,
+        "safety_off_overflow_rate": 0.0
+      },
+      "batch_10d": {
+        "safety_on_money": 1244.75,
+        "safety_off_money": 1244.75,
+        "cost_of_removing_safety": 0.0,
+        "safety_off_overflow_rate": 0.0
+      }
+    },
+    "e1_tick_timing": {
+      "avg_realized_price_after_tick": 144.431,
+      "avg_realized_price_before_tick": 143.078,
+      "diff": 1.353,
+      "paired": {
+        "n_shared_seeds": 8,
+        "a_wins": 8,
+        "a_win_rate": 1.0,
+        "mean_diff_a_minus_b": 295.0
+      }
+    }
+  },
+  "stage_a_verification": {
+    "a1_formula_reverification": {
+      "checked": 6480,
+      "mismatches": 0,
+      "verified": true
+    },
+    "a2_town_driven_recovery": {
+      "WHEAT": {
+        "last_player_txn_turn": 697,
+        "turns_checked": 21,
+        "fully_town_explained": 21,
+        "unexplained_examples": [],
+        "verified": true
+      },
+      "CARROT": {
+        "last_player_txn_turn": -1,
+        "turns_checked": 719,
+        "fully_town_explained": 719,
+        "unexplained_examples": [],
+        "verified": true
+      },
+      "TOMATO": {
+        "last_player_txn_turn": -1,
+        "turns_checked": 719,
+        "fully_town_explained": 719,
+        "unexplained_examples": [],
+        "verified": true
+      },
+      "STRAWBERRY": {
+        "last_player_txn_turn": -1,
+        "turns_checked": 719,
+        "fully_town_explained": 719,
+        "unexplained_examples": [],
+        "verified": true
+      },
+      "MELON": {
+        "last_player_txn_turn": 601,
+        "turns_checked": 117,
+        "fully_town_explained": 117,
+        "unexplained_examples": [],
+        "verified": true
+      },
+      "EGG": {
+        "last_player_txn_turn": 697,
+        "turns_checked": 21,
+        "fully_town_explained": 21,
+        "unexplained_examples": [],
+        "verified": true
+      },
+      "MILK": {
+        "last_player_txn_turn": 481,
+        "turns_checked": 237,
+        "fully_town_explained": 237,
+        "unexplained_examples": [],
+        "verified": true
+      },
+      "WOOL": {
+        "last_player_txn_turn": -1,
+        "turns_checked": 719,
+        "fully_town_explained": 719,
+        "unexplained_examples": [],
+        "verified": true
+      },
+      "FERTILIZER": {
+        "last_player_txn_turn": -1,
+        "turns_checked": 719,
+        "fully_town_explained": 719,
+        "unexplained_examples": [],
+        "verified": true
+      }
+    }
+  }
+}
