@@ -1,0 +1,226 @@
+{
+  "passive_seed800000": {
+    "archetype": "passive",
+    "seed": 800000,
+    "protagonist_final_money": 28876.0,
+    "opponent_final_money": 3000.0,
+    "final_shed_total": 0
+  },
+  "passive_seed800001": {
+    "archetype": "passive",
+    "seed": 800001,
+    "protagonist_final_money": 29032.0,
+    "opponent_final_money": 3000.0,
+    "final_shed_total": 0
+  },
+  "passive_seed800002": {
+    "archetype": "passive",
+    "seed": 800002,
+    "protagonist_final_money": 28883.0,
+    "opponent_final_money": 3000.0,
+    "final_shed_total": 0
+  },
+  "passive_seed800003": {
+    "archetype": "passive",
+    "seed": 800003,
+    "protagonist_final_money": 29224.0,
+    "opponent_final_money": 3000.0,
+    "final_shed_total": 0
+  },
+  "production_heavy_seed800000": {
+    "archetype": "production_heavy",
+    "seed": 800000,
+    "protagonist_final_money": 25341.0,
+    "opponent_final_money": 9191.0,
+    "final_shed_total": 0
+  },
+  "production_heavy_seed800001": {
+    "archetype": "production_heavy",
+    "seed": 800001,
+    "protagonist_final_money": 24290.0,
+    "opponent_final_money": 9081.0,
+    "final_shed_total": 0
+  },
+  "production_heavy_seed800002": {
+    "archetype": "production_heavy",
+    "seed": 800002,
+    "protagonist_final_money": 24407.0,
+    "opponent_final_money": 12951.0,
+    "final_shed_total": 0
+  },
+  "production_heavy_seed800003": {
+    "archetype": "production_heavy",
+    "seed": 800003,
+    "protagonist_final_money": 23163.0,
+    "opponent_final_money": 13126.0,
+    "final_shed_total": 0
+  },
+  "market_selling_seed800000": {
+    "archetype": "market_selling",
+    "seed": 800000,
+    "protagonist_final_money": 28445.0,
+    "opponent_final_money": 2625.0,
+    "final_shed_total": 0
+  },
+  "market_selling_seed800001": {
+    "archetype": "market_selling",
+    "seed": 800001,
+    "protagonist_final_money": 28285.0,
+    "opponent_final_money": 4257.0,
+    "final_shed_total": 0
+  },
+  "market_selling_seed800002": {
+    "archetype": "market_selling",
+    "seed": 800002,
+    "protagonist_final_money": 28402.0,
+    "opponent_final_money": 9189.0,
+    "final_shed_total": 0
+  },
+  "market_selling_seed800003": {
+    "archetype": "market_selling",
+    "seed": 800003,
+    "protagonist_final_money": 29107.0,
+    "opponent_final_money": 7239.0,
+    "final_shed_total": 0
+  },
+  "expansion_oriented_seed800000": {
+    "archetype": "expansion_oriented",
+    "seed": 800000,
+    "protagonist_final_money": 14493.0,
+    "opponent_final_money": 21881.0,
+    "final_shed_total": 1
+  },
+  "expansion_oriented_seed800001": {
+    "archetype": "expansion_oriented",
+    "seed": 800001,
+    "protagonist_final_money": 24038.0,
+    "opponent_final_money": 22340.0,
+    "final_shed_total": 0
+  },
+  "expansion_oriented_seed800002": {
+    "archetype": "expansion_oriented",
+    "seed": 800002,
+    "protagonist_final_money": 22652.0,
+    "opponent_final_money": 21881.0,
+    "final_shed_total": 0
+  },
+  "expansion_oriented_seed800003": {
+    "archetype": "expansion_oriented",
+    "seed": 800003,
+    "protagonist_final_money": 20191.0,
+    "opponent_final_money": 22145.0,
+    "final_shed_total": 0
+  },
+  "animal_oriented_seed800000": {
+    "archetype": "animal_oriented",
+    "seed": 800000,
+    "protagonist_final_money": 29167.0,
+    "opponent_final_money": 10494.0,
+    "final_shed_total": 0
+  },
+  "animal_oriented_seed800001": {
+    "archetype": "animal_oriented",
+    "seed": 800001,
+    "protagonist_final_money": 29605.0,
+    "opponent_final_money": 9491.0,
+    "final_shed_total": 0
+  },
+  "animal_oriented_seed800002": {
+    "archetype": "animal_oriented",
+    "seed": 800002,
+    "protagonist_final_money": 29425.0,
+    "opponent_final_money": 10954.0,
+    "final_shed_total": 0
+  },
+  "animal_oriented_seed800003": {
+    "archetype": "animal_oriented",
+    "seed": 800003,
+    "protagonist_final_money": 28658.0,
+    "opponent_final_money": 11407.0,
+    "final_shed_total": 0
+  },
+  "conservative_seed800000": {
+    "archetype": "conservative",
+    "seed": 800000,
+    "protagonist_final_money": 29012.0,
+    "opponent_final_money": 6014.0,
+    "final_shed_total": 0
+  },
+  "conservative_seed800001": {
+    "archetype": "conservative",
+    "seed": 800001,
+    "protagonist_final_money": 29393.0,
+    "opponent_final_money": 6196.0,
+    "final_shed_total": 0
+  },
+  "conservative_seed800002": {
+    "archetype": "conservative",
+    "seed": 800002,
+    "protagonist_final_money": 29541.0,
+    "opponent_final_money": 5755.0,
+    "final_shed_total": 0
+  },
+  "conservative_seed800003": {
+    "archetype": "conservative",
+    "seed": 800003,
+    "protagonist_final_money": 29041.0,
+    "opponent_final_money": 5963.0,
+    "final_shed_total": 0
+  },
+  "aggressive_investment_seed800000": {
+    "archetype": "aggressive_investment",
+    "seed": 800000,
+    "protagonist_final_money": 8490.0,
+    "opponent_final_money": 9234.0,
+    "final_shed_total": 0
+  },
+  "aggressive_investment_seed800001": {
+    "archetype": "aggressive_investment",
+    "seed": 800001,
+    "protagonist_final_money": 8079.0,
+    "opponent_final_money": 9533.0,
+    "final_shed_total": 0
+  },
+  "aggressive_investment_seed800002": {
+    "archetype": "aggressive_investment",
+    "seed": 800002,
+    "protagonist_final_money": 14192.0,
+    "opponent_final_money": 1096.0,
+    "final_shed_total": 0
+  },
+  "aggressive_investment_seed800003": {
+    "archetype": "aggressive_investment",
+    "seed": 800003,
+    "protagonist_final_money": 6516.0,
+    "opponent_final_money": 11264.0,
+    "final_shed_total": 0
+  },
+  "heavy_scaler_seed800000": {
+    "archetype": "heavy_scaler",
+    "seed": 800000,
+    "protagonist_final_money": 44304.0,
+    "opponent_final_money": 29147.0,
+    "final_shed_total": 0
+  },
+  "heavy_scaler_seed800001": {
+    "archetype": "heavy_scaler",
+    "seed": 800001,
+    "protagonist_final_money": 47410.0,
+    "opponent_final_money": 28818.0,
+    "final_shed_total": 0
+  },
+  "heavy_scaler_seed800002": {
+    "archetype": "heavy_scaler",
+    "seed": 800002,
+    "protagonist_final_money": 47635.0,
+    "opponent_final_money": 16949.0,
+    "final_shed_total": 0
+  },
+  "heavy_scaler_seed800003": {
+    "archetype": "heavy_scaler",
+    "seed": 800003,
+    "protagonist_final_money": 46921.0,
+    "opponent_final_money": 25774.0,
+    "final_shed_total": 0
+  }
+}

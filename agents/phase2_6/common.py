@@ -25,7 +25,14 @@ Every other turn (hour != 0), the agent simply asks the Phase 2.4 execution
 layer, configured with whatever `current_config` the planner last decided,
 what tactical action to take -- no new planning happens mid-day.
 """
-from agents.phase2_4.common import make_agent as make_agent_24
+from agents.phase2_5.common import make_agent as make_agent_24  # Phase 7 fix: route through
+# phase2_5's horizon_aware wrapper -- line 73 below sets sell_policy["horizon_aware"]=True
+# believing it activates phase2_5's F16 force-liquidation safety net, but phase2_4.common's
+# own make_agent (previously imported here directly) never reads that flag at all, so it was
+# silently inert. phase2_5.common.make_agent has an IDENTICAL signature (it forwards **kwargs
+# straight to phase2_4.common.make_agent) and only adds the horizon_aware check on top -- see
+# results/phase7/PHASE7_SELL_SAFETY_FIX_REPORT.md and results/phase6/
+# PHASE6_COMPETITIVE_META_FORENSICS_REPORT.md Section 1/18 for the full diagnosis.
 from agents.phase2_6.state import adapt, validate_state
 from agents.phase2_6.opportunities import generate_candidates
 from agents.phase2_6.evaluator import evaluate
