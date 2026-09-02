@@ -1,0 +1,58 @@
+{
+  "existing_archetypes_unchanged": [
+    "passive",
+    "production_heavy",
+    "market_selling",
+    "expansion_oriented",
+    "animal_oriented",
+    "conservative",
+    "aggressive_investment"
+  ],
+  "real_opponent_categories_observed": {
+    "passive_or_low_footprint": {
+      "n_episodes": 6,
+      "description": "Opponent hires 0 hands, 0 animals, buys little/no extra land the entire game -- matches the existing 'conservative'/'passive' archetypes reasonably well.",
+      "example_episodes": [
+        104568879,
+        104593051,
+        104661878,
+        104690112,
+        104697422
+      ]
+    },
+    "sustained_multi_resource_scaler": {
+      "n_episodes": 6,
+      "description": "NEW/UNREPRESENTED regime before this phase -- opponent commits to sustained high hands (6-12) AND/OR high animal count (up to 19), sometimes with additional land, maintained for most of the season. None of the 7 existing archetypes combine sustained high labor AND high animals this way.",
+      "example_episodes": [
+        104567976,
+        104569747,
+        104570236,
+        104571150,
+        104597196,
+        104703432
+      ],
+      "new_archetype_added": "agents/phase3_5/opponent_classes_extended.py::heavy_scaler"
+    },
+    "high_labor_low_conversion": {
+      "n_episodes": 2,
+      "description": "Opponent sustains high hands (7-8) but ends with low final money (<$10k) -- labor committed but apparently not converted into revenue effectively. Distinct from the scaler category above (same INPUT commitment, very different OUTPUT) -- a possible execution-quality axis independent of resource commitment.",
+      "example_episodes": [
+        104568456,
+        104597919
+      ],
+      "new_archetype_added": "NONE -- flagged as NEW/UNREPRESENTED REGIME, not yet reconstructed"
+    },
+    "modest_crop_choice_advantage": {
+      "n_episodes": 4,
+      "description": "Opponent stays at a resource level comparable to ours but chooses a crop (STRAWBERRY, in 2 of 4 cases) whose price held up better than our MELON-solo default.",
+      "example_episodes": [
+        104570723,
+        104574962,
+        104575529,
+        104615545
+      ]
+    }
+  },
+  "note": "Every categorization here used the FULL daily trajectory (results/phase3_5/trajectories/), not a single final-state screenshot, per the brief's explicit instruction.",
+  "confidence_label": "SUPPORTED (direct measurement); category boundaries are informal groupings for discussion, not a fitted/validated classifier"
+}

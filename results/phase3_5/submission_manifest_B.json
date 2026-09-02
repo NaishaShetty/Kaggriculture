@@ -1,0 +1,52 @@
+{
+  "submission_name": "kaggriculture_phase3_5_competitive_v2_submission_B",
+  "artifact_file": "kaggriculture_phase3_5_competitive_v2_submission_B.tar.gz",
+  "canonical_strategy": "Competitive Agent V2 = Economic Planner V1 (frozen) + Phase 3.3 Variant D market response (frozen) + Phase 3.5 competitive scaling response (new, validated this phase).",
+  "entry_point": "main.py (repo root), module-level agent(obs) function, per AGENTS.md's documented submission contract.",
+  "build_command": "python scripts/phase3_5_build_submission.py",
+  "package_format": "tar.gz, main.py at the archive root, per AGENTS.md's documented multi-file submission format",
+  "package_size_bytes": 82875,
+  "package_size_kb": 80.9,
+  "package_file_count": 30,
+  "what_changed_from_submission_A": [
+    "main.py now builds agents.phase3_5.adapters.competitive_v2_agent.make_competitive_v2_agent instead of agents.phase3_3.adapters.intervention_agent.make_intervention_agent",
+    "5 new files added: agents/phase3_5/__init__.py, agents/phase3_5/opponent_scaling_detector.py, agents/phase3_5/response_policy.py, agents/phase3_5/adapters/__init__.py, agents/phase3_5/adapters/competitive_v2_agent.py",
+    "Zero changes to Planner v1, Variant D's own interventions.py, or expansion_detector.py -- V2 wraps them unmodified"
+  ],
+  "dependency_requirements": {
+    "third_party": ["numpy"],
+    "provided_by_kaggle_runtime": ["kaggle_environments"],
+    "standard_library_only": ["json", "math", "os", "sys", "dataclasses", "typing"]
+  },
+  "validation_performed": {
+    "regression_tests": "106/106 passing (86 pre-existing through Phase 3.5's own submission-packaging tests + 20 new Phase 3.5 research/countermeasure tests)",
+    "planner_v1_control_reproduction": "30/30 exact byte-for-byte matches, re-run after all Phase 3.5 changes",
+    "variant_d_inside_v2_reproduction": "10/15 win rate against expansion_oriented on Variant D's original validated 15-seed battery, with money values matching the Phase 3.3 reference EXACTLY on every seed -- confirms V2's market-response layer is unmodified",
+    "v2_byte_identical_when_inactive": "confirmed against all 6 non-scaling archetypes (passive, production_heavy, market_selling, animal_oriented, conservative, aggressive_investment) -- 0 activations, byte-identical to Planner v1 control",
+    "scaling_countermeasure_validation": "development (4 seeds) + validation (5 seeds) + held_out (6 seeds) = 15/15 against the controlled heavy_scaler archetype, consistent large positive margin improvement (+$12k-18k per episode) in every seed, 100% detector activation rate, zero false positives against the other archetypes",
+    "fresh_environment_validation": "minimal file tree (30 files, 428KB) copied outside the repo, cold Python process, kaggle_environments' own registered environment",
+    "actual_package_validation": "the real built tar.gz was extracted to a fresh location and run end-to-end -- full 720-turn episode, status=DONE both players, no crashes",
+    "multi_episode_state_isolation": "3 consecutive episodes in the same process produced consistent results"
+  },
+  "known_limitations": [
+    "heavy_scaler (the synthetic archetype used to validate the new countermeasure) does not fully replicate real losing opponents' WINNING margin -- it still loses to the unmodified Planner v1 control in every tested seed. The countermeasure was validated to substantially increase OUR OWN revenue capture against sustained high-labor/animal opponents, but has not been tested against a synthetic opponent that actually defeats us via this mechanism the way real opponents did.",
+    "4 of 10 real losses (L004, L006, L007, L009 -- modest_opponent_crop_choice_advantage) remain UNKNOWN/unaddressed this phase -- plausibly related to Phase 3.4's self_inflicted_narrow_market_price_crash occurring without an expansion_oriented-style opponent to trigger detection, but not experimentally isolated.",
+    "The Phase 3.4 self_inflicted_narrow_market_price_crash limitation itself remains open (Variant D's mechanism is reused unmodified inside V2).",
+    "Only 18 real competition episodes were available for forensics -- the scaling-detector thresholds (hands>=5, animals>=5) are principled round numbers reflecting the observed magnitude gap, not fit/tuned against these episodes, but also not validated against a larger real sample.",
+    "Submission A's actual Kaggle rating trajectory (declining from 600) was NOT used as a target metric or tuning signal this phase, per the brief's explicit instruction not to chase the leaderboard -- Submission B's real evaluation is the next source of evidence, not an offline proxy for it."
+  ],
+  "exact_build_process": [
+    "1. Real-competition forensics on COMPETITION RESULTS/ (18 episodes) -> results/phase3_5/competition_results_inventory.json, trajectories/, differential_summary.json, win_analysis.json, failure_knowledge_base.json",
+    "2. Design agents/phase3_5/opponent_scaling_detector.py (rule-based, public-observation-only) and agents/phase3_5/response_policy.py (labor/animal target override)",
+    "3. Design agents/phase3_5/opponent_classes_extended.py::heavy_scaler for controlled testing",
+    "4. Build agents/phase3_5/adapters/competitive_v2_agent.py (Planner v1 + Variant D + scaling response, sequential disjoint-key overrides)",
+    "5. Stage-1 screen on development seeds, then full development+validation+held_out gate (scripts/phase3_5_run_v2_experiments.py)",
+    "6. Side-effect check against all 6 non-scaling archetypes + Variant D's original expansion_oriented battery",
+    "7. python scripts/phase3_5_regression_tests.py -- 20/20 new tests",
+    "8. Re-run scripts/phase2_6_regression_tests.py through scripts/phase3_5_submission_tests.py -- 106/106 total",
+    "9. python scripts/phase3_1_control_reproduction.py -- 30/30 exact",
+    "10. Update main.py to build Competitive Agent V2",
+    "11. python scripts/phase3_5_build_submission.py -- builds kaggriculture_phase3_5_competitive_v2_submission_B.tar.gz",
+    "12. Extract the built tar.gz to a location outside the repo and run a full 720-turn episode via kaggle_environments from a cold process -- confirms the ACTUAL package works standalone"
+  ]
+}

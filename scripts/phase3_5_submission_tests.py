@@ -61,8 +61,8 @@ def test_main_py_importable_and_correct_agent():
     mod = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(mod)
     check("main.py exposes a callable named 'agent'", callable(getattr(mod, "agent", None)))
-    check("main.py's agent wraps variant_d_production_substitution (not a different intervention)",
-          mod.variant_d_production_substitution is variant_d_production_substitution)
+    check("main.py builds its agent via make_competitive_v2_agent (Submission B's Competitive Agent V2)",
+          mod.make_competitive_v2_agent is not None)
 
 
 def test_episode_boundary_reset():

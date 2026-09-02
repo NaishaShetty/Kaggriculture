@@ -1,0 +1,1961 @@
+{
+  "episode_id": 104615545,
+  "result": "LOSS",
+  "opponent_name": "explise",
+  "seed": 421574108,
+  "our_money_final": 5372.0,
+  "opponent_money_final": 17235.0,
+  "trajectory": [
+    {
+      "turn": 0,
+      "day": 0,
+      "us": {
+        "money": 3000.0,
+        "n_hands": 0,
+        "unlocked_quadrants": [
+          "NW"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "n_weeds": 0,
+        "hires_today": 0
+      },
+      "opponent": {
+        "money": 3000.0,
+        "n_hands": 0,
+        "unlocked_quadrants": [
+          "NW"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "n_weeds": 0,
+        "hires_today": 0
+      },
+      "market_prices": {
+        "WHEAT": 25,
+        "CARROT": 35,
+        "TOMATO": 60,
+        "STRAWBERRY": 120,
+        "MELON": 250
+      },
+      "market_inventory": {
+        "WHEAT": 10000,
+        "CARROT": 10000,
+        "TOMATO": 10000,
+        "STRAWBERRY": 10000,
+        "MELON": 10000
+      }
+    },
+    {
+      "turn": 20,
+      "day": 0,
+      "us": {
+        "money": 1646.0,
+        "n_hands": 1,
+        "unlocked_quadrants": [
+          "NW"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 3
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 1,
+          "SHEEP": 1
+        },
+        "n_weeds": 0,
+        "hires_today": 1
+      },
+      "opponent": {
+        "money": 393.0,
+        "n_hands": 4,
+        "unlocked_quadrants": [
+          "NW",
+          "NE"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 8
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "n_weeds": 0,
+        "hires_today": 4
+      },
+      "market_prices": {
+        "WHEAT": 27,
+        "CARROT": 35,
+        "TOMATO": 60,
+        "STRAWBERRY": 128,
+        "MELON": 256
+      },
+      "market_inventory": {
+        "WHEAT": 9997,
+        "CARROT": 9999,
+        "TOMATO": 9999,
+        "STRAWBERRY": 9999,
+        "MELON": 9999
+      }
+    },
+    {
+      "turn": 44,
+      "day": 1,
+      "us": {
+        "money": 950.0,
+        "n_hands": 2,
+        "unlocked_quadrants": [
+          "NW"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 11
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 1,
+          "SHEEP": 1
+        },
+        "n_weeds": 0,
+        "hires_today": 2
+      },
+      "opponent": {
+        "money": 386.0,
+        "n_hands": 4,
+        "unlocked_quadrants": [
+          "NW",
+          "NE"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 11
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "n_weeds": 0,
+        "hires_today": 4
+      },
+      "market_prices": {
+        "WHEAT": 27,
+        "CARROT": 35,
+        "TOMATO": 60,
+        "STRAWBERRY": 132,
+        "MELON": 260
+      },
+      "market_inventory": {
+        "WHEAT": 9994,
+        "CARROT": 9998,
+        "TOMATO": 9998,
+        "STRAWBERRY": 9998,
+        "MELON": 9998
+      }
+    },
+    {
+      "turn": 68,
+      "day": 2,
+      "us": {
+        "money": 412.0,
+        "n_hands": 2,
+        "unlocked_quadrants": [
+          "NW"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 18
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 1,
+          "SHEEP": 1
+        },
+        "n_weeds": 0,
+        "hires_today": 2
+      },
+      "opponent": {
+        "money": 59.0,
+        "n_hands": 4,
+        "unlocked_quadrants": [
+          "NW",
+          "NE"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 13
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "n_weeds": 0,
+        "hires_today": 4
+      },
+      "market_prices": {
+        "WHEAT": 28,
+        "CARROT": 35,
+        "TOMATO": 60,
+        "STRAWBERRY": 135,
+        "MELON": 262
+      },
+      "market_inventory": {
+        "WHEAT": 9991,
+        "CARROT": 9997,
+        "TOMATO": 9997,
+        "STRAWBERRY": 9997,
+        "MELON": 9997
+      }
+    },
+    {
+      "turn": 92,
+      "day": 3,
+      "us": {
+        "money": 34.0,
+        "n_hands": 2,
+        "unlocked_quadrants": [
+          "NW"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 21
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 1,
+          "SHEEP": 1
+        },
+        "n_weeds": 0,
+        "hires_today": 2
+      },
+      "opponent": {
+        "money": 59.0,
+        "n_hands": 0,
+        "unlocked_quadrants": [
+          "NW",
+          "NE"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 13
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "n_weeds": 0,
+        "hires_today": 0
+      },
+      "market_prices": {
+        "WHEAT": 29,
+        "CARROT": 35,
+        "TOMATO": 60,
+        "STRAWBERRY": 145,
+        "MELON": 264
+      },
+      "market_inventory": {
+        "WHEAT": 9983,
+        "CARROT": 9996,
+        "TOMATO": 9996,
+        "STRAWBERRY": 9991,
+        "MELON": 9996
+      }
+    },
+    {
+      "turn": 116,
+      "day": 4,
+      "us": {
+        "money": 3.0,
+        "n_hands": 2,
+        "unlocked_quadrants": [
+          "NW"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 22
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 1,
+          "SHEEP": 1
+        },
+        "n_weeds": 0,
+        "hires_today": 2
+      },
+      "opponent": {
+        "money": 59.0,
+        "n_hands": 0,
+        "unlocked_quadrants": [
+          "NW",
+          "NE"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 13
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "n_weeds": 0,
+        "hires_today": 0
+      },
+      "market_prices": {
+        "WHEAT": 30,
+        "CARROT": 35,
+        "TOMATO": 61,
+        "STRAWBERRY": 154,
+        "MELON": 266
+      },
+      "market_inventory": {
+        "WHEAT": 9975,
+        "CARROT": 9995,
+        "TOMATO": 9995,
+        "STRAWBERRY": 9984,
+        "MELON": 9995
+      }
+    },
+    {
+      "turn": 140,
+      "day": 5,
+      "us": {
+        "money": 1.0,
+        "n_hands": 2,
+        "unlocked_quadrants": [
+          "NW"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 22
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 1,
+          "SHEEP": 0
+        },
+        "n_weeds": 0,
+        "hires_today": 2
+      },
+      "opponent": {
+        "money": 59.0,
+        "n_hands": 0,
+        "unlocked_quadrants": [
+          "NW",
+          "NE"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 11
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "n_weeds": 2,
+        "hires_today": 0
+      },
+      "market_prices": {
+        "WHEAT": 31,
+        "CARROT": 35,
+        "TOMATO": 61,
+        "STRAWBERRY": 160,
+        "MELON": 267
+      },
+      "market_inventory": {
+        "WHEAT": 9968,
+        "CARROT": 9994,
+        "TOMATO": 9994,
+        "STRAWBERRY": 9977,
+        "MELON": 9994
+      }
+    },
+    {
+      "turn": 164,
+      "day": 6,
+      "us": {
+        "money": 0.0,
+        "n_hands": 1,
+        "unlocked_quadrants": [
+          "NW"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 22
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 1,
+          "SHEEP": 0
+        },
+        "n_weeds": 0,
+        "hires_today": 1
+      },
+      "opponent": {
+        "money": 59.0,
+        "n_hands": 0,
+        "unlocked_quadrants": [
+          "NW",
+          "NE"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 11
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "n_weeds": 3,
+        "hires_today": 0
+      },
+      "market_prices": {
+        "WHEAT": 31,
+        "CARROT": 36,
+        "TOMATO": 61,
+        "STRAWBERRY": 166,
+        "MELON": 268
+      },
+      "market_inventory": {
+        "WHEAT": 9961,
+        "CARROT": 9993,
+        "TOMATO": 9993,
+        "STRAWBERRY": 9970,
+        "MELON": 9993
+      }
+    },
+    {
+      "turn": 188,
+      "day": 7,
+      "us": {
+        "money": 0.0,
+        "n_hands": 0,
+        "unlocked_quadrants": [
+          "NW"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 22
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 1,
+          "SHEEP": 0
+        },
+        "n_weeds": 0,
+        "hires_today": 0
+      },
+      "opponent": {
+        "money": 59.0,
+        "n_hands": 0,
+        "unlocked_quadrants": [
+          "NW",
+          "NE"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 11
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "n_weeds": 3,
+        "hires_today": 0
+      },
+      "market_prices": {
+        "WHEAT": 32,
+        "CARROT": 36,
+        "TOMATO": 61,
+        "STRAWBERRY": 171,
+        "MELON": 269
+      },
+      "market_inventory": {
+        "WHEAT": 9954,
+        "CARROT": 9992,
+        "TOMATO": 9992,
+        "STRAWBERRY": 9963,
+        "MELON": 9992
+      }
+    },
+    {
+      "turn": 212,
+      "day": 8,
+      "us": {
+        "money": 0.0,
+        "n_hands": 0,
+        "unlocked_quadrants": [
+          "NW"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 21
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "n_weeds": 1,
+        "hires_today": 0
+      },
+      "opponent": {
+        "money": 59.0,
+        "n_hands": 0,
+        "unlocked_quadrants": [
+          "NW",
+          "NE"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 11
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "n_weeds": 3,
+        "hires_today": 0
+      },
+      "market_prices": {
+        "WHEAT": 32,
+        "CARROT": 36,
+        "TOMATO": 61,
+        "STRAWBERRY": 176,
+        "MELON": 270
+      },
+      "market_inventory": {
+        "WHEAT": 9947,
+        "CARROT": 9991,
+        "TOMATO": 9991,
+        "STRAWBERRY": 9956,
+        "MELON": 9991
+      }
+    },
+    {
+      "turn": 236,
+      "day": 9,
+      "us": {
+        "money": 0.0,
+        "n_hands": 0,
+        "unlocked_quadrants": [
+          "NW"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 11
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "n_weeds": 11,
+        "hires_today": 0
+      },
+      "opponent": {
+        "money": 59.0,
+        "n_hands": 0,
+        "unlocked_quadrants": [
+          "NW",
+          "NE"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 11
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "n_weeds": 3,
+        "hires_today": 0
+      },
+      "market_prices": {
+        "WHEAT": 33,
+        "CARROT": 36,
+        "TOMATO": 62,
+        "STRAWBERRY": 180,
+        "MELON": 271
+      },
+      "market_inventory": {
+        "WHEAT": 9935,
+        "CARROT": 9990,
+        "TOMATO": 9985,
+        "STRAWBERRY": 9949,
+        "MELON": 9990
+      }
+    },
+    {
+      "turn": 260,
+      "day": 10,
+      "us": {
+        "money": 0.0,
+        "n_hands": 0,
+        "unlocked_quadrants": [
+          "NW"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 7
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "n_weeds": 11,
+        "hires_today": 0
+      },
+      "opponent": {
+        "money": 59.0,
+        "n_hands": 0,
+        "unlocked_quadrants": [
+          "NW",
+          "NE"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 10
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "n_weeds": 3,
+        "hires_today": 0
+      },
+      "market_prices": {
+        "WHEAT": 34,
+        "CARROT": 36,
+        "TOMATO": 63,
+        "STRAWBERRY": 184,
+        "MELON": 272
+      },
+      "market_inventory": {
+        "WHEAT": 9922,
+        "CARROT": 9989,
+        "TOMATO": 9978,
+        "STRAWBERRY": 9942,
+        "MELON": 9989
+      }
+    },
+    {
+      "turn": 284,
+      "day": 11,
+      "us": {
+        "money": 3547.0,
+        "n_hands": 2,
+        "unlocked_quadrants": [
+          "NW"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 3
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 1
+        },
+        "n_weeds": 5,
+        "hires_today": 2
+      },
+      "opponent": {
+        "money": 5677.0,
+        "n_hands": 0,
+        "unlocked_quadrants": [
+          "NW",
+          "NE"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 11
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "n_weeds": 2,
+        "hires_today": 0
+      },
+      "market_prices": {
+        "WHEAT": 35,
+        "CARROT": 36,
+        "TOMATO": 63,
+        "STRAWBERRY": 188,
+        "MELON": 239
+      },
+      "market_inventory": {
+        "WHEAT": 9908,
+        "CARROT": 9988,
+        "TOMATO": 9971,
+        "STRAWBERRY": 9935,
+        "MELON": 10033
+      }
+    },
+    {
+      "turn": 308,
+      "day": 12,
+      "us": {
+        "money": 2870.0,
+        "n_hands": 2,
+        "unlocked_quadrants": [
+          "NW"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 11
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 1
+        },
+        "n_weeds": 2,
+        "hires_today": 2
+      },
+      "opponent": {
+        "money": 7233.0,
+        "n_hands": 2,
+        "unlocked_quadrants": [
+          "NW",
+          "NE"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 15
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "n_weeds": 0,
+        "hires_today": 2
+      },
+      "market_prices": {
+        "WHEAT": 35,
+        "CARROT": 37,
+        "TOMATO": 64,
+        "STRAWBERRY": 191,
+        "MELON": 232
+      },
+      "market_inventory": {
+        "WHEAT": 9894,
+        "CARROT": 9977,
+        "TOMATO": 9964,
+        "STRAWBERRY": 9928,
+        "MELON": 10042
+      }
+    },
+    {
+      "turn": 332,
+      "day": 13,
+      "us": {
+        "money": 2273.0,
+        "n_hands": 2,
+        "unlocked_quadrants": [
+          "NW"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 16
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 1
+        },
+        "n_weeds": 3,
+        "hires_today": 2
+      },
+      "opponent": {
+        "money": 7231.0,
+        "n_hands": 2,
+        "unlocked_quadrants": [
+          "NW",
+          "NE"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 16
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "n_weeds": 0,
+        "hires_today": 2
+      },
+      "market_prices": {
+        "WHEAT": 36,
+        "CARROT": 38,
+        "TOMATO": 65,
+        "STRAWBERRY": 195,
+        "MELON": 233
+      },
+      "market_inventory": {
+        "WHEAT": 9880,
+        "CARROT": 9964,
+        "TOMATO": 9957,
+        "STRAWBERRY": 9921,
+        "MELON": 10041
+      }
+    },
+    {
+      "turn": 356,
+      "day": 14,
+      "us": {
+        "money": 1915.0,
+        "n_hands": 2,
+        "unlocked_quadrants": [
+          "NW"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 19
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 1
+        },
+        "n_weeds": 1,
+        "hires_today": 2
+      },
+      "opponent": {
+        "money": 8387.0,
+        "n_hands": 2,
+        "unlocked_quadrants": [
+          "NW",
+          "NE"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 16
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "n_weeds": 0,
+        "hires_today": 2
+      },
+      "market_prices": {
+        "WHEAT": 37,
+        "CARROT": 39,
+        "TOMATO": 66,
+        "STRAWBERRY": 198,
+        "MELON": 230
+      },
+      "market_inventory": {
+        "WHEAT": 9866,
+        "CARROT": 9951,
+        "TOMATO": 9950,
+        "STRAWBERRY": 9914,
+        "MELON": 10045
+      }
+    },
+    {
+      "turn": 380,
+      "day": 15,
+      "us": {
+        "money": 1636.0,
+        "n_hands": 2,
+        "unlocked_quadrants": [
+          "NW"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 21
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 1
+        },
+        "n_weeds": 1,
+        "hires_today": 2
+      },
+      "opponent": {
+        "money": 8385.0,
+        "n_hands": 2,
+        "unlocked_quadrants": [
+          "NW",
+          "NE"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 13
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "n_weeds": 3,
+        "hires_today": 2
+      },
+      "market_prices": {
+        "WHEAT": 37,
+        "CARROT": 40,
+        "TOMATO": 67,
+        "STRAWBERRY": 203,
+        "MELON": 231
+      },
+      "market_inventory": {
+        "WHEAT": 9847,
+        "CARROT": 9938,
+        "TOMATO": 9943,
+        "STRAWBERRY": 9902,
+        "MELON": 10044
+      }
+    },
+    {
+      "turn": 404,
+      "day": 16,
+      "us": {
+        "money": 1516.0,
+        "n_hands": 2,
+        "unlocked_quadrants": [
+          "NW"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 21
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 1
+        },
+        "n_weeds": 1,
+        "hires_today": 2
+      },
+      "opponent": {
+        "money": 8383.0,
+        "n_hands": 2,
+        "unlocked_quadrants": [
+          "NW",
+          "NE"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 13
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "n_weeds": 3,
+        "hires_today": 2
+      },
+      "market_prices": {
+        "WHEAT": 38,
+        "CARROT": 41,
+        "TOMATO": 68,
+        "STRAWBERRY": 208,
+        "MELON": 232
+      },
+      "market_inventory": {
+        "WHEAT": 9827,
+        "CARROT": 9925,
+        "TOMATO": 9936,
+        "STRAWBERRY": 9889,
+        "MELON": 10043
+      }
+    },
+    {
+      "turn": 428,
+      "day": 17,
+      "us": {
+        "money": 1396.0,
+        "n_hands": 2,
+        "unlocked_quadrants": [
+          "NW"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 21
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 1
+        },
+        "n_weeds": 1,
+        "hires_today": 2
+      },
+      "opponent": {
+        "money": 8381.0,
+        "n_hands": 2,
+        "unlocked_quadrants": [
+          "NW",
+          "NE"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 13
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "n_weeds": 3,
+        "hires_today": 2
+      },
+      "market_prices": {
+        "WHEAT": 39,
+        "CARROT": 42,
+        "TOMATO": 69,
+        "STRAWBERRY": 214,
+        "MELON": 232
+      },
+      "market_inventory": {
+        "WHEAT": 9807,
+        "CARROT": 9912,
+        "TOMATO": 9929,
+        "STRAWBERRY": 9876,
+        "MELON": 10042
+      }
+    },
+    {
+      "turn": 452,
+      "day": 18,
+      "us": {
+        "money": 2737.0,
+        "n_hands": 2,
+        "unlocked_quadrants": [
+          "NW"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 21
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 1
+        },
+        "n_weeds": 1,
+        "hires_today": 2
+      },
+      "opponent": {
+        "money": 8379.0,
+        "n_hands": 2,
+        "unlocked_quadrants": [
+          "NW",
+          "NE"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 13
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "n_weeds": 4,
+        "hires_today": 2
+      },
+      "market_prices": {
+        "WHEAT": 40,
+        "CARROT": 43,
+        "TOMATO": 70,
+        "STRAWBERRY": 218,
+        "MELON": 233
+      },
+      "market_inventory": {
+        "WHEAT": 9782,
+        "CARROT": 9899,
+        "TOMATO": 9917,
+        "STRAWBERRY": 9863,
+        "MELON": 10041
+      }
+    },
+    {
+      "turn": 476,
+      "day": 19,
+      "us": {
+        "money": 2615.0,
+        "n_hands": 2,
+        "unlocked_quadrants": [
+          "NW"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 21
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 1
+        },
+        "n_weeds": 1,
+        "hires_today": 2
+      },
+      "opponent": {
+        "money": 8377.0,
+        "n_hands": 2,
+        "unlocked_quadrants": [
+          "NW",
+          "NE"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 13
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "n_weeds": 4,
+        "hires_today": 2
+      },
+      "market_prices": {
+        "WHEAT": 41,
+        "CARROT": 44,
+        "TOMATO": 72,
+        "STRAWBERRY": 223,
+        "MELON": 234
+      },
+      "market_inventory": {
+        "WHEAT": 9756,
+        "CARROT": 9886,
+        "TOMATO": 9904,
+        "STRAWBERRY": 9850,
+        "MELON": 10040
+      }
+    },
+    {
+      "turn": 500,
+      "day": 20,
+      "us": {
+        "money": 3331.0,
+        "n_hands": 2,
+        "unlocked_quadrants": [
+          "NW"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 1,
+          "STRAWBERRY": 0,
+          "MELON": 21
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 1,
+          "SHEEP": 1
+        },
+        "n_weeds": 0,
+        "hires_today": 2
+      },
+      "opponent": {
+        "money": 8375.0,
+        "n_hands": 2,
+        "unlocked_quadrants": [
+          "NW",
+          "NE"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 13
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "n_weeds": 4,
+        "hires_today": 2
+      },
+      "market_prices": {
+        "WHEAT": 41,
+        "CARROT": 45,
+        "TOMATO": 73,
+        "STRAWBERRY": 227,
+        "MELON": 235
+      },
+      "market_inventory": {
+        "WHEAT": 9729,
+        "CARROT": 9873,
+        "TOMATO": 9891,
+        "STRAWBERRY": 9837,
+        "MELON": 10039
+      }
+    },
+    {
+      "turn": 524,
+      "day": 21,
+      "us": {
+        "money": 3445.0,
+        "n_hands": 2,
+        "unlocked_quadrants": [
+          "NW"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 1,
+          "STRAWBERRY": 0,
+          "MELON": 21
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 1,
+          "SHEEP": 1
+        },
+        "n_weeds": 0,
+        "hires_today": 2
+      },
+      "opponent": {
+        "money": 11004.0,
+        "n_hands": 2,
+        "unlocked_quadrants": [
+          "NW",
+          "NE"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 13
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "n_weeds": 4,
+        "hires_today": 2
+      },
+      "market_prices": {
+        "WHEAT": 42,
+        "CARROT": 46,
+        "TOMATO": 75,
+        "STRAWBERRY": 231,
+        "MELON": 222
+      },
+      "market_inventory": {
+        "WHEAT": 9702,
+        "CARROT": 9860,
+        "TOMATO": 9878,
+        "STRAWBERRY": 9824,
+        "MELON": 10053
+      }
+    },
+    {
+      "turn": 548,
+      "day": 22,
+      "us": {
+        "money": 2859.0,
+        "n_hands": 2,
+        "unlocked_quadrants": [
+          "NW"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 10,
+          "STRAWBERRY": 0,
+          "MELON": 0
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 1,
+          "SHEEP": 1
+        },
+        "n_weeds": 10,
+        "hires_today": 2
+      },
+      "opponent": {
+        "money": 14210.0,
+        "n_hands": 2,
+        "unlocked_quadrants": [
+          "NW",
+          "NE"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 14
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "n_weeds": 3,
+        "hires_today": 2
+      },
+      "market_prices": {
+        "WHEAT": 43,
+        "CARROT": 47,
+        "TOMATO": 76,
+        "STRAWBERRY": 235,
+        "MELON": 205
+      },
+      "market_inventory": {
+        "WHEAT": 9675,
+        "CARROT": 9847,
+        "TOMATO": 9865,
+        "STRAWBERRY": 9811,
+        "MELON": 10067
+      }
+    },
+    {
+      "turn": 572,
+      "day": 23,
+      "us": {
+        "money": 2471.0,
+        "n_hands": 2,
+        "unlocked_quadrants": [
+          "NW"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 15,
+          "STRAWBERRY": 0,
+          "MELON": 0
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 1,
+          "SHEEP": 1
+        },
+        "n_weeds": 6,
+        "hires_today": 2
+      },
+      "opponent": {
+        "money": 16196.0,
+        "n_hands": 2,
+        "unlocked_quadrants": [
+          "NW",
+          "NE"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 14
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "n_weeds": 3,
+        "hires_today": 2
+      },
+      "market_prices": {
+        "WHEAT": 44,
+        "CARROT": 48,
+        "TOMATO": 78,
+        "STRAWBERRY": 239,
+        "MELON": 192
+      },
+      "market_inventory": {
+        "WHEAT": 9648,
+        "CARROT": 9834,
+        "TOMATO": 9852,
+        "STRAWBERRY": 9798,
+        "MELON": 10076
+      }
+    },
+    {
+      "turn": 596,
+      "day": 24,
+      "us": {
+        "money": 3223.0,
+        "n_hands": 2,
+        "unlocked_quadrants": [
+          "NW"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 18,
+          "STRAWBERRY": 0,
+          "MELON": 0
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 1,
+          "SHEEP": 1
+        },
+        "n_weeds": 3,
+        "hires_today": 2
+      },
+      "opponent": {
+        "money": 17245.0,
+        "n_hands": 2,
+        "unlocked_quadrants": [
+          "NW",
+          "NE"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 16
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "n_weeds": 1,
+        "hires_today": 2
+      },
+      "market_prices": {
+        "WHEAT": 45,
+        "CARROT": 49,
+        "TOMATO": 79,
+        "STRAWBERRY": 243,
+        "MELON": 178
+      },
+      "market_inventory": {
+        "WHEAT": 9616,
+        "CARROT": 9821,
+        "TOMATO": 9839,
+        "STRAWBERRY": 9785,
+        "MELON": 10085
+      }
+    },
+    {
+      "turn": 620,
+      "day": 25,
+      "us": {
+        "money": 3031.0,
+        "n_hands": 2,
+        "unlocked_quadrants": [
+          "NW"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 21,
+          "STRAWBERRY": 0,
+          "MELON": 0
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 1,
+          "SHEEP": 1
+        },
+        "n_weeds": 1,
+        "hires_today": 2
+      },
+      "opponent": {
+        "money": 17243.0,
+        "n_hands": 2,
+        "unlocked_quadrants": [
+          "NW",
+          "NE"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 16
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "n_weeds": 1,
+        "hires_today": 2
+      },
+      "market_prices": {
+        "WHEAT": 45,
+        "CARROT": 50,
+        "TOMATO": 81,
+        "STRAWBERRY": 247,
+        "MELON": 179
+      },
+      "market_inventory": {
+        "WHEAT": 9583,
+        "CARROT": 9808,
+        "TOMATO": 9826,
+        "STRAWBERRY": 9772,
+        "MELON": 10084
+      }
+    },
+    {
+      "turn": 644,
+      "day": 26,
+      "us": {
+        "money": 2837.0,
+        "n_hands": 2,
+        "unlocked_quadrants": [
+          "NW"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 22,
+          "STRAWBERRY": 0,
+          "MELON": 0
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 1,
+          "SHEEP": 1
+        },
+        "n_weeds": 0,
+        "hires_today": 2
+      },
+      "opponent": {
+        "money": 17241.0,
+        "n_hands": 2,
+        "unlocked_quadrants": [
+          "NW",
+          "NE"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 15
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "n_weeds": 2,
+        "hires_today": 2
+      },
+      "market_prices": {
+        "WHEAT": 46,
+        "CARROT": 51,
+        "TOMATO": 82,
+        "STRAWBERRY": 250,
+        "MELON": 181
+      },
+      "market_inventory": {
+        "WHEAT": 9550,
+        "CARROT": 9795,
+        "TOMATO": 9813,
+        "STRAWBERRY": 9759,
+        "MELON": 10083
+      }
+    },
+    {
+      "turn": 668,
+      "day": 27,
+      "us": {
+        "money": 3789.0,
+        "n_hands": 2,
+        "unlocked_quadrants": [
+          "NW"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 22,
+          "STRAWBERRY": 0,
+          "MELON": 0
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 1,
+          "SHEEP": 1
+        },
+        "n_weeds": 0,
+        "hires_today": 2
+      },
+      "opponent": {
+        "money": 17239.0,
+        "n_hands": 2,
+        "unlocked_quadrants": [
+          "NW",
+          "NE"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 13
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "n_weeds": 4,
+        "hires_today": 2
+      },
+      "market_prices": {
+        "WHEAT": 47,
+        "CARROT": 52,
+        "TOMATO": 84,
+        "STRAWBERRY": 254,
+        "MELON": 183
+      },
+      "market_inventory": {
+        "WHEAT": 9518,
+        "CARROT": 9782,
+        "TOMATO": 9800,
+        "STRAWBERRY": 9746,
+        "MELON": 10082
+      }
+    },
+    {
+      "turn": 692,
+      "day": 28,
+      "us": {
+        "money": 3287.0,
+        "n_hands": 2,
+        "unlocked_quadrants": [
+          "NW"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 22,
+          "STRAWBERRY": 0,
+          "MELON": 0
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 1,
+          "SHEEP": 0
+        },
+        "n_weeds": 0,
+        "hires_today": 2
+      },
+      "opponent": {
+        "money": 17237.0,
+        "n_hands": 2,
+        "unlocked_quadrants": [
+          "NW",
+          "NE"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 13
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "n_weeds": 4,
+        "hires_today": 2
+      },
+      "market_prices": {
+        "WHEAT": 48,
+        "CARROT": 53,
+        "TOMATO": 86,
+        "STRAWBERRY": 257,
+        "MELON": 184
+      },
+      "market_inventory": {
+        "WHEAT": 9487,
+        "CARROT": 9769,
+        "TOMATO": 9787,
+        "STRAWBERRY": 9733,
+        "MELON": 10081
+      }
+    },
+    {
+      "turn": 716,
+      "day": 29,
+      "us": {
+        "money": 5372.0,
+        "n_hands": 2,
+        "unlocked_quadrants": [
+          "NW"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 22,
+          "STRAWBERRY": 0,
+          "MELON": 0
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 1,
+          "SHEEP": 0
+        },
+        "n_weeds": 0,
+        "hires_today": 2
+      },
+      "opponent": {
+        "money": 17235.0,
+        "n_hands": 2,
+        "unlocked_quadrants": [
+          "NW",
+          "NE"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 13
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "n_weeds": 4,
+        "hires_today": 2
+      },
+      "market_prices": {
+        "WHEAT": 48,
+        "CARROT": 54,
+        "TOMATO": 90,
+        "STRAWBERRY": 261,
+        "MELON": 186
+      },
+      "market_inventory": {
+        "WHEAT": 9455,
+        "CARROT": 9756,
+        "TOMATO": 9776,
+        "STRAWBERRY": 9720,
+        "MELON": 10080
+      }
+    },
+    {
+      "turn": 719,
+      "day": 29,
+      "us": {
+        "money": 5372.0,
+        "n_hands": 2,
+        "unlocked_quadrants": [
+          "NW"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 22,
+          "STRAWBERRY": 0,
+          "MELON": 0
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 1,
+          "SHEEP": 0
+        },
+        "n_weeds": 0,
+        "hires_today": 2
+      },
+      "opponent": {
+        "money": 17235.0,
+        "n_hands": 2,
+        "unlocked_quadrants": [
+          "NW",
+          "NE"
+        ],
+        "crop_tile_counts": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 13
+        },
+        "animal_counts": {
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "n_weeds": 4,
+        "hires_today": 2
+      },
+      "market_prices": {
+        "WHEAT": 48,
+        "CARROT": 54,
+        "TOMATO": 90,
+        "STRAWBERRY": 261,
+        "MELON": 186
+      },
+      "market_inventory": {
+        "WHEAT": 9450,
+        "CARROT": 9754,
+        "TOMATO": 9774,
+        "STRAWBERRY": 9718,
+        "MELON": 10080
+      }
+    }
+  ]
+}

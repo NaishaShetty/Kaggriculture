@@ -1,0 +1,44 @@
+{
+  "phase": "3.5",
+  "title": "Live Failure Forensics + Competitive Scaling",
+  "decision": "PASS -- Competitive Agent V2 validated and promoted. Submission B built and validated end-to-end.",
+  "real_competition_data": {
+    "n_episodes_analyzed": 18, "n_wins": 8, "n_losses": 10, "n_ties": 0,
+    "n_unique_opponents": 18, "n_parse_errors": 0, "n_duplicates": 0,
+    "n_unique_failure_mechanisms": 2,
+    "new_weaknesses_discovered": ["opponent_sustained_multi_resource_scaling (6/10 losses, validated, countermeasure built)",
+                                    "high_labor_low_conversion opponents in wins (2/8, execution-quality axis, not yet a threat since we still win)",
+                                    "modest_opponent_crop_choice_advantage (4/10 losses, extension of Phase 3.4's known market-crash mechanism, UNKNOWN/unaddressed)"]
+  },
+  "biggest_weaknesses_ranked": [
+    {"rank": 1, "mechanism": "opponent_sustained_multi_resource_scaling", "affected_episodes": 6,
+     "evidence": "opp_hands_final mean 5.9 vs 1.62, opp_animals_final mean 6.2 vs 0.12 (losses vs wins)",
+     "confidence": "EXPERIMENTALLY_VALIDATED", "causally_validated": true, "fixed": true},
+    {"rank": 2, "mechanism": "modest_opponent_crop_choice_advantage", "affected_episodes": 4,
+     "evidence": "opponent STRAWBERRY price ~$308-310/unit vs our crashed MELON price ~$16-19/unit in 2/4 episodes",
+     "confidence": "HYPOTHESIS", "causally_validated": false, "fixed": false}
+  ],
+  "candidate": {
+    "name": "Competitive Agent V2",
+    "architecture": "Planner v1 (frozen) + Variant D market response (frozen) + new competitive scaling response",
+    "new_component": "agents/phase3_5/{opponent_scaling_detector,response_policy}.py + agents/phase3_5/adapters/competitive_v2_agent.py",
+    "new_test_archetype": "agents/phase3_5/opponent_classes_extended.py::heavy_scaler"
+  },
+  "validation": {
+    "vs_heavy_scaler": "15/15 seeds (development+validation+held_out), consistent large positive margin improvement, 100% detector activation",
+    "vs_expansion_oriented": "10/15 win rate preserved EXACTLY (byte-identical money to Variant D's Phase 3.3 reference on every seed)",
+    "vs_other_6_archetypes": "0 activations, byte-identical to Planner v1 control",
+    "regression_tests": "106/106 passing (86 pre-existing + 20 new)",
+    "control_reproduction": "Planner v1 30/30 exact; frozen file hashes unchanged"
+  },
+  "submission_b": {
+    "artifact": "kaggriculture_phase3_5_competitive_v2_submission_B.tar.gz",
+    "size_kb": 80.9, "file_count": 30,
+    "smoke_test": "full 720-turn episode, status=DONE both players, run from the actual extracted package in a cold process outside the repo"
+  },
+  "remaining_weaknesses": [
+    "4/10 real losses (modest_opponent_crop_choice_advantage) remain UNKNOWN/unaddressed",
+    "heavy_scaler does not fully replicate real opponents' winning margin -- countermeasure validated for direction/magnitude of benefit, not proven sufficient against the strongest real opponents",
+    "only 18 real episodes available -- all findings should be re-checked as more COMPETITION RESULTS accumulate, per the brief's standing instruction"
+  ]
+}

@@ -1,0 +1,344 @@
+[
+  {
+    "file": "COMPETITION RESULTS\\104567976.json",
+    "episode_id": 104567976,
+    "seed": 620888955,
+    "n_steps": 720,
+    "our_player_index": 0,
+    "our_name": "shettynaisha",
+    "opponent_name": "Jatin Chawla",
+    "our_money": 7629.0,
+    "opponent_money": 51758.0,
+    "margin": -44129.0,
+    "result": "LOSS",
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "log_file_exists": true,
+    "log_has_stderr": false
+  },
+  {
+    "file": "COMPETITION RESULTS\\104568456.json",
+    "episode_id": 104568456,
+    "seed": 1143490605,
+    "n_steps": 720,
+    "our_player_index": 1,
+    "our_name": "shettynaisha",
+    "opponent_name": "Tanjim Ahmed Kingshu",
+    "our_money": 11286.0,
+    "opponent_money": 9865.0,
+    "margin": 1421.0,
+    "result": "WIN",
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "log_file_exists": true,
+    "log_has_stderr": false
+  },
+  {
+    "file": "COMPETITION RESULTS\\104568879.json",
+    "episode_id": 104568879,
+    "seed": 1305748635,
+    "n_steps": 720,
+    "our_player_index": 1,
+    "our_name": "shettynaisha",
+    "opponent_name": "Heng Yu",
+    "our_money": 19711.0,
+    "opponent_money": 10179.0,
+    "margin": 9532.0,
+    "result": "WIN",
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "log_file_exists": true,
+    "log_has_stderr": false
+  },
+  {
+    "file": "COMPETITION RESULTS\\104569747.json",
+    "episode_id": 104569747,
+    "seed": 460606704,
+    "n_steps": 720,
+    "our_player_index": 1,
+    "our_name": "shettynaisha",
+    "opponent_name": "Quantum",
+    "our_money": 9368.0,
+    "opponent_money": 92765.0,
+    "margin": -83397.0,
+    "result": "LOSS",
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "log_file_exists": true,
+    "log_has_stderr": false
+  },
+  {
+    "file": "COMPETITION RESULTS\\104570236.json",
+    "episode_id": 104570236,
+    "seed": 1036263131,
+    "n_steps": 720,
+    "our_player_index": 1,
+    "our_name": "shettynaisha",
+    "opponent_name": "all-coder",
+    "our_money": 19263.0,
+    "opponent_money": 37818.0,
+    "margin": -18555.0,
+    "result": "LOSS",
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "log_file_exists": true,
+    "log_has_stderr": false
+  },
+  {
+    "file": "COMPETITION RESULTS\\104570723.json",
+    "episode_id": 104570723,
+    "seed": 1592850292,
+    "n_steps": 720,
+    "our_player_index": 0,
+    "our_name": "shettynaisha",
+    "opponent_name": "nguy\u1ec5n hu\u1ec7 anh",
+    "our_money": 15533.0,
+    "opponent_money": 23687.0,
+    "margin": -8154.0,
+    "result": "LOSS",
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "log_file_exists": true,
+    "log_has_stderr": false
+  },
+  {
+    "file": "COMPETITION RESULTS\\104571150.json",
+    "episode_id": 104571150,
+    "seed": 1497685343,
+    "n_steps": 720,
+    "our_player_index": 1,
+    "our_name": "shettynaisha",
+    "opponent_name": "Deepesh Pankaj",
+    "our_money": 8427.0,
+    "opponent_money": 23325.0,
+    "margin": -14898.0,
+    "result": "LOSS",
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "log_file_exists": true,
+    "log_has_stderr": false
+  },
+  {
+    "file": "COMPETITION RESULTS\\104574124.json",
+    "episode_id": 104574124,
+    "seed": 3464666,
+    "n_steps": 720,
+    "our_player_index": 0,
+    "our_name": "shettynaisha",
+    "opponent_name": "Sithija Amarathunga",
+    "our_money": 24068.0,
+    "opponent_money": 7982.0,
+    "margin": 16086.0,
+    "result": "WIN",
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "log_file_exists": true,
+    "log_has_stderr": false
+  },
+  {
+    "file": "COMPETITION RESULTS\\104574962.json",
+    "episode_id": 104574962,
+    "seed": 1641110928,
+    "n_steps": 720,
+    "our_player_index": 0,
+    "our_name": "shettynaisha",
+    "opponent_name": "Ritesh-2006",
+    "our_money": 29232.0,
+    "opponent_money": 39083.0,
+    "margin": -9851.0,
+    "result": "LOSS",
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "log_file_exists": true,
+    "log_has_stderr": false
+  },
+  {
+    "file": "COMPETITION RESULTS\\104575529.json",
+    "episode_id": 104575529,
+    "seed": 260103445,
+    "n_steps": 720,
+    "our_player_index": 1,
+    "our_name": "shettynaisha",
+    "opponent_name": "Acteus",
+    "our_money": 15595.0,
+    "opponent_money": 22846.0,
+    "margin": -7251.0,
+    "result": "LOSS",
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "log_file_exists": true,
+    "log_has_stderr": false
+  },
+  {
+    "file": "COMPETITION RESULTS\\104593051.json",
+    "episode_id": 104593051,
+    "seed": 1490515890,
+    "n_steps": 720,
+    "our_player_index": 1,
+    "our_name": "shettynaisha",
+    "opponent_name": "JOYMIE TALICUAD",
+    "our_money": 27260.0,
+    "opponent_money": 4086.0,
+    "margin": 23174.0,
+    "result": "WIN",
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "log_file_exists": true,
+    "log_has_stderr": false
+  },
+  {
+    "file": "COMPETITION RESULTS\\104597196.json",
+    "episode_id": 104597196,
+    "seed": 197829627,
+    "n_steps": 720,
+    "our_player_index": 0,
+    "our_name": "shettynaisha",
+    "opponent_name": "zama",
+    "our_money": 20701.0,
+    "opponent_money": 29537.0,
+    "margin": -8836.0,
+    "result": "LOSS",
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "log_file_exists": true,
+    "log_has_stderr": false
+  },
+  {
+    "file": "COMPETITION RESULTS\\104597919.json",
+    "episode_id": 104597919,
+    "seed": 1900270230,
+    "n_steps": 720,
+    "our_player_index": 0,
+    "our_name": "shettynaisha",
+    "opponent_name": "Shoroogh Ahmadi",
+    "our_money": 24583.0,
+    "opponent_money": 1856.0,
+    "margin": 22727.0,
+    "result": "WIN",
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "log_file_exists": true,
+    "log_has_stderr": false
+  },
+  {
+    "file": "COMPETITION RESULTS\\104615545.json",
+    "episode_id": 104615545,
+    "seed": 421574108,
+    "n_steps": 720,
+    "our_player_index": 0,
+    "our_name": "shettynaisha",
+    "opponent_name": "explise",
+    "our_money": 5372.0,
+    "opponent_money": 17235.0,
+    "margin": -11863.0,
+    "result": "LOSS",
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "log_file_exists": true,
+    "log_has_stderr": false
+  },
+  {
+    "file": "COMPETITION RESULTS\\104661878.json",
+    "episode_id": 104661878,
+    "seed": 566494666,
+    "n_steps": 720,
+    "our_player_index": 1,
+    "our_name": "shettynaisha",
+    "opponent_name": "Sharath S",
+    "our_money": 28508.0,
+    "opponent_money": 4086.0,
+    "margin": 24422.0,
+    "result": "WIN",
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "log_file_exists": true,
+    "log_has_stderr": false
+  },
+  {
+    "file": "COMPETITION RESULTS\\104690112.json",
+    "episode_id": 104690112,
+    "seed": 1806331283,
+    "n_steps": 720,
+    "our_player_index": 1,
+    "our_name": "shettynaisha",
+    "opponent_name": "Michael Cahill",
+    "our_money": 28387.0,
+    "opponent_money": 11075.0,
+    "margin": 17312.0,
+    "result": "WIN",
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "log_file_exists": true,
+    "log_has_stderr": false
+  },
+  {
+    "file": "COMPETITION RESULTS\\104697422.json",
+    "episode_id": 104697422,
+    "seed": 830974462,
+    "n_steps": 720,
+    "our_player_index": 0,
+    "our_name": "shettynaisha",
+    "opponent_name": "Nguy\u1ec5n \u0110\u1ec9nh",
+    "our_money": 22591.0,
+    "opponent_money": 10326.0,
+    "margin": 12265.0,
+    "result": "WIN",
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "log_file_exists": true,
+    "log_has_stderr": false
+  },
+  {
+    "file": "COMPETITION RESULTS\\104703432.json",
+    "episode_id": 104703432,
+    "seed": 1665702983,
+    "n_steps": 720,
+    "our_player_index": 1,
+    "our_name": "shettynaisha",
+    "opponent_name": "Phan Van Hieu ",
+    "our_money": 1595.0,
+    "opponent_money": 22932.0,
+    "margin": -21337.0,
+    "result": "LOSS",
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "log_file_exists": true,
+    "log_has_stderr": false
+  }
+]
