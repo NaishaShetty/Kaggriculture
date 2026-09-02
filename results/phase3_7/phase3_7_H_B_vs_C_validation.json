@@ -1,0 +1,10 @@
+{
+  "status": "NOT APPLICABLE -- no C candidate exists (Stage G produced no integration)",
+  "reason": "Stages B-F did not produce a single validated countermeasure component to build a challenger from. Running a B-vs-C promotion experiment against a non-existent C would be meaningless.",
+  "what_was_actually_tested_this_phase": [
+    "F-005 liquidity guard vs no-guard, on the reconstructed death-spiral seed (2 opponent variants) -- guard never triggered, no comparison possible",
+    "Land ablation (land=1 vs land=4, hands/animals held constant) -- 3 seeds, not a B-vs-C promotion test, a mechanism-isolation test",
+    "No F-001 or F-003 candidate was built, so no B-vs-C data exists for those either"
+  ],
+  "b_wins_preservation_check": "Not applicable -- with no C candidate, there is nothing that could regress B's real wins. B's win mechanisms (Stage A) remain fully preserved by construction, since B itself is completely unmodified."
+}

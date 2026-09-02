@@ -61,8 +61,14 @@ def test_main_py_importable_and_correct_agent():
     mod = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(mod)
     check("main.py exposes a callable named 'agent'", callable(getattr(mod, "agent", None)))
-    check("main.py builds its agent via make_competitive_v2_agent (Submission B's Competitive Agent V2)",
-          mod.make_competitive_v2_agent is not None)
+    # NOTE: main.py is overwritten on each promotion (Submission A -> B -> C -> ...), same as
+    # every prior phase. This check is deliberately promotion-agnostic (it does not hardcode
+    # which phase's agent-builder main.py currently imports) so it does not go stale the next
+    # time a new submission is promoted -- see scripts/phase3_8_regression_tests.py for the
+    # Submission-C-specific check that main.py builds make_competitive_v3_agent.
+    builder_names = [n for n in dir(mod) if n.startswith("make_competitive_v") and n.endswith("_agent")]
+    check("main.py builds its agent via some make_competitive_vN_agent constructor",
+          any(getattr(mod, n) is not None for n in builder_names))
 
 
 def test_episode_boundary_reset():

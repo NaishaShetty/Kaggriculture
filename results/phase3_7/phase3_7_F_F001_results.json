@@ -1,0 +1,26 @@
+{
+  "new_evidence_from_expanded_b_sample": {
+    "wins_with_response_firing": [
+      {"episode": 104769848, "opponent": "cheesama", "opp_hands": 10, "opp_animals": 0, "opp_land": 3, "result": "WIN", "margin": 18606},
+      {"episode": 104770685, "opponent": "Thivvin Raj", "opp_hands": 7, "opp_animals": 6, "opp_land": 1, "result": "WIN", "margin": 15566},
+      {"episode": 104774120, "opponent": "TinkerBotics", "opp_hands": 10, "opp_animals": 0, "opp_land": 1, "result": "WIN", "margin": 10705}
+    ],
+    "losses_with_response_firing": [
+      {"episode": 104767259, "opponent": "zixma13", "opp_hands": 11, "opp_animals": 8, "opp_land": 3, "result": "LOSS", "margin": -25436},
+      {"episode": 104768097, "opponent": "moushun chen", "opp_hands": 10, "opp_animals": 14, "opp_land": 3, "result": "LOSS", "margin": -48162},
+      {"episode": 104768895, "opponent": "[Deleted]", "opp_hands": 10, "opp_animals": 14, "opp_land": 3, "result": "LOSS", "margin": -40067},
+      {"episode": 104771539, "opponent": "iBooNDK", "opp_hands": 10, "opp_animals": 16, "opp_land": 4, "result": "LOSS", "margin": -10967},
+      {"episode": 104772378, "opponent": "Achille Gohin", "opp_hands": 5, "opp_animals": 10, "opp_land": 4, "result": "LOSS", "margin": -43127},
+      {"episode": 104773259, "opponent": "Safin", "opp_hands": 8, "opp_animals": 3, "opp_land": 4, "result": "LOSS", "margin": -1617}
+    ]
+  },
+  "clean_signal_identified": {
+    "finding": "Mean opponent animals in WINS (with response firing) = 2.0 (0, 6, 0). Mean opponent animals in LOSSES (with response firing) = 9.2 (8, 14, 14, 16, 10, 3). Hands shows NO comparable separation: mean opponent hands in wins = 9.0 (10,7,10); mean opponent hands in losses = 9.0 (11,10,10,10,5,8) -- essentially IDENTICAL. The response's existing fixed hands target (5) appears reasonably well-calibrated relative to real opponents (wins occur even against 10-hand opponents); the fixed ANIMALS target (4 total) is the component most clearly mismatched against real opponents reaching 8-16 animals.",
+    "exception": "Safin (animals=3, low) still resulted in a loss, but the SMALLEST margin of the 6 (-$1,617, a near-miss) -- consistent with, not contradicting, the animals-signal (low animal threat = small loss even when other factors present).",
+    "classification": "STRONG EMPIRICAL SIGNAL (real-data pattern across 9 episodes with response firing); NOT YET EXPERIMENTALLY VALIDATED AS A FIX (no new response candidate targeting animals specifically was built or tested this session -- see below)."
+  },
+  "reframing": "F-001 is better understood as a THREAT-ESTIMATION problem specifically around ANIMAL commitment, not a generic 'match total labor scale' problem. This is a genuinely different framing than what Phase 3.6's 5 candidates (B1-B5) tested -- those all scaled hands AND animals together proportionally, and all failed. Whether an animals-SPECIFIC-only adjustment (leaving hands at the existing fixed target) would perform differently is UNTESTED this session.",
+  "why_not_tested_this_session": "The brief explicitly cautions: 'Do NOT simply retry the same five adaptive scaling approaches with cosmetic parameter changes and claim progress' and 'Only if new evidence supports a new approach should another F-001 candidate be implemented.' The animals-specific signal IS new evidence and DOES arguably support a genuinely different (not cosmetic) approach -- but building and properly validating (development+validation+held-out, side-effect-checked) a new response candidate within this session's remaining effort budget was not completed. This is reported as an identified, promising, UNTESTED hypothesis for Phase 3.8, not a validated fix.",
+  "f006_folded_in": "NEW-F-006 (Achille Gohin: 5 hands, 10 animals, 4 land) is fully consistent with this reframing -- animals=10 is well above the loss-cluster mean, hands=5 is actually the LOWEST in the loss sample, and land (shown in Stage D to be non-causal in isolation) is a correlate. This episode fits cleanly into the animals-driven F-001 picture once land is set aside.",
+  "final_status": "F-001 remains OPEN. Reframed with new, real-data-grounded evidence (animals, not hands, is the more discriminating threat signal). No new candidate was built or validated this session -- per the brief's own caution against cosmetic retries, and given effort constraints, this is reported as a well-evidenced HYPOTHESIS for Phase 3.8, not a fix."
+}

@@ -1,0 +1,24 @@
+{
+  "primary_episode": {"episode_id": 104772378, "opponent": "Achille Gohin", "seed": 1313573384, "margin": -43127,
+                       "opponent_profile": {"hands": 5, "animals": 10, "land": 4}},
+  "hypothesis": "Is land an independent competitive threat driver, or merely correlated with another mechanism (animals)?",
+  "controlled_ablation": {
+    "design": "Two synthetic opponent configurations, HANDS and ANIMALS held constant (6 hands, 6 animals -- COW:3/SHEEP:3), LAND varied (1 quadrant vs 4 quadrants), tested against Submission B's own unmodified agent, 3 independent seeds.",
+    "results": [
+      {"seed": 910001, "land_1_opponent_money": 23942, "land_4_opponent_money": 17712, "delta": -6230},
+      {"seed": 910002, "land_1_opponent_money": 32276, "land_4_opponent_money": 15657, "delta": -16619},
+      {"seed": 910003, "land_1_opponent_money": 26158, "land_4_opponent_money": 14549, "delta": -11609}
+    ],
+    "finding": "The land=4 configuration performed WORSE (not better) than land=1 for the opponent in all 3 seeds, holding hands/animals constant -- consistent with Phase 2.3's original F3/F4 finding that land has negative isolated economic value without proportionally more labor to work it."
+  },
+  "answers_to_the_six_required_questions": {
+    "1_is_land_actually_a_competitive_driver": "NO, not independently -- controlled ablation shows land HURTS the opponent's outcome when hands/animals are held constant.",
+    "2_is_land_merely_correlated_with_another_mechanism": "YES -- in the real Submission B loss sample, high-land opponents (Achille Gohin, iBooNDK, Safin, moushun chen, zixma13, the deleted-account game) are ALSO high-animal opponents; the controlled ablation suggests ANIMALS is the actual driver and land is a correlate, likely because successful real opponents who expand land ALSO tend to scale animals/production to use it (a real opponent's overall scale/ambition signal), not because land itself confers an advantage.",
+    "3_does_responding_with_land_improve_win_probability": "NOT TESTED directly (no land-response candidate was built, given finding #1 removes the motivation to build one) -- but the ablation evidence argues AGAINST it: if land doesn't help even a well-resourced (6 hands/6 animals) opponent, there is no evidenced reason to expect a land response would help us.",
+    "4_is_buying_land_economically_justified": "NOT SEPARATELY RE-TESTED this session -- Phase 2.3's original finding (land negative in isolation) is REINFORCED, not contradicted, by this new ablation.",
+    "5_is_there_a_minimum_effective_land_response": "UNKNOWN -- not applicable given finding #1.",
+    "6_is_land_a_threat_signal_or_simply_an_economic_resource": "Evidence points to land being neither an independent threat NOR a resource worth matching -- it appears to function as a byproduct/correlate of a more ambitious opponent (one who ALSO scales animals), not a lever in itself."
+  },
+  "reclassification": "NEW-F-006 is RECLASSIFIED: not a distinct 'land+animal-heavy, hands-modest' mechanism requiring a land-aware response, but a SPECIFIC INSTANCE of F-001 (animal-driven scaling) where land happened to be correlated. Folded into the F-001 reassessment (Stage F) rather than treated as its own countermeasure target.",
+  "confidence": "EXPERIMENTALLY VALIDATED for the ablation result (land doesn't help in isolation, 3/3 seeds); HYPOTHESIS for the broader claim that ALL real high-land losses are actually animal-driven (only 1 real episode, Achille Gohin, was deeply examined)."
+}

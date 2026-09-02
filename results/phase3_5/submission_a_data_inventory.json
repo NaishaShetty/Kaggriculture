@@ -1,0 +1,516 @@
+{
+  "summary": {
+    "total_files": 49,
+    "total_json_files": 36,
+    "total_json_full_replays": 18,
+    "total_json_execution_logs": 18,
+    "total_videos": 13,
+    "paired_json_and_video_episodes": 10,
+    "unpaired_videos_no_json": 3,
+    "unpaired_json_no_video": 8,
+    "parse_read_errors": 0,
+    "total_unique_episodes_all_sources": 21,
+    "unpaired_video_episode_ids": [
+      104682607,
+      104569297,
+      104567542
+    ],
+    "unpaired_json_episode_ids": [
+      104568456,
+      104568879,
+      104574124,
+      104593051,
+      104597919,
+      104661878,
+      104690112,
+      104697422
+    ]
+  },
+  "inventory": [
+    {
+      "filename": "104567976-0.json",
+      "relative_path": "COMPETITION RESULTS/SUBMISSION A\\104567976-0.json",
+      "size_bytes": 39456,
+      "file_type": "json",
+      "read_status": "OK",
+      "json_kind": "execution_log (stdout/stderr per turn)"
+    },
+    {
+      "filename": "104567976.json",
+      "relative_path": "COMPETITION RESULTS/SUBMISSION A\\104567976.json",
+      "size_bytes": 20241948,
+      "file_type": "json",
+      "read_status": "OK",
+      "episode_id": 104567976,
+      "json_kind": "full_replay",
+      "opponent": "Jatin Chawla",
+      "seed": 620888955
+    },
+    {
+      "filename": "104568456-1.json",
+      "relative_path": "COMPETITION RESULTS/SUBMISSION A\\104568456-1.json",
+      "size_bytes": 39466,
+      "file_type": "json",
+      "read_status": "OK",
+      "json_kind": "execution_log (stdout/stderr per turn)"
+    },
+    {
+      "filename": "104568456.json",
+      "relative_path": "COMPETITION RESULTS/SUBMISSION A\\104568456.json",
+      "size_bytes": 15431701,
+      "file_type": "json",
+      "read_status": "OK",
+      "episode_id": 104568456,
+      "json_kind": "full_replay",
+      "opponent": "Tanjim Ahmed Kingshu",
+      "seed": 1143490605
+    },
+    {
+      "filename": "104568879-1.json",
+      "relative_path": "COMPETITION RESULTS/SUBMISSION A\\104568879-1.json",
+      "size_bytes": 39452,
+      "file_type": "json",
+      "read_status": "OK",
+      "json_kind": "execution_log (stdout/stderr per turn)"
+    },
+    {
+      "filename": "104568879.json",
+      "relative_path": "COMPETITION RESULTS/SUBMISSION A\\104568879.json",
+      "size_bytes": 11644948,
+      "file_type": "json",
+      "read_status": "OK",
+      "episode_id": 104568879,
+      "json_kind": "full_replay",
+      "opponent": "Heng Yu",
+      "seed": 1305748635
+    },
+    {
+      "filename": "104569747-1.json",
+      "relative_path": "COMPETITION RESULTS/SUBMISSION A\\104569747-1.json",
+      "size_bytes": 39442,
+      "file_type": "json",
+      "read_status": "OK",
+      "json_kind": "execution_log (stdout/stderr per turn)"
+    },
+    {
+      "filename": "104569747.json",
+      "relative_path": "COMPETITION RESULTS/SUBMISSION A\\104569747.json",
+      "size_bytes": 20279614,
+      "file_type": "json",
+      "read_status": "OK",
+      "episode_id": 104569747,
+      "json_kind": "full_replay",
+      "opponent": "Quantum",
+      "seed": 460606704
+    },
+    {
+      "filename": "104570236-1.json",
+      "relative_path": "COMPETITION RESULTS/SUBMISSION A\\104570236-1.json",
+      "size_bytes": 39478,
+      "file_type": "json",
+      "read_status": "OK",
+      "json_kind": "execution_log (stdout/stderr per turn)"
+    },
+    {
+      "filename": "104570236.json",
+      "relative_path": "COMPETITION RESULTS/SUBMISSION A\\104570236.json",
+      "size_bytes": 14884106,
+      "file_type": "json",
+      "read_status": "OK",
+      "episode_id": 104570236,
+      "json_kind": "full_replay",
+      "opponent": "all-coder",
+      "seed": 1036263131
+    },
+    {
+      "filename": "104570723-0.json",
+      "relative_path": "COMPETITION RESULTS/SUBMISSION A\\104570723-0.json",
+      "size_bytes": 39472,
+      "file_type": "json",
+      "read_status": "OK",
+      "json_kind": "execution_log (stdout/stderr per turn)"
+    },
+    {
+      "filename": "104570723.json",
+      "relative_path": "COMPETITION RESULTS/SUBMISSION A\\104570723.json",
+      "size_bytes": 12490372,
+      "file_type": "json",
+      "read_status": "OK",
+      "episode_id": 104570723,
+      "json_kind": "full_replay",
+      "opponent": "nguy\u1ec5n hu\u1ec7 anh",
+      "seed": 1592850292
+    },
+    {
+      "filename": "104571150-1.json",
+      "relative_path": "COMPETITION RESULTS/SUBMISSION A\\104571150-1.json",
+      "size_bytes": 39470,
+      "file_type": "json",
+      "read_status": "OK",
+      "json_kind": "execution_log (stdout/stderr per turn)"
+    },
+    {
+      "filename": "104571150.json",
+      "relative_path": "COMPETITION RESULTS/SUBMISSION A\\104571150.json",
+      "size_bytes": 13961548,
+      "file_type": "json",
+      "read_status": "OK",
+      "episode_id": 104571150,
+      "json_kind": "full_replay",
+      "opponent": "Deepesh Pankaj",
+      "seed": 1497685343
+    },
+    {
+      "filename": "104574124-0.json",
+      "relative_path": "COMPETITION RESULTS/SUBMISSION A\\104574124-0.json",
+      "size_bytes": 39470,
+      "file_type": "json",
+      "read_status": "OK",
+      "json_kind": "execution_log (stdout/stderr per turn)"
+    },
+    {
+      "filename": "104574124.json",
+      "relative_path": "COMPETITION RESULTS/SUBMISSION A\\104574124.json",
+      "size_bytes": 11953825,
+      "file_type": "json",
+      "read_status": "OK",
+      "episode_id": 104574124,
+      "json_kind": "full_replay",
+      "opponent": "Sithija Amarathunga",
+      "seed": 3464666
+    },
+    {
+      "filename": "104574962-0.json",
+      "relative_path": "COMPETITION RESULTS/SUBMISSION A\\104574962-0.json",
+      "size_bytes": 39471,
+      "file_type": "json",
+      "read_status": "OK",
+      "json_kind": "execution_log (stdout/stderr per turn)"
+    },
+    {
+      "filename": "104574962.json",
+      "relative_path": "COMPETITION RESULTS/SUBMISSION A\\104574962.json",
+      "size_bytes": 11011491,
+      "file_type": "json",
+      "read_status": "OK",
+      "episode_id": 104574962,
+      "json_kind": "full_replay",
+      "opponent": "Ritesh-2006",
+      "seed": 1641110928
+    },
+    {
+      "filename": "104575529-1.json",
+      "relative_path": "COMPETITION RESULTS/SUBMISSION A\\104575529-1.json",
+      "size_bytes": 39470,
+      "file_type": "json",
+      "read_status": "OK",
+      "json_kind": "execution_log (stdout/stderr per turn)"
+    },
+    {
+      "filename": "104575529.json",
+      "relative_path": "COMPETITION RESULTS/SUBMISSION A\\104575529.json",
+      "size_bytes": 13576242,
+      "file_type": "json",
+      "read_status": "OK",
+      "episode_id": 104575529,
+      "json_kind": "full_replay",
+      "opponent": "Acteus",
+      "seed": 260103445
+    },
+    {
+      "filename": "104593051-1.json",
+      "relative_path": "COMPETITION RESULTS/SUBMISSION A\\104593051-1.json",
+      "size_bytes": 39457,
+      "file_type": "json",
+      "read_status": "OK",
+      "json_kind": "execution_log (stdout/stderr per turn)"
+    },
+    {
+      "filename": "104593051.json",
+      "relative_path": "COMPETITION RESULTS/SUBMISSION A\\104593051.json",
+      "size_bytes": 9217573,
+      "file_type": "json",
+      "read_status": "OK",
+      "episode_id": 104593051,
+      "json_kind": "full_replay",
+      "opponent": "JOYMIE TALICUAD",
+      "seed": 1490515890
+    },
+    {
+      "filename": "104597196-0.json",
+      "relative_path": "COMPETITION RESULTS/SUBMISSION A\\104597196-0.json",
+      "size_bytes": 39461,
+      "file_type": "json",
+      "read_status": "OK",
+      "json_kind": "execution_log (stdout/stderr per turn)"
+    },
+    {
+      "filename": "104597196.json",
+      "relative_path": "COMPETITION RESULTS/SUBMISSION A\\104597196.json",
+      "size_bytes": 17703980,
+      "file_type": "json",
+      "read_status": "OK",
+      "episode_id": 104597196,
+      "json_kind": "full_replay",
+      "opponent": "zama",
+      "seed": 197829627
+    },
+    {
+      "filename": "104597919-0.json",
+      "relative_path": "COMPETITION RESULTS/SUBMISSION A\\104597919-0.json",
+      "size_bytes": 39469,
+      "file_type": "json",
+      "read_status": "OK",
+      "json_kind": "execution_log (stdout/stderr per turn)"
+    },
+    {
+      "filename": "104597919.json",
+      "relative_path": "COMPETITION RESULTS/SUBMISSION A\\104597919.json",
+      "size_bytes": 10646493,
+      "file_type": "json",
+      "read_status": "OK",
+      "episode_id": 104597919,
+      "json_kind": "full_replay",
+      "opponent": "Shoroogh Ahmadi",
+      "seed": 1900270230
+    },
+    {
+      "filename": "104615545-0.json",
+      "relative_path": "COMPETITION RESULTS/SUBMISSION A\\104615545-0.json",
+      "size_bytes": 39465,
+      "file_type": "json",
+      "read_status": "OK",
+      "json_kind": "execution_log (stdout/stderr per turn)"
+    },
+    {
+      "filename": "104615545.json",
+      "relative_path": "COMPETITION RESULTS/SUBMISSION A\\104615545.json",
+      "size_bytes": 11924209,
+      "file_type": "json",
+      "read_status": "OK",
+      "episode_id": 104615545,
+      "json_kind": "full_replay",
+      "opponent": "explise",
+      "seed": 421574108
+    },
+    {
+      "filename": "104661878-1.json",
+      "relative_path": "COMPETITION RESULTS/SUBMISSION A\\104661878-1.json",
+      "size_bytes": 39466,
+      "file_type": "json",
+      "read_status": "OK",
+      "json_kind": "execution_log (stdout/stderr per turn)"
+    },
+    {
+      "filename": "104661878.json",
+      "relative_path": "COMPETITION RESULTS/SUBMISSION A\\104661878.json",
+      "size_bytes": 9123274,
+      "file_type": "json",
+      "read_status": "OK",
+      "episode_id": 104661878,
+      "json_kind": "full_replay",
+      "opponent": "Sharath S",
+      "seed": 566494666
+    },
+    {
+      "filename": "104690112-1.json",
+      "relative_path": "COMPETITION RESULTS/SUBMISSION A\\104690112-1.json",
+      "size_bytes": 39466,
+      "file_type": "json",
+      "read_status": "OK",
+      "json_kind": "execution_log (stdout/stderr per turn)"
+    },
+    {
+      "filename": "104690112.json",
+      "relative_path": "COMPETITION RESULTS/SUBMISSION A\\104690112.json",
+      "size_bytes": 13432570,
+      "file_type": "json",
+      "read_status": "OK",
+      "episode_id": 104690112,
+      "json_kind": "full_replay",
+      "opponent": "Michael Cahill",
+      "seed": 1806331283
+    },
+    {
+      "filename": "104697422-0.json",
+      "relative_path": "COMPETITION RESULTS/SUBMISSION A\\104697422-0.json",
+      "size_bytes": 39479,
+      "file_type": "json",
+      "read_status": "OK",
+      "json_kind": "execution_log (stdout/stderr per turn)"
+    },
+    {
+      "filename": "104697422.json",
+      "relative_path": "COMPETITION RESULTS/SUBMISSION A\\104697422.json",
+      "size_bytes": 10403009,
+      "file_type": "json",
+      "read_status": "OK",
+      "episode_id": 104697422,
+      "json_kind": "full_replay",
+      "opponent": "Nguy\u1ec5n \u0110\u1ec9nh",
+      "seed": 830974462
+    },
+    {
+      "filename": "104703432-1.json",
+      "relative_path": "COMPETITION RESULTS/SUBMISSION A\\104703432-1.json",
+      "size_bytes": 39476,
+      "file_type": "json",
+      "read_status": "OK",
+      "json_kind": "execution_log (stdout/stderr per turn)"
+    },
+    {
+      "filename": "104703432.json",
+      "relative_path": "COMPETITION RESULTS/SUBMISSION A\\104703432.json",
+      "size_bytes": 19650477,
+      "file_type": "json",
+      "read_status": "OK",
+      "episode_id": 104703432,
+      "json_kind": "full_replay",
+      "opponent": "Phan Van Hieu ",
+      "seed": 1665702983
+    },
+    {
+      "filename": "VIDEO 1.mp4",
+      "relative_path": "COMPETITION RESULTS/SUBMISSION A\\VIDEO 1.mp4",
+      "size_bytes": 78281281,
+      "file_type": "video",
+      "episode_id": 104682607,
+      "opponent": "Von Lan (VonLan233)",
+      "seed": 2043975480,
+      "has_json": false,
+      "read_status": "OK (metadata read via ffmpeg frame extraction + visual inspection)"
+    },
+    {
+      "filename": "VIDEO 10.mp4",
+      "relative_path": "COMPETITION RESULTS/SUBMISSION A\\VIDEO 10.mp4",
+      "size_bytes": 75168654,
+      "file_type": "video",
+      "episode_id": 104569297,
+      "opponent": "duckypants",
+      "seed": 1408073509,
+      "has_json": false,
+      "read_status": "OK (metadata read via ffmpeg frame extraction + visual inspection)"
+    },
+    {
+      "filename": "VIDEO 11.mp4",
+      "relative_path": "COMPETITION RESULTS/SUBMISSION A\\VIDEO 11.mp4",
+      "size_bytes": 74905672,
+      "file_type": "video",
+      "episode_id": 104567976,
+      "opponent": "Jatin Chawla",
+      "seed": 620888955,
+      "has_json": true,
+      "read_status": "OK (metadata read via ffmpeg frame extraction + visual inspection)"
+    },
+    {
+      "filename": "VIDEO 12.mp4",
+      "relative_path": "COMPETITION RESULTS/SUBMISSION A\\VIDEO 12.mp4",
+      "size_bytes": 75440018,
+      "file_type": "video",
+      "episode_id": 104567542,
+      "opponent": "Ben Wilson",
+      "seed": 1028626236,
+      "has_json": false,
+      "read_status": "OK (metadata read via ffmpeg frame extraction + visual inspection)"
+    },
+    {
+      "filename": "VIDEO 13.mp4",
+      "relative_path": "COMPETITION RESULTS/SUBMISSION A\\VIDEO 13.mp4",
+      "size_bytes": 75067885,
+      "file_type": "video",
+      "episode_id": 104703432,
+      "opponent": "Phan Van Hieu",
+      "seed": 1665702983,
+      "has_json": true,
+      "read_status": "OK (metadata read via ffmpeg frame extraction + visual inspection)"
+    },
+    {
+      "filename": "VIDEO 3.mp4",
+      "relative_path": "COMPETITION RESULTS/SUBMISSION A\\VIDEO 3.mp4",
+      "size_bytes": 73726429,
+      "file_type": "video",
+      "episode_id": 104597196,
+      "opponent": "zama",
+      "seed": 197829627,
+      "has_json": true,
+      "read_status": "OK (metadata read via ffmpeg frame extraction + visual inspection)"
+    },
+    {
+      "filename": "VIDEO 4.mp4",
+      "relative_path": "COMPETITION RESULTS/SUBMISSION A\\VIDEO 4.mp4",
+      "size_bytes": 73579977,
+      "file_type": "video",
+      "episode_id": 104575529,
+      "opponent": "Acteus",
+      "seed": 260103445,
+      "has_json": true,
+      "read_status": "OK (metadata read via ffmpeg frame extraction + visual inspection)"
+    },
+    {
+      "filename": "VIDEO 5.mp4",
+      "relative_path": "COMPETITION RESULTS/SUBMISSION A\\VIDEO 5.mp4",
+      "size_bytes": 75296505,
+      "file_type": "video",
+      "episode_id": 104574962,
+      "opponent": "Ritesh-2006",
+      "seed": 1641110928,
+      "has_json": true,
+      "read_status": "OK (metadata read via ffmpeg frame extraction + visual inspection)"
+    },
+    {
+      "filename": "VIDEO 6.mp4",
+      "relative_path": "COMPETITION RESULTS/SUBMISSION A\\VIDEO 6.mp4",
+      "size_bytes": 75028329,
+      "file_type": "video",
+      "episode_id": 104571150,
+      "opponent": "Deepesh Pankaj",
+      "seed": 1497685343,
+      "has_json": true,
+      "read_status": "OK (metadata read via ffmpeg frame extraction + visual inspection)"
+    },
+    {
+      "filename": "VIDEO 7.mp4",
+      "relative_path": "COMPETITION RESULTS/SUBMISSION A\\VIDEO 7.mp4",
+      "size_bytes": 73731778,
+      "file_type": "video",
+      "episode_id": 104570723,
+      "opponent": "nguy\u1ec5n hu\u1ec7 anh",
+      "seed": 1592850292,
+      "has_json": true,
+      "read_status": "OK (metadata read via ffmpeg frame extraction + visual inspection)"
+    },
+    {
+      "filename": "VIDEO 8.mp4",
+      "relative_path": "COMPETITION RESULTS/SUBMISSION A\\VIDEO 8.mp4",
+      "size_bytes": 73613699,
+      "file_type": "video",
+      "episode_id": 104570236,
+      "opponent": "all-coder",
+      "seed": 1036263131,
+      "has_json": true,
+      "read_status": "OK (metadata read via ffmpeg frame extraction + visual inspection)"
+    },
+    {
+      "filename": "VIDEO 9.mp4",
+      "relative_path": "COMPETITION RESULTS/SUBMISSION A\\VIDEO 9.mp4",
+      "size_bytes": 75908958,
+      "file_type": "video",
+      "episode_id": 104569747,
+      "opponent": "Quantum",
+      "seed": 460606704,
+      "has_json": true,
+      "read_status": "OK (metadata read via ffmpeg frame extraction + visual inspection)"
+    },
+    {
+      "filename": "video 2.mp4",
+      "relative_path": "COMPETITION RESULTS/SUBMISSION A\\video 2.mp4",
+      "size_bytes": 80220294,
+      "file_type": "video",
+      "episode_id": 104615545,
+      "opponent": "explise",
+      "seed": 421574108,
+      "has_json": true,
+      "read_status": "OK (metadata read via ffmpeg frame extraction + visual inspection)"
+    }
+  ]
+}

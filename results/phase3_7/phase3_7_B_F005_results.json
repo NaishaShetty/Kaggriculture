@@ -1,0 +1,25 @@
+{
+  "primary_episode": {"episode_id": 104775830, "opponent": "Arum Puri", "seed": 852025866, "final_money": 0},
+  "method": "Turn-by-turn replay reconstruction of the real episode, cross-compared against a controlled re-run of the EXACT SAME SEED through Submission B's own unmodified agent (agents.phase3_5.adapters.competitive_v2_agent) against a synthetic 'passive' opponent -- both cash trajectory and WHEAT market price were compared turn-by-turn.",
+  "key_finding_1_initial_collapse_is_seed_determined_not_opponent_driven": {
+    "evidence": "The real episode's cash trajectory and WHEAT price are IDENTICAL, turn-for-turn, to a synthetic re-run of the same seed against a totally passive opponent, from turn 0 through at least turn 190 -- both reach exactly $0 cash by day 6-7 and both show hands dropping to 0 and staying there.",
+    "conclusion": "The INITIAL collapse (day-0 front-loaded investment -> cash trough -> hands unaffordable) is a deterministic consequence of Planner v1's own standard day-0 commitment (2 hands, COW+SHEEP, ~22 MELON tiles funded from $3000) interacting with this specific seed's RNG stream -- NOT something the real opponent (Arum Puri) caused or influenced. This exact cash-trough pattern occurs in EVERY episode analyzed across this entire project (Phase 3.4/3.5 forensics already documented this) -- it is not itself anomalous.",
+    "classification": "EXPERIMENTALLY VALIDATED (direct same-seed replay comparison)"
+  },
+  "key_finding_2_the_real_failure_is_recovery_not_investment": {
+    "evidence": "Both the real and synthetic (same-seed, passive-opponent) runs show all 22 MELON tiles decaying into WEED between day 7 and day 10, and both animals (COW, SHEEP) ESCAPING (2 consecutive unfed days, unrecoverable, per documented mechanic) by day 8-9 in BOTH cases. The trajectories diverge starting around turn 194-260: the SYNTHETIC run recovers -- at turn 265 (day 11) it successfully SELLS 20 MELON units for $5,174 (proceeds from a handful of the original tiles that survived long enough, despite minimal watering by the single remaining farmer, to reach the crop's first_yield_day=10), which funds re-hiring, re-buying animals, and replanting, ending the game at $28,344. The REAL run has ZERO surviving tiles reach harvest -- shed inventory stays at exactly all-zero through the entire remainder of the game, and final money is exactly $0.",
+    "conclusion": "F-005 is a RECOVERY-FAILURE mechanism, not an over-investment mechanism per se. The cash-trough-to-hands-zero-to-weed-decay sequence happens routinely and is usually survivable because at least a few of the many committed tiles happen to be watered by the lone farmer often enough, by chance, to reach harvest before full decay. In this specific real game, that chance came up completely empty -- 0 of 22 tiles survived.",
+    "classification": "EXPERIMENTALLY VALIDATED (direct same-seed replay comparison, exact action-level confirmation of the recovery trigger in the synthetic case)"
+  },
+  "key_finding_3_ultimate_root_cause_of_the_specific_divergence": {
+    "finding": "WHY the real game's specific RNG/action-timing sequence resulted in zero surviving tiles while the synthetic (same seed, different -- passive -- opponent) sequence resulted in a few surviving tiles was NOT further isolated this session. Plausible contributing factor: the shared simulation's RNG stream (weed-spawn checks, etc.) and exact per-turn tile-watering priority (which of the 22 tiles the lone farmer's WATER actions happen to reach on any given turn) are sensitive to the total sequence of turns/actions taken by BOTH players, so a different real opponent's actual action sequence (vs. the synthetic passive opponent's near-total inaction) shifts which turns experience which RNG outcomes -- a butterfly-effect sensitivity, not a strategic mechanism the opponent is exploiting.",
+    "classification": "F-005 ROOT CAUSE OF THE SPECIFIC DIVERGENCE: UNRESOLVED (per the brief's explicit instruction to classify honestly rather than invent a cause). The MECHANISM CLASS (recovery depends on tile-survival chance during a hands-zero window) IS resolved with high confidence; the precise trigger for WHY this one real game's chance came up empty is not."
+  },
+  "severity_context": "Worst outcome ($0 final money) across all 35 real episodes reviewed across this entire project (A: 18, B: 13, wins+losses combined). Single instance (n=1) -- frequency across the full B sample is 1/13 (7.7%), but severity is maximal.",
+  "ablations_performed": [
+    {"ablation": "Same seed vs 'passive' synthetic opponent, Submission B's own unmodified agent", "result": "recovers, final money $28,344"},
+    {"ablation": "Same seed vs 'conservative' synthetic opponent, Submission B's own unmodified agent", "result": "recovers, final money $28,521"},
+    {"ablation": "Same seed, plain Planner v1 (no Phase 3.5/3.6 layers at all) vs 'passive'", "result": "recovers, final money $28,344 -- IDENTICAL to the Phase 3.5-wrapped version, confirming this is NOT introduced or worsened by any Phase 3.5/3.6 layer"}
+  ],
+  "confirmed_not_introduced_by_phase_3_5_or_3_6": true
+}

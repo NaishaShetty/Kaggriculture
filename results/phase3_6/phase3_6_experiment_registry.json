@@ -1,0 +1,440 @@
+{
+  "phase": "3.6",
+  "total_experiments": 23,
+  "experiments": [
+    {
+      "experiment_id": "E001",
+      "hypothesis": "H1: magnitude-aware scaling response beats Submission B's fixed response",
+      "control": "B0_fixed (Submission B's unmodified competitive_scaling_response)",
+      "challenger": "B1_absolute_proportional",
+      "opponent_archetype": "heavy_scaler",
+      "seed_set": "development",
+      "seeds": [
+        "900000",
+        "900001",
+        "900002"
+      ],
+      "n_seeds": 3,
+      "metric_control_mean_money": 40463.67,
+      "metric_challenger_mean_money": 34945.33,
+      "result": "challenger underperformed control",
+      "promotion_decision": "REJECTED",
+      "mean_difference": -5518.34
+    },
+    {
+      "experiment_id": "E002",
+      "hypothesis": "H1: magnitude-aware scaling response beats Submission B's fixed response",
+      "control": "B0_fixed (Submission B's unmodified competitive_scaling_response)",
+      "challenger": "B1_absolute_proportional",
+      "opponent_archetype": "scaler_10",
+      "seed_set": "development",
+      "seeds": [
+        "900000",
+        "900001",
+        "900002"
+      ],
+      "n_seeds": 3,
+      "metric_control_mean_money": 44171.33,
+      "metric_challenger_mean_money": 35541.67,
+      "result": "challenger underperformed control",
+      "promotion_decision": "REJECTED",
+      "mean_difference": -8629.66
+    },
+    {
+      "experiment_id": "E003",
+      "hypothesis": "H1: magnitude-aware scaling response beats Submission B's fixed response",
+      "control": "B0_fixed (Submission B's unmodified competitive_scaling_response)",
+      "challenger": "B1_absolute_proportional",
+      "opponent_archetype": "scaler_5",
+      "seed_set": "development",
+      "seeds": [
+        "900000",
+        "900001",
+        "900002"
+      ],
+      "n_seeds": 3,
+      "metric_control_mean_money": 46121.0,
+      "metric_challenger_mean_money": 27925.0,
+      "result": "challenger underperformed control",
+      "promotion_decision": "REJECTED",
+      "mean_difference": -18196.0
+    },
+    {
+      "experiment_id": "E004",
+      "hypothesis": "H1: magnitude-aware scaling response beats Submission B's fixed response",
+      "control": "B0_fixed (Submission B's unmodified competitive_scaling_response)",
+      "challenger": "B1_absolute_proportional",
+      "opponent_archetype": "scaler_7",
+      "seed_set": "development",
+      "seeds": [
+        "900000",
+        "900001",
+        "900002"
+      ],
+      "n_seeds": 3,
+      "metric_control_mean_money": 47857.33,
+      "metric_challenger_mean_money": 33199.33,
+      "result": "challenger underperformed control",
+      "promotion_decision": "REJECTED",
+      "mean_difference": -14658.0
+    },
+    {
+      "experiment_id": "E005",
+      "hypothesis": "H1: magnitude-aware scaling response beats Submission B's fixed response",
+      "control": "B0_fixed (Submission B's unmodified competitive_scaling_response)",
+      "challenger": "B2_relative_gap",
+      "opponent_archetype": "heavy_scaler",
+      "seed_set": "development",
+      "seeds": [
+        "900000",
+        "900001",
+        "900002"
+      ],
+      "n_seeds": 3,
+      "metric_control_mean_money": 40463.67,
+      "metric_challenger_mean_money": 36944.0,
+      "result": "challenger underperformed control",
+      "promotion_decision": "REJECTED",
+      "mean_difference": -3519.67
+    },
+    {
+      "experiment_id": "E006",
+      "hypothesis": "H1: magnitude-aware scaling response beats Submission B's fixed response",
+      "control": "B0_fixed (Submission B's unmodified competitive_scaling_response)",
+      "challenger": "B2_relative_gap",
+      "opponent_archetype": "heavy_scaler",
+      "seed_set": "validation",
+      "seeds": [
+        "901000",
+        "901001",
+        "901002",
+        "901003"
+      ],
+      "n_seeds": 4,
+      "metric_control_mean_money": 42607.0,
+      "metric_challenger_mean_money": 36083.5,
+      "result": "challenger underperformed control",
+      "promotion_decision": "REJECTED",
+      "mean_difference": -6523.5
+    },
+    {
+      "experiment_id": "E007",
+      "hypothesis": "H1: magnitude-aware scaling response beats Submission B's fixed response",
+      "control": "B0_fixed (Submission B's unmodified competitive_scaling_response)",
+      "challenger": "B2_relative_gap",
+      "opponent_archetype": "scaler_10",
+      "seed_set": "development",
+      "seeds": [
+        "900000",
+        "900001",
+        "900002"
+      ],
+      "n_seeds": 3,
+      "metric_control_mean_money": 44171.33,
+      "metric_challenger_mean_money": 38096.0,
+      "result": "challenger underperformed control",
+      "promotion_decision": "REJECTED",
+      "mean_difference": -6075.33
+    },
+    {
+      "experiment_id": "E008",
+      "hypothesis": "H1: magnitude-aware scaling response beats Submission B's fixed response",
+      "control": "B0_fixed (Submission B's unmodified competitive_scaling_response)",
+      "challenger": "B2_relative_gap",
+      "opponent_archetype": "scaler_10",
+      "seed_set": "validation",
+      "seeds": [
+        "901000",
+        "901001",
+        "901002",
+        "901003"
+      ],
+      "n_seeds": 4,
+      "metric_control_mean_money": 41483.5,
+      "metric_challenger_mean_money": 37705.0,
+      "result": "challenger underperformed control",
+      "promotion_decision": "REJECTED",
+      "mean_difference": -3778.5
+    },
+    {
+      "experiment_id": "E009",
+      "hypothesis": "H1: magnitude-aware scaling response beats Submission B's fixed response",
+      "control": "B0_fixed (Submission B's unmodified competitive_scaling_response)",
+      "challenger": "B2_relative_gap",
+      "opponent_archetype": "scaler_5",
+      "seed_set": "development",
+      "seeds": [
+        "900000",
+        "900001",
+        "900002"
+      ],
+      "n_seeds": 3,
+      "metric_control_mean_money": 46121.0,
+      "metric_challenger_mean_money": 33101.67,
+      "result": "challenger underperformed control",
+      "promotion_decision": "REJECTED",
+      "mean_difference": -13019.33
+    },
+    {
+      "experiment_id": "E010",
+      "hypothesis": "H1: magnitude-aware scaling response beats Submission B's fixed response",
+      "control": "B0_fixed (Submission B's unmodified competitive_scaling_response)",
+      "challenger": "B2_relative_gap",
+      "opponent_archetype": "scaler_7",
+      "seed_set": "development",
+      "seeds": [
+        "900000",
+        "900001",
+        "900002"
+      ],
+      "n_seeds": 3,
+      "metric_control_mean_money": 47857.33,
+      "metric_challenger_mean_money": 36721.0,
+      "result": "challenger underperformed control",
+      "promotion_decision": "REJECTED",
+      "mean_difference": -11136.33
+    },
+    {
+      "experiment_id": "E011",
+      "hypothesis": "H1: magnitude-aware scaling response beats Submission B's fixed response",
+      "control": "B0_fixed (Submission B's unmodified competitive_scaling_response)",
+      "challenger": "B3_growth_rate_aware",
+      "opponent_archetype": "heavy_scaler",
+      "seed_set": "development",
+      "seeds": [
+        "900000",
+        "900001",
+        "900002"
+      ],
+      "n_seeds": 3,
+      "metric_control_mean_money": 40463.67,
+      "metric_challenger_mean_money": 35952.67,
+      "result": "challenger underperformed control",
+      "promotion_decision": "REJECTED",
+      "mean_difference": -4511.0
+    },
+    {
+      "experiment_id": "E012",
+      "hypothesis": "H1: magnitude-aware scaling response beats Submission B's fixed response",
+      "control": "B0_fixed (Submission B's unmodified competitive_scaling_response)",
+      "challenger": "B3_growth_rate_aware",
+      "opponent_archetype": "scaler_10",
+      "seed_set": "development",
+      "seeds": [
+        "900000",
+        "900001",
+        "900002"
+      ],
+      "n_seeds": 3,
+      "metric_control_mean_money": 44171.33,
+      "metric_challenger_mean_money": 36783.67,
+      "result": "challenger underperformed control",
+      "promotion_decision": "REJECTED",
+      "mean_difference": -7387.66
+    },
+    {
+      "experiment_id": "E013",
+      "hypothesis": "H1: magnitude-aware scaling response beats Submission B's fixed response",
+      "control": "B0_fixed (Submission B's unmodified competitive_scaling_response)",
+      "challenger": "B3_growth_rate_aware",
+      "opponent_archetype": "scaler_5",
+      "seed_set": "development",
+      "seeds": [
+        "900000",
+        "900001",
+        "900002"
+      ],
+      "n_seeds": 3,
+      "metric_control_mean_money": 46121.0,
+      "metric_challenger_mean_money": 27949.67,
+      "result": "challenger underperformed control",
+      "promotion_decision": "REJECTED",
+      "mean_difference": -18171.33
+    },
+    {
+      "experiment_id": "E014",
+      "hypothesis": "H1: magnitude-aware scaling response beats Submission B's fixed response",
+      "control": "B0_fixed (Submission B's unmodified competitive_scaling_response)",
+      "challenger": "B3_growth_rate_aware",
+      "opponent_archetype": "scaler_7",
+      "seed_set": "development",
+      "seeds": [
+        "900000",
+        "900001",
+        "900002"
+      ],
+      "n_seeds": 3,
+      "metric_control_mean_money": 47857.33,
+      "metric_challenger_mean_money": 35380.33,
+      "result": "challenger underperformed control",
+      "promotion_decision": "REJECTED",
+      "mean_difference": -12477.0
+    },
+    {
+      "experiment_id": "E015",
+      "hypothesis": "H1: magnitude-aware scaling response beats Submission B's fixed response",
+      "control": "B0_fixed (Submission B's unmodified competitive_scaling_response)",
+      "challenger": "B4_budget_constrained",
+      "opponent_archetype": "heavy_scaler",
+      "seed_set": "development",
+      "seeds": [
+        "900000",
+        "900001",
+        "900002"
+      ],
+      "n_seeds": 3,
+      "metric_control_mean_money": 40463.67,
+      "metric_challenger_mean_money": 36796.33,
+      "result": "challenger underperformed control",
+      "promotion_decision": "REJECTED",
+      "mean_difference": -3667.34
+    },
+    {
+      "experiment_id": "E016",
+      "hypothesis": "H1: magnitude-aware scaling response beats Submission B's fixed response",
+      "control": "B0_fixed (Submission B's unmodified competitive_scaling_response)",
+      "challenger": "B4_budget_constrained",
+      "opponent_archetype": "scaler_10",
+      "seed_set": "development",
+      "seeds": [
+        "900000",
+        "900001",
+        "900002"
+      ],
+      "n_seeds": 3,
+      "metric_control_mean_money": 44171.33,
+      "metric_challenger_mean_money": 36261.33,
+      "result": "challenger underperformed control",
+      "promotion_decision": "REJECTED",
+      "mean_difference": -7910.0
+    },
+    {
+      "experiment_id": "E017",
+      "hypothesis": "H1: magnitude-aware scaling response beats Submission B's fixed response",
+      "control": "B0_fixed (Submission B's unmodified competitive_scaling_response)",
+      "challenger": "B4_budget_constrained",
+      "opponent_archetype": "scaler_5",
+      "seed_set": "development",
+      "seeds": [
+        "900000",
+        "900001",
+        "900002"
+      ],
+      "n_seeds": 3,
+      "metric_control_mean_money": 46121.0,
+      "metric_challenger_mean_money": 27843.67,
+      "result": "challenger underperformed control",
+      "promotion_decision": "REJECTED",
+      "mean_difference": -18277.33
+    },
+    {
+      "experiment_id": "E018",
+      "hypothesis": "H1: magnitude-aware scaling response beats Submission B's fixed response",
+      "control": "B0_fixed (Submission B's unmodified competitive_scaling_response)",
+      "challenger": "B4_budget_constrained",
+      "opponent_archetype": "scaler_7",
+      "seed_set": "development",
+      "seeds": [
+        "900000",
+        "900001",
+        "900002"
+      ],
+      "n_seeds": 3,
+      "metric_control_mean_money": 47857.33,
+      "metric_challenger_mean_money": 32495.67,
+      "result": "challenger underperformed control",
+      "promotion_decision": "REJECTED",
+      "mean_difference": -15361.66
+    },
+    {
+      "experiment_id": "E019",
+      "hypothesis": "H1: magnitude-aware scaling response beats Submission B's fixed response",
+      "control": "B0_fixed (Submission B's unmodified competitive_scaling_response)",
+      "challenger": "B5_hybrid",
+      "opponent_archetype": "heavy_scaler",
+      "seed_set": "development",
+      "seeds": [
+        "900000",
+        "900001",
+        "900002"
+      ],
+      "n_seeds": 3,
+      "metric_control_mean_money": 40463.67,
+      "metric_challenger_mean_money": 35952.67,
+      "result": "challenger underperformed control",
+      "promotion_decision": "REJECTED",
+      "mean_difference": -4511.0
+    },
+    {
+      "experiment_id": "E020",
+      "hypothesis": "H1: magnitude-aware scaling response beats Submission B's fixed response",
+      "control": "B0_fixed (Submission B's unmodified competitive_scaling_response)",
+      "challenger": "B5_hybrid",
+      "opponent_archetype": "scaler_10",
+      "seed_set": "development",
+      "seeds": [
+        "900000",
+        "900001",
+        "900002"
+      ],
+      "n_seeds": 3,
+      "metric_control_mean_money": 44171.33,
+      "metric_challenger_mean_money": 36783.67,
+      "result": "challenger underperformed control",
+      "promotion_decision": "REJECTED",
+      "mean_difference": -7387.66
+    },
+    {
+      "experiment_id": "E021",
+      "hypothesis": "H1: magnitude-aware scaling response beats Submission B's fixed response",
+      "control": "B0_fixed (Submission B's unmodified competitive_scaling_response)",
+      "challenger": "B5_hybrid",
+      "opponent_archetype": "scaler_5",
+      "seed_set": "development",
+      "seeds": [
+        "900000",
+        "900001",
+        "900002"
+      ],
+      "n_seeds": 3,
+      "metric_control_mean_money": 46121.0,
+      "metric_challenger_mean_money": 27949.67,
+      "result": "challenger underperformed control",
+      "promotion_decision": "REJECTED",
+      "mean_difference": -18171.33
+    },
+    {
+      "experiment_id": "E022",
+      "hypothesis": "H1: magnitude-aware scaling response beats Submission B's fixed response",
+      "control": "B0_fixed (Submission B's unmodified competitive_scaling_response)",
+      "challenger": "B5_hybrid",
+      "opponent_archetype": "scaler_7",
+      "seed_set": "development",
+      "seeds": [
+        "900000",
+        "900001",
+        "900002"
+      ],
+      "n_seeds": 3,
+      "metric_control_mean_money": 47857.33,
+      "metric_challenger_mean_money": 35380.33,
+      "result": "challenger underperformed control",
+      "promotion_decision": "REJECTED",
+      "mean_difference": -12477.0
+    },
+    {
+      "experiment_id": "E023",
+      "hypothesis": "H2: observable opponent/market behavior contains sufficient information to detect at least one F-003 mechanism",
+      "control": "N/A (forensic case study, not a controlled A/B experiment)",
+      "challenger": "N/A",
+      "opponent_archetype": "Vishwanath N Iyer (real, episode 104765587)",
+      "seed_set": "N/A (real Kaggle episode, seed 227545550)",
+      "seeds": [
+        227545550
+      ],
+      "n_seeds": 1,
+      "result": "Mechanism identified: opportunistic_market_exit_timing (selling-timing/liquidation mismatch) -- EXPERIMENTALLY VALIDATED for this episode via turn-level replay reconstruction",
+      "promotion_decision": "MECHANISM CONFIRMED, NO COUNTERMEASURE BUILT (deferred to Phase 3.7 per brief instruction)"
+    }
+  ]
+}

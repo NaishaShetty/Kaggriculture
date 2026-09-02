@@ -1,0 +1,1110 @@
+{
+  "B0_fixed": {
+    "scaler_5": {
+      "n": 3,
+      "mean_money": 46121.0,
+      "median_money": 46371.0,
+      "win_rate": 1.0,
+      "mean_scaling_activations": 1,
+      "raw": [
+        {
+          "seed": "900000",
+          "seed_set": "development",
+          "protagonist_money": 41827.0,
+          "opponent_money": 14479.0,
+          "margin": 27348.0,
+          "win": 1,
+          "scaling_activations": 1,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "900001",
+          "seed_set": "development",
+          "protagonist_money": 46371.0,
+          "opponent_money": 12746.0,
+          "margin": 33625.0,
+          "win": 1,
+          "scaling_activations": 1,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "900002",
+          "seed_set": "development",
+          "protagonist_money": 50165.0,
+          "opponent_money": 10753.0,
+          "margin": 39412.0,
+          "win": 1,
+          "scaling_activations": 1,
+          "first_activation_turn": "66"
+        }
+      ]
+    },
+    "scaler_7": {
+      "n": 3,
+      "mean_money": 47857.33,
+      "median_money": 47933.0,
+      "win_rate": 1.0,
+      "mean_scaling_activations": 1,
+      "raw": [
+        {
+          "seed": "900000",
+          "seed_set": "development",
+          "protagonist_money": 45372.0,
+          "opponent_money": 19179.0,
+          "margin": 26193.0,
+          "win": 1,
+          "scaling_activations": 1,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "900001",
+          "seed_set": "development",
+          "protagonist_money": 50267.0,
+          "opponent_money": 18255.0,
+          "margin": 32012.0,
+          "win": 1,
+          "scaling_activations": 1,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "900002",
+          "seed_set": "development",
+          "protagonist_money": 47933.0,
+          "opponent_money": 22397.0,
+          "margin": 25536.0,
+          "win": 1,
+          "scaling_activations": 1,
+          "first_activation_turn": "66"
+        }
+      ]
+    },
+    "scaler_10": {
+      "n": 7,
+      "mean_money": 42635.43,
+      "median_money": 42793.0,
+      "win_rate": 1.0,
+      "mean_scaling_activations": 1,
+      "raw": [
+        {
+          "seed": "900000",
+          "seed_set": "development",
+          "protagonist_money": 42322.0,
+          "opponent_money": 0.0,
+          "margin": 42322.0,
+          "win": 1,
+          "scaling_activations": 1,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "900001",
+          "seed_set": "development",
+          "protagonist_money": 47399.0,
+          "opponent_money": 0.0,
+          "margin": 47399.0,
+          "win": 1,
+          "scaling_activations": 1,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "900002",
+          "seed_set": "development",
+          "protagonist_money": 42793.0,
+          "opponent_money": 25334.0,
+          "margin": 17459.0,
+          "win": 1,
+          "scaling_activations": 1,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "901000",
+          "seed_set": "validation",
+          "protagonist_money": 37776.0,
+          "opponent_money": 25677.0,
+          "margin": 12099.0,
+          "win": 1,
+          "scaling_activations": 1,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "901001",
+          "seed_set": "validation",
+          "protagonist_money": 44024.0,
+          "opponent_money": 0.0,
+          "margin": 44024.0,
+          "win": 1,
+          "scaling_activations": 1,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "901002",
+          "seed_set": "validation",
+          "protagonist_money": 40338.0,
+          "opponent_money": 14389.0,
+          "margin": 25949.0,
+          "win": 1,
+          "scaling_activations": 1,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "901003",
+          "seed_set": "validation",
+          "protagonist_money": 43796.0,
+          "opponent_money": 0.0,
+          "margin": 43796.0,
+          "win": 1,
+          "scaling_activations": 1,
+          "first_activation_turn": "66"
+        }
+      ]
+    },
+    "heavy_scaler": {
+      "n": 7,
+      "mean_money": 41688.43,
+      "median_money": 43473.0,
+      "win_rate": 1.0,
+      "mean_scaling_activations": 1,
+      "raw": [
+        {
+          "seed": "900000",
+          "seed_set": "development",
+          "protagonist_money": 34290.0,
+          "opponent_money": 23828.0,
+          "margin": 10462.0,
+          "win": 1,
+          "scaling_activations": 1,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "900001",
+          "seed_set": "development",
+          "protagonist_money": 43473.0,
+          "opponent_money": 19527.0,
+          "margin": 23946.0,
+          "win": 1,
+          "scaling_activations": 1,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "900002",
+          "seed_set": "development",
+          "protagonist_money": 43628.0,
+          "opponent_money": 17990.0,
+          "margin": 25638.0,
+          "win": 1,
+          "scaling_activations": 1,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "901000",
+          "seed_set": "validation",
+          "protagonist_money": 40787.0,
+          "opponent_money": 27851.0,
+          "margin": 12936.0,
+          "win": 1,
+          "scaling_activations": 1,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "901001",
+          "seed_set": "validation",
+          "protagonist_money": 39472.0,
+          "opponent_money": 21063.0,
+          "margin": 18409.0,
+          "win": 1,
+          "scaling_activations": 1,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "901002",
+          "seed_set": "validation",
+          "protagonist_money": 44607.0,
+          "opponent_money": 13387.0,
+          "margin": 31220.0,
+          "win": 1,
+          "scaling_activations": 1,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "901003",
+          "seed_set": "validation",
+          "protagonist_money": 45562.0,
+          "opponent_money": 20054.0,
+          "margin": 25508.0,
+          "win": 1,
+          "scaling_activations": 1,
+          "first_activation_turn": "66"
+        }
+      ]
+    }
+  },
+  "B1_absolute_proportional": {
+    "scaler_5": {
+      "n": 3,
+      "mean_money": 27925.0,
+      "median_money": 27961.0,
+      "win_rate": 1.0,
+      "mean_scaling_activations": 27,
+      "raw": [
+        {
+          "seed": "900000",
+          "seed_set": "development",
+          "protagonist_money": 27993.0,
+          "opponent_money": 13472.0,
+          "margin": 14521.0,
+          "win": 1,
+          "scaling_activations": 27,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "900001",
+          "seed_set": "development",
+          "protagonist_money": 27821.0,
+          "opponent_money": 12298.0,
+          "margin": 15523.0,
+          "win": 1,
+          "scaling_activations": 27,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "900002",
+          "seed_set": "development",
+          "protagonist_money": 27961.0,
+          "opponent_money": 10661.0,
+          "margin": 17300.0,
+          "win": 1,
+          "scaling_activations": 27,
+          "first_activation_turn": "66"
+        }
+      ]
+    },
+    "scaler_7": {
+      "n": 3,
+      "mean_money": 33199.33,
+      "median_money": 32914.0,
+      "win_rate": 1.0,
+      "mean_scaling_activations": 27,
+      "raw": [
+        {
+          "seed": "900000",
+          "seed_set": "development",
+          "protagonist_money": 32914.0,
+          "opponent_money": 18526.0,
+          "margin": 14388.0,
+          "win": 1,
+          "scaling_activations": 27,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "900001",
+          "seed_set": "development",
+          "protagonist_money": 34600.0,
+          "opponent_money": 18069.0,
+          "margin": 16531.0,
+          "win": 1,
+          "scaling_activations": 27,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "900002",
+          "seed_set": "development",
+          "protagonist_money": 32084.0,
+          "opponent_money": 22040.0,
+          "margin": 10044.0,
+          "win": 1,
+          "scaling_activations": 27,
+          "first_activation_turn": "66"
+        }
+      ]
+    },
+    "scaler_10": {
+      "n": 3,
+      "mean_money": 35541.67,
+      "median_money": 35557.0,
+      "win_rate": 1.0,
+      "mean_scaling_activations": 2.3,
+      "raw": [
+        {
+          "seed": "900000",
+          "seed_set": "development",
+          "protagonist_money": 35367.0,
+          "opponent_money": 0.0,
+          "margin": 35367.0,
+          "win": 1,
+          "scaling_activations": 2,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "900001",
+          "seed_set": "development",
+          "protagonist_money": 35557.0,
+          "opponent_money": 0.0,
+          "margin": 35557.0,
+          "win": 1,
+          "scaling_activations": 2,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "900002",
+          "seed_set": "development",
+          "protagonist_money": 35701.0,
+          "opponent_money": 18665.0,
+          "margin": 17036.0,
+          "win": 1,
+          "scaling_activations": 3,
+          "first_activation_turn": "66"
+        }
+      ]
+    },
+    "heavy_scaler": {
+      "n": 3,
+      "mean_money": 34945.33,
+      "median_money": 34743.0,
+      "win_rate": 1.0,
+      "mean_scaling_activations": 3.3,
+      "raw": [
+        {
+          "seed": "900000",
+          "seed_set": "development",
+          "protagonist_money": 33027.0,
+          "opponent_money": 22045.0,
+          "margin": 10982.0,
+          "win": 1,
+          "scaling_activations": 3,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "900001",
+          "seed_set": "development",
+          "protagonist_money": 37066.0,
+          "opponent_money": 22059.0,
+          "margin": 15007.0,
+          "win": 1,
+          "scaling_activations": 4,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "900002",
+          "seed_set": "development",
+          "protagonist_money": 34743.0,
+          "opponent_money": 15530.0,
+          "margin": 19213.0,
+          "win": 1,
+          "scaling_activations": 3,
+          "first_activation_turn": "66"
+        }
+      ]
+    }
+  },
+  "B2_relative_gap": {
+    "scaler_5": {
+      "n": 3,
+      "mean_money": 33101.67,
+      "median_money": 33314.0,
+      "win_rate": 1.0,
+      "mean_scaling_activations": 27,
+      "raw": [
+        {
+          "seed": "900000",
+          "seed_set": "development",
+          "protagonist_money": 33534.0,
+          "opponent_money": 14161.0,
+          "margin": 19373.0,
+          "win": 1,
+          "scaling_activations": 27,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "900001",
+          "seed_set": "development",
+          "protagonist_money": 33314.0,
+          "opponent_money": 11597.0,
+          "margin": 21717.0,
+          "win": 1,
+          "scaling_activations": 27,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "900002",
+          "seed_set": "development",
+          "protagonist_money": 32457.0,
+          "opponent_money": 10546.0,
+          "margin": 21911.0,
+          "win": 1,
+          "scaling_activations": 27,
+          "first_activation_turn": "66"
+        }
+      ]
+    },
+    "scaler_7": {
+      "n": 3,
+      "mean_money": 36721.0,
+      "median_money": 38657.0,
+      "win_rate": 1.0,
+      "mean_scaling_activations": 2,
+      "raw": [
+        {
+          "seed": "900000",
+          "seed_set": "development",
+          "protagonist_money": 32432.0,
+          "opponent_money": 21443.0,
+          "margin": 10989.0,
+          "win": 1,
+          "scaling_activations": 2,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "900001",
+          "seed_set": "development",
+          "protagonist_money": 39074.0,
+          "opponent_money": 20714.0,
+          "margin": 18360.0,
+          "win": 1,
+          "scaling_activations": 2,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "900002",
+          "seed_set": "development",
+          "protagonist_money": 38657.0,
+          "opponent_money": 21153.0,
+          "margin": 17504.0,
+          "win": 1,
+          "scaling_activations": 2,
+          "first_activation_turn": "66"
+        }
+      ]
+    },
+    "scaler_10": {
+      "n": 7,
+      "mean_money": 37872.57,
+      "median_money": 38030.0,
+      "win_rate": 1.0,
+      "mean_scaling_activations": 3.6,
+      "raw": [
+        {
+          "seed": "900000",
+          "seed_set": "development",
+          "protagonist_money": 38030.0,
+          "opponent_money": 5328.0,
+          "margin": 32702.0,
+          "win": 1,
+          "scaling_activations": 4,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "900001",
+          "seed_set": "development",
+          "protagonist_money": 36613.0,
+          "opponent_money": 0.0,
+          "margin": 36613.0,
+          "win": 1,
+          "scaling_activations": 4,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "900002",
+          "seed_set": "development",
+          "protagonist_money": 39645.0,
+          "opponent_money": 24735.0,
+          "margin": 14910.0,
+          "win": 1,
+          "scaling_activations": 4,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "901000",
+          "seed_set": "validation",
+          "protagonist_money": 38491.0,
+          "opponent_money": 0.0,
+          "margin": 38491.0,
+          "win": 1,
+          "scaling_activations": 2,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "901001",
+          "seed_set": "validation",
+          "protagonist_money": 38138.0,
+          "opponent_money": 21678.0,
+          "margin": 16460.0,
+          "win": 1,
+          "scaling_activations": 3,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "901002",
+          "seed_set": "validation",
+          "protagonist_money": 36977.0,
+          "opponent_money": 16630.0,
+          "margin": 20347.0,
+          "win": 1,
+          "scaling_activations": 3,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "901003",
+          "seed_set": "validation",
+          "protagonist_money": 37214.0,
+          "opponent_money": 2255.0,
+          "margin": 34959.0,
+          "win": 1,
+          "scaling_activations": 5,
+          "first_activation_turn": "66"
+        }
+      ]
+    },
+    "heavy_scaler": {
+      "n": 7,
+      "mean_money": 36452.29,
+      "median_money": 37187.0,
+      "win_rate": 1.0,
+      "mean_scaling_activations": 4.7,
+      "raw": [
+        {
+          "seed": "900000",
+          "seed_set": "development",
+          "protagonist_money": 34698.0,
+          "opponent_money": 23470.0,
+          "margin": 11228.0,
+          "win": 1,
+          "scaling_activations": 4,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "900001",
+          "seed_set": "development",
+          "protagonist_money": 38618.0,
+          "opponent_money": 16111.0,
+          "margin": 22507.0,
+          "win": 1,
+          "scaling_activations": 6,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "900002",
+          "seed_set": "development",
+          "protagonist_money": 37516.0,
+          "opponent_money": 12515.0,
+          "margin": 25001.0,
+          "win": 1,
+          "scaling_activations": 5,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "901000",
+          "seed_set": "validation",
+          "protagonist_money": 37187.0,
+          "opponent_money": 24717.0,
+          "margin": 12470.0,
+          "win": 1,
+          "scaling_activations": 5,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "901001",
+          "seed_set": "validation",
+          "protagonist_money": 35593.0,
+          "opponent_money": 23551.0,
+          "margin": 12042.0,
+          "win": 1,
+          "scaling_activations": 5,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "901002",
+          "seed_set": "validation",
+          "protagonist_money": 33439.0,
+          "opponent_money": 18403.0,
+          "margin": 15036.0,
+          "win": 1,
+          "scaling_activations": 3,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "901003",
+          "seed_set": "validation",
+          "protagonist_money": 38115.0,
+          "opponent_money": 14810.0,
+          "margin": 23305.0,
+          "win": 1,
+          "scaling_activations": 5,
+          "first_activation_turn": "66"
+        }
+      ]
+    }
+  },
+  "B3_growth_rate_aware": {
+    "scaler_5": {
+      "n": 3,
+      "mean_money": 27949.67,
+      "median_money": 27797.0,
+      "win_rate": 1.0,
+      "mean_scaling_activations": 26,
+      "raw": [
+        {
+          "seed": "900000",
+          "seed_set": "development",
+          "protagonist_money": 27797.0,
+          "opponent_money": 14254.0,
+          "margin": 13543.0,
+          "win": 1,
+          "scaling_activations": 26,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "900001",
+          "seed_set": "development",
+          "protagonist_money": 27691.0,
+          "opponent_money": 12474.0,
+          "margin": 15217.0,
+          "win": 1,
+          "scaling_activations": 26,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "900002",
+          "seed_set": "development",
+          "protagonist_money": 28361.0,
+          "opponent_money": 10661.0,
+          "margin": 17700.0,
+          "win": 1,
+          "scaling_activations": 26,
+          "first_activation_turn": "66"
+        }
+      ]
+    },
+    "scaler_7": {
+      "n": 3,
+      "mean_money": 35380.33,
+      "median_money": 35733.0,
+      "win_rate": 1.0,
+      "mean_scaling_activations": 7,
+      "raw": [
+        {
+          "seed": "900000",
+          "seed_set": "development",
+          "protagonist_money": 33986.0,
+          "opponent_money": 19312.0,
+          "margin": 14674.0,
+          "win": 1,
+          "scaling_activations": 7,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "900001",
+          "seed_set": "development",
+          "protagonist_money": 36422.0,
+          "opponent_money": 18057.0,
+          "margin": 18365.0,
+          "win": 1,
+          "scaling_activations": 7,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "900002",
+          "seed_set": "development",
+          "protagonist_money": 35733.0,
+          "opponent_money": 21640.0,
+          "margin": 14093.0,
+          "win": 1,
+          "scaling_activations": 7,
+          "first_activation_turn": "66"
+        }
+      ]
+    },
+    "scaler_10": {
+      "n": 3,
+      "mean_money": 36783.67,
+      "median_money": 37493.0,
+      "win_rate": 1.0,
+      "mean_scaling_activations": 4.3,
+      "raw": [
+        {
+          "seed": "900000",
+          "seed_set": "development",
+          "protagonist_money": 37493.0,
+          "opponent_money": 0.0,
+          "margin": 37493.0,
+          "win": 1,
+          "scaling_activations": 4,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "900001",
+          "seed_set": "development",
+          "protagonist_money": 33569.0,
+          "opponent_money": 0.0,
+          "margin": 33569.0,
+          "win": 1,
+          "scaling_activations": 4,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "900002",
+          "seed_set": "development",
+          "protagonist_money": 39289.0,
+          "opponent_money": 18715.0,
+          "margin": 20574.0,
+          "win": 1,
+          "scaling_activations": 5,
+          "first_activation_turn": "66"
+        }
+      ]
+    },
+    "heavy_scaler": {
+      "n": 3,
+      "mean_money": 35952.67,
+      "median_money": 36177.0,
+      "win_rate": 1.0,
+      "mean_scaling_activations": 6,
+      "raw": [
+        {
+          "seed": "900000",
+          "seed_set": "development",
+          "protagonist_money": 34532.0,
+          "opponent_money": 22023.0,
+          "margin": 12509.0,
+          "win": 1,
+          "scaling_activations": 5,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "900001",
+          "seed_set": "development",
+          "protagonist_money": 37149.0,
+          "opponent_money": 22069.0,
+          "margin": 15080.0,
+          "win": 1,
+          "scaling_activations": 7,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "900002",
+          "seed_set": "development",
+          "protagonist_money": 36177.0,
+          "opponent_money": 15513.0,
+          "margin": 20664.0,
+          "win": 1,
+          "scaling_activations": 6,
+          "first_activation_turn": "66"
+        }
+      ]
+    }
+  },
+  "B4_budget_constrained": {
+    "scaler_5": {
+      "n": 3,
+      "mean_money": 27843.67,
+      "median_money": 27815.0,
+      "win_rate": 1.0,
+      "mean_scaling_activations": 18,
+      "raw": [
+        {
+          "seed": "900000",
+          "seed_set": "development",
+          "protagonist_money": 27986.0,
+          "opponent_money": 13584.0,
+          "margin": 14402.0,
+          "win": 1,
+          "scaling_activations": 18,
+          "first_activation_turn": "282"
+        },
+        {
+          "seed": "900001",
+          "seed_set": "development",
+          "protagonist_money": 27815.0,
+          "opponent_money": 12352.0,
+          "margin": 15463.0,
+          "win": 1,
+          "scaling_activations": 18,
+          "first_activation_turn": "282"
+        },
+        {
+          "seed": "900002",
+          "seed_set": "development",
+          "protagonist_money": 27730.0,
+          "opponent_money": 11190.0,
+          "margin": 16540.0,
+          "win": 1,
+          "scaling_activations": 18,
+          "first_activation_turn": "282"
+        }
+      ]
+    },
+    "scaler_7": {
+      "n": 3,
+      "mean_money": 32495.67,
+      "median_money": 32428.0,
+      "win_rate": 1.0,
+      "mean_scaling_activations": 18,
+      "raw": [
+        {
+          "seed": "900000",
+          "seed_set": "development",
+          "protagonist_money": 31271.0,
+          "opponent_money": 16830.0,
+          "margin": 14441.0,
+          "win": 1,
+          "scaling_activations": 18,
+          "first_activation_turn": "282"
+        },
+        {
+          "seed": "900001",
+          "seed_set": "development",
+          "protagonist_money": 33788.0,
+          "opponent_money": 19176.0,
+          "margin": 14612.0,
+          "win": 1,
+          "scaling_activations": 18,
+          "first_activation_turn": "282"
+        },
+        {
+          "seed": "900002",
+          "seed_set": "development",
+          "protagonist_money": 32428.0,
+          "opponent_money": 21587.0,
+          "margin": 10841.0,
+          "win": 1,
+          "scaling_activations": 18,
+          "first_activation_turn": "282"
+        }
+      ]
+    },
+    "scaler_10": {
+      "n": 3,
+      "mean_money": 36261.33,
+      "median_money": 35974.0,
+      "win_rate": 1.0,
+      "mean_scaling_activations": 2.3,
+      "raw": [
+        {
+          "seed": "900000",
+          "seed_set": "development",
+          "protagonist_money": 35377.0,
+          "opponent_money": 0.0,
+          "margin": 35377.0,
+          "win": 1,
+          "scaling_activations": 2,
+          "first_activation_turn": "265"
+        },
+        {
+          "seed": "900001",
+          "seed_set": "development",
+          "protagonist_money": 37433.0,
+          "opponent_money": 21898.0,
+          "margin": 15535.0,
+          "win": 1,
+          "scaling_activations": 3,
+          "first_activation_turn": "282"
+        },
+        {
+          "seed": "900002",
+          "seed_set": "development",
+          "protagonist_money": 35974.0,
+          "opponent_money": 22151.0,
+          "margin": 13823.0,
+          "win": 1,
+          "scaling_activations": 2,
+          "first_activation_turn": "282"
+        }
+      ]
+    },
+    "heavy_scaler": {
+      "n": 3,
+      "mean_money": 36796.33,
+      "median_money": 36531.0,
+      "win_rate": 1.0,
+      "mean_scaling_activations": 2.3,
+      "raw": [
+        {
+          "seed": "900000",
+          "seed_set": "development",
+          "protagonist_money": 35811.0,
+          "opponent_money": 23943.0,
+          "margin": 11868.0,
+          "win": 1,
+          "scaling_activations": 2,
+          "first_activation_turn": "265"
+        },
+        {
+          "seed": "900001",
+          "seed_set": "development",
+          "protagonist_money": 38047.0,
+          "opponent_money": 21491.0,
+          "margin": 16556.0,
+          "win": 1,
+          "scaling_activations": 3,
+          "first_activation_turn": "265"
+        },
+        {
+          "seed": "900002",
+          "seed_set": "development",
+          "protagonist_money": 36531.0,
+          "opponent_money": 17415.0,
+          "margin": 19116.0,
+          "win": 1,
+          "scaling_activations": 2,
+          "first_activation_turn": "265"
+        }
+      ]
+    }
+  },
+  "B5_hybrid": {
+    "scaler_5": {
+      "n": 3,
+      "mean_money": 27949.67,
+      "median_money": 27797.0,
+      "win_rate": 1.0,
+      "mean_scaling_activations": 26,
+      "raw": [
+        {
+          "seed": "900000",
+          "seed_set": "development",
+          "protagonist_money": 27797.0,
+          "opponent_money": 14254.0,
+          "margin": 13543.0,
+          "win": 1,
+          "scaling_activations": 26,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "900001",
+          "seed_set": "development",
+          "protagonist_money": 27691.0,
+          "opponent_money": 12474.0,
+          "margin": 15217.0,
+          "win": 1,
+          "scaling_activations": 26,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "900002",
+          "seed_set": "development",
+          "protagonist_money": 28361.0,
+          "opponent_money": 10661.0,
+          "margin": 17700.0,
+          "win": 1,
+          "scaling_activations": 26,
+          "first_activation_turn": "66"
+        }
+      ]
+    },
+    "scaler_7": {
+      "n": 3,
+      "mean_money": 35380.33,
+      "median_money": 35733.0,
+      "win_rate": 1.0,
+      "mean_scaling_activations": 7,
+      "raw": [
+        {
+          "seed": "900000",
+          "seed_set": "development",
+          "protagonist_money": 33986.0,
+          "opponent_money": 19312.0,
+          "margin": 14674.0,
+          "win": 1,
+          "scaling_activations": 7,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "900001",
+          "seed_set": "development",
+          "protagonist_money": 36422.0,
+          "opponent_money": 18057.0,
+          "margin": 18365.0,
+          "win": 1,
+          "scaling_activations": 7,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "900002",
+          "seed_set": "development",
+          "protagonist_money": 35733.0,
+          "opponent_money": 21640.0,
+          "margin": 14093.0,
+          "win": 1,
+          "scaling_activations": 7,
+          "first_activation_turn": "66"
+        }
+      ]
+    },
+    "scaler_10": {
+      "n": 3,
+      "mean_money": 36783.67,
+      "median_money": 37493.0,
+      "win_rate": 1.0,
+      "mean_scaling_activations": 4.3,
+      "raw": [
+        {
+          "seed": "900000",
+          "seed_set": "development",
+          "protagonist_money": 37493.0,
+          "opponent_money": 0.0,
+          "margin": 37493.0,
+          "win": 1,
+          "scaling_activations": 4,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "900001",
+          "seed_set": "development",
+          "protagonist_money": 33569.0,
+          "opponent_money": 0.0,
+          "margin": 33569.0,
+          "win": 1,
+          "scaling_activations": 4,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "900002",
+          "seed_set": "development",
+          "protagonist_money": 39289.0,
+          "opponent_money": 18715.0,
+          "margin": 20574.0,
+          "win": 1,
+          "scaling_activations": 5,
+          "first_activation_turn": "66"
+        }
+      ]
+    },
+    "heavy_scaler": {
+      "n": 3,
+      "mean_money": 35952.67,
+      "median_money": 36177.0,
+      "win_rate": 1.0,
+      "mean_scaling_activations": 6,
+      "raw": [
+        {
+          "seed": "900000",
+          "seed_set": "development",
+          "protagonist_money": 34532.0,
+          "opponent_money": 22023.0,
+          "margin": 12509.0,
+          "win": 1,
+          "scaling_activations": 5,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "900001",
+          "seed_set": "development",
+          "protagonist_money": 37149.0,
+          "opponent_money": 22069.0,
+          "margin": 15080.0,
+          "win": 1,
+          "scaling_activations": 7,
+          "first_activation_turn": "66"
+        },
+        {
+          "seed": "900002",
+          "seed_set": "development",
+          "protagonist_money": 36177.0,
+          "opponent_money": 15513.0,
+          "margin": 20664.0,
+          "win": 1,
+          "scaling_activations": 6,
+          "first_activation_turn": "66"
+        }
+      ]
+    }
+  }
+}

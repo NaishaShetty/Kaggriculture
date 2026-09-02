@@ -1,0 +1,22 @@
+{
+  "regression_suite": {
+    "phase2_6_regression_tests": "18/18 passed",
+    "phase3_1_regression_tests": "21/21 passed",
+    "phase3_2_regression_tests": "14/14 passed",
+    "phase3_3_regression_tests": "12/12 passed",
+    "phase3_4_regression_tests": "14/14 passed",
+    "phase3_5_submission_tests": "7/7 passed",
+    "phase3_5_regression_tests": "20/20 passed",
+    "total": "106/106 passed",
+    "new_phase3_6_tests": "none added -- no candidate was promoted, so no new production-path regression tests were needed; the experimental agents/phase3_6/ code was validated entirely through the Stage B/C/D experiment matrix instead"
+  },
+  "control_reproduction": {
+    "planner_v1": "30/30 exact byte-for-byte matches, re-run after all Phase 3.6 work",
+    "frozen_file_hashes": "unchanged, re-verified before and after Phase 3.6"
+  },
+  "candidate_evaluation_summary": {
+    "note": "No candidate (B1-B5) is being promoted, so the full 'held-out win rate / catastrophic-loss rate / etc.' battery specified in section 3.6-F was not run to completion for a final integrated policy, since there is no integrated policy to evaluate. What WAS run: the Stage B/C screening matrix (development seeds, n=3, cross-checked on validation seeds, n=4, for the strongest challenger) -- see phase3_6_B_scaling_results.json for full per-seed data.",
+    "held_out_seeds_used": false,
+    "reason": "Per the brief's own instruction ('Promotion requires evidence that C improves the competitive weakness without unacceptable regression' and 'Do NOT promote based on development seeds alone') -- since no candidate showed ANY improvement even on development+validation seeds, there was no basis to spend held-out seeds evaluating a losing candidate. Held-out seeds remain untouched for a future, better-designed challenger."
+  }
+}

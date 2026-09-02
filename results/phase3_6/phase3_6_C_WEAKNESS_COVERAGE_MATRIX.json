@@ -1,0 +1,96 @@
+{
+  "note": "'C' refers to the Phase 3.6 experimental candidate pool (agents/phase3_6/response_policy_v2.py, B1-B5) -- no Phase 3.6 candidate was ever promoted to production; this matrix evaluates that pool plus the option of NO CHANGE (keep Submission B's B0) against the now-larger 13-game Submission B evidence set.",
+  "weaknesses": [
+    {
+      "weakness_id": "F-001",
+      "description": "Opponent sustained multi-resource (hands/animals) scaling; response fires but fixed magnitude insufficient against the largest real opponents",
+      "evidence_source": "Real A+B replay JSON, detector re-run against exact observed opponent trajectories",
+      "a_frequency": "6/13 A losses (46%)",
+      "b_frequency": "5/9 B losses (56%) -- UPDATED from the prior 2/3 sample; new evidence includes zixma13, the deleted-account game, iBooNDK, Achille Gohin (partially), Safin",
+      "severity": "CRITICAL",
+      "c_detector_exists": true,
+      "c_response_exists": true,
+      "c_response_actually_changes_behavior": true,
+      "c_expected_trajectory_effect": "Positive but insufficient in magnitude (confirmed both via Phase 3.6 synthetic experiments AND now directly in real Submission B play -- e.g. moushun chen: response fired at day 5, we still lost by $48,162)",
+      "c_experimentally_validated": "Real-world CONFIRMED (not just synthetic) that detection+response fires correctly but is insufficient against extreme opponents. Phase 3.6's 5 adaptive candidates (B1-B5), designed specifically to close this gap, ALL underperformed the existing fixed response (B0) in every synthetic test.",
+      "c_tested_against_same_mechanism": true,
+      "c_tested_held_out": false,
+      "status": "PARTIALLY SOLVED (by B0, unchanged) / NOT SOLVED (by any Phase 3.6 candidate -- none improve on B0)",
+      "confidence": "HIGH for the trigger/fire facts (exact computation); MEDIUM for whether ANY tested response design would help (all tested designs failed)",
+      "remaining_risk": "CRITICAL and UNCHANGED -- this is still the single largest, most frequent real weakness across both submissions, now with MORE evidence (5 new real B losses) and NO validated fix"
+    },
+    {
+      "weakness_id": "F-002",
+      "description": "Scaling losses with margin within the original response-benefit estimate",
+      "evidence_source": "Phase 3.5 counterfactual replay (Submission A only)",
+      "a_frequency": "4/13 A losses (31%)",
+      "b_frequency": "0/9 B losses -- NOT observed in the new B sample; every B scaling loss this round showed a margin analysts would classify as F-001 (large) rather than F-002 (moderate), OR involved land (NEW-F-006)",
+      "severity": "HIGH",
+      "c_detector_exists": true, "c_response_exists": true, "c_response_actually_changes_behavior": true,
+      "c_expected_trajectory_effect": "Plausible (extrapolated from synthetic archetype, not confirmed in real play this round)",
+      "c_experimentally_validated": "HYPOTHESIS (unchanged from Phase 3.5 -- no new confirming or disconfirming B evidence this round)",
+      "c_tested_against_same_mechanism": true, "c_tested_held_out": false,
+      "status": "UNKNOWN (no new B evidence either way)",
+      "confidence": "LOW-MEDIUM, unchanged",
+      "remaining_risk": "MODERATE -- category may be rarer in real play than the Submission A sample suggested; needs more data"
+    },
+    {
+      "weakness_id": "F-003",
+      "description": "Non-scaling competitive advantage -- selling-timing/liquidation mismatch (opportunistic_market_exit_timing, precisely identified for episode 104765587)",
+      "evidence_source": "Real replay JSON, turn-level reconstruction",
+      "a_frequency": "2/13 A losses (15%)",
+      "b_frequency": "2/9 B losses (22%) -- CONFIRMED RECURRING: Vishwanath N Iyer (the original case study) AND kyunyoung (new, small margin -$2,987, detector does not trigger, opponent modest hands=3/animals=2)",
+      "severity": "MEDIUM-HIGH (one instance, Vishwanath N Iyer, is the single largest real loss+rating-hit across A+B combined)",
+      "c_detector_exists": false, "c_response_exists": false, "c_response_actually_changes_behavior": false,
+      "c_expected_trajectory_effect": "N/A -- no countermeasure exists",
+      "c_experimentally_validated": false,
+      "c_tested_against_same_mechanism": false, "c_tested_held_out": false,
+      "status": "NOT SOLVED",
+      "confidence": "HIGH for the mechanism (Vishwanath N Iyer case, turn-level evidence); the kyunyoung recurrence is only confirmed as 'detector did not trigger', not yet forensically analyzed to the same turn-level depth",
+      "remaining_risk": "HIGH -- confirmed recurring (2 instances now, not 1), no fix exists or was attempted"
+    },
+    {
+      "weakness_id": "F-004",
+      "description": "Efficient low-footprint opponent (single prior video-only instance, Von Lan)",
+      "evidence_source": "Video-only, Submission A",
+      "a_frequency": "1/13 A losses (8%)",
+      "b_frequency": "0/9 B losses -- no clearly matching new instance found this round (kyunyoung is closest but classified under F-003 instead, given the detector-non-trigger pattern more closely matches that case study)",
+      "severity": "LOW", "c_detector_exists": false, "c_response_exists": false,
+      "c_response_actually_changes_behavior": false, "c_expected_trajectory_effect": "N/A",
+      "c_experimentally_validated": false, "c_tested_against_same_mechanism": false, "c_tested_held_out": false,
+      "status": "UNKNOWN", "confidence": "LOW, unchanged",
+      "remaining_risk": "LOW -- still a single, unconfirmed instance; do not over-prioritize, per standing instruction"
+    },
+    {
+      "weakness_id": "NEW-F-005",
+      "description": "Terminal cash-zero death spiral / no-recovery softlock: our cash and ALL crop tiles hit zero by day ~6-10 and NEVER recover for the remaining 20+ days, ending the game at exactly $0 -- against an opponent with almost NO scaling signature (2 hands, 0 animals, gradual land expansion to 4 quadrants, itself starting from a WORSE position than us on day 0: opponent $78 vs our $1,833)",
+      "evidence_source": "Real replay JSON, episode 104775830 vs Arum Puri, full turn-by-turn reconstruction",
+      "a_frequency": "0/13 -- not observed in Submission A's dataset",
+      "b_frequency": "1/9 B losses (11%) -- NEW, first observed this round",
+      "severity": "CRITICAL (worst possible outcome: total loss of all value, $0 final money -- the single worst final-money result across ALL 35 real episodes reviewed to date, worse even than any F-001 loss)",
+      "c_detector_exists": false, "c_response_exists": false, "c_response_actually_changes_behavior": false,
+      "c_expected_trajectory_effect": "N/A -- not a scaling mechanism, no existing detector watches for it",
+      "c_experimentally_validated": false, "c_tested_against_same_mechanism": false, "c_tested_held_out": false,
+      "status": "NEW", "confidence": "HIGH for the observation (exact, from real replay); LOW for the root cause (not diagnosed beyond 'cash and crops hit zero and never recover' -- whether this is a Planner v1 front-loading issue, an unlucky early sequence, a weed-spawn cascade, or something else was NOT determined this session)",
+      "remaining_risk": "CRITICAL and UNQUANTIFIED -- single instance (n=1), but the worst possible outcome category. Needs urgent root-cause investigation before any confident promotion decision, since a fix for F-001/F-003 that does nothing for this risk leaves the worst tail-risk scenario completely open."
+    },
+    {
+      "weakness_id": "NEW-F-006",
+      "description": "Land+animal-heavy opponent with only MODEST hands (5, just above the detector's threshold) -- detector triggers (via the animals=10 signal), response fires, but the response ONLY adjusts hands/animals targets and NEVER touches land, while the opponent's advantage substantially comes from full land expansion (4 quadrants, 4x our own footprint)",
+      "evidence_source": "Real replay JSON, episode 104772378 vs Achille Gohin",
+      "a_frequency": "0/13 -- not observed in Submission A's dataset (or not distinguished from F-001 if present)",
+      "b_frequency": "1/9 B losses (11%) -- NEW, first observed this round",
+      "severity": "HIGH (large loss, -$43,127, the 2nd-worst margin in the current B sample)",
+      "c_detector_exists": "PARTIAL (triggers on animals, blind to land as an independent signal)",
+      "c_response_exists": "PARTIAL (adjusts hands/animals only, never land)",
+      "c_response_actually_changes_behavior": true, "c_expected_trajectory_effect": "Insufficient -- addresses only part of the opponent's actual advantage",
+      "c_experimentally_validated": "Real-world observed (response fired, loss still occurred by a large margin) but root cause (land specifically) not confirmed via a controlled ablation",
+      "c_tested_against_same_mechanism": false, "c_tested_held_out": false,
+      "status": "NOT SOLVED", "confidence": "MEDIUM (single instance; land's specific causal contribution vs. the animals is plausible but not isolated)",
+      "remaining_risk": "HIGH -- land is completely outside every Phase 3.6 candidate's response space; this is a structural gap, not a magnitude-tuning gap"
+    }
+  ],
+  "totals": {
+    "fully_solved": 0, "partially_solved": 1, "not_solved": 2, "new": 1, "unknown": 2
+  }
+}

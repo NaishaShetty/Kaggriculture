@@ -1,0 +1,32 @@
+{
+  "verdict": {
+    "submission_b_games_reviewed": 13,
+    "submission_b_wins": 4,
+    "submission_b_losses": 9,
+    "submission_b_win_rate": 0.308,
+    "ab_real_losses_reviewed": 22,
+    "known_weaknesses": 6,
+    "weaknesses_fully_solved_by_c": 0,
+    "weaknesses_partially_solved_by_c": 0,
+    "weaknesses_unresolved_by_c": 6,
+    "new_b_weaknesses_this_gate": 2,
+    "c_regressions_found": 0,
+    "final_decision": "DO NOT PROMOTE C"
+  },
+  "data_sources": [
+    "COMPETITION RESULTS/SUBMISSION B/ (13 episodes, 26 JSON, 13 video, 0 parse errors -- recursively rescanned this gate)",
+    "results/phase3_5/ (Submission A forensic audits, differential summary, counterfactual table)",
+    "results/phase3_6/ (Stage A-H reports and experiment results from the prior Phase 3.6 pass)",
+    "agents/phase3_6/ (actual implementation, traced/inspected, not modified)"
+  ],
+  "new_weaknesses_this_gate": [
+    {"id": "NEW-F-005", "name": "terminal_cash_zero_death_spiral", "episode": 104775830, "opponent": "Arum Puri",
+     "severity": "CRITICAL", "final_money_us": 0, "root_cause_diagnosed": false},
+    {"id": "NEW-F-006", "name": "land_animal_heavy_hands_modest_blind_spot", "episode": 104772378, "opponent": "Achille Gohin",
+     "severity": "HIGH", "margin": -43127, "root_cause_diagnosed": "partially (land identified as plausible primary driver, not isolated via ablation)"}
+  ],
+  "promotion_decision": "DO NOT PROMOTE C",
+  "champion": "Submission B (kaggriculture_phase3_5_competitive_v2_submission_B.tar.gz, unchanged)",
+  "production_code_modified": false,
+  "frozen_control_verification": "Planner v1 30/30 exact, frozen file hashes unchanged (re-verified this gate)"
+}

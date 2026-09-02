@@ -1,0 +1,53 @@
+{
+  "primary_case_study": {
+    "episode_id": 104765587, "opponent": "Vishwanath N Iyer", "submission": "B",
+    "our_final_money": 3140, "opponent_final_money": 33350, "margin": -30210, "rating_change": -146
+  },
+  "hypotheses_tested": {
+    "1_crop_portfolio": {
+      "finding": "Both players grew MELON as their primary crop simultaneously (us: 21-22 tiles day 3-20; opponent: 17-18 tiles day 0-20) -- crop CHOICE alone does not distinguish us from the opponent for most of the episode.",
+      "status": "NOT SUPPORTED as the primary mechanism -- both chose the same crop"
+    },
+    "2_crop_timing": {
+      "finding": "Not separately isolated from selling timing (see #8) -- planting/harvest timing appeared similar (both had ~18-22 mature MELON tiles by day 8-10).",
+      "status": "UNRESOLVED -- not distinguished from mechanism #8"
+    },
+    "3_production_efficiency": {
+      "finding": "Comparable MELON tile counts (17-22 both sides) through day 20 -- no evidence of a large production-volume gap.",
+      "status": "NOT SUPPORTED as the primary mechanism"
+    },
+    "4_market_timing": {
+      "finding": "MERGED WITH #8 (selling) below -- this is where the evidence concentrated.",
+      "status": "SEE #8"
+    },
+    "5_land_usage": {
+      "finding": "Both players stayed at 1 land quadrant for the entire episode (neither expanded). Land is NOT a factor in this specific loss.",
+      "status": "NOT SUPPORTED -- ruled out directly"
+    },
+    "6_fertilizer": {
+      "finding": "Not instrumented this session (would require per-action trace inspection beyond the daily-checkpoint trajectory built here).",
+      "status": "UNKNOWN -- not tested"
+    },
+    "7_capital_allocation": {
+      "finding": "Opponent's money stayed low ($1,400-2,500) through day 10, similar order of magnitude to ours ($0-3,000) -- no early capital advantage. The divergence appears suddenly at day 11 (see #8), not gradually.",
+      "status": "NOT SUPPORTED as an early/gradual mechanism -- ruled out as the cause of the INITIAL trajectory"
+    },
+    "8_inventory_selling": {
+      "finding": "EXPERIMENTALLY VALIDATED (this episode). The opponent's money jumped from $4,498 to $22,527 between day 11 hour 0 and hour 12 -- a single large bulk-sell event, timed while MELON price was still $129-250 (not yet crashed). The opponent then REPLANTED MELON back to 18 tiles and held for ~9 days while price recovered ($115->136), then executed a SECOND bulk-sell-and-exit at day 21-22 (tiles dropped 18->14->3->1, money jumped $24,172->$28,552), switching into CARROT -- right as price crashed again ($136->81->4). By contrast, OUR OWN MELON sell orders across the entire 720-turn episode numbered exactly TWO: 20 units at turn 265 (day 11, price already crashing $250->$129) and 95 units at turn 553 (day 23, price=$4 -- the exact bottom of the crash). The 95-unit dump at $4/unit realized roughly $380; the same 95 units at the day-8-10 price of ~$270 would have been worth roughly $25,650 -- a difference exceeding our entire loss margin ($30,210) on its own.",
+      "status": "EXPERIMENTALLY VALIDATED for this episode -- root cause identified with turn-level precision"
+    },
+    "9_resource_conversion_efficiency": {
+      "finding": "Not separately measured -- effectively subsumed by #8 (the loss is in REALIZED PRICE per unit sold, not units produced).",
+      "status": "SEE #8"
+    },
+    "10_combinations_interactions": {
+      "finding": "The mechanism is fundamentally an INTERACTION: both players flood the same MELON market, but the opponent's selling is TIMED to extract value before/during the crash their own volume (and ours) causes, while ours is timed into the trough (whether by threshold-mode holding too long, or by shed-capacity-driven forced dumping -- both plausible given only 2 sell events across 720 turns, not distinguished this session).",
+      "status": "This IS the mechanism -- see conclusion"
+    }
+  },
+  "mechanism_name": "opportunistic_market_exit_timing (selling-timing / liquidation mismatch)",
+  "distinct_from_prior_findings": "Distinct from Phase 3.4's self_inflicted_narrow_market_price_crash (which is about PRODUCTION VOLUME crashing a market) and from F-001 (labor/animal resource scaling). This is specifically about WHEN inventory is converted to cash relative to the price trajectory -- a genuinely new, precisely evidenced mechanism.",
+  "generalization_status": "HYPOTHESIS beyond this single episode -- the OTHER 2 F-003 episodes from Submission A (104570723, 104615545) were not re-examined with this same turn-level selling-timing lens this session; whether the same mechanism explains them is UNKNOWN pending that analysis.",
+  "countermeasure_status": "NOT BUILT OR TESTED this phase, per the brief's explicit instruction: 'Do not create a detector until the underlying mechanism is sufficiently supported.' The mechanism is now well-supported for this one episode; a countermeasure (e.g. a smarter batch-sell-timing policy) would require its own design + controlled validation cycle, appropriately deferred to Phase 3.7.",
+  "final_classification": "UNRESOLVED F-003, WITH A PRECISELY IDENTIFIED MECHANISM FOR THE PRIMARY CASE STUDY -- narrowed significantly from Phase 3.5's vague 'crop choice' hypothesis, not yet generalized or fixed."
+}

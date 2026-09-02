@@ -1,0 +1,122 @@
+{
+  "104567976": {
+    "episode_id": 104567976,
+    "opponent": "Jatin Chawla",
+    "would_trigger": true,
+    "first_trigger_turn": 306,
+    "first_trigger_day": 12,
+    "final_opponent_hands": 12,
+    "final_opponent_animals": 19,
+    "our_final_money": 7629.0,
+    "opponent_final_money": 51758.0,
+    "margin": -44129.0
+  },
+  "104569747": {
+    "episode_id": 104569747,
+    "opponent": "Quantum",
+    "would_trigger": true,
+    "first_trigger_turn": 258,
+    "first_trigger_day": 10,
+    "final_opponent_hands": 12,
+    "final_opponent_animals": 15,
+    "our_final_money": 9368.0,
+    "opponent_final_money": 92765.0,
+    "margin": -83397.0
+  },
+  "104570236": {
+    "episode_id": 104570236,
+    "opponent": "all-coder",
+    "would_trigger": true,
+    "first_trigger_turn": 66,
+    "first_trigger_day": 2,
+    "final_opponent_hands": 7,
+    "final_opponent_animals": 20,
+    "our_final_money": 19263.0,
+    "opponent_final_money": 37818.0,
+    "margin": -18555.0
+  },
+  "104570723": {
+    "episode_id": 104570723,
+    "opponent": "nguy\u1ec5n hu\u1ec7 anh",
+    "would_trigger": false,
+    "first_trigger_turn": null,
+    "first_trigger_day": null,
+    "final_opponent_hands": 0,
+    "final_opponent_animals": 0,
+    "our_final_money": 15533.0,
+    "opponent_final_money": 23687.0,
+    "margin": -8154.0
+  },
+  "104571150": {
+    "episode_id": 104571150,
+    "opponent": "Deepesh Pankaj",
+    "would_trigger": true,
+    "first_trigger_turn": 66,
+    "first_trigger_day": 2,
+    "final_opponent_hands": 9,
+    "final_opponent_animals": 3,
+    "our_final_money": 8427.0,
+    "opponent_final_money": 23325.0,
+    "margin": -14898.0
+  },
+  "104574962": {
+    "episode_id": 104574962,
+    "opponent": "Ritesh-2006",
+    "would_trigger": true,
+    "first_trigger_turn": 66,
+    "first_trigger_day": 2,
+    "final_opponent_hands": 0,
+    "final_opponent_animals": 4,
+    "our_final_money": 29232.0,
+    "opponent_final_money": 39083.0,
+    "margin": -9851.0
+  },
+  "104575529": {
+    "episode_id": 104575529,
+    "opponent": "Acteus",
+    "would_trigger": true,
+    "first_trigger_turn": 306,
+    "first_trigger_day": 12,
+    "final_opponent_hands": 0,
+    "final_opponent_animals": 1,
+    "our_final_money": 15595.0,
+    "opponent_final_money": 22846.0,
+    "margin": -7251.0
+  },
+  "104597196": {
+    "episode_id": 104597196,
+    "opponent": "zama",
+    "would_trigger": true,
+    "first_trigger_turn": 66,
+    "first_trigger_day": 2,
+    "final_opponent_hands": 6,
+    "final_opponent_animals": 0,
+    "our_final_money": 20701.0,
+    "opponent_final_money": 29537.0,
+    "margin": -8836.0
+  },
+  "104615545": {
+    "episode_id": 104615545,
+    "opponent": "explise",
+    "would_trigger": false,
+    "first_trigger_turn": null,
+    "first_trigger_day": null,
+    "final_opponent_hands": 2,
+    "final_opponent_animals": 0,
+    "our_final_money": 5372.0,
+    "opponent_final_money": 17235.0,
+    "margin": -11863.0
+  },
+  "104703432": {
+    "episode_id": 104703432,
+    "opponent": "Phan Van Hieu ",
+    "would_trigger": true,
+    "first_trigger_turn": 66,
+    "first_trigger_day": 2,
+    "final_opponent_hands": 11,
+    "final_opponent_animals": 0,
+    "our_final_money": 1595.0,
+    "opponent_final_money": 22932.0,
+    "margin": -21337.0
+  }
+}

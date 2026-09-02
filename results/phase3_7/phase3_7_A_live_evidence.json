@@ -1,0 +1,18 @@
+{
+  "rescan_result": "COMPETITION RESULTS/SUBMISSION B recursively rescanned -- 39 files (26 JSON, 13 video), IDENTICAL to the count found in the prior Phase 3.6 pre-submission gate audit. No new episodes appeared this session.",
+  "baseline": {
+    "total_games": 13, "wins": 4, "losses": 9, "win_rate": 0.308,
+    "mean_final_money": 21842.23, "median_final_money": 22335.0,
+    "mean_margin": -12455.77, "median_margin": -10967.0,
+    "caveat": "Mechanism-level evidence only, not a verdict on overall competitive strength (n=13, standing project rule)."
+  },
+  "what_b_does_correctly_in_real_wins": {
+    "finding": "All 4 real wins share: (1) our own resource commitment stays at the same static ~2 baseline seen throughout the project UNLESS the scaling response fires; (2) in 3 of 4 wins the response DID fire (against cheesama, Thivvin Raj, TinkerBotics) and, critically, in every one of those 3 cases the opponent's ANIMAL count stayed LOW (0, 6, 0) even when hands were high (10, 7, 10); (3) the 4th win (nbarlow) never triggered the response at all -- opponent stayed low-footprint throughout (0 hands, 3 animals, 1 land).",
+    "conclusion": "B's existing response succeeds specifically against labor-heavy-but-not-animal-heavy opponents, and against passive/low-footprint opponents where no response is needed at all. See phase3_7_F_F001_results.json for the full win-vs-loss animals comparison."
+  },
+  "response_succeeds_vs_fails_distinction": {
+    "succeeds": "Opponent animals stay low (<=6) even if hands are high -- response's hands target (5) is apparently well-calibrated; animals never becomes the binding constraint.",
+    "fails": "Opponent animals reach 8+ -- response's fixed animals target (4 total: COW:2/SHEEP:2) is measurably undersized relative to real opponents reaching 8-16 animals."
+  },
+  "note": "This file consolidates results/phase3_6/phase3_6_B_LIVE_UPDATED_BASELINE.json (unchanged, since no new games appeared) with the NEW win-vs-loss mechanism comparison performed this session -- see phase3_7_F_F001_results.json for full detail."
+}

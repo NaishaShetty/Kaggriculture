@@ -1,0 +1,50 @@
+{
+  "phase": "3.7",
+  "experiments": [
+    {
+      "experiment_id": "3.7-E001", "stage": "B/C", "hypothesis": "F-005 death spiral is caused by opponent-driven market pressure",
+      "control": "Real episode 104775830 (vs Arum Puri)", "challenger": "Same seed (852025866) replayed via Submission B's own unmodified agent vs synthetic 'passive' and 'conservative' opponents",
+      "seeds": [852025866], "metrics": ["cash trajectory", "WHEAT price", "final money"],
+      "result": "Trajectories IDENTICAL through turn 190 (real vs synthetic) -- initial collapse is seed-determined, not opponent-driven",
+      "interpretation": "H (opponent caused it) REJECTED for the initial collapse", "decision": "Reframe root-cause question toward recovery-failure, not initial investment"
+    },
+    {
+      "experiment_id": "3.7-E002", "stage": "B/C", "hypothesis": "F-005's recovery failure is opponent-independent too",
+      "control": "Real episode 104775830", "challenger": "Same seed vs synthetic 'passive'/'conservative', extended to turn 300+",
+      "seeds": [852025866], "metrics": ["final money", "tile survival", "sell events"],
+      "result": "Synthetic runs RECOVER ($28,344/$28,521); real run does NOT (stays at $0). Divergence isolated to turn ~265: synthetic sells 20 surviving MELON tiles for $5,174, real never gets a harvestable tile.",
+      "interpretation": "F-005 is a recovery-failure (tile-survival-chance) mechanism, not an over-investment mechanism", "decision": "Root cause of the SPECIFIC divergence (why 0 tiles survived in the real game) classified UNRESOLVED"
+    },
+    {
+      "experiment_id": "3.7-E003", "stage": "B/C", "hypothesis": "An early cash-trajectory guard (halve crop commitment if cash < $200 by day 2) prevents the death spiral",
+      "control": "Submission B unmodified", "challenger": "agents/phase3_7/f005_liquidity_guard.py",
+      "seeds": [852025866], "metrics": ["guard activation", "final money"],
+      "result": "Guard never activates -- cash at day 2 ($572) is above threshold; by the time cash is unambiguously critical (day 4+), tiles are already fully planted",
+      "interpretation": "H (early cash signal is a viable trigger) REJECTED -- structural, not a tuning problem", "decision": "REJECTED, no viable F-005 countermeasure found"
+    },
+    {
+      "experiment_id": "3.7-E004", "stage": "D", "hypothesis": "Land quadrant count is an independent competitive threat driver",
+      "control": "Synthetic opponent, 6 hands / 6 animals / land=1", "challenger": "Same opponent profile, land=4",
+      "seeds": [910001, 910002, 910003], "metrics": ["opponent final money"],
+      "result": "land=4 opponent scored LOWER than land=1 in all 3 seeds ($17712 vs $23942; $15657 vs $32276; $14549 vs $26158)",
+      "interpretation": "H (land is independently causal) REJECTED -- consistent with Phase 2.3's original negative-land-value finding", "decision": "NEW-F-006 reclassified as NOT A WEAKNESS, folded into F-001"
+    },
+    {
+      "experiment_id": "3.7-E005", "stage": "E", "hypothesis": "kyunyoung (104775100) is a second F-003 instance",
+      "control": "N/A (single-episode forensic check)", "challenger": "N/A",
+      "seeds": ["real episode, seed unspecified"], "metrics": ["SELL action log, realized prices"],
+      "result": "Realized prices ($249, $236, $108 for MELON; $221-223 for WOOL) show disciplined, non-crash-bottom selling -- does NOT match the Vishwanath N Iyer mistimed-dump pattern",
+      "interpretation": "Prior classification (Phase 3.6 audit) was premature", "decision": "kyunyoung RECLASSIFIED OUT of F-003; F-003 frequency corrected down to 1/13"
+    },
+    {
+      "experiment_id": "3.7-E006", "stage": "F", "hypothesis": "Opponent animal count (not hands) is the variable that discriminates response-success from response-failure",
+      "control": "N/A (real-data pattern analysis)", "challenger": "N/A",
+      "seeds": "all 9 real B episodes with response firing", "metrics": ["opponent hands", "opponent animals", "win/loss"],
+      "result": "Mean opponent animals: wins=2.0, losses=9.2 (clean separation). Mean opponent hands: wins=9.0, losses=9.0 (no separation).",
+      "interpretation": "STRONG EMPIRICAL SIGNAL that animals, not hands, is the response's under-calibrated dimension", "decision": "Reframing adopted as the top Phase 3.8 hypothesis; NOT built or tested into a new candidate this session"
+    }
+  ],
+  "total_experiments": 6,
+  "candidates_promoted": 0,
+  "submission_c_created": false
+}

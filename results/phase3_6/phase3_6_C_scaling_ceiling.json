@@ -1,0 +1,22 @@
+{
+  "hypothesis_H3": "There exists a competitive scaling ceiling beyond which additional labor/animal investment becomes economically inferior to alternative responses or simply cannot close the opponent's advantage.",
+  "archetype_ladder_attempted": {
+    "scaler_5": {"n_hands": 5, "land": 1, "animals_total": 2, "viable": true, "final_money_vs_control_mean": "10753-14479 (loses to control in every seed)"},
+    "scaler_7": {"n_hands": 7, "land": 2, "animals_total": 3, "viable": true, "final_money_vs_control_mean": "18255-22397 (loses to control)"},
+    "scaler_10": {"n_hands": 10, "land": 2, "animals_total": 6, "viable": true, "final_money_vs_control_mean": "0-25334 (highly variable, sometimes bankrupts itself; loses to control in every seed tested)"},
+    "scaler_11_attempts": {"configurations_tried": 3, "all_bankrupt": true, "detail": "n_hands=11, land_buy_day 16-20, animals 2-4, crops WHEAT or WHEAT+STRAWBERRY -- every configuration finished at $0-2301"},
+    "scaler_12_extreme": {"n_hands": 12, "viable": false, "note": "documented as unviable in agents/phase3_6/opponent_classes_scaling_ladder.py::scaler_12_extreme_UNVIABLE -- never used in any experiment"}
+  },
+  "finding": "Using the existing, already-validated make_agent_23 factory (the same tool used to build every synthetic archetype in this project since Phase 3.1), no configuration at n_hands>=11 could be made to avoid bankruptcy, regardless of land/animal purchase delay (tested up to day 20) or crop mix (WHEAT-only, WHEAT+STRAWBERRY). The fibonacci daily re-hire cost (hands reset every day, per the documented game mechanic) for 11+ hands exceeds what these simple staged-purchase configurations can sustain before production revenue catches up.",
+  "implication": "This is itself a partial answer to H3: the CEILING is not purely an economic-diminishing-returns phenomenon observable in a fair fight -- within this project's existing archetype-building tools, no opponent above ~10 hands can even survive to compete, let alone win. Yet Submission B's REAL opponent 'moushun chen' (Phase 3.5 forensics) reached 10 hands AND 14 animals AND 3 land quadrants AND WON by a large margin ($63,798 vs our $15,636). This strongly suggests real opponents achieve viability at this scale through a CAPITAL-TIMING and/or CROP-SELECTION efficiency this project's synthetic-archetype tools do not currently replicate -- consistent with, and reinforcing, the Stage D finding that SELLING-TIMING (not raw resource count) may be the more decisive competitive lever.",
+  "response_frontier_measured": {
+    "note": "Built from Stage B's actual experimental data (not invented) -- opponent scale vs B0's (the only candidate that ever beat its own challengers) resulting margin against our OWN control performance. All entries are WINS for us against these synthetic archetypes -- no data point where our own response failed against a synthetic opponent could be measured, per the finding above.",
+    "scaler_5": {"our_mean_money_B0": 46121, "opponent_mean_money": "10753-14479", "response_cost": "low (target 5 hands only marginally above opponent's own 5)"},
+    "scaler_7": {"our_mean_money_B0": 47857, "opponent_mean_money": "18255-22397", "response_cost": "low-moderate"},
+    "scaler_10": {"our_mean_money_B0": 44171, "opponent_mean_money": "0-25334", "response_cost": "moderate (target capped at fixed 5, opponent has 10 -- response does NOT match scale and still wins)"},
+    "heavy_scaler": {"our_mean_money_B0": 40464, "opponent_mean_money": "17990-23828", "response_cost": "moderate"}
+  },
+  "does_matching_scale_help": "NO, based on Stage B: attempting to MATCH or exceed the opponent's scale (B1-B5, which target proportionally MORE hands/animals than B0's fixed 5 when facing scaler_10/heavy_scaler) performed WORSE than simply holding at the fixed target. Matching scale is not validated as helpful within the tested range.",
+  "does_partial_matching_help": "UNKNOWN -- not isolated as a distinct condition from the proportional candidates (B1-B5 already represent partial-to-full matching at various proportions, all underperforming B0).",
+  "confidence_classification": "EXPERIMENTALLY_VALIDATED (the bankruptcy ceiling at n_hands>=11 for the existing archetype-building tool); HYPOTHESIS (that real opponents' efficiency, not raw scale, is the actual decisive factor)"
+}
