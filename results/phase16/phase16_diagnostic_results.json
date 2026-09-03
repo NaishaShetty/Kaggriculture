@@ -1,0 +1,222 @@
+[
+  {
+    "seed": 700000,
+    "final_money": 47850.0,
+    "action_idle_fraction": 0.2197,
+    "productive_action_rate": 0.7795,
+    "movement_fraction": 0.5111,
+    "by_range": {
+      "early_ramp_5_10": {
+        "n_days": 6,
+        "overall_tile_idle_fraction": 0.0235,
+        "per_crop_tile_idle_fraction": {
+          "WHEAT": 0.0,
+          "MELON": 0.0,
+          "STRAWBERRY": 0.2222
+        },
+        "per_crop_tile_counts": {
+          "WHEAT": 16,
+          "MELON": 60,
+          "STRAWBERRY": 9
+        },
+        "animal_fed_fraction": 0.75,
+        "mean_animals_present": 2.0
+      },
+      "mid_game_15_20": {
+        "n_days": 6,
+        "overall_tile_idle_fraction": 0.0104,
+        "per_crop_tile_idle_fraction": {
+          "STRAWBERRY": 0.0123,
+          "WHEAT": 0.0,
+          "MELON": 0.0
+        },
+        "per_crop_tile_counts": {
+          "STRAWBERRY": 163,
+          "WHEAT": 4,
+          "MELON": 25
+        },
+        "animal_fed_fraction": 0.9474,
+        "mean_animals_present": 9.5
+      },
+      "late_game_25_29": {
+        "n_days": 5,
+        "overall_tile_idle_fraction": 0.012,
+        "per_crop_tile_idle_fraction": {
+          "STRAWBERRY": 0.0083,
+          "WHEAT": 0.125
+        },
+        "per_crop_tile_counts": {
+          "STRAWBERRY": 241,
+          "WHEAT": 8
+        },
+        "animal_fed_fraction": 0.9057,
+        "mean_animals_present": 10.6
+      }
+    }
+  },
+  {
+    "seed": 700001,
+    "final_money": 53541.0,
+    "action_idle_fraction": 0.2382,
+    "productive_action_rate": 0.7615,
+    "movement_fraction": 0.4889,
+    "by_range": {
+      "early_ramp_5_10": {
+        "n_days": 6,
+        "overall_tile_idle_fraction": 0.0543,
+        "per_crop_tile_idle_fraction": {
+          "WHEAT": 0.0455,
+          "MELON": 0.0339,
+          "STRAWBERRY": 0.1818
+        },
+        "per_crop_tile_counts": {
+          "WHEAT": 22,
+          "MELON": 59,
+          "STRAWBERRY": 11
+        },
+        "animal_fed_fraction": 0.75,
+        "mean_animals_present": 2.0
+      },
+      "mid_game_15_20": {
+        "n_days": 6,
+        "overall_tile_idle_fraction": 0.0206,
+        "per_crop_tile_idle_fraction": {
+          "STRAWBERRY": 0.0234,
+          "WHEAT": 0.0,
+          "MELON": 0.0
+        },
+        "per_crop_tile_counts": {
+          "STRAWBERRY": 171,
+          "WHEAT": 3,
+          "MELON": 20
+        },
+        "animal_fed_fraction": 0.9825,
+        "mean_animals_present": 9.5
+      },
+      "late_game_25_29": {
+        "n_days": 5,
+        "overall_tile_idle_fraction": 0.012,
+        "per_crop_tile_idle_fraction": {
+          "STRAWBERRY": 0.0124,
+          "WHEAT": 0.0
+        },
+        "per_crop_tile_counts": {
+          "STRAWBERRY": 241,
+          "WHEAT": 8
+        },
+        "animal_fed_fraction": 0.88,
+        "mean_animals_present": 10.0
+      }
+    }
+  },
+  {
+    "seed": 700002,
+    "final_money": 46821.0,
+    "action_idle_fraction": 0.2323,
+    "productive_action_rate": 0.767,
+    "movement_fraction": 0.4923,
+    "by_range": {
+      "early_ramp_5_10": {
+        "n_days": 6,
+        "overall_tile_idle_fraction": 0.0543,
+        "per_crop_tile_idle_fraction": {
+          "WHEAT": 0.0455,
+          "MELON": 0.0339,
+          "STRAWBERRY": 0.1818
+        },
+        "per_crop_tile_counts": {
+          "WHEAT": 22,
+          "MELON": 59,
+          "STRAWBERRY": 11
+        },
+        "animal_fed_fraction": 0.75,
+        "mean_animals_present": 2.0
+      },
+      "mid_game_15_20": {
+        "n_days": 6,
+        "overall_tile_idle_fraction": 0.0206,
+        "per_crop_tile_idle_fraction": {
+          "STRAWBERRY": 0.0242,
+          "WHEAT": 0.0,
+          "MELON": 0.0
+        },
+        "per_crop_tile_counts": {
+          "STRAWBERRY": 165,
+          "WHEAT": 3,
+          "MELON": 26
+        },
+        "animal_fed_fraction": 0.9667,
+        "mean_animals_present": 10.0
+      },
+      "late_game_25_29": {
+        "n_days": 5,
+        "overall_tile_idle_fraction": 0.012,
+        "per_crop_tile_idle_fraction": {
+          "STRAWBERRY": 0.0122,
+          "WHEAT": 0.0
+        },
+        "per_crop_tile_counts": {
+          "STRAWBERRY": 245,
+          "WHEAT": 4
+        },
+        "animal_fed_fraction": 0.8545,
+        "mean_animals_present": 11.0
+      }
+    }
+  },
+  {
+    "seed": 700003,
+    "final_money": 50483.0,
+    "action_idle_fraction": 0.2381,
+    "productive_action_rate": 0.761,
+    "movement_fraction": 0.4883,
+    "by_range": {
+      "early_ramp_5_10": {
+        "n_days": 6,
+        "overall_tile_idle_fraction": 0.0638,
+        "per_crop_tile_idle_fraction": {
+          "WHEAT": 0.0417,
+          "MELON": 0.0508,
+          "STRAWBERRY": 0.1818
+        },
+        "per_crop_tile_counts": {
+          "WHEAT": 24,
+          "MELON": 59,
+          "STRAWBERRY": 11
+        },
+        "animal_fed_fraction": 0.75,
+        "mean_animals_present": 2.0
+      },
+      "mid_game_15_20": {
+        "n_days": 6,
+        "overall_tile_idle_fraction": 0.0206,
+        "per_crop_tile_idle_fraction": {
+          "STRAWBERRY": 0.0242,
+          "WHEAT": 0.0,
+          "MELON": 0.0
+        },
+        "per_crop_tile_counts": {
+          "STRAWBERRY": 165,
+          "WHEAT": 3,
+          "MELON": 26
+        },
+        "animal_fed_fraction": 0.9667,
+        "mean_animals_present": 10.0
+      },
+      "late_game_25_29": {
+        "n_days": 5,
+        "overall_tile_idle_fraction": 0.012,
+        "per_crop_tile_idle_fraction": {
+          "STRAWBERRY": 0.0122,
+          "WHEAT": 0.0
+        },
+        "per_crop_tile_counts": {
+          "STRAWBERRY": 246,
+          "WHEAT": 4
+        },
+        "animal_fed_fraction": 0.8545,
+        "mean_animals_present": 11.0
+      }
+    }
+  }
+]

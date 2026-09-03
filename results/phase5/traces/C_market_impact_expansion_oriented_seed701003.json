@@ -1,0 +1,416 @@
+[
+  {
+    "day": 1,
+    "fallback": false,
+    "freed_tiles": 25,
+    "candidates": {
+      "WHEAT": {
+        "units": 68,
+        "seed_cost": 250,
+        "price_now": 27,
+        "revenue": 1536.0,
+        "net_value": 1286.0
+      },
+      "STRAWBERRY": {
+        "units": 151,
+        "seed_cost": 2500,
+        "price_now": 128,
+        "revenue": 4025.0,
+        "net_value": 1525.0
+      },
+      "CARROT": {
+        "units": 47,
+        "seed_cost": 500,
+        "price_now": 35,
+        "revenue": 1409.0,
+        "net_value": 909.0
+      },
+      "TOMATO": {
+        "units": 80,
+        "seed_cost": 1250,
+        "price_now": 60,
+        "revenue": 3622.0,
+        "net_value": 2372.0
+      },
+      "MELON": {
+        "units": 88,
+        "seed_cost": 2000,
+        "price_now": 256,
+        "revenue": 19852.0,
+        "net_value": 17852.0
+      }
+    },
+    "selected": "MELON",
+    "selected_net_value": 17852.0
+  },
+  {
+    "day": 2,
+    "fallback": false,
+    "freed_tiles": 25,
+    "candidates": {
+      "WHEAT": {
+        "units": 68,
+        "seed_cost": 250,
+        "price_now": 27,
+        "revenue": 1551.0,
+        "net_value": 1301.0
+      },
+      "STRAWBERRY": {
+        "units": 146,
+        "seed_cost": 2500,
+        "price_now": 132,
+        "revenue": 4151.0,
+        "net_value": 1651.0
+      },
+      "CARROT": {
+        "units": 47,
+        "seed_cost": 500,
+        "price_now": 35,
+        "revenue": 1417.0,
+        "net_value": 917.0
+      },
+      "TOMATO": {
+        "units": 80,
+        "seed_cost": 1250,
+        "price_now": 60,
+        "revenue": 3644.0,
+        "net_value": 2394.0
+      },
+      "MELON": {
+        "units": 87,
+        "seed_cost": 2000,
+        "price_now": 260,
+        "revenue": 19758.0,
+        "net_value": 17758.0
+      }
+    },
+    "selected": "MELON",
+    "selected_net_value": 17758.0
+  },
+  {
+    "day": 3,
+    "fallback": false,
+    "freed_tiles": 25,
+    "candidates": {
+      "WHEAT": {
+        "units": 66,
+        "seed_cost": 250,
+        "price_now": 28,
+        "revenue": 1525.0,
+        "net_value": 1275.0
+      },
+      "STRAWBERRY": {
+        "units": 143,
+        "seed_cost": 2500,
+        "price_now": 135,
+        "revenue": 4282.0,
+        "net_value": 1782.0
+      },
+      "CARROT": {
+        "units": 47,
+        "seed_cost": 500,
+        "price_now": 35,
+        "revenue": 1425.0,
+        "net_value": 925.0
+      },
+      "TOMATO": {
+        "units": 80,
+        "seed_cost": 1250,
+        "price_now": 60,
+        "revenue": 3666.0,
+        "net_value": 2416.0
+      },
+      "MELON": {
+        "units": 86,
+        "seed_cost": 2000,
+        "price_now": 262,
+        "revenue": 19660.0,
+        "net_value": 17660.0
+      }
+    },
+    "selected": "MELON",
+    "selected_net_value": 17660.0
+  },
+  {
+    "day": 3,
+    "fallback": false,
+    "freed_tiles": 25,
+    "candidates": {
+      "WHEAT": {
+        "units": 66,
+        "seed_cost": 250,
+        "price_now": 28,
+        "revenue": 1543.0,
+        "net_value": 1293.0
+      },
+      "STRAWBERRY": {
+        "units": 139,
+        "seed_cost": 2500,
+        "price_now": 139,
+        "revenue": 4552.0,
+        "net_value": 2052.0
+      },
+      "CARROT": {
+        "units": 47,
+        "seed_cost": 500,
+        "price_now": 35,
+        "revenue": 1433.0,
+        "net_value": 933.0
+      },
+      "TOMATO": {
+        "units": 80,
+        "seed_cost": 1250,
+        "price_now": 60,
+        "revenue": 3688.0,
+        "net_value": 2438.0
+      },
+      "MELON": {
+        "units": 86,
+        "seed_cost": 2000,
+        "price_now": 264,
+        "revenue": 19741.0,
+        "net_value": 17741.0
+      }
+    },
+    "selected": "MELON",
+    "selected_net_value": 17741.0
+  },
+  {
+    "day": 5,
+    "fallback": false,
+    "freed_tiles": 25,
+    "candidates": {
+      "WHEAT": {
+        "units": 63,
+        "seed_cost": 250,
+        "price_now": 29,
+        "revenue": 1491.0,
+        "net_value": 1241.0
+      },
+      "STRAWBERRY": {
+        "units": 124,
+        "seed_cost": 2500,
+        "price_now": 155,
+        "revenue": 6304.0,
+        "net_value": 3804.0
+      },
+      "CARROT": {
+        "units": 47,
+        "seed_cost": 500,
+        "price_now": 35,
+        "revenue": 1440.0,
+        "net_value": 940.0
+      },
+      "TOMATO": {
+        "units": 79,
+        "seed_cost": 1250,
+        "price_now": 61,
+        "revenue": 3673.0,
+        "net_value": 2423.0
+      },
+      "MELON": {
+        "units": 85,
+        "seed_cost": 2000,
+        "price_now": 266,
+        "revenue": 19637.0,
+        "net_value": 17637.0
+      }
+    },
+    "selected": "MELON",
+    "selected_net_value": 17637.0
+  },
+  {
+    "day": 7,
+    "fallback": false,
+    "freed_tiles": 25,
+    "candidates": {
+      "WHEAT": {
+        "units": 61,
+        "seed_cost": 250,
+        "price_now": 30,
+        "revenue": 1537.0,
+        "net_value": 1287.0
+      },
+      "STRAWBERRY": {
+        "units": 114,
+        "seed_cost": 2500,
+        "price_now": 170,
+        "revenue": 9211.0,
+        "net_value": 6711.0
+      },
+      "CARROT": {
+        "units": 46,
+        "seed_cost": 500,
+        "price_now": 36,
+        "revenue": 1435.0,
+        "net_value": 935.0
+      },
+      "TOMATO": {
+        "units": 77,
+        "seed_cost": 1250,
+        "price_now": 62,
+        "revenue": 3861.0,
+        "net_value": 2611.0
+      },
+      "MELON": {
+        "units": 84,
+        "seed_cost": 2000,
+        "price_now": 269,
+        "revenue": 19681.0,
+        "net_value": 17681.0
+      }
+    },
+    "selected": "MELON",
+    "selected_net_value": 17681.0
+  },
+  {
+    "day": 7,
+    "fallback": false,
+    "freed_tiles": 25,
+    "candidates": {
+      "WHEAT": {
+        "units": 61,
+        "seed_cost": 250,
+        "price_now": 30,
+        "revenue": 1545.0,
+        "net_value": 1295.0
+      },
+      "STRAWBERRY": {
+        "units": 114,
+        "seed_cost": 2500,
+        "price_now": 170,
+        "revenue": 9380.0,
+        "net_value": 6880.0
+      },
+      "CARROT": {
+        "units": 46,
+        "seed_cost": 500,
+        "price_now": 36,
+        "revenue": 1435.0,
+        "net_value": 935.0
+      },
+      "TOMATO": {
+        "units": 77,
+        "seed_cost": 1250,
+        "price_now": 62,
+        "revenue": 3883.0,
+        "net_value": 2633.0
+      },
+      "MELON": {
+        "units": 84,
+        "seed_cost": 2000,
+        "price_now": 269,
+        "revenue": 19681.0,
+        "net_value": 17681.0
+      }
+    },
+    "selected": "MELON",
+    "selected_net_value": 17681.0
+  },
+  {
+    "day": 10,
+    "fallback": false,
+    "freed_tiles": 25,
+    "candidates": {
+      "WHEAT": {
+        "units": 58,
+        "seed_cost": 250,
+        "price_now": 32,
+        "revenue": 1616.0,
+        "net_value": 1366.0
+      },
+      "STRAWBERRY": {
+        "units": 107,
+        "seed_cost": 2500,
+        "price_now": 181,
+        "revenue": 12118.0,
+        "net_value": 9618.0
+      },
+      "CARROT": {
+        "units": 46,
+        "seed_cost": 500,
+        "price_now": 36,
+        "revenue": 1451.0,
+        "net_value": 951.0
+      },
+      "TOMATO": {
+        "units": 75,
+        "seed_cost": 1250,
+        "price_now": 64,
+        "revenue": 4135.0,
+        "net_value": 2885.0
+      },
+      "MELON": {
+        "units": 83,
+        "seed_cost": 2000,
+        "price_now": 271,
+        "revenue": 19636.0,
+        "net_value": 17636.0
+      }
+    },
+    "selected": "MELON",
+    "selected_net_value": 17636.0
+  },
+  {
+    "day": 15,
+    "fallback": false,
+    "freed_tiles": 25,
+    "candidates": {
+      "WHEAT": {
+        "units": 54,
+        "seed_cost": 250,
+        "price_now": 34,
+        "revenue": 1748.0,
+        "net_value": 1498.0
+      },
+      "STRAWBERRY": {
+        "units": 81,
+        "seed_cost": 2500,
+        "price_now": 198,
+        "revenue": 14212.0,
+        "net_value": 11712.0
+      },
+      "CARROT": {
+        "units": 46,
+        "seed_cost": 500,
+        "price_now": 36,
+        "revenue": 1490.0,
+        "net_value": 990.0
+      },
+      "TOMATO": {
+        "units": 71,
+        "seed_cost": 1250,
+        "price_now": 68,
+        "revenue": 4546.0,
+        "net_value": 3296.0
+      },
+      "MELON": {
+        "units": 151,
+        "seed_cost": 2000,
+        "price_now": 150,
+        "revenue": 4857.0,
+        "net_value": 2857.0
+      }
+    },
+    "selected": "STRAWBERRY",
+    "selected_net_value": 11712.0
+  },
+  {
+    "day": 20,
+    "fallback": true,
+    "reason": "no confident candidate",
+    "scored": {}
+  },
+  {
+    "day": 20,
+    "fallback": true,
+    "reason": "no confident candidate",
+    "scored": {}
+  },
+  {
+    "day": 25,
+    "fallback": true,
+    "reason": "no confident candidate",
+    "scored": {}
+  }
+]

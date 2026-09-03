@@ -1,0 +1,152 @@
+[
+  {
+    "day": 0,
+    "bank": 257.0,
+    "bank_delta": null
+  },
+  {
+    "day": 1,
+    "bank": 203.0,
+    "bank_delta": -54.0
+  },
+  {
+    "day": 2,
+    "bank": 301.0,
+    "bank_delta": 98.0
+  },
+  {
+    "day": 3,
+    "bank": 213.0,
+    "bank_delta": -88.0
+  },
+  {
+    "day": 4,
+    "bank": 251.0,
+    "bank_delta": 38.0
+  },
+  {
+    "day": 5,
+    "bank": 483.0,
+    "bank_delta": 232.0
+  },
+  {
+    "day": 6,
+    "bank": 253.0,
+    "bank_delta": -230.0
+  },
+  {
+    "day": 7,
+    "bank": 320.0,
+    "bank_delta": 67.0
+  },
+  {
+    "day": 8,
+    "bank": 252.0,
+    "bank_delta": -68.0
+  },
+  {
+    "day": 9,
+    "bank": 318.0,
+    "bank_delta": 66.0
+  },
+  {
+    "day": 10,
+    "bank": 254.0,
+    "bank_delta": -64.0
+  },
+  {
+    "day": 11,
+    "bank": 9410.0,
+    "bank_delta": 9156.0
+  },
+  {
+    "day": 12,
+    "bank": 9005.0,
+    "bank_delta": -405.0
+  },
+  {
+    "day": 13,
+    "bank": 8097.0,
+    "bank_delta": -908.0
+  },
+  {
+    "day": 14,
+    "bank": 8893.0,
+    "bank_delta": 796.0
+  },
+  {
+    "day": 15,
+    "bank": 10842.0,
+    "bank_delta": 1949.0
+  },
+  {
+    "day": 16,
+    "bank": 13563.0,
+    "bank_delta": 2721.0
+  },
+  {
+    "day": 17,
+    "bank": 15195.0,
+    "bank_delta": 1632.0
+  },
+  {
+    "day": 18,
+    "bank": 18468.0,
+    "bank_delta": 3273.0
+  },
+  {
+    "day": 19,
+    "bank": 20833.0,
+    "bank_delta": 2365.0
+  },
+  {
+    "day": 20,
+    "bank": 22711.0,
+    "bank_delta": 1878.0
+  },
+  {
+    "day": 21,
+    "bank": 32619.0,
+    "bank_delta": 9908.0
+  },
+  {
+    "day": 22,
+    "bank": 39270.0,
+    "bank_delta": 6651.0
+  },
+  {
+    "day": 23,
+    "bank": 46703.0,
+    "bank_delta": 7433.0
+  },
+  {
+    "day": 24,
+    "bank": 52733.0,
+    "bank_delta": 6030.0
+  },
+  {
+    "day": 25,
+    "bank": 60510.0,
+    "bank_delta": 7777.0
+  },
+  {
+    "day": 26,
+    "bank": 64212.0,
+    "bank_delta": 3702.0
+  },
+  {
+    "day": 27,
+    "bank": 73021.0,
+    "bank_delta": 8809.0
+  },
+  {
+    "day": 28,
+    "bank": 78329.0,
+    "bank_delta": 5308.0
+  },
+  {
+    "day": 29,
+    "bank": 83904.0,
+    "bank_delta": 5575.0
+  }
+]

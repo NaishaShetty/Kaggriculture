@@ -1,0 +1,62 @@
+{
+  "4": {
+    "mean_crop_tile_idle_fraction": 0.0229,
+    "mean_animal_idle_fraction": 0.4298,
+    "mean_action_idle_fraction": 0.0544,
+    "mean_final_money": 40080.75
+  },
+  "5": {
+    "mean_crop_tile_idle_fraction": 0.0102,
+    "mean_animal_idle_fraction": 0.3856,
+    "mean_action_idle_fraction": 0.086,
+    "mean_final_money": 47531.25
+  },
+  "6": {
+    "mean_crop_tile_idle_fraction": 0.0056,
+    "mean_animal_idle_fraction": 0.4113,
+    "mean_action_idle_fraction": 0.1512,
+    "mean_final_money": 54037.25
+  },
+  "7": {
+    "mean_crop_tile_idle_fraction": 0.0032,
+    "mean_animal_idle_fraction": 0.356,
+    "mean_action_idle_fraction": 0.2076,
+    "mean_final_money": 66613.0
+  },
+  "8": {
+    "mean_crop_tile_idle_fraction": 0.0029,
+    "mean_animal_idle_fraction": 0.3646,
+    "mean_action_idle_fraction": 0.23,
+    "mean_final_money": 62355.5
+  },
+  "9": {
+    "mean_crop_tile_idle_fraction": 0.0015,
+    "mean_animal_idle_fraction": 0.3651,
+    "mean_action_idle_fraction": 0.2687,
+    "mean_final_money": 61027.5
+  },
+  "10": {
+    "mean_crop_tile_idle_fraction": 0.0,
+    "mean_animal_idle_fraction": 0.3617,
+    "mean_action_idle_fraction": 0.3258,
+    "mean_final_money": 56802.25
+  },
+  "11": {
+    "mean_crop_tile_idle_fraction": 0.0,
+    "mean_animal_idle_fraction": 0.3494,
+    "mean_action_idle_fraction": 0.3611,
+    "mean_final_money": 56214.0
+  },
+  "12": {
+    "mean_crop_tile_idle_fraction": 0.0,
+    "mean_animal_idle_fraction": 0.4012,
+    "mean_action_idle_fraction": 0.3753,
+    "mean_final_money": 46389.5
+  },
+  "13": {
+    "mean_crop_tile_idle_fraction": 0.0014,
+    "mean_animal_idle_fraction": 0.3433,
+    "mean_action_idle_fraction": 0.3975,
+    "mean_final_money": 47771.0
+  }
+}

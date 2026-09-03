@@ -1,0 +1,13 @@
+{
+  "episode_id": 104768097,
+  "seed": 2037433154,
+  "team_names": [
+    "moushun chen",
+    "shettynaisha"
+  ],
+  "our_index": 1,
+  "opponent_index": 0,
+  "opponent_name": "moushun chen",
+  "n_steps": 720,
+  "n_days": 30
+}

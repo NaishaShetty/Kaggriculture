@@ -1,0 +1,62 @@
+{
+  "4": {
+    "mean_tile_idle_fraction": 0.0738,
+    "mean_action_idle_fraction": 0.0017,
+    "mean_productive_action_rate": 0.9938,
+    "mean_final_money": 39368.0
+  },
+  "5": {
+    "mean_tile_idle_fraction": 0.0648,
+    "mean_action_idle_fraction": 0.0017,
+    "mean_productive_action_rate": 0.9927,
+    "mean_final_money": 37821.0
+  },
+  "6": {
+    "mean_tile_idle_fraction": 0.079,
+    "mean_action_idle_fraction": 0.0078,
+    "mean_productive_action_rate": 0.9852,
+    "mean_final_money": 36458.5
+  },
+  "7": {
+    "mean_tile_idle_fraction": 0.0602,
+    "mean_action_idle_fraction": 0.0144,
+    "mean_productive_action_rate": 0.9823,
+    "mean_final_money": 33141.5
+  },
+  "8": {
+    "mean_tile_idle_fraction": 0.0573,
+    "mean_action_idle_fraction": 0.0234,
+    "mean_productive_action_rate": 0.9727,
+    "mean_final_money": 30346.0
+  },
+  "9": {
+    "mean_tile_idle_fraction": 0.0688,
+    "mean_action_idle_fraction": 0.0343,
+    "mean_productive_action_rate": 0.9593,
+    "mean_final_money": 28614.0
+  },
+  "10": {
+    "mean_tile_idle_fraction": 0.0713,
+    "mean_action_idle_fraction": 0.0404,
+    "mean_productive_action_rate": 0.9533,
+    "mean_final_money": 25626.0
+  },
+  "11": {
+    "mean_tile_idle_fraction": 0.0626,
+    "mean_action_idle_fraction": 0.0473,
+    "mean_productive_action_rate": 0.9487,
+    "mean_final_money": 22321.0
+  },
+  "12": {
+    "mean_tile_idle_fraction": 0.0532,
+    "mean_action_idle_fraction": 0.0953,
+    "mean_productive_action_rate": 0.9018,
+    "mean_final_money": 16638.0
+  },
+  "13": {
+    "mean_tile_idle_fraction": 0.0463,
+    "mean_action_idle_fraction": 0.1424,
+    "mean_productive_action_rate": 0.8545,
+    "mean_final_money": 10223.5
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "final_money": 25350.0,
+  "daily": [
+    {
+      "day": 0,
+      "n_animal": 8,
+      "n_fed": 6,
+      "n_cared": 5
+    },
+    {
+      "day": 1,
+      "n_animal": 11,
+      "n_fed": 8,
+      "n_cared": 7
+    },
+    {
+      "day": 2,
+      "n_animal": 11,
+      "n_fed": 6,
+      "n_cared": 6
+    },
+    {
+      "day": 3,
+      "n_animal": 10,
+      "n_fed": 6,
+      "n_cared": 5
+    },
+    {
+      "day": 4,
+      "n_animal": 7,
+      "n_fed": 6,
+      "n_cared": 6
+    },
+    {
+      "day": 5,
+      "n_animal": 8,
+      "n_fed": 6,
+      "n_cared": 5
+    },
+    {
+      "day": 6,
+      "n_animal": 8,
+      "n_fed": 5,
+      "n_cared": 5
+    },
+    {
+      "day": 7,
+      "n_animal": 7,
+      "n_fed": 5,
+      "n_cared": 5
+    },
+    {
+      "day": 8,
+      "n_animal": 6,
+      "n_fed": 5,
+      "n_cared": 5
+    },
+    {
+      "day": 9,
+      "n_animal": 9,
+      "n_fed": 5,
+      "n_cared": 5
+    },
+    {
+      "day": 10,
+      "n_animal": 9,
+      "n_fed": 3,
+      "n_cared": 3
+    },
+    {
+      "day": 11,
+      "n_animal": 8,
+      "n_fed": 3,
+      "n_cared": 2
+    },
+    {
+      "day": 12,
+      "n_animal": 6,
+      "n_fed": 3,
+      "n_cared": 2
+    },
+    {
+      "day": 13,
+      "n_animal": 7,
+      "n_fed": 3,
+      "n_cared": 3
+    },
+    {
+      "day": 14,
+      "n_animal": 6,
+      "n_fed": 2,
+      "n_cared": 2
+    },
+    {
+      "day": 15,
+      "n_animal": 5,
+      "n_fed": 4,
+      "n_cared": 3
+    },
+    {
+      "day": 16,
+      "n_animal": 6,
+      "n_fed": 2,
+      "n_cared": 2
+    },
+    {
+      "day": 17,
+      "n_animal": 6,
+      "n_fed": 3,
+      "n_cared": 2
+    },
+    {
+      "day": 18,
+      "n_animal": 7,
+      "n_fed": 4,
+      "n_cared": 4
+    },
+    {
+      "day": 19,
+      "n_animal": 8,
+      "n_fed": 4,
+      "n_cared": 3
+    },
+    {
+      "day": 20,
+      "n_animal": 8,
+      "n_fed": 6,
+      "n_cared": 6
+    },
+    {
+      "day": 21,
+      "n_animal": 9,
+      "n_fed": 7,
+      "n_cared": 7
+    },
+    {
+      "day": 22,
+      "n_animal": 10,
+      "n_fed": 6,
+      "n_cared": 5
+    },
+    {
+      "day": 23,
+      "n_animal": 10,
+      "n_fed": 7,
+      "n_cared": 7
+    },
+    {
+      "day": 24,
+      "n_animal": 8,
+      "n_fed": 5,
+      "n_cared": 4
+    },
+    {
+      "day": 25,
+      "n_animal": 7,
+      "n_fed": 4,
+      "n_cared": 4
+    },
+    {
+      "day": 26,
+      "n_animal": 7,
+      "n_fed": 5,
+      "n_cared": 5
+    },
+    {
+      "day": 27,
+      "n_animal": 7,
+      "n_fed": 4,
+      "n_cared": 4
+    },
+    {
+      "day": 28,
+      "n_animal": 6,
+      "n_fed": 0,
+      "n_cared": 0
+    },
+    {
+      "day": 29,
+      "n_animal": 7,
+      "n_fed": 4,
+      "n_cared": 4
+    }
+  ],
+  "n_days_with_gap": 30
+}

@@ -1,0 +1,13 @@
+{
+  "episode_id": 104797848,
+  "seed": 1042924339,
+  "team_names": [
+    "shettynaisha",
+    "Zach Locke"
+  ],
+  "our_index": 0,
+  "opponent_index": 1,
+  "opponent_name": "Zach Locke",
+  "n_steps": 720,
+  "n_days": 30
+}

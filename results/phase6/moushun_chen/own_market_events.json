@@ -1,0 +1,128 @@
+[
+  {
+    "day": 1,
+    "op": "BUY_SEED",
+    "item": "MELON",
+    "quantity": 1
+  },
+  {
+    "day": 7,
+    "op": "HIRE",
+    "item": null,
+    "quantity": null
+  },
+  {
+    "day": 7,
+    "op": "HIRE",
+    "item": null,
+    "quantity": null
+  },
+  {
+    "day": 8,
+    "op": "HIRE",
+    "item": null,
+    "quantity": null
+  },
+  {
+    "day": 8,
+    "op": "HIRE",
+    "item": null,
+    "quantity": null
+  },
+  {
+    "day": 8,
+    "op": "HIRE",
+    "item": null,
+    "quantity": null
+  },
+  {
+    "day": 8,
+    "op": "HIRE",
+    "item": null,
+    "quantity": null
+  },
+  {
+    "day": 9,
+    "op": "HIRE",
+    "item": null,
+    "quantity": null
+  },
+  {
+    "day": 9,
+    "op": "HIRE",
+    "item": null,
+    "quantity": null
+  },
+  {
+    "day": 9,
+    "op": "HIRE",
+    "item": null,
+    "quantity": null
+  },
+  {
+    "day": 9,
+    "op": "HIRE",
+    "item": null,
+    "quantity": null
+  },
+  {
+    "day": 9,
+    "op": "HIRE",
+    "item": null,
+    "quantity": null
+  },
+  {
+    "day": 10,
+    "op": "HIRE",
+    "item": null,
+    "quantity": null
+  },
+  {
+    "day": 10,
+    "op": "HIRE",
+    "item": null,
+    "quantity": null
+  },
+  {
+    "day": 10,
+    "op": "HIRE",
+    "item": null,
+    "quantity": null
+  },
+  {
+    "day": 10,
+    "op": "HIRE",
+    "item": null,
+    "quantity": null
+  },
+  {
+    "day": 10,
+    "op": "HIRE",
+    "item": null,
+    "quantity": null
+  },
+  {
+    "day": 20,
+    "op": "SELL",
+    "item": "MILK",
+    "quantity": 6
+  },
+  {
+    "day": 24,
+    "op": "SELL",
+    "item": "MILK",
+    "quantity": 2
+  },
+  {
+    "day": 26,
+    "op": "SELL",
+    "item": "MILK",
+    "quantity": 3
+  },
+  {
+    "day": 28,
+    "op": "SELL",
+    "item": "MILK",
+    "quantity": 3
+  }
+]

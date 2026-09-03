@@ -1,0 +1,194 @@
+[
+  {
+    "day": 1,
+    "op": "BUY_SEED",
+    "item": "MELON",
+    "quantity": 1
+  },
+  {
+    "day": 5,
+    "op": "HIRE",
+    "item": null,
+    "quantity": null
+  },
+  {
+    "day": 5,
+    "op": "HIRE",
+    "item": null,
+    "quantity": null
+  },
+  {
+    "day": 5,
+    "op": "HIRE",
+    "item": null,
+    "quantity": null
+  },
+  {
+    "day": 5,
+    "op": "HIRE",
+    "item": null,
+    "quantity": null
+  },
+  {
+    "day": 5,
+    "op": "HIRE",
+    "item": null,
+    "quantity": null
+  },
+  {
+    "day": 6,
+    "op": "HIRE",
+    "item": null,
+    "quantity": null
+  },
+  {
+    "day": 6,
+    "op": "HIRE",
+    "item": null,
+    "quantity": null
+  },
+  {
+    "day": 6,
+    "op": "HIRE",
+    "item": null,
+    "quantity": null
+  },
+  {
+    "day": 6,
+    "op": "HIRE",
+    "item": null,
+    "quantity": null
+  },
+  {
+    "day": 6,
+    "op": "HIRE",
+    "item": null,
+    "quantity": null
+  },
+  {
+    "day": 7,
+    "op": "HIRE",
+    "item": null,
+    "quantity": null
+  },
+  {
+    "day": 7,
+    "op": "HIRE",
+    "item": null,
+    "quantity": null
+  },
+  {
+    "day": 7,
+    "op": "HIRE",
+    "item": null,
+    "quantity": null
+  },
+  {
+    "day": 7,
+    "op": "HIRE",
+    "item": null,
+    "quantity": null
+  },
+  {
+    "day": 7,
+    "op": "HIRE",
+    "item": null,
+    "quantity": null
+  },
+  {
+    "day": 8,
+    "op": "HIRE",
+    "item": null,
+    "quantity": null
+  },
+  {
+    "day": 8,
+    "op": "HIRE",
+    "item": null,
+    "quantity": null
+  },
+  {
+    "day": 8,
+    "op": "HIRE",
+    "item": null,
+    "quantity": null
+  },
+  {
+    "day": 8,
+    "op": "HIRE",
+    "item": null,
+    "quantity": null
+  },
+  {
+    "day": 8,
+    "op": "HIRE",
+    "item": null,
+    "quantity": null
+  },
+  {
+    "day": 9,
+    "op": "HIRE",
+    "item": null,
+    "quantity": null
+  },
+  {
+    "day": 9,
+    "op": "HIRE",
+    "item": null,
+    "quantity": null
+  },
+  {
+    "day": 9,
+    "op": "HIRE",
+    "item": null,
+    "quantity": null
+  },
+  {
+    "day": 9,
+    "op": "HIRE",
+    "item": null,
+    "quantity": null
+  },
+  {
+    "day": 9,
+    "op": "HIRE",
+    "item": null,
+    "quantity": null
+  },
+  {
+    "day": 10,
+    "op": "HIRE",
+    "item": null,
+    "quantity": null
+  },
+  {
+    "day": 10,
+    "op": "HIRE",
+    "item": null,
+    "quantity": null
+  },
+  {
+    "day": 10,
+    "op": "HIRE",
+    "item": null,
+    "quantity": null
+  },
+  {
+    "day": 10,
+    "op": "HIRE",
+    "item": null,
+    "quantity": null
+  },
+  {
+    "day": 10,
+    "op": "HIRE",
+    "item": null,
+    "quantity": null
+  },
+  {
+    "day": 11,
+    "op": "BUY_PRODUCT",
+    "item": "WHEAT",
+    "quantity": 1
+  }
+]

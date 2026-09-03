@@ -1,0 +1,32 @@
+{
+  "early_ramp_5_10": {
+    "mean_overall_tile_idle_fraction": 0.049,
+    "mean_per_crop_tile_idle_fraction": {
+      "STRAWBERRY": 0.1919,
+      "MELON": 0.0296,
+      "WHEAT": 0.0332
+    },
+    "mean_animal_fed_fraction": 0.75
+  },
+  "mid_game_15_20": {
+    "mean_overall_tile_idle_fraction": 0.0181,
+    "mean_per_crop_tile_idle_fraction": {
+      "STRAWBERRY": 0.021,
+      "MELON": 0.0,
+      "WHEAT": 0.0
+    },
+    "mean_animal_fed_fraction": 0.9658
+  },
+  "late_game_25_29": {
+    "mean_overall_tile_idle_fraction": 0.012,
+    "mean_per_crop_tile_idle_fraction": {
+      "STRAWBERRY": 0.0113,
+      "WHEAT": 0.0312
+    },
+    "mean_animal_fed_fraction": 0.8737
+  },
+  "overall_action_efficiency": {
+    "mean_action_idle_fraction": 0.2321,
+    "mean_productive_action_rate": 0.7672
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "tier_a_sanity": {
+    "passive": {
+      "final_money": 47850.0,
+      "crashed": false
+    },
+    "production_heavy": {
+      "final_money": 50877.0,
+      "crashed": false
+    },
+    "market_selling": {
+      "final_money": 50993.0,
+      "crashed": false
+    },
+    "expansion_oriented": {
+      "final_money": 38629.0,
+      "crashed": false
+    },
+    "animal_oriented": {
+      "final_money": 29361.0,
+      "crashed": false
+    },
+    "conservative": {
+      "final_money": 33471.0,
+      "crashed": false
+    },
+    "aggressive_investment": {
+      "final_money": 25774.0,
+      "crashed": false
+    }
+  },
+  "tier_b_head_to_head": {
+    "isolated": [
+      {
+        "seed": 700000,
+        "final_money": 47850.0
+      },
+      {
+        "seed": 700001,
+        "final_money": 53541.0
+      },
+      {
+        "seed": 700002,
+        "final_money": 46821.0
+      },
+      {
+        "seed": 700003,
+        "final_money": 50483.0
+      }
+    ],
+    "vs_submission_c": [
+      {
+        "seed": 700000,
+        "ours": 34240.0,
+        "theirs": 21345.0
+      },
+      {
+        "seed": 700001,
+        "ours": 43934.0,
+        "theirs": 22656.0
+      },
+      {
+        "seed": 700002,
+        "ours": 36420.0,
+        "theirs": 21908.0
+      },
+      {
+        "seed": 700003,
+        "ours": 37250.0,
+        "theirs": 20407.0
+      }
+    ],
+    "vs_submission_e": [
+      {
+        "seed": 700000,
+        "ours": 34240.0,
+        "theirs": 21345.0
+      },
+      {
+        "seed": 700001,
+        "ours": 43934.0,
+        "theirs": 22656.0
+      },
+      {
+        "seed": 700002,
+        "ours": 36420.0,
+        "theirs": 21908.0
+      },
+      {
+        "seed": 700003,
+        "ours": 37250.0,
+        "theirs": 20407.0
+      }
+    ]
+  },
+  "tier_c_real_bar": {
+    "mean_isolated": 49673.75,
+    "bar_cleared": false,
+    "real_opponent_final_money": {
+      "moushun_chen": 63798.0,
+      "lai_eu_wen": 104569.0,
+      "achille_gohin": 76076.0,
+      "zach_locke": 83904.0
+    }
+  }
+}

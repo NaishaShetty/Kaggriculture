@@ -29,19 +29,37 @@ came up empty) remains UNRESOLVED, so this countermeasure targets the
 mechanism CLASS (reduce total tiles at risk), not a confirmed causal lever.
 """
 
-CASH_DANGER_THRESHOLD = 200.0   # if cash falls below this by CHECK_DAY, treat as an early-warning signal
-CHECK_DAY = 2                    # matches the observed episode: cash was already critically low by day 2 in the F-005 case
+CASH_DANGER_THRESHOLD = 200.0   # if cash falls below this on any CHECK_DAYS day, treat as an early-warning signal
+# Widened per Phase 12 forensics re-read (both real data points came from prior phases,
+# not re-measured this phase):
+#   - Phase 3.7-C (phase3_7_C_F005_countermeasure.md): reconstructed death-spiral seed
+#     852025866 had cash == $572 at day==2 (above the old single-checkpoint threshold --
+#     this is WHY the original CHECK_DAY=2 guard "never fires" in that episode) and did not
+#     visibly enter crisis territory until day 4-6, by which point ~21-22 tiles were already
+#     planted.
+#   - Phase 6 report Section 11 (Lai Eu Wen episode 104797306, our own side): cash was $630
+#     at day==1 and already $0 by day==3 -- a much faster collapse than 852025866's, and one
+#     the old day==2-only checkpoint could have caught only by luck.
+# A single fixed CHECK_DAY cannot cover both observed collapse speeds (day 3 vs. day 4-6).
+# Checking once per day across this whole window costs nothing extra: the guard fires at
+# most once (already_triggered), and mutating config["crops"] after the tactical layer has
+# already planted a tile is a no-op for that tile (already-planted tiles are not retroactively
+# resized) -- it only affects tiles not yet planted, so extending the check later in the game
+# cannot make an already-fine game worse. Days 1-6 span both documented collapse windows;
+# day 0 is excluded because Planner v1's day-0 sizing decision (the thing this guard reacts
+# to) hasn't executed yet when day==0 observations are seen.
+CHECK_DAYS = frozenset({1, 2, 3, 4, 5, 6})
 REDUCED_CROP_FRACTION_CAP = 0.5  # halve the effective crop commitment when triggered
 
 
 def f005_liquidity_guard(config, obs, already_triggered):
-    """Returns (new_config, triggered). Fires AT MOST ONCE per episode
-    (day==CHECK_DAY, hour==0) -- checks whether cash has fallen below
+    """Returns (new_config, triggered). Fires AT MOST ONCE per episode, checked once
+    per day at hour==0 across CHECK_DAYS -- checks whether cash has fallen below
     CASH_DANGER_THRESHOLD, and if so, halves the crop portfolio's tile
     commitment for all subsequent (not yet planted) tile allocations."""
     if already_triggered:
         return config, already_triggered
-    if obs.get("day") != CHECK_DAY or obs.get("hour", 0) != 0:
+    if obs.get("day") not in CHECK_DAYS or obs.get("hour", 0) != 0:
         return config, already_triggered
 
     cash = obs["farms"][obs["player"]]["money"]

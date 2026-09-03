@@ -1,0 +1,42 @@
+{
+  "4": {
+    "mean_before_fed_frac": 0.5989,
+    "mean_after_fed_frac": 0.6651
+  },
+  "5": {
+    "mean_before_fed_frac": 0.6293,
+    "mean_after_fed_frac": 0.6472
+  },
+  "6": {
+    "mean_before_fed_frac": 0.6265,
+    "mean_after_fed_frac": 0.7082
+  },
+  "7": {
+    "mean_before_fed_frac": 0.6702,
+    "mean_after_fed_frac": 0.7538
+  },
+  "8": {
+    "mean_before_fed_frac": 0.6785,
+    "mean_after_fed_frac": 0.7867
+  },
+  "9": {
+    "mean_before_fed_frac": 0.6743,
+    "mean_after_fed_frac": 0.7938
+  },
+  "10": {
+    "mean_before_fed_frac": 0.6745,
+    "mean_after_fed_frac": 0.8689
+  },
+  "11": {
+    "mean_before_fed_frac": 0.7064,
+    "mean_after_fed_frac": 0.9101
+  },
+  "12": {
+    "mean_before_fed_frac": 0.6535,
+    "mean_after_fed_frac": 0.9195
+  },
+  "13": {
+    "mean_before_fed_frac": 0.672,
+    "mean_after_fed_frac": 0.9325
+  }
+}

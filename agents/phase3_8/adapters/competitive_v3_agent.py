@@ -20,15 +20,18 @@ from agents.phase3_3.expansion_detector import ExpansionDetector, DEFAULT_THRESH
 from agents.phase3_3.interventions import variant_d_production_substitution
 from agents.phase3_5.response_policy import competitive_scaling_response
 from agents.phase3_8.animal_response import animal_specific_response
+from agents.phase3_7.f005_liquidity_guard import f005_liquidity_guard
 
 
 def make_competitive_v3_agent(animal_response_enabled=True, market_response_fn=variant_d_production_substitution,
-                               market_threshold=DEFAULT_THRESHOLD, trace_path=None, artifact_path=None):
+                               market_threshold=DEFAULT_THRESHOLD, trace_path=None, artifact_path=None,
+                               liquidity_guard_enabled=True):
     planner = make_planner_v1(trace_path=trace_path)
     opponent_logger = OpponentObservationLogger()
     market_detector = (ExpansionDetector(threshold=market_threshold, artifact_path=artifact_path)
                        if artifact_path is not None else ExpansionDetector(threshold=market_threshold))
-    state_ref = {"market_activations": 0, "scaling_activations": 0, "animal_response_activations": 0}
+    state_ref = {"market_activations": 0, "scaling_activations": 0, "animal_response_activations": 0,
+                 "liquidity_guard_activations": 0, "liquidity_guard_triggered": False}
 
     def agent(obs):
         opponent_logger.observe(obs)
@@ -65,6 +68,22 @@ def make_competitive_v3_agent(animal_response_enabled=True, market_response_fn=v
             new_config, _ = animal_specific_response(config, opponent_logger.history, obs["day"])
             if new_config != config:
                 state_ref["animal_response_activations"] += 1
+                config.clear()
+                config.update(new_config)
+
+        # --- layer 4 (Phase 12, Submission E candidate): F-005 early cash-trajectory guard
+        # (agents/phase3_7/f005_liquidity_guard.py). Checks OUR OWN cash once per day across
+        # days 1-6; if it has fallen critically low, halves the crop portfolio's tile
+        # commitment for tiles not yet planted. Fires at most once per episode. Independent
+        # of the opponent-observation layers above -- runs even before any opponent history
+        # has accumulated, since it reacts to our own state, not the opponent's. ---
+        if liquidity_guard_enabled:
+            was_triggered = state_ref["liquidity_guard_triggered"]
+            new_config, triggered = f005_liquidity_guard(config, obs, was_triggered)
+            state_ref["liquidity_guard_triggered"] = triggered
+            if triggered and not was_triggered:
+                state_ref["liquidity_guard_activations"] += 1
+            if new_config != config:
                 config.clear()
                 config.update(new_config)
 

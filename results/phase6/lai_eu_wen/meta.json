@@ -1,0 +1,13 @@
+{
+  "episode_id": 104797306,
+  "seed": 1913338424,
+  "team_names": [
+    "shettynaisha",
+    "Lai Eu Wen"
+  ],
+  "our_index": 0,
+  "opponent_index": 1,
+  "opponent_name": "Lai Eu Wen",
+  "n_steps": 720,
+  "n_days": 30
+}

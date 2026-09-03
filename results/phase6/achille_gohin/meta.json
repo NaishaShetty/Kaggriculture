@@ -1,0 +1,13 @@
+{
+  "episode_id": 104772378,
+  "seed": 1313573384,
+  "team_names": [
+    "shettynaisha",
+    "Achille Gohin"
+  ],
+  "our_index": 0,
+  "opponent_index": 1,
+  "opponent_name": "Achille Gohin",
+  "n_steps": 720,
+  "n_days": 30
+}
