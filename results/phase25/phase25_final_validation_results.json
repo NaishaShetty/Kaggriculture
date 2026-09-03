@@ -1,0 +1,232 @@
+{
+  "vs_submission_g": {
+    "label": "Submission_G",
+    "per_seed": [
+      {
+        "seed": 700000,
+        "phase21": 22955.0,
+        "opponent": 57670.0,
+        "winner": "Submission_G"
+      },
+      {
+        "seed": 700001,
+        "phase21": 53507.0,
+        "opponent": 63351.0,
+        "winner": "Submission_G"
+      },
+      {
+        "seed": 700002,
+        "phase21": 45848.0,
+        "opponent": 49125.0,
+        "winner": "Submission_G"
+      },
+      {
+        "seed": 700003,
+        "phase21": 57721.0,
+        "opponent": 57531.0,
+        "winner": "phase21"
+      },
+      {
+        "seed": 701000,
+        "phase21": 60133.0,
+        "opponent": 55749.0,
+        "winner": "phase21"
+      },
+      {
+        "seed": 701001,
+        "phase21": 59084.0,
+        "opponent": 58749.0,
+        "winner": "phase21"
+      },
+      {
+        "seed": 701002,
+        "phase21": 41577.0,
+        "opponent": 50444.0,
+        "winner": "Submission_G"
+      },
+      {
+        "seed": 701003,
+        "phase21": 31697.0,
+        "opponent": 30647.0,
+        "winner": "phase21"
+      },
+      {
+        "seed": 701004,
+        "phase21": 54084.0,
+        "opponent": 50069.0,
+        "winner": "phase21"
+      },
+      {
+        "seed": 702000,
+        "phase21": 44240.0,
+        "opponent": 52031.0,
+        "winner": "Submission_G"
+      },
+      {
+        "seed": 702001,
+        "phase21": 46558.0,
+        "opponent": 58331.0,
+        "winner": "Submission_G"
+      },
+      {
+        "seed": 702002,
+        "phase21": 55282.0,
+        "opponent": 60197.0,
+        "winner": "Submission_G"
+      },
+      {
+        "seed": 702003,
+        "phase21": 58166.0,
+        "opponent": 62362.0,
+        "winner": "Submission_G"
+      },
+      {
+        "seed": 702004,
+        "phase21": 50070.0,
+        "opponent": 55350.0,
+        "winner": "Submission_G"
+      },
+      {
+        "seed": 702005,
+        "phase21": 60800.0,
+        "opponent": 57008.0,
+        "winner": "phase21"
+      }
+    ],
+    "phase21_stats": {
+      "n": 15,
+      "mean": 49448.13,
+      "median": 53507.0,
+      "min": 22955.0,
+      "max": 60800.0,
+      "stdev": 10954.75
+    },
+    "opponent_stats": {
+      "n": 15,
+      "mean": 54574.27,
+      "median": 57008.0,
+      "min": 30647.0,
+      "max": 63351.0,
+      "stdev": 7897.11
+    },
+    "wins": 6,
+    "losses": 9,
+    "ties": 0,
+    "win_rate": "6/15"
+  },
+  "vs_submission_c": {
+    "label": "Submission_C",
+    "per_seed": [
+      {
+        "seed": 700000,
+        "phase21": 50813.0,
+        "opponent": 33590.0,
+        "winner": "phase21"
+      },
+      {
+        "seed": 700001,
+        "phase21": 66075.0,
+        "opponent": 32486.0,
+        "winner": "phase21"
+      },
+      {
+        "seed": 700002,
+        "phase21": 41796.0,
+        "opponent": 33374.0,
+        "winner": "phase21"
+      },
+      {
+        "seed": 700003,
+        "phase21": 54177.0,
+        "opponent": 32903.0,
+        "winner": "phase21"
+      },
+      {
+        "seed": 701000,
+        "phase21": 62728.0,
+        "opponent": 31653.0,
+        "winner": "phase21"
+      },
+      {
+        "seed": 701001,
+        "phase21": 52032.0,
+        "opponent": 28836.0,
+        "winner": "phase21"
+      },
+      {
+        "seed": 701002,
+        "phase21": 67539.0,
+        "opponent": 30177.0,
+        "winner": "phase21"
+      },
+      {
+        "seed": 701003,
+        "phase21": 70780.0,
+        "opponent": 36137.0,
+        "winner": "phase21"
+      },
+      {
+        "seed": 701004,
+        "phase21": 51497.0,
+        "opponent": 29388.0,
+        "winner": "phase21"
+      },
+      {
+        "seed": 702000,
+        "phase21": 62019.0,
+        "opponent": 33733.0,
+        "winner": "phase21"
+      },
+      {
+        "seed": 702001,
+        "phase21": 58373.0,
+        "opponent": 32092.0,
+        "winner": "phase21"
+      },
+      {
+        "seed": 702002,
+        "phase21": 22373.0,
+        "opponent": 30704.0,
+        "winner": "Submission_C"
+      },
+      {
+        "seed": 702003,
+        "phase21": 60291.0,
+        "opponent": 31266.0,
+        "winner": "phase21"
+      },
+      {
+        "seed": 702004,
+        "phase21": 78126.0,
+        "opponent": 30434.0,
+        "winner": "phase21"
+      },
+      {
+        "seed": 702005,
+        "phase21": 73510.0,
+        "opponent": 34674.0,
+        "winner": "phase21"
+      }
+    ],
+    "phase21_stats": {
+      "n": 15,
+      "mean": 58141.93,
+      "median": 60291.0,
+      "min": 22373.0,
+      "max": 78126.0,
+      "stdev": 13848.06
+    },
+    "opponent_stats": {
+      "n": 15,
+      "mean": 32096.47,
+      "median": 32092.0,
+      "min": 28836.0,
+      "max": 36137.0,
+      "stdev": 2027.54
+    },
+    "wins": 14,
+    "losses": 1,
+    "ties": 0,
+    "win_rate": "14/15"
+  }
+}

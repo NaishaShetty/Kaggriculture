@@ -1,0 +1,113 @@
+[
+  {
+    "day": 0,
+    "bank": 66.0,
+    "hands": 5,
+    "land_quadrants": 1,
+    "total_crop_tiles": 18,
+    "total_animals": 4,
+    "crop_tiles": {
+      "WHEAT": 6,
+      "MELON": 12
+    },
+    "animal_tiles": {
+      "COW": 2,
+      "SHEEP": 2
+    }
+  },
+  {
+    "day": 5,
+    "bank": 293.0,
+    "hands": 5,
+    "land_quadrants": 1,
+    "total_crop_tiles": 19,
+    "total_animals": 6,
+    "crop_tiles": {
+      "WHEAT": 3,
+      "STRAWBERRY": 4,
+      "MELON": 12
+    },
+    "animal_tiles": {
+      "COW": 4,
+      "SHEEP": 2
+    }
+  },
+  {
+    "day": 10,
+    "bank": 17095.0,
+    "hands": 11,
+    "land_quadrants": 2,
+    "total_crop_tiles": 32,
+    "total_animals": 16,
+    "crop_tiles": {
+      "WHEAT": 12,
+      "STRAWBERRY": 20
+    },
+    "animal_tiles": {
+      "COW": 9,
+      "SHEEP": 7
+    }
+  },
+  {
+    "day": 15,
+    "bank": 32965.0,
+    "hands": 11,
+    "land_quadrants": 3,
+    "total_crop_tiles": 58,
+    "total_animals": 17,
+    "crop_tiles": {
+      "WHEAT": 25,
+      "STRAWBERRY": 33
+    },
+    "animal_tiles": {
+      "COW": 9,
+      "SHEEP": 8
+    }
+  },
+  {
+    "day": 20,
+    "bank": 83427.0,
+    "hands": 12,
+    "land_quadrants": 3,
+    "total_crop_tiles": 58,
+    "total_animals": 17,
+    "crop_tiles": {
+      "WHEAT": 25,
+      "STRAWBERRY": 33
+    },
+    "animal_tiles": {
+      "COW": 9,
+      "SHEEP": 8
+    }
+  },
+  {
+    "day": 25,
+    "bank": 140186.0,
+    "hands": 11,
+    "land_quadrants": 3,
+    "total_crop_tiles": 58,
+    "total_animals": 17,
+    "crop_tiles": {
+      "WHEAT": 39,
+      "CARROT": 6,
+      "STRAWBERRY": 13
+    },
+    "animal_tiles": {
+      "COW": 9,
+      "SHEEP": 8
+    }
+  },
+  {
+    "day": 29,
+    "bank": 183147.0,
+    "hands": 11,
+    "land_quadrants": 3,
+    "total_crop_tiles": 0,
+    "total_animals": 17,
+    "crop_tiles": {},
+    "animal_tiles": {
+      "COW": 9,
+      "SHEEP": 8
+    }
+  }
+]

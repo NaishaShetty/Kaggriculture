@@ -1,0 +1,906 @@
+{
+  "105027448": {
+    "team_names": [
+      "Knight of Favonius",
+      "Dmitry Larko"
+    ],
+    "players": {
+      "Knight of Favonius": [
+        {
+          "day": 0,
+          "bank": 0.0,
+          "hands": 5,
+          "land_quadrants": 1,
+          "total_crop_tiles": 19,
+          "total_animals": 4,
+          "crop_tiles": {
+            "WHEAT": 7,
+            "MELON": 12
+          },
+          "animal_tiles": {
+            "COW": 2,
+            "SHEEP": 2
+          }
+        },
+        {
+          "day": 5,
+          "bank": 23.0,
+          "hands": 5,
+          "land_quadrants": 1,
+          "total_crop_tiles": 6,
+          "total_animals": 2,
+          "crop_tiles": {
+            "WHEAT": 2,
+            "STRAWBERRY": 2,
+            "MELON": 2
+          },
+          "animal_tiles": {
+            "SHEEP": 2
+          }
+        },
+        {
+          "day": 10,
+          "bank": 489.0,
+          "hands": 10,
+          "land_quadrants": 1,
+          "total_crop_tiles": 6,
+          "total_animals": 2,
+          "crop_tiles": {
+            "WHEAT": 4,
+            "STRAWBERRY": 1,
+            "MELON": 1
+          },
+          "animal_tiles": {
+            "SHEEP": 2
+          }
+        },
+        {
+          "day": 15,
+          "bank": 3.0,
+          "hands": 5,
+          "land_quadrants": 1,
+          "total_crop_tiles": 9,
+          "total_animals": 3,
+          "crop_tiles": {
+            "WHEAT": 7,
+            "STRAWBERRY": 2
+          },
+          "animal_tiles": {
+            "SHEEP": 3
+          }
+        },
+        {
+          "day": 20,
+          "bank": 1.0,
+          "hands": 2,
+          "land_quadrants": 1,
+          "total_crop_tiles": 6,
+          "total_animals": 0,
+          "crop_tiles": {
+            "WHEAT": 5,
+            "STRAWBERRY": 1
+          },
+          "animal_tiles": {}
+        },
+        {
+          "day": 25,
+          "bank": 117.0,
+          "hands": 0,
+          "land_quadrants": 1,
+          "total_crop_tiles": 1,
+          "total_animals": 0,
+          "crop_tiles": {
+            "WHEAT": 1
+          },
+          "animal_tiles": {}
+        },
+        {
+          "day": 29,
+          "bank": 70.0,
+          "hands": 0,
+          "land_quadrants": 1,
+          "total_crop_tiles": 1,
+          "total_animals": 0,
+          "crop_tiles": {
+            "CARROT": 1
+          },
+          "animal_tiles": {}
+        }
+      ],
+      "Dmitry Larko": [
+        {
+          "day": 0,
+          "bank": 66.0,
+          "hands": 5,
+          "land_quadrants": 1,
+          "total_crop_tiles": 18,
+          "total_animals": 4,
+          "crop_tiles": {
+            "WHEAT": 6,
+            "MELON": 12
+          },
+          "animal_tiles": {
+            "COW": 2,
+            "SHEEP": 2
+          }
+        },
+        {
+          "day": 5,
+          "bank": 293.0,
+          "hands": 5,
+          "land_quadrants": 1,
+          "total_crop_tiles": 19,
+          "total_animals": 6,
+          "crop_tiles": {
+            "WHEAT": 3,
+            "STRAWBERRY": 4,
+            "MELON": 12
+          },
+          "animal_tiles": {
+            "COW": 4,
+            "SHEEP": 2
+          }
+        },
+        {
+          "day": 10,
+          "bank": 17095.0,
+          "hands": 11,
+          "land_quadrants": 2,
+          "total_crop_tiles": 32,
+          "total_animals": 16,
+          "crop_tiles": {
+            "WHEAT": 12,
+            "STRAWBERRY": 20
+          },
+          "animal_tiles": {
+            "COW": 9,
+            "SHEEP": 7
+          }
+        },
+        {
+          "day": 15,
+          "bank": 32965.0,
+          "hands": 11,
+          "land_quadrants": 3,
+          "total_crop_tiles": 58,
+          "total_animals": 17,
+          "crop_tiles": {
+            "WHEAT": 25,
+            "STRAWBERRY": 33
+          },
+          "animal_tiles": {
+            "COW": 9,
+            "SHEEP": 8
+          }
+        },
+        {
+          "day": 20,
+          "bank": 83427.0,
+          "hands": 12,
+          "land_quadrants": 3,
+          "total_crop_tiles": 58,
+          "total_animals": 17,
+          "crop_tiles": {
+            "WHEAT": 25,
+            "STRAWBERRY": 33
+          },
+          "animal_tiles": {
+            "COW": 9,
+            "SHEEP": 8
+          }
+        },
+        {
+          "day": 25,
+          "bank": 140186.0,
+          "hands": 11,
+          "land_quadrants": 3,
+          "total_crop_tiles": 58,
+          "total_animals": 17,
+          "crop_tiles": {
+            "WHEAT": 39,
+            "CARROT": 6,
+            "STRAWBERRY": 13
+          },
+          "animal_tiles": {
+            "COW": 9,
+            "SHEEP": 8
+          }
+        },
+        {
+          "day": 29,
+          "bank": 183147.0,
+          "hands": 11,
+          "land_quadrants": 3,
+          "total_crop_tiles": 0,
+          "total_animals": 17,
+          "crop_tiles": {},
+          "animal_tiles": {
+            "COW": 9,
+            "SHEEP": 8
+          }
+        }
+      ]
+    }
+  },
+  "105019962": {
+    "team_names": [
+      "Saravanan Jaichandaran",
+      "Dmitry Larko"
+    ],
+    "players": {
+      "Saravanan Jaichandaran": [
+        {
+          "day": 0,
+          "bank": 0.0,
+          "hands": 5,
+          "land_quadrants": 1,
+          "total_crop_tiles": 19,
+          "total_animals": 4,
+          "crop_tiles": {
+            "WHEAT": 7,
+            "MELON": 12
+          },
+          "animal_tiles": {
+            "COW": 2,
+            "SHEEP": 2
+          }
+        },
+        {
+          "day": 5,
+          "bank": 20.0,
+          "hands": 5,
+          "land_quadrants": 1,
+          "total_crop_tiles": 5,
+          "total_animals": 2,
+          "crop_tiles": {
+            "STRAWBERRY": 3,
+            "MELON": 2
+          },
+          "animal_tiles": {
+            "SHEEP": 2
+          }
+        },
+        {
+          "day": 10,
+          "bank": 461.0,
+          "hands": 9,
+          "land_quadrants": 1,
+          "total_crop_tiles": 4,
+          "total_animals": 1,
+          "crop_tiles": {
+            "WHEAT": 1,
+            "STRAWBERRY": 2,
+            "MELON": 1
+          },
+          "animal_tiles": {
+            "SHEEP": 1
+          }
+        },
+        {
+          "day": 15,
+          "bank": 630.0,
+          "hands": 11,
+          "land_quadrants": 1,
+          "total_crop_tiles": 12,
+          "total_animals": 2,
+          "crop_tiles": {
+            "WHEAT": 11,
+            "STRAWBERRY": 1
+          },
+          "animal_tiles": {
+            "SHEEP": 2
+          }
+        },
+        {
+          "day": 20,
+          "bank": 1088.0,
+          "hands": 10,
+          "land_quadrants": 1,
+          "total_crop_tiles": 12,
+          "total_animals": 2,
+          "crop_tiles": {
+            "WHEAT": 11,
+            "STRAWBERRY": 1
+          },
+          "animal_tiles": {
+            "SHEEP": 2
+          }
+        },
+        {
+          "day": 25,
+          "bank": 3302.0,
+          "hands": 11,
+          "land_quadrants": 1,
+          "total_crop_tiles": 17,
+          "total_animals": 2,
+          "crop_tiles": {
+            "WHEAT": 16,
+            "STRAWBERRY": 1
+          },
+          "animal_tiles": {
+            "SHEEP": 2
+          }
+        },
+        {
+          "day": 29,
+          "bank": 8893.0,
+          "hands": 11,
+          "land_quadrants": 1,
+          "total_crop_tiles": 0,
+          "total_animals": 2,
+          "crop_tiles": {},
+          "animal_tiles": {
+            "SHEEP": 2
+          }
+        }
+      ],
+      "Dmitry Larko": [
+        {
+          "day": 0,
+          "bank": 66.0,
+          "hands": 5,
+          "land_quadrants": 1,
+          "total_crop_tiles": 18,
+          "total_animals": 4,
+          "crop_tiles": {
+            "WHEAT": 6,
+            "MELON": 12
+          },
+          "animal_tiles": {
+            "COW": 2,
+            "SHEEP": 2
+          }
+        },
+        {
+          "day": 5,
+          "bank": 291.0,
+          "hands": 5,
+          "land_quadrants": 1,
+          "total_crop_tiles": 19,
+          "total_animals": 6,
+          "crop_tiles": {
+            "WHEAT": 3,
+            "STRAWBERRY": 4,
+            "MELON": 12
+          },
+          "animal_tiles": {
+            "COW": 4,
+            "SHEEP": 2
+          }
+        },
+        {
+          "day": 10,
+          "bank": 18170.0,
+          "hands": 11,
+          "land_quadrants": 2,
+          "total_crop_tiles": 34,
+          "total_animals": 13,
+          "crop_tiles": {
+            "WHEAT": 13,
+            "STRAWBERRY": 21
+          },
+          "animal_tiles": {
+            "COW": 9,
+            "SHEEP": 4
+          }
+        },
+        {
+          "day": 15,
+          "bank": 37262.0,
+          "hands": 12,
+          "land_quadrants": 3,
+          "total_crop_tiles": 61,
+          "total_animals": 14,
+          "crop_tiles": {
+            "WHEAT": 23,
+            "STRAWBERRY": 38
+          },
+          "animal_tiles": {
+            "COW": 9,
+            "SHEEP": 5
+          }
+        },
+        {
+          "day": 20,
+          "bank": 75949.0,
+          "hands": 12,
+          "land_quadrants": 3,
+          "total_crop_tiles": 61,
+          "total_animals": 14,
+          "crop_tiles": {
+            "WHEAT": 23,
+            "STRAWBERRY": 38
+          },
+          "animal_tiles": {
+            "COW": 9,
+            "SHEEP": 5
+          }
+        },
+        {
+          "day": 25,
+          "bank": 125368.0,
+          "hands": 11,
+          "land_quadrants": 3,
+          "total_crop_tiles": 61,
+          "total_animals": 14,
+          "crop_tiles": {
+            "WHEAT": 39,
+            "CARROT": 4,
+            "STRAWBERRY": 18
+          },
+          "animal_tiles": {
+            "COW": 9,
+            "SHEEP": 5
+          }
+        },
+        {
+          "day": 29,
+          "bank": 166062.0,
+          "hands": 11,
+          "land_quadrants": 3,
+          "total_crop_tiles": 2,
+          "total_animals": 14,
+          "crop_tiles": {
+            "WHEAT": 2
+          },
+          "animal_tiles": {
+            "COW": 9,
+            "SHEEP": 5
+          }
+        }
+      ]
+    }
+  },
+  "105008070": {
+    "team_names": [
+      "Atakan Aldemir",
+      "Dmitry Larko"
+    ],
+    "players": {
+      "Atakan Aldemir": [
+        {
+          "day": 0,
+          "bank": 0.0,
+          "hands": 5,
+          "land_quadrants": 1,
+          "total_crop_tiles": 19,
+          "total_animals": 4,
+          "crop_tiles": {
+            "WHEAT": 7,
+            "MELON": 12
+          },
+          "animal_tiles": {
+            "COW": 2,
+            "SHEEP": 2
+          }
+        },
+        {
+          "day": 5,
+          "bank": 19.0,
+          "hands": 5,
+          "land_quadrants": 1,
+          "total_crop_tiles": 6,
+          "total_animals": 2,
+          "crop_tiles": {
+            "WHEAT": 3,
+            "STRAWBERRY": 3
+          },
+          "animal_tiles": {
+            "SHEEP": 2
+          }
+        },
+        {
+          "day": 10,
+          "bank": 116.0,
+          "hands": 8,
+          "land_quadrants": 1,
+          "total_crop_tiles": 7,
+          "total_animals": 1,
+          "crop_tiles": {
+            "WHEAT": 7
+          },
+          "animal_tiles": {
+            "SHEEP": 1
+          }
+        },
+        {
+          "day": 15,
+          "bank": 17.0,
+          "hands": 7,
+          "land_quadrants": 1,
+          "total_crop_tiles": 4,
+          "total_animals": 0,
+          "crop_tiles": {
+            "WHEAT": 4
+          },
+          "animal_tiles": {}
+        },
+        {
+          "day": 20,
+          "bank": 38.0,
+          "hands": 9,
+          "land_quadrants": 1,
+          "total_crop_tiles": 6,
+          "total_animals": 0,
+          "crop_tiles": {
+            "WHEAT": 6
+          },
+          "animal_tiles": {}
+        },
+        {
+          "day": 25,
+          "bank": 50.0,
+          "hands": 9,
+          "land_quadrants": 1,
+          "total_crop_tiles": 4,
+          "total_animals": 0,
+          "crop_tiles": {
+            "WHEAT": 4
+          },
+          "animal_tiles": {}
+        },
+        {
+          "day": 29,
+          "bank": 141.0,
+          "hands": 1,
+          "land_quadrants": 1,
+          "total_crop_tiles": 2,
+          "total_animals": 0,
+          "crop_tiles": {
+            "WHEAT": 2
+          },
+          "animal_tiles": {}
+        }
+      ],
+      "Dmitry Larko": [
+        {
+          "day": 0,
+          "bank": 66.0,
+          "hands": 5,
+          "land_quadrants": 1,
+          "total_crop_tiles": 18,
+          "total_animals": 4,
+          "crop_tiles": {
+            "WHEAT": 6,
+            "MELON": 12
+          },
+          "animal_tiles": {
+            "COW": 2,
+            "SHEEP": 2
+          }
+        },
+        {
+          "day": 5,
+          "bank": 48.0,
+          "hands": 4,
+          "land_quadrants": 1,
+          "total_crop_tiles": 19,
+          "total_animals": 6,
+          "crop_tiles": {
+            "WHEAT": 3,
+            "STRAWBERRY": 4,
+            "MELON": 12
+          },
+          "animal_tiles": {
+            "COW": 4,
+            "SHEEP": 2
+          }
+        },
+        {
+          "day": 10,
+          "bank": 16699.0,
+          "hands": 11,
+          "land_quadrants": 2,
+          "total_crop_tiles": 32,
+          "total_animals": 14,
+          "crop_tiles": {
+            "WHEAT": 12,
+            "STRAWBERRY": 20
+          },
+          "animal_tiles": {
+            "COW": 5,
+            "SHEEP": 9
+          }
+        },
+        {
+          "day": 15,
+          "bank": 36010.0,
+          "hands": 11,
+          "land_quadrants": 3,
+          "total_crop_tiles": 58,
+          "total_animals": 15,
+          "crop_tiles": {
+            "WHEAT": 25,
+            "STRAWBERRY": 33
+          },
+          "animal_tiles": {
+            "COW": 5,
+            "SHEEP": 10
+          }
+        },
+        {
+          "day": 20,
+          "bank": 76984.0,
+          "hands": 12,
+          "land_quadrants": 3,
+          "total_crop_tiles": 58,
+          "total_animals": 15,
+          "crop_tiles": {
+            "WHEAT": 25,
+            "STRAWBERRY": 33
+          },
+          "animal_tiles": {
+            "COW": 5,
+            "SHEEP": 10
+          }
+        },
+        {
+          "day": 25,
+          "bank": 124910.0,
+          "hands": 11,
+          "land_quadrants": 3,
+          "total_crop_tiles": 58,
+          "total_animals": 15,
+          "crop_tiles": {
+            "WHEAT": 39,
+            "CARROT": 6,
+            "STRAWBERRY": 13
+          },
+          "animal_tiles": {
+            "COW": 5,
+            "SHEEP": 10
+          }
+        },
+        {
+          "day": 29,
+          "bank": 166087.0,
+          "hands": 11,
+          "land_quadrants": 3,
+          "total_crop_tiles": 0,
+          "total_animals": 15,
+          "crop_tiles": {},
+          "animal_tiles": {
+            "COW": 5,
+            "SHEEP": 10
+          }
+        }
+      ]
+    }
+  },
+  "105012251": {
+    "team_names": [
+      "Dmitry Larko",
+      "Milan Leonard"
+    ],
+    "players": {
+      "Dmitry Larko": [
+        {
+          "day": 0,
+          "bank": 52.0,
+          "hands": 5,
+          "land_quadrants": 1,
+          "total_crop_tiles": 18,
+          "total_animals": 4,
+          "crop_tiles": {
+            "WHEAT": 6,
+            "MELON": 12
+          },
+          "animal_tiles": {
+            "COW": 2,
+            "SHEEP": 2
+          }
+        },
+        {
+          "day": 5,
+          "bank": 239.0,
+          "hands": 5,
+          "land_quadrants": 1,
+          "total_crop_tiles": 19,
+          "total_animals": 6,
+          "crop_tiles": {
+            "WHEAT": 3,
+            "STRAWBERRY": 4,
+            "MELON": 12
+          },
+          "animal_tiles": {
+            "COW": 4,
+            "SHEEP": 2
+          }
+        },
+        {
+          "day": 10,
+          "bank": 15853.0,
+          "hands": 11,
+          "land_quadrants": 2,
+          "total_crop_tiles": 34,
+          "total_animals": 13,
+          "crop_tiles": {
+            "WHEAT": 13,
+            "STRAWBERRY": 21
+          },
+          "animal_tiles": {
+            "COW": 9,
+            "SHEEP": 4
+          }
+        },
+        {
+          "day": 15,
+          "bank": 26507.0,
+          "hands": 12,
+          "land_quadrants": 3,
+          "total_crop_tiles": 61,
+          "total_animals": 14,
+          "crop_tiles": {
+            "WHEAT": 23,
+            "STRAWBERRY": 38
+          },
+          "animal_tiles": {
+            "COW": 9,
+            "SHEEP": 5
+          }
+        },
+        {
+          "day": 20,
+          "bank": 53584.0,
+          "hands": 12,
+          "land_quadrants": 3,
+          "total_crop_tiles": 61,
+          "total_animals": 14,
+          "crop_tiles": {
+            "WHEAT": 23,
+            "STRAWBERRY": 38
+          },
+          "animal_tiles": {
+            "COW": 9,
+            "SHEEP": 5
+          }
+        },
+        {
+          "day": 25,
+          "bank": 86420.0,
+          "hands": 11,
+          "land_quadrants": 3,
+          "total_crop_tiles": 61,
+          "total_animals": 14,
+          "crop_tiles": {
+            "WHEAT": 39,
+            "CARROT": 4,
+            "STRAWBERRY": 18
+          },
+          "animal_tiles": {
+            "COW": 9,
+            "SHEEP": 5
+          }
+        },
+        {
+          "day": 29,
+          "bank": 114357.0,
+          "hands": 11,
+          "land_quadrants": 3,
+          "total_crop_tiles": 2,
+          "total_animals": 14,
+          "crop_tiles": {
+            "WHEAT": 2
+          },
+          "animal_tiles": {
+            "COW": 9,
+            "SHEEP": 5
+          }
+        }
+      ],
+      "Milan Leonard": [
+        {
+          "day": 0,
+          "bank": 6.0,
+          "hands": 5,
+          "land_quadrants": 1,
+          "total_crop_tiles": 19,
+          "total_animals": 4,
+          "crop_tiles": {
+            "WHEAT": 7,
+            "MELON": 12
+          },
+          "animal_tiles": {
+            "COW": 2,
+            "SHEEP": 2
+          }
+        },
+        {
+          "day": 5,
+          "bank": 310.0,
+          "hands": 4,
+          "land_quadrants": 1,
+          "total_crop_tiles": 19,
+          "total_animals": 6,
+          "crop_tiles": {
+            "WHEAT": 3,
+            "STRAWBERRY": 4,
+            "MELON": 12
+          },
+          "animal_tiles": {
+            "COW": 4,
+            "SHEEP": 2
+          }
+        },
+        {
+          "day": 10,
+          "bank": 16931.0,
+          "hands": 11,
+          "land_quadrants": 2,
+          "total_crop_tiles": 34,
+          "total_animals": 12,
+          "crop_tiles": {
+            "WHEAT": 13,
+            "STRAWBERRY": 21
+          },
+          "animal_tiles": {
+            "COW": 6,
+            "SHEEP": 6
+          }
+        },
+        {
+          "day": 15,
+          "bank": 28999.0,
+          "hands": 10,
+          "land_quadrants": 3,
+          "total_crop_tiles": 63,
+          "total_animals": 12,
+          "crop_tiles": {
+            "WHEAT": 25,
+            "STRAWBERRY": 38
+          },
+          "animal_tiles": {
+            "COW": 6,
+            "SHEEP": 6
+          }
+        },
+        {
+          "day": 20,
+          "bank": 57877.0,
+          "hands": 11,
+          "land_quadrants": 3,
+          "total_crop_tiles": 63,
+          "total_animals": 12,
+          "crop_tiles": {
+            "WHEAT": 25,
+            "STRAWBERRY": 38
+          },
+          "animal_tiles": {
+            "COW": 6,
+            "SHEEP": 6
+          }
+        },
+        {
+          "day": 25,
+          "bank": 91758.0,
+          "hands": 10,
+          "land_quadrants": 3,
+          "total_crop_tiles": 62,
+          "total_animals": 12,
+          "crop_tiles": {
+            "WHEAT": 39,
+            "CARROT": 6,
+            "STRAWBERRY": 17
+          },
+          "animal_tiles": {
+            "COW": 6,
+            "SHEEP": 6
+          }
+        },
+        {
+          "day": 29,
+          "bank": 116536.0,
+          "hands": 10,
+          "land_quadrants": 3,
+          "total_crop_tiles": 0,
+          "total_animals": 12,
+          "crop_tiles": {},
+          "animal_tiles": {
+            "COW": 6,
+            "SHEEP": 6
+          }
+        }
+      ]
+    }
+  }
+}

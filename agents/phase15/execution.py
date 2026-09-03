@@ -32,6 +32,8 @@ from agents.phase2_3.common import (  # reuse, not duplicate -- noqa: E402
     _home_tile, _shed_tiles, _owned_tiles, structure_type_assignment,
     _needs_harvest_crop, _needs_water, _step_toward, _fib, _manhattan,
 )
+from agents.phase15.endgame import is_liquidating, should_dig_ongoing_crop  # noqa: E402
+from agents.phase15.liquidity_guard import apply_liquidity_guard, land_purchase_affordable  # noqa: E402
 
 
 def bounded_multi_crop_tile_pool_assignment(owned_tiles, home, shed_tiles, crop_fractions,
@@ -141,7 +143,7 @@ def make_execution_agent(target_fn, seed_buffer_cap=6):
     fixed construction-time values. `opponent_history` must be supplied by the
     caller via the returned agent's `set_opponent_history` hook (the adapter
     wires this to its own agents.phase3.opponent_observation.OpponentObservationLogger)."""
-    state = {"opponent_history": []}
+    state = {"opponent_history": [], "liquidity_guard_activations": 0}
 
     def set_opponent_history(history):
         state["opponent_history"] = history
@@ -160,6 +162,18 @@ def make_execution_agent(target_fn, seed_buffer_cap=6):
         prices = obs.get("market", {}).get("prices", {})
 
         targets = target_fn(day, state["opponent_history"])
+
+        # --- Phase 20 liquidity guard (agents/phase15/liquidity_guard.py): re-checked
+        # every turn, freezes further hiring/land-buying this turn if cash is
+        # critically low -- see that module's docstring for why this is a per-turn,
+        # re-armable throttle rather than a one-time F-005-style halving. ---
+        current_hands_now = len(me.get("hands", []))
+        current_land_now = len(me.get("unlocked_quadrants", ["NW"]))
+        targets, _liquidity_guard_triggered = apply_liquidity_guard(
+            targets, money, current_hands_now, current_land_now)
+        if _liquidity_guard_triggered:
+            state["liquidity_guard_activations"] += 1
+
         n_hands = targets["n_hands"]
         land_quadrants = targets["land_quadrants"]
         animal_counts = dict(targets["animals"])
@@ -232,20 +246,29 @@ def make_execution_agent(target_fn, seed_buffer_cap=6):
             market.append(["HIRE"])
         money -= cum
 
-        # --- BUY_LAND ---
+        # --- BUY_LAND -- gated by a pre-emptive reserve check (Phase 20 liquidity
+        # guard, agents/phase15/liquidity_guard.py::land_purchase_affordable):
+        # a raw "can we technically afford it" check let past land purchases
+        # drain cash from comfortable levels straight to $0 in one shot, which
+        # then stalled hiring entirely (hands reset to [] daily; a $0-cash day
+        # can't afford even the cheapest possible hire). Requiring a reserve to
+        # remain afterward defers the purchase a few turns instead. ---
         n_extra_owned = len(me.get("unlocked_quadrants", [])) - 1
         target_extra = max(0, land_quadrants - 1)
         if n_extra_owned < target_extra and n_extra_owned < len(LAND_PRICES):
             next_cost = LAND_PRICES[n_extra_owned]
-            if money >= next_cost:
+            if land_purchase_affordable(money, next_cost):
                 market.append(["BUY_LAND"])
                 money -= next_cost
 
-        # --- BUY_SEED (per crop in play) ---
+        # --- BUY_SEED (per crop in play) -- suppressed once liquidating (Phase 19
+        # endgame mechanic, agents/phase15/endgame.py): no point buying more seed
+        # for tiles that won't be replanted from here on. ---
         empty_by_crop = {}
-        for t, c in crop_assignment.items():
-            if tiles[t[1]][t[0]] is None:
-                empty_by_crop[c] = empty_by_crop.get(c, 0) + 1
+        if not is_liquidating(day):
+            for t, c in crop_assignment.items():
+                if tiles[t[1]][t[0]] is None:
+                    empty_by_crop[c] = empty_by_crop.get(c, 0) + 1
         for crop, empty_needed in empty_by_crop.items():
             if empty_needed <= 0:
                 continue
@@ -304,11 +327,20 @@ def make_execution_agent(target_fn, seed_buffer_cap=6):
             tt = tiles[y][x]
             if _needs_harvest_crop(tt, c, day):
                 tasks.append((0, t, "HARVEST", None, None))
+            elif (isinstance(tt, dict) and tt.get("kind") == "PLANT" and CROPS[c]["ongoing"]
+                  and should_dig_ongoing_crop(day)):
+                # Phase 19 endgame mechanic: an "ongoing" crop (STRAWBERRY/TOMATO)
+                # never auto-clears itself (see agents/phase15/endgame.py's
+                # module docstring) -- explicitly clear it once there's no time
+                # left in the season for it to matter, matching the observed
+                # 0-2-tile day-29 shape in the fresh ladder data instead of
+                # leaving it standing, unharvested-from-here-on, forever.
+                tasks.append((3, t, "DIG", None, None))
             elif _needs_water(tt, c):
                 tasks.append((1, t, "WATER", None, None))
             elif isinstance(tt, dict) and tt.get("kind") == "WEED":
                 tasks.append((3, t, "DIG", None, None))
-            elif tt is None and seeds.get(c, 0) > 0:
+            elif tt is None and seeds.get(c, 0) > 0 and not is_liquidating(day):
                 tasks.append((3, t, "PLANT", None, c))
 
         for t in structure_tiles:
@@ -446,4 +478,5 @@ def make_execution_agent(target_fn, seed_buffer_cap=6):
         return {"farmer": workers[0]["action"], "hands": [w["action"] for w in workers[1:]], "market": market}
 
     agent.set_opponent_history = set_opponent_history
+    agent._state = state
     return agent

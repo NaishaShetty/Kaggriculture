@@ -1,0 +1,107 @@
+{
+  "MELON_vs_MELON": {
+    "mean_final_money_a": 8212.5,
+    "mean_sell_revenue_a": 15718.5,
+    "mean_sell_quantity_a": 257.25,
+    "rows": [
+      {
+        "final_money_a": 8137.0,
+        "final_money_b": 8126.0,
+        "sell_revenue_a": 15723.0,
+        "sell_quantity_a": 258,
+        "avg_price_a": 49.0256
+      },
+      {
+        "final_money_a": 8211.0,
+        "final_money_b": 8137.0,
+        "sell_revenue_a": 15717.0,
+        "sell_quantity_a": 257,
+        "avg_price_a": 61.0321
+      },
+      {
+        "final_money_a": 8211.0,
+        "final_money_b": 8128.0,
+        "sell_revenue_a": 15717.0,
+        "sell_quantity_a": 257,
+        "avg_price_a": 61.0321
+      },
+      {
+        "final_money_a": 8291.0,
+        "final_money_b": 8137.0,
+        "sell_revenue_a": 15717.0,
+        "sell_quantity_a": 257,
+        "avg_price_a": 61.0321
+      }
+    ]
+  },
+  "WHEAT_vs_WHEAT": {
+    "mean_final_money_a": 5037.5,
+    "mean_sell_revenue_a": 10527.5,
+    "mean_sell_quantity_a": 516.5,
+    "rows": [
+      {
+        "final_money_a": 4949.0,
+        "final_money_b": 5053.0,
+        "sell_revenue_a": 10399.0,
+        "sell_quantity_a": 511,
+        "avg_price_a": 20.3184
+      },
+      {
+        "final_money_a": 5071.0,
+        "final_money_b": 5071.0,
+        "sell_revenue_a": 10571.0,
+        "sell_quantity_a": 518,
+        "avg_price_a": 20.3673
+      },
+      {
+        "final_money_a": 5051.0,
+        "final_money_b": 5041.0,
+        "sell_revenue_a": 10561.0,
+        "sell_quantity_a": 519,
+        "avg_price_a": 20.351
+      },
+      {
+        "final_money_a": 5079.0,
+        "final_money_b": 5079.0,
+        "sell_revenue_a": 10579.0,
+        "sell_quantity_a": 518,
+        "avg_price_a": 20.3803
+      }
+    ]
+  },
+  "MELON_vs_WHEAT": {
+    "mean_final_money_a": 24566.25,
+    "mean_sell_revenue_a": 32072.25,
+    "mean_sell_quantity_a": 257.25,
+    "rows": [
+      {
+        "final_money_a": 24493.0,
+        "final_money_b": 5521.0,
+        "sell_revenue_a": 32079.0,
+        "sell_quantity_a": 258,
+        "avg_price_a": 84.7528
+      },
+      {
+        "final_money_a": 24564.0,
+        "final_money_b": 5587.0,
+        "sell_revenue_a": 32070.0,
+        "sell_quantity_a": 257,
+        "avg_price_a": 105.5736
+      },
+      {
+        "final_money_a": 24564.0,
+        "final_money_b": 5365.0,
+        "sell_revenue_a": 32070.0,
+        "sell_quantity_a": 257,
+        "avg_price_a": 105.5736
+      },
+      {
+        "final_money_a": 24644.0,
+        "final_money_b": 5898.0,
+        "sell_revenue_a": 32070.0,
+        "sell_quantity_a": 257,
+        "avg_price_a": 105.5736
+      }
+    ]
+  }
+}

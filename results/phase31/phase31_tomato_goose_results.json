@@ -1,0 +1,370 @@
+{
+  "isolated_GOOSE": {
+    "rows": [
+      {
+        "seed": 700000,
+        "final_money": 7778.0,
+        "sell_revenue": 8543.7296,
+        "sell_qty": 158,
+        "avg_price": 54.1679
+      },
+      {
+        "seed": 700001,
+        "final_money": 8937.0,
+        "sell_revenue": 9394.2121,
+        "sell_qty": 146,
+        "avg_price": 64.0361
+      },
+      {
+        "seed": 700002,
+        "final_money": 3438.0,
+        "sell_revenue": 5184.8438,
+        "sell_qty": 115,
+        "avg_price": 45.366
+      },
+      {
+        "seed": 700003,
+        "final_money": 8438.0,
+        "sell_revenue": 9167.0448,
+        "sell_qty": 159,
+        "avg_price": 57.6036
+      }
+    ],
+    "mean_final": 7147.75,
+    "mean_sell_revenue": 8072.457575
+  },
+  "isolated_COW": {
+    "rows": [
+      {
+        "seed": 700000,
+        "final_money": 34534.0,
+        "sell_revenue": 36681.7483,
+        "sell_qty": 153,
+        "avg_price": 239.6486
+      },
+      {
+        "seed": 700001,
+        "final_money": 42782.0,
+        "sell_revenue": 44087.3682,
+        "sell_qty": 153,
+        "avg_price": 289.1157
+      },
+      {
+        "seed": 700002,
+        "final_money": 41624.0,
+        "sell_revenue": 42610.5271,
+        "sell_qty": 153,
+        "avg_price": 279.2677
+      },
+      {
+        "seed": 700003,
+        "final_money": 36019.0,
+        "sell_revenue": 36819.7996,
+        "sell_qty": 153,
+        "avg_price": 240.0011
+      }
+    ],
+    "mean_final": 38739.75,
+    "mean_sell_revenue": 40049.8608
+  },
+  "isolated_SHEEP": {
+    "rows": [
+      {
+        "seed": 700000,
+        "final_money": 27120.0,
+        "sell_revenue": 28341.0286,
+        "sell_qty": 152,
+        "avg_price": 188.3492
+      },
+      {
+        "seed": 700001,
+        "final_money": 10789.0,
+        "sell_revenue": 11711.5328,
+        "sell_qty": 153,
+        "avg_price": 75.1327
+      },
+      {
+        "seed": 700002,
+        "final_money": 17526.0,
+        "sell_revenue": 18980.2747,
+        "sell_qty": 177,
+        "avg_price": 102.3679
+      },
+      {
+        "seed": 700003,
+        "final_money": 11104.0,
+        "sell_revenue": 11186.922,
+        "sell_qty": 153,
+        "avg_price": 78.6778
+      }
+    ],
+    "mean_final": 16634.75,
+    "mean_sell_revenue": 17554.939525
+  },
+  "glut_TOMATO_vs_TOMATO": {
+    "rows": [
+      {
+        "seed": 700000,
+        "final_money_a": 632.0,
+        "final_money_b": 632.0,
+        "sell_revenue_a": 4294.0,
+        "sell_qty_a": 112,
+        "avg_price_a": 33.8611
+      },
+      {
+        "seed": 700001,
+        "final_money_a": 5915.0,
+        "final_money_b": 5915.0,
+        "sell_revenue_a": 10349.0,
+        "sell_qty_a": 238,
+        "avg_price_a": 42.3146
+      },
+      {
+        "seed": 700002,
+        "final_money_a": 6031.0,
+        "final_money_b": 6000.0,
+        "sell_revenue_a": 10323.0,
+        "sell_qty_a": 236,
+        "avg_price_a": 41.2707
+      },
+      {
+        "seed": 700003,
+        "final_money_a": 3701.0,
+        "final_money_b": 3701.0,
+        "sell_revenue_a": 7863.0,
+        "sell_qty_a": 130,
+        "avg_price_a": 65.2876
+      }
+    ],
+    "mean_final_a": 4069.75,
+    "mean_sell_revenue_a": 8207.25
+  },
+  "glut_STRAWBERRY_vs_STRAWBERRY": {
+    "rows": [
+      {
+        "seed": 700000,
+        "final_money_a": 35556.0,
+        "final_money_b": 35447.0,
+        "sell_revenue_a": 40582.0,
+        "sell_qty_a": 182,
+        "avg_price_a": 222.1303
+      },
+      {
+        "seed": 700001,
+        "final_money_a": 40154.0,
+        "final_money_b": 40155.0,
+        "sell_revenue_a": 45180.0,
+        "sell_qty_a": 182,
+        "avg_price_a": 251.3365
+      },
+      {
+        "seed": 700002,
+        "final_money_a": 12160.0,
+        "final_money_b": 11973.0,
+        "sell_revenue_a": 17244.0,
+        "sell_qty_a": 181,
+        "avg_price_a": 91.3431
+      },
+      {
+        "seed": 700003,
+        "final_money_a": 20418.0,
+        "final_money_b": 20381.0,
+        "sell_revenue_a": 25092.0,
+        "sell_qty_a": 155,
+        "avg_price_a": 165.0196
+      }
+    ],
+    "mean_final_a": 27072.0,
+    "mean_sell_revenue_a": 32024.5
+  },
+  "glut_TOMATO_vs_STRAWBERRY": {
+    "rows": [
+      {
+        "seed": 700000,
+        "final_money_a": 10799.0,
+        "final_money_b": 39097.0,
+        "sell_revenue_a": 15133.0,
+        "sell_qty_a": 236,
+        "avg_price_a": 65.3735
+      },
+      {
+        "seed": 700001,
+        "final_money_a": 12288.0,
+        "final_money_b": 34620.0,
+        "sell_revenue_a": 16722.0,
+        "sell_qty_a": 238,
+        "avg_price_a": 70.9469
+      },
+      {
+        "seed": 700002,
+        "final_money_a": 6286.0,
+        "final_money_b": 40241.0,
+        "sell_revenue_a": 10444.0,
+        "sell_qty_a": 236,
+        "avg_price_a": 43.3031
+      },
+      {
+        "seed": 700003,
+        "final_money_a": 9795.0,
+        "final_money_b": 31939.0,
+        "sell_revenue_a": 14037.0,
+        "sell_qty_a": 236,
+        "avg_price_a": 59.963
+      }
+    ],
+    "mean_final_a": 9792.0,
+    "mean_sell_revenue_a": 14084.0
+  },
+  "glut_GOOSE_vs_GOOSE": {
+    "rows": [
+      {
+        "seed": 700000,
+        "final_money_a": 4780.0,
+        "final_money_b": 4796.0,
+        "sell_revenue_a": 5614.1564,
+        "sell_qty_a": 103,
+        "avg_price_a": 54.7742
+      },
+      {
+        "seed": 700001,
+        "final_money_a": 5303.0,
+        "final_money_b": 5508.0,
+        "sell_revenue_a": 6449.6107,
+        "sell_qty_a": 114,
+        "avg_price_a": 56.3107
+      },
+      {
+        "seed": 700002,
+        "final_money_a": 3274.0,
+        "final_money_b": 3274.0,
+        "sell_revenue_a": 4606.3992,
+        "sell_qty_a": 101,
+        "avg_price_a": 46.1698
+      },
+      {
+        "seed": 700003,
+        "final_money_a": 6032.0,
+        "final_money_b": 6032.0,
+        "sell_revenue_a": 6634.8782,
+        "sell_qty_a": 131,
+        "avg_price_a": 50.9258
+      }
+    ],
+    "mean_final_a": 4847.25,
+    "mean_sell_revenue_a": 5826.261125
+  },
+  "glut_COW_vs_COW": {
+    "rows": [
+      {
+        "seed": 700000,
+        "final_money_a": 35309.0,
+        "final_money_b": 35309.0,
+        "sell_revenue_a": 37073.1362,
+        "sell_qty_a": 147,
+        "avg_price_a": 252.4419
+      },
+      {
+        "seed": 700001,
+        "final_money_a": 32325.0,
+        "final_money_b": 32216.0,
+        "sell_revenue_a": 35005.5735,
+        "sell_qty_a": 140,
+        "avg_price_a": 249.8465
+      },
+      {
+        "seed": 700002,
+        "final_money_a": 36457.0,
+        "final_money_b": 37267.0,
+        "sell_revenue_a": 38998.1077,
+        "sell_qty_a": 144,
+        "avg_price_a": 271.2217
+      },
+      {
+        "seed": 700003,
+        "final_money_a": 27573.0,
+        "final_money_b": 27573.0,
+        "sell_revenue_a": 30168.5844,
+        "sell_qty_a": 135,
+        "avg_price_a": 223.5229
+      }
+    ],
+    "mean_final_a": 32916.0,
+    "mean_sell_revenue_a": 35311.35045
+  },
+  "glut_SHEEP_vs_SHEEP": {
+    "rows": [
+      {
+        "seed": 700000,
+        "final_money_a": 16941.0,
+        "final_money_b": 16941.0,
+        "sell_revenue_a": 17479.1155,
+        "sell_qty_a": 178,
+        "avg_price_a": 90.2767
+      },
+      {
+        "seed": 700001,
+        "final_money_a": 8088.0,
+        "final_money_b": 8088.0,
+        "sell_revenue_a": 9599.0399,
+        "sell_qty_a": 178,
+        "avg_price_a": 52.0311
+      },
+      {
+        "seed": 700002,
+        "final_money_a": 17240.0,
+        "final_money_b": 17240.0,
+        "sell_revenue_a": 17414.5781,
+        "sell_qty_a": 178,
+        "avg_price_a": 90.007
+      },
+      {
+        "seed": 700003,
+        "final_money_a": 3929.0,
+        "final_money_b": 3929.0,
+        "sell_revenue_a": 5230.9266,
+        "sell_qty_a": 178,
+        "avg_price_a": 24.4692
+      }
+    ],
+    "mean_final_a": 11549.5,
+    "mean_sell_revenue_a": 12430.915025
+  },
+  "glut_GOOSE_vs_COW": {
+    "rows": [
+      {
+        "seed": 700000,
+        "final_money_a": 6886.0,
+        "final_money_b": 35547.0,
+        "sell_revenue_a": 7595.7118,
+        "sell_qty_a": 133,
+        "avg_price_a": 56.7754
+      },
+      {
+        "seed": 700001,
+        "final_money_a": 41.0,
+        "final_money_b": 43245.0,
+        "sell_revenue_a": 140.4965,
+        "sell_qty_a": 2,
+        "avg_price_a": 70.2482
+      },
+      {
+        "seed": 700002,
+        "final_money_a": 6603.0,
+        "final_money_b": 49642.0,
+        "sell_revenue_a": 7340.1661,
+        "sell_qty_a": 133,
+        "avg_price_a": 54.7958
+      },
+      {
+        "seed": 700003,
+        "final_money_a": 6097.0,
+        "final_money_b": 47903.0,
+        "sell_revenue_a": 6910.2569,
+        "sell_qty_a": 131,
+        "avg_price_a": 52.5979
+      }
+    ],
+    "mean_final_a": 4906.75,
+    "mean_sell_revenue_a": 5496.657825
+  }
+}

@@ -5,11 +5,30 @@ ramping toward the real-data scale `docs/BIG_SWING_PLAN.md` and Phase 6's
 real-replay forensics establish -- instead of Submission C's small, fixed
 thresholds (hands locked at 5, animals capped at 6).
 
+PHASE 19 RECALIBRATION (this update supersedes the Phase 15 constants below,
+docstring kept for the historical record): Phase 6's local sample (4
+opponents, max $104,569, land capping at 4) is now confirmed OUTDATED by
+fresh replay data pulled directly from Kaggle's current top ladder
+(results/phase19/fresh_ladder/, 4 episodes, 2 independent strong players --
+Dmitry Larko across 4 games, Milan Leonard in 1 -- see
+results/phase19/PHASE19_LADDER_RECALIBRATION_REPORT.md Section 2 for the
+full table). Both players converge on a SMALLER, more intensively-worked
+footprint than Phase 15 assumed: land caps at 3 (not 4), hands settle at
+10-12 (not 13), animals run 12-17 (a range, not a fixed 13), crop footprint
+runs 58-63 tiles (not ~50), and -- the biggest qualitative change -- the
+crop mix does NOT stay STRAWBERRY-dominant: both players let WHEAT overtake
+STRAWBERRY by day 25 (WHEAT 39 vs. STRAWBERRY 13-18), then fully liquidate
+the crop side by day 29 (see agents/phase15/endgame.py for the new mechanic
+that models this last part; Phase 15/16 modeled NONE of the endgame).
+Final money at this scale: $114,357-$183,147 -- the real target Submission F
+should have been compared against, not Phase 6's $104,569 ceiling.
+
 REAL-DATA TARGETS (Phase 15 Step 1, re-extracted directly from
 results/phase6/{moushun_chen,lai_eu_wen,achille_gohin,zach_locke}/
 days_opponent.csv at days 5/10/15/20/25/29 -- see
 results/phase15/PHASE15_MACRO_CONTROLLER_REPORT.md Section 2 for the full
-table this module is built from):
+table this module is built from). HISTORICAL RECORD ONLY -- superseded by
+the Phase 19 update above:
 
   land_quadrants (total owned):
     moushun_chen: 1(d5) -> 2(d10) -> 3(d15) -> 3(d20) -> 3(d25) -> 3(d29)
@@ -66,40 +85,58 @@ table this module is built from):
     quantity decision).
 """
 
-# ---- Real-data-grounded target ceilings (Step 1) ----
-TARGET_LAND_QUADRANTS = 4       # total owned, matching Lai Eu Wen/Achille Gohin's converged level
-TARGET_HANDS = 13               # matching Lai Eu Wen's own peak (the highest-money real opponent, $104,569)
-TARGET_ANIMALS_TOTAL = 13       # matching Lai Eu Wen's own peak (13, days 15-20)
-TARGET_ANIMAL_SPECIES = {"COW": 7, "SHEEP": 6}  # even split, no real-data signal favors one species
+# ---- PHASE 19 real-data-grounded target ceilings, re-extracted from the
+# fresh top-ladder replays (results/phase19/fresh_ladder/) -- see the module
+# docstring's Phase 19 update note and the Phase 19 report Section 2 for the
+# exact day-by-day source numbers these constants are read off of. ----
+TARGET_LAND_QUADRANTS = 3       # both fresh players cap at 3 (reached by day 15), not Phase 15's 4
+TARGET_HANDS = 11               # both fresh players settle at 10-12 (median 11), not Phase 15's 13
+ANIMALS_BASE_TARGET = 14        # ramp aims for this by default -- roughly the midpoint of the observed 12-17 range
+TARGET_ANIMALS_TOTAL = 17       # hard ceiling for the opponent-ratchet -- Larko's own peak, observed episode 105027448
+TARGET_ANIMAL_SPECIES = {"COW": 7, "SHEEP": 7}  # near-even split -- fresh data shows no consistent species
+                                                 # preference (9/8, 9/5, 5/10, 6/6 all observed across the 5 trajectories)
 
 # Day thresholds at which each axis reaches specific rungs, taken directly
-# from the median crossing-day across the 4 real opponents (rounded to
-# whole days) rather than an invented smooth curve -- ramps are piecewise,
-# matching how real opponents actually move (step increases at hire/buy
-# events), not continuous.
-_LAND_RUNGS = [(0, 1), (6, 2), (12, 3), (18, 4)]
-_HANDS_RUNGS = [(0, 2), (4, 5), (8, 8), (13, 10), (18, TARGET_HANDS)]
-_ANIMALS_RUNGS = [(0, 0), (4, 2), (8, 6), (13, 9), (18, TARGET_ANIMALS_TOTAL)]
+# from the fresh replays' own day 0/5/10/15 snapshots (both players land on
+# nearly identical numbers at each of these days) rather than an invented
+# smooth curve -- ramps are piecewise, matching how real opponents actually
+# move (step increases at hire/buy events, e.g. hands jump straight from ~5
+# at day 5 to ~11 at day 10), not continuous.
+_LAND_RUNGS = [(0, 1), (10, 2), (15, TARGET_LAND_QUADRANTS)]
+_HANDS_RUNGS = [(0, 2), (5, 5), (10, TARGET_HANDS)]
+_ANIMALS_RUNGS = [(0, 0), (5, 6), (10, 13), (15, ANIMALS_BASE_TARGET)]
 
 # Crop-fraction schedule (of the crop-tile pool only; structure tiles are
-# carved out separately) -- day-bucketed, per the docstring's synthesis.
+# carved out separately) -- day-bucketed, re-derived from the fresh replays'
+# own crop-tile counts at each sampled day (both players agree closely):
+#   day 0:  WHEAT 6-7 / MELON 12           (~35% WHEAT / 65% MELON of ~18-19 tiles)
+#   day 5:  WHEAT 3 / STRAWBERRY 4 / MELON 12  (~16% / 21% / 63% of ~19 tiles)
+#   day 10: WHEAT 12-13 / STRAWBERRY 20-21     (~38% / 62% of ~32-34 tiles, MELON dropped)
+#   day 15-24: WHEAT 23-25 / STRAWBERRY 33-38  (~40% / 60% of ~58-63 tiles, unchanged day15->day20)
+#   day 25+: WHEAT 39 / CARROT 4-6 / STRAWBERRY 13-18  (~65% / 9% / 26% of ~58-62 tiles --
+#            WHEAT overtakes STRAWBERRY; [INFERRED] this is a time-horizon effect, not a
+#            profitability reversal -- WHEAT's first_yield_day=2 lets it keep cycling right up
+#            to the season's end, while a freshly-planted STRAWBERRY (first_yield_day=10)
+#            planted this late would not mature before the season ends)
+# From day 26+, agents/phase15/endgame.py's liquidation mechanic takes over (stop
+# planting, clear standing "ongoing" crops) -- this schedule's own fractions stop
+# mattering once is_liquidating(day) suppresses all new PLANT tasks.
 _CROP_SCHEDULE = [
-    (0, {"WHEAT": 0.6, "MELON": 0.4}),
-    (5, {"WHEAT": 0.5, "MELON": 0.3, "STRAWBERRY": 0.2}),
-    (10, {"STRAWBERRY": 0.5, "WHEAT": 0.3, "MELON": 0.2}),
-    (15, {"STRAWBERRY": 0.7, "WHEAT": 0.3}),
-    (20, {"STRAWBERRY": 0.8, "WHEAT": 0.2}),
+    (0, {"MELON": 0.65, "WHEAT": 0.35}),
+    (5, {"MELON": 0.63, "STRAWBERRY": 0.21, "WHEAT": 0.16}),
+    (10, {"STRAWBERRY": 0.62, "WHEAT": 0.38}),
+    (15, {"STRAWBERRY": 0.58, "WHEAT": 0.42}),
+    (25, {"WHEAT": 0.65, "STRAWBERRY": 0.27, "CARROT": 0.08}),
 ]
 
-CROP_TILE_TARGET_CEILING = 50  # bounded footprint ceiling, within the 26-76-tile range real opponents actually used
-# Footprint also RAMPS (not fixed at the ceiling from day 0) -- an early smoke test
-# at a fixed 40-tile footprint from day 0 produced a full cash-collapse death
-# spiral (seed costs, esp. MELON at $80/seed, outrunning the $3000 start before
-# any harvest revenue arrived) -- this ramp keeps early footprint closer to the
-# real opponents' own early numbers (moushun_chen: 15(d5)->20(d10)) and grows
-# toward the ceiling only as the game (and cash flow) matures. Documented here,
-# not silently tuned away, per this project's standing discipline.
-_CROP_TILE_RUNGS = [(0, 14), (5, 18), (10, 24), (15, 30), (20, 40), (24, CROP_TILE_TARGET_CEILING)]
+CROP_TILE_TARGET_CEILING = 62  # both fresh players run 58-63 tiles at scale -- not Phase 15's ~50
+# Footprint still RAMPS (not fixed at the ceiling from day 0) -- Phase 15 already
+# found a day-0 fixed-footprint config produces a cash-collapse death spiral (seed
+# costs outrunning the $3000 start before any harvest revenue arrives); this ramp
+# instead tracks the fresh replays' own day 0/5/10/15 crop-tile counts directly
+# (~19 tiles day 0-9, ~33 tiles day 10-14, then the full 58-63-tile ceiling from
+# day 15), not an invented curve.
+_CROP_TILE_RUNGS = [(0, 19), (10, 33), (15, CROP_TILE_TARGET_CEILING)]
 
 
 def _rung_value(day, rungs):
@@ -143,8 +180,14 @@ def compute_targets(day, opponent_history=None):
     animals_total = max(base_animals_total, min(opp_animals, TARGET_ANIMALS_TOTAL))
     land_quadrants = max(base_land, min(opp_land, TARGET_LAND_QUADRANTS))
 
-    if TARGET_ANIMALS_TOTAL > 0 and animals_total > 0:
-        scale = animals_total / TARGET_ANIMALS_TOTAL
+    if ANIMALS_BASE_TARGET > 0 and animals_total > 0:
+        # Scaled against ANIMALS_BASE_TARGET (the ramp's own default target, 14),
+        # not TARGET_ANIMALS_TOTAL (17, the separate opponent-ratchet CEILING) --
+        # TARGET_ANIMAL_SPECIES sums to ANIMALS_BASE_TARGET by construction, so
+        # this keeps the species split proportional at the ramp's normal
+        # operating point while still letting animals_total legitimately exceed
+        # ANIMALS_BASE_TARGET (up to TARGET_ANIMALS_TOTAL) when ratcheted up.
+        scale = animals_total / ANIMALS_BASE_TARGET
         animals = {sp: max(0, round(n * scale)) for sp, n in TARGET_ANIMAL_SPECIES.items()}
     else:
         animals = {}
