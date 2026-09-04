@@ -1,0 +1,47 @@
+{
+  "rows": [
+    {
+      "seed": 700000,
+      "final_money": 44610.0,
+      "idle_action_fraction": 0.0703,
+      "productive_action_rate": 0.9256,
+      "movement_fraction": 0.6189,
+      "crop_fraction": 0.214,
+      "n_farmer_actions": 720,
+      "n_hand_actions": 6134
+    },
+    {
+      "seed": 700001,
+      "final_money": 65533.0,
+      "idle_action_fraction": 0.0803,
+      "productive_action_rate": 0.9137,
+      "movement_fraction": 0.5903,
+      "crop_fraction": 0.2334,
+      "n_farmer_actions": 720,
+      "n_hand_actions": 6242
+    },
+    {
+      "seed": 700002,
+      "final_money": 55739.0,
+      "idle_action_fraction": 0.0633,
+      "productive_action_rate": 0.9316,
+      "movement_fraction": 0.6225,
+      "crop_fraction": 0.2249,
+      "n_farmer_actions": 720,
+      "n_hand_actions": 6151
+    },
+    {
+      "seed": 700003,
+      "final_money": 57258.0,
+      "idle_action_fraction": 0.0712,
+      "productive_action_rate": 0.9241,
+      "movement_fraction": 0.6083,
+      "crop_fraction": 0.2306,
+      "n_farmer_actions": 720,
+      "n_hand_actions": 6237
+    }
+  ],
+  "mean_idle_action_fraction": 0.071275,
+  "mean_productive_action_rate": 0.9237500000000001,
+  "seed_700000_idle_action_fraction": 0.0703
+}

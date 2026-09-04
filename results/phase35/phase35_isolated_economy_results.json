@@ -1,0 +1,137 @@
+{
+  "baseline": {
+    "label": "baseline",
+    "rows": [
+      {
+        "seed": 700000,
+        "final_money": 44610.0,
+        "idle_action_fraction": 0.0703
+      },
+      {
+        "seed": 700001,
+        "final_money": 65533.0,
+        "idle_action_fraction": 0.0803
+      },
+      {
+        "seed": 700002,
+        "final_money": 55739.0,
+        "idle_action_fraction": 0.0633
+      },
+      {
+        "seed": 700003,
+        "final_money": 57258.0,
+        "idle_action_fraction": 0.0712
+      }
+    ],
+    "mean_final_money": 55785.0,
+    "mean_idle_action_fraction": 0.071275
+  },
+  "candidate_a": {
+    "label": "candidate_a",
+    "rows": [
+      {
+        "seed": 700000,
+        "final_money": 3610.0,
+        "idle_action_fraction": 0.2456
+      },
+      {
+        "seed": 700001,
+        "final_money": 11358.0,
+        "idle_action_fraction": 0.2124
+      },
+      {
+        "seed": 700002,
+        "final_money": 12001.0,
+        "idle_action_fraction": 0.191
+      },
+      {
+        "seed": 700003,
+        "final_money": 23731.0,
+        "idle_action_fraction": 0.1738
+      }
+    ],
+    "mean_final_money": 12675.0,
+    "mean_idle_action_fraction": 0.2057
+  },
+  "candidate_b": {
+    "label": "candidate_b",
+    "rows": [
+      {
+        "seed": 700000,
+        "final_money": 36.0,
+        "idle_action_fraction": 0.2478
+      },
+      {
+        "seed": 700001,
+        "final_money": 3333.0,
+        "idle_action_fraction": 0.214
+      },
+      {
+        "seed": 700002,
+        "final_money": 6057.0,
+        "idle_action_fraction": 0.1976
+      },
+      {
+        "seed": 700003,
+        "final_money": 17542.0,
+        "idle_action_fraction": 0.1703
+      }
+    ],
+    "mean_final_money": 6742.0,
+    "mean_idle_action_fraction": 0.207425
+  },
+  "candidate_c": {
+    "label": "candidate_c",
+    "rows": [
+      {
+        "seed": 700000,
+        "final_money": 16531.0,
+        "idle_action_fraction": 0.2224
+      },
+      {
+        "seed": 700001,
+        "final_money": 3679.0,
+        "idle_action_fraction": 0.2329
+      },
+      {
+        "seed": 700002,
+        "final_money": 1959.0,
+        "idle_action_fraction": 0.2517
+      },
+      {
+        "seed": 700003,
+        "final_money": 4256.0,
+        "idle_action_fraction": 0.2552
+      }
+    ],
+    "mean_final_money": 6606.25,
+    "mean_idle_action_fraction": 0.24054999999999999
+  },
+  "candidate_a2": {
+    "label": "candidate_a2",
+    "rows": [
+      {
+        "seed": 700000,
+        "final_money": 57689.0,
+        "idle_action_fraction": 0.1579
+      },
+      {
+        "seed": 700001,
+        "final_money": 32579.0,
+        "idle_action_fraction": 0.1485
+      },
+      {
+        "seed": 700002,
+        "final_money": 23823.0,
+        "idle_action_fraction": 0.2068
+      },
+      {
+        "seed": 700003,
+        "final_money": 43777.0,
+        "idle_action_fraction": 0.1635
+      }
+    ],
+    "mean_final_money": 39467.0,
+    "mean_idle_action_fraction": 0.169175
+  }
+}

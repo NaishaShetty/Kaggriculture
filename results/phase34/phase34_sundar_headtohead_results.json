@@ -1,0 +1,46 @@
+{
+  "isolated": [
+    {
+      "seed": 700000,
+      "final_money": 0.0
+    },
+    {
+      "seed": 700001,
+      "final_money": 0.0
+    },
+    {
+      "seed": 700002,
+      "final_money": 0.0
+    },
+    {
+      "seed": 700003,
+      "final_money": 0.0
+    }
+  ],
+  "head_to_head": [
+    {
+      "seed": 700000,
+      "phase21": 67521.0,
+      "sundar_archetype": 0.0,
+      "winner": "phase21"
+    },
+    {
+      "seed": 700001,
+      "phase21": 49857.0,
+      "sundar_archetype": 0.0,
+      "winner": "phase21"
+    },
+    {
+      "seed": 700002,
+      "phase21": 54665.0,
+      "sundar_archetype": 0.0,
+      "winner": "phase21"
+    },
+    {
+      "seed": 700003,
+      "phase21": 64500.0,
+      "sundar_archetype": 0.0,
+      "winner": "phase21"
+    }
+  ]
+}

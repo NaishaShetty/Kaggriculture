@@ -1,0 +1,232 @@
+{
+  "vs_submission_g": {
+    "label": "Submission_G",
+    "per_seed": [
+      {
+        "seed": 700000,
+        "paced": 55204.0,
+        "opponent": 51182.0,
+        "winner": "paced"
+      },
+      {
+        "seed": 700001,
+        "paced": 62956.0,
+        "opponent": 53082.0,
+        "winner": "paced"
+      },
+      {
+        "seed": 700002,
+        "paced": 52762.0,
+        "opponent": 48047.0,
+        "winner": "paced"
+      },
+      {
+        "seed": 700003,
+        "paced": 56899.0,
+        "opponent": 46979.0,
+        "winner": "paced"
+      },
+      {
+        "seed": 701000,
+        "paced": 57263.0,
+        "opponent": 60766.0,
+        "winner": "Submission_G"
+      },
+      {
+        "seed": 701001,
+        "paced": 53123.0,
+        "opponent": 60898.0,
+        "winner": "Submission_G"
+      },
+      {
+        "seed": 701002,
+        "paced": 47246.0,
+        "opponent": 39408.0,
+        "winner": "paced"
+      },
+      {
+        "seed": 701003,
+        "paced": 51200.0,
+        "opponent": 48902.0,
+        "winner": "paced"
+      },
+      {
+        "seed": 701004,
+        "paced": 45639.0,
+        "opponent": 35925.0,
+        "winner": "paced"
+      },
+      {
+        "seed": 702000,
+        "paced": 50564.0,
+        "opponent": 51375.0,
+        "winner": "Submission_G"
+      },
+      {
+        "seed": 702001,
+        "paced": 53781.0,
+        "opponent": 55283.0,
+        "winner": "Submission_G"
+      },
+      {
+        "seed": 702002,
+        "paced": 39192.0,
+        "opponent": 40870.0,
+        "winner": "Submission_G"
+      },
+      {
+        "seed": 702003,
+        "paced": 59721.0,
+        "opponent": 48932.0,
+        "winner": "paced"
+      },
+      {
+        "seed": 702004,
+        "paced": 41730.0,
+        "opponent": 31739.0,
+        "winner": "paced"
+      },
+      {
+        "seed": 702005,
+        "paced": 56814.0,
+        "opponent": 50238.0,
+        "winner": "paced"
+      }
+    ],
+    "paced_stats": {
+      "n": 15,
+      "mean": 52272.93,
+      "median": 53123.0,
+      "min": 39192.0,
+      "max": 62956.0,
+      "stdev": 6568.14
+    },
+    "opponent_stats": {
+      "n": 15,
+      "mean": 48241.73,
+      "median": 48932.0,
+      "min": 31739.0,
+      "max": 60898.0,
+      "stdev": 8330.06
+    },
+    "wins": 10,
+    "losses": 5,
+    "ties": 0,
+    "win_rate": "10/15"
+  },
+  "vs_submission_c": {
+    "label": "Submission_C",
+    "per_seed": [
+      {
+        "seed": 700000,
+        "paced": 58411.0,
+        "opponent": 32240.0,
+        "winner": "paced"
+      },
+      {
+        "seed": 700001,
+        "paced": 64126.0,
+        "opponent": 31389.0,
+        "winner": "paced"
+      },
+      {
+        "seed": 700002,
+        "paced": 50911.0,
+        "opponent": 30770.0,
+        "winner": "paced"
+      },
+      {
+        "seed": 700003,
+        "paced": 43151.0,
+        "opponent": 36779.0,
+        "winner": "paced"
+      },
+      {
+        "seed": 701000,
+        "paced": 56190.0,
+        "opponent": 35822.0,
+        "winner": "paced"
+      },
+      {
+        "seed": 701001,
+        "paced": 66100.0,
+        "opponent": 34609.0,
+        "winner": "paced"
+      },
+      {
+        "seed": 701002,
+        "paced": 69544.0,
+        "opponent": 30116.0,
+        "winner": "paced"
+      },
+      {
+        "seed": 701003,
+        "paced": 60111.0,
+        "opponent": 36364.0,
+        "winner": "paced"
+      },
+      {
+        "seed": 701004,
+        "paced": 56335.0,
+        "opponent": 30516.0,
+        "winner": "paced"
+      },
+      {
+        "seed": 702000,
+        "paced": 60133.0,
+        "opponent": 34118.0,
+        "winner": "paced"
+      },
+      {
+        "seed": 702001,
+        "paced": 63824.0,
+        "opponent": 34824.0,
+        "winner": "paced"
+      },
+      {
+        "seed": 702002,
+        "paced": 52769.0,
+        "opponent": 34215.0,
+        "winner": "paced"
+      },
+      {
+        "seed": 702003,
+        "paced": 63342.0,
+        "opponent": 30081.0,
+        "winner": "paced"
+      },
+      {
+        "seed": 702004,
+        "paced": 59434.0,
+        "opponent": 35408.0,
+        "winner": "paced"
+      },
+      {
+        "seed": 702005,
+        "paced": 66751.0,
+        "opponent": 34792.0,
+        "winner": "paced"
+      }
+    ],
+    "paced_stats": {
+      "n": 15,
+      "mean": 59408.8,
+      "median": 60111.0,
+      "min": 43151.0,
+      "max": 69544.0,
+      "stdev": 6871.56
+    },
+    "opponent_stats": {
+      "n": 15,
+      "mean": 33469.53,
+      "median": 34215.0,
+      "min": 30081.0,
+      "max": 36779.0,
+      "stdev": 2376.37
+    },
+    "wins": 15,
+    "losses": 0,
+    "ties": 0,
+    "win_rate": "15/15"
+  }
+}

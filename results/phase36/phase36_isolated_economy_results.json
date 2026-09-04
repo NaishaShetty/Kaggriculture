@@ -1,0 +1,56 @@
+{
+  "baseline": {
+    "label": "baseline",
+    "rows": [
+      {
+        "seed": 700000,
+        "final_money": 44610.0,
+        "idle_action_fraction": 0.0703
+      },
+      {
+        "seed": 700001,
+        "final_money": 65533.0,
+        "idle_action_fraction": 0.0803
+      },
+      {
+        "seed": 700002,
+        "final_money": 55739.0,
+        "idle_action_fraction": 0.0633
+      },
+      {
+        "seed": 700003,
+        "final_money": 57258.0,
+        "idle_action_fraction": 0.0712
+      }
+    ],
+    "mean_final_money": 55785.0,
+    "mean_idle_action_fraction": 0.071275
+  },
+  "paced": {
+    "label": "paced",
+    "rows": [
+      {
+        "seed": 700000,
+        "final_money": 44258.0,
+        "idle_action_fraction": 0.0703
+      },
+      {
+        "seed": 700001,
+        "final_money": 76683.0,
+        "idle_action_fraction": 0.0901
+      },
+      {
+        "seed": 700002,
+        "final_money": 64197.0,
+        "idle_action_fraction": 0.0788
+      },
+      {
+        "seed": 700003,
+        "final_money": 51440.0,
+        "idle_action_fraction": 0.0788
+      }
+    ],
+    "mean_final_money": 59144.5,
+    "mean_idle_action_fraction": 0.07949999999999999
+  }
+}

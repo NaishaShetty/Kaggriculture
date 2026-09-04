@@ -1,0 +1,122 @@
+{
+  "CARROT_vs_CARROT": {
+    "label": "two-seller CARROT competition (contested)",
+    "mean_final_money_a": 329.75,
+    "mean_sell_revenue_a": 6770.5,
+    "mean_sell_quantity_a": 356.0,
+    "rows": [
+      {
+        "seed": 700000,
+        "final_money_a": 0.0,
+        "final_money_b": 0.0,
+        "sell_revenue_a": 5288.0,
+        "sell_quantity_a": 302,
+        "avg_price_a": 13.8865
+      },
+      {
+        "seed": 700001,
+        "final_money_a": 0.0,
+        "final_money_b": 0.0,
+        "sell_revenue_a": 4928.0,
+        "sell_quantity_a": 294,
+        "avg_price_a": 12.3495
+      },
+      {
+        "seed": 700002,
+        "final_money_a": 1319.0,
+        "final_money_b": 1371.0,
+        "sell_revenue_a": 11939.0,
+        "sell_quantity_a": 534,
+        "avg_price_a": 22.6682
+      },
+      {
+        "seed": 700003,
+        "final_money_a": 0.0,
+        "final_money_b": 0.0,
+        "sell_revenue_a": 4927.0,
+        "sell_quantity_a": 294,
+        "avg_price_a": 12.3217
+      }
+    ]
+  },
+  "CARROT_vs_STRAWBERRY": {
+    "label": "A=CARROT alone in its pool, competitor grows STRAWBERRY (CARROT uncontested)",
+    "mean_final_money_a": 225.25,
+    "mean_sell_revenue_a": 9566.25,
+    "mean_sell_quantity_a": 476.75,
+    "rows": [
+      {
+        "seed": 700000,
+        "final_money_a": 99.0,
+        "final_money_b": 12485.0,
+        "sell_revenue_a": 8973.0,
+        "sell_quantity_a": 451,
+        "avg_price_a": 17.6378
+      },
+      {
+        "seed": 700001,
+        "final_money_a": 272.0,
+        "final_money_b": 42711.0,
+        "sell_revenue_a": 10352.0,
+        "sell_quantity_a": 509,
+        "avg_price_a": 18.2169
+      },
+      {
+        "seed": 700002,
+        "final_money_a": 34.0,
+        "final_money_b": 35635.0,
+        "sell_revenue_a": 8684.0,
+        "sell_quantity_a": 451,
+        "avg_price_a": 15.7031
+      },
+      {
+        "seed": 700003,
+        "final_money_a": 496.0,
+        "final_money_b": 19596.0,
+        "sell_revenue_a": 10256.0,
+        "sell_quantity_a": 496,
+        "avg_price_a": 20.2483
+      }
+    ]
+  },
+  "STRAWBERRY_vs_STRAWBERRY": {
+    "label": "two-seller STRAWBERRY competition (reference, reproduced fresh)",
+    "mean_final_money_a": 27072.0,
+    "mean_sell_revenue_a": 32024.5,
+    "mean_sell_quantity_a": 175.0,
+    "rows": [
+      {
+        "seed": 700000,
+        "final_money_a": 35556.0,
+        "final_money_b": 35447.0,
+        "sell_revenue_a": 40582.0,
+        "sell_quantity_a": 182,
+        "avg_price_a": 222.1303
+      },
+      {
+        "seed": 700001,
+        "final_money_a": 40154.0,
+        "final_money_b": 40155.0,
+        "sell_revenue_a": 45180.0,
+        "sell_quantity_a": 182,
+        "avg_price_a": 251.3365
+      },
+      {
+        "seed": 700002,
+        "final_money_a": 12160.0,
+        "final_money_b": 11973.0,
+        "sell_revenue_a": 17244.0,
+        "sell_quantity_a": 181,
+        "avg_price_a": 91.3431
+      },
+      {
+        "seed": 700003,
+        "final_money_a": 20418.0,
+        "final_money_b": 20381.0,
+        "sell_revenue_a": 25092.0,
+        "sell_quantity_a": 155,
+        "avg_price_a": 165.0196
+      }
+    ]
+  }
+}

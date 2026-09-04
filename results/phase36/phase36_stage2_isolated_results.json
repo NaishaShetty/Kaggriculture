@@ -1,0 +1,27 @@
+{
+  "label": "a2_on_pacer",
+  "rows": [
+    {
+      "seed": 700000,
+      "final_money": 59917.0,
+      "idle_action_fraction": 0.1595
+    },
+    {
+      "seed": 700001,
+      "final_money": 46314.0,
+      "idle_action_fraction": 0.166
+    },
+    {
+      "seed": 700002,
+      "final_money": 36416.0,
+      "idle_action_fraction": 0.1669
+    },
+    {
+      "seed": 700003,
+      "final_money": 32837.0,
+      "idle_action_fraction": 0.1701
+    }
+  ],
+  "mean_final_money": 43871.0,
+  "mean_idle_action_fraction": 0.165625
+}

@@ -1,0 +1,30 @@
+{
+  "rows": [
+    {
+      "seed": 700000,
+      "packaged": 55204.0,
+      "submission_g": 51182.0,
+      "winner": "packaged"
+    },
+    {
+      "seed": 700001,
+      "packaged": 62956.0,
+      "submission_g": 53082.0,
+      "winner": "packaged"
+    },
+    {
+      "seed": 700002,
+      "packaged": 52762.0,
+      "submission_g": 48047.0,
+      "winner": "packaged"
+    },
+    {
+      "seed": 700003,
+      "packaged": 56899.0,
+      "submission_g": 46979.0,
+      "winner": "packaged"
+    }
+  ],
+  "mean_packaged": 56955.25,
+  "mean_submission_g": 49822.5
+}

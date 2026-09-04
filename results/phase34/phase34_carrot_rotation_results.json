@@ -1,0 +1,65 @@
+{
+  "baseline": {
+    "label": "baseline",
+    "rows": [
+      {
+        "seed": 700000,
+        "phase21": 26178.0,
+        "submission_g": 58183.0,
+        "winner": "submission_g"
+      },
+      {
+        "seed": 700001,
+        "phase21": 60509.0,
+        "submission_g": 63449.0,
+        "winner": "submission_g"
+      },
+      {
+        "seed": 700002,
+        "phase21": 50952.0,
+        "submission_g": 49286.0,
+        "winner": "phase21"
+      },
+      {
+        "seed": 700003,
+        "phase21": 60733.0,
+        "submission_g": 57604.0,
+        "winner": "phase21"
+      }
+    ],
+    "wins": 2,
+    "mean_phase21": 49593.0
+  },
+  "carrot_rotation": {
+    "label": "carrot_rotation",
+    "rows": [
+      {
+        "seed": 700000,
+        "phase21": 22840.0,
+        "submission_g": 58236.0,
+        "winner": "submission_g"
+      },
+      {
+        "seed": 700001,
+        "phase21": 58206.0,
+        "submission_g": 63549.0,
+        "winner": "submission_g"
+      },
+      {
+        "seed": 700002,
+        "phase21": 49077.0,
+        "submission_g": 49491.0,
+        "winner": "submission_g"
+      },
+      {
+        "seed": 700003,
+        "phase21": 60227.0,
+        "submission_g": 57694.0,
+        "winner": "phase21"
+      }
+    ],
+    "wins": 1,
+    "mean_phase21": 47587.5
+  },
+  "carrot_cutoff_day": 27
+}

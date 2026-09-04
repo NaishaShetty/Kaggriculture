@@ -1,0 +1,66 @@
+{
+  "baseline_no_fertilizer": {
+    "label": "baseline_no_fertilizer",
+    "rows": [
+      {
+        "seed": 700000,
+        "final_money": 44610.0,
+        "idle_action_fraction": 0.0703,
+        "peak_fertilized_tiles": 0
+      },
+      {
+        "seed": 700001,
+        "final_money": 65533.0,
+        "idle_action_fraction": 0.0803,
+        "peak_fertilized_tiles": 0
+      },
+      {
+        "seed": 700002,
+        "final_money": 55739.0,
+        "idle_action_fraction": 0.0633,
+        "peak_fertilized_tiles": 0
+      },
+      {
+        "seed": 700003,
+        "final_money": 57258.0,
+        "idle_action_fraction": 0.0712,
+        "peak_fertilized_tiles": 0
+      }
+    ],
+    "mean_final_money": 55785.0,
+    "mean_peak_fertilized_tiles": 0.0,
+    "mean_idle_action_fraction": 0.071275
+  },
+  "opportunistic_fertilizer": {
+    "label": "opportunistic_fertilizer",
+    "rows": [
+      {
+        "seed": 700000,
+        "final_money": 41252.0,
+        "idle_action_fraction": 0.0613,
+        "peak_fertilized_tiles": 8
+      },
+      {
+        "seed": 700001,
+        "final_money": 45087.0,
+        "idle_action_fraction": 0.056,
+        "peak_fertilized_tiles": 6
+      },
+      {
+        "seed": 700002,
+        "final_money": 46454.0,
+        "idle_action_fraction": 0.0635,
+        "peak_fertilized_tiles": 8
+      },
+      {
+        "seed": 700003,
+        "final_money": 30283.0,
+        "idle_action_fraction": 0.0839,
+        "peak_fertilized_tiles": 7
+      }
+    ],
+    "mean_final_money": 40769.0,
+    "mean_peak_fertilized_tiles": 7.25,
+    "mean_idle_action_fraction": 0.06617500000000001
+  }
+}
