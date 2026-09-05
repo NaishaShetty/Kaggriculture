@@ -1,0 +1,305 @@
+{
+  "submission_g": {
+    "wins": 15,
+    "losses": 0,
+    "ties": 0,
+    "n": 15,
+    "mean_packaged": 63304.6,
+    "mean_opponent": 48461.87,
+    "mean_margin": 14842.73,
+    "per_seed": [
+      {
+        "seed": 700000,
+        "packaged": 70309.0,
+        "submission_g": 59225.0,
+        "winner": "packaged"
+      },
+      {
+        "seed": 700001,
+        "packaged": 72307.0,
+        "submission_g": 58738.0,
+        "winner": "packaged"
+      },
+      {
+        "seed": 700002,
+        "packaged": 60483.0,
+        "submission_g": 43337.0,
+        "winner": "packaged"
+      },
+      {
+        "seed": 700003,
+        "packaged": 55188.0,
+        "submission_g": 41409.0,
+        "winner": "packaged"
+      },
+      {
+        "seed": 701000,
+        "packaged": 65559.0,
+        "submission_g": 53719.0,
+        "winner": "packaged"
+      },
+      {
+        "seed": 701001,
+        "packaged": 76125.0,
+        "submission_g": 62158.0,
+        "winner": "packaged"
+      },
+      {
+        "seed": 701002,
+        "packaged": 55076.0,
+        "submission_g": 42233.0,
+        "winner": "packaged"
+      },
+      {
+        "seed": 701003,
+        "packaged": 71011.0,
+        "submission_g": 55491.0,
+        "winner": "packaged"
+      },
+      {
+        "seed": 701004,
+        "packaged": 67370.0,
+        "submission_g": 57371.0,
+        "winner": "packaged"
+      },
+      {
+        "seed": 702000,
+        "packaged": 65467.0,
+        "submission_g": 49928.0,
+        "winner": "packaged"
+      },
+      {
+        "seed": 702001,
+        "packaged": 49500.0,
+        "submission_g": 37063.0,
+        "winner": "packaged"
+      },
+      {
+        "seed": 702002,
+        "packaged": 40305.0,
+        "submission_g": 27469.0,
+        "winner": "packaged"
+      },
+      {
+        "seed": 702003,
+        "packaged": 51440.0,
+        "submission_g": 30899.0,
+        "winner": "packaged"
+      },
+      {
+        "seed": 702004,
+        "packaged": 80872.0,
+        "submission_g": 61477.0,
+        "winner": "packaged"
+      },
+      {
+        "seed": 702005,
+        "packaged": 68557.0,
+        "submission_g": 46411.0,
+        "winner": "packaged"
+      }
+    ]
+  },
+  "submission_c": {
+    "wins": 15,
+    "losses": 0,
+    "ties": 0,
+    "n": 15,
+    "mean_packaged": 72448.87,
+    "mean_opponent": 28947.73,
+    "mean_margin": 43501.13,
+    "per_seed": [
+      {
+        "seed": 700000,
+        "packaged": 79055.0,
+        "submission_c": 32197.0,
+        "winner": "packaged"
+      },
+      {
+        "seed": 700001,
+        "packaged": 76639.0,
+        "submission_c": 31455.0,
+        "winner": "packaged"
+      },
+      {
+        "seed": 700002,
+        "packaged": 85008.0,
+        "submission_c": 32909.0,
+        "winner": "packaged"
+      },
+      {
+        "seed": 700003,
+        "packaged": 71448.0,
+        "submission_c": 35632.0,
+        "winner": "packaged"
+      },
+      {
+        "seed": 701000,
+        "packaged": 61339.0,
+        "submission_c": 24073.0,
+        "winner": "packaged"
+      },
+      {
+        "seed": 701001,
+        "packaged": 75445.0,
+        "submission_c": 11533.0,
+        "winner": "packaged"
+      },
+      {
+        "seed": 701002,
+        "packaged": 53883.0,
+        "submission_c": 24683.0,
+        "winner": "packaged"
+      },
+      {
+        "seed": 701003,
+        "packaged": 79199.0,
+        "submission_c": 26685.0,
+        "winner": "packaged"
+      },
+      {
+        "seed": 701004,
+        "packaged": 65626.0,
+        "submission_c": 34020.0,
+        "winner": "packaged"
+      },
+      {
+        "seed": 702000,
+        "packaged": 70511.0,
+        "submission_c": 26913.0,
+        "winner": "packaged"
+      },
+      {
+        "seed": 702001,
+        "packaged": 71180.0,
+        "submission_c": 30622.0,
+        "winner": "packaged"
+      },
+      {
+        "seed": 702002,
+        "packaged": 62345.0,
+        "submission_c": 33098.0,
+        "winner": "packaged"
+      },
+      {
+        "seed": 702003,
+        "packaged": 81664.0,
+        "submission_c": 30521.0,
+        "winner": "packaged"
+      },
+      {
+        "seed": 702004,
+        "packaged": 83038.0,
+        "submission_c": 35904.0,
+        "winner": "packaged"
+      },
+      {
+        "seed": 702005,
+        "packaged": 70353.0,
+        "submission_c": 23971.0,
+        "winner": "packaged"
+      }
+    ]
+  },
+  "jonaid": {
+    "wins": 15,
+    "losses": 0,
+    "ties": 0,
+    "n": 15,
+    "mean_packaged": 66692.2,
+    "mean_opponent": 30435.47,
+    "mean_margin": 36256.73,
+    "per_seed": [
+      {
+        "seed": 700000,
+        "packaged": 65765.0,
+        "jonaid": 31182.0,
+        "winner": "packaged"
+      },
+      {
+        "seed": 700001,
+        "packaged": 67809.0,
+        "jonaid": 27665.0,
+        "winner": "packaged"
+      },
+      {
+        "seed": 700002,
+        "packaged": 67986.0,
+        "jonaid": 29177.0,
+        "winner": "packaged"
+      },
+      {
+        "seed": 700003,
+        "packaged": 62990.0,
+        "jonaid": 29898.0,
+        "winner": "packaged"
+      },
+      {
+        "seed": 701000,
+        "packaged": 72053.0,
+        "jonaid": 35701.0,
+        "winner": "packaged"
+      },
+      {
+        "seed": 701001,
+        "packaged": 80181.0,
+        "jonaid": 36294.0,
+        "winner": "packaged"
+      },
+      {
+        "seed": 701002,
+        "packaged": 53914.0,
+        "jonaid": 32985.0,
+        "winner": "packaged"
+      },
+      {
+        "seed": 701003,
+        "packaged": 59963.0,
+        "jonaid": 25896.0,
+        "winner": "packaged"
+      },
+      {
+        "seed": 701004,
+        "packaged": 76962.0,
+        "jonaid": 33463.0,
+        "winner": "packaged"
+      },
+      {
+        "seed": 702000,
+        "packaged": 74378.0,
+        "jonaid": 36314.0,
+        "winner": "packaged"
+      },
+      {
+        "seed": 702001,
+        "packaged": 73435.0,
+        "jonaid": 31205.0,
+        "winner": "packaged"
+      },
+      {
+        "seed": 702002,
+        "packaged": 62686.0,
+        "jonaid": 31264.0,
+        "winner": "packaged"
+      },
+      {
+        "seed": 702003,
+        "packaged": 64816.0,
+        "jonaid": 28775.0,
+        "winner": "packaged"
+      },
+      {
+        "seed": 702004,
+        "packaged": 41304.0,
+        "jonaid": 18535.0,
+        "winner": "packaged"
+      },
+      {
+        "seed": 702005,
+        "packaged": 76141.0,
+        "jonaid": 28178.0,
+        "winner": "packaged"
+      }
+    ]
+  }
+}

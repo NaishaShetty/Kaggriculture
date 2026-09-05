@@ -1,0 +1,3452 @@
+{
+  "isolated": {
+    "label": "isolated",
+    "rows": [
+      {
+        "seed": 700000,
+        "final_owned": 10,
+        "steady_state_mean_owned": 7.8,
+        "final_cum_purchased": 20,
+        "final_cum_escaped_est": 10,
+        "daily": [
+          {
+            "day": 0,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 1
+            },
+            "total_owned": 3,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 1
+          },
+          {
+            "day": 1,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 2,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 3,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 4,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 5,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 6,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 7,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 8,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 9,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 3
+            },
+            "total_owned": 5,
+            "cum_purchased_by_species": {
+              "COW": 3,
+              "SHEEP": 2
+            },
+            "total_purchased": 5,
+            "escaped_est": 0
+          },
+          {
+            "day": 10,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 7,
+              "SHEEP": 2
+            },
+            "total_purchased": 9,
+            "escaped_est": 5
+          },
+          {
+            "day": 11,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 3
+            },
+            "total_owned": 9,
+            "cum_purchased_by_species": {
+              "COW": 9,
+              "SHEEP": 4
+            },
+            "total_purchased": 13,
+            "escaped_est": 4
+          },
+          {
+            "day": 12,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 3
+            },
+            "total_owned": 9,
+            "cum_purchased_by_species": {
+              "COW": 9,
+              "SHEEP": 4
+            },
+            "total_purchased": 13,
+            "escaped_est": 4
+          },
+          {
+            "day": 13,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 3
+            },
+            "total_owned": 10,
+            "cum_purchased_by_species": {
+              "COW": 9,
+              "SHEEP": 4
+            },
+            "total_purchased": 13,
+            "escaped_est": 3
+          },
+          {
+            "day": 14,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 3
+            },
+            "total_owned": 10,
+            "cum_purchased_by_species": {
+              "COW": 9,
+              "SHEEP": 4
+            },
+            "total_purchased": 13,
+            "escaped_est": 3
+          },
+          {
+            "day": 15,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 4
+            },
+            "total_owned": 11,
+            "cum_purchased_by_species": {
+              "COW": 9,
+              "SHEEP": 4
+            },
+            "total_purchased": 13,
+            "escaped_est": 2
+          },
+          {
+            "day": 16,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 4
+            },
+            "total_owned": 11,
+            "cum_purchased_by_species": {
+              "COW": 9,
+              "SHEEP": 4
+            },
+            "total_purchased": 13,
+            "escaped_est": 2
+          },
+          {
+            "day": 17,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 4
+            },
+            "total_owned": 11,
+            "cum_purchased_by_species": {
+              "COW": 9,
+              "SHEEP": 4
+            },
+            "total_purchased": 13,
+            "escaped_est": 2
+          },
+          {
+            "day": 18,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 3
+            },
+            "total_owned": 10,
+            "cum_purchased_by_species": {
+              "COW": 9,
+              "SHEEP": 5
+            },
+            "total_purchased": 14,
+            "escaped_est": 4
+          },
+          {
+            "day": 19,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 3
+            },
+            "total_owned": 10,
+            "cum_purchased_by_species": {
+              "COW": 9,
+              "SHEEP": 5
+            },
+            "total_purchased": 14,
+            "escaped_est": 4
+          },
+          {
+            "day": 20,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 3
+            },
+            "total_owned": 10,
+            "cum_purchased_by_species": {
+              "COW": 9,
+              "SHEEP": 5
+            },
+            "total_purchased": 14,
+            "escaped_est": 4
+          },
+          {
+            "day": 21,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 3
+            },
+            "total_owned": 9,
+            "cum_purchased_by_species": {
+              "COW": 10,
+              "SHEEP": 5
+            },
+            "total_purchased": 15,
+            "escaped_est": 6
+          },
+          {
+            "day": 22,
+            "counts": {
+              "COW": 5,
+              "SHEEP": 3
+            },
+            "total_owned": 8,
+            "cum_purchased_by_species": {
+              "COW": 11,
+              "SHEEP": 5
+            },
+            "total_purchased": 16,
+            "escaped_est": 8
+          },
+          {
+            "day": 23,
+            "counts": {
+              "COW": 5,
+              "SHEEP": 2
+            },
+            "total_owned": 7,
+            "cum_purchased_by_species": {
+              "COW": 11,
+              "SHEEP": 6
+            },
+            "total_purchased": 17,
+            "escaped_est": 10
+          },
+          {
+            "day": 24,
+            "counts": {
+              "COW": 5,
+              "SHEEP": 1
+            },
+            "total_owned": 6,
+            "cum_purchased_by_species": {
+              "COW": 13,
+              "SHEEP": 6
+            },
+            "total_purchased": 19,
+            "escaped_est": 13
+          },
+          {
+            "day": 25,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 1
+            },
+            "total_owned": 7,
+            "cum_purchased_by_species": {
+              "COW": 13,
+              "SHEEP": 6
+            },
+            "total_purchased": 19,
+            "escaped_est": 12
+          },
+          {
+            "day": 26,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 1
+            },
+            "total_owned": 7,
+            "cum_purchased_by_species": {
+              "COW": 14,
+              "SHEEP": 6
+            },
+            "total_purchased": 20,
+            "escaped_est": 13
+          },
+          {
+            "day": 27,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 1
+            },
+            "total_owned": 7,
+            "cum_purchased_by_species": {
+              "COW": 14,
+              "SHEEP": 6
+            },
+            "total_purchased": 20,
+            "escaped_est": 13
+          },
+          {
+            "day": 28,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 1
+            },
+            "total_owned": 7,
+            "cum_purchased_by_species": {
+              "COW": 14,
+              "SHEEP": 6
+            },
+            "total_purchased": 20,
+            "escaped_est": 13
+          },
+          {
+            "day": 29,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 3
+            },
+            "total_owned": 10,
+            "cum_purchased_by_species": {
+              "COW": 14,
+              "SHEEP": 6
+            },
+            "total_purchased": 20,
+            "escaped_est": 10
+          }
+        ]
+      },
+      {
+        "seed": 700001,
+        "final_owned": 9,
+        "steady_state_mean_owned": 8.8,
+        "final_cum_purchased": 15,
+        "final_cum_escaped_est": 6,
+        "daily": [
+          {
+            "day": 0,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 1
+            },
+            "total_owned": 3,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 1
+          },
+          {
+            "day": 1,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 2,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 3,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 4,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 5,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 6,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 7,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 8,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 9,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 10,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 4,
+              "SHEEP": 2
+            },
+            "total_purchased": 6,
+            "escaped_est": 2
+          },
+          {
+            "day": 11,
+            "counts": {
+              "COW": 5,
+              "SHEEP": 2
+            },
+            "total_owned": 7,
+            "cum_purchased_by_species": {
+              "COW": 7,
+              "SHEEP": 3
+            },
+            "total_purchased": 10,
+            "escaped_est": 3
+          },
+          {
+            "day": 12,
+            "counts": {
+              "COW": 5,
+              "SHEEP": 2
+            },
+            "total_owned": 7,
+            "cum_purchased_by_species": {
+              "COW": 7,
+              "SHEEP": 3
+            },
+            "total_purchased": 10,
+            "escaped_est": 3
+          },
+          {
+            "day": 13,
+            "counts": {
+              "COW": 5,
+              "SHEEP": 2
+            },
+            "total_owned": 7,
+            "cum_purchased_by_species": {
+              "COW": 7,
+              "SHEEP": 3
+            },
+            "total_purchased": 10,
+            "escaped_est": 3
+          },
+          {
+            "day": 14,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 2
+            },
+            "total_owned": 8,
+            "cum_purchased_by_species": {
+              "COW": 7,
+              "SHEEP": 3
+            },
+            "total_purchased": 10,
+            "escaped_est": 2
+          },
+          {
+            "day": 15,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 2
+            },
+            "total_owned": 8,
+            "cum_purchased_by_species": {
+              "COW": 7,
+              "SHEEP": 3
+            },
+            "total_purchased": 10,
+            "escaped_est": 2
+          },
+          {
+            "day": 16,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 2
+            },
+            "total_owned": 8,
+            "cum_purchased_by_species": {
+              "COW": 7,
+              "SHEEP": 3
+            },
+            "total_purchased": 10,
+            "escaped_est": 2
+          },
+          {
+            "day": 17,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 2
+            },
+            "total_owned": 8,
+            "cum_purchased_by_species": {
+              "COW": 7,
+              "SHEEP": 3
+            },
+            "total_purchased": 10,
+            "escaped_est": 2
+          },
+          {
+            "day": 18,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 2
+            },
+            "total_owned": 9,
+            "cum_purchased_by_species": {
+              "COW": 7,
+              "SHEEP": 3
+            },
+            "total_purchased": 10,
+            "escaped_est": 1
+          },
+          {
+            "day": 19,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 2
+            },
+            "total_owned": 9,
+            "cum_purchased_by_species": {
+              "COW": 7,
+              "SHEEP": 3
+            },
+            "total_purchased": 10,
+            "escaped_est": 1
+          },
+          {
+            "day": 20,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 2
+            },
+            "total_owned": 9,
+            "cum_purchased_by_species": {
+              "COW": 7,
+              "SHEEP": 3
+            },
+            "total_purchased": 10,
+            "escaped_est": 1
+          },
+          {
+            "day": 21,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 2
+            },
+            "total_owned": 9,
+            "cum_purchased_by_species": {
+              "COW": 7,
+              "SHEEP": 3
+            },
+            "total_purchased": 10,
+            "escaped_est": 1
+          },
+          {
+            "day": 22,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 2
+            },
+            "total_owned": 9,
+            "cum_purchased_by_species": {
+              "COW": 7,
+              "SHEEP": 3
+            },
+            "total_purchased": 10,
+            "escaped_est": 1
+          },
+          {
+            "day": 23,
+            "counts": {
+              "SHEEP": 3,
+              "COW": 5
+            },
+            "total_owned": 8,
+            "cum_purchased_by_species": {
+              "COW": 10,
+              "SHEEP": 3
+            },
+            "total_purchased": 13,
+            "escaped_est": 5
+          },
+          {
+            "day": 24,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 3
+            },
+            "total_owned": 9,
+            "cum_purchased_by_species": {
+              "COW": 10,
+              "SHEEP": 3
+            },
+            "total_purchased": 13,
+            "escaped_est": 4
+          },
+          {
+            "day": 25,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 3
+            },
+            "total_owned": 9,
+            "cum_purchased_by_species": {
+              "COW": 11,
+              "SHEEP": 3
+            },
+            "total_purchased": 14,
+            "escaped_est": 5
+          },
+          {
+            "day": 26,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 3
+            },
+            "total_owned": 9,
+            "cum_purchased_by_species": {
+              "COW": 11,
+              "SHEEP": 3
+            },
+            "total_purchased": 14,
+            "escaped_est": 5
+          },
+          {
+            "day": 27,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 3
+            },
+            "total_owned": 9,
+            "cum_purchased_by_species": {
+              "COW": 11,
+              "SHEEP": 3
+            },
+            "total_purchased": 14,
+            "escaped_est": 5
+          },
+          {
+            "day": 28,
+            "counts": {
+              "COW": 5,
+              "SHEEP": 3
+            },
+            "total_owned": 8,
+            "cum_purchased_by_species": {
+              "COW": 12,
+              "SHEEP": 3
+            },
+            "total_purchased": 15,
+            "escaped_est": 7
+          },
+          {
+            "day": 29,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 3
+            },
+            "total_owned": 9,
+            "cum_purchased_by_species": {
+              "COW": 12,
+              "SHEEP": 3
+            },
+            "total_purchased": 15,
+            "escaped_est": 6
+          }
+        ]
+      },
+      {
+        "seed": 700002,
+        "final_owned": 8,
+        "steady_state_mean_owned": 8.1,
+        "final_cum_purchased": 20,
+        "final_cum_escaped_est": 12,
+        "daily": [
+          {
+            "day": 0,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 1
+            },
+            "total_owned": 3,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 1
+          },
+          {
+            "day": 1,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 2,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 3,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 4,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 5,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 6,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 7,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 8,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 9,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 10,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 6,
+              "SHEEP": 2
+            },
+            "total_purchased": 8,
+            "escaped_est": 4
+          },
+          {
+            "day": 11,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 2
+            },
+            "total_owned": 8,
+            "cum_purchased_by_species": {
+              "COW": 9,
+              "SHEEP": 2
+            },
+            "total_purchased": 11,
+            "escaped_est": 3
+          },
+          {
+            "day": 12,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 2
+            },
+            "total_owned": 9,
+            "cum_purchased_by_species": {
+              "COW": 9,
+              "SHEEP": 2
+            },
+            "total_purchased": 11,
+            "escaped_est": 2
+          },
+          {
+            "day": 13,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 2
+            },
+            "total_owned": 8,
+            "cum_purchased_by_species": {
+              "COW": 9,
+              "SHEEP": 3
+            },
+            "total_purchased": 12,
+            "escaped_est": 4
+          },
+          {
+            "day": 14,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 2
+            },
+            "total_owned": 9,
+            "cum_purchased_by_species": {
+              "COW": 9,
+              "SHEEP": 3
+            },
+            "total_purchased": 12,
+            "escaped_est": 3
+          },
+          {
+            "day": 15,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 2
+            },
+            "total_owned": 9,
+            "cum_purchased_by_species": {
+              "COW": 9,
+              "SHEEP": 3
+            },
+            "total_purchased": 12,
+            "escaped_est": 3
+          },
+          {
+            "day": 16,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 3
+            },
+            "total_owned": 10,
+            "cum_purchased_by_species": {
+              "COW": 9,
+              "SHEEP": 3
+            },
+            "total_purchased": 12,
+            "escaped_est": 2
+          },
+          {
+            "day": 17,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 2
+            },
+            "total_owned": 9,
+            "cum_purchased_by_species": {
+              "COW": 9,
+              "SHEEP": 4
+            },
+            "total_purchased": 13,
+            "escaped_est": 4
+          },
+          {
+            "day": 18,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 2
+            },
+            "total_owned": 9,
+            "cum_purchased_by_species": {
+              "COW": 9,
+              "SHEEP": 4
+            },
+            "total_purchased": 13,
+            "escaped_est": 4
+          },
+          {
+            "day": 19,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 2
+            },
+            "total_owned": 9,
+            "cum_purchased_by_species": {
+              "COW": 9,
+              "SHEEP": 4
+            },
+            "total_purchased": 13,
+            "escaped_est": 4
+          },
+          {
+            "day": 20,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 2
+            },
+            "total_owned": 9,
+            "cum_purchased_by_species": {
+              "COW": 9,
+              "SHEEP": 4
+            },
+            "total_purchased": 13,
+            "escaped_est": 4
+          },
+          {
+            "day": 21,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 2
+            },
+            "total_owned": 9,
+            "cum_purchased_by_species": {
+              "COW": 9,
+              "SHEEP": 4
+            },
+            "total_purchased": 13,
+            "escaped_est": 4
+          },
+          {
+            "day": 22,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 2
+            },
+            "total_owned": 9,
+            "cum_purchased_by_species": {
+              "COW": 9,
+              "SHEEP": 4
+            },
+            "total_purchased": 13,
+            "escaped_est": 4
+          },
+          {
+            "day": 23,
+            "counts": {
+              "COW": 5,
+              "SHEEP": 2
+            },
+            "total_owned": 7,
+            "cum_purchased_by_species": {
+              "COW": 13,
+              "SHEEP": 4
+            },
+            "total_purchased": 17,
+            "escaped_est": 10
+          },
+          {
+            "day": 24,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 2
+            },
+            "total_owned": 8,
+            "cum_purchased_by_species": {
+              "COW": 13,
+              "SHEEP": 4
+            },
+            "total_purchased": 17,
+            "escaped_est": 9
+          },
+          {
+            "day": 25,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 5
+            },
+            "total_owned": 7,
+            "cum_purchased_by_species": {
+              "COW": 14,
+              "SHEEP": 4
+            },
+            "total_purchased": 18,
+            "escaped_est": 11
+          },
+          {
+            "day": 26,
+            "counts": {
+              "COW": 5,
+              "SHEEP": 3
+            },
+            "total_owned": 8,
+            "cum_purchased_by_species": {
+              "COW": 15,
+              "SHEEP": 4
+            },
+            "total_purchased": 19,
+            "escaped_est": 11
+          },
+          {
+            "day": 27,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 2
+            },
+            "total_owned": 8,
+            "cum_purchased_by_species": {
+              "COW": 16,
+              "SHEEP": 4
+            },
+            "total_purchased": 20,
+            "escaped_est": 12
+          },
+          {
+            "day": 28,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 2
+            },
+            "total_owned": 8,
+            "cum_purchased_by_species": {
+              "COW": 16,
+              "SHEEP": 4
+            },
+            "total_purchased": 20,
+            "escaped_est": 12
+          },
+          {
+            "day": 29,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 2
+            },
+            "total_owned": 8,
+            "cum_purchased_by_species": {
+              "COW": 16,
+              "SHEEP": 4
+            },
+            "total_purchased": 20,
+            "escaped_est": 12
+          }
+        ]
+      },
+      {
+        "seed": 700003,
+        "final_owned": 9,
+        "steady_state_mean_owned": 7.3,
+        "final_cum_purchased": 16,
+        "final_cum_escaped_est": 7,
+        "daily": [
+          {
+            "day": 0,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 1
+            },
+            "total_owned": 3,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 1
+          },
+          {
+            "day": 1,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 2,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 3,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 4,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 5,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 6,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 7,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 8,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 9,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 10,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 3
+            },
+            "total_owned": 5,
+            "cum_purchased_by_species": {
+              "COW": 3,
+              "SHEEP": 2
+            },
+            "total_purchased": 5,
+            "escaped_est": 0
+          },
+          {
+            "day": 11,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 4
+            },
+            "total_owned": 6,
+            "cum_purchased_by_species": {
+              "COW": 7,
+              "SHEEP": 3
+            },
+            "total_purchased": 10,
+            "escaped_est": 4
+          },
+          {
+            "day": 12,
+            "counts": {
+              "COW": 5,
+              "SHEEP": 2
+            },
+            "total_owned": 7,
+            "cum_purchased_by_species": {
+              "COW": 7,
+              "SHEEP": 3
+            },
+            "total_purchased": 10,
+            "escaped_est": 3
+          },
+          {
+            "day": 13,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 2
+            },
+            "total_owned": 8,
+            "cum_purchased_by_species": {
+              "COW": 7,
+              "SHEEP": 3
+            },
+            "total_purchased": 10,
+            "escaped_est": 2
+          },
+          {
+            "day": 14,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 2
+            },
+            "total_owned": 8,
+            "cum_purchased_by_species": {
+              "COW": 7,
+              "SHEEP": 3
+            },
+            "total_purchased": 10,
+            "escaped_est": 2
+          },
+          {
+            "day": 15,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 2
+            },
+            "total_owned": 8,
+            "cum_purchased_by_species": {
+              "COW": 7,
+              "SHEEP": 3
+            },
+            "total_purchased": 10,
+            "escaped_est": 2
+          },
+          {
+            "day": 16,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 2
+            },
+            "total_owned": 8,
+            "cum_purchased_by_species": {
+              "COW": 7,
+              "SHEEP": 3
+            },
+            "total_purchased": 10,
+            "escaped_est": 2
+          },
+          {
+            "day": 17,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 3
+            },
+            "total_owned": 10,
+            "cum_purchased_by_species": {
+              "COW": 7,
+              "SHEEP": 3
+            },
+            "total_purchased": 10,
+            "escaped_est": 0
+          },
+          {
+            "day": 18,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 3
+            },
+            "total_owned": 10,
+            "cum_purchased_by_species": {
+              "COW": 7,
+              "SHEEP": 3
+            },
+            "total_purchased": 10,
+            "escaped_est": 0
+          },
+          {
+            "day": 19,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 3
+            },
+            "total_owned": 10,
+            "cum_purchased_by_species": {
+              "COW": 7,
+              "SHEEP": 3
+            },
+            "total_purchased": 10,
+            "escaped_est": 0
+          },
+          {
+            "day": 20,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 3
+            },
+            "total_owned": 10,
+            "cum_purchased_by_species": {
+              "COW": 7,
+              "SHEEP": 3
+            },
+            "total_purchased": 10,
+            "escaped_est": 0
+          },
+          {
+            "day": 21,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 3
+            },
+            "total_owned": 10,
+            "cum_purchased_by_species": {
+              "COW": 7,
+              "SHEEP": 3
+            },
+            "total_purchased": 10,
+            "escaped_est": 0
+          },
+          {
+            "day": 22,
+            "counts": {
+              "COW": 4,
+              "SHEEP": 2
+            },
+            "total_owned": 6,
+            "cum_purchased_by_species": {
+              "COW": 11,
+              "SHEEP": 4
+            },
+            "total_purchased": 15,
+            "escaped_est": 9
+          },
+          {
+            "day": 23,
+            "counts": {
+              "COW": 5,
+              "SHEEP": 2
+            },
+            "total_owned": 7,
+            "cum_purchased_by_species": {
+              "COW": 11,
+              "SHEEP": 4
+            },
+            "total_purchased": 15,
+            "escaped_est": 8
+          },
+          {
+            "day": 24,
+            "counts": {
+              "COW": 4,
+              "SHEEP": 2
+            },
+            "total_owned": 6,
+            "cum_purchased_by_species": {
+              "COW": 12,
+              "SHEEP": 4
+            },
+            "total_purchased": 16,
+            "escaped_est": 10
+          },
+          {
+            "day": 25,
+            "counts": {
+              "COW": 4,
+              "SHEEP": 2
+            },
+            "total_owned": 6,
+            "cum_purchased_by_species": {
+              "COW": 12,
+              "SHEEP": 4
+            },
+            "total_purchased": 16,
+            "escaped_est": 10
+          },
+          {
+            "day": 26,
+            "counts": {
+              "COW": 4,
+              "SHEEP": 2
+            },
+            "total_owned": 6,
+            "cum_purchased_by_species": {
+              "COW": 12,
+              "SHEEP": 4
+            },
+            "total_purchased": 16,
+            "escaped_est": 10
+          },
+          {
+            "day": 27,
+            "counts": {
+              "COW": 4,
+              "SHEEP": 2
+            },
+            "total_owned": 6,
+            "cum_purchased_by_species": {
+              "COW": 12,
+              "SHEEP": 4
+            },
+            "total_purchased": 16,
+            "escaped_est": 10
+          },
+          {
+            "day": 28,
+            "counts": {
+              "COW": 5,
+              "SHEEP": 2
+            },
+            "total_owned": 7,
+            "cum_purchased_by_species": {
+              "COW": 12,
+              "SHEEP": 4
+            },
+            "total_purchased": 16,
+            "escaped_est": 9
+          },
+          {
+            "day": 29,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 2
+            },
+            "total_owned": 9,
+            "cum_purchased_by_species": {
+              "COW": 12,
+              "SHEEP": 4
+            },
+            "total_purchased": 16,
+            "escaped_est": 7
+          }
+        ]
+      }
+    ],
+    "mean_final_owned": 9.0,
+    "mean_steady_state_owned": 8.0,
+    "mean_cum_purchased": 17.75,
+    "mean_cum_escaped_est": 8.75
+  },
+  "vs_submission_g": {
+    "label": "vs_submission_g",
+    "rows": [
+      {
+        "seed": 700000,
+        "final_owned": 8,
+        "steady_state_mean_owned": 6.4,
+        "final_cum_purchased": 17,
+        "final_cum_escaped_est": 9,
+        "daily": [
+          {
+            "day": 0,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 1
+            },
+            "total_owned": 3,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 1
+          },
+          {
+            "day": 1,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 2,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 3,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 4,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 5,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 6,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 7,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 8,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 9,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 4,
+              "SHEEP": 3
+            },
+            "total_purchased": 7,
+            "escaped_est": 3
+          },
+          {
+            "day": 10,
+            "counts": {
+              "COW": 4,
+              "SHEEP": 2
+            },
+            "total_owned": 6,
+            "cum_purchased_by_species": {
+              "COW": 5,
+              "SHEEP": 3
+            },
+            "total_purchased": 8,
+            "escaped_est": 2
+          },
+          {
+            "day": 11,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 2
+            },
+            "total_owned": 9,
+            "cum_purchased_by_species": {
+              "COW": 8,
+              "SHEEP": 3
+            },
+            "total_purchased": 11,
+            "escaped_est": 2
+          },
+          {
+            "day": 12,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 2
+            },
+            "total_owned": 9,
+            "cum_purchased_by_species": {
+              "COW": 8,
+              "SHEEP": 3
+            },
+            "total_purchased": 11,
+            "escaped_est": 2
+          },
+          {
+            "day": 13,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 2
+            },
+            "total_owned": 9,
+            "cum_purchased_by_species": {
+              "COW": 8,
+              "SHEEP": 3
+            },
+            "total_purchased": 11,
+            "escaped_est": 2
+          },
+          {
+            "day": 14,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 2
+            },
+            "total_owned": 9,
+            "cum_purchased_by_species": {
+              "COW": 8,
+              "SHEEP": 3
+            },
+            "total_purchased": 11,
+            "escaped_est": 2
+          },
+          {
+            "day": 15,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 2
+            },
+            "total_owned": 9,
+            "cum_purchased_by_species": {
+              "COW": 8,
+              "SHEEP": 3
+            },
+            "total_purchased": 11,
+            "escaped_est": 2
+          },
+          {
+            "day": 16,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 2
+            },
+            "total_owned": 9,
+            "cum_purchased_by_species": {
+              "COW": 8,
+              "SHEEP": 3
+            },
+            "total_purchased": 11,
+            "escaped_est": 2
+          },
+          {
+            "day": 17,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 2
+            },
+            "total_owned": 9,
+            "cum_purchased_by_species": {
+              "COW": 8,
+              "SHEEP": 3
+            },
+            "total_purchased": 11,
+            "escaped_est": 2
+          },
+          {
+            "day": 18,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 2
+            },
+            "total_owned": 9,
+            "cum_purchased_by_species": {
+              "COW": 8,
+              "SHEEP": 3
+            },
+            "total_purchased": 11,
+            "escaped_est": 2
+          },
+          {
+            "day": 19,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 2
+            },
+            "total_owned": 8,
+            "cum_purchased_by_species": {
+              "COW": 8,
+              "SHEEP": 3
+            },
+            "total_purchased": 11,
+            "escaped_est": 3
+          },
+          {
+            "day": 20,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 5
+            },
+            "total_owned": 7,
+            "cum_purchased_by_species": {
+              "COW": 9,
+              "SHEEP": 3
+            },
+            "total_purchased": 12,
+            "escaped_est": 5
+          },
+          {
+            "day": 21,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 2
+            },
+            "total_owned": 8,
+            "cum_purchased_by_species": {
+              "COW": 9,
+              "SHEEP": 3
+            },
+            "total_purchased": 12,
+            "escaped_est": 4
+          },
+          {
+            "day": 22,
+            "counts": {
+              "COW": 4,
+              "SHEEP": 2
+            },
+            "total_owned": 6,
+            "cum_purchased_by_species": {
+              "COW": 11,
+              "SHEEP": 3
+            },
+            "total_purchased": 14,
+            "escaped_est": 8
+          },
+          {
+            "day": 23,
+            "counts": {
+              "COW": 4,
+              "SHEEP": 1
+            },
+            "total_owned": 5,
+            "cum_purchased_by_species": {
+              "COW": 14,
+              "SHEEP": 3
+            },
+            "total_purchased": 17,
+            "escaped_est": 12
+          },
+          {
+            "day": 24,
+            "counts": {
+              "COW": 5,
+              "SHEEP": 1
+            },
+            "total_owned": 6,
+            "cum_purchased_by_species": {
+              "COW": 14,
+              "SHEEP": 3
+            },
+            "total_purchased": 17,
+            "escaped_est": 11
+          },
+          {
+            "day": 25,
+            "counts": {
+              "COW": 5,
+              "SHEEP": 1
+            },
+            "total_owned": 6,
+            "cum_purchased_by_species": {
+              "COW": 14,
+              "SHEEP": 3
+            },
+            "total_purchased": 17,
+            "escaped_est": 11
+          },
+          {
+            "day": 26,
+            "counts": {
+              "COW": 5,
+              "SHEEP": 1
+            },
+            "total_owned": 6,
+            "cum_purchased_by_species": {
+              "COW": 14,
+              "SHEEP": 3
+            },
+            "total_purchased": 17,
+            "escaped_est": 11
+          },
+          {
+            "day": 27,
+            "counts": {
+              "COW": 5,
+              "SHEEP": 1
+            },
+            "total_owned": 6,
+            "cum_purchased_by_species": {
+              "COW": 14,
+              "SHEEP": 3
+            },
+            "total_purchased": 17,
+            "escaped_est": 11
+          },
+          {
+            "day": 28,
+            "counts": {
+              "COW": 5,
+              "SHEEP": 1
+            },
+            "total_owned": 6,
+            "cum_purchased_by_species": {
+              "COW": 14,
+              "SHEEP": 3
+            },
+            "total_purchased": 17,
+            "escaped_est": 11
+          },
+          {
+            "day": 29,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 1
+            },
+            "total_owned": 8,
+            "cum_purchased_by_species": {
+              "COW": 14,
+              "SHEEP": 3
+            },
+            "total_purchased": 17,
+            "escaped_est": 9
+          }
+        ]
+      },
+      {
+        "seed": 700001,
+        "final_owned": 8,
+        "steady_state_mean_owned": 7.0,
+        "final_cum_purchased": 18,
+        "final_cum_escaped_est": 10,
+        "daily": [
+          {
+            "day": 0,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 1
+            },
+            "total_owned": 3,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 1
+          },
+          {
+            "day": 1,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 2,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 3,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 4,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 5,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 6,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 7,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 8,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 3,
+              "SHEEP": 2
+            },
+            "total_purchased": 5,
+            "escaped_est": 1
+          },
+          {
+            "day": 9,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 3
+            },
+            "total_owned": 5,
+            "cum_purchased_by_species": {
+              "COW": 3,
+              "SHEEP": 2
+            },
+            "total_purchased": 5,
+            "escaped_est": 0
+          },
+          {
+            "day": 10,
+            "counts": {
+              "COW": 4,
+              "SHEEP": 2
+            },
+            "total_owned": 6,
+            "cum_purchased_by_species": {
+              "COW": 5,
+              "SHEEP": 2
+            },
+            "total_purchased": 7,
+            "escaped_est": 1
+          },
+          {
+            "day": 11,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 2
+            },
+            "total_owned": 9,
+            "cum_purchased_by_species": {
+              "COW": 8,
+              "SHEEP": 2
+            },
+            "total_purchased": 10,
+            "escaped_est": 1
+          },
+          {
+            "day": 12,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 2
+            },
+            "total_owned": 9,
+            "cum_purchased_by_species": {
+              "COW": 8,
+              "SHEEP": 2
+            },
+            "total_purchased": 10,
+            "escaped_est": 1
+          },
+          {
+            "day": 13,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 2
+            },
+            "total_owned": 9,
+            "cum_purchased_by_species": {
+              "COW": 8,
+              "SHEEP": 2
+            },
+            "total_purchased": 10,
+            "escaped_est": 1
+          },
+          {
+            "day": 14,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 2
+            },
+            "total_owned": 9,
+            "cum_purchased_by_species": {
+              "COW": 8,
+              "SHEEP": 2
+            },
+            "total_purchased": 10,
+            "escaped_est": 1
+          },
+          {
+            "day": 15,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 2
+            },
+            "total_owned": 9,
+            "cum_purchased_by_species": {
+              "COW": 8,
+              "SHEEP": 2
+            },
+            "total_purchased": 10,
+            "escaped_est": 1
+          },
+          {
+            "day": 16,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 2
+            },
+            "total_owned": 9,
+            "cum_purchased_by_species": {
+              "COW": 8,
+              "SHEEP": 2
+            },
+            "total_purchased": 10,
+            "escaped_est": 1
+          },
+          {
+            "day": 17,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 2
+            },
+            "total_owned": 9,
+            "cum_purchased_by_species": {
+              "COW": 8,
+              "SHEEP": 2
+            },
+            "total_purchased": 10,
+            "escaped_est": 1
+          },
+          {
+            "day": 18,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 2
+            },
+            "total_owned": 9,
+            "cum_purchased_by_species": {
+              "COW": 8,
+              "SHEEP": 3
+            },
+            "total_purchased": 11,
+            "escaped_est": 2
+          },
+          {
+            "day": 19,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 2
+            },
+            "total_owned": 9,
+            "cum_purchased_by_species": {
+              "COW": 8,
+              "SHEEP": 3
+            },
+            "total_purchased": 11,
+            "escaped_est": 2
+          },
+          {
+            "day": 20,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 2
+            },
+            "total_owned": 8,
+            "cum_purchased_by_species": {
+              "COW": 10,
+              "SHEEP": 3
+            },
+            "total_purchased": 13,
+            "escaped_est": 5
+          },
+          {
+            "day": 21,
+            "counts": {
+              "COW": 5,
+              "SHEEP": 2
+            },
+            "total_owned": 7,
+            "cum_purchased_by_species": {
+              "COW": 12,
+              "SHEEP": 3
+            },
+            "total_purchased": 15,
+            "escaped_est": 8
+          },
+          {
+            "day": 22,
+            "counts": {
+              "COW": 5,
+              "SHEEP": 1
+            },
+            "total_owned": 6,
+            "cum_purchased_by_species": {
+              "COW": 14,
+              "SHEEP": 3
+            },
+            "total_purchased": 17,
+            "escaped_est": 11
+          },
+          {
+            "day": 23,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 1
+            },
+            "total_owned": 7,
+            "cum_purchased_by_species": {
+              "COW": 14,
+              "SHEEP": 3
+            },
+            "total_purchased": 17,
+            "escaped_est": 10
+          },
+          {
+            "day": 24,
+            "counts": {
+              "COW": 5,
+              "SHEEP": 1
+            },
+            "total_owned": 6,
+            "cum_purchased_by_species": {
+              "COW": 15,
+              "SHEEP": 3
+            },
+            "total_purchased": 18,
+            "escaped_est": 12
+          },
+          {
+            "day": 25,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 1
+            },
+            "total_owned": 7,
+            "cum_purchased_by_species": {
+              "COW": 15,
+              "SHEEP": 3
+            },
+            "total_purchased": 18,
+            "escaped_est": 11
+          },
+          {
+            "day": 26,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 1
+            },
+            "total_owned": 7,
+            "cum_purchased_by_species": {
+              "COW": 15,
+              "SHEEP": 3
+            },
+            "total_purchased": 18,
+            "escaped_est": 11
+          },
+          {
+            "day": 27,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 1
+            },
+            "total_owned": 7,
+            "cum_purchased_by_species": {
+              "COW": 15,
+              "SHEEP": 3
+            },
+            "total_purchased": 18,
+            "escaped_est": 11
+          },
+          {
+            "day": 28,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 1
+            },
+            "total_owned": 7,
+            "cum_purchased_by_species": {
+              "COW": 15,
+              "SHEEP": 3
+            },
+            "total_purchased": 18,
+            "escaped_est": 11
+          },
+          {
+            "day": 29,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 1
+            },
+            "total_owned": 8,
+            "cum_purchased_by_species": {
+              "COW": 15,
+              "SHEEP": 3
+            },
+            "total_purchased": 18,
+            "escaped_est": 10
+          }
+        ]
+      },
+      {
+        "seed": 700002,
+        "final_owned": 9,
+        "steady_state_mean_owned": 7.4,
+        "final_cum_purchased": 16,
+        "final_cum_escaped_est": 7,
+        "daily": [
+          {
+            "day": 0,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 1
+            },
+            "total_owned": 3,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 1
+          },
+          {
+            "day": 1,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 2,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 3,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 4,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 5,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 6,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 7,
+            "counts": {
+              "COW": 3,
+              "SHEEP": 2
+            },
+            "total_owned": 5,
+            "cum_purchased_by_species": {
+              "COW": 3,
+              "SHEEP": 2
+            },
+            "total_purchased": 5,
+            "escaped_est": 0
+          },
+          {
+            "day": 8,
+            "counts": {
+              "COW": 3,
+              "SHEEP": 2
+            },
+            "total_owned": 5,
+            "cum_purchased_by_species": {
+              "COW": 3,
+              "SHEEP": 2
+            },
+            "total_purchased": 5,
+            "escaped_est": 0
+          },
+          {
+            "day": 9,
+            "counts": {
+              "COW": 3,
+              "SHEEP": 2
+            },
+            "total_owned": 5,
+            "cum_purchased_by_species": {
+              "COW": 3,
+              "SHEEP": 2
+            },
+            "total_purchased": 5,
+            "escaped_est": 0
+          },
+          {
+            "day": 10,
+            "counts": {
+              "COW": 3,
+              "SHEEP": 2
+            },
+            "total_owned": 5,
+            "cum_purchased_by_species": {
+              "COW": 5,
+              "SHEEP": 2
+            },
+            "total_purchased": 7,
+            "escaped_est": 2
+          },
+          {
+            "day": 11,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 2
+            },
+            "total_owned": 8,
+            "cum_purchased_by_species": {
+              "COW": 8,
+              "SHEEP": 2
+            },
+            "total_purchased": 10,
+            "escaped_est": 2
+          },
+          {
+            "day": 12,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 2
+            },
+            "total_owned": 8,
+            "cum_purchased_by_species": {
+              "COW": 8,
+              "SHEEP": 2
+            },
+            "total_purchased": 10,
+            "escaped_est": 2
+          },
+          {
+            "day": 13,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 3
+            },
+            "total_owned": 9,
+            "cum_purchased_by_species": {
+              "COW": 8,
+              "SHEEP": 3
+            },
+            "total_purchased": 11,
+            "escaped_est": 2
+          },
+          {
+            "day": 14,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 3
+            },
+            "total_owned": 9,
+            "cum_purchased_by_species": {
+              "COW": 8,
+              "SHEEP": 3
+            },
+            "total_purchased": 11,
+            "escaped_est": 2
+          },
+          {
+            "day": 15,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 3
+            },
+            "total_owned": 9,
+            "cum_purchased_by_species": {
+              "COW": 8,
+              "SHEEP": 3
+            },
+            "total_purchased": 11,
+            "escaped_est": 2
+          },
+          {
+            "day": 16,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 3
+            },
+            "total_owned": 9,
+            "cum_purchased_by_species": {
+              "COW": 8,
+              "SHEEP": 3
+            },
+            "total_purchased": 11,
+            "escaped_est": 2
+          },
+          {
+            "day": 17,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 3
+            },
+            "total_owned": 9,
+            "cum_purchased_by_species": {
+              "COW": 8,
+              "SHEEP": 3
+            },
+            "total_purchased": 11,
+            "escaped_est": 2
+          },
+          {
+            "day": 18,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 3
+            },
+            "total_owned": 10,
+            "cum_purchased_by_species": {
+              "COW": 8,
+              "SHEEP": 3
+            },
+            "total_purchased": 11,
+            "escaped_est": 1
+          },
+          {
+            "day": 19,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 3
+            },
+            "total_owned": 10,
+            "cum_purchased_by_species": {
+              "COW": 8,
+              "SHEEP": 3
+            },
+            "total_purchased": 11,
+            "escaped_est": 1
+          },
+          {
+            "day": 20,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 3
+            },
+            "total_owned": 10,
+            "cum_purchased_by_species": {
+              "COW": 8,
+              "SHEEP": 3
+            },
+            "total_purchased": 11,
+            "escaped_est": 1
+          },
+          {
+            "day": 21,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 2
+            },
+            "total_owned": 9,
+            "cum_purchased_by_species": {
+              "COW": 8,
+              "SHEEP": 4
+            },
+            "total_purchased": 12,
+            "escaped_est": 3
+          },
+          {
+            "day": 22,
+            "counts": {
+              "COW": 5,
+              "SHEEP": 2
+            },
+            "total_owned": 7,
+            "cum_purchased_by_species": {
+              "COW": 10,
+              "SHEEP": 4
+            },
+            "total_purchased": 14,
+            "escaped_est": 7
+          },
+          {
+            "day": 23,
+            "counts": {
+              "COW": 4,
+              "SHEEP": 2
+            },
+            "total_owned": 6,
+            "cum_purchased_by_species": {
+              "COW": 11,
+              "SHEEP": 4
+            },
+            "total_purchased": 15,
+            "escaped_est": 9
+          },
+          {
+            "day": 24,
+            "counts": {
+              "COW": 4,
+              "SHEEP": 2
+            },
+            "total_owned": 6,
+            "cum_purchased_by_species": {
+              "COW": 12,
+              "SHEEP": 4
+            },
+            "total_purchased": 16,
+            "escaped_est": 10
+          },
+          {
+            "day": 25,
+            "counts": {
+              "COW": 4,
+              "SHEEP": 2
+            },
+            "total_owned": 6,
+            "cum_purchased_by_species": {
+              "COW": 12,
+              "SHEEP": 4
+            },
+            "total_purchased": 16,
+            "escaped_est": 10
+          },
+          {
+            "day": 26,
+            "counts": {
+              "COW": 5,
+              "SHEEP": 2
+            },
+            "total_owned": 7,
+            "cum_purchased_by_species": {
+              "COW": 12,
+              "SHEEP": 4
+            },
+            "total_purchased": 16,
+            "escaped_est": 9
+          },
+          {
+            "day": 27,
+            "counts": {
+              "COW": 5,
+              "SHEEP": 2
+            },
+            "total_owned": 7,
+            "cum_purchased_by_species": {
+              "COW": 12,
+              "SHEEP": 4
+            },
+            "total_purchased": 16,
+            "escaped_est": 9
+          },
+          {
+            "day": 28,
+            "counts": {
+              "COW": 5,
+              "SHEEP": 2
+            },
+            "total_owned": 7,
+            "cum_purchased_by_species": {
+              "COW": 12,
+              "SHEEP": 4
+            },
+            "total_purchased": 16,
+            "escaped_est": 9
+          },
+          {
+            "day": 29,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 2
+            },
+            "total_owned": 9,
+            "cum_purchased_by_species": {
+              "COW": 12,
+              "SHEEP": 4
+            },
+            "total_purchased": 16,
+            "escaped_est": 7
+          }
+        ]
+      },
+      {
+        "seed": 700003,
+        "final_owned": 10,
+        "steady_state_mean_owned": 7.9,
+        "final_cum_purchased": 14,
+        "final_cum_escaped_est": 4,
+        "daily": [
+          {
+            "day": 0,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 1
+            },
+            "total_owned": 3,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 1
+          },
+          {
+            "day": 1,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 2,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 3,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 4,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 5,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 6,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 7,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 8,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 9,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 2,
+              "SHEEP": 2
+            },
+            "total_purchased": 4,
+            "escaped_est": 0
+          },
+          {
+            "day": 10,
+            "counts": {
+              "SHEEP": 2,
+              "COW": 2
+            },
+            "total_owned": 4,
+            "cum_purchased_by_species": {
+              "COW": 5,
+              "SHEEP": 2
+            },
+            "total_purchased": 7,
+            "escaped_est": 3
+          },
+          {
+            "day": 11,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 2
+            },
+            "total_owned": 8,
+            "cum_purchased_by_species": {
+              "COW": 7,
+              "SHEEP": 3
+            },
+            "total_purchased": 10,
+            "escaped_est": 2
+          },
+          {
+            "day": 12,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 3
+            },
+            "total_owned": 9,
+            "cum_purchased_by_species": {
+              "COW": 7,
+              "SHEEP": 3
+            },
+            "total_purchased": 10,
+            "escaped_est": 1
+          },
+          {
+            "day": 13,
+            "counts": {
+              "COW": 5,
+              "SHEEP": 2
+            },
+            "total_owned": 7,
+            "cum_purchased_by_species": {
+              "COW": 8,
+              "SHEEP": 4
+            },
+            "total_purchased": 12,
+            "escaped_est": 5
+          },
+          {
+            "day": 14,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 2
+            },
+            "total_owned": 8,
+            "cum_purchased_by_species": {
+              "COW": 8,
+              "SHEEP": 4
+            },
+            "total_purchased": 12,
+            "escaped_est": 4
+          },
+          {
+            "day": 15,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 2
+            },
+            "total_owned": 8,
+            "cum_purchased_by_species": {
+              "COW": 8,
+              "SHEEP": 4
+            },
+            "total_purchased": 12,
+            "escaped_est": 4
+          },
+          {
+            "day": 16,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 2
+            },
+            "total_owned": 8,
+            "cum_purchased_by_species": {
+              "COW": 8,
+              "SHEEP": 4
+            },
+            "total_purchased": 12,
+            "escaped_est": 4
+          },
+          {
+            "day": 17,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 2
+            },
+            "total_owned": 8,
+            "cum_purchased_by_species": {
+              "COW": 8,
+              "SHEEP": 4
+            },
+            "total_purchased": 12,
+            "escaped_est": 4
+          },
+          {
+            "day": 18,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 2
+            },
+            "total_owned": 8,
+            "cum_purchased_by_species": {
+              "COW": 8,
+              "SHEEP": 4
+            },
+            "total_purchased": 12,
+            "escaped_est": 4
+          },
+          {
+            "day": 19,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 2
+            },
+            "total_owned": 8,
+            "cum_purchased_by_species": {
+              "COW": 8,
+              "SHEEP": 4
+            },
+            "total_purchased": 12,
+            "escaped_est": 4
+          },
+          {
+            "day": 20,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 2
+            },
+            "total_owned": 8,
+            "cum_purchased_by_species": {
+              "COW": 8,
+              "SHEEP": 4
+            },
+            "total_purchased": 12,
+            "escaped_est": 4
+          },
+          {
+            "day": 21,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 2
+            },
+            "total_owned": 8,
+            "cum_purchased_by_species": {
+              "COW": 8,
+              "SHEEP": 4
+            },
+            "total_purchased": 12,
+            "escaped_est": 4
+          },
+          {
+            "day": 22,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 2
+            },
+            "total_owned": 8,
+            "cum_purchased_by_species": {
+              "COW": 8,
+              "SHEEP": 4
+            },
+            "total_purchased": 12,
+            "escaped_est": 4
+          },
+          {
+            "day": 23,
+            "counts": {
+              "COW": 5,
+              "SHEEP": 2
+            },
+            "total_owned": 7,
+            "cum_purchased_by_species": {
+              "COW": 9,
+              "SHEEP": 4
+            },
+            "total_purchased": 13,
+            "escaped_est": 6
+          },
+          {
+            "day": 24,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 2
+            },
+            "total_owned": 8,
+            "cum_purchased_by_species": {
+              "COW": 9,
+              "SHEEP": 4
+            },
+            "total_purchased": 13,
+            "escaped_est": 5
+          },
+          {
+            "day": 25,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 2
+            },
+            "total_owned": 8,
+            "cum_purchased_by_species": {
+              "COW": 9,
+              "SHEEP": 4
+            },
+            "total_purchased": 13,
+            "escaped_est": 5
+          },
+          {
+            "day": 26,
+            "counts": {
+              "COW": 5,
+              "SHEEP": 2
+            },
+            "total_owned": 7,
+            "cum_purchased_by_species": {
+              "COW": 10,
+              "SHEEP": 4
+            },
+            "total_purchased": 14,
+            "escaped_est": 7
+          },
+          {
+            "day": 27,
+            "counts": {
+              "COW": 5,
+              "SHEEP": 2
+            },
+            "total_owned": 7,
+            "cum_purchased_by_species": {
+              "COW": 10,
+              "SHEEP": 4
+            },
+            "total_purchased": 14,
+            "escaped_est": 7
+          },
+          {
+            "day": 28,
+            "counts": {
+              "COW": 6,
+              "SHEEP": 2
+            },
+            "total_owned": 8,
+            "cum_purchased_by_species": {
+              "COW": 10,
+              "SHEEP": 4
+            },
+            "total_purchased": 14,
+            "escaped_est": 6
+          },
+          {
+            "day": 29,
+            "counts": {
+              "COW": 7,
+              "SHEEP": 3
+            },
+            "total_owned": 10,
+            "cum_purchased_by_species": {
+              "COW": 10,
+              "SHEEP": 4
+            },
+            "total_purchased": 14,
+            "escaped_est": 4
+          }
+        ]
+      }
+    ],
+    "mean_final_owned": 8.75,
+    "mean_steady_state_owned": 7.175000000000001,
+    "mean_cum_purchased": 16.25,
+    "mean_cum_escaped_est": 7.5
+  }
+}

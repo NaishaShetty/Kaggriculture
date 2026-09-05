@@ -1,0 +1,8 @@
+{
+  "team_name": "keiz",
+  "rank": 1,
+  "score": 3012.9,
+  "discovered_at": "2026-09-04",
+  "discovery_method": "manual: live Kaggle leaderboard (browser, no login) -> rank-1 row's Agents/play icon -> Game History panel -> per-row click, episode id read from the resulting GET .../episodes/<id>/replay.json network request",
+  "episode_ids": ["105462264", "105458810", "105457934", "105455373", "105451852"]
+}

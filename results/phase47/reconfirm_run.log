@@ -1,0 +1,389 @@
+OpenSpiel exception: Unknown game 'universal_poker'. Available games are:
+2048
+add_noise
+amazons
+amazons_proxy
+ant_foraging_arena
+antichess
+backgammon
+backgammon_proxy
+banqi
+bargaining
+bargaining_proxy
+battleship
+blackjack
+blotto
+breakthrough
+breakthrough_proxy
+bridge
+bridge_arena
+bridge_uncontested_bidding
+cached_tree
+capture_the_flag
+capture_the_flag_proxy
+catch
+chat_game
+checkers
+checkers_proxy
+chess
+chinese_checkers
+cliff_walking
+clobber
+clobber_proxy
+coin_game
+coin_game_arena
+coin_game_proxy
+colored_trails
+connect_four
+connect_four_proxy
+coop_box_pushing
+coop_to_1p
+coordinated_mp
+crazy_eights
+crazyhouse
+cribbage
+crossword
+cursor_go
+dark_chess
+dark_hex
+dark_hex_ir
+dark_hex_proxy
+deep_sea
+dots_and_boxes
+dots_and_boxes_proxy
+dou_dizhu
+efg_game
+einstein_wurfelt_nicht
+euchre
+first_sealed_auction
+gin_rummy
+gin_rummy_proxy
+go
+go_fish
+go_fish_proxy
+go_proxy
+gomoku
+goofspiel
+havannah
+havannah_proxy
+hearts
+hex
+hive
+hive_proxy
+kriegspiel
+kuhn_poker
+laser_tag
+latent_ttt
+leduc_poker
+lewis_signaling
+liars_dice
+liars_dice_ir
+lines_of_action
+lines_of_action_proxy
+maedn
+mancala
+mancala_proxy
+markov_soccer
+markov_soccer_proxy
+matching_pennies_3p
+matrix_bos
+matrix_brps
+matrix_cd
+matrix_coordination
+matrix_mp
+matrix_pd
+matrix_rps
+matrix_rpsw
+matrix_sh
+matrix_shapleys_game
+mfg_crowd_modelling
+mfg_crowd_modelling_2d
+mfg_dynamic_routing
+mfg_garnet
+misere
+mnk
+morpion_solitaire
+negotiation
+negotiation_proxy
+nfg_game
+nim
+nine_mens_morris
+nine_mens_morris_proxy
+normal_form_extensive_game
+oh_hell
+oshi_zumo
+oshi_zumo_proxy
+othello
+othello_proxy
+oware
+pathfinding
+pentago
+phantom_go
+phantom_ttt
+phantom_ttt_ir
+pig
+python_ant_foraging
+python_ant_foraging_proxy
+python_block_dominoes
+python_dynamic_routing
+python_hangman
+python_iterated_prisoners_dilemma
+python_kuhn_poker
+python_liars_poker
+python_pokerkit_wrapper
+python_pokerkit_wrapper_acpc_style
+python_repeated_pokerkit
+python_team_dominoes
+python_tic_tac_toe
+quoridor
+rbc
+repeated_game
+repeated_leduc_poker
+restricted_nash_response
+sheriff
+shogi
+shogi_proxy
+skat
+snake
+snake_proxy
+social_deduction
+solitaire
+spades
+start_at
+stones_and_gems
+tarok
+tic_tac_toe
+tiny_bridge_2p
+tiny_bridge_4p
+tiny_hanabi
+trade_comm
+turn_based_simultaneous_game
+twixt
+ultimate_tic_tac_toe
+ultimate_tic_tac_toe_proxy
+xiangqi
+y
+y_proxy
+yacht
+zerosum
+OpenSpiel exception: Unknown game 'repeated_poker'. Available games are:
+2048
+add_noise
+amazons
+amazons_proxy
+ant_foraging_arena
+antichess
+backgammon
+backgammon_proxy
+banqi
+bargaining
+bargaining_proxy
+battleship
+blackjack
+blotto
+breakthrough
+breakthrough_proxy
+bridge
+bridge_arena
+bridge_uncontested_bidding
+cached_tree
+capture_the_flag
+capture_the_flag_proxy
+catch
+chat_game
+checkers
+checkers_proxy
+chess
+chinese_checkers
+cliff_walking
+clobber
+clobber_proxy
+coin_game
+coin_game_arena
+coin_game_proxy
+colored_trails
+connect_four
+connect_four_proxy
+coop_box_pushing
+coop_to_1p
+coordinated_mp
+crazy_eights
+crazyhouse
+cribbage
+crossword
+cursor_go
+dark_chess
+dark_hex
+dark_hex_ir
+dark_hex_proxy
+deep_sea
+dots_and_boxes
+dots_and_boxes_proxy
+dou_dizhu
+efg_game
+einstein_wurfelt_nicht
+euchre
+first_sealed_auction
+gin_rummy
+gin_rummy_proxy
+go
+go_fish
+go_fish_proxy
+go_proxy
+gomoku
+goofspiel
+havannah
+havannah_proxy
+hearts
+hex
+hive
+hive_proxy
+kriegspiel
+kuhn_poker
+laser_tag
+latent_ttt
+leduc_poker
+lewis_signaling
+liars_dice
+liars_dice_ir
+lines_of_action
+lines_of_action_proxy
+maedn
+mancala
+mancala_proxy
+markov_soccer
+markov_soccer_proxy
+matching_pennies_3p
+matrix_bos
+matrix_brps
+matrix_cd
+matrix_coordination
+matrix_mp
+matrix_pd
+matrix_rps
+matrix_rpsw
+matrix_sh
+matrix_shapleys_game
+mfg_crowd_modelling
+mfg_crowd_modelling_2d
+mfg_dynamic_routing
+mfg_garnet
+misere
+mnk
+morpion_solitaire
+negotiation
+negotiation_proxy
+nfg_game
+nim
+nine_mens_morris
+nine_mens_morris_proxy
+normal_form_extensive_game
+oh_hell
+oshi_zumo
+oshi_zumo_proxy
+othello
+othello_proxy
+oware
+pathfinding
+pentago
+phantom_go
+phantom_ttt
+phantom_ttt_ir
+pig
+python_ant_foraging
+python_ant_foraging_proxy
+python_block_dominoes
+python_dynamic_routing
+python_hangman
+python_iterated_prisoners_dilemma
+python_kuhn_poker
+python_liars_poker
+python_pokerkit_wrapper
+python_pokerkit_wrapper_acpc_style
+python_repeated_pokerkit
+python_team_dominoes
+python_tic_tac_toe
+quoridor
+rbc
+repeated_game
+repeated_leduc_poker
+restricted_nash_response
+sheriff
+shogi
+shogi_proxy
+skat
+snake
+snake_proxy
+social_deduction
+solitaire
+spades
+start_at
+stones_and_gems
+tarok
+tic_tac_toe
+tiny_bridge_2p
+tiny_bridge_4p
+tiny_hanabi
+trade_comm
+turn_based_simultaneous_game
+twixt
+ultimate_tic_tac_toe
+ultimate_tic_tac_toe_proxy
+xiangqi
+y
+y_proxy
+yacht
+zerosum
+packaged make_feed_priority_portfolio_agent resolved from: scripts.phase46.feed_priority_portfolio_agent (C:\tmp/phase47_coldtest\scripts\phase46\feed_priority_portfolio_agent.py)
+
+=== packaged vs. submission_g (15seed_full, n=15) ===
+    seed=700000: packaged=$63,186.00 submission_g=$60,804.00 winner=packaged
+    seed=700001: packaged=$64,707.00 submission_g=$57,783.00 winner=packaged
+    seed=700002: packaged=$46,095.00 submission_g=$45,725.00 winner=packaged
+    seed=700003: packaged=$50,548.00 submission_g=$35,981.00 winner=packaged
+    seed=701000: packaged=$71,835.00 submission_g=$60,126.00 winner=packaged
+    seed=701001: packaged=$72,651.00 submission_g=$62,924.00 winner=packaged
+    seed=701002: packaged=$51,841.00 submission_g=$44,619.00 winner=packaged
+    seed=701003: packaged=$62,787.00 submission_g=$56,217.00 winner=packaged
+    seed=701004: packaged=$59,978.00 submission_g=$59,384.00 winner=packaged
+    seed=702000: packaged=$59,473.00 submission_g=$59,071.00 winner=packaged
+    seed=702001: packaged=$46,814.00 submission_g=$48,193.00 winner=submission_g
+    seed=702002: packaged=$31,001.00 submission_g=$24,598.00 winner=packaged
+    seed=702003: packaged=$44,657.00 submission_g=$27,693.00 winner=packaged
+    seed=702004: packaged=$76,356.00 submission_g=$65,759.00 winner=packaged
+    seed=702005: packaged=$61,127.00 submission_g=$43,997.00 winner=packaged
+  Record: 14W-1L-0T (14/15)  mean_margin=$7,345.47
+
+=== packaged vs. submission_c (15seed_full, n=15) ===
+    seed=700000: packaged=$71,030.00 submission_c=$29,550.00 winner=packaged
+    seed=700001: packaged=$64,131.00 submission_c=$31,844.00 winner=packaged
+    seed=700002: packaged=$71,962.00 submission_c=$29,042.00 winner=packaged
+    seed=700003: packaged=$58,603.00 submission_c=$34,217.00 winner=packaged
+    seed=701000: packaged=$58,485.00 submission_c=$26,107.00 winner=packaged
+    seed=701001: packaged=$68,792.00 submission_c=$10,942.00 winner=packaged
+    seed=701002: packaged=$50,986.00 submission_c=$22,206.00 winner=packaged
+    seed=701003: packaged=$71,837.00 submission_c=$30,094.00 winner=packaged
+    seed=701004: packaged=$55,325.00 submission_c=$34,429.00 winner=packaged
+    seed=702000: packaged=$67,015.00 submission_c=$28,457.00 winner=packaged
+    seed=702001: packaged=$46,276.00 submission_c=$31,230.00 winner=packaged
+    seed=702002: packaged=$59,190.00 submission_c=$35,301.00 winner=packaged
+    seed=702003: packaged=$76,890.00 submission_c=$27,537.00 winner=packaged
+    seed=702004: packaged=$73,941.00 submission_c=$33,455.00 winner=packaged
+    seed=702005: packaged=$73,102.00 submission_c=$30,903.00 winner=packaged
+  Record: 15W-0L-0T (15/15)  mean_margin=$35,483.40
+
+=== packaged vs. jonaid (15seed_full, n=15) ===
+    seed=700000: packaged=$60,555.00 jonaid=$37,326.00 winner=packaged
+    seed=700001: packaged=$55,887.00 jonaid=$29,058.00 winner=packaged
+    seed=700002: packaged=$50,703.00 jonaid=$24,711.00 winner=packaged
+    seed=700003: packaged=$68,736.00 jonaid=$29,350.00 winner=packaged
+    seed=701000: packaged=$57,314.00 jonaid=$32,924.00 winner=packaged
+    seed=701001: packaged=$70,239.00 jonaid=$39,022.00 winner=packaged
+    seed=701002: packaged=$40,131.00 jonaid=$25,880.00 winner=packaged
+    seed=701003: packaged=$55,627.00 jonaid=$25,102.00 winner=packaged
+    seed=701004: packaged=$70,319.00 jonaid=$33,640.00 winner=packaged
+    seed=702000: packaged=$65,421.00 jonaid=$35,167.00 winner=packaged
+    seed=702001: packaged=$62,032.00 jonaid=$29,647.00 winner=packaged
+    seed=702002: packaged=$56,087.00 jonaid=$33,895.00 winner=packaged
+    seed=702003: packaged=$54,356.00 jonaid=$26,597.00 winner=packaged
+    seed=702004: packaged=$35,246.00 jonaid=$18,229.00 winner=packaged

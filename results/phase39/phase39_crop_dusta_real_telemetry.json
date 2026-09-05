@@ -1,0 +1,1212 @@
+{
+  "105373474": {
+    "episode_id": 105373474,
+    "seed": 741863109,
+    "final_bank_last_day": 66091.0,
+    "daily": [
+      {
+        "day": 0,
+        "bank": 57.0,
+        "bank_delta": null,
+        "hands_count": 4,
+        "land_quadrants": 1,
+        "total_crop_tiles": 13,
+        "crop_tile_counts": {
+          "MELON": 5,
+          "WHEAT": 8
+        },
+        "total_animal_count": 5,
+        "cared_animal_count": 4,
+        "fed_animal_count": 4,
+        "animal_servicing_rate": 0.8,
+        "n_plant_tiles": 13,
+        "n_idle_tiles": 0,
+        "tile_idle_fraction": 0.0
+      },
+      {
+        "day": 1,
+        "bank": 20.0,
+        "bank_delta": -37.0,
+        "hands_count": 4,
+        "land_quadrants": 1,
+        "total_crop_tiles": 17,
+        "crop_tile_counts": {
+          "MELON": 5,
+          "WHEAT": 12
+        },
+        "total_animal_count": 5,
+        "cared_animal_count": 5,
+        "fed_animal_count": 5,
+        "animal_servicing_rate": 1.0,
+        "n_plant_tiles": 17,
+        "n_idle_tiles": 13,
+        "tile_idle_fraction": 0.7647
+      },
+      {
+        "day": 2,
+        "bank": 26.0,
+        "bank_delta": 6.0,
+        "hands_count": 4,
+        "land_quadrants": 1,
+        "total_crop_tiles": 20,
+        "crop_tile_counts": {
+          "MELON": 5,
+          "WHEAT": 13,
+          "STRAWBERRY": 2
+        },
+        "total_animal_count": 5,
+        "cared_animal_count": 5,
+        "fed_animal_count": 5,
+        "animal_servicing_rate": 1.0,
+        "n_plant_tiles": 20,
+        "n_idle_tiles": 12,
+        "tile_idle_fraction": 0.6
+      },
+      {
+        "day": 3,
+        "bank": 318.0,
+        "bank_delta": 292.0,
+        "hands_count": 4,
+        "land_quadrants": 1,
+        "total_crop_tiles": 20,
+        "crop_tile_counts": {
+          "MELON": 5,
+          "WHEAT": 13,
+          "STRAWBERRY": 2
+        },
+        "total_animal_count": 5,
+        "cared_animal_count": 5,
+        "fed_animal_count": 5,
+        "animal_servicing_rate": 1.0,
+        "n_plant_tiles": 20,
+        "n_idle_tiles": 18,
+        "tile_idle_fraction": 0.9
+      },
+      {
+        "day": 4,
+        "bank": 101.0,
+        "bank_delta": -217.0,
+        "hands_count": 4,
+        "land_quadrants": 1,
+        "total_crop_tiles": 20,
+        "crop_tile_counts": {
+          "MELON": 5,
+          "STRAWBERRY": 7,
+          "WHEAT": 8
+        },
+        "total_animal_count": 5,
+        "cared_animal_count": 5,
+        "fed_animal_count": 5,
+        "animal_servicing_rate": 1.0,
+        "n_plant_tiles": 20,
+        "n_idle_tiles": 8,
+        "tile_idle_fraction": 0.4
+      },
+      {
+        "day": 5,
+        "bank": 3.0,
+        "bank_delta": -98.0,
+        "hands_count": 8,
+        "land_quadrants": 2,
+        "total_crop_tiles": 28,
+        "crop_tile_counts": {
+          "MELON": 5,
+          "STRAWBERRY": 10,
+          "WHEAT": 13
+        },
+        "total_animal_count": 5,
+        "cared_animal_count": 5,
+        "fed_animal_count": 5,
+        "animal_servicing_rate": 1.0,
+        "n_plant_tiles": 28,
+        "n_idle_tiles": 9,
+        "tile_idle_fraction": 0.3214
+      },
+      {
+        "day": 6,
+        "bank": 34.0,
+        "bank_delta": 31.0,
+        "hands_count": 8,
+        "land_quadrants": 2,
+        "total_crop_tiles": 39,
+        "crop_tile_counts": {
+          "MELON": 7,
+          "STRAWBERRY": 17,
+          "WHEAT": 15
+        },
+        "total_animal_count": 8,
+        "cared_animal_count": 7,
+        "fed_animal_count": 7,
+        "animal_servicing_rate": 0.875,
+        "n_plant_tiles": 39,
+        "n_idle_tiles": 20,
+        "tile_idle_fraction": 0.5128
+      },
+      {
+        "day": 7,
+        "bank": 18.0,
+        "bank_delta": -16.0,
+        "hands_count": 8,
+        "land_quadrants": 2,
+        "total_crop_tiles": 41,
+        "crop_tile_counts": {
+          "MELON": 8,
+          "STRAWBERRY": 17,
+          "WHEAT": 16
+        },
+        "total_animal_count": 9,
+        "cared_animal_count": 9,
+        "fed_animal_count": 9,
+        "animal_servicing_rate": 1.0,
+        "n_plant_tiles": 41,
+        "n_idle_tiles": 18,
+        "tile_idle_fraction": 0.439
+      },
+      {
+        "day": 8,
+        "bank": 28.0,
+        "bank_delta": 10.0,
+        "hands_count": 8,
+        "land_quadrants": 3,
+        "total_crop_tiles": 44,
+        "crop_tile_counts": {
+          "MELON": 8,
+          "STRAWBERRY": 19,
+          "WHEAT": 17
+        },
+        "total_animal_count": 11,
+        "cared_animal_count": 10,
+        "fed_animal_count": 10,
+        "animal_servicing_rate": 0.9091,
+        "n_plant_tiles": 44,
+        "n_idle_tiles": 23,
+        "tile_idle_fraction": 0.5227
+      },
+      {
+        "day": 9,
+        "bank": 760.0,
+        "bank_delta": 732.0,
+        "hands_count": 12,
+        "land_quadrants": 3,
+        "total_crop_tiles": 55,
+        "crop_tile_counts": {
+          "MELON": 8,
+          "STRAWBERRY": 22,
+          "WHEAT": 25
+        },
+        "total_animal_count": 11,
+        "cared_animal_count": 11,
+        "fed_animal_count": 11,
+        "animal_servicing_rate": 1.0,
+        "n_plant_tiles": 55,
+        "n_idle_tiles": 15,
+        "tile_idle_fraction": 0.2727
+      },
+      {
+        "day": 10,
+        "bank": 8400.0,
+        "bank_delta": 7640.0,
+        "hands_count": 12,
+        "land_quadrants": 3,
+        "total_crop_tiles": 56,
+        "crop_tile_counts": {
+          "WHEAT": 31,
+          "STRAWBERRY": 22,
+          "MELON": 3
+        },
+        "total_animal_count": 13,
+        "cared_animal_count": 11,
+        "fed_animal_count": 12,
+        "animal_servicing_rate": 0.8462,
+        "n_plant_tiles": 56,
+        "n_idle_tiles": 34,
+        "tile_idle_fraction": 0.6071
+      },
+      {
+        "day": 11,
+        "bank": 8238.0,
+        "bank_delta": -162.0,
+        "hands_count": 12,
+        "land_quadrants": 3,
+        "total_crop_tiles": 59,
+        "crop_tile_counts": {
+          "WHEAT": 34,
+          "STRAWBERRY": 22,
+          "MELON": 3
+        },
+        "total_animal_count": 14,
+        "cared_animal_count": 13,
+        "fed_animal_count": 13,
+        "animal_servicing_rate": 0.9286,
+        "n_plant_tiles": 59,
+        "n_idle_tiles": 32,
+        "tile_idle_fraction": 0.5424
+      },
+      {
+        "day": 12,
+        "bank": 11031.0,
+        "bank_delta": 2793.0,
+        "hands_count": 12,
+        "land_quadrants": 3,
+        "total_crop_tiles": 58,
+        "crop_tile_counts": {
+          "WHEAT": 33,
+          "STRAWBERRY": 22,
+          "MELON": 3
+        },
+        "total_animal_count": 14,
+        "cared_animal_count": 14,
+        "fed_animal_count": 14,
+        "animal_servicing_rate": 1.0,
+        "n_plant_tiles": 58,
+        "n_idle_tiles": 33,
+        "tile_idle_fraction": 0.569
+      },
+      {
+        "day": 13,
+        "bank": 12105.0,
+        "bank_delta": 1074.0,
+        "hands_count": 12,
+        "land_quadrants": 3,
+        "total_crop_tiles": 56,
+        "crop_tile_counts": {
+          "WHEAT": 31,
+          "STRAWBERRY": 22,
+          "MELON": 3
+        },
+        "total_animal_count": 14,
+        "cared_animal_count": 14,
+        "fed_animal_count": 14,
+        "animal_servicing_rate": 1.0,
+        "n_plant_tiles": 56,
+        "n_idle_tiles": 27,
+        "tile_idle_fraction": 0.4821
+      },
+      {
+        "day": 14,
+        "bank": 19034.0,
+        "bank_delta": 6929.0,
+        "hands_count": 12,
+        "land_quadrants": 3,
+        "total_crop_tiles": 57,
+        "crop_tile_counts": {
+          "MELON": 6,
+          "WHEAT": 29,
+          "STRAWBERRY": 22
+        },
+        "total_animal_count": 14,
+        "cared_animal_count": 11,
+        "fed_animal_count": 11,
+        "animal_servicing_rate": 0.7857,
+        "n_plant_tiles": 57,
+        "n_idle_tiles": 25,
+        "tile_idle_fraction": 0.4386
+      },
+      {
+        "day": 15,
+        "bank": 21943.0,
+        "bank_delta": 2909.0,
+        "hands_count": 12,
+        "land_quadrants": 3,
+        "total_crop_tiles": 59,
+        "crop_tile_counts": {
+          "MELON": 6,
+          "WHEAT": 31,
+          "STRAWBERRY": 22
+        },
+        "total_animal_count": 15,
+        "cared_animal_count": 13,
+        "fed_animal_count": 13,
+        "animal_servicing_rate": 0.8667,
+        "n_plant_tiles": 59,
+        "n_idle_tiles": 34,
+        "tile_idle_fraction": 0.5763
+      },
+      {
+        "day": 16,
+        "bank": 28199.0,
+        "bank_delta": 6256.0,
+        "hands_count": 12,
+        "land_quadrants": 3,
+        "total_crop_tiles": 57,
+        "crop_tile_counts": {
+          "MELON": 4,
+          "WHEAT": 31,
+          "STRAWBERRY": 22
+        },
+        "total_animal_count": 15,
+        "cared_animal_count": 11,
+        "fed_animal_count": 11,
+        "animal_servicing_rate": 0.7333,
+        "n_plant_tiles": 57,
+        "n_idle_tiles": 33,
+        "tile_idle_fraction": 0.5789
+      },
+      {
+        "day": 17,
+        "bank": 33484.0,
+        "bank_delta": 5285.0,
+        "hands_count": 12,
+        "land_quadrants": 3,
+        "total_crop_tiles": 55,
+        "crop_tile_counts": {
+          "MELON": 4,
+          "WHEAT": 29,
+          "STRAWBERRY": 22
+        },
+        "total_animal_count": 15,
+        "cared_animal_count": 13,
+        "fed_animal_count": 14,
+        "animal_servicing_rate": 0.8667,
+        "n_plant_tiles": 55,
+        "n_idle_tiles": 20,
+        "tile_idle_fraction": 0.3636
+      },
+      {
+        "day": 18,
+        "bank": 36494.0,
+        "bank_delta": 3010.0,
+        "hands_count": 12,
+        "land_quadrants": 3,
+        "total_crop_tiles": 55,
+        "crop_tile_counts": {
+          "MELON": 4,
+          "WHEAT": 29,
+          "STRAWBERRY": 22
+        },
+        "total_animal_count": 15,
+        "cared_animal_count": 12,
+        "fed_animal_count": 12,
+        "animal_servicing_rate": 0.8,
+        "n_plant_tiles": 55,
+        "n_idle_tiles": 24,
+        "tile_idle_fraction": 0.4364
+      },
+      {
+        "day": 19,
+        "bank": 40802.0,
+        "bank_delta": 4308.0,
+        "hands_count": 12,
+        "land_quadrants": 3,
+        "total_crop_tiles": 58,
+        "crop_tile_counts": {
+          "MELON": 4,
+          "WHEAT": 34,
+          "STRAWBERRY": 20
+        },
+        "total_animal_count": 15,
+        "cared_animal_count": 12,
+        "fed_animal_count": 12,
+        "animal_servicing_rate": 0.8,
+        "n_plant_tiles": 58,
+        "n_idle_tiles": 31,
+        "tile_idle_fraction": 0.5345
+      },
+      {
+        "day": 20,
+        "bank": 41824.0,
+        "bank_delta": 1022.0,
+        "hands_count": 12,
+        "land_quadrants": 3,
+        "total_crop_tiles": 58,
+        "crop_tile_counts": {
+          "MELON": 4,
+          "WHEAT": 34,
+          "STRAWBERRY": 20
+        },
+        "total_animal_count": 15,
+        "cared_animal_count": 12,
+        "fed_animal_count": 12,
+        "animal_servicing_rate": 0.8,
+        "n_plant_tiles": 58,
+        "n_idle_tiles": 32,
+        "tile_idle_fraction": 0.5517
+      },
+      {
+        "day": 21,
+        "bank": 42742.0,
+        "bank_delta": 918.0,
+        "hands_count": 12,
+        "land_quadrants": 3,
+        "total_crop_tiles": 58,
+        "crop_tile_counts": {
+          "MELON": 4,
+          "CARROT": 17,
+          "STRAWBERRY": 15,
+          "WHEAT": 22
+        },
+        "total_animal_count": 15,
+        "cared_animal_count": 14,
+        "fed_animal_count": 15,
+        "animal_servicing_rate": 0.9333,
+        "n_plant_tiles": 58,
+        "n_idle_tiles": 34,
+        "tile_idle_fraction": 0.5862
+      },
+      {
+        "day": 22,
+        "bank": 44295.0,
+        "bank_delta": 1553.0,
+        "hands_count": 12,
+        "land_quadrants": 3,
+        "total_crop_tiles": 57,
+        "crop_tile_counts": {
+          "MELON": 4,
+          "CARROT": 28,
+          "WHEAT": 14,
+          "STRAWBERRY": 11
+        },
+        "total_animal_count": 15,
+        "cared_animal_count": 12,
+        "fed_animal_count": 13,
+        "animal_servicing_rate": 0.8,
+        "n_plant_tiles": 57,
+        "n_idle_tiles": 36,
+        "tile_idle_fraction": 0.6316
+      },
+      {
+        "day": 23,
+        "bank": 45080.0,
+        "bank_delta": 785.0,
+        "hands_count": 12,
+        "land_quadrants": 3,
+        "total_crop_tiles": 57,
+        "crop_tile_counts": {
+          "MELON": 4,
+          "CARROT": 38,
+          "WHEAT": 10,
+          "STRAWBERRY": 5
+        },
+        "total_animal_count": 15,
+        "cared_animal_count": 12,
+        "fed_animal_count": 12,
+        "animal_servicing_rate": 0.8,
+        "n_plant_tiles": 57,
+        "n_idle_tiles": 38,
+        "tile_idle_fraction": 0.6667
+      },
+      {
+        "day": 24,
+        "bank": 48507.0,
+        "bank_delta": 3427.0,
+        "hands_count": 12,
+        "land_quadrants": 3,
+        "total_crop_tiles": 53,
+        "crop_tile_counts": {
+          "CARROT": 41,
+          "WHEAT": 6,
+          "STRAWBERRY": 5,
+          "MELON": 1
+        },
+        "total_animal_count": 15,
+        "cared_animal_count": 10,
+        "fed_animal_count": 10,
+        "animal_servicing_rate": 0.6667,
+        "n_plant_tiles": 53,
+        "n_idle_tiles": 37,
+        "tile_idle_fraction": 0.6981
+      },
+      {
+        "day": 25,
+        "bank": 49774.0,
+        "bank_delta": 1267.0,
+        "hands_count": 12,
+        "land_quadrants": 3,
+        "total_crop_tiles": 58,
+        "crop_tile_counts": {
+          "CARROT": 48,
+          "WHEAT": 6,
+          "STRAWBERRY": 3,
+          "MELON": 1
+        },
+        "total_animal_count": 15,
+        "cared_animal_count": 11,
+        "fed_animal_count": 11,
+        "animal_servicing_rate": 0.7333,
+        "n_plant_tiles": 58,
+        "n_idle_tiles": 32,
+        "tile_idle_fraction": 0.5517
+      },
+      {
+        "day": 26,
+        "bank": 51106.0,
+        "bank_delta": 1332.0,
+        "hands_count": 12,
+        "land_quadrants": 3,
+        "total_crop_tiles": 56,
+        "crop_tile_counts": {
+          "CARROT": 49,
+          "WHEAT": 6,
+          "MELON": 1
+        },
+        "total_animal_count": 15,
+        "cared_animal_count": 12,
+        "fed_animal_count": 12,
+        "animal_servicing_rate": 0.8,
+        "n_plant_tiles": 56,
+        "n_idle_tiles": 43,
+        "tile_idle_fraction": 0.7679
+      },
+      {
+        "day": 27,
+        "bank": 55570.0,
+        "bank_delta": 4464.0,
+        "hands_count": 12,
+        "land_quadrants": 3,
+        "total_crop_tiles": 39,
+        "crop_tile_counts": {
+          "CARROT": 35,
+          "WHEAT": 4
+        },
+        "total_animal_count": 15,
+        "cared_animal_count": 6,
+        "fed_animal_count": 7,
+        "animal_servicing_rate": 0.4,
+        "n_plant_tiles": 39,
+        "n_idle_tiles": 39,
+        "tile_idle_fraction": 1.0
+      },
+      {
+        "day": 28,
+        "bank": 59597.0,
+        "bank_delta": 4027.0,
+        "hands_count": 12,
+        "land_quadrants": 3,
+        "total_crop_tiles": 16,
+        "crop_tile_counts": {
+          "CARROT": 14,
+          "WHEAT": 2
+        },
+        "total_animal_count": 14,
+        "cared_animal_count": 0,
+        "fed_animal_count": 2,
+        "animal_servicing_rate": 0.0,
+        "n_plant_tiles": 16,
+        "n_idle_tiles": 16,
+        "tile_idle_fraction": 1.0
+      },
+      {
+        "day": 29,
+        "bank": 66091.0,
+        "bank_delta": 6494.0,
+        "hands_count": 12,
+        "land_quadrants": 3,
+        "total_crop_tiles": 0,
+        "crop_tile_counts": {},
+        "total_animal_count": 8,
+        "cared_animal_count": 0,
+        "fed_animal_count": 0,
+        "animal_servicing_rate": 0.0,
+        "n_plant_tiles": 0,
+        "n_idle_tiles": 0,
+        "tile_idle_fraction": null
+      }
+    ]
+  },
+  "105341441": {
+    "episode_id": 105341441,
+    "seed": 1154914941,
+    "final_bank_last_day": 148520.0,
+    "daily": [
+      {
+        "day": 0,
+        "bank": 44.0,
+        "bank_delta": null,
+        "hands_count": 4,
+        "land_quadrants": 1,
+        "total_crop_tiles": 13,
+        "crop_tile_counts": {
+          "MELON": 5,
+          "WHEAT": 8
+        },
+        "total_animal_count": 5,
+        "cared_animal_count": 4,
+        "fed_animal_count": 4,
+        "animal_servicing_rate": 0.8,
+        "n_plant_tiles": 13,
+        "n_idle_tiles": 0,
+        "tile_idle_fraction": 0.0
+      },
+      {
+        "day": 1,
+        "bank": 17.0,
+        "bank_delta": -27.0,
+        "hands_count": 4,
+        "land_quadrants": 1,
+        "total_crop_tiles": 16,
+        "crop_tile_counts": {
+          "MELON": 5,
+          "WHEAT": 11
+        },
+        "total_animal_count": 5,
+        "cared_animal_count": 5,
+        "fed_animal_count": 5,
+        "animal_servicing_rate": 1.0,
+        "n_plant_tiles": 16,
+        "n_idle_tiles": 13,
+        "tile_idle_fraction": 0.8125
+      },
+      {
+        "day": 2,
+        "bank": 10.0,
+        "bank_delta": -7.0,
+        "hands_count": 4,
+        "land_quadrants": 1,
+        "total_crop_tiles": 20,
+        "crop_tile_counts": {
+          "MELON": 5,
+          "WHEAT": 13,
+          "STRAWBERRY": 2
+        },
+        "total_animal_count": 5,
+        "cared_animal_count": 5,
+        "fed_animal_count": 5,
+        "animal_servicing_rate": 1.0,
+        "n_plant_tiles": 20,
+        "n_idle_tiles": 11,
+        "tile_idle_fraction": 0.55
+      },
+      {
+        "day": 3,
+        "bank": 302.0,
+        "bank_delta": 292.0,
+        "hands_count": 4,
+        "land_quadrants": 1,
+        "total_crop_tiles": 20,
+        "crop_tile_counts": {
+          "MELON": 5,
+          "WHEAT": 13,
+          "STRAWBERRY": 2
+        },
+        "total_animal_count": 5,
+        "cared_animal_count": 5,
+        "fed_animal_count": 5,
+        "animal_servicing_rate": 1.0,
+        "n_plant_tiles": 20,
+        "n_idle_tiles": 18,
+        "tile_idle_fraction": 0.9
+      },
+      {
+        "day": 4,
+        "bank": 86.0,
+        "bank_delta": -216.0,
+        "hands_count": 4,
+        "land_quadrants": 1,
+        "total_crop_tiles": 20,
+        "crop_tile_counts": {
+          "MELON": 5,
+          "STRAWBERRY": 7,
+          "WHEAT": 8
+        },
+        "total_animal_count": 5,
+        "cared_animal_count": 5,
+        "fed_animal_count": 5,
+        "animal_servicing_rate": 1.0,
+        "n_plant_tiles": 20,
+        "n_idle_tiles": 8,
+        "tile_idle_fraction": 0.4
+      },
+      {
+        "day": 5,
+        "bank": 24.0,
+        "bank_delta": -62.0,
+        "hands_count": 8,
+        "land_quadrants": 2,
+        "total_crop_tiles": 31,
+        "crop_tile_counts": {
+          "MELON": 5,
+          "STRAWBERRY": 10,
+          "WHEAT": 16
+        },
+        "total_animal_count": 5,
+        "cared_animal_count": 5,
+        "fed_animal_count": 5,
+        "animal_servicing_rate": 1.0,
+        "n_plant_tiles": 31,
+        "n_idle_tiles": 10,
+        "tile_idle_fraction": 0.3226
+      },
+      {
+        "day": 6,
+        "bank": 580.0,
+        "bank_delta": 556.0,
+        "hands_count": 8,
+        "land_quadrants": 2,
+        "total_crop_tiles": 39,
+        "crop_tile_counts": {
+          "MELON": 5,
+          "STRAWBERRY": 13,
+          "WHEAT": 21
+        },
+        "total_animal_count": 8,
+        "cared_animal_count": 6,
+        "fed_animal_count": 6,
+        "animal_servicing_rate": 0.75,
+        "n_plant_tiles": 39,
+        "n_idle_tiles": 20,
+        "tile_idle_fraction": 0.5128
+      },
+      {
+        "day": 7,
+        "bank": 180.0,
+        "bank_delta": -400.0,
+        "hands_count": 8,
+        "land_quadrants": 2,
+        "total_crop_tiles": 40,
+        "crop_tile_counts": {
+          "MELON": 5,
+          "STRAWBERRY": 13,
+          "WHEAT": 22
+        },
+        "total_animal_count": 10,
+        "cared_animal_count": 9,
+        "fed_animal_count": 9,
+        "animal_servicing_rate": 0.9,
+        "n_plant_tiles": 40,
+        "n_idle_tiles": 21,
+        "tile_idle_fraction": 0.525
+      },
+      {
+        "day": 8,
+        "bank": 29.0,
+        "bank_delta": -151.0,
+        "hands_count": 8,
+        "land_quadrants": 3,
+        "total_crop_tiles": 50,
+        "crop_tile_counts": {
+          "MELON": 5,
+          "STRAWBERRY": 20,
+          "WHEAT": 25
+        },
+        "total_animal_count": 13,
+        "cared_animal_count": 10,
+        "fed_animal_count": 11,
+        "animal_servicing_rate": 0.7692,
+        "n_plant_tiles": 50,
+        "n_idle_tiles": 34,
+        "tile_idle_fraction": 0.68
+      },
+      {
+        "day": 9,
+        "bank": 9.0,
+        "bank_delta": -20.0,
+        "hands_count": 12,
+        "land_quadrants": 3,
+        "total_crop_tiles": 49,
+        "crop_tile_counts": {
+          "MELON": 6,
+          "STRAWBERRY": 22,
+          "WHEAT": 21
+        },
+        "total_animal_count": 14,
+        "cared_animal_count": 13,
+        "fed_animal_count": 14,
+        "animal_servicing_rate": 0.9286,
+        "n_plant_tiles": 49,
+        "n_idle_tiles": 24,
+        "tile_idle_fraction": 0.4898
+      },
+      {
+        "day": 10,
+        "bank": 5715.0,
+        "bank_delta": 5706.0,
+        "hands_count": 12,
+        "land_quadrants": 3,
+        "total_crop_tiles": 53,
+        "crop_tile_counts": {
+          "STRAWBERRY": 36,
+          "MELON": 1,
+          "WHEAT": 16
+        },
+        "total_animal_count": 15,
+        "cared_animal_count": 12,
+        "fed_animal_count": 12,
+        "animal_servicing_rate": 0.8,
+        "n_plant_tiles": 53,
+        "n_idle_tiles": 35,
+        "tile_idle_fraction": 0.6604
+      },
+      {
+        "day": 11,
+        "bank": 7504.0,
+        "bank_delta": 1789.0,
+        "hands_count": 12,
+        "land_quadrants": 3,
+        "total_crop_tiles": 59,
+        "crop_tile_counts": {
+          "STRAWBERRY": 46,
+          "MELON": 1,
+          "WHEAT": 12
+        },
+        "total_animal_count": 15,
+        "cared_animal_count": 14,
+        "fed_animal_count": 15,
+        "animal_servicing_rate": 0.9333,
+        "n_plant_tiles": 59,
+        "n_idle_tiles": 28,
+        "tile_idle_fraction": 0.4746
+      },
+      {
+        "day": 12,
+        "bank": 10203.0,
+        "bank_delta": 2699.0,
+        "hands_count": 12,
+        "land_quadrants": 3,
+        "total_crop_tiles": 59,
+        "crop_tile_counts": {
+          "STRAWBERRY": 50,
+          "MELON": 2,
+          "WHEAT": 7
+        },
+        "total_animal_count": 15,
+        "cared_animal_count": 15,
+        "fed_animal_count": 15,
+        "animal_servicing_rate": 1.0,
+        "n_plant_tiles": 59,
+        "n_idle_tiles": 27,
+        "tile_idle_fraction": 0.4576
+      },
+      {
+        "day": 13,
+        "bank": 11795.0,
+        "bank_delta": 1592.0,
+        "hands_count": 12,
+        "land_quadrants": 3,
+        "total_crop_tiles": 59,
+        "crop_tile_counts": {
+          "STRAWBERRY": 53,
+          "MELON": 2,
+          "WHEAT": 4
+        },
+        "total_animal_count": 16,
+        "cared_animal_count": 16,
+        "fed_animal_count": 16,
+        "animal_servicing_rate": 1.0,
+        "n_plant_tiles": 59,
+        "n_idle_tiles": 19,
+        "tile_idle_fraction": 0.322
+      },
+      {
+        "day": 14,
+        "bank": 19762.0,
+        "bank_delta": 7967.0,
+        "hands_count": 12,
+        "land_quadrants": 3,
+        "total_crop_tiles": 59,
+        "crop_tile_counts": {
+          "STRAWBERRY": 53,
+          "MELON": 2,
+          "WHEAT": 4
+        },
+        "total_animal_count": 16,
+        "cared_animal_count": 15,
+        "fed_animal_count": 15,
+        "animal_servicing_rate": 0.9375,
+        "n_plant_tiles": 59,
+        "n_idle_tiles": 14,
+        "tile_idle_fraction": 0.2373
+      },
+      {
+        "day": 15,
+        "bank": 25308.0,
+        "bank_delta": 5546.0,
+        "hands_count": 12,
+        "land_quadrants": 3,
+        "total_crop_tiles": 59,
+        "crop_tile_counts": {
+          "STRAWBERRY": 53,
+          "MELON": 2,
+          "WHEAT": 4
+        },
+        "total_animal_count": 16,
+        "cared_animal_count": 15,
+        "fed_animal_count": 15,
+        "animal_servicing_rate": 0.9375,
+        "n_plant_tiles": 59,
+        "n_idle_tiles": 29,
+        "tile_idle_fraction": 0.4915
+      },
+      {
+        "day": 16,
+        "bank": 33707.0,
+        "bank_delta": 8399.0,
+        "hands_count": 12,
+        "land_quadrants": 3,
+        "total_crop_tiles": 59,
+        "crop_tile_counts": {
+          "STRAWBERRY": 53,
+          "MELON": 2,
+          "WHEAT": 4
+        },
+        "total_animal_count": 16,
+        "cared_animal_count": 13,
+        "fed_animal_count": 15,
+        "animal_servicing_rate": 0.8125,
+        "n_plant_tiles": 59,
+        "n_idle_tiles": 15,
+        "tile_idle_fraction": 0.2542
+      },
+      {
+        "day": 17,
+        "bank": 40380.0,
+        "bank_delta": 6673.0,
+        "hands_count": 12,
+        "land_quadrants": 3,
+        "total_crop_tiles": 59,
+        "crop_tile_counts": {
+          "STRAWBERRY": 53,
+          "MELON": 3,
+          "WHEAT": 3
+        },
+        "total_animal_count": 16,
+        "cared_animal_count": 13,
+        "fed_animal_count": 14,
+        "animal_servicing_rate": 0.8125,
+        "n_plant_tiles": 59,
+        "n_idle_tiles": 20,
+        "tile_idle_fraction": 0.339
+      },
+      {
+        "day": 18,
+        "bank": 47774.0,
+        "bank_delta": 7394.0,
+        "hands_count": 12,
+        "land_quadrants": 3,
+        "total_crop_tiles": 59,
+        "crop_tile_counts": {
+          "STRAWBERRY": 53,
+          "MELON": 3,
+          "WHEAT": 3
+        },
+        "total_animal_count": 16,
+        "cared_animal_count": 14,
+        "fed_animal_count": 14,
+        "animal_servicing_rate": 0.875,
+        "n_plant_tiles": 59,
+        "n_idle_tiles": 19,
+        "tile_idle_fraction": 0.322
+      },
+      {
+        "day": 19,
+        "bank": 55091.0,
+        "bank_delta": 7317.0,
+        "hands_count": 12,
+        "land_quadrants": 3,
+        "total_crop_tiles": 57,
+        "crop_tile_counts": {
+          "STRAWBERRY": 51,
+          "MELON": 3,
+          "WHEAT": 3
+        },
+        "total_animal_count": 16,
+        "cared_animal_count": 14,
+        "fed_animal_count": 14,
+        "animal_servicing_rate": 0.875,
+        "n_plant_tiles": 57,
+        "n_idle_tiles": 19,
+        "tile_idle_fraction": 0.3333
+      },
+      {
+        "day": 20,
+        "bank": 63653.0,
+        "bank_delta": 8562.0,
+        "hands_count": 12,
+        "land_quadrants": 3,
+        "total_crop_tiles": 57,
+        "crop_tile_counts": {
+          "STRAWBERRY": 51,
+          "MELON": 3,
+          "WHEAT": 3
+        },
+        "total_animal_count": 16,
+        "cared_animal_count": 15,
+        "fed_animal_count": 15,
+        "animal_servicing_rate": 0.9375,
+        "n_plant_tiles": 57,
+        "n_idle_tiles": 19,
+        "tile_idle_fraction": 0.3333
+      },
+      {
+        "day": 21,
+        "bank": 74421.0,
+        "bank_delta": 10768.0,
+        "hands_count": 12,
+        "land_quadrants": 3,
+        "total_crop_tiles": 50,
+        "crop_tile_counts": {
+          "STRAWBERRY": 46,
+          "MELON": 3,
+          "WHEAT": 1
+        },
+        "total_animal_count": 16,
+        "cared_animal_count": 15,
+        "fed_animal_count": 15,
+        "animal_servicing_rate": 0.9375,
+        "n_plant_tiles": 50,
+        "n_idle_tiles": 11,
+        "tile_idle_fraction": 0.22
+      },
+      {
+        "day": 22,
+        "bank": 84405.0,
+        "bank_delta": 9984.0,
+        "hands_count": 12,
+        "land_quadrants": 3,
+        "total_crop_tiles": 51,
+        "crop_tile_counts": {
+          "STRAWBERRY": 43,
+          "WHEAT": 6,
+          "MELON": 2
+        },
+        "total_animal_count": 16,
+        "cared_animal_count": 15,
+        "fed_animal_count": 15,
+        "animal_servicing_rate": 0.9375,
+        "n_plant_tiles": 51,
+        "n_idle_tiles": 14,
+        "tile_idle_fraction": 0.2745
+      },
+      {
+        "day": 23,
+        "bank": 94280.0,
+        "bank_delta": 9875.0,
+        "hands_count": 12,
+        "land_quadrants": 3,
+        "total_crop_tiles": 51,
+        "crop_tile_counts": {
+          "STRAWBERRY": 40,
+          "WHEAT": 9,
+          "MELON": 2
+        },
+        "total_animal_count": 16,
+        "cared_animal_count": 15,
+        "fed_animal_count": 15,
+        "animal_servicing_rate": 0.9375,
+        "n_plant_tiles": 51,
+        "n_idle_tiles": 10,
+        "tile_idle_fraction": 0.1961
+      },
+      {
+        "day": 24,
+        "bank": 107777.0,
+        "bank_delta": 13497.0,
+        "hands_count": 12,
+        "land_quadrants": 3,
+        "total_crop_tiles": 52,
+        "crop_tile_counts": {
+          "STRAWBERRY": 40,
+          "WHEAT": 10,
+          "MELON": 2
+        },
+        "total_animal_count": 16,
+        "cared_animal_count": 16,
+        "fed_animal_count": 16,
+        "animal_servicing_rate": 1.0,
+        "n_plant_tiles": 52,
+        "n_idle_tiles": 19,
+        "tile_idle_fraction": 0.3654
+      },
+      {
+        "day": 25,
+        "bank": 113584.0,
+        "bank_delta": 5807.0,
+        "hands_count": 12,
+        "land_quadrants": 3,
+        "total_crop_tiles": 49,
+        "crop_tile_counts": {
+          "STRAWBERRY": 33,
+          "WHEAT": 14,
+          "MELON": 2
+        },
+        "total_animal_count": 16,
+        "cared_animal_count": 16,
+        "fed_animal_count": 16,
+        "animal_servicing_rate": 1.0,
+        "n_plant_tiles": 49,
+        "n_idle_tiles": 11,
+        "tile_idle_fraction": 0.2245
+      },
+      {
+        "day": 26,
+        "bank": 123656.0,
+        "bank_delta": 10072.0,
+        "hands_count": 12,
+        "land_quadrants": 3,
+        "total_crop_tiles": 53,
+        "crop_tile_counts": {
+          "STRAWBERRY": 31,
+          "WHEAT": 14,
+          "CARROT": 6,
+          "MELON": 2
+        },
+        "total_animal_count": 16,
+        "cared_animal_count": 13,
+        "fed_animal_count": 15,
+        "animal_servicing_rate": 0.8125,
+        "n_plant_tiles": 53,
+        "n_idle_tiles": 15,
+        "tile_idle_fraction": 0.283
+      },
+      {
+        "day": 27,
+        "bank": 131634.0,
+        "bank_delta": 7978.0,
+        "hands_count": 12,
+        "land_quadrants": 3,
+        "total_crop_tiles": 34,
+        "crop_tile_counts": {
+          "STRAWBERRY": 17,
+          "WHEAT": 10,
+          "CARROT": 6,
+          "MELON": 1
+        },
+        "total_animal_count": 16,
+        "cared_animal_count": 5,
+        "fed_animal_count": 14,
+        "animal_servicing_rate": 0.3125,
+        "n_plant_tiles": 34,
+        "n_idle_tiles": 16,
+        "tile_idle_fraction": 0.4706
+      },
+      {
+        "day": 28,
+        "bank": 139814.0,
+        "bank_delta": 8180.0,
+        "hands_count": 12,
+        "land_quadrants": 3,
+        "total_crop_tiles": 22,
+        "crop_tile_counts": {
+          "CARROT": 6,
+          "WHEAT": 8,
+          "MELON": 1,
+          "STRAWBERRY": 7
+        },
+        "total_animal_count": 16,
+        "cared_animal_count": 0,
+        "fed_animal_count": 5,
+        "animal_servicing_rate": 0.0,
+        "n_plant_tiles": 22,
+        "n_idle_tiles": 15,
+        "tile_idle_fraction": 0.6818
+      },
+      {
+        "day": 29,
+        "bank": 148520.0,
+        "bank_delta": 8706.0,
+        "hands_count": 12,
+        "land_quadrants": 3,
+        "total_crop_tiles": 3,
+        "crop_tile_counts": {
+          "STRAWBERRY": 3
+        },
+        "total_animal_count": 14,
+        "cared_animal_count": 0,
+        "fed_animal_count": 0,
+        "animal_servicing_rate": 0.0,
+        "n_plant_tiles": 3,
+        "n_idle_tiles": 0,
+        "tile_idle_fraction": 0.0
+      }
+    ]
+  }
+}

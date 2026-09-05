@@ -1,0 +1,170 @@
+{
+  "control": {
+    "label": "control",
+    "rows": [
+      {
+        "seed": 700000,
+        "a_final_money": 12682.0,
+        "b_final_money": 22362.0,
+        "margin_a_minus_b": -9680.0,
+        "a_sell_revenue": 15330.0,
+        "a_sell_qty": 61,
+        "a_avg_price": 281.5808,
+        "b_sell_revenue": 25388.0,
+        "b_sell_qty": 102,
+        "b_avg_price": 253.0209
+      },
+      {
+        "seed": 700001,
+        "a_final_money": 12126.0,
+        "b_final_money": 21477.0,
+        "margin_a_minus_b": -9351.0,
+        "a_sell_revenue": 14774.0,
+        "a_sell_qty": 61,
+        "a_avg_price": 278.5277,
+        "b_sell_revenue": 24503.0,
+        "b_sell_qty": 102,
+        "b_avg_price": 244.8444
+      },
+      {
+        "seed": 700002,
+        "a_final_money": 10094.0,
+        "b_final_money": 17881.0,
+        "margin_a_minus_b": -7787.0,
+        "a_sell_revenue": 12742.0,
+        "a_sell_qty": 61,
+        "a_avg_price": 239.2767,
+        "b_sell_revenue": 20907.0,
+        "b_sell_qty": 102,
+        "b_avg_price": 209.1587
+      },
+      {
+        "seed": 700003,
+        "a_final_money": 7969.0,
+        "b_final_money": 15218.0,
+        "margin_a_minus_b": -7249.0,
+        "a_sell_revenue": 10617.0,
+        "a_sell_qty": 61,
+        "a_avg_price": 210.8968,
+        "b_sell_revenue": 18244.0,
+        "b_sell_qty": 102,
+        "b_avg_price": 182.6513
+      }
+    ],
+    "mean_a": 10717.75,
+    "mean_b": 19234.5,
+    "mean_margin_a_minus_b": -8516.75
+  },
+  "attack_same_turn": {
+    "label": "attack_same_turn",
+    "rows": [
+      {
+        "seed": 700000,
+        "a_final_money": 12860.0,
+        "b_final_money": 12860.0,
+        "margin_a_minus_b": 0.0,
+        "a_sell_revenue": 15508.0,
+        "a_sell_qty": 61,
+        "a_avg_price": 278.9941,
+        "b_sell_revenue": 15508.0,
+        "b_sell_qty": 61,
+        "b_avg_price": 278.9941
+      },
+      {
+        "seed": 700001,
+        "a_final_money": 12954.0,
+        "b_final_money": 12958.0,
+        "margin_a_minus_b": -4.0,
+        "a_sell_revenue": 15602.0,
+        "a_sell_qty": 61,
+        "a_avg_price": 292.2494,
+        "b_sell_revenue": 15606.0,
+        "b_sell_qty": 61,
+        "b_avg_price": 291.1012
+      },
+      {
+        "seed": 700002,
+        "a_final_money": 11175.0,
+        "b_final_money": 11175.0,
+        "margin_a_minus_b": 0.0,
+        "a_sell_revenue": 13823.0,
+        "a_sell_qty": 61,
+        "a_avg_price": 266.8731,
+        "b_sell_revenue": 13823.0,
+        "b_sell_qty": 61,
+        "b_avg_price": 266.8731
+      },
+      {
+        "seed": 700003,
+        "a_final_money": 8504.0,
+        "b_final_money": 8504.0,
+        "margin_a_minus_b": 0.0,
+        "a_sell_revenue": 11152.0,
+        "a_sell_qty": 61,
+        "a_avg_price": 206.9521,
+        "b_sell_revenue": 11152.0,
+        "b_sell_qty": 61,
+        "b_avg_price": 206.9521
+      }
+    ],
+    "mean_a": 11373.25,
+    "mean_b": 11374.25,
+    "mean_margin_a_minus_b": -1.0
+  },
+  "attack_preempt": {
+    "label": "attack_preempt",
+    "rows": [
+      {
+        "seed": 700000,
+        "a_final_money": 12560.0,
+        "b_final_money": 15567.0,
+        "margin_a_minus_b": -3007.0,
+        "a_sell_revenue": 15208.0,
+        "a_sell_qty": 61,
+        "a_avg_price": 276.2105,
+        "b_sell_revenue": 18269.0,
+        "b_sell_qty": 71,
+        "b_avg_price": 277.7401
+      },
+      {
+        "seed": 700001,
+        "a_final_money": 12654.0,
+        "b_final_money": 15721.0,
+        "margin_a_minus_b": -3067.0,
+        "a_sell_revenue": 15302.0,
+        "a_sell_qty": 61,
+        "a_avg_price": 289.9412,
+        "b_sell_revenue": 18423.0,
+        "b_sell_qty": 71,
+        "b_avg_price": 290.1758
+      },
+      {
+        "seed": 700002,
+        "a_final_money": 10365.0,
+        "b_final_money": 13250.0,
+        "margin_a_minus_b": -2885.0,
+        "a_sell_revenue": 13013.0,
+        "a_sell_qty": 61,
+        "a_avg_price": 248.8467,
+        "b_sell_revenue": 15952.0,
+        "b_sell_qty": 71,
+        "b_avg_price": 251.0936
+      },
+      {
+        "seed": 700003,
+        "a_final_money": 8397.0,
+        "b_final_money": 11466.0,
+        "margin_a_minus_b": -3069.0,
+        "a_sell_revenue": 11045.0,
+        "a_sell_qty": 61,
+        "a_avg_price": 223.0847,
+        "b_sell_revenue": 14168.0,
+        "b_sell_qty": 71,
+        "b_avg_price": 226.9753
+      }
+    ],
+    "mean_a": 10994.0,
+    "mean_b": 14001.0,
+    "mean_margin_a_minus_b": -3007.0
+  }
+}

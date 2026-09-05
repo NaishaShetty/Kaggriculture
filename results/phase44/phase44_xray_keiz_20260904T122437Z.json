@@ -1,0 +1,737 @@
+{
+  "team_name": "keiz",
+  "generated_at": "2026-09-04T12:24:37.078552+00:00",
+  "n_episodes": 5,
+  "win_loss_ledger": [
+    {
+      "episode_id": "105451852",
+      "opponent": "Jesse Bullard",
+      "result": "win",
+      "margin": 7259.0
+    },
+    {
+      "episode_id": "105455373",
+      "opponent": "薄和叶 Lv.INF",
+      "result": "win",
+      "margin": 2104.0
+    },
+    {
+      "episode_id": "105457934",
+      "opponent": "Crop Dusta",
+      "result": "win",
+      "margin": 8954.0
+    },
+    {
+      "episode_id": "105458810",
+      "opponent": "Crop Dusta",
+      "result": "win",
+      "margin": 10920.0
+    },
+    {
+      "episode_id": "105462264",
+      "opponent": "Crop Dusta",
+      "result": "win",
+      "margin": 12034.0
+    }
+  ],
+  "record": {
+    "wins": 5,
+    "losses": 0,
+    "ties": 0,
+    "mean_margin": 8254.2
+  },
+  "strategy_fingerprint": [
+    {
+      "episode_id": "105462264",
+      "opponent_name": "Crop Dusta",
+      "team_name": "keiz",
+      "n_days_observed": 30,
+      "final_day": 29,
+      "final_bank": 99779.0,
+      "final_land_quadrants": 3,
+      "final_hands_count": 10,
+      "final_crop_tiles": 7,
+      "final_crop_mix": {
+        "STRAWBERRY": 7
+      },
+      "final_animal_count": 10,
+      "peak_animal_day": 11,
+      "peak_animal_mix": {
+        "GOOSE": 1,
+        "COW": 9,
+        "SHEEP": 4
+      },
+      "first_land_expansion_day": 6,
+      "first_land3_day": 11,
+      "first_animal_day": 0,
+      "first_10hands_day": 8,
+      "dominant_crop_sequence": [
+        [
+          0,
+          "MELON",
+          12
+        ],
+        [
+          6,
+          "STRAWBERRY",
+          12
+        ],
+        [
+          12,
+          "WHEAT",
+          32
+        ],
+        [
+          15,
+          "STRAWBERRY",
+          33
+        ],
+        [
+          23,
+          "WHEAT",
+          27
+        ],
+        [
+          29,
+          "STRAWBERRY",
+          7
+        ]
+      ],
+      "crops_ever_at_scale": [
+        "CARROT",
+        "MELON",
+        "STRAWBERRY",
+        "WHEAT"
+      ],
+      "result": "win",
+      "margin": 12034.0,
+      "target_final_reward": 99779.0,
+      "opponent_final_reward": 87745.0
+    },
+    {
+      "episode_id": "105458810",
+      "opponent_name": "Crop Dusta",
+      "team_name": "keiz",
+      "n_days_observed": 30,
+      "final_day": 29,
+      "final_bank": 100171.0,
+      "final_land_quadrants": 3,
+      "final_hands_count": 10,
+      "final_crop_tiles": 2,
+      "final_crop_mix": {
+        "STRAWBERRY": 2
+      },
+      "final_animal_count": 12,
+      "peak_animal_day": 11,
+      "peak_animal_mix": {
+        "GOOSE": 1,
+        "COW": 11,
+        "SHEEP": 4
+      },
+      "first_land_expansion_day": 6,
+      "first_land3_day": 11,
+      "first_animal_day": 0,
+      "first_10hands_day": 8,
+      "dominant_crop_sequence": [
+        [
+          0,
+          "MELON",
+          12
+        ],
+        [
+          6,
+          "STRAWBERRY",
+          12
+        ],
+        [
+          13,
+          "WHEAT",
+          26
+        ],
+        [
+          14,
+          "STRAWBERRY",
+          28
+        ],
+        [
+          22,
+          "WHEAT",
+          25
+        ],
+        [
+          29,
+          "STRAWBERRY",
+          2
+        ]
+      ],
+      "crops_ever_at_scale": [
+        "MELON",
+        "STRAWBERRY",
+        "WHEAT"
+      ],
+      "result": "win",
+      "margin": 10920.0,
+      "target_final_reward": 100171.0,
+      "opponent_final_reward": 89251.0
+    },
+    {
+      "episode_id": "105457934",
+      "opponent_name": "Crop Dusta",
+      "team_name": "keiz",
+      "n_days_observed": 30,
+      "final_day": 29,
+      "final_bank": 75587.0,
+      "final_land_quadrants": 3,
+      "final_hands_count": 10,
+      "final_crop_tiles": 3,
+      "final_crop_mix": {
+        "TOMATO": 2,
+        "STRAWBERRY": 1
+      },
+      "final_animal_count": 8,
+      "peak_animal_day": 11,
+      "peak_animal_mix": {
+        "GOOSE": 1,
+        "SHEEP": 11,
+        "COW": 8
+      },
+      "first_land_expansion_day": 6,
+      "first_land3_day": 11,
+      "first_animal_day": 0,
+      "first_10hands_day": 8,
+      "dominant_crop_sequence": [
+        [
+          0,
+          "MELON",
+          12
+        ],
+        [
+          6,
+          "STRAWBERRY",
+          12
+        ],
+        [
+          18,
+          "TOMATO",
+          24
+        ],
+        [
+          23,
+          "CARROT",
+          20
+        ],
+        [
+          25,
+          "WHEAT",
+          23
+        ],
+        [
+          28,
+          "CARROT",
+          5
+        ],
+        [
+          29,
+          "TOMATO",
+          2
+        ]
+      ],
+      "crops_ever_at_scale": [
+        "CARROT",
+        "MELON",
+        "STRAWBERRY",
+        "TOMATO",
+        "WHEAT"
+      ],
+      "result": "win",
+      "margin": 8954.0,
+      "target_final_reward": 75587.0,
+      "opponent_final_reward": 66633.0
+    },
+    {
+      "episode_id": "105455373",
+      "opponent_name": "薄和叶 Lv.INF",
+      "team_name": "keiz",
+      "n_days_observed": 30,
+      "final_day": 29,
+      "final_bank": 81250.0,
+      "final_land_quadrants": 3,
+      "final_hands_count": 10,
+      "final_crop_tiles": 6,
+      "final_crop_mix": {
+        "STRAWBERRY": 6
+      },
+      "final_animal_count": 12,
+      "peak_animal_day": 11,
+      "peak_animal_mix": {
+        "GOOSE": 1,
+        "SHEEP": 11,
+        "COW": 5
+      },
+      "first_land_expansion_day": 6,
+      "first_land3_day": 11,
+      "first_animal_day": 0,
+      "first_10hands_day": 8,
+      "dominant_crop_sequence": [
+        [
+          0,
+          "MELON",
+          12
+        ],
+        [
+          6,
+          "STRAWBERRY",
+          12
+        ],
+        [
+          12,
+          "WHEAT",
+          25
+        ],
+        [
+          14,
+          "STRAWBERRY",
+          27
+        ],
+        [
+          24,
+          "WHEAT",
+          30
+        ],
+        [
+          29,
+          "STRAWBERRY",
+          6
+        ]
+      ],
+      "crops_ever_at_scale": [
+        "CARROT",
+        "MELON",
+        "STRAWBERRY",
+        "WHEAT"
+      ],
+      "result": "win",
+      "margin": 2104.0,
+      "target_final_reward": 81250.0,
+      "opponent_final_reward": 79146.0
+    },
+    {
+      "episode_id": "105451852",
+      "opponent_name": "Jesse Bullard",
+      "team_name": "keiz",
+      "n_days_observed": 30,
+      "final_day": 29,
+      "final_bank": 111618.0,
+      "final_land_quadrants": 3,
+      "final_hands_count": 10,
+      "final_crop_tiles": 12,
+      "final_crop_mix": {
+        "TOMATO": 3,
+        "STRAWBERRY": 9
+      },
+      "final_animal_count": 9,
+      "peak_animal_day": 11,
+      "peak_animal_mix": {
+        "GOOSE": 1,
+        "COW": 8,
+        "SHEEP": 6
+      },
+      "first_land_expansion_day": 6,
+      "first_land3_day": 11,
+      "first_animal_day": 0,
+      "first_10hands_day": 8,
+      "dominant_crop_sequence": [
+        [
+          0,
+          "MELON",
+          12
+        ],
+        [
+          6,
+          "STRAWBERRY",
+          12
+        ],
+        [
+          25,
+          "WHEAT",
+          21
+        ],
+        [
+          28,
+          "STRAWBERRY",
+          13
+        ]
+      ],
+      "crops_ever_at_scale": [
+        "CARROT",
+        "MELON",
+        "STRAWBERRY",
+        "TOMATO",
+        "WHEAT"
+      ],
+      "result": "win",
+      "margin": 7259.0,
+      "target_final_reward": 111618.0,
+      "opponent_final_reward": 104359.0
+    }
+  ],
+  "economy_shape_by_episode": {
+    "105462264": {
+      "land_timing": {
+        "first_expansion_day": 6,
+        "reached_3_quadrants_day": 11,
+        "final_land_quadrants": 3
+      },
+      "herd_crop_scale": {
+        "final_crop_tiles": 7,
+        "final_animal_count": 10,
+        "peak_animal_mix": {
+          "GOOSE": 1,
+          "COW": 9,
+          "SHEEP": 4
+        },
+        "crop_diversity": 4
+      },
+      "endgame_liquidation": {
+        "fully_liquidated_by_final_day": false,
+        "final_crop_tiles_remaining": 7
+      }
+    },
+    "105458810": {
+      "land_timing": {
+        "first_expansion_day": 6,
+        "reached_3_quadrants_day": 11,
+        "final_land_quadrants": 3
+      },
+      "herd_crop_scale": {
+        "final_crop_tiles": 2,
+        "final_animal_count": 12,
+        "peak_animal_mix": {
+          "GOOSE": 1,
+          "COW": 11,
+          "SHEEP": 4
+        },
+        "crop_diversity": 3
+      },
+      "endgame_liquidation": {
+        "fully_liquidated_by_final_day": false,
+        "final_crop_tiles_remaining": 2
+      }
+    },
+    "105457934": {
+      "land_timing": {
+        "first_expansion_day": 6,
+        "reached_3_quadrants_day": 11,
+        "final_land_quadrants": 3
+      },
+      "herd_crop_scale": {
+        "final_crop_tiles": 3,
+        "final_animal_count": 8,
+        "peak_animal_mix": {
+          "GOOSE": 1,
+          "SHEEP": 11,
+          "COW": 8
+        },
+        "crop_diversity": 5
+      },
+      "endgame_liquidation": {
+        "fully_liquidated_by_final_day": false,
+        "final_crop_tiles_remaining": 3
+      }
+    },
+    "105455373": {
+      "land_timing": {
+        "first_expansion_day": 6,
+        "reached_3_quadrants_day": 11,
+        "final_land_quadrants": 3
+      },
+      "herd_crop_scale": {
+        "final_crop_tiles": 6,
+        "final_animal_count": 12,
+        "peak_animal_mix": {
+          "GOOSE": 1,
+          "SHEEP": 11,
+          "COW": 5
+        },
+        "crop_diversity": 4
+      },
+      "endgame_liquidation": {
+        "fully_liquidated_by_final_day": false,
+        "final_crop_tiles_remaining": 6
+      }
+    },
+    "105451852": {
+      "land_timing": {
+        "first_expansion_day": 6,
+        "reached_3_quadrants_day": 11,
+        "final_land_quadrants": 3
+      },
+      "herd_crop_scale": {
+        "final_crop_tiles": 12,
+        "final_animal_count": 9,
+        "peak_animal_mix": {
+          "GOOSE": 1,
+          "COW": 8,
+          "SHEEP": 6
+        },
+        "crop_diversity": 5
+      },
+      "endgame_liquidation": {
+        "fully_liquidated_by_final_day": false,
+        "final_crop_tiles_remaining": 12
+      }
+    }
+  },
+  "kinship_matches_by_episode": {
+    "105462264": [
+      {
+        "team_name": "Crop Dusta",
+        "episode_id": "105437334",
+        "kinship_score": 0.9917
+      },
+      {
+        "team_name": "Himanshu Kumar",
+        "episode_id": "105395055",
+        "kinship_score": 0.983
+      },
+      {
+        "team_name": "Crop Dusta",
+        "episode_id": 105341441,
+        "kinship_score": 0.9768
+      },
+      {
+        "team_name": "AI是我的豆包",
+        "episode_id": "105395067",
+        "kinship_score": 0.9525
+      },
+      {
+        "team_name": "Crop Dusta",
+        "episode_id": 105373474,
+        "kinship_score": 0.948
+      },
+      {
+        "team_name": "Jonaid",
+        "episode_id": "105405216",
+        "kinship_score": 0.9241
+      },
+      {
+        "team_name": "宣城市机械电子职业技术学院",
+        "episode_id": "105405153",
+        "kinship_score": 0.8687
+      },
+      {
+        "team_name": "Vishal Dhariwal",
+        "episode_id": "105407002",
+        "kinship_score": 0.8536
+      },
+      {
+        "team_name": "Ryan Cheung",
+        "episode_id": "105424362",
+        "kinship_score": 0.8522
+      }
+    ],
+    "105458810": [
+      {
+        "team_name": "Jesse Bullard",
+        "episode_id": "105440807",
+        "kinship_score": 0.9993
+      },
+      {
+        "team_name": "Alden Jenish S",
+        "episode_id": "105403450",
+        "kinship_score": 0.9956
+      },
+      {
+        "team_name": "宣城市机械电子职业技术学院",
+        "episode_id": "105405153",
+        "kinship_score": 0.9905
+      },
+      {
+        "team_name": "shettynaisha",
+        "episode_id": "105429859",
+        "kinship_score": 0.9873
+      },
+      {
+        "team_name": "shettynaisha",
+        "episode_id": "105407002",
+        "kinship_score": 0.9873
+      },
+      {
+        "team_name": "shettynaisha",
+        "episode_id": "105406092",
+        "kinship_score": 0.9873
+      },
+      {
+        "team_name": "shettynaisha",
+        "episode_id": "105403450",
+        "kinship_score": 0.9873
+      },
+      {
+        "team_name": "shettynaisha",
+        "episode_id": "105439708",
+        "kinship_score": 0.9816
+      },
+      {
+        "team_name": "shettynaisha",
+        "episode_id": "105407922",
+        "kinship_score": 0.9816
+      },
+      {
+        "team_name": "shettynaisha",
+        "episode_id": "105405153",
+        "kinship_score": 0.9816
+      },
+      {
+        "team_name": "shettynaisha",
+        "episode_id": "105405216",
+        "kinship_score": 0.9816
+      },
+      {
+        "team_name": "Ryan Cheung",
+        "episode_id": "105424362",
+        "kinship_score": 0.9794
+      },
+      {
+        "team_name": "shettynaisha",
+        "episode_id": "105424362",
+        "kinship_score": 0.974
+      },
+      {
+        "team_name": "Crop Dusta",
+        "episode_id": 105341441,
+        "kinship_score": 0.872
+      },
+      {
+        "team_name": "AI是我的豆包",
+        "episode_id": "105395067",
+        "kinship_score": 0.8712
+      },
+      {
+        "team_name": "Himanshu Kumar",
+        "episode_id": "105395055",
+        "kinship_score": 0.8641
+      },
+      {
+        "team_name": "Crop Dusta",
+        "episode_id": 105373474,
+        "kinship_score": 0.8538
+      },
+      {
+        "team_name": "Crop Dusta",
+        "episode_id": "105444785",
+        "kinship_score": 0.8526
+      },
+      {
+        "team_name": "Jonaid",
+        "episode_id": "105405216",
+        "kinship_score": 0.851
+      }
+    ],
+    "105457934": [
+      {
+        "team_name": "Vishal Dhariwal",
+        "episode_id": "105407002",
+        "kinship_score": 0.9289
+      },
+      {
+        "team_name": "Crop Dusta",
+        "episode_id": "105444785",
+        "kinship_score": 0.8865
+      },
+      {
+        "team_name": "Crop Dusta",
+        "episode_id": 105373474,
+        "kinship_score": 0.8854
+      },
+      {
+        "team_name": "Crop Dusta",
+        "episode_id": 105341441,
+        "kinship_score": 0.8845
+      },
+      {
+        "team_name": "AI是我的豆包",
+        "episode_id": "105395067",
+        "kinship_score": 0.8759
+      },
+      {
+        "team_name": "Himanshu Kumar",
+        "episode_id": "105395055",
+        "kinship_score": 0.8722
+      },
+      {
+        "team_name": "Crop Dusta",
+        "episode_id": "105437334",
+        "kinship_score": 0.8616
+      }
+    ],
+    "105455373": [
+      {
+        "team_name": "Himanshu Kumar",
+        "episode_id": "105395055",
+        "kinship_score": 0.9944
+      },
+      {
+        "team_name": "Crop Dusta",
+        "episode_id": "105437334",
+        "kinship_score": 0.9907
+      },
+      {
+        "team_name": "Crop Dusta",
+        "episode_id": 105341441,
+        "kinship_score": 0.9889
+      },
+      {
+        "team_name": "AI是我的豆包",
+        "episode_id": "105395067",
+        "kinship_score": 0.9711
+      },
+      {
+        "team_name": "Crop Dusta",
+        "episode_id": 105373474,
+        "kinship_score": 0.9546
+      },
+      {
+        "team_name": "Jonaid",
+        "episode_id": "105405216",
+        "kinship_score": 0.952
+      },
+      {
+        "team_name": "宣城市机械电子职业技术学院",
+        "episode_id": "105405153",
+        "kinship_score": 0.8716
+      },
+      {
+        "team_name": "Jesse Bullard",
+        "episode_id": "105440807",
+        "kinship_score": 0.8607
+      },
+      {
+        "team_name": "Ryan Cheung",
+        "episode_id": "105424362",
+        "kinship_score": 0.8564
+      },
+      {
+        "team_name": "Alden Jenish S",
+        "episode_id": "105403450",
+        "kinship_score": 0.8511
+      }
+    ],
+    "105451852": [
+      {
+        "team_name": "Vishal Dhariwal",
+        "episode_id": "105407002",
+        "kinship_score": 0.972
+      },
+      {
+        "team_name": "Crop Dusta",
+        "episode_id": "105437334",
+        "kinship_score": 0.8837
+      },
+      {
+        "team_name": "Crop Dusta",
+        "episode_id": "105444785",
+        "kinship_score": 0.8765
+      }
+    ]
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "baseline": {
+    "submission_g": {
+      "wins": 4,
+      "losses": 0,
+      "ties": 0,
+      "n": 4,
+      "per_seed": [
+        {
+          "seed": 700000,
+          "ours": 55204.0,
+          "opponent": 51182.0,
+          "winner": "ours"
+        },
+        {
+          "seed": 700001,
+          "ours": 62956.0,
+          "opponent": 53082.0,
+          "winner": "ours"
+        },
+        {
+          "seed": 700002,
+          "ours": 52762.0,
+          "opponent": 48047.0,
+          "winner": "ours"
+        },
+        {
+          "seed": 700003,
+          "ours": 56899.0,
+          "opponent": 46979.0,
+          "winner": "ours"
+        }
+      ]
+    },
+    "submission_c": {
+      "wins": 4,
+      "losses": 0,
+      "ties": 0,
+      "n": 4,
+      "per_seed": [
+        {
+          "seed": 700000,
+          "ours": 58411.0,
+          "opponent": 32240.0,
+          "winner": "ours"
+        },
+        {
+          "seed": 700001,
+          "ours": 64126.0,
+          "opponent": 31389.0,
+          "winner": "ours"
+        },
+        {
+          "seed": 700002,
+          "ours": 50911.0,
+          "opponent": 30770.0,
+          "winner": "ours"
+        },
+        {
+          "seed": 700003,
+          "ours": 43151.0,
+          "opponent": 36779.0,
+          "winner": "ours"
+        }
+      ]
+    }
+  },
+  "variant": {
+    "submission_g": {
+      "wins": 4,
+      "losses": 0,
+      "ties": 0,
+      "n": 4,
+      "per_seed": [
+        {
+          "seed": 700000,
+          "ours": 55304.0,
+          "opponent": 51182.0,
+          "winner": "ours"
+        },
+        {
+          "seed": 700001,
+          "ours": 63371.0,
+          "opponent": 53085.0,
+          "winner": "ours"
+        },
+        {
+          "seed": 700002,
+          "ours": 53020.0,
+          "opponent": 51772.0,
+          "winner": "ours"
+        },
+        {
+          "seed": 700003,
+          "ours": 56900.0,
+          "opponent": 46978.0,
+          "winner": "ours"
+        }
+      ]
+    },
+    "submission_c": {
+      "wins": 4,
+      "losses": 0,
+      "ties": 0,
+      "n": 4,
+      "per_seed": [
+        {
+          "seed": 700000,
+          "ours": 50552.0,
+          "opponent": 32807.0,
+          "winner": "ours"
+        },
+        {
+          "seed": 700001,
+          "ours": 66529.0,
+          "opponent": 31329.0,
+          "winner": "ours"
+        },
+        {
+          "seed": 700002,
+          "ours": 50489.0,
+          "opponent": 30769.0,
+          "winner": "ours"
+        },
+        {
+          "seed": 700003,
+          "ours": 47603.0,
+          "opponent": 36776.0,
+          "winner": "ours"
+        }
+      ]
+    }
+  }
+}

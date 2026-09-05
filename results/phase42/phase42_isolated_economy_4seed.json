@@ -1,0 +1,155 @@
+{
+  "baseline": [
+    {
+      "seed": 700000,
+      "final_money": 44258.0,
+      "slice_sells": {
+        "CARROT": {
+          "n_sell_orders": 0,
+          "total_qty": 0,
+          "total_revenue": 0,
+          "mean_realized_price": null
+        },
+        "TOMATO": {
+          "n_sell_orders": 0,
+          "total_qty": 0,
+          "total_revenue": 0,
+          "mean_realized_price": null
+        }
+      }
+    },
+    {
+      "seed": 700001,
+      "final_money": 76683.0,
+      "slice_sells": {
+        "CARROT": {
+          "n_sell_orders": 0,
+          "total_qty": 0,
+          "total_revenue": 0,
+          "mean_realized_price": null
+        },
+        "TOMATO": {
+          "n_sell_orders": 0,
+          "total_qty": 0,
+          "total_revenue": 0,
+          "mean_realized_price": null
+        }
+      }
+    },
+    {
+      "seed": 700002,
+      "final_money": 64197.0,
+      "slice_sells": {
+        "CARROT": {
+          "n_sell_orders": 0,
+          "total_qty": 0,
+          "total_revenue": 0,
+          "mean_realized_price": null
+        },
+        "TOMATO": {
+          "n_sell_orders": 0,
+          "total_qty": 0,
+          "total_revenue": 0,
+          "mean_realized_price": null
+        }
+      }
+    },
+    {
+      "seed": 700003,
+      "final_money": 51440.0,
+      "slice_sells": {
+        "CARROT": {
+          "n_sell_orders": 0,
+          "total_qty": 0,
+          "total_revenue": 0,
+          "mean_realized_price": null
+        },
+        "TOMATO": {
+          "n_sell_orders": 0,
+          "total_qty": 0,
+          "total_revenue": 0,
+          "mean_realized_price": null
+        }
+      }
+    }
+  ],
+  "variant": [
+    {
+      "seed": 700000,
+      "final_money": 39438.0,
+      "slice_sells": {
+        "CARROT": {
+          "n_sell_orders": 5,
+          "total_qty": 12,
+          "total_revenue": 584.33,
+          "mean_realized_price": 48.69
+        },
+        "TOMATO": {
+          "n_sell_orders": 5,
+          "total_qty": 9,
+          "total_revenue": 793.05,
+          "mean_realized_price": 88.12
+        }
+      }
+    },
+    {
+      "seed": 700001,
+      "final_money": 78324.0,
+      "slice_sells": {
+        "CARROT": {
+          "n_sell_orders": 1,
+          "total_qty": 2,
+          "total_revenue": 89.92,
+          "mean_realized_price": 44.96
+        },
+        "TOMATO": {
+          "n_sell_orders": 4,
+          "total_qty": 4,
+          "total_revenue": 278.52,
+          "mean_realized_price": 69.63
+        }
+      }
+    },
+    {
+      "seed": 700002,
+      "final_money": 62910.0,
+      "slice_sells": {
+        "CARROT": {
+          "n_sell_orders": 0,
+          "total_qty": 0,
+          "total_revenue": 0,
+          "mean_realized_price": null
+        },
+        "TOMATO": {
+          "n_sell_orders": 4,
+          "total_qty": 4,
+          "total_revenue": 382.46,
+          "mean_realized_price": 95.61
+        }
+      }
+    },
+    {
+      "seed": 700003,
+      "final_money": 56096.0,
+      "slice_sells": {
+        "CARROT": {
+          "n_sell_orders": 0,
+          "total_qty": 0,
+          "total_revenue": 0,
+          "mean_realized_price": null
+        },
+        "TOMATO": {
+          "n_sell_orders": 4,
+          "total_qty": 4,
+          "total_revenue": 253.8,
+          "mean_realized_price": 63.45
+        }
+      }
+    }
+  ],
+  "summary": {
+    "mean_baseline": 59144.5,
+    "mean_variant": 59192.0,
+    "delta_pct": 0.08
+  }
+}

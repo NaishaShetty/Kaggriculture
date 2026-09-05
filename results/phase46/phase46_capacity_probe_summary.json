@@ -1,0 +1,44 @@
+{
+  "isolated_700000": {
+    "n_turns": 719,
+    "idle_action_fraction": 0.0702,
+    "feed_relevant_turns": 658,
+    "outcome_counts": {
+      "no_feed_needed": 61,
+      "assignment_race_loss": 414,
+      "worker_exhaustion": 179,
+      "fully_served": 65
+    },
+    "outcome_fractions_of_feed_relevant_turns": {
+      "assignment_race_loss": 0.6292,
+      "worker_exhaustion": 0.272,
+      "fully_served": 0.0988
+    },
+    "total_feed_entries": 3193,
+    "total_feed_assigned": 478,
+    "total_feed_unassigned": 2715,
+    "feed_service_rate": 0.1497,
+    "max_owned_animal_count": 12
+  },
+  "vs_g_701002": {
+    "n_turns": 719,
+    "idle_action_fraction": 0.0928,
+    "feed_relevant_turns": 651,
+    "outcome_counts": {
+      "no_feed_needed": 68,
+      "assignment_race_loss": 429,
+      "worker_exhaustion": 157,
+      "fully_served": 65
+    },
+    "outcome_fractions_of_feed_relevant_turns": {
+      "assignment_race_loss": 0.659,
+      "worker_exhaustion": 0.2412,
+      "fully_served": 0.0998
+    },
+    "total_feed_entries": 2327,
+    "total_feed_assigned": 322,
+    "total_feed_unassigned": 2005,
+    "feed_service_rate": 0.1384,
+    "max_owned_animal_count": 10
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "crop_dusta": {
+    "mean_total_crop_tiles": 50.4474,
+    "mean_tile_idle_fraction": 0.4702,
+    "mean_animal_servicing_rate": 0.7571,
+    "mean_fraction_days_with_positive_bank_delta_INFERRED": 0.9737
+  },
+  "submission_i": {
+    "mean_total_crop_tiles": 45.0395,
+    "mean_tile_idle_fraction": 0.0694,
+    "mean_animal_servicing_rate": 0.7066,
+    "mean_products_sold_per_day_OBSERVED": 27.5263,
+    "mean_crops_harvested_per_day_OBSERVED": 12.25
+  }
+}

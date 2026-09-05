@@ -1,0 +1,104 @@
+{
+  "baseline": {
+    "label": "baseline",
+    "rows": [
+      {
+        "seed": 700000,
+        "final_money": 70049.0,
+        "n_extra_quadrants_owned_at_end": 2,
+        "sell_tomato_rev": 0.0,
+        "sell_egg_rev": 0.0
+      },
+      {
+        "seed": 700001,
+        "final_money": 64409.0,
+        "n_extra_quadrants_owned_at_end": 2,
+        "sell_tomato_rev": 0.0,
+        "sell_egg_rev": 0.0
+      },
+      {
+        "seed": 700002,
+        "final_money": 48424.0,
+        "n_extra_quadrants_owned_at_end": 2,
+        "sell_tomato_rev": 0.0,
+        "sell_egg_rev": 0.0
+      },
+      {
+        "seed": 700003,
+        "final_money": 55397.0,
+        "n_extra_quadrants_owned_at_end": 2,
+        "sell_tomato_rev": 0.0,
+        "sell_egg_rev": 0.0
+      }
+    ],
+    "mean_final_money": 59569.75
+  },
+  "tomato_extension": {
+    "label": "tomato_extension",
+    "rows": [
+      {
+        "seed": 700000,
+        "final_money": 23030.0,
+        "n_extra_quadrants_owned_at_end": 3,
+        "sell_tomato_rev": 0.0,
+        "sell_egg_rev": 0.0
+      },
+      {
+        "seed": 700001,
+        "final_money": 27097.0,
+        "n_extra_quadrants_owned_at_end": 3,
+        "sell_tomato_rev": 0.0,
+        "sell_egg_rev": 0.0
+      },
+      {
+        "seed": 700002,
+        "final_money": 23157.0,
+        "n_extra_quadrants_owned_at_end": 3,
+        "sell_tomato_rev": 0.0,
+        "sell_egg_rev": 0.0
+      },
+      {
+        "seed": 700003,
+        "final_money": 6565.0,
+        "n_extra_quadrants_owned_at_end": 3,
+        "sell_tomato_rev": 0.0,
+        "sell_egg_rev": 0.0
+      }
+    ],
+    "mean_final_money": 19962.25
+  },
+  "goose_extension": {
+    "label": "goose_extension",
+    "rows": [
+      {
+        "seed": 700000,
+        "final_money": 21637.0,
+        "n_extra_quadrants_owned_at_end": 3,
+        "sell_tomato_rev": 0.0,
+        "sell_egg_rev": 0.0
+      },
+      {
+        "seed": 700001,
+        "final_money": 26754.0,
+        "n_extra_quadrants_owned_at_end": 3,
+        "sell_tomato_rev": 0.0,
+        "sell_egg_rev": 120.0
+      },
+      {
+        "seed": 700002,
+        "final_money": 15386.0,
+        "n_extra_quadrants_owned_at_end": 3,
+        "sell_tomato_rev": 0.0,
+        "sell_egg_rev": 0.0
+      },
+      {
+        "seed": 700003,
+        "final_money": 5033.0,
+        "n_extra_quadrants_owned_at_end": 3,
+        "sell_tomato_rev": 0.0,
+        "sell_egg_rev": 0.0
+      }
+    ],
+    "mean_final_money": 17202.5
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "submission_g": {
+    "per_seed": [
+      {
+        "seed": 700000,
+        "final_money": 55204.0,
+        "won": true,
+        "mean_total_crop_tiles": 48.4211,
+        "mean_tile_idle_fraction": 0.0574,
+        "mean_animal_servicing_rate": 0.7033,
+        "mean_net_dollar_per_day": 2811.8421,
+        "mean_dollar_per_crop_tile_per_day": 56.9655
+      },
+      {
+        "seed": 700001,
+        "final_money": 62956.0,
+        "won": true,
+        "mean_total_crop_tiles": 48.8947,
+        "mean_tile_idle_fraction": 0.0426,
+        "mean_animal_servicing_rate": 0.6698,
+        "mean_net_dollar_per_day": 3077.1053,
+        "mean_dollar_per_crop_tile_per_day": 61.3163
+      },
+      {
+        "seed": 700002,
+        "final_money": 52762.0,
+        "won": true,
+        "mean_total_crop_tiles": 46.9474,
+        "mean_tile_idle_fraction": 0.0503,
+        "mean_animal_servicing_rate": 0.6957,
+        "mean_net_dollar_per_day": 2744.3158,
+        "mean_dollar_per_crop_tile_per_day": 56.5536
+      },
+      {
+        "seed": 700003,
+        "final_money": 56899.0,
+        "won": true,
+        "mean_total_crop_tiles": 48.4737,
+        "mean_tile_idle_fraction": 0.054,
+        "mean_animal_servicing_rate": 0.652,
+        "mean_net_dollar_per_day": 2981.6316,
+        "mean_dollar_per_crop_tile_per_day": 60.6144
+      }
+    ],
+    "wins": 4,
+    "mean_tile_idle_fraction": 0.0511,
+    "mean_animal_servicing_rate": 0.6802,
+    "mean_net_dollar_per_day": 2903.7237,
+    "mean_dollar_per_crop_tile_per_day": 58.8624
+  },
+  "submission_c": {
+    "per_seed": [
+      {
+        "seed": 700000,
+        "final_money": 58411.0,
+        "won": true,
+        "mean_total_crop_tiles": 39.0,
+        "mean_tile_idle_fraction": 0.0496,
+        "mean_animal_servicing_rate": 0.6756,
+        "mean_net_dollar_per_day": 2992.8947,
+        "mean_dollar_per_crop_tile_per_day": 70.6615
+      },
+      {
+        "seed": 700001,
+        "final_money": 64126.0,
+        "won": true,
+        "mean_total_crop_tiles": 47.7895,
+        "mean_tile_idle_fraction": 0.0678,
+        "mean_animal_servicing_rate": 0.6569,
+        "mean_net_dollar_per_day": 3033.9474,
+        "mean_dollar_per_crop_tile_per_day": 63.5669
+      },
+      {
+        "seed": 700002,
+        "final_money": 50911.0,
+        "won": true,
+        "mean_total_crop_tiles": 48.1579,
+        "mean_tile_idle_fraction": 0.0511,
+        "mean_animal_servicing_rate": 0.6581,
+        "mean_net_dollar_per_day": 2653.1579,
+        "mean_dollar_per_crop_tile_per_day": 54.4561
+      },
+      {
+        "seed": 700003,
+        "final_money": 43151.0,
+        "won": true,
+        "mean_total_crop_tiles": 47.7368,
+        "mean_tile_idle_fraction": 0.0529,
+        "mean_animal_servicing_rate": 0.6844,
+        "mean_net_dollar_per_day": 1933.4737,
+        "mean_dollar_per_crop_tile_per_day": 37.1158
+      }
+    ],
+    "wins": 4,
+    "mean_tile_idle_fraction": 0.0554,
+    "mean_animal_servicing_rate": 0.6688,
+    "mean_net_dollar_per_day": 2653.3684,
+    "mean_dollar_per_crop_tile_per_day": 56.4501
+  }
+}

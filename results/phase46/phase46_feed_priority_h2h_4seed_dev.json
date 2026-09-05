@@ -1,0 +1,323 @@
+{
+  "baseline": {
+    "submission_g": {
+      "wins": 4,
+      "losses": 0,
+      "ties": 0,
+      "n": 4,
+      "mean_ours": 56955.25,
+      "mean_theirs": 49822.5,
+      "mean_margin": 7132.75,
+      "per_seed": [
+        {
+          "seed": 700000,
+          "ours": 55204.0,
+          "opponent": 51182.0,
+          "winner": "ours"
+        },
+        {
+          "seed": 700001,
+          "ours": 62956.0,
+          "opponent": 53082.0,
+          "winner": "ours"
+        },
+        {
+          "seed": 700002,
+          "ours": 52762.0,
+          "opponent": 48047.0,
+          "winner": "ours"
+        },
+        {
+          "seed": 700003,
+          "ours": 56899.0,
+          "opponent": 46979.0,
+          "winner": "ours"
+        }
+      ]
+    },
+    "submission_c": {
+      "wins": 4,
+      "losses": 0,
+      "ties": 0,
+      "n": 4,
+      "mean_ours": 54149.75,
+      "mean_theirs": 32794.5,
+      "mean_margin": 21355.25,
+      "per_seed": [
+        {
+          "seed": 700000,
+          "ours": 58411.0,
+          "opponent": 32240.0,
+          "winner": "ours"
+        },
+        {
+          "seed": 700001,
+          "ours": 64126.0,
+          "opponent": 31389.0,
+          "winner": "ours"
+        },
+        {
+          "seed": 700002,
+          "ours": 50911.0,
+          "opponent": 30770.0,
+          "winner": "ours"
+        },
+        {
+          "seed": 700003,
+          "ours": 43151.0,
+          "opponent": 36779.0,
+          "winner": "ours"
+        }
+      ]
+    },
+    "jonaid": {
+      "wins": 4,
+      "losses": 0,
+      "ties": 0,
+      "n": 4,
+      "mean_ours": 57947.5,
+      "mean_theirs": 33630.0,
+      "mean_margin": 24317.5,
+      "per_seed": [
+        {
+          "seed": 700000,
+          "ours": 54036.0,
+          "opponent": 34592.0,
+          "winner": "ours"
+        },
+        {
+          "seed": 700001,
+          "ours": 66229.0,
+          "opponent": 30904.0,
+          "winner": "ours"
+        },
+        {
+          "seed": 700002,
+          "ours": 60473.0,
+          "opponent": 40386.0,
+          "winner": "ours"
+        },
+        {
+          "seed": 700003,
+          "ours": 51052.0,
+          "opponent": 28638.0,
+          "winner": "ours"
+        }
+      ]
+    }
+  },
+  "feed_priority": {
+    "submission_g": {
+      "wins": 4,
+      "losses": 0,
+      "ties": 0,
+      "n": 4,
+      "mean_ours": 56134.0,
+      "mean_theirs": 50073.25,
+      "mean_margin": 6060.75,
+      "per_seed": [
+        {
+          "seed": 700000,
+          "ours": 63186.0,
+          "opponent": 60804.0,
+          "winner": "ours"
+        },
+        {
+          "seed": 700001,
+          "ours": 64707.0,
+          "opponent": 57783.0,
+          "winner": "ours"
+        },
+        {
+          "seed": 700002,
+          "ours": 46095.0,
+          "opponent": 45725.0,
+          "winner": "ours"
+        },
+        {
+          "seed": 700003,
+          "ours": 50548.0,
+          "opponent": 35981.0,
+          "winner": "ours"
+        }
+      ]
+    },
+    "submission_c": {
+      "wins": 4,
+      "losses": 0,
+      "ties": 0,
+      "n": 4,
+      "mean_ours": 66431.5,
+      "mean_theirs": 31163.25,
+      "mean_margin": 35268.25,
+      "per_seed": [
+        {
+          "seed": 700000,
+          "ours": 71030.0,
+          "opponent": 29550.0,
+          "winner": "ours"
+        },
+        {
+          "seed": 700001,
+          "ours": 64131.0,
+          "opponent": 31844.0,
+          "winner": "ours"
+        },
+        {
+          "seed": 700002,
+          "ours": 71962.0,
+          "opponent": 29042.0,
+          "winner": "ours"
+        },
+        {
+          "seed": 700003,
+          "ours": 58603.0,
+          "opponent": 34217.0,
+          "winner": "ours"
+        }
+      ]
+    },
+    "jonaid": {
+      "wins": 4,
+      "losses": 0,
+      "ties": 0,
+      "n": 4,
+      "mean_ours": 58970.25,
+      "mean_theirs": 30111.25,
+      "mean_margin": 28859.0,
+      "per_seed": [
+        {
+          "seed": 700000,
+          "ours": 60555.0,
+          "opponent": 37326.0,
+          "winner": "ours"
+        },
+        {
+          "seed": 700001,
+          "ours": 55887.0,
+          "opponent": 29058.0,
+          "winner": "ours"
+        },
+        {
+          "seed": 700002,
+          "ours": 50703.0,
+          "opponent": 24711.0,
+          "winner": "ours"
+        },
+        {
+          "seed": 700003,
+          "ours": 68736.0,
+          "opponent": 29350.0,
+          "winner": "ours"
+        }
+      ]
+    }
+  },
+  "feed_priority_throttled": {
+    "submission_g": {
+      "wins": 3,
+      "losses": 1,
+      "ties": 0,
+      "n": 4,
+      "mean_ours": 60319.0,
+      "mean_theirs": 52005.5,
+      "mean_margin": 8313.5,
+      "per_seed": [
+        {
+          "seed": 700000,
+          "ours": 70425.0,
+          "opponent": 61771.0,
+          "winner": "ours"
+        },
+        {
+          "seed": 700001,
+          "ours": 69164.0,
+          "opponent": 51615.0,
+          "winner": "ours"
+        },
+        {
+          "seed": 700002,
+          "ours": 47743.0,
+          "opponent": 49156.0,
+          "winner": "opponent"
+        },
+        {
+          "seed": 700003,
+          "ours": 53944.0,
+          "opponent": 45480.0,
+          "winner": "ours"
+        }
+      ]
+    },
+    "submission_c": {
+      "wins": 4,
+      "losses": 0,
+      "ties": 0,
+      "n": 4,
+      "mean_ours": 71189.0,
+      "mean_theirs": 32134.75,
+      "mean_margin": 39054.25,
+      "per_seed": [
+        {
+          "seed": 700000,
+          "ours": 74185.0,
+          "opponent": 31968.0,
+          "winner": "ours"
+        },
+        {
+          "seed": 700001,
+          "ours": 70134.0,
+          "opponent": 32364.0,
+          "winner": "ours"
+        },
+        {
+          "seed": 700002,
+          "ours": 71681.0,
+          "opponent": 28767.0,
+          "winner": "ours"
+        },
+        {
+          "seed": 700003,
+          "ours": 68756.0,
+          "opponent": 35440.0,
+          "winner": "ours"
+        }
+      ]
+    },
+    "jonaid": {
+      "wins": 4,
+      "losses": 0,
+      "ties": 0,
+      "n": 4,
+      "mean_ours": 58538.75,
+      "mean_theirs": 29990.25,
+      "mean_margin": 28548.5,
+      "per_seed": [
+        {
+          "seed": 700000,
+          "ours": 61532.0,
+          "opponent": 36743.0,
+          "winner": "ours"
+        },
+        {
+          "seed": 700001,
+          "ours": 57260.0,
+          "opponent": 29056.0,
+          "winner": "ours"
+        },
+        {
+          "seed": 700002,
+          "ours": 45522.0,
+          "opponent": 24806.0,
+          "winner": "ours"
+        },
+        {
+          "seed": 700003,
+          "ours": 69841.0,
+          "opponent": 29356.0,
+          "winner": "ours"
+        }
+      ]
+    }
+  }
+}

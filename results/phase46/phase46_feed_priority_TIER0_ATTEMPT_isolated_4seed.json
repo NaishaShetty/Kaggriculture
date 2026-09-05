@@ -1,0 +1,203 @@
+{
+  "baseline": [
+    {
+      "seed": 700000,
+      "final_money": 44258.0,
+      "idle_fraction": 0.0703,
+      "crop_fraction": 0.214,
+      "animal_fraction": 0.0683,
+      "animal_purchased": 13,
+      "animal_placed": 18,
+      "animal_escaped": 8,
+      "animal_final_owned": 10,
+      "animal_by_species": {
+        "COW": {
+          "purchased": 6,
+          "placed": 10,
+          "escaped": 4
+        },
+        "SHEEP": {
+          "purchased": 7,
+          "placed": 8,
+          "escaped": 4
+        }
+      }
+    },
+    {
+      "seed": 700001,
+      "final_money": 76683.0,
+      "idle_fraction": 0.0901,
+      "crop_fraction": 0.2346,
+      "animal_fraction": 0.0547,
+      "animal_purchased": 13,
+      "animal_placed": 19,
+      "animal_escaped": 9,
+      "animal_final_owned": 10,
+      "animal_by_species": {
+        "COW": {
+          "purchased": 9,
+          "placed": 15,
+          "escaped": 6
+        },
+        "SHEEP": {
+          "purchased": 4,
+          "placed": 4,
+          "escaped": 3
+        }
+      }
+    },
+    {
+      "seed": 700002,
+      "final_money": 64197.0,
+      "idle_fraction": 0.0788,
+      "crop_fraction": 0.2296,
+      "animal_fraction": 0.0526,
+      "animal_purchased": 11,
+      "animal_placed": 16,
+      "animal_escaped": 6,
+      "animal_final_owned": 10,
+      "animal_by_species": {
+        "COW": {
+          "purchased": 7,
+          "placed": 12,
+          "escaped": 5
+        },
+        "SHEEP": {
+          "purchased": 4,
+          "placed": 4,
+          "escaped": 1
+        }
+      }
+    },
+    {
+      "seed": 700003,
+      "final_money": 51440.0,
+      "idle_fraction": 0.0788,
+      "crop_fraction": 0.231,
+      "animal_fraction": 0.0534,
+      "animal_purchased": 12,
+      "animal_placed": 18,
+      "animal_escaped": 10,
+      "animal_final_owned": 8,
+      "animal_by_species": {
+        "COW": {
+          "purchased": 7,
+          "placed": 14,
+          "escaped": 6
+        },
+        "SHEEP": {
+          "purchased": 5,
+          "placed": 4,
+          "escaped": 4
+        }
+      }
+    }
+  ],
+  "variant": [
+    {
+      "seed": 700000,
+      "final_money": 15666.0,
+      "idle_fraction": 0.0949,
+      "crop_fraction": 0.2296,
+      "animal_fraction": 0.0484,
+      "animal_purchased": 18,
+      "animal_placed": 27,
+      "animal_escaped": 15,
+      "animal_final_owned": 12,
+      "animal_by_species": {
+        "COW": {
+          "purchased": 10,
+          "placed": 19,
+          "escaped": 10
+        },
+        "SHEEP": {
+          "purchased": 8,
+          "placed": 8,
+          "escaped": 5
+        }
+      }
+    },
+    {
+      "seed": 700001,
+      "final_money": 3067.0,
+      "idle_fraction": 0.1715,
+      "crop_fraction": 0.2237,
+      "animal_fraction": 0.0468,
+      "animal_purchased": 15,
+      "animal_placed": 29,
+      "animal_escaped": 15,
+      "animal_final_owned": 14,
+      "animal_by_species": {
+        "COW": {
+          "purchased": 8,
+          "placed": 19,
+          "escaped": 10
+        },
+        "SHEEP": {
+          "purchased": 7,
+          "placed": 10,
+          "escaped": 5
+        }
+      }
+    },
+    {
+      "seed": 700002,
+      "final_money": 5359.0,
+      "idle_fraction": 0.131,
+      "crop_fraction": 0.2246,
+      "animal_fraction": 0.048,
+      "animal_purchased": 16,
+      "animal_placed": 23,
+      "animal_escaped": 10,
+      "animal_final_owned": 13,
+      "animal_by_species": {
+        "COW": {
+          "purchased": 8,
+          "placed": 15,
+          "escaped": 6
+        },
+        "SHEEP": {
+          "purchased": 8,
+          "placed": 8,
+          "escaped": 4
+        }
+      }
+    },
+    {
+      "seed": 700003,
+      "final_money": 691.0,
+      "idle_fraction": 0.2761,
+      "crop_fraction": 0.1806,
+      "animal_fraction": 0.029,
+      "animal_purchased": 10,
+      "animal_placed": 18,
+      "animal_escaped": 17,
+      "animal_final_owned": 1,
+      "animal_by_species": {
+        "COW": {
+          "purchased": 6,
+          "placed": 13,
+          "escaped": 12
+        },
+        "SHEEP": {
+          "purchased": 4,
+          "placed": 5,
+          "escaped": 5
+        }
+      }
+    }
+  ],
+  "summary": {
+    "mean_baseline_money": 59144.5,
+    "mean_variant_money": 6195.75,
+    "delta_pct": -89.52,
+    "mean_escaped_baseline": 8.25,
+    "mean_escaped_variant": 14.25,
+    "mean_final_owned_baseline": 9.5,
+    "mean_final_owned_variant": 10.0,
+    "mean_idle_fraction_baseline": 0.0795,
+    "mean_idle_fraction_variant": 0.1684,
+    "mean_crop_fraction_baseline": 0.2273,
+    "mean_crop_fraction_variant": 0.2146
+  }
+}

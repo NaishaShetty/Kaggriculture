@@ -1,0 +1,110 @@
+{
+  "baseline_uncapped": {
+    "label": "baseline_uncapped",
+    "rows": [
+      {
+        "seed": 700000,
+        "final_money": 70049.0,
+        "idle_action_fraction": 0.0634,
+        "final_owned": 10,
+        "steady_state_mean_owned": 7.8
+      },
+      {
+        "seed": 700001,
+        "final_money": 64409.0,
+        "idle_action_fraction": 0.0765,
+        "final_owned": 9,
+        "steady_state_mean_owned": 8.8
+      },
+      {
+        "seed": 700002,
+        "final_money": 48424.0,
+        "idle_action_fraction": 0.0683,
+        "final_owned": 8,
+        "steady_state_mean_owned": 8.1
+      },
+      {
+        "seed": 700003,
+        "final_money": 55397.0,
+        "idle_action_fraction": 0.0905,
+        "final_owned": 9,
+        "steady_state_mean_owned": 7.3
+      }
+    ],
+    "mean_final_money": 59569.75,
+    "mean_final_owned": 9.0,
+    "mean_steady_state_owned": 8.0
+  },
+  "capped_8": {
+    "label": "capped_8",
+    "rows": [
+      {
+        "seed": 700000,
+        "final_money": 80023.0,
+        "idle_action_fraction": 0.095,
+        "final_owned": 7,
+        "steady_state_mean_owned": 6.3
+      },
+      {
+        "seed": 700001,
+        "final_money": 74029.0,
+        "idle_action_fraction": 0.1099,
+        "final_owned": 6,
+        "steady_state_mean_owned": 6.0
+      },
+      {
+        "seed": 700002,
+        "final_money": 58167.0,
+        "idle_action_fraction": 0.1061,
+        "final_owned": 7,
+        "steady_state_mean_owned": 6.1
+      },
+      {
+        "seed": 700003,
+        "final_money": 69460.0,
+        "idle_action_fraction": 0.116,
+        "final_owned": 7,
+        "steady_state_mean_owned": 6.1
+      }
+    ],
+    "mean_final_money": 70419.75,
+    "mean_final_owned": 6.75,
+    "mean_steady_state_owned": 6.125
+  },
+  "capped_9": {
+    "label": "capped_9",
+    "rows": [
+      {
+        "seed": 700000,
+        "final_money": 77293.0,
+        "idle_action_fraction": 0.0993,
+        "final_owned": 8,
+        "steady_state_mean_owned": 7.2
+      },
+      {
+        "seed": 700001,
+        "final_money": 64315.0,
+        "idle_action_fraction": 0.1,
+        "final_owned": 8,
+        "steady_state_mean_owned": 6.8
+      },
+      {
+        "seed": 700002,
+        "final_money": 67000.0,
+        "idle_action_fraction": 0.1012,
+        "final_owned": 8,
+        "steady_state_mean_owned": 7.0
+      },
+      {
+        "seed": 700003,
+        "final_money": 65825.0,
+        "idle_action_fraction": 0.1021,
+        "final_owned": 8,
+        "steady_state_mean_owned": 6.3
+      }
+    ],
+    "mean_final_money": 68608.25,
+    "mean_final_owned": 8.0,
+    "mean_steady_state_owned": 6.825
+  }
+}

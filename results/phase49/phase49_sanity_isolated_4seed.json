@@ -1,0 +1,85 @@
+{
+  "shipped": [
+    {
+      "seed": 700000,
+      "final_money": 44258.0
+    },
+    {
+      "seed": 700001,
+      "final_money": 76683.0
+    },
+    {
+      "seed": 700002,
+      "final_money": 64197.0
+    },
+    {
+      "seed": 700003,
+      "final_money": 51440.0
+    }
+  ],
+  "seed_paced": [
+    {
+      "seed": 700000,
+      "final_money": 37011.0
+    },
+    {
+      "seed": 700001,
+      "final_money": 64178.0
+    },
+    {
+      "seed": 700002,
+      "final_money": 75142.0
+    },
+    {
+      "seed": 700003,
+      "final_money": 59269.0
+    }
+  ],
+  "feed_priority": [
+    {
+      "seed": 700000,
+      "final_money": 70049.0
+    },
+    {
+      "seed": 700001,
+      "final_money": 64409.0
+    },
+    {
+      "seed": 700002,
+      "final_money": 48424.0
+    },
+    {
+      "seed": 700003,
+      "final_money": 55397.0
+    }
+  ],
+  "combined": [
+    {
+      "seed": 700000,
+      "final_money": 59720.0
+    },
+    {
+      "seed": 700001,
+      "final_money": 55908.0
+    },
+    {
+      "seed": 700002,
+      "final_money": 47771.0
+    },
+    {
+      "seed": 700003,
+      "final_money": 50776.0
+    }
+  ],
+  "summary": {
+    "shipped": 59144.5,
+    "seed_paced": 58900.0,
+    "feed_priority": 59569.75,
+    "combined": 53543.75,
+    "delta_seed_paced_vs_shipped_pct": -0.41,
+    "delta_feed_priority_vs_shipped_pct": 0.72,
+    "delta_combined_vs_shipped_pct": -9.47,
+    "delta_combined_vs_seed_paced_pct": -9.09,
+    "delta_combined_vs_feed_priority_pct": -10.12
+  }
+}

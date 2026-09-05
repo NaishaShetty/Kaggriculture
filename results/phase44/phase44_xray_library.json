@@ -1,0 +1,335 @@
+[
+  {
+    "episode_id": "105462264",
+    "opponent_name": "Crop Dusta",
+    "team_name": "keiz",
+    "n_days_observed": 30,
+    "final_day": 29,
+    "final_bank": 99779.0,
+    "final_land_quadrants": 3,
+    "final_hands_count": 10,
+    "final_crop_tiles": 7,
+    "final_crop_mix": {
+      "STRAWBERRY": 7
+    },
+    "final_animal_count": 10,
+    "peak_animal_day": 11,
+    "peak_animal_mix": {
+      "GOOSE": 1,
+      "COW": 9,
+      "SHEEP": 4
+    },
+    "first_land_expansion_day": 6,
+    "first_land3_day": 11,
+    "first_animal_day": 0,
+    "first_10hands_day": 8,
+    "dominant_crop_sequence": [
+      [
+        0,
+        "MELON",
+        12
+      ],
+      [
+        6,
+        "STRAWBERRY",
+        12
+      ],
+      [
+        12,
+        "WHEAT",
+        32
+      ],
+      [
+        15,
+        "STRAWBERRY",
+        33
+      ],
+      [
+        23,
+        "WHEAT",
+        27
+      ],
+      [
+        29,
+        "STRAWBERRY",
+        7
+      ]
+    ],
+    "crops_ever_at_scale": [
+      "CARROT",
+      "MELON",
+      "STRAWBERRY",
+      "WHEAT"
+    ],
+    "result": "win",
+    "margin": 12034.0,
+    "target_final_reward": 99779.0,
+    "opponent_final_reward": 87745.0
+  },
+  {
+    "episode_id": "105458810",
+    "opponent_name": "Crop Dusta",
+    "team_name": "keiz",
+    "n_days_observed": 30,
+    "final_day": 29,
+    "final_bank": 100171.0,
+    "final_land_quadrants": 3,
+    "final_hands_count": 10,
+    "final_crop_tiles": 2,
+    "final_crop_mix": {
+      "STRAWBERRY": 2
+    },
+    "final_animal_count": 12,
+    "peak_animal_day": 11,
+    "peak_animal_mix": {
+      "GOOSE": 1,
+      "COW": 11,
+      "SHEEP": 4
+    },
+    "first_land_expansion_day": 6,
+    "first_land3_day": 11,
+    "first_animal_day": 0,
+    "first_10hands_day": 8,
+    "dominant_crop_sequence": [
+      [
+        0,
+        "MELON",
+        12
+      ],
+      [
+        6,
+        "STRAWBERRY",
+        12
+      ],
+      [
+        13,
+        "WHEAT",
+        26
+      ],
+      [
+        14,
+        "STRAWBERRY",
+        28
+      ],
+      [
+        22,
+        "WHEAT",
+        25
+      ],
+      [
+        29,
+        "STRAWBERRY",
+        2
+      ]
+    ],
+    "crops_ever_at_scale": [
+      "MELON",
+      "STRAWBERRY",
+      "WHEAT"
+    ],
+    "result": "win",
+    "margin": 10920.0,
+    "target_final_reward": 100171.0,
+    "opponent_final_reward": 89251.0
+  },
+  {
+    "episode_id": "105457934",
+    "opponent_name": "Crop Dusta",
+    "team_name": "keiz",
+    "n_days_observed": 30,
+    "final_day": 29,
+    "final_bank": 75587.0,
+    "final_land_quadrants": 3,
+    "final_hands_count": 10,
+    "final_crop_tiles": 3,
+    "final_crop_mix": {
+      "TOMATO": 2,
+      "STRAWBERRY": 1
+    },
+    "final_animal_count": 8,
+    "peak_animal_day": 11,
+    "peak_animal_mix": {
+      "GOOSE": 1,
+      "SHEEP": 11,
+      "COW": 8
+    },
+    "first_land_expansion_day": 6,
+    "first_land3_day": 11,
+    "first_animal_day": 0,
+    "first_10hands_day": 8,
+    "dominant_crop_sequence": [
+      [
+        0,
+        "MELON",
+        12
+      ],
+      [
+        6,
+        "STRAWBERRY",
+        12
+      ],
+      [
+        18,
+        "TOMATO",
+        24
+      ],
+      [
+        23,
+        "CARROT",
+        20
+      ],
+      [
+        25,
+        "WHEAT",
+        23
+      ],
+      [
+        28,
+        "CARROT",
+        5
+      ],
+      [
+        29,
+        "TOMATO",
+        2
+      ]
+    ],
+    "crops_ever_at_scale": [
+      "CARROT",
+      "MELON",
+      "STRAWBERRY",
+      "TOMATO",
+      "WHEAT"
+    ],
+    "result": "win",
+    "margin": 8954.0,
+    "target_final_reward": 75587.0,
+    "opponent_final_reward": 66633.0
+  },
+  {
+    "episode_id": "105455373",
+    "opponent_name": "\u8584\u548c\u53f6 Lv.INF",
+    "team_name": "keiz",
+    "n_days_observed": 30,
+    "final_day": 29,
+    "final_bank": 81250.0,
+    "final_land_quadrants": 3,
+    "final_hands_count": 10,
+    "final_crop_tiles": 6,
+    "final_crop_mix": {
+      "STRAWBERRY": 6
+    },
+    "final_animal_count": 12,
+    "peak_animal_day": 11,
+    "peak_animal_mix": {
+      "GOOSE": 1,
+      "SHEEP": 11,
+      "COW": 5
+    },
+    "first_land_expansion_day": 6,
+    "first_land3_day": 11,
+    "first_animal_day": 0,
+    "first_10hands_day": 8,
+    "dominant_crop_sequence": [
+      [
+        0,
+        "MELON",
+        12
+      ],
+      [
+        6,
+        "STRAWBERRY",
+        12
+      ],
+      [
+        12,
+        "WHEAT",
+        25
+      ],
+      [
+        14,
+        "STRAWBERRY",
+        27
+      ],
+      [
+        24,
+        "WHEAT",
+        30
+      ],
+      [
+        29,
+        "STRAWBERRY",
+        6
+      ]
+    ],
+    "crops_ever_at_scale": [
+      "CARROT",
+      "MELON",
+      "STRAWBERRY",
+      "WHEAT"
+    ],
+    "result": "win",
+    "margin": 2104.0,
+    "target_final_reward": 81250.0,
+    "opponent_final_reward": 79146.0
+  },
+  {
+    "episode_id": "105451852",
+    "opponent_name": "Jesse Bullard",
+    "team_name": "keiz",
+    "n_days_observed": 30,
+    "final_day": 29,
+    "final_bank": 111618.0,
+    "final_land_quadrants": 3,
+    "final_hands_count": 10,
+    "final_crop_tiles": 12,
+    "final_crop_mix": {
+      "TOMATO": 3,
+      "STRAWBERRY": 9
+    },
+    "final_animal_count": 9,
+    "peak_animal_day": 11,
+    "peak_animal_mix": {
+      "GOOSE": 1,
+      "COW": 8,
+      "SHEEP": 6
+    },
+    "first_land_expansion_day": 6,
+    "first_land3_day": 11,
+    "first_animal_day": 0,
+    "first_10hands_day": 8,
+    "dominant_crop_sequence": [
+      [
+        0,
+        "MELON",
+        12
+      ],
+      [
+        6,
+        "STRAWBERRY",
+        12
+      ],
+      [
+        25,
+        "WHEAT",
+        21
+      ],
+      [
+        28,
+        "STRAWBERRY",
+        13
+      ]
+    ],
+    "crops_ever_at_scale": [
+      "CARROT",
+      "MELON",
+      "STRAWBERRY",
+      "TOMATO",
+      "WHEAT"
+    ],
+    "result": "win",
+    "margin": 7259.0,
+    "target_final_reward": 111618.0,
+    "opponent_final_reward": 104359.0
+  }
+]
