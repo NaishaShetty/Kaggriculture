@@ -1,0 +1,88 @@
+{
+  "baseline_k": {
+    "label": "baseline_k",
+    "rows": [
+      {
+        "seed": 700000,
+        "final_money": 80023.0,
+        "idle_action_fraction": 0.095,
+        "land_quadrants": 3,
+        "hands_count": 11,
+        "crop_tiles": 0,
+        "animals": 7
+      },
+      {
+        "seed": 700001,
+        "final_money": 74029.0,
+        "idle_action_fraction": 0.1099,
+        "land_quadrants": 3,
+        "hands_count": 11,
+        "crop_tiles": 0,
+        "animals": 6
+      },
+      {
+        "seed": 700002,
+        "final_money": 58167.0,
+        "idle_action_fraction": 0.1061,
+        "land_quadrants": 3,
+        "hands_count": 11,
+        "crop_tiles": 0,
+        "animals": 7
+      },
+      {
+        "seed": 700003,
+        "final_money": 69460.0,
+        "idle_action_fraction": 0.116,
+        "land_quadrants": 3,
+        "hands_count": 11,
+        "crop_tiles": 0,
+        "animals": 7
+      }
+    ],
+    "mean_final_money": 70419.75,
+    "mean_idle_fraction": 0.10675
+  },
+  "fourth_quadrant": {
+    "label": "fourth_quadrant",
+    "rows": [
+      {
+        "seed": 700000,
+        "final_money": 76229.0,
+        "idle_action_fraction": 0.0837,
+        "land_quadrants": 4,
+        "hands_count": 13,
+        "crop_tiles": 0,
+        "animals": 7
+      },
+      {
+        "seed": 700001,
+        "final_money": 70096.0,
+        "idle_action_fraction": 0.0919,
+        "land_quadrants": 4,
+        "hands_count": 13,
+        "crop_tiles": 0,
+        "animals": 7
+      },
+      {
+        "seed": 700002,
+        "final_money": 51266.0,
+        "idle_action_fraction": 0.0928,
+        "land_quadrants": 4,
+        "hands_count": 13,
+        "crop_tiles": 0,
+        "animals": 7
+      },
+      {
+        "seed": 700003,
+        "final_money": 66902.0,
+        "idle_action_fraction": 0.0971,
+        "land_quadrants": 4,
+        "hands_count": 13,
+        "crop_tiles": 0,
+        "animals": 7
+      }
+    ],
+    "mean_final_money": 66123.25,
+    "mean_idle_fraction": 0.091375
+  }
+}

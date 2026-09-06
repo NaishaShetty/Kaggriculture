@@ -1,0 +1,655 @@
+{
+  "losses": [
+    {
+      "episode_id": "105750065",
+      "label": "loss",
+      "our_final_bank": 66091.0,
+      "opponent_final_bank": 74844.0,
+      "margin": -8753.0,
+      "our_features": {
+        "episode_id": 105750065,
+        "opponent_name": "Shawon Biswas",
+        "team_name": "shettynaisha",
+        "n_days_observed": 30,
+        "final_day": 29,
+        "final_bank": 66091.0,
+        "final_land_quadrants": 3,
+        "final_hands_count": 11,
+        "final_crop_tiles": 0,
+        "final_crop_mix": {},
+        "final_animal_count": 7,
+        "peak_animal_day": 12,
+        "peak_animal_mix": {
+          "SHEEP": 3,
+          "COW": 4
+        },
+        "first_land_expansion_day": 7,
+        "first_land3_day": 11,
+        "first_animal_day": 0,
+        "first_10hands_day": 10,
+        "dominant_crop_sequence": [
+          [
+            0,
+            "WHEAT",
+            10
+          ],
+          [
+            2,
+            "MELON",
+            10
+          ],
+          [
+            10,
+            "STRAWBERRY",
+            17
+          ]
+        ],
+        "crops_ever_at_scale": [
+          "MELON",
+          "STRAWBERRY",
+          "WHEAT"
+        ]
+      },
+      "opponent_features": {
+        "episode_id": 105750065,
+        "opponent_name": "shettynaisha",
+        "team_name": "Shawon Biswas",
+        "n_days_observed": 30,
+        "final_day": 29,
+        "final_bank": 74844.0,
+        "final_land_quadrants": 2,
+        "final_hands_count": 7,
+        "final_crop_tiles": 1,
+        "final_crop_mix": {
+          "STRAWBERRY": 1
+        },
+        "final_animal_count": 18,
+        "peak_animal_day": 13,
+        "peak_animal_mix": {
+          "COW": 13,
+          "SHEEP": 5
+        },
+        "first_land_expansion_day": 13,
+        "first_land3_day": null,
+        "first_animal_day": 3,
+        "first_10hands_day": 17,
+        "dominant_crop_sequence": [
+          [
+            6,
+            "WHEAT",
+            3
+          ],
+          [
+            12,
+            "STRAWBERRY",
+            6
+          ]
+        ],
+        "crops_ever_at_scale": [
+          "STRAWBERRY",
+          "TOMATO",
+          "WHEAT"
+        ]
+      }
+    },
+    {
+      "episode_id": "105745378",
+      "label": "loss",
+      "our_final_bank": 55757.0,
+      "opponent_final_bank": 71105.0,
+      "margin": -15348.0,
+      "our_features": {
+        "episode_id": 105745378,
+        "opponent_name": "yuki",
+        "team_name": "shettynaisha",
+        "n_days_observed": 30,
+        "final_day": 29,
+        "final_bank": 55757.0,
+        "final_land_quadrants": 3,
+        "final_hands_count": 11,
+        "final_crop_tiles": 0,
+        "final_crop_mix": {},
+        "final_animal_count": 7,
+        "peak_animal_day": 11,
+        "peak_animal_mix": {
+          "SHEEP": 4,
+          "COW": 3
+        },
+        "first_land_expansion_day": 7,
+        "first_land3_day": 11,
+        "first_animal_day": 0,
+        "first_10hands_day": 10,
+        "dominant_crop_sequence": [
+          [
+            0,
+            "WHEAT",
+            10
+          ],
+          [
+            2,
+            "MELON",
+            10
+          ],
+          [
+            10,
+            "STRAWBERRY",
+            18
+          ],
+          [
+            28,
+            "WHEAT",
+            17
+          ]
+        ],
+        "crops_ever_at_scale": [
+          "MELON",
+          "STRAWBERRY",
+          "WHEAT"
+        ]
+      },
+      "opponent_features": {
+        "episode_id": 105745378,
+        "opponent_name": "shettynaisha",
+        "team_name": "yuki",
+        "n_days_observed": 30,
+        "final_day": 29,
+        "final_bank": 71105.0,
+        "final_land_quadrants": 4,
+        "final_hands_count": 10,
+        "final_crop_tiles": 0,
+        "final_crop_mix": {},
+        "final_animal_count": 8,
+        "peak_animal_day": 11,
+        "peak_animal_mix": {
+          "SHEEP": 8
+        },
+        "first_land_expansion_day": 11,
+        "first_land3_day": 11,
+        "first_animal_day": 11,
+        "first_10hands_day": 0,
+        "dominant_crop_sequence": [
+          [
+            0,
+            "MELON",
+            17
+          ],
+          [
+            11,
+            "STRAWBERRY",
+            18
+          ],
+          [
+            18,
+            "WHEAT",
+            39
+          ],
+          [
+            27,
+            "STRAWBERRY",
+            32
+          ],
+          [
+            28,
+            "WHEAT",
+            21
+          ]
+        ],
+        "crops_ever_at_scale": [
+          "MELON",
+          "STRAWBERRY",
+          "WHEAT"
+        ]
+      }
+    },
+    {
+      "episode_id": "105744439",
+      "label": "loss",
+      "our_final_bank": 57028.0,
+      "opponent_final_bank": 57406.0,
+      "margin": -378.0,
+      "our_features": {
+        "episode_id": 105744439,
+        "opponent_name": "Sarthak Patel",
+        "team_name": "shettynaisha",
+        "n_days_observed": 30,
+        "final_day": 29,
+        "final_bank": 57028.0,
+        "final_land_quadrants": 3,
+        "final_hands_count": 11,
+        "final_crop_tiles": 0,
+        "final_crop_mix": {},
+        "final_animal_count": 7,
+        "peak_animal_day": 14,
+        "peak_animal_mix": {
+          "SHEEP": 4,
+          "COW": 3
+        },
+        "first_land_expansion_day": 7,
+        "first_land3_day": 11,
+        "first_animal_day": 0,
+        "first_10hands_day": 10,
+        "dominant_crop_sequence": [
+          [
+            0,
+            "WHEAT",
+            10
+          ],
+          [
+            2,
+            "MELON",
+            10
+          ],
+          [
+            10,
+            "STRAWBERRY",
+            18
+          ],
+          [
+            28,
+            "WHEAT",
+            17
+          ]
+        ],
+        "crops_ever_at_scale": [
+          "MELON",
+          "STRAWBERRY",
+          "WHEAT"
+        ]
+      },
+      "opponent_features": {
+        "episode_id": 105744439,
+        "opponent_name": "shettynaisha",
+        "team_name": "Sarthak Patel",
+        "n_days_observed": 30,
+        "final_day": 29,
+        "final_bank": 57406.0,
+        "final_land_quadrants": 4,
+        "final_hands_count": 0,
+        "final_crop_tiles": 0,
+        "final_crop_mix": {},
+        "final_animal_count": 10,
+        "peak_animal_day": 19,
+        "peak_animal_mix": {
+          "COW": 5,
+          "SHEEP": 3,
+          "GOOSE": 5
+        },
+        "first_land_expansion_day": 9,
+        "first_land3_day": 10,
+        "first_animal_day": 0,
+        "first_10hands_day": 11,
+        "dominant_crop_sequence": [
+          [
+            0,
+            "MELON",
+            9
+          ],
+          [
+            6,
+            "STRAWBERRY",
+            11
+          ],
+          [
+            9,
+            "MELON",
+            14
+          ],
+          [
+            10,
+            "STRAWBERRY",
+            13
+          ]
+        ],
+        "crops_ever_at_scale": [
+          "MELON",
+          "STRAWBERRY",
+          "WHEAT"
+        ]
+      }
+    }
+  ],
+  "wins": [
+    {
+      "episode_id": "105757292",
+      "label": "win",
+      "our_final_bank": 64133.0,
+      "opponent_final_bank": 58507.0,
+      "margin": 5626.0,
+      "our_features": {
+        "episode_id": 105757292,
+        "opponent_name": "Eric Worrall",
+        "team_name": "shettynaisha",
+        "n_days_observed": 30,
+        "final_day": 29,
+        "final_bank": 64133.0,
+        "final_land_quadrants": 3,
+        "final_hands_count": 11,
+        "final_crop_tiles": 0,
+        "final_crop_mix": {},
+        "final_animal_count": 6,
+        "peak_animal_day": 11,
+        "peak_animal_mix": {
+          "SHEEP": 4,
+          "COW": 3
+        },
+        "first_land_expansion_day": 7,
+        "first_land3_day": 11,
+        "first_animal_day": 0,
+        "first_10hands_day": 10,
+        "dominant_crop_sequence": [
+          [
+            0,
+            "WHEAT",
+            10
+          ],
+          [
+            2,
+            "MELON",
+            10
+          ],
+          [
+            9,
+            "STRAWBERRY",
+            13
+          ],
+          [
+            27,
+            "WHEAT",
+            28
+          ]
+        ],
+        "crops_ever_at_scale": [
+          "MELON",
+          "STRAWBERRY",
+          "WHEAT"
+        ]
+      },
+      "opponent_features": {
+        "episode_id": 105757292,
+        "opponent_name": "shettynaisha",
+        "team_name": "Eric Worrall",
+        "n_days_observed": 30,
+        "final_day": 29,
+        "final_bank": 58507.0,
+        "final_land_quadrants": 2,
+        "final_hands_count": 9,
+        "final_crop_tiles": 31,
+        "final_crop_mix": {
+          "WHEAT": 4,
+          "STRAWBERRY": 15,
+          "TOMATO": 4,
+          "MELON": 4,
+          "CARROT": 4
+        },
+        "final_animal_count": 6,
+        "peak_animal_day": 13,
+        "peak_animal_mix": {
+          "COW": 6
+        },
+        "first_land_expansion_day": 12,
+        "first_land3_day": null,
+        "first_animal_day": 11,
+        "first_10hands_day": null,
+        "dominant_crop_sequence": [
+          [
+            0,
+            "MELON",
+            7
+          ],
+          [
+            11,
+            "STRAWBERRY",
+            12
+          ]
+        ],
+        "crops_ever_at_scale": [
+          "MELON",
+          "STRAWBERRY"
+        ]
+      }
+    },
+    {
+      "episode_id": "105748242",
+      "label": "win",
+      "our_final_bank": 46394.0,
+      "opponent_final_bank": 19551.0,
+      "margin": 26843.0,
+      "our_features": {
+        "episode_id": 105748242,
+        "opponent_name": "Shuaib ayad Jasim Jasim",
+        "team_name": "shettynaisha",
+        "n_days_observed": 30,
+        "final_day": 29,
+        "final_bank": 46394.0,
+        "final_land_quadrants": 3,
+        "final_hands_count": 11,
+        "final_crop_tiles": 0,
+        "final_crop_mix": {},
+        "final_animal_count": 7,
+        "peak_animal_day": 15,
+        "peak_animal_mix": {
+          "SHEEP": 4,
+          "COW": 3
+        },
+        "first_land_expansion_day": 7,
+        "first_land3_day": 11,
+        "first_animal_day": 0,
+        "first_10hands_day": 10,
+        "dominant_crop_sequence": [
+          [
+            0,
+            "WHEAT",
+            10
+          ],
+          [
+            2,
+            "MELON",
+            10
+          ],
+          [
+            10,
+            "STRAWBERRY",
+            21
+          ],
+          [
+            27,
+            "WHEAT",
+            28
+          ]
+        ],
+        "crops_ever_at_scale": [
+          "MELON",
+          "STRAWBERRY",
+          "WHEAT"
+        ]
+      },
+      "opponent_features": {
+        "episode_id": 105748242,
+        "opponent_name": "shettynaisha",
+        "team_name": "Shuaib ayad Jasim Jasim",
+        "n_days_observed": 30,
+        "final_day": 29,
+        "final_bank": 19551.0,
+        "final_land_quadrants": 1,
+        "final_hands_count": 0,
+        "final_crop_tiles": 12,
+        "final_crop_mix": {
+          "STRAWBERRY": 12
+        },
+        "final_animal_count": 0,
+        "peak_animal_day": 0,
+        "peak_animal_mix": {},
+        "first_land_expansion_day": null,
+        "first_land3_day": null,
+        "first_animal_day": null,
+        "first_10hands_day": 8,
+        "dominant_crop_sequence": [
+          [
+            0,
+            "MELON",
+            15
+          ],
+          [
+            12,
+            "STRAWBERRY",
+            7
+          ]
+        ],
+        "crops_ever_at_scale": [
+          "MELON",
+          "STRAWBERRY",
+          "TOMATO",
+          "WHEAT"
+        ]
+      }
+    },
+    {
+      "episode_id": "105746303",
+      "label": "win",
+      "our_final_bank": 71202.0,
+      "opponent_final_bank": 25593.0,
+      "margin": 45609.0,
+      "our_features": {
+        "episode_id": 105746303,
+        "opponent_name": "Moritz Huber",
+        "team_name": "shettynaisha",
+        "n_days_observed": 30,
+        "final_day": 29,
+        "final_bank": 71202.0,
+        "final_land_quadrants": 3,
+        "final_hands_count": 11,
+        "final_crop_tiles": 0,
+        "final_crop_mix": {},
+        "final_animal_count": 7,
+        "peak_animal_day": 12,
+        "peak_animal_mix": {
+          "SHEEP": 4,
+          "COW": 3
+        },
+        "first_land_expansion_day": 7,
+        "first_land3_day": 11,
+        "first_animal_day": 0,
+        "first_10hands_day": 10,
+        "dominant_crop_sequence": [
+          [
+            0,
+            "WHEAT",
+            10
+          ],
+          [
+            2,
+            "MELON",
+            10
+          ],
+          [
+            10,
+            "STRAWBERRY",
+            19
+          ],
+          [
+            27,
+            "WHEAT",
+            28
+          ]
+        ],
+        "crops_ever_at_scale": [
+          "MELON",
+          "STRAWBERRY",
+          "WHEAT"
+        ]
+      },
+      "opponent_features": {
+        "episode_id": 105746303,
+        "opponent_name": "shettynaisha",
+        "team_name": "Moritz Huber",
+        "n_days_observed": 30,
+        "final_day": 29,
+        "final_bank": 25593.0,
+        "final_land_quadrants": 4,
+        "final_hands_count": 11,
+        "final_crop_tiles": 92,
+        "final_crop_mix": {
+          "WHEAT": 23,
+          "MELON": 24,
+          "TOMATO": 25,
+          "CARROT": 20
+        },
+        "final_animal_count": 0,
+        "peak_animal_day": 0,
+        "peak_animal_mix": {},
+        "first_land_expansion_day": 0,
+        "first_land3_day": 11,
+        "first_animal_day": null,
+        "first_10hands_day": 11,
+        "dominant_crop_sequence": [
+          [
+            0,
+            "WHEAT",
+            20
+          ],
+          [
+            5,
+            "MELON",
+            20
+          ],
+          [
+            12,
+            "WHEAT",
+            23
+          ],
+          [
+            13,
+            "CARROT",
+            25
+          ],
+          [
+            14,
+            "MELON",
+            25
+          ],
+          [
+            21,
+            "WHEAT",
+            23
+          ],
+          [
+            22,
+            "MELON",
+            23
+          ],
+          [
+            23,
+            "WHEAT",
+            23
+          ],
+          [
+            24,
+            "MELON",
+            24
+          ],
+          [
+            26,
+            "WHEAT",
+            24
+          ],
+          [
+            28,
+            "MELON",
+            24
+          ],
+          [
+            29,
+            "TOMATO",
+            25
+          ]
+        ],
+        "crops_ever_at_scale": [
+          "CARROT",
+          "MELON",
+          "TOMATO",
+          "WHEAT"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "submission_k_baseline": {
+    "label": "submission_k_baseline",
+    "rows": [
+      {
+        "seed": 700000,
+        "final_money": 80023.0,
+        "idle_action_fraction": 0.095,
+        "final_owned": 7
+      },
+      {
+        "seed": 700001,
+        "final_money": 74029.0,
+        "idle_action_fraction": 0.1099,
+        "final_owned": 6
+      },
+      {
+        "seed": 700002,
+        "final_money": 58167.0,
+        "idle_action_fraction": 0.1061,
+        "final_owned": 7
+      },
+      {
+        "seed": 700003,
+        "final_money": 69460.0,
+        "idle_action_fraction": 0.116,
+        "final_owned": 7
+      }
+    ],
+    "mean_final_money": 70419.75
+  },
+  "hire_paced": {
+    "label": "hire_paced",
+    "rows": [
+      {
+        "seed": 700000,
+        "final_money": 11222.0,
+        "idle_action_fraction": 0.17,
+        "final_owned": 7
+      },
+      {
+        "seed": 700001,
+        "final_money": 8366.0,
+        "idle_action_fraction": 0.1552,
+        "final_owned": 7
+      },
+      {
+        "seed": 700002,
+        "final_money": 4722.0,
+        "idle_action_fraction": 0.172,
+        "final_owned": 7
+      },
+      {
+        "seed": 700003,
+        "final_money": 6948.0,
+        "idle_action_fraction": 0.1952,
+        "final_owned": 7
+      }
+    ],
+    "mean_final_money": 7814.5
+  }
+}
